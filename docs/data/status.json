@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-07-27T18:00:03+09:00",
-  "overallProgress": 2,
+  "generatedAt": "2026-07-27T18:05:15+09:00",
+  "overallProgress": 7,
   "phases": [
     {
       "id": 1,
       "issueNumber": 1,
       "state": "in-progress",
-      "progress": 17,
-      "tasksDone": 3,
+      "progress": 61,
+      "tasksDone": 6,
       "tasksTotal": 10,
-      "outputsDone": 0,
+      "outputsDone": 5,
       "outputsTotal": 8,
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-07-27T09:00:02Z"
+      "updatedAt": "2026-07-27T09:04:17Z"
     },
     {
       "id": 2,
