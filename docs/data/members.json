@@ -1,0 +1,32 @@
+{
+  "members": [
+    {
+      "name": "주상현",
+      "username": "jujushmaterial",
+      "status": "active",
+      "statusLabel": "관리자 · 참여 중",
+      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/ju_sanghyeon"
+    },
+    {
+      "name": "LEE-TAEK-GYU",
+      "username": "LEE-TAEK-GYU",
+      "status": "pending",
+      "statusLabel": "초대 수락 대기",
+      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LEE-TAEK-GYU"
+    },
+    {
+      "name": "송민호",
+      "username": "minhosong-mse",
+      "status": "pending",
+      "statusLabel": "초대 수락 대기",
+      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/minhosong-mse"
+    },
+    {
+      "name": "seanthe17",
+      "username": "seanthe17",
+      "status": "active",
+      "statusLabel": "참여 중",
+      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/seanthe17"
+    }
+  ]
+}
