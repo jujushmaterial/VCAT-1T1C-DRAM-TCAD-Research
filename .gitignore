@@ -1,0 +1,32 @@
+# Sentaurus / TCAD large generated files
+*.tdr
+*.plt
+*.dat
+*.log
+*.out
+*.job
+*.err
+
+# Workbench generated directories
+STDB/
+*_results/
+results_raw/
+
+# Temporary and backup files
+*.bak
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Keep summarized and reviewable outputs
+!*.csv
+!*.md
+!*.png
+!*.jpg
+!*.svg
+!*.pdf
