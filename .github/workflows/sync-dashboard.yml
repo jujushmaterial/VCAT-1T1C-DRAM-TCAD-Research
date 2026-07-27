@@ -3,6 +3,8 @@ name: Sync research dashboard
 on:
   issues:
     types: [opened, edited, closed, reopened, assigned, unassigned]
+  member:
+    types: [added, edited, deleted]
   workflow_dispatch:
   push:
     branches: [main]
@@ -31,20 +33,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Build dashboard status
+      - name: Build dashboard data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
         run: python scripts/sync_dashboard.py
 
-      - name: Commit updated status
+      - name: Commit updated dashboard data
         run: |
-          if git diff --quiet -- docs/data/status.json; then
-            echo "No dashboard status changes."
+          if git diff --quiet -- docs/data/status.json docs/data/members.json; then
+            echo "No dashboard data changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/status.json
-          git commit -m "Sync dashboard status from run sheet issues"
+          git add docs/data/status.json docs/data/members.json
+          git commit -m "Sync dashboard data from GitHub"
           git push
