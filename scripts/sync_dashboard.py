@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""GitHub Issue 체크 상태를 HTML 대시보드용 JSON으로 변환합니다."""
+"""GitHub Issue와 collaborator 변경을 HTML 대시보드용 JSON으로 변환합니다."""
 
 from __future__ import annotations
 
@@ -13,7 +13,10 @@ from pathlib import Path
 
 REPO = os.environ.get("GITHUB_REPOSITORY", "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
-OUTPUT = Path("docs/data/status.json")
+EVENT_NAME = os.environ.get("GITHUB_EVENT_NAME", "")
+EVENT_PATH = Path(os.environ.get("GITHUB_EVENT_PATH", "")) if os.environ.get("GITHUB_EVENT_PATH") else None
+STATUS_OUTPUT = Path("docs/data/status.json")
+MEMBERS_OUTPUT = Path("docs/data/members.json")
 PHASE_PATTERN = re.compile(r"^Phase\s+(\d+)\.")
 CHECK_PATTERN = re.compile(r"^- \[([ xX])\]", re.MULTILINE)
 KST = timezone(timedelta(hours=9))
@@ -127,12 +130,62 @@ def build_status() -> dict:
     }
 
 
+def sync_member_event() -> bool:
+    """member 이벤트가 발생하면 등록된 연구원의 참여 상태를 갱신합니다."""
+    if EVENT_NAME != "member" or EVENT_PATH is None or not EVENT_PATH.exists():
+        return False
+    if not MEMBERS_OUTPUT.exists():
+        return False
+
+    event = json.loads(EVENT_PATH.read_text(encoding="utf-8"))
+    action = event.get("action")
+    username = (event.get("member") or {}).get("login")
+    if not username:
+        return False
+
+    data = json.loads(MEMBERS_OUTPUT.read_text(encoding="utf-8"))
+    changed = False
+
+    for member in data.get("members", []):
+        if str(member.get("username", "")).lower() != username.lower():
+            continue
+
+        if action in {"added", "edited"}:
+            new_status = "active"
+            new_label = "관리자 · 참여 중" if username.lower() == REPO.split("/", 1)[0].lower() else "참여 중"
+        elif action == "deleted":
+            new_status = "inactive"
+            new_label = "참여 종료"
+        else:
+            return False
+
+        if member.get("status") != new_status or member.get("statusLabel") != new_label:
+            member["status"] = new_status
+            member["statusLabel"] = new_label
+            changed = True
+        break
+
+    if changed:
+        MEMBERS_OUTPUT.write_text(
+            json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+    return changed
+
+
 def main() -> int:
     try:
         status = build_status()
-        OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-        OUTPUT.write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"Updated {OUTPUT} with {len(status['phases'])} phases.")
+        STATUS_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+        STATUS_OUTPUT.write_text(
+            json.dumps(status, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        member_changed = sync_member_event()
+        print(
+            f"Updated {STATUS_OUTPUT} with {len(status['phases'])} phases; "
+            f"member status changed={member_changed}."
+        )
         return 0
     except Exception as exc:  # noqa: BLE001
         print(f"Dashboard sync failed: {exc}", file=sys.stderr)
