@@ -1,0 +1,87 @@
+{
+  "project": "VCAT–1T1C DRAM TCAD Research",
+  "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
+  "phases": [
+    {
+      "id": 1,
+      "title": "기존 Planar 구조의 작동 원인 확인",
+      "shortTitle": "Planar 원인 확인",
+      "tool": "SDE · SDevice · SVisual",
+      "reason": "기존 성능 개선이 금속 차이 때문인지 금속 사이 간격 때문인지 구분합니다.",
+      "next": "결과에 따라 Dual-Metal VCAT, 절연체 분리형 게이트 또는 결합 구조로 진행합니다.",
+      "issueUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/1"
+    },
+    {
+      "id": 2,
+      "title": "Single-Metal VCAT 기준 소자 만들기",
+      "shortTitle": "VCAT 기준 소자",
+      "tool": "SDE · SDevice",
+      "reason": "이후 여러 금속 게이트 구조의 성능을 판단할 안정적인 비교 기준을 만듭니다.",
+      "next": "기준 소자가 정상 동작하면 여러 게이트 후보를 넓게 비교합니다.",
+      "issueUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/2"
+    },
+    {
+      "id": 3,
+      "title": "VCAT 후보 구조 넓게 비교하기",
+      "shortTitle": "후보 구조 비교",
+      "tool": "SDE · SWB · SDevice",
+      "reason": "가능성이 낮은 구조를 먼저 제외하고 유망한 후보만 남깁니다.",
+      "next": "상위 후보를 1T1C 회로에 연결해 메모리 동작을 확인합니다.",
+      "issueUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/3"
+    },
+    {
+      "id": 4,
+      "title": "초기 1T1C DRAM 동작 확인",
+      "shortTitle": "초기 1T1C 확인",
+      "tool": "SDevice Mixed-Mode",
+      "reason": "단일 소자 성능이 실제 쓰기와 저장 동작에서도 유효한지 조기에 확인합니다.",
+      "next": "DRAM 동작을 통과한 후보만 세밀하게 최적화합니다.",
+      "issueUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/4"
+    },
+    {
+      "id": 5,
+      "title": "후보 구조 세밀하게 최적화하기",
+      "shortTitle": "세밀 최적화",
+      "tool": "SDE · SWB · SDevice",
+      "reason": "최고 성능 구조, 오차에 강한 구조, DRAM 균형 구조를 구분합니다.",
+      "next": "최종 후보를 SProcess 공정 흐름으로 변환합니다.",
+      "issueUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/5"
+    },
+    {
+      "id": 6,
+      "title": "SProcess 공정 흐름 만들기",
+      "shortTitle": "공정 흐름 구축",
+      "tool": "SProcess · SDevice",
+      "reason": "이상적인 구조를 실제 증착, 식각, 도핑, 열처리 조건과 연결합니다.",
+      "next": "기준 공정 조건을 바꾸어 구조와 성능의 변화를 확인합니다.",
+      "issueUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/6"
+    },
+    {
+      "id": 7,
+      "title": "공정 오차 확인하기",
+      "shortTitle": "공정 오차 분석",
+      "tool": "SProcess · SWB · SDevice",
+      "reason": "실제 공정 오차가 발생해도 성능이 유지되는 범위를 찾습니다.",
+      "next": "정상, 경계, 실패 조건을 이용해 공정 허용범위 지도를 만듭니다.",
+      "issueUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/7"
+    },
+    {
+      "id": 8,
+      "title": "공정 허용범위 지도 만들기",
+      "shortTitle": "공정 허용범위",
+      "tool": "SVisual · 결과 후처리",
+      "reason": "하나의 최적값이 아니라 실제로 사용할 수 있는 허용 범위를 제시합니다.",
+      "next": "허용범위 중심, 경계, 실패 조건을 최종 1T1C에서 검증합니다.",
+      "issueUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/8"
+    },
+    {
+      "id": 9,
+      "title": "최종 1T1C DRAM 검증",
+      "shortTitle": "최종 DRAM 검증",
+      "tool": "SDevice Mixed-Mode",
+      "reason": "공정 허용범위 안의 구조가 쓰기, 읽기, 저장 동작을 유지하는지 확인합니다.",
+      "next": "공정 지도와 DRAM 결과를 최종 보고서와 논문 자료로 정리합니다.",
+      "issueUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/9"
+    }
+  ]
+}
