@@ -32,6 +32,27 @@ function formatDate(value) {
   }).format(date);
 }
 
+function memberCard(member) {
+  const username = escapeHtml(member.username);
+  const avatar = `https://github.com/${encodeURIComponent(member.username)}.png?size=96`;
+  return `
+    <a class="team-card" data-member-state="${escapeHtml(member.status)}" href="${escapeHtml(member.folderUrl)}" target="_blank" rel="noreferrer">
+      <img src="${avatar}" alt="${username} GitHub 프로필 이미지" loading="lazy">
+      <div>
+        <strong>${escapeHtml(member.name)}</strong>
+        <span>@${username}</span>
+      </div>
+      <em>${escapeHtml(member.statusLabel)}</em>
+    </a>`;
+}
+
+function renderMembers(members = []) {
+  const grid = document.querySelector("#team-grid");
+  grid.innerHTML = members.length
+    ? members.map(memberCard).join("")
+    : '<div class="empty">등록된 연구원이 없습니다.</div>';
+}
+
 function phaseCard(phase) {
   const assignee = phase.assignees?.length ? phase.assignees.join(", ") : "미정";
   return `
@@ -126,17 +147,19 @@ function openDialog(id) {
 
 async function loadDashboard() {
   try {
-    const [definitionResponse, statusResponse] = await Promise.all([
+    const [definitionResponse, statusResponse, memberResponse] = await Promise.all([
       fetch("data/phases.json", { cache: "no-store" }),
-      fetch("data/status.json", { cache: "no-store" })
+      fetch("data/status.json", { cache: "no-store" }),
+      fetch("data/members.json", { cache: "no-store" })
     ]);
 
-    if (!definitionResponse.ok || !statusResponse.ok) {
+    if (!definitionResponse.ok || !statusResponse.ok || !memberResponse.ok) {
       throw new Error("대시보드 데이터를 불러오지 못했습니다.");
     }
 
     const definitions = await definitionResponse.json();
     const statusData = await statusResponse.json();
+    const memberData = await memberResponse.json();
     const statusMap = new Map(statusData.phases.map((phase) => [phase.id, phase]));
 
     allPhases = definitions.phases.map((phase) => ({
@@ -152,12 +175,14 @@ async function loadDashboard() {
       ...(statusMap.get(phase.id) ?? {})
     }));
 
+    renderMembers(memberData.members ?? []);
     updateSummary(statusData);
     renderPhases();
   } catch (error) {
     console.error(error);
     document.querySelector("#phase-grid").innerHTML = `
       <div class="empty">대시보드 데이터를 불러오지 못했습니다.<br>GitHub 저장소의 Issue에서 체크리스트를 확인해 주세요.</div>`;
+    document.querySelector("#team-grid").innerHTML = '<div class="empty">연구원 정보를 불러오지 못했습니다.</div>';
     document.querySelector("#last-updated").textContent = "상태 불러오기 실패";
   }
 }
