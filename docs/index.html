@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VCAT–1T1C DRAM TCAD 공동 연구 Run Sheet 대시보드">
+  <title>VCAT–1T1C DRAM TCAD Run Sheet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__inner">
+      <div>
+        <p class="eyebrow">COLLABORATIVE RESEARCH RUN SHEET</p>
+        <h1>VCAT–1T1C DRAM<br>TCAD Research Dashboard</h1>
+        <p class="hero__description">현재 해야 할 일, 필요한 결과물, 단계의 이유와 다음 과정을 한 화면에서 확인합니다.</p>
+      </div>
+      <div class="overall-card" aria-label="전체 진행률">
+        <span class="overall-card__label">전체 진행률</span>
+        <strong id="overall-progress">0%</strong>
+        <div class="progress progress--large"><span id="overall-progress-bar" style="width:0%"></span></div>
+        <small id="last-updated">상태 불러오는 중</small>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="summary" aria-label="진행 상태 요약">
+      <article><span>전체 단계</span><strong id="count-all">9</strong></article>
+      <article><span>진행 중</span><strong id="count-progress">0</strong></article>
+      <article><span>검토·완료</span><strong id="count-review">0</strong></article>
+      <article><span>대기·잠금</span><strong id="count-waiting">9</strong></article>
+    </section>
+
+    <section class="toolbar" aria-label="단계 필터">
+      <div>
+        <h2>연구 단계</h2>
+        <p>카드를 눌러 이유와 다음 과정을 확인하고, 작업 버튼으로 공동 체크리스트를 엽니다.</p>
+      </div>
+      <div class="filters" role="group" aria-label="상태 필터">
+        <button class="filter is-active" data-filter="all">전체</button>
+        <button class="filter" data-filter="in-progress">진행 중</button>
+        <button class="filter" data-filter="review">검토</button>
+        <button class="filter" data-filter="completed">완료</button>
+        <button class="filter" data-filter="waiting">대기</button>
+        <button class="filter" data-filter="locked">잠금</button>
+      </div>
+    </section>
+
+    <section id="phase-grid" class="phase-grid" aria-live="polite"></section>
+
+    <section class="guide">
+      <div>
+        <p class="eyebrow">HOW TO USE</p>
+        <h2>연구원이 작업하는 순서</h2>
+      </div>
+      <ol>
+        <li><strong>현재 단계 확인</strong><span>대시보드에서 진행 중인 단계와 담당자를 봅니다.</span></li>
+        <li><strong>공동 체크리스트 열기</strong><span>해당 단계의 GitHub Issue에서 해야 할 일을 확인합니다.</span></li>
+        <li><strong>개인 기록 남기기</strong><span>개인 폴더에 코드, 결과, 타임라인과 문제를 기록합니다.</span></li>
+        <li><strong>결과물 확인</strong><span>필요한 코드, 그래프, 표, 해석이 모두 있는지 체크합니다.</span></li>
+        <li><strong>인수인계 후 다음 단계</strong><span>다음 작업자가 시작할 파일과 순서를 적은 뒤 검토를 요청합니다.</span></li>
+      </ol>
+    </section>
+  </main>
+
+  <dialog id="phase-dialog" class="phase-dialog">
+    <button id="dialog-close" class="dialog-close" aria-label="닫기">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <footer>
+    <span>VCAT–1T1C DRAM TCAD Research</span>
+    <a href="https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research" target="_blank" rel="noreferrer">GitHub 저장소 열기</a>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
