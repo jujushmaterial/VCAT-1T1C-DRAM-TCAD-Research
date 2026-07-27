@@ -1,0 +1,105 @@
+.team-section {
+  margin-top: 54px;
+  padding: 30px;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  background: var(--surface);
+  box-shadow: 0 10px 30px rgba(30,53,84,.06);
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 24px;
+  margin-bottom: 22px;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: -.035em;
+}
+
+.section-heading p:not(.eyebrow) {
+  margin: 7px 0 0;
+  color: var(--muted);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.team-card {
+  min-width: 0;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface-soft);
+  transition: transform .2s ease, border-color .2s ease, background .2s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-2px);
+  border-color: #a9bad1;
+  background: white;
+}
+
+.team-card img {
+  width: 46px;
+  height: 46px;
+  border-radius: 15px;
+  object-fit: cover;
+  background: #dce5f0;
+}
+
+.team-card strong,
+.team-card span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.team-card strong {
+  font-size: .95rem;
+}
+
+.team-card span {
+  color: var(--muted);
+  font-size: .78rem;
+}
+
+.team-card em {
+  grid-column: 1 / -1;
+  width: fit-content;
+  padding: 5px 9px;
+  border-radius: 999px;
+  color: var(--completed);
+  background: color-mix(in srgb, var(--completed) 10%, white);
+  font-size: .72rem;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.team-card[data-member-state="pending"] em {
+  color: var(--review);
+  background: color-mix(in srgb, var(--review) 11%, white);
+}
+
+@media (max-width: 960px) {
+  .team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 680px) {
+  .team-section { padding: 24px 18px; }
+  .section-heading { align-items: flex-start; flex-direction: column; }
+  .team-grid { grid-template-columns: 1fr; }
+}
