@@ -1,0 +1,42 @@
+name: Auto-update Member Timelines
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "members/**"
+
+permissions:
+  contents: write
+
+jobs:
+  ensure-timeline:
+    if: ${{ !startsWith(github.event.head_commit.message, 'chore: auto-update member timelines') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect missing timeline records
+        env:
+          TIMELINE_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+        run: |
+          python scripts/member_timeline_guard.py \
+            --mode fix \
+            --base "${{ github.event.before }}" \
+            --head "${{ github.sha }}"
+
+      - name: Commit automatic timeline records
+        run: |
+          if git diff --quiet -- 'members/*/TIMELINE.md'; then
+            echo "No automatic timeline update required."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 'members/*/TIMELINE.md'
+          git commit -m "chore: auto-update member timelines"
+          git push
