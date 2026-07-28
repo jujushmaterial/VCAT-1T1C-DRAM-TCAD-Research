@@ -12,13 +12,13 @@ permissions:
 
 jobs:
   ensure-timeline:
-    if: ${{ !startsWith(github.event.head_commit.message, 'chore: auto-update member timelines') }}
+    if: "${{ !startsWith(github.event.head_commit.message, 'chore: auto-update member timelines') }}"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Detect missing timeline records
         env:
