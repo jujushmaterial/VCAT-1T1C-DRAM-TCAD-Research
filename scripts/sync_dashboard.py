@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""GitHub Issue와 연구원 활동을 HTML 대시보드용 JSON으로 변환합니다."""
+"""GitHub Issue, 결과물 제출, 연구원 활동을 대시보드 JSON으로 변환합니다."""
 
 from __future__ import annotations
 
@@ -19,8 +19,10 @@ EVENT_NAME = os.environ.get("GITHUB_EVENT_NAME", "")
 EVENT_PATH = Path(os.environ.get("GITHUB_EVENT_PATH", "")) if os.environ.get("GITHUB_EVENT_PATH") else None
 STATUS_OUTPUT = Path("docs/data/status.json")
 MEMBERS_OUTPUT = Path("docs/data/members.json")
-PHASE_PATTERN = re.compile(r"^Phase\s+(\d+)\.")
+SUBMISSIONS_OUTPUT = Path("docs/data/submissions.json")
+PHASE_PATTERN = re.compile(r"^Phase\s+(\d+)\.", re.IGNORECASE)
 CHECK_LINE_PATTERN = re.compile(r"^- \[([ xX])\]\s*(.*)$", re.MULTILINE)
+OUTPUT_ID_PATTERN = re.compile(r"<!--\s*output-id:([A-Za-z0-9-]+)\s*-->", re.IGNORECASE)
 KST = timezone(timedelta(hours=9))
 ACTIVE_LIMIT = timedelta(hours=24)
 RECENT_LIMIT = timedelta(days=7)
@@ -34,10 +36,23 @@ def api_get(url: str) -> object:
     }
     if TOKEN:
         headers["Authorization"] = f"Bearer {TOKEN}"
-
     request = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(request, timeout=30) as response:
         return json.loads(response.read().decode("utf-8"))
+
+
+def load_json(path: Path, fallback: object) -> object:
+    if not path.exists():
+        return fallback
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return fallback
+
+
+def write_json(path: Path, data: object) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def extract_section(body: str, heading: str, next_heading: str) -> str:
@@ -49,12 +64,41 @@ def extract_section(body: str, heading: str, next_heading: str) -> str:
     return match.group(1) if match else ""
 
 
-def parse_check_items(text: str) -> list[dict[str, Any]]:
-    return [
-        {"checked": mark.lower() == "x", "text": label.strip()}
-        for mark, label in CHECK_LINE_PATTERN.findall(text)
-        if label.strip()
-    ]
+def output_id(phase_id: int, index: int) -> str:
+    return f"P{phase_id:02d}-O{index + 1:02d}"
+
+
+def parse_check_items(text: str, *, phase_id: int, list_name: str) -> list[dict[str, Any]]:
+    matches = CHECK_LINE_PATTERN.findall(text)
+    supplied_ids = {
+        match.group(1).upper()
+        for _, label in matches
+        if (match := OUTPUT_ID_PATTERN.search(label)) and re.fullmatch(r"P\d{2}-O\d{2}", match.group(1), re.IGNORECASE)
+    } if list_name == "outputs" else set()
+    assigned_ids: set[str] = set()
+    next_output_number = 1
+    items: list[dict[str, Any]] = []
+    for mark, label in matches:
+        clean_label = OUTPUT_ID_PATTERN.sub("", label).strip()
+        if not clean_label:
+            continue
+        item: dict[str, Any] = {"checked": mark.lower() == "x", "text": clean_label}
+        if list_name == "outputs":
+            identifier = OUTPUT_ID_PATTERN.search(label)
+            supplied = identifier.group(1).upper() if identifier else ""
+            if re.fullmatch(r"P\d{2}-O\d{2}", supplied) and supplied not in assigned_ids:
+                item_id = supplied
+            else:
+                while True:
+                    candidate = f"P{phase_id:02d}-O{next_output_number:02d}"
+                    next_output_number += 1
+                    if candidate not in supplied_ids and candidate not in assigned_ids:
+                        item_id = candidate
+                        break
+            item["id"] = item_id
+            assigned_ids.add(item_id)
+        items.append(item)
+    return items
 
 
 def list_phase_issues() -> list[dict[str, Any]]:
@@ -72,7 +116,49 @@ def list_phase_issues() -> list[dict[str, Any]]:
     return issues
 
 
+def issue_event_metadata() -> dict[str, Any] | None:
+    if EVENT_NAME != "issues" or EVENT_PATH is None or not EVENT_PATH.exists():
+        return None
+    try:
+        event = json.loads(EVENT_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+    issue = event.get("issue") if isinstance(event.get("issue"), dict) else {}
+    sender = event.get("sender") if isinstance(event.get("sender"), dict) else {}
+    action = str(event.get("action") or "edited")
+    action_labels = {
+        "opened": "Issue 생성",
+        "edited": "체크리스트 수정",
+        "closed": "단계 완료",
+        "reopened": "단계 재개",
+        "assigned": "담당자 지정",
+        "unassigned": "담당자 해제",
+    }
+    return {
+        "issueNumber": issue.get("number"),
+        "actor": sender.get("login"),
+        "action": action_labels.get(action, f"Issue {action}"),
+    }
+
+
+def load_submissions() -> dict[str, Any]:
+    data = load_json(SUBMISSIONS_OUTPUT, {"version": 1, "updatedAt": None, "outputs": {}})
+    if not isinstance(data, dict):
+        return {"version": 1, "updatedAt": None, "outputs": {}}
+    if not isinstance(data.get("outputs"), dict):
+        data["outputs"] = {}
+    return data
+
+
 def build_status() -> dict[str, Any]:
+    previous = load_json(STATUS_OUTPUT, {"phases": []})
+    previous_map = {
+        int(item.get("id")): item
+        for item in previous.get("phases", [])
+        if isinstance(item, dict) and str(item.get("id", "")).isdigit()
+    } if isinstance(previous, dict) else {}
+    submissions = load_submissions().get("outputs", {})
+    event = issue_event_metadata()
     phases: list[dict[str, Any]] = []
 
     for issue in list_phase_issues():
@@ -85,8 +171,11 @@ def build_status() -> dict[str, Any]:
         body = str(issue.get("body") or "")
         task_text = extract_section(body, "1. 해야 할 것", "2. 나와야 하는 결과물")
         output_text = extract_section(body, "2. 나와야 하는 결과물", "3. 과정의 이유")
-        tasks = parse_check_items(task_text)
-        outputs = parse_check_items(output_text)
+        tasks = parse_check_items(task_text, phase_id=phase_id, list_name="tasks")
+        outputs = parse_check_items(output_text, phase_id=phase_id, list_name="outputs")
+        for output in outputs:
+            output["submissions"] = submissions.get(output["id"], []) if isinstance(submissions, dict) else []
+
         tasks_done = sum(1 for item in tasks if item["checked"])
         outputs_done = sum(1 for item in outputs if item["checked"])
         total = len(tasks) + len(outputs)
@@ -102,6 +191,17 @@ def build_status() -> dict[str, Any]:
             state = "in-progress"
         else:
             state = "waiting"
+
+        prior = previous_map.get(phase_id, {})
+        last_modified_by = prior.get("lastModifiedBy")
+        last_modified_action = prior.get("lastModifiedAction")
+        if event and event.get("issueNumber") == issue.get("number"):
+            last_modified_by = event.get("actor") or last_modified_by
+            last_modified_action = event.get("action") or last_modified_action
+        if not last_modified_by:
+            creator = issue.get("user") if isinstance(issue.get("user"), dict) else {}
+            last_modified_by = creator.get("login")
+            last_modified_action = "Issue 생성"
 
         phases.append(
             {
@@ -121,16 +221,17 @@ def build_status() -> dict[str, Any]:
                     if isinstance(user, dict) and user.get("login")
                 ],
                 "updatedAt": issue.get("updated_at"),
+                "lastModifiedBy": last_modified_by,
+                "lastModifiedAction": last_modified_action,
             }
         )
 
     phases.sort(key=lambda item: item["id"])
-
     for index, phase in enumerate(phases):
         if index == 0:
             continue
-        previous = phases[index - 1]
-        if phase["state"] == "waiting" and previous["state"] != "completed":
+        previous_phase = phases[index - 1]
+        if phase["state"] == "waiting" and previous_phase["state"] != "completed":
             phase["state"] = "locked"
 
     total_done = sum(item["tasksDone"] + item["outputsDone"] for item in phases)
@@ -162,7 +263,6 @@ def describe_repo_event(event: dict[str, Any]) -> str:
     issue = payload.get("issue") if isinstance(payload.get("issue"), dict) else {}
     pull_request = payload.get("pull_request") if isinstance(payload.get("pull_request"), dict) else {}
     action = str(payload.get("action", ""))
-
     if event_type == "PushEvent":
         return "코드 변경"
     if event_type == "IssuesEvent":
@@ -203,7 +303,6 @@ def latest_commit_activity(username: str) -> tuple[datetime | None, str | None]:
         return None, None
     if not isinstance(data, list) or not data:
         return None, None
-
     commit = data[0] if isinstance(data[0], dict) else {}
     metadata = commit.get("commit") if isinstance(commit.get("commit"), dict) else {}
     committer = metadata.get("committer") if isinstance(metadata.get("committer"), dict) else {}
@@ -217,13 +316,11 @@ def latest_commit_activity(username: str) -> tuple[datetime | None, str | None]:
 def apply_member_event(members: list[dict[str, Any]]) -> bool:
     if EVENT_NAME != "member" or EVENT_PATH is None or not EVENT_PATH.exists():
         return False
-
     event = json.loads(EVENT_PATH.read_text(encoding="utf-8"))
     action = event.get("action")
     username = (event.get("member") or {}).get("login")
     if not username:
         return False
-
     changed = False
     for member in members:
         if str(member.get("username", "")).lower() != str(username).lower():
@@ -241,7 +338,6 @@ def apply_member_event(members: list[dict[str, Any]]) -> bool:
 def update_member_activity(members: list[dict[str, Any]]) -> bool:
     events = list_recent_repo_events()
     event_activity: dict[str, tuple[datetime, str]] = {}
-
     for event in events:
         if not isinstance(event, dict):
             continue
@@ -257,13 +353,11 @@ def update_member_activity(members: list[dict[str, Any]]) -> bool:
     changed = False
     now = datetime.now(timezone.utc)
     owner = REPO.split("/", 1)[0].lower()
-
     for member in members:
         username = str(member.get("username", ""))
         login_key = username.lower()
         membership = str(member.get("membership", "active"))
-        role = str(member.get("role") or ("admin" if login_key == owner else "member"))
-        member["role"] = role
+        member["role"] = str(member.get("role") or ("admin" if login_key == owner else "member"))
         member["membership"] = membership
 
         candidates: list[tuple[datetime, str]] = []
@@ -278,7 +372,6 @@ def update_member_activity(members: list[dict[str, Any]]) -> bool:
 
         if membership != "active":
             new_state = "left"
-            new_label = "참여 종료"
             latest_time = max(candidates, key=lambda item: item[0])[0] if candidates else None
             recent_activity = max(candidates, key=lambda item: item[0])[1] if candidates else "참여 종료"
         elif candidates:
@@ -286,23 +379,18 @@ def update_member_activity(members: list[dict[str, Any]]) -> bool:
             elapsed = now - latest_time
             if elapsed <= ACTIVE_LIMIT:
                 new_state = "active"
-                base_label = "활동 중"
             elif elapsed <= RECENT_LIMIT:
                 new_state = "recent"
-                base_label = "최근 활동"
             else:
                 new_state = "inactive"
-                base_label = "미활동"
-            new_label = f"관리자 · {base_label}" if role == "admin" else base_label
         else:
             latest_time = None
             recent_activity = "활동 기록 없음"
             new_state = "inactive"
-            new_label = "관리자 · 미활동" if role == "admin" else "미활동"
 
         new_values = {
             "status": new_state,
-            "statusLabel": new_label,
+            "statusLabel": recent_activity,
             "activityState": new_state,
             "lastActivityAt": latest_time.isoformat().replace("+00:00", "Z") if latest_time else None,
             "recentActivity": recent_activity,
@@ -311,22 +399,14 @@ def update_member_activity(members: list[dict[str, Any]]) -> bool:
             if member.get(key) != value:
                 member[key] = value
                 changed = True
-
     return changed
 
 
 def load_members() -> dict[str, Any]:
-    if not MEMBERS_OUTPUT.exists():
-        return {"members": []}
-    data = json.loads(MEMBERS_OUTPUT.read_text(encoding="utf-8"))
+    data = load_json(MEMBERS_OUTPUT, {"members": []})
     if not isinstance(data, dict) or not isinstance(data.get("members"), list):
         raise RuntimeError("members.json 형식이 올바르지 않습니다.")
     return data
-
-
-def write_json(path: Path, data: object) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def main() -> int:
@@ -336,10 +416,8 @@ def main() -> int:
         members = members_data["members"]
         member_event_changed = apply_member_event(members)
         member_activity_changed = update_member_activity(members)
-
         write_json(STATUS_OUTPUT, status)
         write_json(MEMBERS_OUTPUT, members_data)
-
         print(
             f"Updated {STATUS_OUTPUT} with {len(status['phases'])} phases; "
             f"member event changed={member_event_changed}; "
