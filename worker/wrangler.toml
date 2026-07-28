@@ -1,0 +1,14 @@
+name = "vcat-dashboard-api"
+main = "src/index.js"
+compatibility_date = "2026-07-01"
+workers_dev = true
+
+[vars]
+REPOSITORY = "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research"
+FRONTEND_URL = "https://jujushmaterial.github.io/VCAT-1T1C-DRAM-TCAD-Research/"
+FRONTEND_ORIGIN = "https://jujushmaterial.github.io"
+API_BASE_URL = "https://vcat-dashboard-api.jujushmaterial.workers.dev"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "01a4fad973714694b173e1255aa11ce6"

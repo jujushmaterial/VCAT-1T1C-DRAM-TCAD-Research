@@ -3,30 +3,62 @@
     {
       "name": "주상현",
       "username": "jujushmaterial",
-      "status": "active",
-      "statusLabel": "관리자 · 참여 중",
-      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/ju_sanghyeon"
+      "role": "admin",
+      "membership": "active",
+      "status": "inactive",
+      "statusLabel": "관리자 · 미활동",
+      "activityState": "inactive",
+      "lastActivityAt": null,
+      "recentActivity": "활동 기록 확인 전",
+      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon"
     },
     {
-      "name": "LEE-TAEK-GYU",
+      "name": "이택규",
       "username": "LEE-TAEK-GYU",
-      "status": "active",
-      "statusLabel": "참여 중",
-      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LEE-TAEK-GYU"
+      "role": "member",
+      "membership": "active",
+      "status": "inactive",
+      "statusLabel": "미활동",
+      "activityState": "inactive",
+      "lastActivityAt": null,
+      "recentActivity": "활동 기록 확인 전",
+      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu"
     },
     {
       "name": "송민호",
       "username": "minhosong-mse",
-      "status": "active",
-      "statusLabel": "참여 중",
-      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/minhosong-mse"
+      "role": "member",
+      "membership": "active",
+      "status": "inactive",
+      "statusLabel": "미활동",
+      "activityState": "inactive",
+      "lastActivityAt": null,
+      "recentActivity": "활동 기록 확인 전",
+      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho"
     },
     {
-      "name": "seanthe17",
+      "name": "이선재",
       "username": "seanthe17",
-      "status": "active",
-      "statusLabel": "참여 중",
-      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/seanthe17"
+      "role": "member",
+      "membership": "active",
+      "status": "inactive",
+      "statusLabel": "미활동",
+      "activityState": "inactive",
+      "lastActivityAt": null,
+      "recentActivity": "활동 기록 확인 전",
+      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonJae"
+    },
+    {
+      "name": "이선형",
+      "username": "LSH-linear",
+      "role": "member",
+      "membership": "active",
+      "status": "inactive",
+      "statusLabel": "미활동",
+      "activityState": "inactive",
+      "lastActivityAt": null,
+      "recentActivity": "활동 기록 확인 전",
+      "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong"
     }
   ]
 }
