@@ -9,17 +9,15 @@
   <link rel="stylesheet" href="team.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero__inner">
+  <header class="app-header">
+    <div class="app-header__inner">
       <div>
-        <p class="eyebrow">COLLABORATIVE RESEARCH RUN SHEET</p>
-        <h1>VCAT–1T1C DRAM<br>TCAD Research Dashboard</h1>
-        <p class="hero__description">현재 해야 할 일, 필요한 결과물, 단계의 이유와 다음 과정을 한 화면에서 확인합니다.</p>
+        <p class="eyebrow">VCAT–1T1C DRAM TCAD</p>
+        <h1>Research Dashboard</h1>
       </div>
-      <div class="overall-card" aria-label="전체 진행률">
-        <span class="overall-card__label">전체 진행률</span>
-        <strong id="overall-progress">0%</strong>
-        <div class="progress progress--large"><span id="overall-progress-bar" style="width:0%"></span></div>
+      <div class="header-meta">
+        <button id="auth-button" class="btn btn--small" type="button">GitHub 로그인</button>
+        <span id="auth-user" class="auth-user" hidden></span>
         <small id="last-updated">상태 불러오는 중</small>
       </div>
     </div>
@@ -33,23 +31,29 @@
       <article><span>대기·잠금</span><strong id="count-waiting">9</strong></article>
     </section>
 
+    <section class="overall-panel" aria-label="전체 진행률">
+      <div class="overall-panel__top">
+        <strong>전체 진행률</strong>
+        <span id="overall-progress">0%</span>
+      </div>
+      <div class="progress progress--large">
+        <span id="overall-progress-bar" style="width:0%"></span>
+      </div>
+    </section>
+
     <section class="team-section" aria-labelledby="team-title">
       <div class="section-heading">
         <div>
           <p class="eyebrow">RESEARCH TEAM</p>
           <h2 id="team-title">공동 연구원</h2>
-          <p>이름을 누르면 개인 작업 폴더로 이동합니다. 초대 수락 전인 연구원도 폴더는 미리 준비돼 있습니다.</p>
         </div>
-        <a class="btn" href="https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members" target="_blank" rel="noreferrer">전체 개인 폴더</a>
+        <a class="btn btn--small" href="https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members" target="_blank" rel="noreferrer">전체 개인 폴더</a>
       </div>
       <div id="team-grid" class="team-grid" aria-live="polite"></div>
     </section>
 
     <section class="toolbar" aria-label="단계 필터">
-      <div>
-        <h2>연구 단계</h2>
-        <p>카드를 눌러 이유와 다음 과정을 확인하고, 작업 버튼으로 공동 체크리스트를 엽니다.</p>
-      </div>
+      <h2>연구 단계</h2>
       <div class="filters" role="group" aria-label="상태 필터">
         <button class="filter is-active" data-filter="all">전체</button>
         <button class="filter" data-filter="in-progress">진행 중</button>
@@ -61,32 +65,21 @@
     </section>
 
     <section id="phase-grid" class="phase-grid" aria-live="polite"></section>
-
-    <section class="guide">
-      <div>
-        <p class="eyebrow">HOW TO USE</p>
-        <h2>연구원이 작업하는 순서</h2>
-      </div>
-      <ol>
-        <li><strong>현재 단계 확인</strong><span>대시보드에서 진행 중인 단계와 담당자를 봅니다.</span></li>
-        <li><strong>공동 체크리스트 열기</strong><span>해당 단계의 GitHub Issue에서 해야 할 일을 확인합니다.</span></li>
-        <li><strong>개인 기록 남기기</strong><span>개인 폴더에 코드, 결과, 타임라인과 문제를 기록합니다.</span></li>
-        <li><strong>결과물 확인</strong><span>필요한 코드, 그래프, 표, 해석이 모두 있는지 체크합니다.</span></li>
-        <li><strong>인수인계 후 다음 단계</strong><span>다음 작업자가 시작할 파일과 순서를 적은 뒤 검토를 요청합니다.</span></li>
-      </ol>
-    </section>
   </main>
 
   <dialog id="phase-dialog" class="phase-dialog">
-    <button id="dialog-close" class="dialog-close" aria-label="닫기">×</button>
+    <button id="dialog-close" class="dialog-close" aria-label="닫기" type="button">×</button>
     <div id="dialog-content"></div>
   </dialog>
 
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
   <footer>
     <span>VCAT–1T1C DRAM TCAD Research</span>
-    <a href="https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research" target="_blank" rel="noreferrer">GitHub 저장소 열기</a>
+    <a href="https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research" target="_blank" rel="noreferrer">GitHub 저장소</a>
   </footer>
 
+  <script src="config.js"></script>
   <script src="app.js" defer></script>
 </body>
 </html>
