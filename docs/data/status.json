@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T13:22:34+09:00",
+  "generatedAt": "2026-07-28T14:33:34+09:00",
   "overallProgress": 5,
   "phases": [
     {
@@ -56,41 +56,59 @@
       "outputs": [
         {
           "checked": false,
-          "text": "네 구조의 전체 코드"
+          "text": "네 구조의 전체 코드",
+          "id": "P01-O01",
+          "submissions": []
         },
         {
           "checked": true,
-          "text": "네 구조의 단면 이미지"
+          "text": "네 구조의 단면 이미지",
+          "id": "P01-O02",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "전류-전압 비교 그래프"
+          "text": "전류-전압 비교 그래프",
+          "id": "P01-O03",
+          "submissions": []
         },
         {
           "checked": true,
-          "text": "Ion, Ioff, SS, DIBL 비교표"
+          "text": "Ion, Ioff, SS, DIBL 비교표",
+          "id": "P01-O04",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "계면 전위 비교 그래프"
+          "text": "계면 전위 비교 그래프",
+          "id": "P01-O05",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "전도대 비교 그래프"
+          "text": "전도대 비교 그래프",
+          "id": "P01-O06",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "전계 비교 이미지"
+          "text": "전계 비교 이미지",
+          "id": "P01-O07",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Gap 효과와 Dual-Metal 효과를 구분한 결론"
+          "text": "Gap 효과와 Dual-Metal 효과를 구분한 결론",
+          "id": "P01-O08",
+          "submissions": []
         }
       ],
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-07-28T04:22:26Z"
+      "updatedAt": "2026-07-28T04:22:26Z",
+      "lastModifiedBy": "jujushmaterial",
+      "lastModifiedAction": "Issue 생성"
     },
     {
       "id": 2,
@@ -142,35 +160,51 @@
       "outputs": [
         {
           "checked": false,
-          "text": "Single-Metal VCAT 전체 코드"
+          "text": "Single-Metal VCAT 전체 코드",
+          "id": "P02-O01",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "구조와 메시 이미지"
+          "text": "구조와 메시 이미지",
+          "id": "P02-O02",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Id–Vg·Id–Vd 그래프"
+          "text": "Id–Vg·Id–Vd 그래프",
+          "id": "P02-O03",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Vth, SS, Ion, Ioff, DIBL 결과표"
+          "text": "Vth, SS, Ion, Ioff, DIBL 결과표",
+          "id": "P02-O04",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "GIDL과 전계 분포"
+          "text": "GIDL과 전계 분포",
+          "id": "P02-O05",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "양방향 전류 비교 결과"
+          "text": "양방향 전류 비교 결과",
+          "id": "P02-O06",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "기준 소자 조건표"
+          "text": "기준 소자 조건표",
+          "id": "P02-O07",
+          "submissions": []
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:23:44Z"
+      "updatedAt": "2026-07-27T08:23:44Z",
+      "lastModifiedBy": "jujushmaterial",
+      "lastModifiedAction": "Issue 생성"
     },
     {
       "id": 3,
@@ -226,39 +260,57 @@
       "outputs": [
         {
           "checked": false,
-          "text": "구조별 전체 코드"
+          "text": "구조별 전체 코드",
+          "id": "P03-O01",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "구조 비교 이미지"
+          "text": "구조 비교 이미지",
+          "id": "P03-O02",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "조건별 성능표"
+          "text": "조건별 성능표",
+          "id": "P03-O03",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "금속 비율에 따른 성능 그래프"
+          "text": "금속 비율에 따른 성능 그래프",
+          "id": "P03-O04",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "일함수 차이에 따른 성능 그래프"
+          "text": "일함수 차이에 따른 성능 그래프",
+          "id": "P03-O05",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "GIDL과 전계 비교 결과"
+          "text": "GIDL과 전계 비교 결과",
+          "id": "P03-O06",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "상위 후보 3~5개 목록"
+          "text": "상위 후보 3~5개 목록",
+          "id": "P03-O07",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "후보 선정 이유"
+          "text": "후보 선정 이유",
+          "id": "P03-O08",
+          "submissions": []
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:24:01Z"
+      "updatedAt": "2026-07-27T08:24:01Z",
+      "lastModifiedBy": "jujushmaterial",
+      "lastModifiedAction": "Issue 생성"
     },
     {
       "id": 4,
@@ -318,31 +370,45 @@
       "outputs": [
         {
           "checked": false,
-          "text": "1T1C Mixed-Mode 전체 코드"
+          "text": "1T1C Mixed-Mode 전체 코드",
+          "id": "P04-O01",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Word Line·Bit Line·Storage Node 파형"
+          "text": "Word Line·Bit Line·Storage Node 파형",
+          "id": "P04-O02",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Write ‘1’과 Write ‘0’ 비교표"
+          "text": "Write ‘1’과 Write ‘0’ 비교표",
+          "id": "P04-O03",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Hold 중 전압 변화 그래프"
+          "text": "Hold 중 전압 변화 그래프",
+          "id": "P04-O04",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "후보별 누설 비교"
+          "text": "후보별 누설 비교",
+          "id": "P04-O05",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "DRAM 적용 가능 후보 목록"
+          "text": "DRAM 적용 가능 후보 목록",
+          "id": "P04-O06",
+          "submissions": []
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:24:15Z"
+      "updatedAt": "2026-07-27T08:24:15Z",
+      "lastModifiedBy": "jujushmaterial",
+      "lastModifiedAction": "Issue 생성"
     },
     {
       "id": 5,
@@ -394,39 +460,57 @@
       "outputs": [
         {
           "checked": false,
-          "text": "세밀한 조건별 성능표"
+          "text": "세밀한 조건별 성능표",
+          "id": "P05-O01",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "금속 비율-성능 지도"
+          "text": "금속 비율-성능 지도",
+          "id": "P05-O02",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "경계 위치-성능 지도"
+          "text": "경계 위치-성능 지도",
+          "id": "P05-O03",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "일함수-성능 지도"
+          "text": "일함수-성능 지도",
+          "id": "P05-O04",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "이상 조건에서 가장 좋은 구조"
+          "text": "이상 조건에서 가장 좋은 구조",
+          "id": "P05-O05",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "오차에 강한 구조"
+          "text": "오차에 강한 구조",
+          "id": "P05-O06",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "DRAM 성능 균형이 좋은 구조"
+          "text": "DRAM 성능 균형이 좋은 구조",
+          "id": "P05-O07",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "최종 SProcess 대상 후보 2~3개"
+          "text": "최종 SProcess 대상 후보 2~3개",
+          "id": "P05-O08",
+          "submissions": []
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:24:33Z"
+      "updatedAt": "2026-07-27T08:24:33Z",
+      "lastModifiedBy": "jujushmaterial",
+      "lastModifiedAction": "Issue 생성"
     },
     {
       "id": 6,
@@ -486,39 +570,57 @@
       "outputs": [
         {
           "checked": false,
-          "text": "SProcess 전체 코드"
+          "text": "SProcess 전체 코드",
+          "id": "P06-O01",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "단계별 공정 구조 이미지"
+          "text": "단계별 공정 구조 이미지",
+          "id": "P06-O02",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "최종 공정 구조 TDR"
+          "text": "최종 공정 구조 TDR",
+          "id": "P06-O03",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "도핑 분포 이미지"
+          "text": "도핑 분포 이미지",
+          "id": "P06-O04",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "실제 형성된 금속 경계 위치"
+          "text": "실제 형성된 금속 경계 위치",
+          "id": "P06-O05",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "실제 채널 크기와 접합 위치"
+          "text": "실제 채널 크기와 접합 위치",
+          "id": "P06-O06",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "SDE 구조와 SProcess 구조 비교표"
+          "text": "SDE 구조와 SProcess 구조 비교표",
+          "id": "P06-O07",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "기준 공정 조건표"
+          "text": "기준 공정 조건표",
+          "id": "P06-O08",
+          "submissions": []
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:24:52Z"
+      "updatedAt": "2026-07-27T08:24:52Z",
+      "lastModifiedBy": "jujushmaterial",
+      "lastModifiedAction": "Issue 생성"
     },
     {
       "id": 7,
@@ -578,35 +680,51 @@
       "outputs": [
         {
           "checked": false,
-          "text": "공정 조건별 최종 구조"
+          "text": "공정 조건별 최종 구조",
+          "id": "P07-O01",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "실제 형성 치수 정리표"
+          "text": "실제 형성 치수 정리표",
+          "id": "P07-O02",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "공정 변수별 성능 변화 그래프"
+          "text": "공정 변수별 성능 변화 그래프",
+          "id": "P07-O03",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "일함수 오차별 성능 변화"
+          "text": "일함수 오차별 성능 변화",
+          "id": "P07-O04",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "경계 위치 오차별 성능 변화"
+          "text": "경계 위치 오차별 성능 변화",
+          "id": "P07-O05",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "성능에 가장 큰 영향을 주는 변수 목록"
+          "text": "성능에 가장 큰 영향을 주는 변수 목록",
+          "id": "P07-O06",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "정상, 경계, 실패 조건 구분"
+          "text": "정상, 경계, 실패 조건 구분",
+          "id": "P07-O07",
+          "submissions": []
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:25:08Z"
+      "updatedAt": "2026-07-27T08:25:08Z",
+      "lastModifiedBy": "jujushmaterial",
+      "lastModifiedAction": "Issue 생성"
     },
     {
       "id": 8,
@@ -666,39 +784,57 @@
       "outputs": [
         {
           "checked": false,
-          "text": "공정 허용범위 Map"
+          "text": "공정 허용범위 Map",
+          "id": "P08-O01",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Pass, Marginal, Fail 영역"
+          "text": "Pass, Marginal, Fail 영역",
+          "id": "P08-O02",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "가장 좋은 조건 표시"
+          "text": "가장 좋은 조건 표시",
+          "id": "P08-O03",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "오차에 강한 조건 표시"
+          "text": "오차에 강한 조건 표시",
+          "id": "P08-O04",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "금속 경계 허용오차"
+          "text": "금속 경계 허용오차",
+          "id": "P08-O05",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "일함수 허용오차"
+          "text": "일함수 허용오차",
+          "id": "P08-O06",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "금속 구간 비율 허용범위"
+          "text": "금속 구간 비율 허용범위",
+          "id": "P08-O07",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "공정 조건별 최종 판정표"
+          "text": "공정 조건별 최종 판정표",
+          "id": "P08-O08",
+          "submissions": []
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:25:23Z"
+      "updatedAt": "2026-07-27T08:25:23Z",
+      "lastModifiedBy": "jujushmaterial",
+      "lastModifiedAction": "Issue 생성"
     },
     {
       "id": 9,
@@ -762,47 +898,69 @@
       "outputs": [
         {
           "checked": false,
-          "text": "최종 1T1C 전체 코드"
+          "text": "최종 1T1C 전체 코드",
+          "id": "P09-O01",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Write ‘1’·Write ‘0’ 파형"
+          "text": "Write ‘1’·Write ‘0’ 파형",
+          "id": "P09-O02",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Read 파형"
+          "text": "Read 파형",
+          "id": "P09-O03",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Hold와 Retention 그래프"
+          "text": "Hold와 Retention 그래프",
+          "id": "P09-O04",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Storage Node 전압 비교"
+          "text": "Storage Node 전압 비교",
+          "id": "P09-O05",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Bit Line 전압 비교"
+          "text": "Bit Line 전압 비교",
+          "id": "P09-O06",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "Read Disturb 결과"
+          "text": "Read Disturb 결과",
+          "id": "P09-O07",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "구조별 DRAM 성능표"
+          "text": "구조별 DRAM 성능표",
+          "id": "P09-O08",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "최종 추천 구조"
+          "text": "최종 추천 구조",
+          "id": "P09-O09",
+          "submissions": []
         },
         {
           "checked": false,
-          "text": "최종 결론"
+          "text": "최종 결론",
+          "id": "P09-O10",
+          "submissions": []
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:25:41Z"
+      "updatedAt": "2026-07-27T08:25:41Z",
+      "lastModifiedBy": "jujushmaterial",
+      "lastModifiedAction": "Issue 생성"
     }
   ]
 }
