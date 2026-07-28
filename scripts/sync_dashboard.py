@@ -69,15 +69,34 @@ def output_id(phase_id: int, index: int) -> str:
 
 
 def parse_check_items(text: str, *, phase_id: int, list_name: str) -> list[dict[str, Any]]:
+    matches = CHECK_LINE_PATTERN.findall(text)
+    supplied_ids = {
+        match.group(1).upper()
+        for _, label in matches
+        if (match := OUTPUT_ID_PATTERN.search(label)) and re.fullmatch(r"P\d{2}-O\d{2}", match.group(1), re.IGNORECASE)
+    } if list_name == "outputs" else set()
+    assigned_ids: set[str] = set()
+    next_output_number = 1
     items: list[dict[str, Any]] = []
-    for index, (mark, label) in enumerate(CHECK_LINE_PATTERN.findall(text)):
+    for mark, label in matches:
         clean_label = OUTPUT_ID_PATTERN.sub("", label).strip()
         if not clean_label:
             continue
         item: dict[str, Any] = {"checked": mark.lower() == "x", "text": clean_label}
         if list_name == "outputs":
             identifier = OUTPUT_ID_PATTERN.search(label)
-            item["id"] = (identifier.group(1) if identifier else output_id(phase_id, index)).upper()
+            supplied = identifier.group(1).upper() if identifier else ""
+            if re.fullmatch(r"P\d{2}-O\d{2}", supplied) and supplied not in assigned_ids:
+                item_id = supplied
+            else:
+                while True:
+                    candidate = f"P{phase_id:02d}-O{next_output_number:02d}"
+                    next_output_number += 1
+                    if candidate not in supplied_ids and candidate not in assigned_ids:
+                        item_id = candidate
+                        break
+            item["id"] = item_id
+            assigned_ids.add(item_id)
         items.append(item)
     return items
 
