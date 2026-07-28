@@ -23,6 +23,10 @@ Thumbs.db
 __pycache__/
 *.py[cod]
 
+# Node dependencies
+node_modules/
+worker/node_modules/
+
 # Keep summarized and reviewable outputs
 !*.csv
 !*.md
