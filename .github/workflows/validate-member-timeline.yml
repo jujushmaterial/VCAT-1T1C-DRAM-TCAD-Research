@@ -1,0 +1,27 @@
+name: Validate Member Timelines
+
+on:
+  pull_request:
+    paths:
+      - "members/**"
+      - "scripts/member_timeline_guard.py"
+      - ".github/workflows/validate-member-timeline.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate personal folder timeline updates
+        run: |
+          python scripts/member_timeline_guard.py \
+            --mode check \
+            --base "${{ github.event.pull_request.base.sha }}" \
+            --head "${{ github.event.pull_request.head.sha }}"
