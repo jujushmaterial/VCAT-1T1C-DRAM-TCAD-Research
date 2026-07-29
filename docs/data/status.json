@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T03:25:29+09:00",
+  "generatedAt": "2026-07-30T03:37:34+09:00",
   "overallProgress": 5,
   "phases": [
     {
@@ -712,7 +712,7 @@
               "id": "P02-T01-O02",
               "text": "좌표계·단위·변수명 표",
               "type": "files",
-              "review": "none",
+              "review": "recommended",
               "submissions": [
                 {
                   "submissionId": "20260730025102-minhosong-mse-repair",
@@ -819,7 +819,7 @@
               "id": "P02-T03-O01",
               "text": "Contact·Region 확인 이미지 또는 표",
               "type": "files",
-              "review": "none",
+              "review": "recommended",
               "submissions": [
                 {
                   "submissionId": "20260730025105-minhosong-mse-repair",
@@ -850,7 +850,7 @@
               "id": "P02-T03-O02",
               "text": "절연막 두께 측정값",
               "type": "files",
-              "review": "none",
+              "review": "recommended",
               "submissions": [
                 {
                   "submissionId": "20260730025106-minhosong-mse-repair",
@@ -916,7 +916,7 @@
               "id": "P02-T05-O01",
               "text": "메시 설정값",
               "type": "files",
-              "review": "none",
+              "review": "recommended",
               "submissions": [
                 {
                   "submissionId": "20260730025107-minhosong-mse-repair",
@@ -947,7 +947,7 @@
               "id": "P02-T05-O02",
               "text": "구조와 메시 이미지",
               "type": "files",
-              "review": "none",
+              "review": "recommended",
               "submissions": [
                 {
                   "submissionId": "20260730025108-minhosong-mse-repair",
@@ -978,7 +978,7 @@
               "id": "P02-T05-O03",
               "text": "주요 경계 최소 메시 크기",
               "type": "files",
-              "review": "none",
+              "review": "recommended",
               "submissions": [
                 {
                   "submissionId": "20260730025109-minhosong-mse-repair",
@@ -1188,7 +1188,7 @@
           "id": "P02-T01-O02",
           "text": "좌표계·단위·변수명 표",
           "type": "files",
-          "review": "none",
+          "review": "recommended",
           "submissions": [
             {
               "submissionId": "20260730025102-minhosong-mse-repair",
@@ -1284,7 +1284,7 @@
           "id": "P02-T03-O01",
           "text": "Contact·Region 확인 이미지 또는 표",
           "type": "files",
-          "review": "none",
+          "review": "recommended",
           "submissions": [
             {
               "submissionId": "20260730025105-minhosong-mse-repair",
@@ -1316,7 +1316,7 @@
           "id": "P02-T03-O02",
           "text": "절연막 두께 측정값",
           "type": "files",
-          "review": "none",
+          "review": "recommended",
           "submissions": [
             {
               "submissionId": "20260730025106-minhosong-mse-repair",
@@ -1372,7 +1372,7 @@
           "id": "P02-T05-O01",
           "text": "메시 설정값",
           "type": "files",
-          "review": "none",
+          "review": "recommended",
           "submissions": [
             {
               "submissionId": "20260730025107-minhosong-mse-repair",
@@ -1404,7 +1404,7 @@
           "id": "P02-T05-O02",
           "text": "구조와 메시 이미지",
           "type": "files",
-          "review": "none",
+          "review": "recommended",
           "submissions": [
             {
               "submissionId": "20260730025108-minhosong-mse-repair",
@@ -1436,7 +1436,7 @@
           "id": "P02-T05-O03",
           "text": "주요 경계 최소 메시 크기",
           "type": "files",
-          "review": "none",
+          "review": "recommended",
           "submissions": [
             {
               "submissionId": "20260730025109-minhosong-mse-repair",
@@ -1596,7 +1596,7 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-07-29T18:25:19Z",
+      "updatedAt": "2026-07-29T18:37:21Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정"
     },
