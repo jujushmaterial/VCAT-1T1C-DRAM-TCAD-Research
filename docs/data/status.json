@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:13:40+09:00",
+  "generatedAt": "2026-07-29T11:14:24+09:00",
   "overallProgress": 0,
   "phases": [
     {
@@ -1006,74 +1006,520 @@
       "tasksDone": 0,
       "tasksTotal": 10,
       "outputsDone": 0,
-      "outputsTotal": 0,
+      "outputsTotal": 29,
       "tasks": [
         {
           "id": "P03-T01",
           "checked": false,
           "text": "Dual-Metal의 두 배치 방향을 만든다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P03-T01-O01",
+              "text": "Dual-Metal 양방향 구조 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T01-O02",
+              "text": "양방향 구조 비교 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T01-O03",
+              "text": "금속 배치 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P03-T02",
           "checked": false,
           "text": "Low/High/Low Three-zone 구조를 만든다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P03-T02-O01",
+              "text": "Three-zone 구조 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T02-O02",
+              "text": "Three-zone 구조 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T02-O03",
+              "text": "두 경계 위치와 금속 구간 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P03-T03",
           "checked": false,
           "text": "필요하면 서로 다른 세 일함수를 갖는 Tri-Metal 후보를 만든다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P03-T03-O01",
+              "text": "Tri-Metal 후보 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T03-O02",
+              "text": "Tri-Metal 구조 이미지와 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T03-O03",
+              "text": "미수행 시 제외 사유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P03-T04",
           "checked": false,
           "text": "Phase 1에서 Gap 효과가 확인되면 간격 또는 절연체 구조를 추가한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P03-T04-O01",
+              "text": "Gap·절연체 후보 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T04-O02",
+              "text": "Gap·절연체 구조 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T04-O03",
+              "text": "Gap 길이·절연체 조건표 또는 미수행 사유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P03-T05",
           "checked": false,
           "text": "금속의 일함수 차이를 넓은 범위로 바꾼다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P03-T05-O01",
+              "text": "일함수 Sweep 범위와 Split 표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T05-O02",
+              "text": "일함수 Sweep 원본 데이터",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T05-O03",
+              "text": "일함수 차이에 따른 성능 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P03-T06",
           "checked": false,
           "text": "각 금속 구간의 비율을 넓은 범위로 바꾼다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P03-T06-O01",
+              "text": "금속 구간 비율 Sweep 표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T06-O02",
+              "text": "구간 비율 Sweep 원본 데이터",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T06-O03",
+              "text": "금속 비율에 따른 성능 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P03-T07",
           "checked": false,
           "text": "구조별 전류와 누설을 비교한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P03-T07-O01",
+              "text": "구조별 Ion, Ioff, Vth, SS, DIBL, GIDL 통합표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P03-T07-O02",
+              "text": "구조별 전류·누설 비교 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P03-T08",
           "checked": false,
           "text": "양방향 전류 차이를 확인한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P03-T08-O01",
+              "text": "방향별 전류 비교 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T08-O02",
+              "text": "양방향 비대칭 비교표와 해석",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P03-T09",
           "checked": false,
           "text": "전계가 한 위치에 집중되는지 확인한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P03-T09-O01",
+              "text": "대표 구조별 전계 분포 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T09-O02",
+              "text": "최대 전계 위치·값과 GIDL 비교표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P03-T09-O03",
+              "text": "전계 집중 위험 구조 정리",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P03-T10",
           "checked": false,
           "text": "상위 후보를 선정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P03-T10-O01",
+              "text": "상위 후보 3~5개 순위표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P03-T10-O02",
+              "text": "후보 선정 기준과 이유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P03-T10-O03",
+              "text": "탈락 후보와 탈락 이유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P03-T10-O04",
+              "text": "Phase 4 대상 후보 결정문",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         }
       ],
-      "outputs": [],
+      "outputs": [
+        {
+          "id": "P03-T01-O01",
+          "text": "Dual-Metal 양방향 구조 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T01"
+        },
+        {
+          "id": "P03-T01-O02",
+          "text": "양방향 구조 비교 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T01"
+        },
+        {
+          "id": "P03-T01-O03",
+          "text": "금속 배치 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T01"
+        },
+        {
+          "id": "P03-T02-O01",
+          "text": "Three-zone 구조 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T02"
+        },
+        {
+          "id": "P03-T02-O02",
+          "text": "Three-zone 구조 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T02"
+        },
+        {
+          "id": "P03-T02-O03",
+          "text": "두 경계 위치와 금속 구간 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T02"
+        },
+        {
+          "id": "P03-T03-O01",
+          "text": "Tri-Metal 후보 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T03"
+        },
+        {
+          "id": "P03-T03-O02",
+          "text": "Tri-Metal 구조 이미지와 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T03"
+        },
+        {
+          "id": "P03-T03-O03",
+          "text": "미수행 시 제외 사유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P03-T03"
+        },
+        {
+          "id": "P03-T04-O01",
+          "text": "Gap·절연체 후보 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T04"
+        },
+        {
+          "id": "P03-T04-O02",
+          "text": "Gap·절연체 구조 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T04"
+        },
+        {
+          "id": "P03-T04-O03",
+          "text": "Gap 길이·절연체 조건표 또는 미수행 사유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P03-T04"
+        },
+        {
+          "id": "P03-T05-O01",
+          "text": "일함수 Sweep 범위와 Split 표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T05"
+        },
+        {
+          "id": "P03-T05-O02",
+          "text": "일함수 Sweep 원본 데이터",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T05"
+        },
+        {
+          "id": "P03-T05-O03",
+          "text": "일함수 차이에 따른 성능 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T05"
+        },
+        {
+          "id": "P03-T06-O01",
+          "text": "금속 구간 비율 Sweep 표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T06"
+        },
+        {
+          "id": "P03-T06-O02",
+          "text": "구간 비율 Sweep 원본 데이터",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T06"
+        },
+        {
+          "id": "P03-T06-O03",
+          "text": "금속 비율에 따른 성능 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T06"
+        },
+        {
+          "id": "P03-T07-O01",
+          "text": "구조별 Ion, Ioff, Vth, SS, DIBL, GIDL 통합표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P03-T07"
+        },
+        {
+          "id": "P03-T07-O02",
+          "text": "구조별 전류·누설 비교 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T07"
+        },
+        {
+          "id": "P03-T08-O01",
+          "text": "방향별 전류 비교 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T08"
+        },
+        {
+          "id": "P03-T08-O02",
+          "text": "양방향 비대칭 비교표와 해석",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P03-T08"
+        },
+        {
+          "id": "P03-T09-O01",
+          "text": "대표 구조별 전계 분포 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T09"
+        },
+        {
+          "id": "P03-T09-O02",
+          "text": "최대 전계 위치·값과 GIDL 비교표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P03-T09"
+        },
+        {
+          "id": "P03-T09-O03",
+          "text": "전계 집중 위험 구조 정리",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P03-T09"
+        },
+        {
+          "id": "P03-T10-O01",
+          "text": "상위 후보 3~5개 순위표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P03-T10"
+        },
+        {
+          "id": "P03-T10-O02",
+          "text": "후보 선정 기준과 이유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P03-T10"
+        },
+        {
+          "id": "P03-T10-O03",
+          "text": "탈락 후보와 탈락 이유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P03-T10"
+        },
+        {
+          "id": "P03-T10-O04",
+          "text": "Phase 4 대상 후보 결정문",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P03-T10"
+        }
+      ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:24:01Z",
+      "updatedAt": "2026-07-29T02:14:15Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "Issue 생성"
+      "lastModifiedAction": "과제·산출물 목록 수정"
     },
     {
       "id": 4,
