@@ -1,85 +1,546 @@
 {
-  "generatedAt": "2026-07-29T11:12:03+09:00",
-  "overallProgress": 6,
+  "generatedAt": "2026-07-29T11:13:04+09:00",
+  "overallProgress": 0,
   "phases": [
     {
       "id": 1,
       "issueNumber": 1,
-      "state": "in-progress",
-      "progress": 60,
-      "tasksDone": 6,
+      "state": "waiting",
+      "progress": 0,
+      "tasksDone": 0,
       "tasksTotal": 10,
       "outputsDone": 0,
-      "outputsTotal": 0,
+      "outputsTotal": 30,
       "tasks": [
         {
           "id": "P01-T01",
-          "checked": true,
+          "checked": false,
           "text": "기존 Planar 구조와 공통 조건을 정리한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P01-T01-O01",
+              "text": "공통 구조·재료·치수 조건표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P01-T01-O02",
+              "text": "공통 전압·물리 모델·추출 조건표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P01-T02",
-          "checked": true,
+          "checked": false,
           "text": "연속된 Single-Metal Gate 구조를 만든다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P01-T02-O01",
+              "text": "Single-Metal 구조 전체 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T02-O02",
+              "text": "Single-Metal 구조 단면 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P01-T03",
           "checked": false,
           "text": "같은 금속을 사용하고 중간에 간격만 있는 구조를 만든다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P01-T03-O01",
+              "text": "Same-Metal Gap 구조 전체 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T03-O02",
+              "text": "Same-Metal Gap 구조 단면 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T03-O03",
+              "text": "실제 Gap 치수 확인값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P01-T04",
-          "checked": true,
+          "checked": false,
           "text": "서로 다른 두 금속이 붙어 있는 구조를 만든다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P01-T04-O01",
+              "text": "Dual-Metal 무간격 구조 전체 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T04-O02",
+              "text": "Dual-Metal 무간격 구조 단면 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T04-O03",
+              "text": "금속 경계 위치 확인값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P01-T05",
-          "checked": true,
+          "checked": false,
           "text": "서로 다른 두 금속 사이에 간격이 있는 기존 구조를 만든다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P01-T05-O01",
+              "text": "Dual-Metal Gap 구조 전체 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T05-O02",
+              "text": "Dual-Metal Gap 구조 단면 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T05-O03",
+              "text": "Gap과 금속 경계 위치 확인값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P01-T06",
-          "checked": true,
+          "checked": false,
           "text": "네 구조에 같은 전압 조건을 적용한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P01-T06-O01",
+              "text": "공통 SDevice 실행 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T06-O02",
+              "text": "구조별 동일 실행 조건 확인표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P01-T07",
           "checked": false,
           "text": "전류 특성을 비교한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P01-T07-O01",
+              "text": "Id–Vg·Id–Vd 원본 데이터",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T07-O02",
+              "text": "네 구조 전류–전압 비교 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T07-O03",
+              "text": "Ion, Ioff, Vth, SS, DIBL 비교표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P01-T08",
           "checked": false,
           "text": "실리콘과 절연막 경계의 전위, 전도대, 전계를 비교한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P01-T08-O01",
+              "text": "계면 추출 경로 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T08-O02",
+              "text": "계면 전위 비교 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T08-O03",
+              "text": "전도대 비교 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T08-O04",
+              "text": "횡방향 전계 비교 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T08-O05",
+              "text": "Profile 원본 데이터",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P01-T09",
           "checked": false,
           "text": "금속 경계와 간격 부근의 변화를 확인한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P01-T09-O01",
+              "text": "경계·Gap 부근 확대 전계 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T09-O02",
+              "text": "경계 부근 Potential·Ec·전계 Profile",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P01-T09-O03",
+              "text": "경계 특이점과 추가 확인 항목 정리",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P01-T10",
-          "checked": true,
-          "text": "결과를 표와 그래프로 정리한다.",
-          "outputs": []
+          "checked": false,
+          "text": "결과를 표와 그래프로 정리하고 작동 원인을 판단한다.",
+          "outputs": [
+            {
+              "id": "P01-T10-O01",
+              "text": "네 구조 통합 비교표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P01-T10-O02",
+              "text": "Gap 효과 결론",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P01-T10-O03",
+              "text": "Dual-Metal 효과 결론",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P01-T10-O04",
+              "text": "Phase 2·3 진행 방향 결정문",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         }
       ],
-      "outputs": [],
+      "outputs": [
+        {
+          "id": "P01-T01-O01",
+          "text": "공통 구조·재료·치수 조건표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P01-T01"
+        },
+        {
+          "id": "P01-T01-O02",
+          "text": "공통 전압·물리 모델·추출 조건표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P01-T01"
+        },
+        {
+          "id": "P01-T02-O01",
+          "text": "Single-Metal 구조 전체 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T02"
+        },
+        {
+          "id": "P01-T02-O02",
+          "text": "Single-Metal 구조 단면 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T02"
+        },
+        {
+          "id": "P01-T03-O01",
+          "text": "Same-Metal Gap 구조 전체 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T03"
+        },
+        {
+          "id": "P01-T03-O02",
+          "text": "Same-Metal Gap 구조 단면 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T03"
+        },
+        {
+          "id": "P01-T03-O03",
+          "text": "실제 Gap 치수 확인값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T03"
+        },
+        {
+          "id": "P01-T04-O01",
+          "text": "Dual-Metal 무간격 구조 전체 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T04"
+        },
+        {
+          "id": "P01-T04-O02",
+          "text": "Dual-Metal 무간격 구조 단면 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T04"
+        },
+        {
+          "id": "P01-T04-O03",
+          "text": "금속 경계 위치 확인값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T04"
+        },
+        {
+          "id": "P01-T05-O01",
+          "text": "Dual-Metal Gap 구조 전체 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T05"
+        },
+        {
+          "id": "P01-T05-O02",
+          "text": "Dual-Metal Gap 구조 단면 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T05"
+        },
+        {
+          "id": "P01-T05-O03",
+          "text": "Gap과 금속 경계 위치 확인값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T05"
+        },
+        {
+          "id": "P01-T06-O01",
+          "text": "공통 SDevice 실행 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T06"
+        },
+        {
+          "id": "P01-T06-O02",
+          "text": "구조별 동일 실행 조건 확인표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P01-T06"
+        },
+        {
+          "id": "P01-T07-O01",
+          "text": "Id–Vg·Id–Vd 원본 데이터",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T07"
+        },
+        {
+          "id": "P01-T07-O02",
+          "text": "네 구조 전류–전압 비교 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T07"
+        },
+        {
+          "id": "P01-T07-O03",
+          "text": "Ion, Ioff, Vth, SS, DIBL 비교표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P01-T07"
+        },
+        {
+          "id": "P01-T08-O01",
+          "text": "계면 추출 경로 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T08"
+        },
+        {
+          "id": "P01-T08-O02",
+          "text": "계면 전위 비교 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T08"
+        },
+        {
+          "id": "P01-T08-O03",
+          "text": "전도대 비교 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T08"
+        },
+        {
+          "id": "P01-T08-O04",
+          "text": "횡방향 전계 비교 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T08"
+        },
+        {
+          "id": "P01-T08-O05",
+          "text": "Profile 원본 데이터",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T08"
+        },
+        {
+          "id": "P01-T09-O01",
+          "text": "경계·Gap 부근 확대 전계 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T09"
+        },
+        {
+          "id": "P01-T09-O02",
+          "text": "경계 부근 Potential·Ec·전계 Profile",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T09"
+        },
+        {
+          "id": "P01-T09-O03",
+          "text": "경계 특이점과 추가 확인 항목 정리",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P01-T09"
+        },
+        {
+          "id": "P01-T10-O01",
+          "text": "네 구조 통합 비교표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P01-T10"
+        },
+        {
+          "id": "P01-T10-O02",
+          "text": "Gap 효과 결론",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P01-T10"
+        },
+        {
+          "id": "P01-T10-O03",
+          "text": "Dual-Metal 효과 결론",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P01-T10"
+        },
+        {
+          "id": "P01-T10-O04",
+          "text": "Phase 2·3 진행 방향 결정문",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P01-T10"
+        }
+      ],
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-07-29T00:55:04Z",
-      "lastModifiedBy": "seanthe17",
-      "lastModifiedAction": "체크리스트 수정"
+      "updatedAt": "2026-07-29T02:12:55Z",
+      "lastModifiedBy": "jujushmaterial",
+      "lastModifiedAction": "과제·산출물 목록 수정"
     },
     {
       "id": 2,
