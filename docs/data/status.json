@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:16:35+09:00",
+  "generatedAt": "2026-07-29T11:17:16+09:00",
   "overallProgress": 0,
   "phases": [
     {
@@ -3111,80 +3111,587 @@
       "tasksDone": 0,
       "tasksTotal": 11,
       "outputsDone": 0,
-      "outputsTotal": 0,
+      "outputsTotal": 33,
       "tasks": [
         {
           "id": "P07-T01",
           "checked": false,
           "text": "금속 식각 깊이를 바꾼다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P07-T01-O01",
+              "text": "식각 깊이 Nominal·변화 범위·Split 표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T01-O02",
+              "text": "식각 깊이별 구조 이미지와 실제 치수",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T01-O03",
+              "text": "성능 데이터·변화 그래프·민감도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P07-T02",
           "checked": false,
           "text": "금속 증착 두께를 바꾼다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P07-T02-O01",
+              "text": "증착 두께 Nominal·변화 범위·Split 표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T02-O02",
+              "text": "증착 두께별 구조 이미지와 실제 치수",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T02-O03",
+              "text": "성능 데이터·변화 그래프·민감도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P07-T03",
           "checked": false,
           "text": "금속 경계 위치의 변화를 측정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P07-T03-O01",
+              "text": "목표·실제 금속 경계 위치 비교표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T03-O02",
+              "text": "경계 위치별 성능 데이터와 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T03-O03",
+              "text": "경계 위치 민감도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P07-T04",
           "checked": false,
           "text": "채널 지름을 바꾼다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P07-T04-O01",
+              "text": "채널 지름 Nominal·변화 범위·실제 치수표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T04-O02",
+              "text": "채널 지름별 성능 데이터와 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T04-O03",
+              "text": "채널 지름 민감도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P07-T05",
           "checked": false,
           "text": "절연막 두께를 바꾼다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P07-T05-O01",
+              "text": "절연막 두께 Nominal·변화 범위·실제 Tox 표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T05-O02",
+              "text": "절연막 두께별 성능 데이터와 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T05-O03",
+              "text": "절연막 두께 민감도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P07-T06",
           "checked": false,
           "text": "접합 위치를 바꾼다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P07-T06-O01",
+              "text": "접합 위치 Nominal·변화 범위·실제 위치표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T06-O02",
+              "text": "접합 위치별 성능 데이터와 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T06-O03",
+              "text": "접합 위치 민감도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P07-T07",
           "checked": false,
           "text": "도핑량과 열처리 조건을 바꾼다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P07-T07-O01",
+              "text": "도핑·열처리 Split 표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T07-O02",
+              "text": "도핑 Profile과 접합 확산량",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T07-O03",
+              "text": "성능 데이터·변화 그래프·민감도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P07-T08",
           "checked": false,
           "text": "금속 일함수 오차를 추가한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P07-T08-O01",
+              "text": "일함수 오차 범위와 Split 표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T08-O02",
+              "text": "일함수 오차별 성능 데이터와 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T08-O03",
+              "text": "일함수 오차 민감도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P07-T09",
           "checked": false,
           "text": "경계가 선명하지 않은 조건을 추가한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P07-T09-O01",
+              "text": "Graded boundary 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T09-O02",
+              "text": "경계 조건별 구조·전계 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T09-O03",
+              "text": "성능 데이터·변화 그래프·민감도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P07-T10",
           "checked": false,
-          "text": "각 조건의 소자 성능을 계산한다.",
-          "outputs": []
+          "text": "각 공정 조건의 소자 성능을 같은 기준으로 계산한다.",
+          "outputs": [
+            {
+              "id": "P07-T10-O01",
+              "text": "공정 변동 공통 SDevice·추출 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P07-T10-O02",
+              "text": "공정 조건별 통합 성능 데이터셋",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P07-T10-O03",
+              "text": "정상·경계·실패 조건 비교표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P07-T11",
           "checked": false,
-          "text": "주요 영향 변수를 선정한다.",
-          "outputs": []
+          "text": "성능에 큰 영향을 주는 주요 변수를 선정한다.",
+          "outputs": [
+            {
+              "id": "P07-T11-O01",
+              "text": "변수별 영향도·민감도 순위",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P07-T11-O02",
+              "text": "조합 DOE 대상 변수 목록",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P07-T11-O03",
+              "text": "제외 변수와 제외 이유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         }
       ],
-      "outputs": [],
+      "outputs": [
+        {
+          "id": "P07-T01-O01",
+          "text": "식각 깊이 Nominal·변화 범위·Split 표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T01"
+        },
+        {
+          "id": "P07-T01-O02",
+          "text": "식각 깊이별 구조 이미지와 실제 치수",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T01"
+        },
+        {
+          "id": "P07-T01-O03",
+          "text": "성능 데이터·변화 그래프·민감도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T01"
+        },
+        {
+          "id": "P07-T02-O01",
+          "text": "증착 두께 Nominal·변화 범위·Split 표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T02"
+        },
+        {
+          "id": "P07-T02-O02",
+          "text": "증착 두께별 구조 이미지와 실제 치수",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T02"
+        },
+        {
+          "id": "P07-T02-O03",
+          "text": "성능 데이터·변화 그래프·민감도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T02"
+        },
+        {
+          "id": "P07-T03-O01",
+          "text": "목표·실제 금속 경계 위치 비교표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T03"
+        },
+        {
+          "id": "P07-T03-O02",
+          "text": "경계 위치별 성능 데이터와 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T03"
+        },
+        {
+          "id": "P07-T03-O03",
+          "text": "경계 위치 민감도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T03"
+        },
+        {
+          "id": "P07-T04-O01",
+          "text": "채널 지름 Nominal·변화 범위·실제 치수표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T04"
+        },
+        {
+          "id": "P07-T04-O02",
+          "text": "채널 지름별 성능 데이터와 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T04"
+        },
+        {
+          "id": "P07-T04-O03",
+          "text": "채널 지름 민감도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T04"
+        },
+        {
+          "id": "P07-T05-O01",
+          "text": "절연막 두께 Nominal·변화 범위·실제 Tox 표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T05"
+        },
+        {
+          "id": "P07-T05-O02",
+          "text": "절연막 두께별 성능 데이터와 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T05"
+        },
+        {
+          "id": "P07-T05-O03",
+          "text": "절연막 두께 민감도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T05"
+        },
+        {
+          "id": "P07-T06-O01",
+          "text": "접합 위치 Nominal·변화 범위·실제 위치표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T06"
+        },
+        {
+          "id": "P07-T06-O02",
+          "text": "접합 위치별 성능 데이터와 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T06"
+        },
+        {
+          "id": "P07-T06-O03",
+          "text": "접합 위치 민감도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T06"
+        },
+        {
+          "id": "P07-T07-O01",
+          "text": "도핑·열처리 Split 표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T07"
+        },
+        {
+          "id": "P07-T07-O02",
+          "text": "도핑 Profile과 접합 확산량",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T07"
+        },
+        {
+          "id": "P07-T07-O03",
+          "text": "성능 데이터·변화 그래프·민감도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T07"
+        },
+        {
+          "id": "P07-T08-O01",
+          "text": "일함수 오차 범위와 Split 표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T08"
+        },
+        {
+          "id": "P07-T08-O02",
+          "text": "일함수 오차별 성능 데이터와 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T08"
+        },
+        {
+          "id": "P07-T08-O03",
+          "text": "일함수 오차 민감도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T08"
+        },
+        {
+          "id": "P07-T09-O01",
+          "text": "Graded boundary 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T09"
+        },
+        {
+          "id": "P07-T09-O02",
+          "text": "경계 조건별 구조·전계 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T09"
+        },
+        {
+          "id": "P07-T09-O03",
+          "text": "성능 데이터·변화 그래프·민감도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T09"
+        },
+        {
+          "id": "P07-T10-O01",
+          "text": "공정 변동 공통 SDevice·추출 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P07-T10"
+        },
+        {
+          "id": "P07-T10-O02",
+          "text": "공정 조건별 통합 성능 데이터셋",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P07-T10"
+        },
+        {
+          "id": "P07-T10-O03",
+          "text": "정상·경계·실패 조건 비교표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P07-T10"
+        },
+        {
+          "id": "P07-T11-O01",
+          "text": "변수별 영향도·민감도 순위",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P07-T11"
+        },
+        {
+          "id": "P07-T11-O02",
+          "text": "조합 DOE 대상 변수 목록",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P07-T11"
+        },
+        {
+          "id": "P07-T11-O03",
+          "text": "제외 변수와 제외 이유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P07-T11"
+        }
+      ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:25:08Z",
+      "updatedAt": "2026-07-29T02:17:01Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "Issue 생성"
+      "lastModifiedAction": "과제·산출물 목록 수정"
     },
     {
       "id": 8,
