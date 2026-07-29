@@ -1,0 +1,45 @@
+name: Test table submission
+
+on:
+  pull_request:
+    paths:
+      - "docs/**"
+      - "worker/**"
+      - "scripts/sync_dashboard*.py"
+      - "scripts/test_table_submission_contract.py"
+      - ".github/workflows/test-table-submission.yml"
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "worker/**"
+      - "scripts/sync_dashboard*.py"
+      - "scripts/test_table_submission_contract.py"
+      - ".github/workflows/test-table-submission.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-twice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run table submission checks twice
+        run: |
+          for run in 1 2; do
+            echo "===== table verification ${run}/2 ====="
+            node --check docs/table-submission.js
+            node --check worker/src/v5.js
+            node worker/test/table-submission.test.mjs
+            python scripts/test_table_submission_contract.py
+            python scripts/test_sync_task_outputs.py
+            python scripts/test_frontend_contract.py
+          done
