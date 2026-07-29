@@ -83,7 +83,7 @@ async function testOwnerDeletesOwnSubmission() {
     }
     if (String(url).endsWith("/git/blobs") && method === "POST") {
       const body = JSON.parse(options.body);
-      return Response.json({ sha: body.content.includes(secondId) ? "submissions-new" : "readme-new" });
+      return Response.json({ sha: body.content.trimStart().startsWith("{") ? "submissions-new" : "readme-new" });
     }
     if (String(url).endsWith("/git/trees") && method === "POST") return Response.json({ sha: "new-tree" });
     if (String(url).endsWith("/git/commits") && method === "POST") return Response.json({ sha: "new-commit" });
