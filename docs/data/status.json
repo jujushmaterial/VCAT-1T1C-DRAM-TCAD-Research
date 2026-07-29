@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:50:43+09:00",
+  "generatedAt": "2026-07-29T12:27:12+09:00",
   "overallProgress": 0,
   "phases": [
     {
@@ -2036,7 +2036,7 @@
       "tasksDone": 0,
       "tasksTotal": 10,
       "outputsDone": 0,
-      "outputsTotal": 31,
+      "outputsTotal": 33,
       "tasks": [
         {
           "id": "P05-T01",
@@ -2046,21 +2046,21 @@
             {
               "id": "P05-T01-O01",
               "text": "최소 금속 구간·Gap·채널 치수 기준표",
-              "type": "files",
+              "type": "table",
               "review": "recommended",
               "submissions": []
             },
             {
               "id": "P05-T01-O02",
               "text": "현실적인 일함수·절연막 범위",
-              "type": "files",
+              "type": "table",
               "review": "recommended",
               "submissions": []
             },
             {
               "id": "P05-T01-O03",
               "text": "제외 조건과 제외 후보 목록",
-              "type": "files",
+              "type": "table",
               "review": "recommended",
               "submissions": []
             }
@@ -2074,14 +2074,14 @@
             {
               "id": "P05-T02-O01",
               "text": "경계 위치 Sweep 조건표",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "submissions": []
             },
             {
               "id": "P05-T02-O02",
               "text": "경계 위치 Sweep 원본 데이터",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "submissions": []
             },
@@ -2102,14 +2102,14 @@
             {
               "id": "P05-T03-O01",
               "text": "금속 비율 Sweep 조건표",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "submissions": []
             },
             {
               "id": "P05-T03-O02",
               "text": "금속 비율 Sweep 원본 데이터",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "submissions": []
             },
@@ -2130,14 +2130,14 @@
             {
               "id": "P05-T04-O01",
               "text": "일함수 Sweep 조건표",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "submissions": []
             },
             {
               "id": "P05-T04-O02",
               "text": "일함수 Sweep 원본 데이터",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "submissions": []
             },
@@ -2158,14 +2158,14 @@
             {
               "id": "P05-T05-O01",
               "text": "두 경계 2차원 Sweep 조건표",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "submissions": []
             },
             {
               "id": "P05-T05-O02",
               "text": "Three-zone Sweep 원본 데이터",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "submissions": []
             },
@@ -2192,8 +2192,8 @@
             },
             {
               "id": "P05-T06-O02",
-              "text": "Tri-Metal Sweep 데이터와 Map",
-              "type": "files",
+              "text": "Tri-Metal Sweep 원본 데이터",
+              "type": "table",
               "review": "none",
               "submissions": []
             },
@@ -2202,6 +2202,13 @@
               "text": "미수행 시 제외 사유",
               "type": "files",
               "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P05-T06-O04",
+              "text": "Tri-Metal 성능 Map",
+              "type": "files",
+              "review": "none",
               "submissions": []
             }
           ]
@@ -2214,14 +2221,14 @@
             {
               "id": "P05-T07-O01",
               "text": "Gap 길이·절연체 조건표",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "submissions": []
             },
             {
               "id": "P05-T07-O02",
               "text": "Gap·절연체 Sweep 원본 데이터",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "submissions": []
             },
@@ -2249,13 +2256,20 @@
             {
               "id": "P05-T08-O01",
               "text": "Nominal-best 구조와 조건표",
-              "type": "files",
+              "type": "table",
               "review": "recommended",
               "submissions": []
             },
             {
               "id": "P05-T08-O02",
-              "text": "최고 성능값과 선정 이유",
+              "text": "최고 성능값 표",
+              "type": "table",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P05-T08-O03",
+              "text": "Nominal-best 선정 이유",
               "type": "files",
               "review": "recommended",
               "submissions": []
@@ -2270,14 +2284,14 @@
             {
               "id": "P05-T09-O01",
               "text": "변수별 민감도 표",
-              "type": "files",
+              "type": "table",
               "review": "recommended",
               "submissions": []
             },
             {
               "id": "P05-T09-O02",
               "text": "Robust-best 구조와 조건표",
-              "type": "files",
+              "type": "table",
               "review": "recommended",
               "submissions": []
             },
@@ -2298,21 +2312,21 @@
             {
               "id": "P05-T10-O01",
               "text": "Write·Read·Retention·누설 통합표",
-              "type": "files",
+              "type": "table",
               "review": "recommended",
               "submissions": []
             },
             {
               "id": "P05-T10-O02",
               "text": "DRAM-balanced 구조와 조건표",
-              "type": "files",
+              "type": "table",
               "review": "recommended",
               "submissions": []
             },
             {
               "id": "P05-T10-O03",
               "text": "최종 SProcess 대상 후보 2~3개",
-              "type": "files",
+              "type": "table",
               "review": "recommended",
               "submissions": []
             },
@@ -2330,7 +2344,7 @@
         {
           "id": "P05-T01-O01",
           "text": "최소 금속 구간·Gap·채널 치수 기준표",
-          "type": "files",
+          "type": "table",
           "review": "recommended",
           "submissions": [],
           "taskId": "P05-T01"
@@ -2338,7 +2352,7 @@
         {
           "id": "P05-T01-O02",
           "text": "현실적인 일함수·절연막 범위",
-          "type": "files",
+          "type": "table",
           "review": "recommended",
           "submissions": [],
           "taskId": "P05-T01"
@@ -2346,7 +2360,7 @@
         {
           "id": "P05-T01-O03",
           "text": "제외 조건과 제외 후보 목록",
-          "type": "files",
+          "type": "table",
           "review": "recommended",
           "submissions": [],
           "taskId": "P05-T01"
@@ -2354,7 +2368,7 @@
         {
           "id": "P05-T02-O01",
           "text": "경계 위치 Sweep 조건표",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "submissions": [],
           "taskId": "P05-T02"
@@ -2362,7 +2376,7 @@
         {
           "id": "P05-T02-O02",
           "text": "경계 위치 Sweep 원본 데이터",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "submissions": [],
           "taskId": "P05-T02"
@@ -2378,7 +2392,7 @@
         {
           "id": "P05-T03-O01",
           "text": "금속 비율 Sweep 조건표",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "submissions": [],
           "taskId": "P05-T03"
@@ -2386,7 +2400,7 @@
         {
           "id": "P05-T03-O02",
           "text": "금속 비율 Sweep 원본 데이터",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "submissions": [],
           "taskId": "P05-T03"
@@ -2402,7 +2416,7 @@
         {
           "id": "P05-T04-O01",
           "text": "일함수 Sweep 조건표",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "submissions": [],
           "taskId": "P05-T04"
@@ -2410,7 +2424,7 @@
         {
           "id": "P05-T04-O02",
           "text": "일함수 Sweep 원본 데이터",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "submissions": [],
           "taskId": "P05-T04"
@@ -2426,7 +2440,7 @@
         {
           "id": "P05-T05-O01",
           "text": "두 경계 2차원 Sweep 조건표",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "submissions": [],
           "taskId": "P05-T05"
@@ -2434,7 +2448,7 @@
         {
           "id": "P05-T05-O02",
           "text": "Three-zone Sweep 원본 데이터",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "submissions": [],
           "taskId": "P05-T05"
@@ -2457,8 +2471,8 @@
         },
         {
           "id": "P05-T06-O02",
-          "text": "Tri-Metal Sweep 데이터와 Map",
-          "type": "files",
+          "text": "Tri-Metal Sweep 원본 데이터",
+          "type": "table",
           "review": "none",
           "submissions": [],
           "taskId": "P05-T06"
@@ -2472,9 +2486,17 @@
           "taskId": "P05-T06"
         },
         {
+          "id": "P05-T06-O04",
+          "text": "Tri-Metal 성능 Map",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T06"
+        },
+        {
           "id": "P05-T07-O01",
           "text": "Gap 길이·절연체 조건표",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "submissions": [],
           "taskId": "P05-T07"
@@ -2482,7 +2504,7 @@
         {
           "id": "P05-T07-O02",
           "text": "Gap·절연체 Sweep 원본 데이터",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "submissions": [],
           "taskId": "P05-T07"
@@ -2506,14 +2528,22 @@
         {
           "id": "P05-T08-O01",
           "text": "Nominal-best 구조와 조건표",
-          "type": "files",
+          "type": "table",
           "review": "recommended",
           "submissions": [],
           "taskId": "P05-T08"
         },
         {
           "id": "P05-T08-O02",
-          "text": "최고 성능값과 선정 이유",
+          "text": "최고 성능값 표",
+          "type": "table",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T08"
+        },
+        {
+          "id": "P05-T08-O03",
+          "text": "Nominal-best 선정 이유",
           "type": "files",
           "review": "recommended",
           "submissions": [],
@@ -2522,7 +2552,7 @@
         {
           "id": "P05-T09-O01",
           "text": "변수별 민감도 표",
-          "type": "files",
+          "type": "table",
           "review": "recommended",
           "submissions": [],
           "taskId": "P05-T09"
@@ -2530,7 +2560,7 @@
         {
           "id": "P05-T09-O02",
           "text": "Robust-best 구조와 조건표",
-          "type": "files",
+          "type": "table",
           "review": "recommended",
           "submissions": [],
           "taskId": "P05-T09"
@@ -2546,7 +2576,7 @@
         {
           "id": "P05-T10-O01",
           "text": "Write·Read·Retention·누설 통합표",
-          "type": "files",
+          "type": "table",
           "review": "recommended",
           "submissions": [],
           "taskId": "P05-T10"
@@ -2554,7 +2584,7 @@
         {
           "id": "P05-T10-O02",
           "text": "DRAM-balanced 구조와 조건표",
-          "type": "files",
+          "type": "table",
           "review": "recommended",
           "submissions": [],
           "taskId": "P05-T10"
@@ -2562,7 +2592,7 @@
         {
           "id": "P05-T10-O03",
           "text": "최종 SProcess 대상 후보 2~3개",
-          "type": "files",
+          "type": "table",
           "review": "recommended",
           "submissions": [],
           "taskId": "P05-T10"
@@ -2577,7 +2607,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-29T02:15:38Z",
+      "updatedAt": "2026-07-29T03:27:02Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정"
     },
