@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-29T14:01:58+09:00",
-  "overallProgress": 0,
+  "generatedAt": "2026-07-29T14:34:26+09:00",
+  "overallProgress": 1,
   "phases": [
     {
       "id": 1,
       "issueNumber": 1,
-      "state": "waiting",
-      "progress": 0,
-      "tasksDone": 0,
+      "state": "in-progress",
+      "progress": 10,
+      "tasksDone": 1,
       "tasksTotal": 10,
       "outputsDone": 2,
       "outputsTotal": 30,
@@ -112,7 +112,7 @@
         },
         {
           "id": "P01-T05",
-          "checked": false,
+          "checked": true,
           "text": "서로 다른 두 금속 사이에 간격이 있는 기존 구조를 만든다.",
           "outputs": [
             {
@@ -121,30 +121,6 @@
               "type": "code",
               "review": "none",
               "submissions": [
-                {
-                  "submissionId": "20260729045229-seanthe17-NQE9OA",
-                  "phaseId": 1,
-                  "issueNumber": 1,
-                  "taskId": "P01-T05",
-                  "taskText": "서로 다른 두 금속 사이에 간격이 있는 기존 구조를 만든다.",
-                  "outputId": "P01-T05-O01",
-                  "outputText": "Dual-Metal Gap 구조 전체 코드",
-                  "uploader": "seanthe17",
-                  "memberName": "이선재",
-                  "memberFolder": "LeeSeonJae",
-                  "type": "code",
-                  "uploadedAt": "2026-07-29T04:52:29.419Z",
-                  "folderPath": "members/LeeSeonJae/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260729045229-seanthe17-NQE9OA",
-                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonJae/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260729045229-seanthe17-NQE9OA",
-                  "summary": "1개 코드 파일 · 6B",
-                  "files": [
-                    {
-                      "name": "code-1.cmd",
-                      "path": "members/LeeSeonJae/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260729045229-seanthe17-NQE9OA/source/code-1.cmd",
-                      "size": 6
-                    }
-                  ]
-                },
                 {
                   "submissionId": "20260729045729-seanthe17-mNFaUg",
                   "phaseId": 1,
@@ -465,30 +441,6 @@
           "review": "none",
           "submissions": [
             {
-              "submissionId": "20260729045229-seanthe17-NQE9OA",
-              "phaseId": 1,
-              "issueNumber": 1,
-              "taskId": "P01-T05",
-              "taskText": "서로 다른 두 금속 사이에 간격이 있는 기존 구조를 만든다.",
-              "outputId": "P01-T05-O01",
-              "outputText": "Dual-Metal Gap 구조 전체 코드",
-              "uploader": "seanthe17",
-              "memberName": "이선재",
-              "memberFolder": "LeeSeonJae",
-              "type": "code",
-              "uploadedAt": "2026-07-29T04:52:29.419Z",
-              "folderPath": "members/LeeSeonJae/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260729045229-seanthe17-NQE9OA",
-              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonJae/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260729045229-seanthe17-NQE9OA",
-              "summary": "1개 코드 파일 · 6B",
-              "files": [
-                {
-                  "name": "code-1.cmd",
-                  "path": "members/LeeSeonJae/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260729045229-seanthe17-NQE9OA/source/code-1.cmd",
-                  "size": 6
-                }
-              ]
-            },
-            {
               "submissionId": "20260729045729-seanthe17-mNFaUg",
               "phaseId": 1,
               "issueNumber": 1,
@@ -706,8 +658,8 @@
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-07-29T04:01:32Z",
-      "lastModifiedBy": "seanthe17",
+      "updatedAt": "2026-07-29T05:34:13Z",
+      "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정"
     },
     {
