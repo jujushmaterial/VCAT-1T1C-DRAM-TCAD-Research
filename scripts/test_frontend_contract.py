@@ -39,5 +39,5 @@ assert 'table-submission.js' in index
 assert 'submission-delete.css' in index
 assert 'submission-delete.js' in index
 assert index.index('table-submission.js') < index.index('submission-delete.js')
-assert 'main = "src/v6.js"' in wrangler
+assert 'main = "src/v7.js"' in wrangler
 print('frontend contract tests passed')

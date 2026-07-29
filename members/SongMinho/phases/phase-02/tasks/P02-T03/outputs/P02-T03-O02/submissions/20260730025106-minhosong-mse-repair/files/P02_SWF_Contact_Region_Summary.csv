@@ -1,0 +1,9 @@
+Type,Name,Material_or_Boundary,Position_or_Range,Verification
+Region,R.SN,Silicon,x=0.000-0.020 um,Confirmed in SVisual region list
+Region,R.Channel,Silicon,x=0.020-0.080 um,Confirmed in SVisual region list
+Region,R.BL,Silicon,x=0.080-0.100 um,Confirmed in SVisual region list
+Region,R.GateOxide,SiO2,x=0.020-0.080 um; y=0.006-0.007 um,Confirmed in SVisual region list
+Contact,storage,Top silicon boundary,x=0.000 um,Confirmed in SVisual contact list
+Contact,bitline,Bottom silicon boundary,x=0.100 um,Confirmed in SVisual contact list
+Contact,gate,Outer oxide boundary,x=0.020-0.080 um; y=0.007 um,Confirmed as one continuous gate
+Measurement,GateOxideThickness,Si/SiO2 to outer oxide,y=0.006-0.00700219 um,Measured 0.00100219 um = 1.00219 nm

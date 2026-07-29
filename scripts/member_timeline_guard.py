@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import re
 import subprocess
@@ -14,6 +15,7 @@ from pathlib import Path
 MEMBER_PATH = re.compile(r"^members/([^/]+)/(.+)$")
 PHASE_PATTERN = re.compile(r"(?:^|/)phase-(\d{2})(?:/|$)", re.IGNORECASE)
 OUTPUT_PATTERN = re.compile(r"(?:^|/)(P\d{2}-O\d{2})(?:/|$)", re.IGNORECASE)
+MEMBERS_FILE = Path("docs/data/members.json")
 KST = timezone(timedelta(hours=9))
 
 
@@ -45,6 +47,16 @@ def changed_paths(base: str | None, head: str | None) -> list[tuple[str, str]]:
         path = parts[-1]
         changes.append((status, path.replace("\\", "/")))
     return changes
+
+
+def registered_member_folders() -> set[str]:
+    """Return only the canonical personal folders registered for the dashboard."""
+    data = json.loads(MEMBERS_FILE.read_text(encoding="utf-8"))
+    return {
+        str(member.get("folder", "")).strip()
+        for member in data.get("members", [])
+        if str(member.get("folder", "")).strip()
+    }
 
 
 def group_member_changes(changes: list[tuple[str, str]]) -> dict[str, dict[str, object]]:
@@ -138,10 +150,16 @@ def main() -> int:
         print(exc.stderr, file=sys.stderr)
         return 2
 
+    registered = registered_member_folders()
     grouped = group_member_changes(changes)
     missing: list[tuple[str, list[tuple[str, str]]]] = []
     for folder, data in sorted(grouped.items()):
         files = list(data["files"])
+        # An unregistered folder cannot have a canonical TIMELINE.md. Permit only
+        # deletion-only cleanup; additions/modifications are rejected by the
+        # separate member-path validator.
+        if folder not in registered and files and all(status.upper().startswith("D") for status, _ in files):
+            continue
         if files and not bool(data["timeline_changed"]):
             missing.append((folder, files))
 
