@@ -476,13 +476,8 @@ async function createTaskSubmission(phaseId, requestedTaskId, requestedOutputId,
 }
 
 function assertSubmissionPermission(issue, session, env) {
-  const assignees = (issue.assignees || []).map((user) => String(user.login || "").toLowerCase()).filter(Boolean);
-  const login = String(session.user.login || "").toLowerCase();
-  const owner = String(env.REPOSITORY || "").split("/", 1)[0].toLowerCase();
-  const isAdmin = Boolean(session.user.isAdmin || login === owner);
-  if (assignees.length && !assignees.includes(login) && !isAdmin) {
-    throw httpError(403, "이 Phase의 담당자 또는 관리자만 산출물을 제출할 수 있습니다.");
-  }
+  // Phase assignees manage responsibility; submission access is validated by resolveMember.
+  return true;
 }
 
 async function resolveMember(login, token, env) {
