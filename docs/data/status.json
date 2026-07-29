@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T13:01:42+09:00",
+  "generatedAt": "2026-07-29T13:08:26+09:00",
   "overallProgress": 0,
   "phases": [
     {
@@ -1184,7 +1184,7 @@
             {
               "id": "P03-T07-O01",
               "text": "구조별 Ion, Ioff, Vth, SS, DIBL, GIDL 통합표",
-              "type": "files",
+              "type": "table",
               "review": "recommended",
               "submissions": []
             },
@@ -1430,7 +1430,7 @@
         {
           "id": "P03-T07-O01",
           "text": "구조별 Ion, Ioff, Vth, SS, DIBL, GIDL 통합표",
-          "type": "files",
+          "type": "table",
           "review": "recommended",
           "submissions": [],
           "taskId": "P03-T07"
@@ -1517,7 +1517,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-29T02:14:15Z",
+      "updatedAt": "2026-07-29T04:08:16Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정"
     },
