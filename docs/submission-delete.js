@@ -61,6 +61,7 @@ async function deleteSubmissionRecord(button, output) {
   );
   if (!confirmed) return;
 
+  const originalLabel = button.textContent;
   button.disabled = true;
   button.textContent = "삭제 중";
   try {
@@ -74,6 +75,6 @@ async function deleteSubmissionRecord(button, output) {
   } catch (error) {
     showToast(error.message);
     button.disabled = false;
-    button.textContent = canDeleteSubmission({ uploader: currentUser?.login }) ? "내 제출 삭제" : "관리자 삭제";
+    button.textContent = originalLabel;
   }
 }
