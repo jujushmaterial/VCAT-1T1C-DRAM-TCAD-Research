@@ -12,6 +12,7 @@ on:
     branches: [main]
     paths:
       - "scripts/sync_dashboard.py"
+      - "scripts/sync_dashboard_v5.py"
       - "docs/data/phases.json"
       - "docs/data/submissions.json"
       - ".github/workflows/sync-dashboard.yml"
@@ -42,7 +43,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
           GITHUB_EVENT_PATH: ${{ github.event_path }}
-        run: python scripts/sync_dashboard.py
+        run: python scripts/sync_dashboard_v5.py
 
       - name: Commit updated dashboard data
         run: |
