@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T02:34:42+09:00",
+  "generatedAt": "2026-07-30T03:24:49+09:00",
   "overallProgress": 5,
   "phases": [
     {
@@ -669,7 +669,7 @@
       "progress": 44,
       "tasksDone": 4,
       "tasksTotal": 9,
-      "outputsDone": 0,
+      "outputsDone": 10,
       "outputsTotal": 25,
       "tasks": [
         {
@@ -682,14 +682,62 @@
               "text": "기준 소자 조건표",
               "type": "files",
               "review": "recommended",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730025101-minhosong-mse-repair",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T01",
+                  "taskText": "기준으로 사용할 VCAT 구조와 조건을 정리한다.",
+                  "outputId": "P02-T01-O01",
+                  "outputText": "기준 소자 조건표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-29T17:51:01.000Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O01/submissions/20260730025101-minhosong-mse-repair",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O01/submissions/20260730025101-minhosong-mse-repair",
+                  "summary": "1개 파일",
+                  "files": [
+                    {
+                      "name": "P02_SWB_Parameters.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O01/submissions/20260730025101-minhosong-mse-repair/files/P02_SWB_Parameters.csv"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T01-O02",
               "text": "좌표계·단위·변수명 표",
               "type": "files",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730025102-minhosong-mse-repair",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T01",
+                  "taskText": "기준으로 사용할 VCAT 구조와 조건을 정리한다.",
+                  "outputId": "P02-T01-O02",
+                  "outputText": "좌표계·단위·변수명 표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-29T17:51:02.000Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260730025102-minhosong-mse-repair",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260730025102-minhosong-mse-repair",
+                  "summary": "1개 파일",
+                  "files": [
+                    {
+                      "name": "P02_SWF_Coordinates_Units_Variables.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260730025102-minhosong-mse-repair/files/P02_SWF_Coordinates_Units_Variables.csv"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -703,14 +751,62 @@
               "text": "Single-Metal VCAT 전체 SDE 코드",
               "type": "code",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730025103-minhosong-mse-repair",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T02",
+                  "taskText": "SDE로 Single-Metal VCAT 구조를 만든다.",
+                  "outputId": "P02-T02-O01",
+                  "outputText": "Single-Metal VCAT 전체 SDE 코드",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "code",
+                  "uploadedAt": "2026-07-29T17:51:03.000Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260730025103-minhosong-mse-repair",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260730025103-minhosong-mse-repair",
+                  "summary": "1개 코드 파일",
+                  "files": [
+                    {
+                      "name": "P02_SWF_VCAT_SDE_v0p1.cmd",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260730025103-minhosong-mse-repair/source/P02_SWF_VCAT_SDE_v0p1.cmd"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T02-O02",
               "text": "최종 구조 이미지",
               "type": "files",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730025104-minhosong-mse-repair",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T02",
+                  "taskText": "SDE로 Single-Metal VCAT 구조를 만든다.",
+                  "outputId": "P02-T02-O02",
+                  "outputText": "최종 구조 이미지",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-29T17:51:04.000Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O02/submissions/20260730025104-minhosong-mse-repair",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O02/submissions/20260730025104-minhosong-mse-repair",
+                  "summary": "1개 파일",
+                  "files": [
+                    {
+                      "name": "P02_SWF_SDE_Summary.svg",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O02/submissions/20260730025104-minhosong-mse-repair/files/P02_SWF_SDE_Summary.svg"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -724,14 +820,62 @@
               "text": "Contact·Region 확인 이미지 또는 표",
               "type": "files",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730025105-minhosong-mse-repair",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T03",
+                  "taskText": "위쪽·아래쪽 전극, 게이트, 절연막을 설정한다.",
+                  "outputId": "P02-T03-O01",
+                  "outputText": "Contact·Region 확인 이미지 또는 표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-29T17:51:05.000Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260730025105-minhosong-mse-repair",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260730025105-minhosong-mse-repair",
+                  "summary": "1개 파일",
+                  "files": [
+                    {
+                      "name": "P02_SWF_Contact_Region_Summary.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260730025105-minhosong-mse-repair/files/P02_SWF_Contact_Region_Summary.csv"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T03-O02",
               "text": "절연막 두께 측정값",
               "type": "files",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730025106-minhosong-mse-repair",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T03",
+                  "taskText": "위쪽·아래쪽 전극, 게이트, 절연막을 설정한다.",
+                  "outputId": "P02-T03-O02",
+                  "outputText": "절연막 두께 측정값",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-29T17:51:06.000Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O02/submissions/20260730025106-minhosong-mse-repair",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O02/submissions/20260730025106-minhosong-mse-repair",
+                  "summary": "1개 파일",
+                  "files": [
+                    {
+                      "name": "P02_SWF_Contact_Region_Summary.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O02/submissions/20260730025106-minhosong-mse-repair/files/P02_SWF_Contact_Region_Summary.csv"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -773,21 +917,93 @@
               "text": "메시 설정값",
               "type": "files",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730025107-minhosong-mse-repair",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T05",
+                  "taskText": "메시를 설정하고 구조를 확인한다.",
+                  "outputId": "P02-T05-O01",
+                  "outputText": "메시 설정값",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-29T17:51:07.000Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O01/submissions/20260730025107-minhosong-mse-repair",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O01/submissions/20260730025107-minhosong-mse-repair",
+                  "summary": "1개 파일",
+                  "files": [
+                    {
+                      "name": "P02_SWF_Mesh_Settings.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O01/submissions/20260730025107-minhosong-mse-repair/files/P02_SWF_Mesh_Settings.csv"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T05-O02",
               "text": "구조와 메시 이미지",
               "type": "files",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730025108-minhosong-mse-repair",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T05",
+                  "taskText": "메시를 설정하고 구조를 확인한다.",
+                  "outputId": "P02-T05-O02",
+                  "outputText": "구조와 메시 이미지",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-29T17:51:08.000Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260730025108-minhosong-mse-repair",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260730025108-minhosong-mse-repair",
+                  "summary": "1개 파일",
+                  "files": [
+                    {
+                      "name": "P02_SWF_SDE_Summary.svg",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260730025108-minhosong-mse-repair/files/P02_SWF_SDE_Summary.svg"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T05-O03",
               "text": "주요 경계 최소 메시 크기",
               "type": "files",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730025109-minhosong-mse-repair",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T05",
+                  "taskText": "메시를 설정하고 구조를 확인한다.",
+                  "outputId": "P02-T05-O03",
+                  "outputText": "주요 경계 최소 메시 크기",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-29T17:51:09.000Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260730025109-minhosong-mse-repair",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260730025109-minhosong-mse-repair",
+                  "summary": "1개 파일",
+                  "files": [
+                    {
+                      "name": "P02_SWF_Mesh_Run_Summary.md",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260730025109-minhosong-mse-repair/files/P02_SWF_Mesh_Run_Summary.md"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -801,7 +1017,31 @@
               "text": "전체 SDevice 코드",
               "type": "code",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730025110-minhosong-mse-repair",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T06",
+                  "taskText": "Id–Vg와 Id–Vd를 계산한다.",
+                  "outputId": "P02-T06-O01",
+                  "outputText": "전체 SDevice 코드",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "code",
+                  "uploadedAt": "2026-07-29T17:51:10.000Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O01/submissions/20260730025110-minhosong-mse-repair",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O01/submissions/20260730025110-minhosong-mse-repair",
+                  "summary": "1개 코드 파일",
+                  "files": [
+                    {
+                      "name": "P02_SWF_SDevice_IdVg_v0p2.cmd",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O01/submissions/20260730025110-minhosong-mse-repair/source/P02_SWF_SDevice_IdVg_v0p2.cmd"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T06-O02",
@@ -917,7 +1157,31 @@
           "text": "기준 소자 조건표",
           "type": "files",
           "review": "recommended",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730025101-minhosong-mse-repair",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T01",
+              "taskText": "기준으로 사용할 VCAT 구조와 조건을 정리한다.",
+              "outputId": "P02-T01-O01",
+              "outputText": "기준 소자 조건표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-29T17:51:01.000Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O01/submissions/20260730025101-minhosong-mse-repair",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O01/submissions/20260730025101-minhosong-mse-repair",
+              "summary": "1개 파일",
+              "files": [
+                {
+                  "name": "P02_SWB_Parameters.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O01/submissions/20260730025101-minhosong-mse-repair/files/P02_SWB_Parameters.csv"
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T01"
         },
         {
@@ -925,7 +1189,31 @@
           "text": "좌표계·단위·변수명 표",
           "type": "files",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730025102-minhosong-mse-repair",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T01",
+              "taskText": "기준으로 사용할 VCAT 구조와 조건을 정리한다.",
+              "outputId": "P02-T01-O02",
+              "outputText": "좌표계·단위·변수명 표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-29T17:51:02.000Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260730025102-minhosong-mse-repair",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260730025102-minhosong-mse-repair",
+              "summary": "1개 파일",
+              "files": [
+                {
+                  "name": "P02_SWF_Coordinates_Units_Variables.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260730025102-minhosong-mse-repair/files/P02_SWF_Coordinates_Units_Variables.csv"
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T01"
         },
         {
@@ -933,7 +1221,31 @@
           "text": "Single-Metal VCAT 전체 SDE 코드",
           "type": "code",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730025103-minhosong-mse-repair",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T02",
+              "taskText": "SDE로 Single-Metal VCAT 구조를 만든다.",
+              "outputId": "P02-T02-O01",
+              "outputText": "Single-Metal VCAT 전체 SDE 코드",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "code",
+              "uploadedAt": "2026-07-29T17:51:03.000Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260730025103-minhosong-mse-repair",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260730025103-minhosong-mse-repair",
+              "summary": "1개 코드 파일",
+              "files": [
+                {
+                  "name": "P02_SWF_VCAT_SDE_v0p1.cmd",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260730025103-minhosong-mse-repair/source/P02_SWF_VCAT_SDE_v0p1.cmd"
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T02"
         },
         {
@@ -941,7 +1253,31 @@
           "text": "최종 구조 이미지",
           "type": "files",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730025104-minhosong-mse-repair",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T02",
+              "taskText": "SDE로 Single-Metal VCAT 구조를 만든다.",
+              "outputId": "P02-T02-O02",
+              "outputText": "최종 구조 이미지",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-29T17:51:04.000Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O02/submissions/20260730025104-minhosong-mse-repair",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O02/submissions/20260730025104-minhosong-mse-repair",
+              "summary": "1개 파일",
+              "files": [
+                {
+                  "name": "P02_SWF_SDE_Summary.svg",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O02/submissions/20260730025104-minhosong-mse-repair/files/P02_SWF_SDE_Summary.svg"
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T02"
         },
         {
@@ -949,7 +1285,31 @@
           "text": "Contact·Region 확인 이미지 또는 표",
           "type": "files",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730025105-minhosong-mse-repair",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T03",
+              "taskText": "위쪽·아래쪽 전극, 게이트, 절연막을 설정한다.",
+              "outputId": "P02-T03-O01",
+              "outputText": "Contact·Region 확인 이미지 또는 표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-29T17:51:05.000Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260730025105-minhosong-mse-repair",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260730025105-minhosong-mse-repair",
+              "summary": "1개 파일",
+              "files": [
+                {
+                  "name": "P02_SWF_Contact_Region_Summary.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260730025105-minhosong-mse-repair/files/P02_SWF_Contact_Region_Summary.csv"
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T03"
         },
         {
@@ -957,7 +1317,31 @@
           "text": "절연막 두께 측정값",
           "type": "files",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730025106-minhosong-mse-repair",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T03",
+              "taskText": "위쪽·아래쪽 전극, 게이트, 절연막을 설정한다.",
+              "outputId": "P02-T03-O02",
+              "outputText": "절연막 두께 측정값",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-29T17:51:06.000Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O02/submissions/20260730025106-minhosong-mse-repair",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O02/submissions/20260730025106-minhosong-mse-repair",
+              "summary": "1개 파일",
+              "files": [
+                {
+                  "name": "P02_SWF_Contact_Region_Summary.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O02/submissions/20260730025106-minhosong-mse-repair/files/P02_SWF_Contact_Region_Summary.csv"
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T03"
         },
         {
@@ -989,7 +1373,31 @@
           "text": "메시 설정값",
           "type": "files",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730025107-minhosong-mse-repair",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T05",
+              "taskText": "메시를 설정하고 구조를 확인한다.",
+              "outputId": "P02-T05-O01",
+              "outputText": "메시 설정값",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-29T17:51:07.000Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O01/submissions/20260730025107-minhosong-mse-repair",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O01/submissions/20260730025107-minhosong-mse-repair",
+              "summary": "1개 파일",
+              "files": [
+                {
+                  "name": "P02_SWF_Mesh_Settings.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O01/submissions/20260730025107-minhosong-mse-repair/files/P02_SWF_Mesh_Settings.csv"
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T05"
         },
         {
@@ -997,7 +1405,31 @@
           "text": "구조와 메시 이미지",
           "type": "files",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730025108-minhosong-mse-repair",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T05",
+              "taskText": "메시를 설정하고 구조를 확인한다.",
+              "outputId": "P02-T05-O02",
+              "outputText": "구조와 메시 이미지",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-29T17:51:08.000Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260730025108-minhosong-mse-repair",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260730025108-minhosong-mse-repair",
+              "summary": "1개 파일",
+              "files": [
+                {
+                  "name": "P02_SWF_SDE_Summary.svg",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260730025108-minhosong-mse-repair/files/P02_SWF_SDE_Summary.svg"
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T05"
         },
         {
@@ -1005,7 +1437,31 @@
           "text": "주요 경계 최소 메시 크기",
           "type": "files",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730025109-minhosong-mse-repair",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T05",
+              "taskText": "메시를 설정하고 구조를 확인한다.",
+              "outputId": "P02-T05-O03",
+              "outputText": "주요 경계 최소 메시 크기",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-29T17:51:09.000Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260730025109-minhosong-mse-repair",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260730025109-minhosong-mse-repair",
+              "summary": "1개 파일",
+              "files": [
+                {
+                  "name": "P02_SWF_Mesh_Run_Summary.md",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260730025109-minhosong-mse-repair/files/P02_SWF_Mesh_Run_Summary.md"
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T05"
         },
         {
@@ -1013,7 +1469,31 @@
           "text": "전체 SDevice 코드",
           "type": "code",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730025110-minhosong-mse-repair",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T06",
+              "taskText": "Id–Vg와 Id–Vd를 계산한다.",
+              "outputId": "P02-T06-O01",
+              "outputText": "전체 SDevice 코드",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "code",
+              "uploadedAt": "2026-07-29T17:51:10.000Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O01/submissions/20260730025110-minhosong-mse-repair",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O01/submissions/20260730025110-minhosong-mse-repair",
+              "summary": "1개 코드 파일",
+              "files": [
+                {
+                  "name": "P02_SWF_SDevice_IdVg_v0p2.cmd",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O01/submissions/20260730025110-minhosong-mse-repair/source/P02_SWF_SDevice_IdVg_v0p2.cmd"
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T06"
         },
         {
@@ -1116,7 +1596,7 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-07-29T17:04:25Z",
+      "updatedAt": "2026-07-29T17:52:53Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정"
     },
