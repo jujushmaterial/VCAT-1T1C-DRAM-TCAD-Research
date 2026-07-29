@@ -1,4 +1,4 @@
-/* Submission deletion controls for dashboard v6. */
+/* Submission deletion controls for dashboard v7. */
 
 function canDeleteSubmission(item) {
   if (!currentUser) return false;
@@ -9,9 +9,8 @@ function canDeleteSubmission(item) {
 
 function submissionDeleteButton(item) {
   if (!canDeleteSubmission(item) || !item.submissionId) return "";
-  const label = String(currentUser?.login || "").toLowerCase() === String(item.uploader || "").toLowerCase()
-    ? "내 제출 삭제"
-    : "관리자 삭제";
+  const ownSubmission = String(currentUser?.login || "").toLowerCase() === String(item.uploader || "").toLowerCase();
+  const label = ownSubmission ? "내 제출 삭제" : "관리자 삭제";
   return `<button class="btn btn--small submission-delete-button" type="button" data-submission-id="${escapeHtml(item.submissionId)}">${label}</button>`;
 }
 
@@ -51,13 +50,16 @@ async function deleteSubmissionRecord(button, output) {
   const phase = getDialogPhase();
   const submissionId = button.dataset.submissionId;
   const taskId = output.taskId;
-  if (!phase || !taskId || !submissionId) {
+  if (!phase || !output.id || !submissionId) {
     showToast("삭제할 제출본 정보를 찾지 못했습니다.");
     return;
   }
 
+  const item = (output.submissions ?? []).find((submission) => submission.submissionId === submissionId);
+  const submitter = item ? displayName(item.uploader) : "제출자 미확인";
+  const submittedAt = item ? formatDate(item.uploadedAt) : "시각 미확인";
   const confirmed = window.confirm(
-    "이 제출본을 삭제하시겠습니까?\n\n제출 폴더와 대시보드 제출 이력에서 함께 제거되며 되돌릴 수 없습니다."
+    `이 제출본을 삭제하시겠습니까?\n\n제출자: ${submitter}\n제출 시각: ${submittedAt}\n\n제출 폴더, submissions.json 기록과 결과물 README 이력이 함께 정리되며 되돌릴 수 없습니다.`
   );
   if (!confirmed) return;
 
@@ -65,13 +67,16 @@ async function deleteSubmissionRecord(button, output) {
   button.disabled = true;
   button.textContent = "삭제 중";
   try {
-    await apiFetch(
-      `/api/phases/${phase.id}/tasks/${encodeURIComponent(taskId)}/outputs/${encodeURIComponent(output.id)}/submissions/${encodeURIComponent(submissionId)}`,
-      { method: "DELETE" }
-    );
+    const path = taskId
+      ? `/api/phases/${phase.id}/tasks/${encodeURIComponent(taskId)}/outputs/${encodeURIComponent(output.id)}/submissions/${encodeURIComponent(submissionId)}`
+      : `/api/phases/${phase.id}/outputs/${encodeURIComponent(output.id)}/submissions/${encodeURIComponent(submissionId)}`;
+    const result = await apiFetch(path, { method: "DELETE" });
+    output.submissions = (output.submissions ?? []).filter((submission) => submission.submissionId !== submissionId);
     closeSubmissionDialog();
     await fetchLiveIssue(phase);
-    showToast("제출본을 삭제했습니다.");
+    showToast(result.remainingSubmissions
+      ? `제출본을 삭제했습니다. 해당 산출물에 ${result.remainingSubmissions}개가 남아 있습니다.`
+      : "마지막 제출본을 삭제했습니다. 현재 미제출 또는 파일 없음 상태입니다.");
   } catch (error) {
     showToast(error.message);
     button.disabled = false;
