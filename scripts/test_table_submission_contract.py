@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Static contract checks for spreadsheet-style table submission."""
-
 from pathlib import Path
-
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -15,6 +13,7 @@ index = read("docs/index.html")
 frontend = read("docs/table-submission.js")
 styles = read("docs/table-submission.css")
 worker = read("worker/src/v5.js")
+worker_v6 = read("worker/src/v6.js")
 wrangler = read("worker/wrangler.toml")
 sync = read("scripts/sync_dashboard_v5.py")
 
@@ -54,7 +53,8 @@ for required in (
 ):
     assert required in worker, required
 
-assert 'main = "src/v5.js"' in wrangler
+assert 'import v5 from "./v5.js"' in worker_v6
+assert 'main = "src/v6.js"' in wrangler
 assert 'output["type"] = "table"' in sync
 
 print("table submission contract test passed")
