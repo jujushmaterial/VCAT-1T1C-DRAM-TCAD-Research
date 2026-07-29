@@ -13,6 +13,10 @@
 - Si/SiO2 계면 및 접합부 국부 메시 적용
 - SDE 및 Sentaurus Mesh 실행 성공
 
+## 진행 요약 그림
+
+![P02 Single-WF VCAT SDE summary](figures/P02_SWF_SDE_Summary.svg)
+
 ## 기준 조건
 
 | 항목 | 값 |
@@ -52,17 +56,14 @@
 - Minimum edge length: `7.8125e-05 um` = `0.078125 nm`
 - Minimum angle: `1.718358 deg`
 - Non-Delaunay elements: 0
+- Measured gate oxide thickness: `1.00219 nm`
 
-## 현재 확보한 산출물
+## 업로드 파일
 
-- SWB parameter screenshot
-- Region list screenshot
-- Contact list screenshot
-- 2D doping distribution screenshot
-- Full mesh screenshot
-- Junction / Si-SiO2 interface mesh zoom screenshot
-- Gate oxide thickness measurement screenshot
-- Sentaurus Mesh run log summary
+- `code/P02_SWF_VCAT_SDE_v0p1.cmd`: 실행한 전체 SDE 코드
+- `tables/P02_SWB_Parameters.csv`: nominal SDE 파라미터
+- `figures/P02_SWF_SDE_Summary.svg`: 구조·도핑·contact·mesh 검증 요약 그림
+- `notes/P02_SWF_Mesh_Run_Summary.md`: Sentaurus Mesh 실행 결과와 해석
 
 ## 현재 한계
 
