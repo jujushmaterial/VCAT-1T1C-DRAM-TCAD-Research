@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-29T21:17:00+09:00",
-  "overallProgress": 1,
+  "generatedAt": "2026-07-30T02:04:19+09:00",
+  "overallProgress": 5,
   "phases": [
     {
       "id": 1,
@@ -665,16 +665,16 @@
     {
       "id": 2,
       "issueNumber": 2,
-      "state": "locked",
-      "progress": 0,
-      "tasksDone": 0,
+      "state": "in-progress",
+      "progress": 44,
+      "tasksDone": 4,
       "tasksTotal": 9,
       "outputsDone": 0,
       "outputsTotal": 25,
       "tasks": [
         {
           "id": "P02-T01",
-          "checked": false,
+          "checked": true,
           "text": "기준으로 사용할 VCAT 구조와 조건을 정리한다.",
           "outputs": [
             {
@@ -695,7 +695,7 @@
         },
         {
           "id": "P02-T02",
-          "checked": false,
+          "checked": true,
           "text": "SDE로 Single-Metal VCAT 구조를 만든다.",
           "outputs": [
             {
@@ -716,7 +716,7 @@
         },
         {
           "id": "P02-T03",
-          "checked": false,
+          "checked": true,
           "text": "위쪽·아래쪽 전극, 게이트, 절연막을 설정한다.",
           "outputs": [
             {
@@ -765,7 +765,7 @@
         },
         {
           "id": "P02-T05",
-          "checked": false,
+          "checked": true,
           "text": "메시를 설정하고 구조를 확인한다.",
           "outputs": [
             {
@@ -1116,7 +1116,7 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-07-29T11:32:44Z",
+      "updatedAt": "2026-07-29T17:04:09Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정"
     },
