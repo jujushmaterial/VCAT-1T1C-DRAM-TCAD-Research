@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:17:58+09:00",
+  "generatedAt": "2026-07-29T11:18:42+09:00",
   "overallProgress": 0,
   "phases": [
     {
@@ -4141,86 +4141,534 @@
       "tasksDone": 0,
       "tasksTotal": 12,
       "outputsDone": 0,
-      "outputsTotal": 0,
+      "outputsTotal": 29,
       "tasks": [
         {
           "id": "P09-T01",
           "checked": false,
           "text": "Single-Metal 기준 구조를 계산한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P09-T01-O01",
+              "text": "기준 구조 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P09-T01-O02",
+              "text": "기준 구조 전체 1T1C 파형과 성능값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P09-T02",
           "checked": false,
           "text": "논문형 Low/High/Low 구조를 계산한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P09-T02-O01",
+              "text": "Low/High/Low 구조 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P09-T02-O02",
+              "text": "Low/High/Low 전체 파형과 성능값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P09-T03",
           "checked": false,
           "text": "가장 좋은 구조를 계산한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P09-T03-O01",
+              "text": "Nominal-best 구조 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P09-T03-O02",
+              "text": "Nominal-best 전체 파형과 성능값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P09-T04",
           "checked": false,
           "text": "오차에 강한 구조를 계산한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P09-T04-O01",
+              "text": "Robust-best 구조 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P09-T04-O02",
+              "text": "Robust-best 전체 파형과 성능값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P09-T05",
           "checked": false,
           "text": "공정 허용범위 경계 조건을 계산한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P09-T05-O01",
+              "text": "허용범위 경계 구조 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P09-T05-O02",
+              "text": "경계 조건 전체 파형과 성능값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P09-T06",
           "checked": false,
           "text": "허용범위 밖 실패 조건을 계산한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P09-T06-O01",
+              "text": "범위 밖 실패 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P09-T06-O02",
+              "text": "실패 파형과 성능값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P09-T06-O03",
+              "text": "실패 원인 해석",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P09-T07",
           "checked": false,
           "text": "Write ‘1’과 Write ‘0’을 비교한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P09-T07-O01",
+              "text": "구조별 Write ‘1’·‘0’ 통합 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P09-T07-O02",
+              "text": "Write 시간·최종 전압 비교표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P09-T08",
           "checked": false,
           "text": "Read 동작을 비교한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P09-T08-O01",
+              "text": "구조별 Read 파형",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P09-T08-O02",
+              "text": "Bit Line 차이와 Read 성공 판정표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P09-T09",
           "checked": false,
           "text": "Hold와 Retention을 비교한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P09-T09-O01",
+              "text": "Hold·Retention 비교 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P09-T09-O02",
+              "text": "저장 전압 감소량과 Retention 비교표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P09-T10",
           "checked": false,
           "text": "Read Disturb를 확인한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P09-T10-O01",
+              "text": "Read 전·후 Storage Node 비교 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P09-T10-O02",
+              "text": "Read Disturb 수치와 판정",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P09-T11",
           "checked": false,
-          "text": "Storage Node와 Bit Line 파형을 비교한다.",
-          "outputs": []
+          "text": "Storage Node와 Bit Line 파형을 같은 조건으로 비교한다.",
+          "outputs": [
+            {
+              "id": "P09-T11-O01",
+              "text": "최종 Mixed-Mode 전체 코드",
+              "type": "code",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P09-T11-O02",
+              "text": "공통 전압·시간 조건과 평가 기준",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P09-T11-O03",
+              "text": "Storage Node·Bit Line 통합 파형",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P09-T11-O04",
+              "text": "구조별 DRAM 통합 성능표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P09-T12",
           "checked": false,
           "text": "최종 구조를 선정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P09-T12-O01",
+              "text": "최종 구조 순위표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P09-T12-O02",
+              "text": "최종 추천 구조와 대안 구조",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P09-T12-O03",
+              "text": "구조 선정 이유와 적용 가능한 공정 허용범위",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P09-T12-O04",
+              "text": "최종 결론·한계·추가 연구 항목",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         }
       ],
-      "outputs": [],
+      "outputs": [
+        {
+          "id": "P09-T01-O01",
+          "text": "기준 구조 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T01"
+        },
+        {
+          "id": "P09-T01-O02",
+          "text": "기준 구조 전체 1T1C 파형과 성능값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T01"
+        },
+        {
+          "id": "P09-T02-O01",
+          "text": "Low/High/Low 구조 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T02"
+        },
+        {
+          "id": "P09-T02-O02",
+          "text": "Low/High/Low 전체 파형과 성능값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T02"
+        },
+        {
+          "id": "P09-T03-O01",
+          "text": "Nominal-best 구조 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T03"
+        },
+        {
+          "id": "P09-T03-O02",
+          "text": "Nominal-best 전체 파형과 성능값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T03"
+        },
+        {
+          "id": "P09-T04-O01",
+          "text": "Robust-best 구조 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T04"
+        },
+        {
+          "id": "P09-T04-O02",
+          "text": "Robust-best 전체 파형과 성능값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T04"
+        },
+        {
+          "id": "P09-T05-O01",
+          "text": "허용범위 경계 구조 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T05"
+        },
+        {
+          "id": "P09-T05-O02",
+          "text": "경계 조건 전체 파형과 성능값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T05"
+        },
+        {
+          "id": "P09-T06-O01",
+          "text": "범위 밖 실패 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T06"
+        },
+        {
+          "id": "P09-T06-O02",
+          "text": "실패 파형과 성능값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T06"
+        },
+        {
+          "id": "P09-T06-O03",
+          "text": "실패 원인 해석",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P09-T06"
+        },
+        {
+          "id": "P09-T07-O01",
+          "text": "구조별 Write ‘1’·‘0’ 통합 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T07"
+        },
+        {
+          "id": "P09-T07-O02",
+          "text": "Write 시간·최종 전압 비교표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P09-T07"
+        },
+        {
+          "id": "P09-T08-O01",
+          "text": "구조별 Read 파형",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T08"
+        },
+        {
+          "id": "P09-T08-O02",
+          "text": "Bit Line 차이와 Read 성공 판정표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P09-T08"
+        },
+        {
+          "id": "P09-T09-O01",
+          "text": "Hold·Retention 비교 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T09"
+        },
+        {
+          "id": "P09-T09-O02",
+          "text": "저장 전압 감소량과 Retention 비교표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P09-T09"
+        },
+        {
+          "id": "P09-T10-O01",
+          "text": "Read 전·후 Storage Node 비교 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T10"
+        },
+        {
+          "id": "P09-T10-O02",
+          "text": "Read Disturb 수치와 판정",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P09-T10"
+        },
+        {
+          "id": "P09-T11-O01",
+          "text": "최종 Mixed-Mode 전체 코드",
+          "type": "code",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P09-T11"
+        },
+        {
+          "id": "P09-T11-O02",
+          "text": "공통 전압·시간 조건과 평가 기준",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P09-T11"
+        },
+        {
+          "id": "P09-T11-O03",
+          "text": "Storage Node·Bit Line 통합 파형",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P09-T11"
+        },
+        {
+          "id": "P09-T11-O04",
+          "text": "구조별 DRAM 통합 성능표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P09-T11"
+        },
+        {
+          "id": "P09-T12-O01",
+          "text": "최종 구조 순위표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P09-T12"
+        },
+        {
+          "id": "P09-T12-O02",
+          "text": "최종 추천 구조와 대안 구조",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P09-T12"
+        },
+        {
+          "id": "P09-T12-O03",
+          "text": "구조 선정 이유와 적용 가능한 공정 허용범위",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P09-T12"
+        },
+        {
+          "id": "P09-T12-O04",
+          "text": "최종 결론·한계·추가 연구 항목",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P09-T12"
+        }
+      ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:25:41Z",
+      "updatedAt": "2026-07-29T02:18:26Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "Issue 생성"
+      "lastModifiedAction": "과제·산출물 목록 수정"
     }
   ]
 }
