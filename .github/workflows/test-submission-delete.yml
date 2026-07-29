@@ -1,0 +1,50 @@
+name: Test submission deletion
+
+on:
+  pull_request:
+    paths:
+      - "docs/submission-delete.*"
+      - "docs/index.html"
+      - "worker/src/v6.js"
+      - "worker/test/submission-delete.test.mjs"
+      - "worker/wrangler.toml"
+      - "scripts/test_frontend_contract.py"
+      - "scripts/test_table_submission_contract.py"
+      - ".github/workflows/test-submission-delete.yml"
+  push:
+    branches: [main]
+    paths:
+      - "docs/submission-delete.*"
+      - "docs/index.html"
+      - "worker/src/v6.js"
+      - "worker/test/submission-delete.test.mjs"
+      - "worker/wrangler.toml"
+      - "scripts/test_frontend_contract.py"
+      - "scripts/test_table_submission_contract.py"
+      - ".github/workflows/test-submission-delete.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-twice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run deletion checks twice
+        run: |
+          for run in 1 2; do
+            echo "===== deletion verification ${run}/2 ====="
+            node --check docs/submission-delete.js
+            node --check worker/src/v6.js
+            node worker/test/submission-delete.test.mjs
+            python scripts/test_frontend_contract.py
+            python scripts/test_table_submission_contract.py
+          done
