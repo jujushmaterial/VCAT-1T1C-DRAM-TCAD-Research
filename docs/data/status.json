@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T14:34:26+09:00",
+  "generatedAt": "2026-07-29T20:32:11+09:00",
   "overallProgress": 1,
   "phases": [
     {
@@ -1113,10 +1113,12 @@
           "taskId": "P02-T09"
         }
       ],
-      "assignees": [],
-      "updatedAt": "2026-07-29T02:13:32Z",
-      "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "과제·산출물 목록 수정"
+      "assignees": [
+        "minhosong-mse"
+      ],
+      "updatedAt": "2026-07-29T11:32:01Z",
+      "lastModifiedBy": "minhosong-mse",
+      "lastModifiedAction": "담당자 지정"
     },
     {
       "id": 3,
