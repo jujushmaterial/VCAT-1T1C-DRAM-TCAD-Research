@@ -1,0 +1,19 @@
+Category,Name,Definition,Unit,Nominal,Note
+Coordinate,x,Vertical transport direction,um,-,Top storage to bottom bitline
+Coordinate,y,Radial direction,um,-,y=0 is cylindrical symmetry axis
+Orientation,Top,Storage-node side,-,-,x=0 um
+Orientation,Bottom,Bit-line side,-,-,x=0.100 um
+Geometry,Dpillar_nm,Silicon pillar diameter,nm,12,Converted to radius 0.006 um in SDE
+Geometry,Tox_nm,Gate oxide thickness,nm,1,Oxide spans y=0.006 to 0.007 um
+Geometry,Lg_nm,Gate length,nm,60,Gate spans x=0.020 to 0.080 um
+Geometry,Lsn_nm,Storage-side silicon length,nm,20,Engineering assumption
+Geometry,Lbl_nm,Bitline-side silicon length,nm,20,Engineering assumption
+Doping,Nbody,Background boron concentration,cm^-3,1e17,Uniform p-type background
+Doping,NSD,Arsenic peak concentration,cm^-3,1e20,Gaussian top and bottom profiles
+Doping,JDepthSN_nm,SN-side Gaussian depth,nm,20,Target depth toward channel
+Doping,JDepthBL_nm,BL-side Gaussian depth,nm,20,Target depth toward channel
+Doping,GaussFactor,Gaussian shape factor,-,0.8,Engineering assumption
+Mesh,MeshScale,Global mesh scaling factor,-,1.0,2.0 coarse; 1.0 medium; 0.5 fine
+Contact,storage,Top N+ terminal,V,0 initial,Storage-node-side contact
+Contact,bitline,Bottom N+ terminal,V,0,Bit-line-side contact
+Contact,gate,Continuous single-WF gate,V,0 initial,Single gate contact
