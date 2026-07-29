@@ -1,0 +1,9 @@
+# Fallback: every members/ change is visible to the repository administrator.
+/members/** @jujushmaterial
+
+# Registered personal folders.
+/members/JuSanghyeon/** @jujushmaterial
+/members/LeeTaekGyu/** @LEE-TAEK-GYU @jujushmaterial
+/members/SongMinho/** @minhosong-mse @jujushmaterial
+/members/LeeSeonJae/** @seanthe17 @jujushmaterial
+/members/LeeSeonHyeong/** @LSH-linear @jujushmaterial
