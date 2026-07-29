@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:15:06+09:00",
+  "generatedAt": "2026-07-29T11:15:54+09:00",
   "overallProgress": 0,
   "phases": [
     {
@@ -2034,70 +2034,552 @@
       "state": "locked",
       "progress": 0,
       "tasksDone": 0,
-      "tasksTotal": 9,
+      "tasksTotal": 10,
       "outputsDone": 0,
-      "outputsTotal": 0,
+      "outputsTotal": 31,
       "tasks": [
         {
           "id": "P05-T01",
           "checked": false,
-          "text": "금속 경계 위치를 작은 간격으로 바꾼다.",
-          "outputs": []
+          "text": "세부 최적화 전에 공정으로 구현 가능한 후보 범위를 정한다.",
+          "outputs": [
+            {
+              "id": "P05-T01-O01",
+              "text": "최소 금속 구간·Gap·채널 치수 기준표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P05-T01-O02",
+              "text": "현실적인 일함수·절연막 범위",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P05-T01-O03",
+              "text": "제외 조건과 제외 후보 목록",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P05-T02",
           "checked": false,
-          "text": "금속 구간 비율을 작은 간격으로 바꾼다.",
-          "outputs": []
+          "text": "금속 경계 위치를 작은 간격으로 바꾼다.",
+          "outputs": [
+            {
+              "id": "P05-T02-O01",
+              "text": "경계 위치 Sweep 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T02-O02",
+              "text": "경계 위치 Sweep 원본 데이터",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T02-O03",
+              "text": "경계 위치–성능 지도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P05-T03",
           "checked": false,
-          "text": "각 금속의 일함수를 바꾼다.",
-          "outputs": []
+          "text": "금속 구간 비율을 작은 간격으로 바꾼다.",
+          "outputs": [
+            {
+              "id": "P05-T03-O01",
+              "text": "금속 비율 Sweep 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T03-O02",
+              "text": "금속 비율 Sweep 원본 데이터",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T03-O03",
+              "text": "금속 비율–성능 지도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P05-T04",
           "checked": false,
-          "text": "Three-zone의 두 경계를 각각 바꾼다.",
-          "outputs": []
+          "text": "각 금속의 일함수를 바꾼다.",
+          "outputs": [
+            {
+              "id": "P05-T04-O01",
+              "text": "일함수 Sweep 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T04-O02",
+              "text": "일함수 Sweep 원본 데이터",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T04-O03",
+              "text": "일함수–성능 지도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P05-T05",
           "checked": false,
-          "text": "필요하면 Tri-Metal의 세 일함수와 두 경계를 바꾼다.",
-          "outputs": []
+          "text": "Three-zone의 두 경계를 각각 바꾼다.",
+          "outputs": [
+            {
+              "id": "P05-T05-O01",
+              "text": "두 경계 2차원 Sweep 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T05-O02",
+              "text": "Three-zone Sweep 원본 데이터",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T05-O03",
+              "text": "두 경계–성능 2D Map",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P05-T06",
           "checked": false,
-          "text": "Gap 구조는 간격과 절연체 종류를 바꾼다.",
-          "outputs": []
+          "text": "필요하면 Tri-Metal의 세 일함수와 두 경계를 바꾼다.",
+          "outputs": [
+            {
+              "id": "P05-T06-O01",
+              "text": "Tri-Metal Sweep 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T06-O02",
+              "text": "Tri-Metal Sweep 데이터와 Map",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T06-O03",
+              "text": "미수행 시 제외 사유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P05-T07",
           "checked": false,
-          "text": "성능이 가장 좋은 조건을 찾는다.",
-          "outputs": []
+          "text": "Gap 구조는 간격과 절연체 종류를 바꾼다.",
+          "outputs": [
+            {
+              "id": "P05-T07-O01",
+              "text": "Gap 길이·절연체 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T07-O02",
+              "text": "Gap·절연체 Sweep 원본 데이터",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T07-O03",
+              "text": "Gap·유전율–성능 지도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P05-T07-O04",
+              "text": "미수행 시 제외 사유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P05-T08",
           "checked": false,
-          "text": "조건 변화에 민감하지 않은 구조를 찾는다.",
-          "outputs": []
+          "text": "성능이 가장 좋은 조건을 찾는다.",
+          "outputs": [
+            {
+              "id": "P05-T08-O01",
+              "text": "Nominal-best 구조와 조건표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P05-T08-O02",
+              "text": "최고 성능값과 선정 이유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P05-T09",
           "checked": false,
-          "text": "DRAM 성능의 균형이 좋은 구조를 찾는다.",
-          "outputs": []
+          "text": "조건 변화에 민감하지 않은 구조를 찾는다.",
+          "outputs": [
+            {
+              "id": "P05-T09-O01",
+              "text": "변수별 민감도 표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P05-T09-O02",
+              "text": "Robust-best 구조와 조건표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P05-T09-O03",
+              "text": "Robust 후보 선정 이유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
+        },
+        {
+          "id": "P05-T10",
+          "checked": false,
+          "text": "DRAM 성능의 균형이 좋은 구조와 SProcess 대상 후보를 정한다.",
+          "outputs": [
+            {
+              "id": "P05-T10-O01",
+              "text": "Write·Read·Retention·누설 통합표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P05-T10-O02",
+              "text": "DRAM-balanced 구조와 조건표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P05-T10-O03",
+              "text": "최종 SProcess 대상 후보 2~3개",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P05-T10-O04",
+              "text": "후보별 선정 목적과 이유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         }
       ],
-      "outputs": [],
+      "outputs": [
+        {
+          "id": "P05-T01-O01",
+          "text": "최소 금속 구간·Gap·채널 치수 기준표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T01"
+        },
+        {
+          "id": "P05-T01-O02",
+          "text": "현실적인 일함수·절연막 범위",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T01"
+        },
+        {
+          "id": "P05-T01-O03",
+          "text": "제외 조건과 제외 후보 목록",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T01"
+        },
+        {
+          "id": "P05-T02-O01",
+          "text": "경계 위치 Sweep 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T02"
+        },
+        {
+          "id": "P05-T02-O02",
+          "text": "경계 위치 Sweep 원본 데이터",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T02"
+        },
+        {
+          "id": "P05-T02-O03",
+          "text": "경계 위치–성능 지도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T02"
+        },
+        {
+          "id": "P05-T03-O01",
+          "text": "금속 비율 Sweep 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T03"
+        },
+        {
+          "id": "P05-T03-O02",
+          "text": "금속 비율 Sweep 원본 데이터",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T03"
+        },
+        {
+          "id": "P05-T03-O03",
+          "text": "금속 비율–성능 지도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T03"
+        },
+        {
+          "id": "P05-T04-O01",
+          "text": "일함수 Sweep 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T04"
+        },
+        {
+          "id": "P05-T04-O02",
+          "text": "일함수 Sweep 원본 데이터",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T04"
+        },
+        {
+          "id": "P05-T04-O03",
+          "text": "일함수–성능 지도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T04"
+        },
+        {
+          "id": "P05-T05-O01",
+          "text": "두 경계 2차원 Sweep 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T05"
+        },
+        {
+          "id": "P05-T05-O02",
+          "text": "Three-zone Sweep 원본 데이터",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T05"
+        },
+        {
+          "id": "P05-T05-O03",
+          "text": "두 경계–성능 2D Map",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T05"
+        },
+        {
+          "id": "P05-T06-O01",
+          "text": "Tri-Metal Sweep 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T06"
+        },
+        {
+          "id": "P05-T06-O02",
+          "text": "Tri-Metal Sweep 데이터와 Map",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T06"
+        },
+        {
+          "id": "P05-T06-O03",
+          "text": "미수행 시 제외 사유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T06"
+        },
+        {
+          "id": "P05-T07-O01",
+          "text": "Gap 길이·절연체 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T07"
+        },
+        {
+          "id": "P05-T07-O02",
+          "text": "Gap·절연체 Sweep 원본 데이터",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T07"
+        },
+        {
+          "id": "P05-T07-O03",
+          "text": "Gap·유전율–성능 지도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P05-T07"
+        },
+        {
+          "id": "P05-T07-O04",
+          "text": "미수행 시 제외 사유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T07"
+        },
+        {
+          "id": "P05-T08-O01",
+          "text": "Nominal-best 구조와 조건표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T08"
+        },
+        {
+          "id": "P05-T08-O02",
+          "text": "최고 성능값과 선정 이유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T08"
+        },
+        {
+          "id": "P05-T09-O01",
+          "text": "변수별 민감도 표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T09"
+        },
+        {
+          "id": "P05-T09-O02",
+          "text": "Robust-best 구조와 조건표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T09"
+        },
+        {
+          "id": "P05-T09-O03",
+          "text": "Robust 후보 선정 이유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T09"
+        },
+        {
+          "id": "P05-T10-O01",
+          "text": "Write·Read·Retention·누설 통합표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T10"
+        },
+        {
+          "id": "P05-T10-O02",
+          "text": "DRAM-balanced 구조와 조건표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T10"
+        },
+        {
+          "id": "P05-T10-O03",
+          "text": "최종 SProcess 대상 후보 2~3개",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T10"
+        },
+        {
+          "id": "P05-T10-O04",
+          "text": "후보별 선정 목적과 이유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P05-T10"
+        }
+      ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:24:33Z",
+      "updatedAt": "2026-07-29T02:15:38Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "Issue 생성"
+      "lastModifiedAction": "과제·산출물 목록 수정"
     },
     {
       "id": 6,
