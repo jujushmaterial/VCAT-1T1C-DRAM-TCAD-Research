@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f6f8fa"/>
+  <text x="50" y="55" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#24292f">P02 Single-WF VCAT — SDE Progress Summary</text>
+  <text x="50" y="88" font-family="Arial, sans-serif" font-size="16" fill="#57606a">2D axisymmetric baseline candidate v0.1 · Sentaurus T-2022.03</text>
+
+  <rect x="45" y="120" width="520" height="580" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="75" y="165" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#24292f">Geometry / Doping / Contacts</text>
+
+  <!-- Axisymmetric pillar schematic -->
+  <rect x="180" y="215" width="115" height="390" fill="#8c959f" stroke="#24292f" stroke-width="2"/>
+  <rect x="180" y="215" width="115" height="78" fill="#ff6a00" stroke="#24292f" stroke-width="2"/>
+  <rect x="180" y="293" width="115" height="234" fill="#2f6feb" stroke="#24292f" stroke-width="2"/>
+  <rect x="180" y="527" width="115" height="78" fill="#ff6a00" stroke="#24292f" stroke-width="2"/>
+  <rect x="295" y="293" width="20" height="234" fill="#00c7d9" stroke="#24292f" stroke-width="2"/>
+  <line x1="315" y1="293" x2="315" y2="527" stroke="#d124d4" stroke-width="7"/>
+
+  <text x="95" y="255" font-family="Arial, sans-serif" font-size="18" fill="#24292f">R.SN</text>
+  <text x="73" y="418" font-family="Arial, sans-serif" font-size="18" fill="#24292f">R.Channel</text>
+  <text x="95" y="575" font-family="Arial, sans-serif" font-size="18" fill="#24292f">R.BL</text>
+  <text x="335" y="415" font-family="Arial, sans-serif" font-size="18" fill="#24292f">R.GateOxide</text>
+
+  <line x1="180" y1="198" x2="295" y2="198" stroke="#0969da" stroke-width="6"/>
+  <text x="330" y="205" font-family="Arial, sans-serif" font-size="16" fill="#0969da">storage contact</text>
+  <line x1="180" y1="622" x2="295" y2="622" stroke="#cf222e" stroke-width="6"/>
+  <text x="330" y="628" font-family="Arial, sans-serif" font-size="16" fill="#cf222e">bitline contact</text>
+  <text x="335" y="448" font-family="Arial, sans-serif" font-size="16" fill="#bf3989">single gate contact</text>
+
+  <text x="75" y="670" font-family="Arial, sans-serif" font-size="16" fill="#57606a">Orange: N+ Gaussian As · Blue: p-body B · Cyan: 1 nm oxide</text>
+
+  <rect x="600" y="120" width="555" height="260" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="630" y="165" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#24292f">Nominal Parameters</text>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#24292f">
+    <text x="635" y="210">Pillar diameter</text><text x="960" y="210" font-weight="700">12 nm</text>
+    <text x="635" y="245">Gate oxide</text><text x="960" y="245" font-weight="700">1 nm</text>
+    <text x="635" y="280">Gate length</text><text x="960" y="280" font-weight="700">60 nm</text>
+    <text x="635" y="315">Body / S-D peak</text><text x="960" y="315" font-weight="700">1e17 / 1e20 cm^-3</text>
+    <text x="635" y="350">Gaussian depth / factor</text><text x="960" y="350" font-weight="700">20 nm / 0.8</text>
+  </g>
+
+  <rect x="600" y="410" width="555" height="290" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="630" y="455" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#24292f">Mesh / Verification Results</text>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#24292f">
+    <text x="635" y="505">Mesh generation</text><text x="960" y="505" font-weight="700" fill="#1a7f37">SUCCESS</text>
+    <text x="635" y="540">Points / elements</text><text x="960" y="540" font-weight="700">881 / 1616</text>
+    <text x="635" y="575">Minimum edge</text><text x="960" y="575" font-weight="700">0.078125 nm</text>
+    <text x="635" y="610">Gate oxide measured</text><text x="960" y="610" font-weight="700">1.00219 nm</text>
+    <text x="635" y="645">Non-Delaunay elements</text><text x="960" y="645" font-weight="700">0</text>
+    <text x="635" y="680">Pending</text><text x="755" y="680" fill="#9a6700">junction X-cut · mesh independence · DC</text>
+  </g>
+</svg>
