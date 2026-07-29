@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260729050143-seanthe17-m3b6Zw",
+  "phaseId": 1,
+  "issueNumber": 1,
+  "taskId": "P01-T05",
+  "taskText": "서로 다른 두 금속 사이에 간격이 있는 기존 구조를 만든다.",
+  "outputId": "P01-T05-O02",
+  "outputText": "Dual-Metal Gap 구조 단면 이미지",
+  "uploader": "seanthe17",
+  "memberName": "이선재",
+  "memberFolder": "LeeSeonJae",
+  "type": "files",
+  "uploadedAt": "2026-07-29T05:01:43.555Z",
+  "folderPath": "members/LeeSeonJae/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O02/submissions/20260729050143-seanthe17-m3b6Zw",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonJae/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O02/submissions/20260729050143-seanthe17-m3b6Zw",
+  "summary": "1개 파일 · 49.5KB",
+  "files": [
+    {
+      "name": "source0.5.png",
+      "path": "members/LeeSeonJae/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O02/submissions/20260729050143-seanthe17-m3b6Zw/files/source0.5.png",
+      "size": 50648
+    }
+  ]
+}
