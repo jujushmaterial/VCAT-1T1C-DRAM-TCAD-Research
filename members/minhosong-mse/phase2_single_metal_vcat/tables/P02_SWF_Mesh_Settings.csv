@@ -1,0 +1,6 @@
+MeshItem,Window_or_Interface,MaxSizeX_um,MaxSizeY_um,MinSizeX_um,MinSizeY_um,AdditionalRule,MeshScale
+Global,Whole device 0-0.100 um x 0-0.007 um,0.0050,0.0010,0.0005,0.0001,Doping MaxTransDiff=1,1.0
+Si_SiO2_Interface,Silicon/SiO2 interface,-,-,0.0002,-,MaxLenInt factor=1.5 DoubleSide,1.0
+SN_Junction,x=0.016-0.024 um; y=0-0.006 um,0.0010,0.0005,0.0002,0.0001,Local rectangular refinement,1.0
+BL_Junction,x=0.076-0.084 um; y=0-0.006 um,0.0010,0.0005,0.0002,0.0001,Local rectangular refinement,1.0
+RunResult,Sentaurus Mesh T-2022.03,-,-,0.000078125,-,881 points; 1616 elements; 0 non-Delaunay elements,1.0
