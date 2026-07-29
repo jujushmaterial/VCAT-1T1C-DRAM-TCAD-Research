@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:18:42+09:00",
+  "generatedAt": "2026-07-29T11:50:43+09:00",
   "overallProgress": 0,
   "phases": [
     {
@@ -20,7 +20,7 @@
             {
               "id": "P01-T01-O01",
               "text": "공통 구조·재료·치수 조건표",
-              "type": "files",
+              "type": "any",
               "review": "recommended",
               "submissions": []
             },
@@ -297,7 +297,7 @@
         {
           "id": "P01-T01-O01",
           "text": "공통 구조·재료·치수 조건표",
-          "type": "files",
+          "type": "any",
           "review": "recommended",
           "submissions": [],
           "taskId": "P01-T01"
@@ -538,7 +538,7 @@
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-07-29T02:12:55Z",
+      "updatedAt": "2026-07-29T02:50:26Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정"
     },
