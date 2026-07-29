@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:14:24+09:00",
+  "generatedAt": "2026-07-29T11:15:06+09:00",
   "overallProgress": 0,
   "phases": [
     {
@@ -1527,82 +1527,506 @@
       "state": "locked",
       "progress": 0,
       "tasksDone": 0,
-      "tasksTotal": 11,
+      "tasksTotal": 12,
       "outputsDone": 0,
-      "outputsTotal": 0,
+      "outputsTotal": 27,
       "tasks": [
         {
           "id": "P04-T01",
           "checked": false,
           "text": "VCAT과 저장 커패시터를 연결한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P04-T01-O01",
+              "text": "1T1C Mixed-Mode 전체 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P04-T01-O02",
+              "text": "1T1C 회로 연결도",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P04-T02",
           "checked": false,
           "text": "Word Line과 Bit Line 전압을 설정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P04-T02-O01",
+              "text": "WL·BL·Storage Node 전압 조건표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P04-T02-O02",
+              "text": "공통 시간축·펄스 파형",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P04-T03",
           "checked": false,
           "text": "Write ‘1’을 실행한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P04-T03-O01",
+              "text": "Write ‘1’ WL·BL·Storage Node 파형",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P04-T03-O02",
+              "text": "Write 시간과 최종 저장 전압",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P04-T04",
           "checked": false,
           "text": "Hold ‘1’을 실행한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P04-T04-O01",
+              "text": "Hold ‘1’ 파형",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P04-T04-O02",
+              "text": "Hold 중 전압 감소량과 누설량",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P04-T05",
           "checked": false,
           "text": "Write ‘0’을 실행한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P04-T05-O01",
+              "text": "Write ‘0’ WL·BL·Storage Node 파형",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P04-T05-O02",
+              "text": "Write 시간과 최종 저장 전압",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P04-T06",
           "checked": false,
           "text": "Hold ‘0’을 실행한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P04-T06-O01",
+              "text": "Hold ‘0’ 파형",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P04-T06-O02",
+              "text": "Hold 중 전압 변화량과 누설량",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P04-T07",
           "checked": false,
           "text": "저장 노드 전압을 확인한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P04-T07-O01",
+              "text": "후보별 Storage Node 통합 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P04-T07-O02",
+              "text": "저장 상태별 전압 비교표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P04-T08",
           "checked": false,
           "text": "충전과 방전 속도를 확인한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P04-T08-O01",
+              "text": "충전·방전 시간 비교표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P04-T08-O02",
+              "text": "후보별 충전·방전 속도 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P04-T09",
           "checked": false,
           "text": "‘1’과 ‘0’ 동작의 차이를 확인한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P04-T09-O01",
+              "text": "Write·Hold ‘1’·‘0’ 통합 비교표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P04-T09-O02",
+              "text": "비대칭과 실패 동작 해석",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P04-T10",
           "checked": false,
           "text": "누설 전류와 Body 전위를 확인한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P04-T10-O01",
+              "text": "후보별 누설 전류 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P04-T10-O02",
+              "text": "Body 전위 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P04-T10-O03",
+              "text": "누설·Body 영향 해석",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P04-T11",
           "checked": false,
+          "text": "기본 Read 동작과 Read 후 저장 노드 변화를 확인한다.",
+          "outputs": [
+            {
+              "id": "P04-T11-O01",
+              "text": "저장 상태별 Bit Line Read 파형",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P04-T11-O02",
+              "text": "Read 전·후 Storage Node 비교",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P04-T11-O03",
+              "text": "기본 Read 가능 여부 판정",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
+        },
+        {
+          "id": "P04-T12",
+          "checked": false,
           "text": "DRAM에 부적합한 후보를 제외한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P04-T12-O01",
+              "text": "후보별 Pass·Fail 비교표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P04-T12-O02",
+              "text": "탈락 기준과 후보별 탈락 사유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P04-T12-O03",
+              "text": "Phase 5 대상 후보 목록",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         }
       ],
-      "outputs": [],
+      "outputs": [
+        {
+          "id": "P04-T01-O01",
+          "text": "1T1C Mixed-Mode 전체 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T01"
+        },
+        {
+          "id": "P04-T01-O02",
+          "text": "1T1C 회로 연결도",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T01"
+        },
+        {
+          "id": "P04-T02-O01",
+          "text": "WL·BL·Storage Node 전압 조건표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P04-T02"
+        },
+        {
+          "id": "P04-T02-O02",
+          "text": "공통 시간축·펄스 파형",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T02"
+        },
+        {
+          "id": "P04-T03-O01",
+          "text": "Write ‘1’ WL·BL·Storage Node 파형",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T03"
+        },
+        {
+          "id": "P04-T03-O02",
+          "text": "Write 시간과 최종 저장 전압",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T03"
+        },
+        {
+          "id": "P04-T04-O01",
+          "text": "Hold ‘1’ 파형",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T04"
+        },
+        {
+          "id": "P04-T04-O02",
+          "text": "Hold 중 전압 감소량과 누설량",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T04"
+        },
+        {
+          "id": "P04-T05-O01",
+          "text": "Write ‘0’ WL·BL·Storage Node 파형",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T05"
+        },
+        {
+          "id": "P04-T05-O02",
+          "text": "Write 시간과 최종 저장 전압",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T05"
+        },
+        {
+          "id": "P04-T06-O01",
+          "text": "Hold ‘0’ 파형",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T06"
+        },
+        {
+          "id": "P04-T06-O02",
+          "text": "Hold 중 전압 변화량과 누설량",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T06"
+        },
+        {
+          "id": "P04-T07-O01",
+          "text": "후보별 Storage Node 통합 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T07"
+        },
+        {
+          "id": "P04-T07-O02",
+          "text": "저장 상태별 전압 비교표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P04-T07"
+        },
+        {
+          "id": "P04-T08-O01",
+          "text": "충전·방전 시간 비교표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T08"
+        },
+        {
+          "id": "P04-T08-O02",
+          "text": "후보별 충전·방전 속도 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T08"
+        },
+        {
+          "id": "P04-T09-O01",
+          "text": "Write·Hold ‘1’·‘0’ 통합 비교표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P04-T09"
+        },
+        {
+          "id": "P04-T09-O02",
+          "text": "비대칭과 실패 동작 해석",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P04-T09"
+        },
+        {
+          "id": "P04-T10-O01",
+          "text": "후보별 누설 전류 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T10"
+        },
+        {
+          "id": "P04-T10-O02",
+          "text": "Body 전위 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T10"
+        },
+        {
+          "id": "P04-T10-O03",
+          "text": "누설·Body 영향 해석",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P04-T10"
+        },
+        {
+          "id": "P04-T11-O01",
+          "text": "저장 상태별 Bit Line Read 파형",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T11"
+        },
+        {
+          "id": "P04-T11-O02",
+          "text": "Read 전·후 Storage Node 비교",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P04-T11"
+        },
+        {
+          "id": "P04-T11-O03",
+          "text": "기본 Read 가능 여부 판정",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P04-T11"
+        },
+        {
+          "id": "P04-T12-O01",
+          "text": "후보별 Pass·Fail 비교표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P04-T12"
+        },
+        {
+          "id": "P04-T12-O02",
+          "text": "탈락 기준과 후보별 탈락 사유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P04-T12"
+        },
+        {
+          "id": "P04-T12-O03",
+          "text": "Phase 5 대상 후보 목록",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P04-T12"
+        }
+      ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:24:15Z",
+      "updatedAt": "2026-07-29T02:14:56Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "Issue 생성"
+      "lastModifiedAction": "과제·산출물 목록 수정"
     },
     {
       "id": 5,
