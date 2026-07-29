@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:17:16+09:00",
+  "generatedAt": "2026-07-29T11:17:58+09:00",
   "overallProgress": 0,
   "phases": [
     {
@@ -3701,80 +3701,437 @@
       "tasksDone": 0,
       "tasksTotal": 11,
       "outputsDone": 0,
-      "outputsTotal": 0,
+      "outputsTotal": 23,
       "tasks": [
         {
           "id": "P08-T01",
           "checked": false,
           "text": "공정 합격 기준을 정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P08-T01-O01",
+              "text": "형상·공정 합격 기준표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P08-T01-O02",
+              "text": "기준의 출처와 적용 이유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P08-T02",
           "checked": false,
           "text": "Write 성능 기준을 정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P08-T02-O01",
+              "text": "Write 기준값과 측정 방식",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P08-T02-O02",
+              "text": "Write 기준 근거",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P08-T03",
           "checked": false,
           "text": "Read 성능 기준을 정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P08-T03-O01",
+              "text": "Read 기준값과 측정 방식",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P08-T03-O02",
+              "text": "Read 기준 근거",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P08-T04",
           "checked": false,
           "text": "Retention 기준을 정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P08-T04-O01",
+              "text": "Retention 기준값과 관찰 시간",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P08-T04-O02",
+              "text": "Retention 기준 근거",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P08-T05",
           "checked": false,
           "text": "누설 전류 기준을 정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P08-T05-O01",
+              "text": "누설 기준값과 측정 전압",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P08-T05-O02",
+              "text": "누설 기준 근거",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P08-T06",
           "checked": false,
           "text": "조건별 Pass와 Fail을 구분한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P08-T06-O01",
+              "text": "Pass·Marginal·Fail 판정 데이터",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P08-T06-O02",
+              "text": "공정 조건별 최종 판정표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P08-T07",
           "checked": false,
           "text": "가장 좋은 조건을 표시한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P08-T07-O01",
+              "text": "최고 성능 조건 카드",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P08-T07-O02",
+              "text": "허용범위 Map의 최고 조건 표시",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P08-T08",
           "checked": false,
           "text": "오차에 가장 강한 조건을 표시한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P08-T08-O01",
+              "text": "Robust 조건 카드",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P08-T08-O02",
+              "text": "허용범위 Map의 Robust 조건 표시",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P08-T09",
           "checked": false,
           "text": "허용 가능한 경계 위치 범위를 정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P08-T09-O01",
+              "text": "금속 경계 허용 구간표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P08-T09-O02",
+              "text": "경계 위치 허용범위 Map",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P08-T10",
           "checked": false,
           "text": "허용 가능한 일함수 오차를 정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P08-T10-O01",
+              "text": "일함수 허용오차 표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P08-T10-O02",
+              "text": "일함수 허용범위 Map",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P08-T11",
           "checked": false,
-          "text": "허용 가능한 금속 비율을 정한다.",
-          "outputs": []
+          "text": "허용 가능한 금속 비율을 정하고 공정 허용범위 지도를 완성한다.",
+          "outputs": [
+            {
+              "id": "P08-T11-O01",
+              "text": "금속 구간 비율 허용범위",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P08-T11-O02",
+              "text": "공정 허용범위 통합 Map",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P08-T11-O03",
+              "text": "중심·경계·범위 밖 검증 조건 목록",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         }
       ],
-      "outputs": [],
+      "outputs": [
+        {
+          "id": "P08-T01-O01",
+          "text": "형상·공정 합격 기준표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T01"
+        },
+        {
+          "id": "P08-T01-O02",
+          "text": "기준의 출처와 적용 이유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T01"
+        },
+        {
+          "id": "P08-T02-O01",
+          "text": "Write 기준값과 측정 방식",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T02"
+        },
+        {
+          "id": "P08-T02-O02",
+          "text": "Write 기준 근거",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T02"
+        },
+        {
+          "id": "P08-T03-O01",
+          "text": "Read 기준값과 측정 방식",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T03"
+        },
+        {
+          "id": "P08-T03-O02",
+          "text": "Read 기준 근거",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T03"
+        },
+        {
+          "id": "P08-T04-O01",
+          "text": "Retention 기준값과 관찰 시간",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T04"
+        },
+        {
+          "id": "P08-T04-O02",
+          "text": "Retention 기준 근거",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T04"
+        },
+        {
+          "id": "P08-T05-O01",
+          "text": "누설 기준값과 측정 전압",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T05"
+        },
+        {
+          "id": "P08-T05-O02",
+          "text": "누설 기준 근거",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T05"
+        },
+        {
+          "id": "P08-T06-O01",
+          "text": "Pass·Marginal·Fail 판정 데이터",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T06"
+        },
+        {
+          "id": "P08-T06-O02",
+          "text": "공정 조건별 최종 판정표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T06"
+        },
+        {
+          "id": "P08-T07-O01",
+          "text": "최고 성능 조건 카드",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T07"
+        },
+        {
+          "id": "P08-T07-O02",
+          "text": "허용범위 Map의 최고 조건 표시",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P08-T07"
+        },
+        {
+          "id": "P08-T08-O01",
+          "text": "Robust 조건 카드",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T08"
+        },
+        {
+          "id": "P08-T08-O02",
+          "text": "허용범위 Map의 Robust 조건 표시",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P08-T08"
+        },
+        {
+          "id": "P08-T09-O01",
+          "text": "금속 경계 허용 구간표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T09"
+        },
+        {
+          "id": "P08-T09-O02",
+          "text": "경계 위치 허용범위 Map",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P08-T09"
+        },
+        {
+          "id": "P08-T10-O01",
+          "text": "일함수 허용오차 표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T10"
+        },
+        {
+          "id": "P08-T10-O02",
+          "text": "일함수 허용범위 Map",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P08-T10"
+        },
+        {
+          "id": "P08-T11-O01",
+          "text": "금속 구간 비율 허용범위",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T11"
+        },
+        {
+          "id": "P08-T11-O02",
+          "text": "공정 허용범위 통합 Map",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T11"
+        },
+        {
+          "id": "P08-T11-O03",
+          "text": "중심·경계·범위 밖 검증 조건 목록",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P08-T11"
+        }
+      ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:25:23Z",
+      "updatedAt": "2026-07-29T02:17:43Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "Issue 생성"
+      "lastModifiedAction": "과제·산출물 목록 수정"
     },
     {
       "id": 9,
