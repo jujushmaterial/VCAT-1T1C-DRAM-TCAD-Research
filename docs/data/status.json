@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:15:54+09:00",
+  "generatedAt": "2026-07-29T11:16:35+09:00",
   "overallProgress": 0,
   "phases": [
     {
@@ -2587,82 +2587,521 @@
       "state": "locked",
       "progress": 0,
       "tasksDone": 0,
-      "tasksTotal": 11,
+      "tasksTotal": 12,
       "outputsDone": 0,
-      "outputsTotal": 0,
+      "outputsTotal": 28,
       "tasks": [
         {
           "id": "P06-T01",
           "checked": false,
           "text": "초기 기판과 도핑 조건을 설정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P06-T01-O01",
+              "text": "초기 기판·도핑 공정 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T01-O02",
+              "text": "초기 도핑 조건표와 분포 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P06-T02",
           "checked": false,
           "text": "수직 채널을 형성한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P06-T02-O01",
+              "text": "수직 채널 형성 공정 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T02-O02",
+              "text": "단계 구조 이미지와 실제 채널 치수",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P06-T03",
           "checked": false,
           "text": "위쪽과 아래쪽 접합을 형성한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P06-T03-O01",
+              "text": "접합 형성 공정 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T03-O02",
+              "text": "도핑 분포와 접합 위치 측정값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P06-T04",
           "checked": false,
           "text": "게이트 절연막을 형성한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P06-T04-O01",
+              "text": "절연막 형성 공정 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T04-O02",
+              "text": "절연막 단계 이미지와 실제 두께",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P06-T05",
           "checked": false,
           "text": "첫 번째 금속을 증착하고 식각한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P06-T05-O01",
+              "text": "첫 번째 금속 공정 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T05-O02",
+              "text": "단계 이미지와 실제 금속 경계 위치",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P06-T06",
           "checked": false,
           "text": "두 번째 금속을 증착하고 식각한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P06-T06-O01",
+              "text": "두 번째 금속 공정 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T06-O02",
+              "text": "단계 이미지와 실제 금속 경계 위치",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P06-T07",
           "checked": false,
           "text": "Three-zone 또는 Tri-Metal이면 추가 금속 공정을 넣는다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P06-T07-O01",
+              "text": "추가 금속 공정 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T07-O02",
+              "text": "추가 금속 단계 이미지와 경계 위치",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T07-O03",
+              "text": "미수행 시 제외 사유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P06-T08",
           "checked": false,
-          "text": "게이트 내부를 채운다.",
-          "outputs": []
+          "text": "Gap 중심 구조이면 Gap과 Spacer 절연체 공정을 구현한다.",
+          "outputs": [
+            {
+              "id": "P06-T08-O01",
+              "text": "Gap·Spacer 형성 공정 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T08-O02",
+              "text": "절연체 증착·식각 단계 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T08-O03",
+              "text": "실제 Gap 치수 또는 미수행 사유",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P06-T09",
           "checked": false,
-          "text": "열처리 후 접합과 도핑 분포를 확인한다.",
-          "outputs": []
+          "text": "게이트 내부를 채운다.",
+          "outputs": [
+            {
+              "id": "P06-T09-O01",
+              "text": "게이트 내부 충전 공정 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T09-O02",
+              "text": "충전 단계 이미지와 Void 확인 결과",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P06-T10",
           "checked": false,
-          "text": "SDE 구조와 SProcess 결과를 비교한다.",
-          "outputs": []
+          "text": "열처리 후 접합과 도핑 분포를 확인한다.",
+          "outputs": [
+            {
+              "id": "P06-T10-O01",
+              "text": "열처리 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T10-O02",
+              "text": "열처리 후 도핑 분포와 접합 이동량",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P06-T11",
           "checked": false,
-          "text": "목표 구조에 가까운 공정 조건을 찾는다.",
-          "outputs": []
+          "text": "SDE 구조와 SProcess 결과를 비교한다.",
+          "outputs": [
+            {
+              "id": "P06-T11-O01",
+              "text": "SDE·SProcess 구조 Overlay",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T11-O02",
+              "text": "목표·실제 치수 비교표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
+        },
+        {
+          "id": "P06-T12",
+          "checked": false,
+          "text": "목표 구조에 가까운 기준 공정 조건을 찾는다.",
+          "outputs": [
+            {
+              "id": "P06-T12-O01",
+              "text": "SProcess 전체 코드",
+              "type": "code",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P06-T12-O02",
+              "text": "전체 공정 순서와 기준 조건표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P06-T12-O03",
+              "text": "최종 공정 구조 TDR 서버 경로",
+              "type": "server",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P06-T12-O04",
+              "text": "목표 구조와의 차이·한계 정리",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         }
       ],
-      "outputs": [],
+      "outputs": [
+        {
+          "id": "P06-T01-O01",
+          "text": "초기 기판·도핑 공정 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T01"
+        },
+        {
+          "id": "P06-T01-O02",
+          "text": "초기 도핑 조건표와 분포 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T01"
+        },
+        {
+          "id": "P06-T02-O01",
+          "text": "수직 채널 형성 공정 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T02"
+        },
+        {
+          "id": "P06-T02-O02",
+          "text": "단계 구조 이미지와 실제 채널 치수",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T02"
+        },
+        {
+          "id": "P06-T03-O01",
+          "text": "접합 형성 공정 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T03"
+        },
+        {
+          "id": "P06-T03-O02",
+          "text": "도핑 분포와 접합 위치 측정값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T03"
+        },
+        {
+          "id": "P06-T04-O01",
+          "text": "절연막 형성 공정 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T04"
+        },
+        {
+          "id": "P06-T04-O02",
+          "text": "절연막 단계 이미지와 실제 두께",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T04"
+        },
+        {
+          "id": "P06-T05-O01",
+          "text": "첫 번째 금속 공정 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T05"
+        },
+        {
+          "id": "P06-T05-O02",
+          "text": "단계 이미지와 실제 금속 경계 위치",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T05"
+        },
+        {
+          "id": "P06-T06-O01",
+          "text": "두 번째 금속 공정 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T06"
+        },
+        {
+          "id": "P06-T06-O02",
+          "text": "단계 이미지와 실제 금속 경계 위치",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T06"
+        },
+        {
+          "id": "P06-T07-O01",
+          "text": "추가 금속 공정 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T07"
+        },
+        {
+          "id": "P06-T07-O02",
+          "text": "추가 금속 단계 이미지와 경계 위치",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T07"
+        },
+        {
+          "id": "P06-T07-O03",
+          "text": "미수행 시 제외 사유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P06-T07"
+        },
+        {
+          "id": "P06-T08-O01",
+          "text": "Gap·Spacer 형성 공정 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T08"
+        },
+        {
+          "id": "P06-T08-O02",
+          "text": "절연체 증착·식각 단계 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T08"
+        },
+        {
+          "id": "P06-T08-O03",
+          "text": "실제 Gap 치수 또는 미수행 사유",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P06-T08"
+        },
+        {
+          "id": "P06-T09-O01",
+          "text": "게이트 내부 충전 공정 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T09"
+        },
+        {
+          "id": "P06-T09-O02",
+          "text": "충전 단계 이미지와 Void 확인 결과",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T09"
+        },
+        {
+          "id": "P06-T10-O01",
+          "text": "열처리 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T10"
+        },
+        {
+          "id": "P06-T10-O02",
+          "text": "열처리 후 도핑 분포와 접합 이동량",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T10"
+        },
+        {
+          "id": "P06-T11-O01",
+          "text": "SDE·SProcess 구조 Overlay",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T11"
+        },
+        {
+          "id": "P06-T11-O02",
+          "text": "목표·실제 치수 비교표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P06-T11"
+        },
+        {
+          "id": "P06-T12-O01",
+          "text": "SProcess 전체 코드",
+          "type": "code",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P06-T12"
+        },
+        {
+          "id": "P06-T12-O02",
+          "text": "전체 공정 순서와 기준 조건표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P06-T12"
+        },
+        {
+          "id": "P06-T12-O03",
+          "text": "최종 공정 구조 TDR 서버 경로",
+          "type": "server",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P06-T12"
+        },
+        {
+          "id": "P06-T12-O04",
+          "text": "목표 구조와의 차이·한계 정리",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P06-T12"
+        }
+      ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:24:52Z",
+      "updatedAt": "2026-07-29T02:16:20Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "Issue 생성"
+      "lastModifiedAction": "과제·산출물 목록 수정"
     },
     {
       "id": 7,
