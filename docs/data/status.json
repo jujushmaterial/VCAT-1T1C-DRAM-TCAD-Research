@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:13:04+09:00",
+  "generatedAt": "2026-07-29T11:13:40+09:00",
   "overallProgress": 0,
   "phases": [
     {
@@ -550,68 +550,453 @@
       "tasksDone": 0,
       "tasksTotal": 9,
       "outputsDone": 0,
-      "outputsTotal": 0,
+      "outputsTotal": 25,
       "tasks": [
         {
           "id": "P02-T01",
           "checked": false,
           "text": "기준으로 사용할 VCAT 구조와 조건을 정리한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P02-T01-O01",
+              "text": "기준 소자 조건표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P02-T01-O02",
+              "text": "좌표계·단위·변수명 표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P02-T02",
           "checked": false,
           "text": "SDE로 Single-Metal VCAT 구조를 만든다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P02-T02-O01",
+              "text": "Single-Metal VCAT 전체 SDE 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T02-O02",
+              "text": "최종 구조 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P02-T03",
           "checked": false,
           "text": "위쪽·아래쪽 전극, 게이트, 절연막을 설정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P02-T03-O01",
+              "text": "Contact·Region 확인 이미지 또는 표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T03-O02",
+              "text": "절연막 두께 측정값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P02-T04",
           "checked": false,
           "text": "도핑과 접합 위치를 설정한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P02-T04-O01",
+              "text": "도핑 조건표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T04-O02",
+              "text": "도핑 분포 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T04-O03",
+              "text": "접합 위치 측정값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P02-T05",
           "checked": false,
           "text": "메시를 설정하고 구조를 확인한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P02-T05-O01",
+              "text": "메시 설정값",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T05-O02",
+              "text": "구조와 메시 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T05-O03",
+              "text": "주요 경계 최소 메시 크기",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P02-T06",
           "checked": false,
           "text": "Id–Vg와 Id–Vd를 계산한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P02-T06-O01",
+              "text": "전체 SDevice 코드",
+              "type": "code",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T06-O02",
+              "text": "Id–Vg·Id–Vd 원본 데이터",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T06-O03",
+              "text": "Id–Vg·Id–Vd 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T06-O04",
+              "text": "Vth, SS, Ion, Ioff, DIBL 결과표",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P02-T07",
           "checked": false,
           "text": "위→아래와 아래→위 전류를 확인한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P02-T07-O01",
+              "text": "양방향 전류 비교 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T07-O02",
+              "text": "방향별 전류와 비대칭 비율 표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T07-O03",
+              "text": "양방향 차이 해석",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P02-T08",
           "checked": false,
           "text": "누설 전류와 전계 분포를 확인한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P02-T08-O01",
+              "text": "GIDL 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T08-O02",
+              "text": "전계 분포 이미지",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T08-O03",
+              "text": "최대 전계 위치와 값",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         },
         {
           "id": "P02-T09",
           "checked": false,
           "text": "메시를 바꾸어 결과가 안정적인지 확인한다.",
-          "outputs": []
+          "outputs": [
+            {
+              "id": "P02-T09-O01",
+              "text": "메시 조건별 결과 비교표",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T09-O02",
+              "text": "메시 조건별 대표 그래프",
+              "type": "files",
+              "review": "none",
+              "submissions": []
+            },
+            {
+              "id": "P02-T09-O03",
+              "text": "결과 오차율과 채택 메시 조건",
+              "type": "files",
+              "review": "recommended",
+              "submissions": []
+            }
+          ]
         }
       ],
-      "outputs": [],
+      "outputs": [
+        {
+          "id": "P02-T01-O01",
+          "text": "기준 소자 조건표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P02-T01"
+        },
+        {
+          "id": "P02-T01-O02",
+          "text": "좌표계·단위·변수명 표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T01"
+        },
+        {
+          "id": "P02-T02-O01",
+          "text": "Single-Metal VCAT 전체 SDE 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T02"
+        },
+        {
+          "id": "P02-T02-O02",
+          "text": "최종 구조 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T02"
+        },
+        {
+          "id": "P02-T03-O01",
+          "text": "Contact·Region 확인 이미지 또는 표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T03"
+        },
+        {
+          "id": "P02-T03-O02",
+          "text": "절연막 두께 측정값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T03"
+        },
+        {
+          "id": "P02-T04-O01",
+          "text": "도핑 조건표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T04"
+        },
+        {
+          "id": "P02-T04-O02",
+          "text": "도핑 분포 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T04"
+        },
+        {
+          "id": "P02-T04-O03",
+          "text": "접합 위치 측정값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T04"
+        },
+        {
+          "id": "P02-T05-O01",
+          "text": "메시 설정값",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T05"
+        },
+        {
+          "id": "P02-T05-O02",
+          "text": "구조와 메시 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T05"
+        },
+        {
+          "id": "P02-T05-O03",
+          "text": "주요 경계 최소 메시 크기",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T05"
+        },
+        {
+          "id": "P02-T06-O01",
+          "text": "전체 SDevice 코드",
+          "type": "code",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T06"
+        },
+        {
+          "id": "P02-T06-O02",
+          "text": "Id–Vg·Id–Vd 원본 데이터",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T06"
+        },
+        {
+          "id": "P02-T06-O03",
+          "text": "Id–Vg·Id–Vd 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T06"
+        },
+        {
+          "id": "P02-T06-O04",
+          "text": "Vth, SS, Ion, Ioff, DIBL 결과표",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P02-T06"
+        },
+        {
+          "id": "P02-T07-O01",
+          "text": "양방향 전류 비교 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T07"
+        },
+        {
+          "id": "P02-T07-O02",
+          "text": "방향별 전류와 비대칭 비율 표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T07"
+        },
+        {
+          "id": "P02-T07-O03",
+          "text": "양방향 차이 해석",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P02-T07"
+        },
+        {
+          "id": "P02-T08-O01",
+          "text": "GIDL 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T08"
+        },
+        {
+          "id": "P02-T08-O02",
+          "text": "전계 분포 이미지",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T08"
+        },
+        {
+          "id": "P02-T08-O03",
+          "text": "최대 전계 위치와 값",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P02-T08"
+        },
+        {
+          "id": "P02-T09-O01",
+          "text": "메시 조건별 결과 비교표",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T09"
+        },
+        {
+          "id": "P02-T09-O02",
+          "text": "메시 조건별 대표 그래프",
+          "type": "files",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P02-T09"
+        },
+        {
+          "id": "P02-T09-O03",
+          "text": "결과 오차율과 채택 메시 조건",
+          "type": "files",
+          "review": "recommended",
+          "submissions": [],
+          "taskId": "P02-T09"
+        }
+      ],
       "assignees": [],
-      "updatedAt": "2026-07-27T08:23:44Z",
+      "updatedAt": "2026-07-29T02:13:32Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "Issue 생성"
+      "lastModifiedAction": "과제·산출물 목록 수정"
     },
     {
       "id": 3,
