@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""GitHub Issue, 결과물 제출, 연구원 활동을 대시보드 JSON으로 변환합니다."""
+"""GitHub Issue의 과제-산출물 구조와 연구원 활동을 대시보드 JSON으로 변환합니다."""
 
 from __future__ import annotations
 
@@ -21,8 +21,9 @@ STATUS_OUTPUT = Path("docs/data/status.json")
 MEMBERS_OUTPUT = Path("docs/data/members.json")
 SUBMISSIONS_OUTPUT = Path("docs/data/submissions.json")
 PHASE_PATTERN = re.compile(r"^Phase\s+(\d+)\.", re.IGNORECASE)
-CHECK_LINE_PATTERN = re.compile(r"^- \[([ xX])\]\s*(.*)$", re.MULTILINE)
-OUTPUT_ID_PATTERN = re.compile(r"<!--\s*output-id:([A-Za-z0-9-]+)\s*-->", re.IGNORECASE)
+TASK_LINE_PATTERN = re.compile(r"^- \[([ xX])\]\s*(.*)$")
+OUTPUT_LINE_PATTERN = re.compile(r"^\s{2,}-\s+(.*)$")
+META_PATTERN = re.compile(r"<!--\s*([^>]+?)\s*-->")
 KST = timezone(timedelta(hours=9))
 ACTIVE_LIMIT = timedelta(hours=24)
 RECENT_LIMIT = timedelta(days=7)
@@ -32,7 +33,7 @@ def api_get(url: str) -> object:
     headers = {
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
-        "User-Agent": "vcat-tcad-dashboard-sync",
+        "User-Agent": "vcat-tcad-dashboard-sync-v4",
     }
     if TOKEN:
         headers["Authorization"] = f"Bearer {TOKEN}"
@@ -64,41 +65,84 @@ def extract_section(body: str, heading: str, next_heading: str) -> str:
     return match.group(1) if match else ""
 
 
-def output_id(phase_id: int, index: int) -> str:
-    return f"P{phase_id:02d}-O{index + 1:02d}"
-
-
-def parse_check_items(text: str, *, phase_id: int, list_name: str) -> list[dict[str, Any]]:
-    matches = CHECK_LINE_PATTERN.findall(text)
-    supplied_ids = {
-        match.group(1).upper()
-        for _, label in matches
-        if (match := OUTPUT_ID_PATTERN.search(label)) and re.fullmatch(r"P\d{2}-O\d{2}", match.group(1), re.IGNORECASE)
-    } if list_name == "outputs" else set()
-    assigned_ids: set[str] = set()
-    next_output_number = 1
-    items: list[dict[str, Any]] = []
-    for mark, label in matches:
-        clean_label = OUTPUT_ID_PATTERN.sub("", label).strip()
-        if not clean_label:
+def parse_metadata(value: str) -> dict[str, str]:
+    match = META_PATTERN.search(value)
+    if not match:
+        return {}
+    result: dict[str, str] = {}
+    for part in match.group(1).strip().split():
+        if ":" not in part:
             continue
-        item: dict[str, Any] = {"checked": mark.lower() == "x", "text": clean_label}
-        if list_name == "outputs":
-            identifier = OUTPUT_ID_PATTERN.search(label)
-            supplied = identifier.group(1).upper() if identifier else ""
-            if re.fullmatch(r"P\d{2}-O\d{2}", supplied) and supplied not in assigned_ids:
-                item_id = supplied
-            else:
-                while True:
-                    candidate = f"P{phase_id:02d}-O{next_output_number:02d}"
-                    next_output_number += 1
-                    if candidate not in supplied_ids and candidate not in assigned_ids:
-                        item_id = candidate
-                        break
-            item["id"] = item_id
-            assigned_ids.add(item_id)
-        items.append(item)
-    return items
+        key, raw = part.split(":", 1)
+        if key:
+            result[key.lower()] = raw
+    return result
+
+
+def strip_metadata(value: str) -> str:
+    return META_PATTERN.sub(" ", value).strip()
+
+
+def parse_tasks(text: str, phase_id: int, submissions: dict[str, Any]) -> list[dict[str, Any]]:
+    tasks: list[dict[str, Any]] = []
+    current: dict[str, Any] | None = None
+    fallback_task = 1
+    fallback_output: dict[str, int] = {}
+
+    for line in text.splitlines():
+        task_match = TASK_LINE_PATTERN.match(line)
+        if task_match:
+            metadata = parse_metadata(task_match.group(2))
+            label = strip_metadata(task_match.group(2))
+            supplied = str(metadata.get("task-id", "")).upper()
+            task_id = supplied if re.fullmatch(r"P\d{2}-T\d{2}", supplied) else f"P{phase_id:02d}-T{fallback_task:02d}"
+            fallback_task += 1
+            current = {
+                "id": task_id,
+                "checked": task_match.group(1).lower() == "x",
+                "text": label,
+                "outputs": [],
+            }
+            tasks.append(current)
+            fallback_output[task_id] = 1
+            continue
+
+        output_match = OUTPUT_LINE_PATTERN.match(line)
+        if not output_match or current is None:
+            continue
+        metadata = parse_metadata(output_match.group(1))
+        label = strip_metadata(output_match.group(1))
+        if not label:
+            continue
+        next_number = fallback_output.get(current["id"], 1)
+        supplied = str(metadata.get("output-id", "")).upper()
+        output_id = supplied if re.fullmatch(r"P\d{2}-T\d{2}-O\d{2}", supplied) else f"{current['id']}-O{next_number:02d}"
+        fallback_output[current["id"]] = next_number + 1
+        output_type = metadata.get("type", "any")
+        if output_type not in {"any", "files", "code", "server"}:
+            output_type = "any"
+        review = metadata.get("review", "none")
+        if review not in {"none", "recommended"}:
+            review = "none"
+        current["outputs"].append(
+            {
+                "id": output_id,
+                "text": label,
+                "type": output_type,
+                "review": review,
+                "submissions": submissions.get(output_id, []) if isinstance(submissions, dict) else [],
+            }
+        )
+
+    return [task for task in tasks if task.get("text")]
+
+
+def flatten_outputs(tasks: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    outputs: list[dict[str, Any]] = []
+    for task in tasks:
+        for output in task.get("outputs", []):
+            outputs.append({**output, "taskId": task.get("id")})
+    return outputs
 
 
 def list_phase_issues() -> list[dict[str, Any]]:
@@ -128,8 +172,8 @@ def issue_event_metadata() -> dict[str, Any] | None:
     action = str(event.get("action") or "edited")
     action_labels = {
         "opened": "Issue 생성",
-        "edited": "체크리스트 수정",
-        "closed": "단계 완료",
+        "edited": "과제·산출물 목록 수정",
+        "closed": "단계 닫기",
         "reopened": "단계 재개",
         "assigned": "담당자 지정",
         "unassigned": "담당자 해제",
@@ -142,11 +186,12 @@ def issue_event_metadata() -> dict[str, Any] | None:
 
 
 def load_submissions() -> dict[str, Any]:
-    data = load_json(SUBMISSIONS_OUTPUT, {"version": 1, "updatedAt": None, "outputs": {}})
+    data = load_json(SUBMISSIONS_OUTPUT, {"version": 2, "updatedAt": None, "outputs": {}})
     if not isinstance(data, dict):
-        return {"version": 1, "updatedAt": None, "outputs": {}}
+        return {"version": 2, "updatedAt": None, "outputs": {}}
     if not isinstance(data.get("outputs"), dict):
         data["outputs"] = {}
+    data["version"] = max(2, int(data.get("version") or 1))
     return data
 
 
@@ -170,24 +215,22 @@ def build_status() -> dict[str, Any]:
         phase_id = int(match.group(1))
         body = str(issue.get("body") or "")
         task_text = extract_section(body, "1. 해야 할 것", "2. 나와야 하는 결과물")
-        output_text = extract_section(body, "2. 나와야 하는 결과물", "3. 과정의 이유")
-        tasks = parse_check_items(task_text, phase_id=phase_id, list_name="tasks")
-        outputs = parse_check_items(output_text, phase_id=phase_id, list_name="outputs")
-        for output in outputs:
-            output["submissions"] = submissions.get(output["id"], []) if isinstance(submissions, dict) else []
+        tasks = parse_tasks(task_text, phase_id, submissions if isinstance(submissions, dict) else {})
+        outputs = flatten_outputs(tasks)
 
-        tasks_done = sum(1 for item in tasks if item["checked"])
-        outputs_done = sum(1 for item in outputs if item["checked"])
-        total = len(tasks) + len(outputs)
-        done = tasks_done + outputs_done
-        progress = round(done / total * 100) if total else 0
+        tasks_done = sum(1 for item in tasks if item.get("checked"))
+        tasks_total = len(tasks)
+        outputs_done = sum(1 for item in outputs if item.get("submissions"))
+        progress = round(tasks_done / tasks_total * 100) if tasks_total else 0
 
-        if issue.get("state") == "closed":
+        if issue.get("state") == "closed" and tasks_total and tasks_done == tasks_total:
             state = "completed"
             progress = 100
-        elif total and done == total:
+        elif issue.get("state") == "closed":
+            state = "blocked"
+        elif tasks_total and tasks_done == tasks_total:
             state = "review"
-        elif done > 0:
+        elif tasks_done > 0:
             state = "in-progress"
         else:
             state = "waiting"
@@ -210,7 +253,7 @@ def build_status() -> dict[str, Any]:
                 "state": state,
                 "progress": progress,
                 "tasksDone": tasks_done,
-                "tasksTotal": len(tasks),
+                "tasksTotal": tasks_total,
                 "outputsDone": outputs_done,
                 "outputsTotal": len(outputs),
                 "tasks": tasks,
@@ -234,15 +277,20 @@ def build_status() -> dict[str, Any]:
         if phase["state"] == "waiting" and previous_phase["state"] != "completed":
             phase["state"] = "locked"
 
-    total_done = sum(item["tasksDone"] + item["outputsDone"] for item in phases)
-    total_checks = sum(item["tasksTotal"] + item["outputsTotal"] for item in phases)
-    overall = round(total_done / total_checks * 100) if total_checks else 0
-
-    return {
-        "generatedAt": datetime.now(KST).isoformat(timespec="seconds"),
-        "overallProgress": overall,
-        "phases": phases,
-    }
+    total_done = sum(item["tasksDone"] for item in phases)
+    total_tasks = sum(item["tasksTotal"] for item in phases)
+    overall = round(total_done / total_tasks * 100) if total_tasks else 0
+    semantic = {"overallProgress": overall, "phases": phases}
+    previous_semantic = {
+        "overallProgress": previous.get("overallProgress"),
+        "phases": previous.get("phases"),
+    } if isinstance(previous, dict) else {}
+    generated_at = (
+        previous.get("generatedAt")
+        if semantic == previous_semantic and isinstance(previous, dict) and previous.get("generatedAt")
+        else datetime.now(KST).isoformat(timespec="seconds")
+    )
+    return {"generatedAt": generated_at, **semantic}
 
 
 def parse_time(value: object) -> datetime | None:

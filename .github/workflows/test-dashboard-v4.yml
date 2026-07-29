@@ -1,0 +1,44 @@
+name: Test dashboard v4
+
+on:
+  pull_request:
+    paths:
+      - "docs/**"
+      - "worker/**"
+      - "scripts/sync_dashboard.py"
+      - "scripts/test_*"
+      - ".github/workflows/test-dashboard-v4.yml"
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "worker/**"
+      - "scripts/sync_dashboard.py"
+      - "scripts/test_*"
+      - ".github/workflows/test-dashboard-v4.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-three-times:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run syntax and contract tests three times
+        run: |
+          for run in 1 2 3; do
+            echo "===== verification run ${run}/3 ====="
+            node --check docs/task-output-presence.js
+            node --check worker/src/v4.js
+            node worker/test/task-output.test.mjs
+            python scripts/test_sync_task_outputs.py
+            python scripts/test_frontend_contract.py
+          done
