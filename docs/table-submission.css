@@ -1,0 +1,153 @@
+.sheet-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: 14px 0 10px;
+}
+
+.sheet-size {
+  margin-left: auto;
+  font-size: 0.82rem;
+  color: var(--muted, #667085);
+}
+
+.sheet-grid-wrap,
+.saved-table-wrap {
+  max-width: 100%;
+  overflow: auto;
+  border: 1px solid var(--line, #d0d5dd);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.sheet-grid {
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 720px;
+  table-layout: fixed;
+}
+
+.sheet-grid th,
+.sheet-grid td {
+  border-right: 1px solid #d9dee7;
+  border-bottom: 1px solid #d9dee7;
+  min-width: 116px;
+  height: 34px;
+  padding: 0;
+  background: #fff;
+}
+
+.sheet-grid thead th,
+.sheet-grid tbody th {
+  position: sticky;
+  z-index: 2;
+  min-width: 42px;
+  width: 42px;
+  padding: 0 8px;
+  text-align: center;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #475467;
+  background: #f2f4f7;
+}
+
+.sheet-grid thead th {
+  top: 0;
+}
+
+.sheet-grid tbody th {
+  left: 0;
+}
+
+.sheet-grid .sheet-corner {
+  left: 0;
+  z-index: 3;
+}
+
+.sheet-grid td > div {
+  min-height: 34px;
+  padding: 7px 9px;
+  outline: none;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.82rem;
+}
+
+.sheet-grid td > div:focus {
+  box-shadow: inset 0 0 0 2px #2e6df6;
+  background: #f5f8ff;
+}
+
+.sheet-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  margin: 10px 0 14px;
+  color: #475467;
+  font-size: 0.85rem;
+}
+
+.sheet-options label {
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.saved-table-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  margin: 18px 0 8px;
+}
+
+.saved-table-heading span {
+  color: #667085;
+  font-size: 0.82rem;
+}
+
+.saved-table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+}
+
+.saved-table th,
+.saved-table td {
+  max-width: 280px;
+  padding: 8px 10px;
+  border: 1px solid #d9dee7;
+  text-align: left;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.saved-table th {
+  position: sticky;
+  top: 0;
+  background: #f2f4f7;
+  z-index: 1;
+}
+
+.table-result-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  .sheet-size {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sheet-options {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
