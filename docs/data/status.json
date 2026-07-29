@@ -1,108 +1,79 @@
 {
-  "generatedAt": "2026-07-29T09:55:15+09:00",
-  "overallProgress": 5,
+  "generatedAt": "2026-07-29T11:12:03+09:00",
+  "overallProgress": 6,
   "phases": [
     {
       "id": 1,
       "issueNumber": 1,
       "state": "in-progress",
-      "progress": 44,
+      "progress": 60,
       "tasksDone": 6,
       "tasksTotal": 10,
-      "outputsDone": 2,
-      "outputsTotal": 8,
+      "outputsDone": 0,
+      "outputsTotal": 0,
       "tasks": [
         {
+          "id": "P01-T01",
           "checked": true,
-          "text": "기존 Planar 구조와 공통 조건을 정리한다."
+          "text": "기존 Planar 구조와 공통 조건을 정리한다.",
+          "outputs": []
         },
         {
+          "id": "P01-T02",
           "checked": true,
-          "text": "연속된 Single-Metal Gate 구조를 만든다."
+          "text": "연속된 Single-Metal Gate 구조를 만든다.",
+          "outputs": []
         },
         {
+          "id": "P01-T03",
           "checked": false,
-          "text": "같은 금속을 사용하고 중간에 간격만 있는 구조를 만든다."
+          "text": "같은 금속을 사용하고 중간에 간격만 있는 구조를 만든다.",
+          "outputs": []
         },
         {
+          "id": "P01-T04",
           "checked": true,
-          "text": "서로 다른 두 금속이 붙어 있는 구조를 만든다."
+          "text": "서로 다른 두 금속이 붙어 있는 구조를 만든다.",
+          "outputs": []
         },
         {
+          "id": "P01-T05",
           "checked": true,
-          "text": "서로 다른 두 금속 사이에 간격이 있는 기존 구조를 만든다."
+          "text": "서로 다른 두 금속 사이에 간격이 있는 기존 구조를 만든다.",
+          "outputs": []
         },
         {
+          "id": "P01-T06",
           "checked": true,
-          "text": "네 구조에 같은 전압 조건을 적용한다."
+          "text": "네 구조에 같은 전압 조건을 적용한다.",
+          "outputs": []
         },
         {
+          "id": "P01-T07",
           "checked": false,
-          "text": "전류 특성을 비교한다."
+          "text": "전류 특성을 비교한다.",
+          "outputs": []
         },
         {
+          "id": "P01-T08",
           "checked": false,
-          "text": "실리콘과 절연막 경계의 전위, 전도대, 전계를 비교한다."
+          "text": "실리콘과 절연막 경계의 전위, 전도대, 전계를 비교한다.",
+          "outputs": []
         },
         {
+          "id": "P01-T09",
           "checked": false,
-          "text": "금속 경계와 간격 부근의 변화를 확인한다."
+          "text": "금속 경계와 간격 부근의 변화를 확인한다.",
+          "outputs": []
         },
         {
+          "id": "P01-T10",
           "checked": true,
-          "text": "결과를 표와 그래프로 정리한다."
+          "text": "결과를 표와 그래프로 정리한다.",
+          "outputs": []
         }
       ],
-      "outputs": [
-        {
-          "checked": false,
-          "text": "네 구조의 전체 코드",
-          "id": "P01-O01",
-          "submissions": []
-        },
-        {
-          "checked": true,
-          "text": "네 구조의 단면 이미지",
-          "id": "P01-O02",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "전류-전압 비교 그래프",
-          "id": "P01-O03",
-          "submissions": []
-        },
-        {
-          "checked": true,
-          "text": "Ion, Ioff, SS, DIBL 비교표",
-          "id": "P01-O04",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "계면 전위 비교 그래프",
-          "id": "P01-O05",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "전도대 비교 그래프",
-          "id": "P01-O06",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "전계 비교 이미지",
-          "id": "P01-O07",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Gap 효과와 Dual-Metal 효과를 구분한 결론",
-          "id": "P01-O08",
-          "submissions": []
-        }
-      ],
+      "outputs": [],
       "assignees": [
         "jujushmaterial"
       ],
@@ -118,89 +89,64 @@
       "tasksDone": 0,
       "tasksTotal": 9,
       "outputsDone": 0,
-      "outputsTotal": 7,
+      "outputsTotal": 0,
       "tasks": [
         {
+          "id": "P02-T01",
           "checked": false,
-          "text": "기준으로 사용할 VCAT 구조와 조건을 정리한다."
+          "text": "기준으로 사용할 VCAT 구조와 조건을 정리한다.",
+          "outputs": []
         },
         {
+          "id": "P02-T02",
           "checked": false,
-          "text": "SDE로 Single-Metal VCAT 구조를 만든다."
+          "text": "SDE로 Single-Metal VCAT 구조를 만든다.",
+          "outputs": []
         },
         {
+          "id": "P02-T03",
           "checked": false,
-          "text": "위쪽·아래쪽 전극, 게이트, 절연막을 설정한다."
+          "text": "위쪽·아래쪽 전극, 게이트, 절연막을 설정한다.",
+          "outputs": []
         },
         {
+          "id": "P02-T04",
           "checked": false,
-          "text": "도핑과 접합 위치를 설정한다."
+          "text": "도핑과 접합 위치를 설정한다.",
+          "outputs": []
         },
         {
+          "id": "P02-T05",
           "checked": false,
-          "text": "메시를 설정하고 구조를 확인한다."
+          "text": "메시를 설정하고 구조를 확인한다.",
+          "outputs": []
         },
         {
+          "id": "P02-T06",
           "checked": false,
-          "text": "Id–Vg와 Id–Vd를 계산한다."
+          "text": "Id–Vg와 Id–Vd를 계산한다.",
+          "outputs": []
         },
         {
+          "id": "P02-T07",
           "checked": false,
-          "text": "위→아래와 아래→위 전류를 확인한다."
+          "text": "위→아래와 아래→위 전류를 확인한다.",
+          "outputs": []
         },
         {
+          "id": "P02-T08",
           "checked": false,
-          "text": "누설 전류와 전계 분포를 확인한다."
+          "text": "누설 전류와 전계 분포를 확인한다.",
+          "outputs": []
         },
         {
+          "id": "P02-T09",
           "checked": false,
-          "text": "메시를 바꾸어 결과가 안정적인지 확인한다."
+          "text": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+          "outputs": []
         }
       ],
-      "outputs": [
-        {
-          "checked": false,
-          "text": "Single-Metal VCAT 전체 코드",
-          "id": "P02-O01",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "구조와 메시 이미지",
-          "id": "P02-O02",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Id–Vg·Id–Vd 그래프",
-          "id": "P02-O03",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Vth, SS, Ion, Ioff, DIBL 결과표",
-          "id": "P02-O04",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "GIDL과 전계 분포",
-          "id": "P02-O05",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "양방향 전류 비교 결과",
-          "id": "P02-O06",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "기준 소자 조건표",
-          "id": "P02-O07",
-          "submissions": []
-        }
-      ],
+      "outputs": [],
       "assignees": [],
       "updatedAt": "2026-07-27T08:23:44Z",
       "lastModifiedBy": "jujushmaterial",
@@ -214,99 +160,70 @@
       "tasksDone": 0,
       "tasksTotal": 10,
       "outputsDone": 0,
-      "outputsTotal": 8,
+      "outputsTotal": 0,
       "tasks": [
         {
+          "id": "P03-T01",
           "checked": false,
-          "text": "Dual-Metal의 두 배치 방향을 만든다."
+          "text": "Dual-Metal의 두 배치 방향을 만든다.",
+          "outputs": []
         },
         {
+          "id": "P03-T02",
           "checked": false,
-          "text": "Low/High/Low Three-zone 구조를 만든다."
+          "text": "Low/High/Low Three-zone 구조를 만든다.",
+          "outputs": []
         },
         {
+          "id": "P03-T03",
           "checked": false,
-          "text": "필요하면 서로 다른 세 일함수를 갖는 Tri-Metal 후보를 만든다."
+          "text": "필요하면 서로 다른 세 일함수를 갖는 Tri-Metal 후보를 만든다.",
+          "outputs": []
         },
         {
+          "id": "P03-T04",
           "checked": false,
-          "text": "Phase 1에서 Gap 효과가 확인되면 간격 또는 절연체 구조를 추가한다."
+          "text": "Phase 1에서 Gap 효과가 확인되면 간격 또는 절연체 구조를 추가한다.",
+          "outputs": []
         },
         {
+          "id": "P03-T05",
           "checked": false,
-          "text": "금속의 일함수 차이를 넓은 범위로 바꾼다."
+          "text": "금속의 일함수 차이를 넓은 범위로 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P03-T06",
           "checked": false,
-          "text": "각 금속 구간의 비율을 넓은 범위로 바꾼다."
+          "text": "각 금속 구간의 비율을 넓은 범위로 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P03-T07",
           "checked": false,
-          "text": "구조별 전류와 누설을 비교한다."
+          "text": "구조별 전류와 누설을 비교한다.",
+          "outputs": []
         },
         {
+          "id": "P03-T08",
           "checked": false,
-          "text": "양방향 전류 차이를 확인한다."
+          "text": "양방향 전류 차이를 확인한다.",
+          "outputs": []
         },
         {
+          "id": "P03-T09",
           "checked": false,
-          "text": "전계가 한 위치에 집중되는지 확인한다."
+          "text": "전계가 한 위치에 집중되는지 확인한다.",
+          "outputs": []
         },
         {
+          "id": "P03-T10",
           "checked": false,
-          "text": "상위 후보를 선정한다."
+          "text": "상위 후보를 선정한다.",
+          "outputs": []
         }
       ],
-      "outputs": [
-        {
-          "checked": false,
-          "text": "구조별 전체 코드",
-          "id": "P03-O01",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "구조 비교 이미지",
-          "id": "P03-O02",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "조건별 성능표",
-          "id": "P03-O03",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "금속 비율에 따른 성능 그래프",
-          "id": "P03-O04",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "일함수 차이에 따른 성능 그래프",
-          "id": "P03-O05",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "GIDL과 전계 비교 결과",
-          "id": "P03-O06",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "상위 후보 3~5개 목록",
-          "id": "P03-O07",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "후보 선정 이유",
-          "id": "P03-O08",
-          "submissions": []
-        }
-      ],
+      "outputs": [],
       "assignees": [],
       "updatedAt": "2026-07-27T08:24:01Z",
       "lastModifiedBy": "jujushmaterial",
@@ -320,91 +237,76 @@
       "tasksDone": 0,
       "tasksTotal": 11,
       "outputsDone": 0,
-      "outputsTotal": 6,
+      "outputsTotal": 0,
       "tasks": [
         {
+          "id": "P04-T01",
           "checked": false,
-          "text": "VCAT과 저장 커패시터를 연결한다."
+          "text": "VCAT과 저장 커패시터를 연결한다.",
+          "outputs": []
         },
         {
+          "id": "P04-T02",
           "checked": false,
-          "text": "Word Line과 Bit Line 전압을 설정한다."
+          "text": "Word Line과 Bit Line 전압을 설정한다.",
+          "outputs": []
         },
         {
+          "id": "P04-T03",
           "checked": false,
-          "text": "Write ‘1’을 실행한다."
+          "text": "Write ‘1’을 실행한다.",
+          "outputs": []
         },
         {
+          "id": "P04-T04",
           "checked": false,
-          "text": "Hold ‘1’을 실행한다."
+          "text": "Hold ‘1’을 실행한다.",
+          "outputs": []
         },
         {
+          "id": "P04-T05",
           "checked": false,
-          "text": "Write ‘0’을 실행한다."
+          "text": "Write ‘0’을 실행한다.",
+          "outputs": []
         },
         {
+          "id": "P04-T06",
           "checked": false,
-          "text": "Hold ‘0’을 실행한다."
+          "text": "Hold ‘0’을 실행한다.",
+          "outputs": []
         },
         {
+          "id": "P04-T07",
           "checked": false,
-          "text": "저장 노드 전압을 확인한다."
+          "text": "저장 노드 전압을 확인한다.",
+          "outputs": []
         },
         {
+          "id": "P04-T08",
           "checked": false,
-          "text": "충전과 방전 속도를 확인한다."
+          "text": "충전과 방전 속도를 확인한다.",
+          "outputs": []
         },
         {
+          "id": "P04-T09",
           "checked": false,
-          "text": "‘1’과 ‘0’ 동작의 차이를 확인한다."
+          "text": "‘1’과 ‘0’ 동작의 차이를 확인한다.",
+          "outputs": []
         },
         {
+          "id": "P04-T10",
           "checked": false,
-          "text": "누설 전류와 Body 전위를 확인한다."
+          "text": "누설 전류와 Body 전위를 확인한다.",
+          "outputs": []
         },
         {
+          "id": "P04-T11",
           "checked": false,
-          "text": "DRAM에 부적합한 후보를 제외한다."
+          "text": "DRAM에 부적합한 후보를 제외한다.",
+          "outputs": []
         }
       ],
-      "outputs": [
-        {
-          "checked": false,
-          "text": "1T1C Mixed-Mode 전체 코드",
-          "id": "P04-O01",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Word Line·Bit Line·Storage Node 파형",
-          "id": "P04-O02",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Write ‘1’과 Write ‘0’ 비교표",
-          "id": "P04-O03",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Hold 중 전압 변화 그래프",
-          "id": "P04-O04",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "후보별 누설 비교",
-          "id": "P04-O05",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "DRAM 적용 가능 후보 목록",
-          "id": "P04-O06",
-          "submissions": []
-        }
-      ],
+      "outputs": [],
       "assignees": [],
       "updatedAt": "2026-07-27T08:24:15Z",
       "lastModifiedBy": "jujushmaterial",
@@ -418,95 +320,64 @@
       "tasksDone": 0,
       "tasksTotal": 9,
       "outputsDone": 0,
-      "outputsTotal": 8,
+      "outputsTotal": 0,
       "tasks": [
         {
+          "id": "P05-T01",
           "checked": false,
-          "text": "금속 경계 위치를 작은 간격으로 바꾼다."
+          "text": "금속 경계 위치를 작은 간격으로 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P05-T02",
           "checked": false,
-          "text": "금속 구간 비율을 작은 간격으로 바꾼다."
+          "text": "금속 구간 비율을 작은 간격으로 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P05-T03",
           "checked": false,
-          "text": "각 금속의 일함수를 바꾼다."
+          "text": "각 금속의 일함수를 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P05-T04",
           "checked": false,
-          "text": "Three-zone의 두 경계를 각각 바꾼다."
+          "text": "Three-zone의 두 경계를 각각 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P05-T05",
           "checked": false,
-          "text": "필요하면 Tri-Metal의 세 일함수와 두 경계를 바꾼다."
+          "text": "필요하면 Tri-Metal의 세 일함수와 두 경계를 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P05-T06",
           "checked": false,
-          "text": "Gap 구조는 간격과 절연체 종류를 바꾼다."
+          "text": "Gap 구조는 간격과 절연체 종류를 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P05-T07",
           "checked": false,
-          "text": "성능이 가장 좋은 조건을 찾는다."
+          "text": "성능이 가장 좋은 조건을 찾는다.",
+          "outputs": []
         },
         {
+          "id": "P05-T08",
           "checked": false,
-          "text": "조건 변화에 민감하지 않은 구조를 찾는다."
+          "text": "조건 변화에 민감하지 않은 구조를 찾는다.",
+          "outputs": []
         },
         {
+          "id": "P05-T09",
           "checked": false,
-          "text": "DRAM 성능의 균형이 좋은 구조를 찾는다."
+          "text": "DRAM 성능의 균형이 좋은 구조를 찾는다.",
+          "outputs": []
         }
       ],
-      "outputs": [
-        {
-          "checked": false,
-          "text": "세밀한 조건별 성능표",
-          "id": "P05-O01",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "금속 비율-성능 지도",
-          "id": "P05-O02",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "경계 위치-성능 지도",
-          "id": "P05-O03",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "일함수-성능 지도",
-          "id": "P05-O04",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "이상 조건에서 가장 좋은 구조",
-          "id": "P05-O05",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "오차에 강한 구조",
-          "id": "P05-O06",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "DRAM 성능 균형이 좋은 구조",
-          "id": "P05-O07",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "최종 SProcess 대상 후보 2~3개",
-          "id": "P05-O08",
-          "submissions": []
-        }
-      ],
+      "outputs": [],
       "assignees": [],
       "updatedAt": "2026-07-27T08:24:33Z",
       "lastModifiedBy": "jujushmaterial",
@@ -520,103 +391,76 @@
       "tasksDone": 0,
       "tasksTotal": 11,
       "outputsDone": 0,
-      "outputsTotal": 8,
+      "outputsTotal": 0,
       "tasks": [
         {
+          "id": "P06-T01",
           "checked": false,
-          "text": "초기 기판과 도핑 조건을 설정한다."
+          "text": "초기 기판과 도핑 조건을 설정한다.",
+          "outputs": []
         },
         {
+          "id": "P06-T02",
           "checked": false,
-          "text": "수직 채널을 형성한다."
+          "text": "수직 채널을 형성한다.",
+          "outputs": []
         },
         {
+          "id": "P06-T03",
           "checked": false,
-          "text": "위쪽과 아래쪽 접합을 형성한다."
+          "text": "위쪽과 아래쪽 접합을 형성한다.",
+          "outputs": []
         },
         {
+          "id": "P06-T04",
           "checked": false,
-          "text": "게이트 절연막을 형성한다."
+          "text": "게이트 절연막을 형성한다.",
+          "outputs": []
         },
         {
+          "id": "P06-T05",
           "checked": false,
-          "text": "첫 번째 금속을 증착하고 식각한다."
+          "text": "첫 번째 금속을 증착하고 식각한다.",
+          "outputs": []
         },
         {
+          "id": "P06-T06",
           "checked": false,
-          "text": "두 번째 금속을 증착하고 식각한다."
+          "text": "두 번째 금속을 증착하고 식각한다.",
+          "outputs": []
         },
         {
+          "id": "P06-T07",
           "checked": false,
-          "text": "Three-zone 또는 Tri-Metal이면 추가 금속 공정을 넣는다."
+          "text": "Three-zone 또는 Tri-Metal이면 추가 금속 공정을 넣는다.",
+          "outputs": []
         },
         {
+          "id": "P06-T08",
           "checked": false,
-          "text": "게이트 내부를 채운다."
+          "text": "게이트 내부를 채운다.",
+          "outputs": []
         },
         {
+          "id": "P06-T09",
           "checked": false,
-          "text": "열처리 후 접합과 도핑 분포를 확인한다."
+          "text": "열처리 후 접합과 도핑 분포를 확인한다.",
+          "outputs": []
         },
         {
+          "id": "P06-T10",
           "checked": false,
-          "text": "SDE 구조와 SProcess 결과를 비교한다."
+          "text": "SDE 구조와 SProcess 결과를 비교한다.",
+          "outputs": []
         },
         {
+          "id": "P06-T11",
           "checked": false,
-          "text": "목표 구조에 가까운 공정 조건을 찾는다."
+          "text": "목표 구조에 가까운 공정 조건을 찾는다.",
+          "outputs": []
         }
       ],
-      "outputs": [
-        {
-          "checked": false,
-          "text": "SProcess 전체 코드",
-          "id": "P06-O01",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "단계별 공정 구조 이미지",
-          "id": "P06-O02",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "최종 공정 구조 TDR",
-          "id": "P06-O03",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "도핑 분포 이미지",
-          "id": "P06-O04",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "실제 형성된 금속 경계 위치",
-          "id": "P06-O05",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "실제 채널 크기와 접합 위치",
-          "id": "P06-O06",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "SDE 구조와 SProcess 구조 비교표",
-          "id": "P06-O07",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "기준 공정 조건표",
-          "id": "P06-O08",
-          "submissions": []
-        }
-      ],
+      "outputs": [],
       "assignees": [],
       "updatedAt": "2026-07-27T08:24:52Z",
       "lastModifiedBy": "jujushmaterial",
@@ -630,97 +474,76 @@
       "tasksDone": 0,
       "tasksTotal": 11,
       "outputsDone": 0,
-      "outputsTotal": 7,
+      "outputsTotal": 0,
       "tasks": [
         {
+          "id": "P07-T01",
           "checked": false,
-          "text": "금속 식각 깊이를 바꾼다."
+          "text": "금속 식각 깊이를 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P07-T02",
           "checked": false,
-          "text": "금속 증착 두께를 바꾼다."
+          "text": "금속 증착 두께를 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P07-T03",
           "checked": false,
-          "text": "금속 경계 위치의 변화를 측정한다."
+          "text": "금속 경계 위치의 변화를 측정한다.",
+          "outputs": []
         },
         {
+          "id": "P07-T04",
           "checked": false,
-          "text": "채널 지름을 바꾼다."
+          "text": "채널 지름을 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P07-T05",
           "checked": false,
-          "text": "절연막 두께를 바꾼다."
+          "text": "절연막 두께를 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P07-T06",
           "checked": false,
-          "text": "접합 위치를 바꾼다."
+          "text": "접합 위치를 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P07-T07",
           "checked": false,
-          "text": "도핑량과 열처리 조건을 바꾼다."
+          "text": "도핑량과 열처리 조건을 바꾼다.",
+          "outputs": []
         },
         {
+          "id": "P07-T08",
           "checked": false,
-          "text": "금속 일함수 오차를 추가한다."
+          "text": "금속 일함수 오차를 추가한다.",
+          "outputs": []
         },
         {
+          "id": "P07-T09",
           "checked": false,
-          "text": "경계가 선명하지 않은 조건을 추가한다."
+          "text": "경계가 선명하지 않은 조건을 추가한다.",
+          "outputs": []
         },
         {
+          "id": "P07-T10",
           "checked": false,
-          "text": "각 조건의 소자 성능을 계산한다."
+          "text": "각 조건의 소자 성능을 계산한다.",
+          "outputs": []
         },
         {
+          "id": "P07-T11",
           "checked": false,
-          "text": "주요 영향 변수를 선정한다."
+          "text": "주요 영향 변수를 선정한다.",
+          "outputs": []
         }
       ],
-      "outputs": [
-        {
-          "checked": false,
-          "text": "공정 조건별 최종 구조",
-          "id": "P07-O01",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "실제 형성 치수 정리표",
-          "id": "P07-O02",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "공정 변수별 성능 변화 그래프",
-          "id": "P07-O03",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "일함수 오차별 성능 변화",
-          "id": "P07-O04",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "경계 위치 오차별 성능 변화",
-          "id": "P07-O05",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "성능에 가장 큰 영향을 주는 변수 목록",
-          "id": "P07-O06",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "정상, 경계, 실패 조건 구분",
-          "id": "P07-O07",
-          "submissions": []
-        }
-      ],
+      "outputs": [],
       "assignees": [],
       "updatedAt": "2026-07-27T08:25:08Z",
       "lastModifiedBy": "jujushmaterial",
@@ -734,103 +557,76 @@
       "tasksDone": 0,
       "tasksTotal": 11,
       "outputsDone": 0,
-      "outputsTotal": 8,
+      "outputsTotal": 0,
       "tasks": [
         {
+          "id": "P08-T01",
           "checked": false,
-          "text": "공정 합격 기준을 정한다."
+          "text": "공정 합격 기준을 정한다.",
+          "outputs": []
         },
         {
+          "id": "P08-T02",
           "checked": false,
-          "text": "Write 성능 기준을 정한다."
+          "text": "Write 성능 기준을 정한다.",
+          "outputs": []
         },
         {
+          "id": "P08-T03",
           "checked": false,
-          "text": "Read 성능 기준을 정한다."
+          "text": "Read 성능 기준을 정한다.",
+          "outputs": []
         },
         {
+          "id": "P08-T04",
           "checked": false,
-          "text": "Retention 기준을 정한다."
+          "text": "Retention 기준을 정한다.",
+          "outputs": []
         },
         {
+          "id": "P08-T05",
           "checked": false,
-          "text": "누설 전류 기준을 정한다."
+          "text": "누설 전류 기준을 정한다.",
+          "outputs": []
         },
         {
+          "id": "P08-T06",
           "checked": false,
-          "text": "조건별 Pass와 Fail을 구분한다."
+          "text": "조건별 Pass와 Fail을 구분한다.",
+          "outputs": []
         },
         {
+          "id": "P08-T07",
           "checked": false,
-          "text": "가장 좋은 조건을 표시한다."
+          "text": "가장 좋은 조건을 표시한다.",
+          "outputs": []
         },
         {
+          "id": "P08-T08",
           "checked": false,
-          "text": "오차에 가장 강한 조건을 표시한다."
+          "text": "오차에 가장 강한 조건을 표시한다.",
+          "outputs": []
         },
         {
+          "id": "P08-T09",
           "checked": false,
-          "text": "허용 가능한 경계 위치 범위를 정한다."
+          "text": "허용 가능한 경계 위치 범위를 정한다.",
+          "outputs": []
         },
         {
+          "id": "P08-T10",
           "checked": false,
-          "text": "허용 가능한 일함수 오차를 정한다."
+          "text": "허용 가능한 일함수 오차를 정한다.",
+          "outputs": []
         },
         {
+          "id": "P08-T11",
           "checked": false,
-          "text": "허용 가능한 금속 비율을 정한다."
+          "text": "허용 가능한 금속 비율을 정한다.",
+          "outputs": []
         }
       ],
-      "outputs": [
-        {
-          "checked": false,
-          "text": "공정 허용범위 Map",
-          "id": "P08-O01",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Pass, Marginal, Fail 영역",
-          "id": "P08-O02",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "가장 좋은 조건 표시",
-          "id": "P08-O03",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "오차에 강한 조건 표시",
-          "id": "P08-O04",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "금속 경계 허용오차",
-          "id": "P08-O05",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "일함수 허용오차",
-          "id": "P08-O06",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "금속 구간 비율 허용범위",
-          "id": "P08-O07",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "공정 조건별 최종 판정표",
-          "id": "P08-O08",
-          "submissions": []
-        }
-      ],
+      "outputs": [],
       "assignees": [],
       "updatedAt": "2026-07-27T08:25:23Z",
       "lastModifiedBy": "jujushmaterial",
@@ -844,119 +640,82 @@
       "tasksDone": 0,
       "tasksTotal": 12,
       "outputsDone": 0,
-      "outputsTotal": 10,
+      "outputsTotal": 0,
       "tasks": [
         {
+          "id": "P09-T01",
           "checked": false,
-          "text": "Single-Metal 기준 구조를 계산한다."
+          "text": "Single-Metal 기준 구조를 계산한다.",
+          "outputs": []
         },
         {
+          "id": "P09-T02",
           "checked": false,
-          "text": "논문형 Low/High/Low 구조를 계산한다."
+          "text": "논문형 Low/High/Low 구조를 계산한다.",
+          "outputs": []
         },
         {
+          "id": "P09-T03",
           "checked": false,
-          "text": "가장 좋은 구조를 계산한다."
+          "text": "가장 좋은 구조를 계산한다.",
+          "outputs": []
         },
         {
+          "id": "P09-T04",
           "checked": false,
-          "text": "오차에 강한 구조를 계산한다."
+          "text": "오차에 강한 구조를 계산한다.",
+          "outputs": []
         },
         {
+          "id": "P09-T05",
           "checked": false,
-          "text": "공정 허용범위 경계 조건을 계산한다."
+          "text": "공정 허용범위 경계 조건을 계산한다.",
+          "outputs": []
         },
         {
+          "id": "P09-T06",
           "checked": false,
-          "text": "허용범위 밖 실패 조건을 계산한다."
+          "text": "허용범위 밖 실패 조건을 계산한다.",
+          "outputs": []
         },
         {
+          "id": "P09-T07",
           "checked": false,
-          "text": "Write ‘1’과 Write ‘0’을 비교한다."
+          "text": "Write ‘1’과 Write ‘0’을 비교한다.",
+          "outputs": []
         },
         {
+          "id": "P09-T08",
           "checked": false,
-          "text": "Read 동작을 비교한다."
+          "text": "Read 동작을 비교한다.",
+          "outputs": []
         },
         {
+          "id": "P09-T09",
           "checked": false,
-          "text": "Hold와 Retention을 비교한다."
+          "text": "Hold와 Retention을 비교한다.",
+          "outputs": []
         },
         {
+          "id": "P09-T10",
           "checked": false,
-          "text": "Read Disturb를 확인한다."
+          "text": "Read Disturb를 확인한다.",
+          "outputs": []
         },
         {
+          "id": "P09-T11",
           "checked": false,
-          "text": "Storage Node와 Bit Line 파형을 비교한다."
+          "text": "Storage Node와 Bit Line 파형을 비교한다.",
+          "outputs": []
         },
         {
+          "id": "P09-T12",
           "checked": false,
-          "text": "최종 구조를 선정한다."
+          "text": "최종 구조를 선정한다.",
+          "outputs": []
         }
       ],
-      "outputs": [
-        {
-          "checked": false,
-          "text": "최종 1T1C 전체 코드",
-          "id": "P09-O01",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Write ‘1’·Write ‘0’ 파형",
-          "id": "P09-O02",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Read 파형",
-          "id": "P09-O03",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Hold와 Retention 그래프",
-          "id": "P09-O04",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Storage Node 전압 비교",
-          "id": "P09-O05",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Bit Line 전압 비교",
-          "id": "P09-O06",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "Read Disturb 결과",
-          "id": "P09-O07",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "구조별 DRAM 성능표",
-          "id": "P09-O08",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "최종 추천 구조",
-          "id": "P09-O09",
-          "submissions": []
-        },
-        {
-          "checked": false,
-          "text": "최종 결론",
-          "id": "P09-O10",
-          "submissions": []
-        }
-      ],
+      "outputs": [],
       "assignees": [],
       "updatedAt": "2026-07-27T08:25:41Z",
       "lastModifiedBy": "jujushmaterial",
