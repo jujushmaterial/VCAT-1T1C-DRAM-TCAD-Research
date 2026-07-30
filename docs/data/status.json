@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T17:18:58+09:00",
+  "generatedAt": "2026-07-30T17:20:06+09:00",
   "overallProgress": 8,
   "phases": [
     {
@@ -377,7 +377,7 @@
             {
               "id": "P01-T10-O05",
               "text": "DIBL 코드 수정 자료(확인요망)",
-              "type": "table",
+              "type": "any",
               "review": "none",
               "submissions": []
             }
@@ -712,7 +712,7 @@
         {
           "id": "P01-T10-O05",
           "text": "DIBL 코드 수정 자료(확인요망)",
-          "type": "table",
+          "type": "any",
           "review": "none",
           "submissions": [],
           "taskId": "P01-T10"
@@ -721,7 +721,7 @@
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-07-30T08:18:48Z",
+      "updatedAt": "2026-07-30T08:19:52Z",
       "lastModifiedBy": "seanthe17",
       "lastModifiedAction": "과제·산출물 목록 수정"
     },
