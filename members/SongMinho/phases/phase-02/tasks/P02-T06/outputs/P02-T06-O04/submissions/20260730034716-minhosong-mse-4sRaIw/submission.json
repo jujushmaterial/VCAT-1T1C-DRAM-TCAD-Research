@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260730034716-minhosong-mse-4sRaIw",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T06",
+  "taskText": "Id–Vg와 Id–Vd를 계산한다.",
+  "outputId": "P02-T06-O04",
+  "outputText": "Vth, SS, Ion, Ioff, DIBL 결과표",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-07-30T03:47:16.305Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O04/submissions/20260730034716-minhosong-mse-4sRaIw",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O04/submissions/20260730034716-minhosong-mse-4sRaIw",
+  "summary": "1개 파일 · 479B",
+  "files": [
+    {
+      "name": "P02-T06-O04_DC_Metrics.csv",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O04/submissions/20260730034716-minhosong-mse-4sRaIw/files/P02-T06-O04_DC_Metrics.csv",
+      "size": 479
+    }
+  ]
+}

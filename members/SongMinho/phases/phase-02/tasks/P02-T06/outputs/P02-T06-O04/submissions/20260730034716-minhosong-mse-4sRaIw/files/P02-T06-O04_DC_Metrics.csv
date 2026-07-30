@@ -1,0 +1,4 @@
+﻿Drain_bias_V,Vth_V,SS_mV_per_dec,Ioff_A,Ion_A,Ion_over_Ioff,Vth_method,SS_fit_window_A,SS_fit_R2
+0.05,0.506666774,60.245798,4.387798600e-16,2.864655200e-06,6.528684338e+09,Constant current |Id|=1E-7 A; log-current interpolation,1E-12 to 1E-8,0.999994570
+1.00,0.503429775,60.047977,3.101241800e-15,8.476449700e-06,2.733243728e+09,Constant current |Id|=1E-7 A; log-current interpolation,1E-12 to 1E-8,0.999996622
+DIBL,,,,,,(Vth@0.05V - Vth@1.00V)/(1.00-0.05),,3.407367 mV/V
