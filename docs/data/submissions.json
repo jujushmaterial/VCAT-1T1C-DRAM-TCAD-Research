@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-30T03:46:10.994Z",
+  "updatedAt": "2026-07-30T03:46:30.335Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -436,6 +436,37 @@
             "name": "P02-T04-O03_Junction_Positions.csv",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O03/submissions/20260730034421-minhosong-mse-22eQWA/files/P02-T04-O03_Junction_Positions.csv",
             "size": 306
+          }
+        ]
+      }
+    ],
+    "P02-T06-O02": [
+      {
+        "submissionId": "20260730034630-minhosong-mse-T3gEGw",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T06",
+        "taskText": "Id–Vg와 Id–Vd를 계산한다.",
+        "outputId": "P02-T06-O02",
+        "outputText": "Id–Vg·Id–Vd 원본 데이터",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-07-30T03:46:30.335Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw",
+        "summary": "2개 파일 · 50.7KB",
+        "files": [
+          {
+            "name": "P02-T06-O02_IdVd_Vg040-Vg100_Raw.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw/files/P02-T06-O02_IdVd_Vg040-Vg100_Raw.csv",
+            "size": 24935
+          },
+          {
+            "name": "P02-T06-O02_IdVg_Vd005-Vd100_Raw.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw/files/P02-T06-O02_IdVg_Vd005-Vd100_Raw.csv",
+            "size": 26931
           }
         ]
       }
