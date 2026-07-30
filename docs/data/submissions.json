@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-30T03:42:14.990Z",
+  "updatedAt": "2026-07-30T03:42:29.403Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -336,6 +336,32 @@
             "name": "P02-T04-O01_Doping_Conditions.csv",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O01/submissions/20260730034214-minhosong-mse-mJzlNQ/files/P02-T04-O01_Doping_Conditions.csv",
             "size": 523
+          }
+        ]
+      }
+    ],
+    "P02-T04-O02": [
+      {
+        "submissionId": "20260730034229-minhosong-mse-xd-P2Q",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T04",
+        "taskText": "도핑과 접합 위치를 설정한다.",
+        "outputId": "P02-T04-O02",
+        "outputText": "도핑 분포 이미지",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-07-30T03:42:29.403Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260730034229-minhosong-mse-xd-P2Q",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260730034229-minhosong-mse-xd-P2Q",
+        "summary": "1개 파일 · 77.7KB",
+        "files": [
+          {
+            "name": "P02-T04-O02_Doping_Distribution.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260730034229-minhosong-mse-xd-P2Q/files/P02-T04-O02_Doping_Distribution.png",
+            "size": 79558
           }
         ]
       }
