@@ -1,0 +1,4 @@
+﻿Junction,Position_um,Position_nm,Measurement_basis
+SN_Channel,0.020,20,Donor and acceptor concentration intersection on Y=0.003 um X-cut
+Channel_BL,0.080,80,Donor and acceptor concentration intersection on Y=0.003 um X-cut
+Effective_Junction_to_Junction_Channel,0.060,60,Channel_BL minus SN_Channel
