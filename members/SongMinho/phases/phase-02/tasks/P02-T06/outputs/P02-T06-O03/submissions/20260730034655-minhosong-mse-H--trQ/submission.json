@@ -1,0 +1,39 @@
+{
+  "submissionId": "20260730034655-minhosong-mse-H--trQ",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T06",
+  "taskText": "Id–Vg와 Id–Vd를 계산한다.",
+  "outputId": "P02-T06-O03",
+  "outputText": "Id–Vg·Id–Vd 그래프",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-07-30T03:46:55.734Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ",
+  "summary": "4개 파일 · 385.0KB",
+  "files": [
+    {
+      "name": "P02-T06-O03_IdVd_Linear.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ/files/P02-T06-O03_IdVd_Linear.png",
+      "size": 105612
+    },
+    {
+      "name": "P02-T06-O03_IdVd_Log.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ/files/P02-T06-O03_IdVd_Log.png",
+      "size": 110440
+    },
+    {
+      "name": "P02-T06-O03_IdVg_Linear.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ/files/P02-T06-O03_IdVg_Linear.png",
+      "size": 89452
+    },
+    {
+      "name": "P02-T06-O03_IdVg_Log.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ/files/P02-T06-O03_IdVg_Log.png",
+      "size": 88702
+    }
+  ]
+}
