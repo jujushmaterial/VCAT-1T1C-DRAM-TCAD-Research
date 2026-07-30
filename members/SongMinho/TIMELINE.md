@@ -95,3 +95,21 @@
 - **작업 이유:** 개인 폴더의 모든 변경 이력을 반드시 남기는 저장소 규칙을 보장하기 위해서입니다.
 - **결과 및 검증:** 커밋 `0512e3774fcc` 감지. 커밋 메시지: `Submit P02-T04-O03 result by minhosong-mse`. 파일 내용과 TCAD 결과의 타당성은 자동 검증하지 않았습니다.
 - **남은 일:** 실제 작업자는 필요하면 이 자동 기록 아래에 목적, 조건, 결과와 검증 내용을 보완해야 합니다.
+
+
+## 2026-07-30 12:46 KST — 자동 타임라인 보완
+
+- **작성자:** GitHub Actions (`@minhosong-mse`의 변경 감지)
+- **Phase / Issue:** Phase 2 / Issue 미확인
+- **결과물 ID:** `해당 없음`
+- **변경 유형:** 자동 기록
+- **변경 파일:**
+  - `members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/README.md` (생성)
+  - `members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw/README.md` (생성)
+  - `members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw/files/P02-T06-O02_IdVd_Vg040-Vg100_Raw.csv` (생성)
+  - `members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw/files/P02-T06-O02_IdVg_Vd005-Vd100_Raw.csv` (생성)
+  - `members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw/submission.json` (생성)
+- **작업 내용:** 개인 폴더 변경에서 수동 `TIMELINE.md` 기록이 확인되지 않아 변경 파일 목록을 자동으로 추가했습니다.
+- **작업 이유:** 개인 폴더의 모든 변경 이력을 반드시 남기는 저장소 규칙을 보장하기 위해서입니다.
+- **결과 및 검증:** 커밋 `c3f3db2577ad` 감지. 커밋 메시지: `Submit P02-T06-O02 result by minhosong-mse`. 파일 내용과 TCAD 결과의 타당성은 자동 검증하지 않았습니다.
+- **남은 일:** 실제 작업자는 필요하면 이 자동 기록 아래에 목적, 조건, 결과와 검증 내용을 보완해야 합니다.
