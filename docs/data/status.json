@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-07-30T12:47:46+09:00",
-  "overallProgress": 7,
+  "generatedAt": "2026-07-30T17:18:58+09:00",
+  "overallProgress": 8,
   "phases": [
     {
       "id": 1,
       "issueNumber": 1,
       "state": "in-progress",
-      "progress": 10,
-      "tasksDone": 1,
+      "progress": 20,
+      "tasksDone": 2,
       "tasksTotal": 10,
       "outputsDone": 2,
-      "outputsTotal": 30,
+      "outputsTotal": 31,
       "tasks": [
         {
           "id": "P01-T01",
@@ -152,6 +152,30 @@
                       "name": "dual_metal_gap_svisual.tcl",
                       "path": "members/LeeSeonJae/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260729045729-seanthe17-mNFaUg/source/dual_metal_gap_svisual.tcl",
                       "size": 18352
+                    }
+                  ]
+                },
+                {
+                  "submissionId": "20260730080004-jujushmaterial-14BZHQ",
+                  "phaseId": 1,
+                  "issueNumber": 1,
+                  "taskId": "P01-T05",
+                  "taskText": "서로 다른 두 금속 사이에 간격이 있는 기존 구조를 만든다.",
+                  "outputId": "P01-T05-O01",
+                  "outputText": "Dual-Metal Gap 구조 전체 코드",
+                  "uploader": "jujushmaterial",
+                  "memberName": "주상현",
+                  "memberFolder": "JuSanghyeon",
+                  "type": "code",
+                  "uploadedAt": "2026-07-30T08:00:04.813Z",
+                  "folderPath": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260730080004-jujushmaterial-14BZHQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260730080004-jujushmaterial-14BZHQ",
+                  "summary": "1개 코드 파일 · 20.3KB",
+                  "files": [
+                    {
+                      "name": "Svisual_DIBL.tcl",
+                      "path": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260730080004-jujushmaterial-14BZHQ/source/Svisual_DIBL.tcl",
+                      "size": 20828
                     }
                   ]
                 }
@@ -319,7 +343,7 @@
         },
         {
           "id": "P01-T10",
-          "checked": false,
+          "checked": true,
           "text": "결과를 표와 그래프로 정리하고 작동 원인을 판단한다.",
           "outputs": [
             {
@@ -348,6 +372,13 @@
               "text": "Phase 2·3 진행 방향 결정문",
               "type": "files",
               "review": "recommended",
+              "submissions": []
+            },
+            {
+              "id": "P01-T10-O05",
+              "text": "DIBL 코드 수정 자료(확인요망)",
+              "type": "table",
+              "review": "none",
               "submissions": []
             }
           ]
@@ -471,6 +502,30 @@
                   "name": "dual_metal_gap_svisual.tcl",
                   "path": "members/LeeSeonJae/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260729045729-seanthe17-mNFaUg/source/dual_metal_gap_svisual.tcl",
                   "size": 18352
+                }
+              ]
+            },
+            {
+              "submissionId": "20260730080004-jujushmaterial-14BZHQ",
+              "phaseId": 1,
+              "issueNumber": 1,
+              "taskId": "P01-T05",
+              "taskText": "서로 다른 두 금속 사이에 간격이 있는 기존 구조를 만든다.",
+              "outputId": "P01-T05-O01",
+              "outputText": "Dual-Metal Gap 구조 전체 코드",
+              "uploader": "jujushmaterial",
+              "memberName": "주상현",
+              "memberFolder": "JuSanghyeon",
+              "type": "code",
+              "uploadedAt": "2026-07-30T08:00:04.813Z",
+              "folderPath": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260730080004-jujushmaterial-14BZHQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260730080004-jujushmaterial-14BZHQ",
+              "summary": "1개 코드 파일 · 20.3KB",
+              "files": [
+                {
+                  "name": "Svisual_DIBL.tcl",
+                  "path": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260730080004-jujushmaterial-14BZHQ/source/Svisual_DIBL.tcl",
+                  "size": 20828
                 }
               ]
             }
@@ -653,13 +708,21 @@
           "review": "recommended",
           "submissions": [],
           "taskId": "P01-T10"
+        },
+        {
+          "id": "P01-T10-O05",
+          "text": "DIBL 코드 수정 자료(확인요망)",
+          "type": "table",
+          "review": "none",
+          "submissions": [],
+          "taskId": "P01-T10"
         }
       ],
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-07-29T05:34:13Z",
-      "lastModifiedBy": "jujushmaterial",
+      "updatedAt": "2026-07-30T08:18:48Z",
+      "lastModifiedBy": "seanthe17",
       "lastModifiedAction": "과제·산출물 목록 수정"
     },
     {
