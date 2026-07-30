@@ -1,0 +1,8 @@
+﻿Parameter,Value,Unit,Description
+Background acceptor,1.0E17,cm^-3,Uniform boron concentration in silicon
+SN donor peak,1.0E20,cm^-3,Arsenic Gaussian profile from X=0 um
+BL donor peak,1.0E20,cm^-3,Arsenic Gaussian profile from X=0.1 um
+SN junction depth parameter,20,nm,Gaussian ValueAtDepth reaches background doping
+BL junction depth parameter,20,nm,Gaussian ValueAtDepth reaches background doping
+Gaussian factor,0.8,-,Lateral/shape factor used in SDE profile
+X-cut position,0.003,um,Centerline cut at fixed Y
