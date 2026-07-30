@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-30T03:44:21.248Z",
+  "updatedAt": "2026-07-30T03:46:10.994Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -310,6 +310,30 @@
           {
             "name": "P02_SWF_SDevice_IdVg_v0p2.cmd",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O01/submissions/20260730025110-minhosong-mse-repair/source/P02_SWF_SDevice_IdVg_v0p2.cmd"
+          }
+        ]
+      },
+      {
+        "submissionId": "20260730034610-minhosong-mse-Y6ZB-g",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T06",
+        "taskText": "Id–Vg와 Id–Vd를 계산한다.",
+        "outputId": "P02-T06-O01",
+        "outputText": "전체 SDevice 코드",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "code",
+        "uploadedAt": "2026-07-30T03:46:10.994Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O01/submissions/20260730034610-minhosong-mse-Y6ZB-g",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O01/submissions/20260730034610-minhosong-mse-Y6ZB-g",
+        "summary": "1개 코드 파일 · 2.3KB",
+        "files": [
+          {
+            "name": "S-Vd.cmd",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O01/submissions/20260730034610-minhosong-mse-Y6ZB-g/source/S-Vd.cmd",
+            "size": 2401
           }
         ]
       }
