@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-30T03:37:34+09:00",
-  "overallProgress": 5,
+  "generatedAt": "2026-07-30T12:43:08+09:00",
+  "overallProgress": 6,
   "phases": [
     {
       "id": 1,
@@ -666,10 +666,10 @@
       "id": 2,
       "issueNumber": 2,
       "state": "in-progress",
-      "progress": 44,
-      "tasksDone": 4,
+      "progress": 56,
+      "tasksDone": 5,
       "tasksTotal": 9,
-      "outputsDone": 10,
+      "outputsDone": 13,
       "outputsTotal": 25,
       "tasks": [
         {
@@ -881,7 +881,7 @@
         },
         {
           "id": "P02-T04",
-          "checked": false,
+          "checked": true,
           "text": "도핑과 접합 위치를 설정한다.",
           "outputs": [
             {
@@ -889,21 +889,96 @@
               "text": "도핑 조건표",
               "type": "files",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730034214-minhosong-mse-mJzlNQ",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T04",
+                  "taskText": "도핑과 접합 위치를 설정한다.",
+                  "outputId": "P02-T04-O01",
+                  "outputText": "도핑 조건표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-30T03:42:14.990Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O01/submissions/20260730034214-minhosong-mse-mJzlNQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O01/submissions/20260730034214-minhosong-mse-mJzlNQ",
+                  "summary": "1개 파일 · 523B",
+                  "files": [
+                    {
+                      "name": "P02-T04-O01_Doping_Conditions.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O01/submissions/20260730034214-minhosong-mse-mJzlNQ/files/P02-T04-O01_Doping_Conditions.csv",
+                      "size": 523
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T04-O02",
               "text": "도핑 분포 이미지",
               "type": "files",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730034229-minhosong-mse-xd-P2Q",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T04",
+                  "taskText": "도핑과 접합 위치를 설정한다.",
+                  "outputId": "P02-T04-O02",
+                  "outputText": "도핑 분포 이미지",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-30T03:42:29.403Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260730034229-minhosong-mse-xd-P2Q",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260730034229-minhosong-mse-xd-P2Q",
+                  "summary": "1개 파일 · 77.7KB",
+                  "files": [
+                    {
+                      "name": "P02-T04-O02_Doping_Distribution.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260730034229-minhosong-mse-xd-P2Q/files/P02-T04-O02_Doping_Distribution.png",
+                      "size": 79558
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T04-O03",
               "text": "접합 위치 측정값",
               "type": "files",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730034242-minhosong-mse-oLORQw",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T04",
+                  "taskText": "도핑과 접합 위치를 설정한다.",
+                  "outputId": "P02-T04-O03",
+                  "outputText": "접합 위치 측정값",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-30T03:42:42.883Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O03/submissions/20260730034242-minhosong-mse-oLORQw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O03/submissions/20260730034242-minhosong-mse-oLORQw",
+                  "summary": "1개 파일 · 93.0KB",
+                  "files": [
+                    {
+                      "name": "P02-T04-O03_Doping_Xcut.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O03/submissions/20260730034242-minhosong-mse-oLORQw/files/P02-T04-O03_Doping_Xcut.png",
+                      "size": 95202
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1349,7 +1424,32 @@
           "text": "도핑 조건표",
           "type": "files",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730034214-minhosong-mse-mJzlNQ",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T04",
+              "taskText": "도핑과 접합 위치를 설정한다.",
+              "outputId": "P02-T04-O01",
+              "outputText": "도핑 조건표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-30T03:42:14.990Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O01/submissions/20260730034214-minhosong-mse-mJzlNQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O01/submissions/20260730034214-minhosong-mse-mJzlNQ",
+              "summary": "1개 파일 · 523B",
+              "files": [
+                {
+                  "name": "P02-T04-O01_Doping_Conditions.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O01/submissions/20260730034214-minhosong-mse-mJzlNQ/files/P02-T04-O01_Doping_Conditions.csv",
+                  "size": 523
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T04"
         },
         {
@@ -1357,7 +1457,32 @@
           "text": "도핑 분포 이미지",
           "type": "files",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730034229-minhosong-mse-xd-P2Q",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T04",
+              "taskText": "도핑과 접합 위치를 설정한다.",
+              "outputId": "P02-T04-O02",
+              "outputText": "도핑 분포 이미지",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-30T03:42:29.403Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260730034229-minhosong-mse-xd-P2Q",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260730034229-minhosong-mse-xd-P2Q",
+              "summary": "1개 파일 · 77.7KB",
+              "files": [
+                {
+                  "name": "P02-T04-O02_Doping_Distribution.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260730034229-minhosong-mse-xd-P2Q/files/P02-T04-O02_Doping_Distribution.png",
+                  "size": 79558
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T04"
         },
         {
@@ -1365,7 +1490,32 @@
           "text": "접합 위치 측정값",
           "type": "files",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730034242-minhosong-mse-oLORQw",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T04",
+              "taskText": "도핑과 접합 위치를 설정한다.",
+              "outputId": "P02-T04-O03",
+              "outputText": "접합 위치 측정값",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-30T03:42:42.883Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O03/submissions/20260730034242-minhosong-mse-oLORQw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O03/submissions/20260730034242-minhosong-mse-oLORQw",
+              "summary": "1개 파일 · 93.0KB",
+              "files": [
+                {
+                  "name": "P02-T04-O03_Doping_Xcut.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O03/submissions/20260730034242-minhosong-mse-oLORQw/files/P02-T04-O03_Doping_Xcut.png",
+                  "size": 95202
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T04"
         },
         {
@@ -1596,8 +1746,8 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-07-29T18:37:21Z",
-      "lastModifiedBy": "jujushmaterial",
+      "updatedAt": "2026-07-30T03:42:59Z",
+      "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정"
     },
     {
