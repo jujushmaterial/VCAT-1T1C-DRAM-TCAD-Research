@@ -7,10 +7,10 @@
       "role": "admin",
       "membership": "active",
       "status": "active",
-      "statusLabel": "Issue #2 댓글",
+      "statusLabel": "코드 변경",
       "activityState": "active",
-      "lastActivityAt": "2026-07-29T18:29:54Z",
-      "recentActivity": "Issue #2 댓글",
+      "lastActivityAt": "2026-07-30T03:50:15Z",
+      "recentActivity": "코드 변경",
       "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon"
     },
     {
@@ -45,9 +45,9 @@
       "folder": "LeeSeonJae",
       "role": "member",
       "membership": "active",
-      "status": "active",
+      "status": "recent",
       "statusLabel": "코드 변경",
-      "activityState": "active",
+      "activityState": "recent",
       "lastActivityAt": "2026-07-29T05:01:48Z",
       "recentActivity": "코드 변경",
       "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonJae"
