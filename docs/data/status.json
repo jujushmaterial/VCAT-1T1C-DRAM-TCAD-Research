@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-30T12:46:25+09:00",
-  "overallProgress": 6,
+  "generatedAt": "2026-07-30T12:47:46+09:00",
+  "overallProgress": 7,
   "phases": [
     {
       "id": 1,
@@ -666,10 +666,10 @@
       "id": 2,
       "issueNumber": 2,
       "state": "in-progress",
-      "progress": 56,
-      "tasksDone": 5,
+      "progress": 67,
+      "tasksDone": 6,
       "tasksTotal": 9,
-      "outputsDone": 13,
+      "outputsDone": 16,
       "outputsTotal": 25,
       "tasks": [
         {
@@ -1108,7 +1108,7 @@
         },
         {
           "id": "P02-T06",
-          "checked": false,
+          "checked": true,
           "text": "Id–Vg와 Id–Vd를 계산한다.",
           "outputs": [
             {
@@ -1171,21 +1171,116 @@
               "text": "Id–Vg·Id–Vd 원본 데이터",
               "type": "files",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730034630-minhosong-mse-T3gEGw",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T06",
+                  "taskText": "Id–Vg와 Id–Vd를 계산한다.",
+                  "outputId": "P02-T06-O02",
+                  "outputText": "Id–Vg·Id–Vd 원본 데이터",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-30T03:46:30.335Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw",
+                  "summary": "2개 파일 · 50.7KB",
+                  "files": [
+                    {
+                      "name": "P02-T06-O02_IdVd_Vg040-Vg100_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw/files/P02-T06-O02_IdVd_Vg040-Vg100_Raw.csv",
+                      "size": 24935
+                    },
+                    {
+                      "name": "P02-T06-O02_IdVg_Vd005-Vd100_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw/files/P02-T06-O02_IdVg_Vd005-Vd100_Raw.csv",
+                      "size": 26931
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T06-O03",
               "text": "Id–Vg·Id–Vd 그래프",
               "type": "files",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730034655-minhosong-mse-H--trQ",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T06",
+                  "taskText": "Id–Vg와 Id–Vd를 계산한다.",
+                  "outputId": "P02-T06-O03",
+                  "outputText": "Id–Vg·Id–Vd 그래프",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-30T03:46:55.734Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ",
+                  "summary": "4개 파일 · 385.0KB",
+                  "files": [
+                    {
+                      "name": "P02-T06-O03_IdVd_Linear.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ/files/P02-T06-O03_IdVd_Linear.png",
+                      "size": 105612
+                    },
+                    {
+                      "name": "P02-T06-O03_IdVd_Log.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ/files/P02-T06-O03_IdVd_Log.png",
+                      "size": 110440
+                    },
+                    {
+                      "name": "P02-T06-O03_IdVg_Linear.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ/files/P02-T06-O03_IdVg_Linear.png",
+                      "size": 89452
+                    },
+                    {
+                      "name": "P02-T06-O03_IdVg_Log.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ/files/P02-T06-O03_IdVg_Log.png",
+                      "size": 88702
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T06-O04",
               "text": "Vth, SS, Ion, Ioff, DIBL 결과표",
               "type": "files",
               "review": "recommended",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260730034716-minhosong-mse-4sRaIw",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T06",
+                  "taskText": "Id–Vg와 Id–Vd를 계산한다.",
+                  "outputId": "P02-T06-O04",
+                  "outputText": "Vth, SS, Ion, Ioff, DIBL 결과표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-30T03:47:16.305Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O04/submissions/20260730034716-minhosong-mse-4sRaIw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O04/submissions/20260730034716-minhosong-mse-4sRaIw",
+                  "summary": "1개 파일 · 479B",
+                  "files": [
+                    {
+                      "name": "P02-T06-O04_DC_Metrics.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O04/submissions/20260730034716-minhosong-mse-4sRaIw/files/P02-T06-O04_DC_Metrics.csv",
+                      "size": 479
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1747,7 +1842,37 @@
           "text": "Id–Vg·Id–Vd 원본 데이터",
           "type": "files",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730034630-minhosong-mse-T3gEGw",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T06",
+              "taskText": "Id–Vg와 Id–Vd를 계산한다.",
+              "outputId": "P02-T06-O02",
+              "outputText": "Id–Vg·Id–Vd 원본 데이터",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-30T03:46:30.335Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw",
+              "summary": "2개 파일 · 50.7KB",
+              "files": [
+                {
+                  "name": "P02-T06-O02_IdVd_Vg040-Vg100_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw/files/P02-T06-O02_IdVd_Vg040-Vg100_Raw.csv",
+                  "size": 24935
+                },
+                {
+                  "name": "P02-T06-O02_IdVg_Vd005-Vd100_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O02/submissions/20260730034630-minhosong-mse-T3gEGw/files/P02-T06-O02_IdVg_Vd005-Vd100_Raw.csv",
+                  "size": 26931
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T06"
         },
         {
@@ -1755,7 +1880,47 @@
           "text": "Id–Vg·Id–Vd 그래프",
           "type": "files",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730034655-minhosong-mse-H--trQ",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T06",
+              "taskText": "Id–Vg와 Id–Vd를 계산한다.",
+              "outputId": "P02-T06-O03",
+              "outputText": "Id–Vg·Id–Vd 그래프",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-30T03:46:55.734Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ",
+              "summary": "4개 파일 · 385.0KB",
+              "files": [
+                {
+                  "name": "P02-T06-O03_IdVd_Linear.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ/files/P02-T06-O03_IdVd_Linear.png",
+                  "size": 105612
+                },
+                {
+                  "name": "P02-T06-O03_IdVd_Log.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ/files/P02-T06-O03_IdVd_Log.png",
+                  "size": 110440
+                },
+                {
+                  "name": "P02-T06-O03_IdVg_Linear.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ/files/P02-T06-O03_IdVg_Linear.png",
+                  "size": 89452
+                },
+                {
+                  "name": "P02-T06-O03_IdVg_Log.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O03/submissions/20260730034655-minhosong-mse-H--trQ/files/P02-T06-O03_IdVg_Log.png",
+                  "size": 88702
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T06"
         },
         {
@@ -1763,7 +1928,32 @@
           "text": "Vth, SS, Ion, Ioff, DIBL 결과표",
           "type": "files",
           "review": "recommended",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260730034716-minhosong-mse-4sRaIw",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T06",
+              "taskText": "Id–Vg와 Id–Vd를 계산한다.",
+              "outputId": "P02-T06-O04",
+              "outputText": "Vth, SS, Ion, Ioff, DIBL 결과표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-30T03:47:16.305Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O04/submissions/20260730034716-minhosong-mse-4sRaIw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O04/submissions/20260730034716-minhosong-mse-4sRaIw",
+              "summary": "1개 파일 · 479B",
+              "files": [
+                {
+                  "name": "P02-T06-O04_DC_Metrics.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O04/submissions/20260730034716-minhosong-mse-4sRaIw/files/P02-T06-O04_DC_Metrics.csv",
+                  "size": 479
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T06"
         },
         {
@@ -1842,7 +2032,7 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-07-30T03:42:59Z",
+      "updatedAt": "2026-07-30T03:47:37Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정"
     },
