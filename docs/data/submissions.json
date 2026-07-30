@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-30T08:00:04.813Z",
+  "updatedAt": "2026-07-30T08:22:54.307Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -558,6 +558,32 @@
             "name": "P02-T06-O04_DC_Metrics.csv",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T06/outputs/P02-T06-O04/submissions/20260730034716-minhosong-mse-4sRaIw/files/P02-T06-O04_DC_Metrics.csv",
             "size": 479
+          }
+        ]
+      }
+    ],
+    "P01-T10-O05": [
+      {
+        "submissionId": "20260730082254-seanthe17-9BW1eA",
+        "phaseId": 1,
+        "issueNumber": 1,
+        "taskId": "P01-T10",
+        "taskText": "결과를 표와 그래프로 정리하고 작동 원인을 판단한다.",
+        "outputId": "P01-T10-O05",
+        "outputText": "DIBL 코드 수정 자료(확인요망)",
+        "uploader": "seanthe17",
+        "memberName": "이선재",
+        "memberFolder": "LeeSeonJae",
+        "type": "files",
+        "uploadedAt": "2026-07-30T08:22:54.307Z",
+        "folderPath": "members/LeeSeonJae/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O05/submissions/20260730082254-seanthe17-9BW1eA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonJae/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O05/submissions/20260730082254-seanthe17-9BW1eA",
+        "summary": "1개 파일 · 10.4KB",
+        "files": [
+          {
+            "name": "joydamm.xlsx",
+            "path": "members/LeeSeonJae/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O05/submissions/20260730082254-seanthe17-9BW1eA/files/joydamm.xlsx",
+            "size": 10660
           }
         ]
       }
