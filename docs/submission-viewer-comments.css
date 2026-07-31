@@ -1,0 +1,112 @@
+/* Compact submission description popover and copy feedback states. */
+
+.submission-viewer__toolbar-main.has-comment-popover {
+  position: relative;
+  overflow: visible;
+}
+
+.submission-viewer__comment-button {
+  order: -1;
+}
+
+.submission-viewer__comment-popover {
+  position: absolute;
+  z-index: 60;
+  top: calc(100% + 6px);
+  right: 10px;
+  width: min(400px, calc(100vw - 72px));
+  max-height: 280px;
+  overflow: hidden;
+  border: 1px solid #4b4b4b;
+  border-radius: 6px;
+  background: #202020;
+  color: #d4d4d4;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.5);
+}
+
+.submission-viewer__comment-popover[hidden] {
+  display: none;
+}
+
+.submission-viewer__comment-heading {
+  display: flex;
+  min-height: 34px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 8px 0 11px;
+  border-bottom: 1px solid #343434;
+  background: #181818;
+}
+
+.submission-viewer__comment-heading strong {
+  overflow: hidden;
+  color: #e6e6e6;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.submission-viewer__comment-heading button {
+  display: grid;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  place-items: center;
+  border: 0;
+  background: transparent;
+  color: #bdbdbd;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.submission-viewer__comment-heading button:hover,
+.submission-viewer__comment-heading button:focus-visible {
+  background: #303030;
+  color: #ffffff;
+  outline: 1px solid #555555;
+}
+
+.submission-viewer__comment-body {
+  max-height: 244px;
+  padding: 11px 12px 13px;
+  overflow: auto;
+  color: #d4d4d4;
+  font-size: 12px;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  user-select: text;
+  scrollbar-color: #5a5a5a #202020;
+  scrollbar-width: thin;
+}
+
+#submission-viewer-dialog .btn.is-copy-success,
+#submission-viewer-dialog button.btn.is-copy-success {
+  border-color: #3d8b62 !important;
+  background: #204a35 !important;
+  color: #d8ffe7 !important;
+}
+
+#submission-viewer-dialog .btn.is-copy-error,
+#submission-viewer-dialog button.btn.is-copy-error {
+  border-color: #934646 !important;
+  background: #4a2323 !important;
+  color: #ffd6d6 !important;
+}
+
+@media (max-width: 680px) {
+  .submission-viewer__comment-popover {
+    right: 6px;
+    width: min(360px, calc(100vw - 24px));
+    max-height: 220px;
+  }
+
+  .submission-viewer__comment-body {
+    max-height: 184px;
+  }
+
+  .submission-viewer__comment-button {
+    padding-inline: 6px !important;
+  }
+}
