@@ -1,0 +1,63 @@
+.requirement-badge,
+.task-state-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 20px;
+  padding: 1px 7px;
+  border: 1px solid #d0d5dd;
+  border-radius: 999px;
+  background: #f8fafc;
+  color: #475467;
+  font-size: 0.72rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.requirement-badge.is-required {
+  border-color: #f0b4b4;
+  background: #fff4f4;
+  color: #b42318;
+}
+
+.requirement-badge.is-optional {
+  border-color: #cfd8e3;
+  background: #f8fafc;
+  color: #667085;
+}
+
+.task-state-badge[data-task-state="completed"] {
+  border-color: #a6dfb4;
+  background: #edf9f0;
+  color: #167236;
+}
+
+.task-state-badge[data-task-state="in-progress"] {
+  border-color: #f1ce8d;
+  background: #fff8e8;
+  color: #9a6700;
+}
+
+.task-state-badge[data-task-state="not-started"] {
+  color: #667085;
+}
+
+.task-checkbox[data-auto-completion="true"] {
+  cursor: default;
+  opacity: 1;
+}
+
+.integrity-notice {
+  margin: -2px 0 18px;
+  padding: 10px 12px;
+  border: 1px solid #f1ce8d;
+  border-radius: 8px;
+  background: #fff8e8;
+  color: #805400;
+  font-size: 0.82rem;
+}
+
+@media (max-width: 760px) {
+  .task-state-badge {
+    order: 3;
+  }
+}
