@@ -41,6 +41,7 @@ jobs:
           for run in 1 2; do
             echo "===== spreadsheet verification ${run}/2 ====="
             node --check docs/spreadsheet-v3.js
+            node --check docs/spreadsheet-v3-guard.js
             node --check worker/src/v10.js
             node --check worker/src/v5.js
             node worker/test/table-submission.test.mjs
