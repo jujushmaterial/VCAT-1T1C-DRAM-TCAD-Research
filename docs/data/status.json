@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T18:14:43+09:00",
+  "generatedAt": "2026-07-31T18:15:16+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 1,
@@ -3249,8 +3249,8 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-07-31T08:51:25Z",
-      "lastModifiedBy": "minhosong-mse",
+      "updatedAt": "2026-07-31T09:15:04Z",
+      "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 2
     },
