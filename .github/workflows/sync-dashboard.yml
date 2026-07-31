@@ -54,22 +54,30 @@ jobs:
 
       - name: Commit reconciled data
         run: |
+          REPAIR_DIR="members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O03/submissions/20260731055642-minhosong-mse-I4zyaA"
+
           if git diff --quiet -- \
             docs/data/status.json \
             docs/data/members.json \
             docs/data/integrity-report.json \
-            docs/generated/phases; then
+            docs/data/submissions.json \
+            docs/generated/phases \
+            members/SongMinho/TIMELINE.md \
+            "$REPAIR_DIR"; then
             echo "No reconciled data changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add \
+          git add -A \
             docs/data/status.json \
             docs/data/members.json \
             docs/data/integrity-report.json \
-            docs/generated/phases
+            docs/data/submissions.json \
+            docs/generated/phases \
+            members/SongMinho/TIMELINE.md \
+            "$REPAIR_DIR"
           git commit -m "chore: reconcile research state"
 
           for attempt in 1 2 3; do
