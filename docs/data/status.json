@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T18:51:04+09:00",
+  "generatedAt": "2026-08-01T03:14:14+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 1,
@@ -2107,7 +2107,7 @@
             {
               "id": "P02-T06-O04",
               "text": "Vth, SS, Ion, Ioff, DIBL 결과표",
-              "type": "files",
+              "type": "any",
               "review": "recommended",
               "required": true,
               "policyReason": null,
@@ -3083,7 +3083,7 @@
         {
           "id": "P02-T06-O04",
           "text": "Vth, SS, Ion, Ioff, DIBL 결과표",
-          "type": "files",
+          "type": "any",
           "review": "recommended",
           "required": true,
           "policyReason": null,
@@ -3249,7 +3249,7 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-07-31T09:15:17Z",
+      "updatedAt": "2026-07-31T18:13:56Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 2
