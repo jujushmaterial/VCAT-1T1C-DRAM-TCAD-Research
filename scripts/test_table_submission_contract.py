@@ -15,6 +15,7 @@ styles = read("docs/table-submission.css")
 worker = read("worker/src/v5.js")
 worker_v6 = read("worker/src/v6.js")
 worker_v7 = read("worker/src/v7.js")
+worker_v8 = read("worker/src/v8.js")
 wrangler = read("worker/wrangler.toml")
 sync = read("scripts/sync_dashboard_v5.py")
 
@@ -56,7 +57,8 @@ for required in (
 
 assert 'import v5 from "./v5.js"' in worker_v6
 assert 'import v6 from "./v6.js"' in worker_v7
-assert 'main = "src/v7.js"' in wrangler
+assert 'import v7 from "./v7.js"' in worker_v8
+assert 'main = "src/v8.js"' in wrangler
 assert 'output["type"] = "table"' in sync
 
 print("table submission contract test passed")
