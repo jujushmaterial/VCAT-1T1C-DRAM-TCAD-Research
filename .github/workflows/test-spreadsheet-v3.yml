@@ -1,0 +1,37 @@
+name: Test spreadsheet v3
+
+on:
+  pull_request:
+    paths:
+      - "docs/index.html"
+      - "docs/spreadsheet-v3.js"
+      - "docs/spreadsheet-v3.css"
+      - "worker/src/v10.js"
+      - "worker/wrangler.toml"
+      - "tests/test_spreadsheet_v3.py"
+      - "tests/test_spreadsheet_worker.mjs"
+      - ".github/workflows/test-spreadsheet-v3.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: JavaScript syntax
+        run: |
+          node --check docs/spreadsheet-v3.js
+          node --check worker/src/v10.js
+      - name: Worker classification
+        run: node tests/test_spreadsheet_worker.mjs
+      - name: Spreadsheet contracts
+        run: python -m unittest tests/test_spreadsheet_v3.py -v
