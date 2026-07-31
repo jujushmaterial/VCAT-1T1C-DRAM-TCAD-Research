@@ -8,7 +8,21 @@ on:
       - "scripts/research_state_integrity.py"
       - "scripts/sync_dashboard.py"
       - "scripts/sync_dashboard_v5.py"
-      - "tests/test_research_state.py"
+      - "tests/test_research_state*.py"
+      - "docs/data/submissions.json"
+      - "docs/data/completion-policy.json"
+      - "docs/data/submission-classifications.json"
+      - ".github/workflows/sync-dashboard.yml"
+      - ".github/workflows/validate-research-state.yml"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/research_state.py"
+      - "scripts/research_state_core.py"
+      - "scripts/research_state_integrity.py"
+      - "scripts/sync_dashboard.py"
+      - "scripts/sync_dashboard_v5.py"
+      - "tests/test_research_state*.py"
       - "docs/data/submissions.json"
       - "docs/data/completion-policy.json"
       - "docs/data/submission-classifications.json"
@@ -33,7 +47,7 @@ jobs:
           python-version: "3.12"
 
       - name: Run unit tests
-        run: python -m unittest discover -s tests -p "test_research_state.py" -v
+        run: python -m unittest discover -s tests -p "test_research_state*.py" -v
 
       - name: Validate current repository state
         env:
