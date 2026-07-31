@@ -5,6 +5,7 @@ on:
     paths:
       - "docs/index.html"
       - "docs/spreadsheet-v3.js"
+      - "docs/spreadsheet-v3-guard.js"
       - "docs/spreadsheet-v3.css"
       - "worker/src/v10.js"
       - "worker/wrangler.toml"
@@ -30,6 +31,7 @@ jobs:
       - name: JavaScript syntax
         run: |
           node --check docs/spreadsheet-v3.js
+          node --check docs/spreadsheet-v3-guard.js
           node --check worker/src/v10.js
       - name: Worker classification
         run: node tests/test_spreadsheet_worker.mjs
