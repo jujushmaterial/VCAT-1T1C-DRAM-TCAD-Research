@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T06:09:11.342Z",
+  "updatedAt": "2026-07-31T09:11:04.655Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -458,8 +458,8 @@
         "summary": "1개 파일 · 1.0KB",
         "files": [
           {
-            "name": "P02-T01-O01_SWB_Parameters.csv",
-            "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O03/submissions/20260731055642-minhosong-mse-I4zyaA/files/P02-T01-O01_SWB_Parameters.csv",
+            "name": "P02-T01-O03_SWB_Parameters.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O03/submissions/20260731055642-minhosong-mse-I4zyaA/files/P02-T01-O03_SWB_Parameters.csv",
             "size": 1025
           }
         ]

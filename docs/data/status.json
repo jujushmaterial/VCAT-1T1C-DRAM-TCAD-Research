@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T18:09:44+09:00",
+  "generatedAt": "2026-07-31T18:11:05+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 1,
@@ -1399,8 +1399,8 @@
                   "summary": "1개 파일 · 1.0KB",
                   "files": [
                     {
-                      "name": "P02-T01-O01_SWB_Parameters.csv",
-                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O03/submissions/20260731055642-minhosong-mse-I4zyaA/files/P02-T01-O01_SWB_Parameters.csv",
+                      "name": "P02-T01-O03_SWB_Parameters.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O03/submissions/20260731055642-minhosong-mse-I4zyaA/files/P02-T01-O03_SWB_Parameters.csv",
                       "size": 1025
                     }
                   ]
@@ -2436,8 +2436,8 @@
               "summary": "1개 파일 · 1.0KB",
               "files": [
                 {
-                  "name": "P02-T01-O01_SWB_Parameters.csv",
-                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O03/submissions/20260731055642-minhosong-mse-I4zyaA/files/P02-T01-O01_SWB_Parameters.csv",
+                  "name": "P02-T01-O03_SWB_Parameters.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O03/submissions/20260731055642-minhosong-mse-I4zyaA/files/P02-T01-O03_SWB_Parameters.csv",
                   "size": 1025
                 }
               ]
@@ -3252,7 +3252,7 @@
       "updatedAt": "2026-07-31T08:51:25Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 3
+      "integrityWarnings": 2
     },
     {
       "id": 3,
