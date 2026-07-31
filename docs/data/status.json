@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T14:47:45+09:00",
+  "generatedAt": "2026-07-31T14:48:16+09:00",
   "overallProgress": 8,
   "phases": [
     {
@@ -782,7 +782,7 @@
       "progress": 67,
       "tasksDone": 6,
       "tasksTotal": 9,
-      "outputsDone": 9,
+      "outputsDone": 8,
       "outputsTotal": 25,
       "tasks": [
         {
@@ -816,31 +816,7 @@
               "text": "Single-Metal VCAT 전체 SDE 코드",
               "type": "code",
               "review": "none",
-              "submissions": [
-                {
-                  "submissionId": "20260730025103-minhosong-mse-repair",
-                  "phaseId": 2,
-                  "issueNumber": 2,
-                  "taskId": "P02-T02",
-                  "taskText": "SDE로 Single-Metal VCAT 구조를 만든다.",
-                  "outputId": "P02-T02-O01",
-                  "outputText": "Single-Metal VCAT 전체 SDE 코드",
-                  "uploader": "minhosong-mse",
-                  "memberName": "송민호",
-                  "memberFolder": "SongMinho",
-                  "type": "code",
-                  "uploadedAt": "2026-07-29T17:51:03.000Z",
-                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260730025103-minhosong-mse-repair",
-                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260730025103-minhosong-mse-repair",
-                  "summary": "1개 코드 파일",
-                  "files": [
-                    {
-                      "name": "P02_SWF_VCAT_SDE_v0p1.cmd",
-                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260730025103-minhosong-mse-repair/source/P02_SWF_VCAT_SDE_v0p1.cmd"
-                    }
-                  ]
-                }
-              ]
+              "submissions": []
             },
             {
               "id": "P02-T02-O02",
@@ -1336,31 +1312,7 @@
           "text": "Single-Metal VCAT 전체 SDE 코드",
           "type": "code",
           "review": "none",
-          "submissions": [
-            {
-              "submissionId": "20260730025103-minhosong-mse-repair",
-              "phaseId": 2,
-              "issueNumber": 2,
-              "taskId": "P02-T02",
-              "taskText": "SDE로 Single-Metal VCAT 구조를 만든다.",
-              "outputId": "P02-T02-O01",
-              "outputText": "Single-Metal VCAT 전체 SDE 코드",
-              "uploader": "minhosong-mse",
-              "memberName": "송민호",
-              "memberFolder": "SongMinho",
-              "type": "code",
-              "uploadedAt": "2026-07-29T17:51:03.000Z",
-              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260730025103-minhosong-mse-repair",
-              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260730025103-minhosong-mse-repair",
-              "summary": "1개 코드 파일",
-              "files": [
-                {
-                  "name": "P02_SWF_VCAT_SDE_v0p1.cmd",
-                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260730025103-minhosong-mse-repair/source/P02_SWF_VCAT_SDE_v0p1.cmd"
-                }
-              ]
-            }
-          ],
+          "submissions": [],
           "taskId": "P02-T02"
         },
         {
