@@ -28,9 +28,14 @@ jobs:
       - name: Check Cloudflare credentials
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
             echo "::error::Repository secret CLOUDFLARE_API_TOKEN is not configured."
+            exit 1
+          fi
+          if [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Repository secret CLOUDFLARE_ACCOUNT_ID is not configured."
             exit 1
           fi
 
@@ -44,3 +49,37 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: npm run deploy
+
+      - name: Smoke test live Worker v8
+        env:
+          MANIFEST_URL: https://vcat-dashboard-api.jujushmaterial.workers.dev/api/submissions/20260730080004-jujushmaterial-14BZHQ/manifest?outputId=P01-T05-O01
+        run: |
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+            if curl --fail --silent --show-error "$MANIFEST_URL" -o /tmp/manifest.json; then
+              break
+            fi
+            if [ "$attempt" -eq 10 ]; then
+              echo "::error::Live Worker manifest API did not become available."
+              exit 1
+            fi
+            sleep 6
+          done
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          manifest = json.loads(Path('/tmp/manifest.json').read_text(encoding='utf-8'))
+          assert manifest.get('version') == 1, manifest
+          assert manifest.get('outputId') == 'P01-T05-O01', manifest
+          files = manifest.get('files') or []
+          assert files, manifest
+          first = files[0]
+          assert first.get('previewUrl') and first.get('downloadUrl'), first
+          print(f"manifest ok: {len(files)} file(s), first={first.get('name')}")
+          PY
+
+          FILE_URL=$(python -c "import json; print(json.load(open('/tmp/manifest.json', encoding='utf-8'))['files'][0]['previewUrl'])")
+          curl --fail --silent --show-error --range 0-127 "$FILE_URL" -o /tmp/file-preview
+          test -s /tmp/file-preview
+          echo "live Worker v8 file route: ok"
