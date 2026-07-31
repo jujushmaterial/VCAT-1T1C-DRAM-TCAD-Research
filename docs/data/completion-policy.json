@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "description": "필수 산출물 기반 자동 완료 정책. 명시되지 않은 산출물은 기본적으로 필수입니다.",
+  "defaults": {
+    "outputRequired": true,
+    "reviewBlocksCompletion": false
+  },
+  "outputs": {
+    "P01-T10-O05": {
+      "required": false,
+      "reason": "DIBL 추출 코드 수정 과정의 참고자료이며 P01-T10의 핵심 결론 산출물은 O01~O04입니다."
+    }
+  }
+}

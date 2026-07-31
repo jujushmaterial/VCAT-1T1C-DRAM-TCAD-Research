@@ -1,4 +1,4 @@
-name: Sync research dashboard
+name: Reconcile research dashboard
 
 on:
   issues:
@@ -11,19 +11,24 @@ on:
   push:
     branches: [main]
     paths:
+      - "scripts/research_state.py"
+      - "scripts/research_state_core.py"
+      - "scripts/research_state_integrity.py"
       - "scripts/sync_dashboard.py"
       - "scripts/sync_dashboard_v5.py"
       - "docs/data/phases.json"
       - "docs/data/submissions.json"
+      - "docs/data/completion-policy.json"
+      - "docs/data/submission-classifications.json"
       - ".github/workflows/sync-dashboard.yml"
 
 permissions:
   contents: write
-  issues: read
+  issues: write
 
 concurrency:
-  group: sync-research-dashboard
-  cancel-in-progress: true
+  group: reconcile-research-state
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -31,28 +36,50 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Build dashboard data
+      - name: Reconcile research state
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
           GITHUB_EVENT_PATH: ${{ github.event_path }}
-        run: python scripts/sync_dashboard_v5.py
+        run: python scripts/research_state.py sync
 
-      - name: Commit updated dashboard data
+      - name: Commit reconciled data
         run: |
-          if git diff --quiet -- docs/data/status.json docs/data/members.json; then
-            echo "No dashboard data changes."
+          if git diff --quiet -- \
+            docs/data/status.json \
+            docs/data/members.json \
+            docs/data/integrity-report.json \
+            docs/generated/phases; then
+            echo "No reconciled data changes."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/status.json docs/data/members.json
-          git commit -m "Sync dashboard data from GitHub"
-          git push
+          git add \
+            docs/data/status.json \
+            docs/data/members.json \
+            docs/data/integrity-report.json \
+            docs/generated/phases
+          git commit -m "chore: reconcile research state"
+
+          for attempt in 1 2 3; do
+            echo "Push attempt ${attempt}"
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+
+          echo "Failed to push reconciled state after 3 attempts."
+          exit 1
