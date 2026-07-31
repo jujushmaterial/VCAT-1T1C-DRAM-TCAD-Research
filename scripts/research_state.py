@@ -23,6 +23,17 @@ GENERATED = Path("docs/generated/phases")
 KST = timezone(timedelta(hours=9))
 PHASE = re.compile(r"^Phase\s+(\d+)\.", re.I)
 
+LEGACY_FILENAME_REPAIRS = (
+    {
+        "outputId": "P02-T01-O03",
+        "submissionId": "20260731055642-minhosong-mse-I4zyaA",
+        "oldName": "P02-T01-O01_SWB_Parameters.csv",
+        "newName": "P02-T01-O03_SWB_Parameters.csv",
+        "timeline": Path("members/SongMinho/TIMELINE.md"),
+        "timelineMarker": "legacy-filename-repair:20260731055642-minhosong-mse-I4zyaA",
+    },
+)
+
 
 def phase_state(issue: dict[str, Any], tasks: list[dict[str, Any]]) -> tuple[str, int]:
     done, total = sum(task["checked"] for task in tasks), len(tasks)
@@ -118,8 +129,105 @@ def reconcile_issues(issues: list[dict[str, Any]], status: dict[str, Any]) -> li
             print(f"Warning: Issue #{issue.get('number')} drift was not patched without GITHUB_TOKEN.", file=sys.stderr)
             continue
         patch_issue(int(issue["number"]), updated)
+        issue["body"] = updated
         changed.append(int(issue["number"]))
     return changed
+
+
+def _replace_file_metadata(files: list[dict[str, Any]], old_name: str, new_name: str) -> bool:
+    changed = False
+    for item in files:
+        if item.get("name") != old_name:
+            continue
+        item["name"] = new_name
+        if item.get("path"):
+            item["path"] = str(Path(str(item["path"])).with_name(new_name)).replace("\\", "/")
+        changed = True
+    return changed
+
+
+def _append_repair_timeline(path: Path, marker: str, old_name: str, new_name: str) -> bool:
+    if not path.exists():
+        return False
+    text = path.read_text(encoding="utf-8")
+    marker_comment = f"<!-- {marker} -->"
+    if marker_comment in text:
+        return False
+    now = datetime.now(KST).strftime("%Y-%m-%d %H:%M KST")
+    entry = "\n".join([
+        "",
+        marker_comment,
+        f"## {now} — P02-T01-O03 제출 파일명 정합성 보정",
+        "",
+        "- **작성자:** OpenAI ChatGPT (`@jujushmaterial` 승인)",
+        "- **Phase / Issue:** Phase 2 / #2",
+        "- **결과물 ID:** `P02-T01-O03`",
+        "- **변경 유형:** 이름 변경 / 메타데이터 보정",
+        f"- **변경 파일:** `{old_name}` → `{new_name}`, `submission.json`, `README.md`, `docs/data/submissions.json`",
+        "- **작업 내용:** O03에 등록됐지만 O01 접두어가 붙어 있던 CSV 파일명을 O03 기준으로 통일하고 연결 경로를 함께 수정했습니다.",
+        "- **작업 이유:** 파일명 산출물 ID와 등록 산출물 ID 불일치 경고를 제거하고 웹 제출본 링크가 실제 파일과 일치하도록 하기 위해서입니다.",
+        "- **결과 및 검증:** 파일 내용은 변경하지 않고 이름과 참조 경로만 수정했습니다. 상태 계산과 무결성 검사를 다시 실행합니다.",
+        "- **남은 일:** 없음.",
+        "",
+    ])
+    path.write_text(text.rstrip() + "\n" + entry, encoding="utf-8")
+    return True
+
+
+def repair_legacy_submission_filenames() -> list[str]:
+    data = read_json(SUBMISSIONS, {"version": 2, "outputs": {}})
+    outputs = data.get("outputs", {}) if isinstance(data, dict) else {}
+    repaired: list[str] = []
+
+    for spec in LEGACY_FILENAME_REPAIRS:
+        records = outputs.get(spec["outputId"], [])
+        record = next((item for item in records if item.get("submissionId") == spec["submissionId"]), None)
+        if not record:
+            continue
+
+        folder = Path(str(record.get("folderPath") or ""))
+        old_path = folder / "files" / spec["oldName"]
+        new_path = folder / "files" / spec["newName"]
+        metadata_changed = _replace_file_metadata(record.get("files", []), spec["oldName"], spec["newName"])
+        file_changed = False
+
+        if old_path.exists() and new_path.exists():
+            if old_path.read_bytes() != new_path.read_bytes():
+                raise RuntimeError(f"Both legacy and corrected files exist with different contents: {old_path}")
+            old_path.unlink()
+            file_changed = True
+        elif old_path.exists():
+            old_path.rename(new_path)
+            file_changed = True
+        elif not new_path.exists() and metadata_changed:
+            raise FileNotFoundError(f"Submission file not found for legacy repair: {old_path}")
+
+        submission_changed = False
+        submission_json = folder / "submission.json"
+        if submission_json.exists():
+            payload = read_json(submission_json, {})
+            submission_changed = _replace_file_metadata(payload.get("files", []), spec["oldName"], spec["newName"])
+            if submission_changed:
+                write_json(submission_json, payload)
+
+        readme_changed = False
+        readme = folder / "README.md"
+        if readme.exists():
+            text = readme.read_text(encoding="utf-8")
+            updated = text.replace(spec["oldName"], spec["newName"])
+            readme_changed = updated != text
+            if readme_changed:
+                readme.write_text(updated, encoding="utf-8")
+
+        changed = metadata_changed or file_changed or submission_changed or readme_changed
+        if changed:
+            repaired.append(spec["submissionId"])
+            _append_repair_timeline(spec["timeline"], spec["timelineMarker"], spec["oldName"], spec["newName"])
+
+    if repaired:
+        data["updatedAt"] = datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
+        write_json(SUBMISSIONS, data)
+    return repaired
 
 
 def render_phase(phase: dict[str, Any], generated: str) -> str:
@@ -129,9 +237,12 @@ def render_phase(phase: dict[str, Any], generated: str) -> str:
 
 
 def sync() -> int:
+    repaired = repair_legacy_submission_filenames()
     issues = legacy.list_phase_issues()
     status, integrity = build_status(issues=issues)
     reconciled = reconcile_issues(issues, status)
+    if reconciled:
+        status, integrity = build_status(issues=issues, previous=status)
     members = legacy.load_members()
     legacy.apply_member_event(members["members"])
     legacy.update_member_activity(members["members"])
@@ -139,7 +250,7 @@ def sync() -> int:
     GENERATED.mkdir(parents=True, exist_ok=True)
     for phase in status["phases"]:
         (GENERATED / f"phase-{phase['id']:02d}.md").write_text(render_phase(phase, status["generatedAt"]), encoding="utf-8")
-    print(f"Reconciled {len(status['phases'])} phases; integrity={integrity['counts']}; issues={reconciled}")
+    print(f"Reconciled {len(status['phases'])} phases; integrity={integrity['counts']}; issues={reconciled}; repaired={repaired}")
     return 0
 
 
