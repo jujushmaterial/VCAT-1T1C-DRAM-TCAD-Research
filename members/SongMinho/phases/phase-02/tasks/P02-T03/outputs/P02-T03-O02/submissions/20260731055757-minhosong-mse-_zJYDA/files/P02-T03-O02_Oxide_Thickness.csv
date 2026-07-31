@@ -1,0 +1,5 @@
+﻿Quantity,Measured_value,Unit,Conversion,Evidence
+Gate oxide thickness,0.00100219,um,1.00219 nm,Value displayed in actual SVisual measurement screenshot
+Nominal gate oxide thickness,1.00000,nm,0.00100000 um,Actual SWB parameter
+Absolute difference,0.00219,nm,-,Measured minus nominal
+Relative difference,0.219,%,-,Absolute difference / nominal

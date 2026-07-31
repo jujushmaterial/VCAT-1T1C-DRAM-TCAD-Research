@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T05:57:37.333Z",
+  "updatedAt": "2026-07-31T05:57:57.501Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -499,6 +499,42 @@
             "name": "P02-T03-O01_Contact_Region_Summary.csv",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260731055737-minhosong-mse-VIU9Tg/files/P02-T03-O01_Contact_Region_Summary.csv",
             "size": 653
+          }
+        ]
+      }
+    ],
+    "P02-T03-O02": [
+      {
+        "submissionId": "20260731055757-minhosong-mse-_zJYDA",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T03",
+        "taskText": "위쪽·아래쪽 전극, 게이트, 절연막을 설정한다.",
+        "outputId": "P02-T03-O02",
+        "outputText": "절연막 두께 측정값",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-07-31T05:57:57.501Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O02/submissions/20260731055757-minhosong-mse-_zJYDA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O02/submissions/20260731055757-minhosong-mse-_zJYDA",
+        "summary": "3개 파일 · 85.2KB",
+        "files": [
+          {
+            "name": "P02-T03-O02_Actual_Gate_Oxide_Region_Zoom.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O02/submissions/20260731055757-minhosong-mse-_zJYDA/files/P02-T03-O02_Actual_Gate_Oxide_Region_Zoom.png",
+            "size": 48143
+          },
+          {
+            "name": "P02-T03-O02_Actual_Oxide_Thickness_Measurement.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O02/submissions/20260731055757-minhosong-mse-_zJYDA/files/P02-T03-O02_Actual_Oxide_Thickness_Measurement.png",
+            "size": 38786
+          },
+          {
+            "name": "P02-T03-O02_Oxide_Thickness.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O02/submissions/20260731055757-minhosong-mse-_zJYDA/files/P02-T03-O02_Oxide_Thickness.csv",
+            "size": 351
           }
         ]
       }
