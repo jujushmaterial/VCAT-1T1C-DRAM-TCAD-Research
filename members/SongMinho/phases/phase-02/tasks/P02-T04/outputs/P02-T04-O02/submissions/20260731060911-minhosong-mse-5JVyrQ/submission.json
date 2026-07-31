@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260731060911-minhosong-mse-5JVyrQ",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T04",
+  "taskText": "도핑과 접합 위치를 설정한다.",
+  "outputId": "P02-T04-O02",
+  "outputText": "도핑 분포 이미지",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-07-31T06:09:11.342Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260731060911-minhosong-mse-5JVyrQ",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260731060911-minhosong-mse-5JVyrQ",
+  "summary": "1개 파일 · 93.0KB",
+  "files": [
+    {
+      "name": "P02-T04-O03_Doping_Xcut.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260731060911-minhosong-mse-5JVyrQ/files/P02-T04-O03_Doping_Xcut.png",
+      "size": 95202
+    }
+  ]
+}
