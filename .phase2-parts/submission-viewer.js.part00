@@ -1,0 +1,180 @@
+/* Unified in-dashboard submission viewer: code, images, PDF, text and downloads. */
+(() => {
+  const dialog = document.querySelector("#submission-viewer-dialog");
+  const root = document.querySelector("#submission-viewer-content");
+  if (!dialog || !root || typeof reviewOutput === "undefined") return;
+
+  const legacyReviewOutput = reviewOutput;
+  const viewer = {
+    output: null,
+    submissions: [],
+    submission: null,
+    manifest: null,
+    file: null,
+    textCache: new Map(),
+    code: "",
+    searchMatches: [],
+    searchIndex: -1,
+    imageScale: 1,
+    imageFit: true,
+    activeObjectUrl: null,
+    minimap: null,
+    draggingMinimap: false,
+    minimapOffset: 0,
+    submissionRequestId: 0,
+    fileRequestId: 0
+  };
+
+  const CODE_KIND = "code";
+  const IMAGE_KIND = "image";
+  const PREVIEWABLE_TEXT = new Set(["code", "text", "json", "markdown"]);
+
+  reviewOutput = function reviewOutputInDashboard(output) {
+    if (!output) return;
+    const submissions = output.submissions ?? [];
+    if (submissions.some((item) => item.type === "table" || item.table)) {
+      legacyReviewOutput(output);
+      return;
+    }
+    openViewer(output);
+  };
+
+  function openViewer(output) {
+    viewer.output = output;
+    viewer.submissions = [...(output.submissions ?? [])].reverse();
+    viewer.submission = null;
+    viewer.manifest = null;
+    viewer.file = null;
+    viewer.textCache.clear();
+    revokeObjectUrl();
+    root.innerHTML = shellTemplate(output);
+    if (!dialog.open) dialog.showModal();
+    bindShellEvents();
+    if (viewer.submissions.length) selectSubmission(viewer.submissions[0].submissionId);
+  }
+
+  function shellTemplate(output) {
+    return `
+      <header class="submission-viewer__header">
+        <div>
+          <span class="submission-viewer__eyebrow">결과 확인 · ${escapeHtml(output.id || "")}</span>
+          <h2 id="submission-viewer-title">${escapeHtml(output.text || "제출 결과")}</h2>
+        </div>
+        <button class="submission-viewer__close" id="submission-viewer-close" type="button" aria-label="통합 제출본 뷰어 닫기">×</button>
+      </header>
+      <div class="submission-viewer__body">
+        <aside class="submission-viewer__sidebar" aria-label="제출본과 파일 목록">
+          <section>
+            <div class="submission-viewer__section-title"><strong>제출본</strong><span>${viewer.submissions.length}건</span></div>
+            <div id="submission-viewer-submissions" class="submission-viewer__submission-list">
+              ${viewer.submissions.length
+                ? viewer.submissions.map(submissionButton).join("")
+                : '<div class="submission-viewer__empty">제출된 결과물이 없습니다.</div>'}
+            </div>
+          </section>
+          <section class="submission-viewer__files-section">
+            <div class="submission-viewer__section-title"><strong>파일</strong><span id="submission-viewer-file-count">0개</span></div>
+            <div id="submission-viewer-files" class="submission-viewer__file-list"></div>
+          </section>
+        </aside>
+        <section class="submission-viewer__workspace">
+          <div id="submission-viewer-meta" class="submission-viewer__meta"></div>
+          <div id="submission-viewer-toolbar" class="submission-viewer__toolbar" hidden></div>
+          <div id="submission-viewer-stage" class="submission-viewer__stage" aria-live="polite">
+            <div class="submission-viewer__loading"><span></span><p>제출본을 불러오는 중입니다.</p></div>
+          </div>
+        </section>
+      </div>`;
+  }
+
+  function submissionButton(item) {
+    const label = item.memberName || displayName(item.uploader) || item.uploader || "제출자 미확인";
+    return `
+      <button class="submission-viewer__submission" type="button" data-submission-id="${escapeHtml(item.submissionId || "")}">
+        <strong>${escapeHtml(label)}</strong>
+        <span>${escapeHtml(formatDate(item.uploadedAt))}</span>
+        <small>${escapeHtml(item.summary || submissionTypeLabels[item.type] || "제출본")}</small>
+      </button>`;
+  }
+
+  function bindShellEvents() {
+    root.querySelector("#submission-viewer-close")?.addEventListener("click", closeViewer);
+    root.querySelectorAll("[data-submission-id]").forEach((button) => {
+      button.addEventListener("click", () => selectSubmission(button.dataset.submissionId));
+    });
+  }
+
+  async function selectSubmission(submissionId) {
+    const requestId = ++viewer.submissionRequestId;
+    const item = viewer.submissions.find((entry) => String(entry.submissionId) === String(submissionId));
+    if (!item) return;
+    viewer.submission = item;
+    viewer.manifest = null;
+    viewer.file = null;
+    viewer.imageScale = 1;
+    viewer.imageFit = true;
+    revokeObjectUrl();
+    root.querySelectorAll(".submission-viewer__submission").forEach((button) => {
+      button.classList.toggle("is-active", button.dataset.submissionId === String(submissionId));
+    });
+    renderMeta(item);
+    renderLoading("제출본 파일 목록을 불러오는 중입니다.");
+
+    if (item.type === "server" || (!item.files?.length && item.serverPath)) {
+      viewer.manifest = { submission: item, files: [] };
+      renderFileList([]);
+      renderServerSubmission(item);
+      return;
+    }
+
+    try {
+      const query = `?outputId=${encodeURIComponent(viewer.output.id)}`;
+      const manifest = await apiFetch(`/api/submissions/${encodeURIComponent(item.submissionId)}/manifest${query}`);
+      if (requestId !== viewer.submissionRequestId) return;
+      viewer.manifest = manifest;
+      renderMeta({ ...item, ...manifest.submission });
+      renderFileList(manifest.files || []);
+      const first = preferredInitialFile(manifest.files || []);
+      if (first) await selectFile(first.id);
+      else renderNoFiles(manifest.submission || item);
+    } catch (error) {
+      renderApiError(item, error);
+    }
+  }
+
+  function renderMeta(item) {
+    const meta = root.querySelector("#submission-viewer-meta");
+    if (!meta) return;
+    const deleteButton = typeof submissionDeleteButton === "function" ? submissionDeleteButton(item) : "";
+    meta.innerHTML = `
+      <div>
+        <strong>${escapeHtml(item.memberName || displayName(item.uploader) || item.uploader || "제출자 미확인")}</strong>
+        <span>${escapeHtml(submissionTypeLabels[item.type] ?? item.type ?? "파일 제출")} · ${escapeHtml(formatDate(item.uploadedAt))}</span>
+        <p>${escapeHtml(item.summary || "제출본")}</p>
+      </div>
+      <div class="submission-viewer__meta-actions">
+        <a class="btn btn--small" href="${escapeHtml(item.folderUrl || "#")}" target="_blank" rel="noreferrer">GitHub 제출 폴더</a>
+        ${deleteButton}
+      </div>`;
+    meta.querySelector(".submission-delete-button")?.addEventListener("click", async (event) => {
+      const before = (viewer.output.submissions ?? []).length;
+      await deleteSubmissionRecord(event.currentTarget, viewer.output);
+      const after = (viewer.output.submissions ?? []).length;
+      if (after < before) closeViewer();
+    });
+  }
+
+  function preferredInitialFile(files) {
+    return files.find((file) => file.previewSupported && file.kind === CODE_KIND)
+      || files.find((file) => file.previewSupported && file.kind === IMAGE_KIND)
+      || files.find((file) => file.previewSupported)
+      || files[0]
+      || null;
+  }
+
+  function renderFileList(files) {
+    const list = root.querySelector("#submission-viewer-files");
+    const count = root.querySelector("#submission-viewer-file-count");
+    if (count) count.textContent = `${files.length}개`;
+    if (!list) return;
+    list.innerHTML = files.length
