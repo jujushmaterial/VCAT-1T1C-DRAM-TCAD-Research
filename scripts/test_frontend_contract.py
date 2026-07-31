@@ -9,6 +9,7 @@ delete_js = (root / 'docs/submission-delete.js').read_text(encoding='utf-8')
 delete_css = (root / 'docs/submission-delete.css').read_text(encoding='utf-8')
 index = (root / 'docs/index.html').read_text(encoding='utf-8')
 wrangler = (root / 'worker/wrangler.toml').read_text(encoding='utf-8')
+worker_v9 = (root / 'worker/src/v9.js').read_text(encoding='utf-8')
 required_js = [
     'function renderTask(',
     'function renderTaskOutput(',
@@ -39,5 +40,6 @@ assert 'table-submission.js' in index
 assert 'submission-delete.css' in index
 assert 'submission-delete.js' in index
 assert index.index('table-submission.js') < index.index('submission-delete.js')
-assert 'main = "src/v8.js"' in wrangler
+assert 'main = "src/v9.js"' in wrangler
+assert 'import v8 from "./v8.js"' in worker_v9
 print('frontend contract tests passed')
