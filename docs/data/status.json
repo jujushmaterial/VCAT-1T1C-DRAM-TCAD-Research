@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T14:44:57+09:00",
+  "generatedAt": "2026-07-31T14:45:22+09:00",
   "overallProgress": 8,
   "phases": [
     {
@@ -782,7 +782,7 @@
       "progress": 67,
       "tasksDone": 6,
       "tasksTotal": 9,
-      "outputsDone": 15,
+      "outputsDone": 14,
       "outputsTotal": 25,
       "tasks": [
         {
@@ -802,31 +802,7 @@
               "text": "좌표계·단위·변수명 표",
               "type": "files",
               "review": "recommended",
-              "submissions": [
-                {
-                  "submissionId": "20260730025102-minhosong-mse-repair",
-                  "phaseId": 2,
-                  "issueNumber": 2,
-                  "taskId": "P02-T01",
-                  "taskText": "기준으로 사용할 VCAT 구조와 조건을 정리한다.",
-                  "outputId": "P02-T01-O02",
-                  "outputText": "좌표계·단위·변수명 표",
-                  "uploader": "minhosong-mse",
-                  "memberName": "송민호",
-                  "memberFolder": "SongMinho",
-                  "type": "files",
-                  "uploadedAt": "2026-07-29T17:51:02.000Z",
-                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260730025102-minhosong-mse-repair",
-                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260730025102-minhosong-mse-repair",
-                  "summary": "1개 파일",
-                  "files": [
-                    {
-                      "name": "P02_SWF_Coordinates_Units_Variables.csv",
-                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260730025102-minhosong-mse-repair/files/P02_SWF_Coordinates_Units_Variables.csv"
-                    }
-                  ]
-                }
-              ]
+              "submissions": []
             }
           ]
         },
@@ -1472,31 +1448,7 @@
           "text": "좌표계·단위·변수명 표",
           "type": "files",
           "review": "recommended",
-          "submissions": [
-            {
-              "submissionId": "20260730025102-minhosong-mse-repair",
-              "phaseId": 2,
-              "issueNumber": 2,
-              "taskId": "P02-T01",
-              "taskText": "기준으로 사용할 VCAT 구조와 조건을 정리한다.",
-              "outputId": "P02-T01-O02",
-              "outputText": "좌표계·단위·변수명 표",
-              "uploader": "minhosong-mse",
-              "memberName": "송민호",
-              "memberFolder": "SongMinho",
-              "type": "files",
-              "uploadedAt": "2026-07-29T17:51:02.000Z",
-              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260730025102-minhosong-mse-repair",
-              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260730025102-minhosong-mse-repair",
-              "summary": "1개 파일",
-              "files": [
-                {
-                  "name": "P02_SWF_Coordinates_Units_Variables.csv",
-                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260730025102-minhosong-mse-repair/files/P02_SWF_Coordinates_Units_Variables.csv"
-                }
-              ]
-            }
-          ],
+          "submissions": [],
           "taskId": "P02-T01"
         },
         {
