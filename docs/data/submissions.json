@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-30T08:22:54.307Z",
+  "updatedAt": "2026-07-31T05:44:43.959Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -84,31 +84,6 @@
             "name": "source0.5.png",
             "path": "members/LeeSeonJae/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O02/submissions/20260729050143-seanthe17-m3b6Zw/files/source0.5.png",
             "size": 50648
-          }
-        ]
-      }
-    ],
-    "P02-T01-O01": [
-      {
-        "submissionId": "20260730025101-minhosong-mse-repair",
-        "phaseId": 2,
-        "issueNumber": 2,
-        "taskId": "P02-T01",
-        "taskText": "기준으로 사용할 VCAT 구조와 조건을 정리한다.",
-        "outputId": "P02-T01-O01",
-        "outputText": "기준 소자 조건표",
-        "uploader": "minhosong-mse",
-        "memberName": "송민호",
-        "memberFolder": "SongMinho",
-        "type": "files",
-        "uploadedAt": "2026-07-29T17:51:01.000Z",
-        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O01/submissions/20260730025101-minhosong-mse-repair",
-        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O01/submissions/20260730025101-minhosong-mse-repair",
-        "summary": "1개 파일",
-        "files": [
-          {
-            "name": "P02_SWB_Parameters.csv",
-            "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O01/submissions/20260730025101-minhosong-mse-repair/files/P02_SWB_Parameters.csv"
           }
         ]
       }
