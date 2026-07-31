@@ -5,6 +5,7 @@ on:
     paths:
       - "docs/index.html"
       - "docs/submission-viewer.css"
+      - "docs/submission-viewer-polish.css"
       - "docs/submission-viewer-polish.js"
       - "tests/test_submission_viewer_polish.py"
       - ".github/workflows/test-submission-viewer-polish.yml"
