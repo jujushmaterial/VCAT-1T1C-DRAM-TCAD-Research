@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260731055642-minhosong-mse-I4zyaA",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T01",
+  "taskText": "기준으로 사용할 VCAT 구조와 조건을 정리한다.",
+  "outputId": "P02-T01-O03",
+  "outputText": "기준 소자 조건표 csv",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-07-31T05:56:42.667Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O03/submissions/20260731055642-minhosong-mse-I4zyaA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O03/submissions/20260731055642-minhosong-mse-I4zyaA",
+  "summary": "1개 파일 · 1.0KB",
+  "files": [
+    {
+      "name": "P02-T01-O01_SWB_Parameters.csv",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O03/submissions/20260731055642-minhosong-mse-I4zyaA/files/P02-T01-O01_SWB_Parameters.csv",
+      "size": 1025
+    }
+  ]
+}
