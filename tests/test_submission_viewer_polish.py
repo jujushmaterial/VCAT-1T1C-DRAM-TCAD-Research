@@ -9,6 +9,7 @@ class SubmissionViewerPortfolioPolishTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.css = (DOCS / "submission-viewer.css").read_text(encoding="utf-8")
+        cls.polish_css = (DOCS / "submission-viewer-polish.css").read_text(encoding="utf-8")
         cls.js = (DOCS / "submission-viewer-polish.js").read_text(encoding="utf-8")
         cls.index = (DOCS / "index.html").read_text(encoding="utf-8")
 
@@ -50,7 +51,18 @@ class SubmissionViewerPortfolioPolishTests(unittest.TestCase):
         self.assertIn('button.textContent = "GitHub"', self.js)
         self.assertIn('button.textContent = "삭제"', self.js)
 
-    def test_polish_script_loads_after_core_viewer(self):
+    def test_compact_titlebar_and_mobile_override(self):
+        self.assertIn(".submission-viewer__header-actions", self.polish_css)
+        self.assertIn('data-viewer-mode="code"', self.polish_css)
+        self.assertIn("grid-template-rows: auto minmax(0, 1fr)", self.polish_css)
+        self.assertIn("promoteMetaActions(mode)", self.js)
+
+    def test_polish_assets_load_after_core_viewer(self):
+        self.assertIn('href="submission-viewer-polish.css"', self.index)
+        self.assertLess(
+            self.index.index('href="submission-viewer.css"'),
+            self.index.index('href="submission-viewer-polish.css"'),
+        )
         core = self.index.index('src="submission-viewer.js"')
         polish = self.index.index('src="submission-viewer-polish.js"')
         self.assertLess(core, polish)
