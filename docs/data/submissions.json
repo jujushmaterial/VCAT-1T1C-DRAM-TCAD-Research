@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T05:54:51.946Z",
+  "updatedAt": "2026-07-31T05:55:11.413Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -385,6 +385,32 @@
             "name": "P02-T01-O01_Actual_SWB_Parameter_Screenshot.png",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O01/submissions/20260731055451-minhosong-mse-TOMGoQ/files/P02-T01-O01_Actual_SWB_Parameter_Screenshot.png",
             "size": 48445
+          }
+        ]
+      }
+    ],
+    "P02-T01-O02": [
+      {
+        "submissionId": "20260731055511-minhosong-mse-gh32lA",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T01",
+        "taskText": "기준으로 사용할 VCAT 구조와 조건을 정리한다.",
+        "outputId": "P02-T01-O02",
+        "outputText": "좌표계·단위·변수명 표",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-07-31T05:55:11.413Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260731055511-minhosong-mse-gh32lA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260731055511-minhosong-mse-gh32lA",
+        "summary": "1개 파일 · 1.3KB",
+        "files": [
+          {
+            "name": "P02-T01-O02_Coordinates_Units_Variables.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T01/outputs/P02-T01-O02/submissions/20260731055511-minhosong-mse-gh32lA/files/P02-T01-O02_Coordinates_Units_Variables.csv",
+            "size": 1323
           }
         ]
       }

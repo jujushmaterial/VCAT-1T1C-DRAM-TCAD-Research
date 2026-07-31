@@ -1,0 +1,22 @@
+﻿Category,Name,Value_or_definition,Unit,Source
+Coordinate axis,x,Vertical transport direction; top storage to bottom bitline,-,Actual SDE code
+Coordinate axis,y,Radial direction,-,Actual SDE code
+Symmetry axis,Yaxis,0.000,um,Actual SDE code
+Top coordinate,Xtop,0.000,um,Actual SDE code
+SN/channel boundary,XsnEnd,0.020,um,Lsn=20 nm in actual SWB/SDE
+Channel/BL boundary,XgateEnd,0.080,um,Lsn+Lg=20+60 nm
+Bottom coordinate,Xbottom,0.100,um,Lsn+Lg+Lbl=100 nm
+Silicon outer radius,YsiOuter,0.006,um,Dpillar=12 nm
+Oxide outer radius,YoxOuter,0.007,um,"Rsi=6 nm, Tox=1 nm"
+Region,R.SN,X=0.000 to 0.020; Y=0 to 0.006,um,Actual SDE code
+Region,R.Channel,X=0.020 to 0.080; Y=0 to 0.006,um,Actual SDE code
+Region,R.BL,X=0.080 to 0.100; Y=0 to 0.006,um,Actual SDE code
+Region,R.GateOxide,X=0.020 to 0.080; Y=0.006 to 0.007,um,Actual SDE code
+Contact,storage,Top silicon boundary at X=0,-,Actual SDE code
+Contact,bitline,Bottom silicon boundary at X=0.100 um,-,Actual SDE code
+Contact,gate,Outer oxide boundary at Y=0.007 um,-,Actual SDE code
+Geometry parameter,Dpillar_nm,12,nm,Actual SWB parameter
+Geometry parameter,Tox_nm,1,nm,Actual SWB parameter
+Geometry parameter,Lg_nm,60,nm,Actual SWB parameter
+Geometry parameter,Lsn_nm,20,nm,Actual SWB parameter
+Geometry parameter,Lbl_nm,20,nm,Actual SWB parameter
