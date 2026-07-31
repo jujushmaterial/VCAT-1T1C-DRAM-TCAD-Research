@@ -64,10 +64,11 @@
     }
 
     decorateHeader(mode);
+    compactActionLabels();
+    promoteMetaActions(mode);
 
     if (mode === "code") enhanceCodeViewer();
     if (mode === "image") enhanceImageViewer();
-    compactActionLabels();
   }
 
   function detectMode() {
@@ -114,6 +115,31 @@
         button.title = "관리자 제출본 삭제";
       }
     });
+  }
+
+  function promoteMetaActions(mode) {
+    const header = root.querySelector(".submission-viewer__header");
+    const meta = root.querySelector(".submission-viewer__meta");
+    if (!header || !meta) return;
+
+    const compactModes = new Set(["code", "image", "pdf", "markdown", "text"]);
+    const currentInMeta = meta.querySelector(".submission-viewer__meta-actions");
+    const currentInHeader = header.querySelector(".submission-viewer__header-actions");
+
+    if (compactModes.has(mode)) {
+      const actions = currentInMeta || currentInHeader;
+      if (!actions) return;
+      if (currentInHeader && currentInHeader !== actions) currentInHeader.remove();
+      actions.classList.add("submission-viewer__header-actions");
+      const close = header.querySelector(".submission-viewer__close");
+      header.insertBefore(actions, close || null);
+      return;
+    }
+
+    if (currentInHeader) {
+      currentInHeader.classList.remove("submission-viewer__header-actions");
+      meta.appendChild(currentInHeader);
+    }
   }
 
   function enhanceCodeViewer() {
