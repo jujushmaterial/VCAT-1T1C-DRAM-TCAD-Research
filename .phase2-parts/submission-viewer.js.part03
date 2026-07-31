@@ -1,0 +1,180 @@
+    root.querySelector("#submission-viewer-stage").innerHTML = `
+      <div class="submission-viewer__error">
+        <h3>웹 내부 뷰어를 열지 못했습니다.</h3>
+        <p>${escapeHtml(error.message || "파일 API를 사용할 수 없습니다.")}</p>
+        <p>Worker v8 배포 전이거나 일시적인 GitHub API 오류일 수 있습니다.</p>
+        <a class="btn" href="${escapeHtml(item.folderUrl || "#")}" target="_blank" rel="noreferrer">GitHub 제출 폴더로 이동</a>
+      </div>`;
+  }
+
+  function renderFileError(file, error) {
+    root.querySelector("#submission-viewer-stage").innerHTML = `
+      <div class="submission-viewer__error"><h3>파일을 표시하지 못했습니다.</h3><p>${escapeHtml(error.message || "파일을 불러오지 못했습니다.")}</p><div><a class="btn" href="${escapeHtml(file.githubUrl)}" target="_blank" rel="noreferrer">GitHub 원본</a><a class="btn btn--primary" href="${escapeHtml(file.downloadUrl)}">다운로드</a></div></div>`;
+  }
+
+  function renderLoading(message, hideToolbar = true) {
+    const toolbar = root.querySelector("#submission-viewer-toolbar");
+    if (toolbar && hideToolbar) toolbar.hidden = true;
+    root.querySelector("#submission-viewer-stage").innerHTML = `<div class="submission-viewer__loading"><span></span><p>${escapeHtml(message)}</p></div>`;
+  }
+
+  async function viewerFetch(url, options = {}) {
+    const headers = new Headers(options.headers || {});
+    if (sessionToken) headers.set("Authorization", `Bearer ${sessionToken}`);
+    return fetch(url, { ...options, headers, cache: "no-store" });
+  }
+
+  async function responseError(response) {
+    const payload = await response.json().catch(() => ({}));
+    return new Error(payload.message || `파일 요청 실패 (${response.status})`);
+  }
+
+  const codeKeywordTokens = new Set([
+    "set", "proc", "foreach", "for", "if", "elseif", "else", "return", "puts", "file", "electrode",
+    "physics", "mobility", "recombination", "math", "solve", "coupled", "quasistationary", "goal", "plot",
+    "current", "output", "def", "class", "import", "from", "async", "await", "function", "const", "let",
+    "var", "switch", "case", "break", "continue", "while", "try", "catch", "finally", "throw", "new"
+  ]);
+  const codeCommandTokens = new Set([
+    "deposit", "etch", "mask", "implant", "diffuse", "struct", "contact", "region", "init", "line", "pdbset",
+    "layers", "create_plot", "select_plots", "load_file", "create_curve", "set_curve_prop", "ft_scalar"
+  ]);
+  const codeTokenPattern = /"[^"\n]*"|'[^'\n]*'|@[A-Za-z0-9_|]+@|\$[A-Za-z_][A-Za-z0-9_]*|\b(?:0x[0-9A-Fa-f]+|\d+(?:\.\d+)?(?:e[+-]?\d+)?)\b|\b[A-Za-z_][A-Za-z0-9_]*\b/g;
+
+  function highlightLine(line, language) {
+    if (!line) return "";
+    const commentMarker = ["javascript", "typescript", "c", "cpp", "java", "go", "rust", "verilog", "systemverilog", "vhdl"].includes(language) ? "//" : "#";
+    const commentIndex = findCommentIndex(line, commentMarker);
+    const codePart = commentIndex >= 0 ? line.slice(0, commentIndex) : line;
+    const commentPart = commentIndex >= 0 ? line.slice(commentIndex) : "";
+    return `${highlightCodePart(codePart)}${commentPart ? `<span class="tok-comment">${escapeHtml(commentPart)}</span>` : ""}`;
+  }
+
+  function highlightCodePart(value) {
+    let html = "";
+    let cursor = 0;
+    for (const match of value.matchAll(codeTokenPattern)) {
+      const index = match.index ?? 0;
+      const token = match[0];
+      html += escapeHtml(value.slice(cursor, index));
+      const className = codeTokenClass(token);
+      html += className ? `<span class="${className}">${escapeHtml(token)}</span>` : escapeHtml(token);
+      cursor = index + token.length;
+    }
+    return html + escapeHtml(value.slice(cursor));
+  }
+
+  function codeTokenClass(token) {
+    if (token.startsWith('"') || token.startsWith("'")) return "tok-string";
+    if (token.startsWith("@") || token.startsWith("$")) return "tok-variable";
+    if (/^(?:0x[0-9A-Fa-f]+|\d)/.test(token)) return "tok-number";
+    const normalized = token.toLowerCase();
+    if (codeKeywordTokens.has(normalized)) return "tok-keyword";
+    if (codeCommandTokens.has(normalized)) return "tok-command";
+    return "";
+  }
+
+  function findCommentIndex(line, marker) {
+    let quoted = "";
+    for (let index = 0; index < line.length; index += 1) {
+      const character = line[index];
+      if ((character === '"' || character === "'") && line[index - 1] !== "\\") quoted = quoted === character ? "" : (quoted || character);
+      if (!quoted && line.slice(index, index + marker.length) === marker) return index;
+    }
+    return -1;
+  }
+
+  function markdownToSafeHtml(markdown) {
+    const lines = normalizeNewlines(markdown).split("\n");
+    const output = [];
+    let inCode = false;
+    let code = [];
+    let listOpen = false;
+    const closeList = () => { if (listOpen) { output.push("</ul>"); listOpen = false; } };
+    for (const raw of lines) {
+      if (/^```/.test(raw.trim())) {
+        if (inCode) { output.push(`<pre><code>${escapeHtml(code.join("\n"))}</code></pre>`); code = []; inCode = false; }
+        else { closeList(); inCode = true; }
+        continue;
+      }
+      if (inCode) { code.push(raw); continue; }
+      const heading = raw.match(/^(#{1,4})\s+(.+)$/);
+      if (heading) { closeList(); const level = heading[1].length; output.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`); continue; }
+      const list = raw.match(/^\s*[-*]\s+(.+)$/);
+      if (list) { if (!listOpen) { output.push("<ul>"); listOpen = true; } output.push(`<li>${inlineMarkdown(list[1])}</li>`); continue; }
+      closeList();
+      if (/^>\s?/.test(raw)) output.push(`<blockquote>${inlineMarkdown(raw.replace(/^>\s?/, ""))}</blockquote>`);
+      else if (raw.trim()) output.push(`<p>${inlineMarkdown(raw)}</p>`);
+      else output.push("<br>");
+    }
+    closeList();
+    if (inCode) output.push(`<pre><code>${escapeHtml(code.join("\n"))}</code></pre>`);
+    return output.join("");
+  }
+
+  function inlineMarkdown(value) {
+    return escapeHtml(value)
+      .replace(/`([^`]+)`/g, "<code>$1</code>")
+      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+      .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noreferrer">$1</a>');
+  }
+
+  function fileIcon(file) {
+    return { code: "</>", image: "▧", pdf: "PDF", json: "{}", markdown: "MD", text: "TXT", unsupported: "FILE" }[file.kind] || "FILE";
+  }
+
+  function fileLabel(file) {
+    return { code: "코드", image: "이미지", pdf: "PDF", json: "JSON", markdown: "Markdown", text: "텍스트", unsupported: "일반 파일" }[file.kind] || "일반 파일";
+  }
+
+  function formatBytes(value) {
+    const bytes = Number(value || 0);
+    if (!bytes) return "크기 미확인";
+    if (bytes < 1024) return `${bytes}B`;
+    if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)}KB`;
+    return `${(bytes / 1024 / 1024).toFixed(1)}MB`;
+  }
+
+  function normalizeNewlines(value) {
+    return String(value || "").replace(/\r\n?/g, "\n");
+  }
+
+  function cacheKey(file) {
+    return `${viewer.submission?.submissionId || ""}:${file.id}`;
+  }
+
+  async function copyText(value) {
+    if (navigator.clipboard?.writeText) return navigator.clipboard.writeText(value);
+    const area = document.createElement("textarea");
+    area.value = value;
+    area.style.position = "fixed";
+    area.style.opacity = "0";
+    document.body.appendChild(area);
+    area.select();
+    document.execCommand("copy");
+    area.remove();
+  }
+
+  function revokeObjectUrl() {
+    if (viewer.activeObjectUrl) URL.revokeObjectURL(viewer.activeObjectUrl);
+    viewer.activeObjectUrl = null;
+  }
+
+  function closeViewer() {
+    revokeObjectUrl();
+    viewer.output = null;
+    viewer.manifest = null;
+    viewer.file = null;
+    dialog.close();
+  }
+
+  dialog.addEventListener("cancel", (event) => {
+    event.preventDefault();
+    closeViewer();
+  });
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) closeViewer();
+  });
+  window.addEventListener("keydown", (event) => {
+    if (!dialog.open || viewer.file?.kind !== IMAGE_KIND) return;
+    const images = (viewer.manifest?.files || []).filter((item) => item.kind === IMAGE_KIND);
