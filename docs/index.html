@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="research-state-ui.css">
   <link rel="stylesheet" href="table-submission.css">
   <link rel="stylesheet" href="submission-delete.css">
+  <link rel="stylesheet" href="submission-viewer.css">
 </head>
 <body>
   <header class="app-header">
@@ -81,6 +82,10 @@
     <div id="submission-content"></div>
   </dialog>
 
+  <dialog id="submission-viewer-dialog" aria-labelledby="submission-viewer-title">
+    <div id="submission-viewer-content"></div>
+  </dialog>
+
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
   <footer>
@@ -94,5 +99,6 @@
   <script src="table-submission.js" defer></script>
   <script src="research-state-ui.js" defer></script>
   <script src="submission-delete.js" defer></script>
+  <script src="submission-viewer.js" defer></script>
 </body>
 </html>
