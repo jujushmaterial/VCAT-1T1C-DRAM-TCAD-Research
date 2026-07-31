@@ -1,0 +1,10 @@
+﻿Metric,Actual_value,Unit,Source
+MeshScale,1.0,-,Actual SWB parameter
+Grid points,881,points,Actual Sentaurus log
+Edges,2545,edges,Actual Sentaurus log
+Elements,1616,elements,Actual Sentaurus log
+Minimum edge length,7.812500E-05,um,Actual Sentaurus log
+Minimum edge length,0.078125,nm,Converted from actual log
+Minimum angle,1.718358,degree,Actual Sentaurus log
+Non-Delaunay elements,0,elements,Actual Sentaurus log
+Regions,4,regions,Actual Sentaurus log

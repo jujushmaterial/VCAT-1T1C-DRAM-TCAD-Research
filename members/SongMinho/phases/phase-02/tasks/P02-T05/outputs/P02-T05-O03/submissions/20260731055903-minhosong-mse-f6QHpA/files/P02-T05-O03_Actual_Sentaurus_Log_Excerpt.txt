@@ -1,0 +1,61 @@
+  }
+
+===============================
+
+Reading grid 'n1_msh.tdr' ... 
+  coordinate system: UCS, 3d_sprocess (x is device down direction)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 881.
+done.
+
+Adding interfaces and contacts .... done.
+
+Computing edges ...
+  Number of edges: 2545
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  Boxmethod Parallel Computing: nbThreads = 1 
+Computing cylindrical box method ...
+Info for all regions (NumberOfRegions = 4):
+        ElementWithMinVolume(   290) Vertex0(  333)( 1.992188e-02, 5.906250e-03) Volume = 3.662109e-09 um3 (5.55e-06 from TotalVolume)
+          ElementWithMinEdge(   245) Vertex0(  246)( 1.992188e-02, 5.250000e-03) Length = 7.812500e-05 um
+              MaxFlatElement(   903) Vertex0(  601)( 7.578125e-02, 2.187500e-03)  Angle = 6.075117e+01 degrees
+         ElementWithMinAngle(   854) Vertex0(  368)( 7.187500e-02, 6.000000e-03)  Angle = 1.718358e+00 degrees
+   ElementWithMaxQualityEdge(   657) Vertex0(  368)( 3.125000e-02, 5.906250e-03)    R/L = 1.667416e+01 
+ ElementWithMaxQualityHeight(   657) Vertex0(  368)( 3.125000e-02, 5.906250e-03)    R/H = 1.668167e+01 
+
+Info for semiconductor regions (NumberOfRegions = 3):
+        ElementWithMinVolume(   290) Vertex0(  333)( 1.992188e-02, 5.906250e-03) Volume = 3.662109e-09 um3 (5.55e-06 from TotalVolume)
+          ElementWithMinEdge(   245) Vertex0(  246)( 1.992188e-02, 5.250000e-03) Length = 7.812500e-05 um
+              MaxFlatElement(   903) Vertex0(  601)( 7.578125e-02, 2.187500e-03)  Angle = 6.075117e+01 degrees
+         ElementWithMinAngle(   854) Vertex0(  368)( 7.187500e-02, 6.000000e-03)  Angle = 1.718358e+00 degrees
+   ElementWithMaxQualityEdge(   657) Vertex0(  368)( 3.125000e-02, 5.906250e-03)    R/L = 1.667416e+01 
+ ElementWithMaxQualityHeight(   657) Vertex0(  368)( 3.125000e-02, 5.906250e-03)    R/H = 1.668167e+01 
+
+   NumberOfEdges              =   2545 
+   NumberOfGeometricalEdges   =   2496 
+   NumberOfDoubleEdges        =      0 
+   MaxNumberOfEdgesPerVertex  =      7; vertex(29) = ( 1.406250e-02,  8.750000e-04) [um]
+   MaxNumberOfElementsPerEdge =      2; edge(0) = (0, 7) 
+                                        vertex(0) = ( 3.125000e-03,  8.750000e-04) [um]
+                                        vertex(7) = ( 6.250000e-03,  1.750000e-03) [um]
+
+  VertexWithMaxMeasure(  202)( 3.125000e-03, 5.250000e-03)
+  MaxVertMeasure(2.458497e-09)/VertVolume(1.171875e-06) = 2.10e-03
+
+
+/-------- Region non-Delaunay elements ---------------------------------------------------------------------
+ Region          Volume      BoxMethodVolume  DeltaVolume  Elements  non-Delaunay      non-DelaunayVolume 
+  name            [um3]          [um3]           [%]                   Elements              [um3]   [%]   
+ -----------------------------------------------------------------------------------------------------------
+ R.SN         2.2619467e-06  2.2619467e-06     1.3e-08       297       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ R.Channel    6.7858401e-06  6.7858401e-06     1.3e-08       770       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ R.GateOxide  2.4504423e-06  2.4504423e-06     1.3e-08       256       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ R.BL         2.2619467e-06  2.2619467e-06     1.3e-08       293       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ ...........................................................................................................
+ Total        1.3760176e-05  1.3760176e-05     1.3e-08      1616       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+\-----------------------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T05:58:38.945Z",
+  "updatedAt": "2026-07-31T05:59:03.989Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -592,6 +592,37 @@
             "name": "P02-T05-O02_Actual_Junction_Mesh_Zoom.png",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260731055838-minhosong-mse-EldXFA/files/P02-T05-O02_Actual_Junction_Mesh_Zoom.png",
             "size": 125542
+          }
+        ]
+      }
+    ],
+    "P02-T05-O03": [
+      {
+        "submissionId": "20260731055903-minhosong-mse-f6QHpA",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T05",
+        "taskText": "메시를 설정하고 구조를 확인한다.",
+        "outputId": "P02-T05-O03",
+        "outputText": "주요 경계 최소 메시 크기",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-07-31T05:59:03.989Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA",
+        "summary": "2개 파일 · 4.1KB",
+        "files": [
+          {
+            "name": "P02-T05-O03_Actual_Mesh_Run_Summary.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA/files/P02-T05-O03_Actual_Mesh_Run_Summary.csv",
+            "size": 467
+          },
+          {
+            "name": "P02-T05-O03_Actual_Sentaurus_Log_Excerpt.txt",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA/files/P02-T05-O03_Actual_Sentaurus_Log_Excerpt.txt",
+            "size": 3687
           }
         ]
       }
