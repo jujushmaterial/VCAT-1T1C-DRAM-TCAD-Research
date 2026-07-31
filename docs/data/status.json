@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T14:58:13+09:00",
+  "generatedAt": "2026-07-31T14:58:53+09:00",
   "overallProgress": 8,
   "phases": [
     {
@@ -782,7 +782,7 @@
       "progress": 67,
       "tasksDone": 6,
       "tasksTotal": 9,
-      "outputsDone": 13,
+      "outputsDone": 15,
       "outputsTotal": 26,
       "tasks": [
         {
@@ -1162,14 +1162,69 @@
               "text": "메시 설정값",
               "type": "files",
               "review": "recommended",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260731055825-minhosong-mse-2ubAqg",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T05",
+                  "taskText": "메시를 설정하고 구조를 확인한다.",
+                  "outputId": "P02-T05-O01",
+                  "outputText": "메시 설정값",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-31T05:58:25.602Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O01/submissions/20260731055825-minhosong-mse-2ubAqg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O01/submissions/20260731055825-minhosong-mse-2ubAqg",
+                  "summary": "1개 파일 · 846B",
+                  "files": [
+                    {
+                      "name": "P02-T05-O01_Mesh_Settings.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O01/submissions/20260731055825-minhosong-mse-2ubAqg/files/P02-T05-O01_Mesh_Settings.csv",
+                      "size": 846
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T05-O02",
               "text": "구조와 메시 이미지",
               "type": "files",
               "review": "recommended",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260731055838-minhosong-mse-EldXFA",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T05",
+                  "taskText": "메시를 설정하고 구조를 확인한다.",
+                  "outputId": "P02-T05-O02",
+                  "outputText": "구조와 메시 이미지",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-31T05:58:38.945Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260731055838-minhosong-mse-EldXFA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260731055838-minhosong-mse-EldXFA",
+                  "summary": "2개 파일 · 241.5KB",
+                  "files": [
+                    {
+                      "name": "P02-T05-O02_Actual_Full_Structure_and_Mesh.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260731055838-minhosong-mse-EldXFA/files/P02-T05-O02_Actual_Full_Structure_and_Mesh.png",
+                      "size": 121704
+                    },
+                    {
+                      "name": "P02-T05-O02_Actual_Junction_Mesh_Zoom.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260731055838-minhosong-mse-EldXFA/files/P02-T05-O02_Actual_Junction_Mesh_Zoom.png",
+                      "size": 125542
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T05-O03",
@@ -1798,7 +1853,32 @@
           "text": "메시 설정값",
           "type": "files",
           "review": "recommended",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260731055825-minhosong-mse-2ubAqg",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T05",
+              "taskText": "메시를 설정하고 구조를 확인한다.",
+              "outputId": "P02-T05-O01",
+              "outputText": "메시 설정값",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-31T05:58:25.602Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O01/submissions/20260731055825-minhosong-mse-2ubAqg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O01/submissions/20260731055825-minhosong-mse-2ubAqg",
+              "summary": "1개 파일 · 846B",
+              "files": [
+                {
+                  "name": "P02-T05-O01_Mesh_Settings.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O01/submissions/20260731055825-minhosong-mse-2ubAqg/files/P02-T05-O01_Mesh_Settings.csv",
+                  "size": 846
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T05"
         },
         {
@@ -1806,7 +1886,37 @@
           "text": "구조와 메시 이미지",
           "type": "files",
           "review": "recommended",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260731055838-minhosong-mse-EldXFA",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T05",
+              "taskText": "메시를 설정하고 구조를 확인한다.",
+              "outputId": "P02-T05-O02",
+              "outputText": "구조와 메시 이미지",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-31T05:58:38.945Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260731055838-minhosong-mse-EldXFA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260731055838-minhosong-mse-EldXFA",
+              "summary": "2개 파일 · 241.5KB",
+              "files": [
+                {
+                  "name": "P02-T05-O02_Actual_Full_Structure_and_Mesh.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260731055838-minhosong-mse-EldXFA/files/P02-T05-O02_Actual_Full_Structure_and_Mesh.png",
+                  "size": 121704
+                },
+                {
+                  "name": "P02-T05-O02_Actual_Junction_Mesh_Zoom.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O02/submissions/20260731055838-minhosong-mse-EldXFA/files/P02-T05-O02_Actual_Junction_Mesh_Zoom.png",
+                  "size": 125542
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T05"
         },
         {
