@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Static contract checks for spreadsheet-style table submission."""
+"""Static contract checks for the Phase 3 spreadsheet editor and viewer."""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -10,36 +10,51 @@ def read(path: str) -> str:
 
 
 index = read("docs/index.html")
-frontend = read("docs/table-submission.js")
-styles = read("docs/table-submission.css")
+frontend = read("docs/spreadsheet-v3.js")
+styles = read("docs/spreadsheet-v3.css")
 worker = read("worker/src/v5.js")
 worker_v6 = read("worker/src/v6.js")
 worker_v7 = read("worker/src/v7.js")
 worker_v8 = read("worker/src/v8.js")
 worker_v9 = read("worker/src/v9.js")
+worker_v10 = read("worker/src/v10.js")
 wrangler = read("worker/wrangler.toml")
 sync = read("scripts/sync_dashboard_v5.py")
 
-assert 'href="table-submission.css"' in index
-assert 'src="table-submission.js"' in index
-assert 'task-output-presence.js' in index and index.index('task-output-presence.js') < index.index('table-submission.js')
+assert 'href="spreadsheet-v3.css"' in index
+assert 'src="spreadsheet-v3.js"' in index
+assert 'src="table-submission.js"' not in index
+assert 'href="table-submission.css"' not in index
+assert 'xlsx-0.20.3/package/dist/xlsx.full.min.js' in index
+assert index.index('task-output-presence.js') < index.index('spreadsheet-v3.js')
+assert index.index('spreadsheet-v3.js') < index.index('submission-viewer.js')
 
 for required in (
     'taskOutputTypeLabels.table = "표 입력"',
     '["table", "표 입력"]',
-    'parseClipboardTable',
-    'event.clipboardData',
     'submitOutput("table"',
-    'table-preview-button',
-    'Workbench',
+    'parseDelimited',
+    'parseClipboardRange',
+    'workbookFromArrayBuffer',
+    'XLSX.read',
+    'sheet_to_json',
+    'ArrowUp',
+    'ArrowDown',
+    'event.key === "Delete"',
+    'event.key.toLowerCase() === "z"',
+    'navigator.clipboard',
+    'renderWorkbook',
+    'spreadsheet',
 ):
     assert required in frontend, required
 
+assert 'contenteditable' not in frontend.lower()
 for required in (
-    '.sheet-grid-wrap',
-    '.sheet-grid td > div:focus',
-    '.saved-table-wrap',
-    '.table-result-actions',
+    '.excel-grid',
+    '.excel-grid td.is-active',
+    '.spreadsheet-sheet-tabs',
+    '.spreadsheet-readonly-table',
+    '.spreadsheet-integrated-body',
 ):
     assert required in styles, required
 
@@ -60,7 +75,9 @@ assert 'import v5 from "./v5.js"' in worker_v6
 assert 'import v6 from "./v6.js"' in worker_v7
 assert 'import v7 from "./v7.js"' in worker_v8
 assert 'import v8 from "./v8.js"' in worker_v9
-assert 'main = "src/v9.js"' in wrangler
+assert 'import v9 from "./v9.js"' in worker_v10
+assert 'kind: "spreadsheet"' in worker_v10
+assert 'main = "src/v10.js"' in wrangler
 assert 'output["type"] = "table"' in sync
 
-print("table submission contract test passed")
+print("phase 3 spreadsheet contract test passed")

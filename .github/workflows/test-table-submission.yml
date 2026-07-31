@@ -5,6 +5,8 @@ on:
     paths:
       - "docs/**"
       - "worker/**"
+      - "tests/test_spreadsheet_*.py"
+      - "tests/test_spreadsheet_*.mjs"
       - "scripts/sync_dashboard*.py"
       - "scripts/test_table_submission_contract.py"
       - ".github/workflows/test-table-submission.yml"
@@ -13,6 +15,8 @@ on:
     paths:
       - "docs/**"
       - "worker/**"
+      - "tests/test_spreadsheet_*.py"
+      - "tests/test_spreadsheet_*.mjs"
       - "scripts/sync_dashboard*.py"
       - "scripts/test_table_submission_contract.py"
       - ".github/workflows/test-table-submission.yml"
@@ -32,13 +36,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Run table submission checks twice
+      - name: Run spreadsheet checks twice
         run: |
           for run in 1 2; do
-            echo "===== table verification ${run}/2 ====="
-            node --check docs/table-submission.js
+            echo "===== spreadsheet verification ${run}/2 ====="
+            node --check docs/spreadsheet-v3.js
+            node --check docs/spreadsheet-v3-guard.js
+            node --check worker/src/v10.js
             node --check worker/src/v5.js
             node worker/test/table-submission.test.mjs
+            node tests/test_spreadsheet_worker.mjs
+            python -m unittest tests/test_spreadsheet_v3.py -v
             python scripts/test_table_submission_contract.py
             python scripts/test_sync_task_outputs.py
             python scripts/test_frontend_contract.py
