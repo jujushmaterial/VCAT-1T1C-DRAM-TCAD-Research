@@ -7,38 +7,67 @@
 작업을 시작하기 전에 다음 순서로 읽습니다.
 
 1. 이 문서 `AI_PROJECT_GUIDE.md`
-2. 작업 대상 개인 폴더의 `AGENTS.md`
-3. 작업 대상 개인 폴더의 `README.md`
-4. 작업 대상 개인 폴더의 `TIMELINE.md`
-5. 해당 Phase의 GitHub Issue와 대시보드 체크리스트
-6. 수정할 기존 코드·결과·인수인계 문서
+2. 해당 Phase의 GitHub Issue
+3. `docs/data/status.json`과 `docs/data/integrity-report.json`
+4. 작업 대상 개인 폴더의 `AGENTS.md`
+5. 작업 대상 개인 폴더의 `README.md`
+6. 작업 대상 개인 폴더의 `TIMELINE.md`
+7. 수정할 기존 코드·결과·인수인계 문서
 
 문서 간 내용이 충돌하면 다음 우선순위를 따릅니다.
 
-1. 최신 GitHub Issue의 체크리스트와 Assignees
-2. 저장소의 실제 파일 및 실행 결과
-3. 이 공통 가이드
-4. 개인 폴더의 `AGENTS.md`
-5. 개인 폴더의 `README.md`
-6. 과거 타임라인과 인수인계 문서
+1. 저장소의 실제 파일, 실행 결과와 `docs/data/submissions.json`
+2. `scripts/research_state.py`가 계산한 `docs/data/status.json`
+3. 최신 GitHub Issue의 과제·산출물 정의와 Assignees
+4. 이 공통 가이드
+5. 개인 폴더의 `AGENTS.md`
+6. 개인 폴더의 README·상태·인수인계 문서
+7. 과거 타임라인
+
+GitHub Issue 체크박스는 자동 완료 상태의 표시용 미러입니다. 체크 여부만으로 연구 완료를 판단하지 않습니다.
 
 ## 2. 프로젝트 목적
 
 이 저장소는 VCAT–1T1C DRAM 구조를 TCAD로 설계·비교·최적화하고, 단일 소자 특성부터 공정 오차와 1T1C DRAM 동작까지 단계적으로 검증하기 위한 공동 연구 공간입니다.
 
-전체 연구는 Phase 1~9로 관리하며, 각 Phase의 해야 할 일과 나와야 하는 결과물은 GitHub Issue가 원본입니다. GitHub Pages 대시보드는 Issue와 결과물 제출 현황을 보기 쉽게 표시합니다.
+전체 연구는 Phase 1~9로 관리합니다. GitHub Issue는 해야 할 과제와 연결 산출물을 정의하고, 실제 완료 상태는 제출 증거와 완료 정책을 바탕으로 자동 계산합니다. GitHub Pages 대시보드는 같은 계산 결과를 표시합니다.
 
 ## 3. 주요 시스템의 역할
 
-- **GitHub Issue:** Phase별 작업, 결과물, 담당자와 상태의 원본
-- **GitHub Pages:** Issue 체크리스트와 제출 결과를 확인·편집하는 대시보드
-- **개인 폴더:** 연구원별 작업 중 코드, 분석, 결과물, 인수인계와 타임라인
+- **GitHub Issue:** Phase별 과제·산출물 정의, 담당자와 연구 설명의 원본
+- **`docs/data/submissions.json`:** 실제 제출본과 파일 경로의 원본
+- **`docs/data/completion-policy.json`:** 필수·선택 산출물 정책
+- **`scripts/research_state.py`:** 제출 증거를 바탕으로 Task·Phase 상태를 계산하는 단일 상태 계산기
+- **`docs/data/status.json`:** 대시보드가 사용하는 자동 계산 상태
+- **`docs/data/integrity-report.json`:** 경로·ID·체크박스·파일명 불일치 보고서
+- **GitHub Pages:** 자동 계산 상태와 제출 결과를 확인하는 대시보드
+- **개인 폴더:** 연구원별 코드, 분석, 결과물, 인수인계와 타임라인
 - **`shared/`:** 검토가 끝나 공동 기준으로 확정된 자료
 - **연구실 서버:** TDR, PLT, DAT, LOG 등 대용량 원본
 
 담당자는 해당 Phase Issue의 **Assignees**를 기준으로 판단합니다. AI가 담당자를 추측하거나 임의로 바꾸면 안 됩니다.
 
-## 4. 절대 규칙: 개인 폴더 변경 시 TIMELINE 작성
+## 4. 과제 완료와 진행률 규칙
+
+과제 완료는 기본적으로 다음 조건으로 계산합니다.
+
+1. 과제에 연결된 **필수 산출물**을 확인합니다.
+2. 각 필수 산출물에 유효한 제출본이 한 건 이상 존재해야 합니다.
+3. 모든 필수 산출물이 충족되면 Task가 자동 완료됩니다.
+4. 선택 산출물은 제출하지 않아도 Task 완료를 막지 않습니다.
+5. `review:recommended`는 검토 권장 표시이며 현재 진행률을 차단하지 않습니다.
+6. Issue 체크박스와 자동 상태가 다르면 `CHECKBOX_STATE_DRIFT`로 기록합니다.
+
+명시되지 않은 산출물은 기본적으로 필수입니다. 예외는 `docs/data/completion-policy.json`에 이유와 함께 등록합니다.
+
+다음은 완료 증거가 아닙니다.
+
+- Issue 체크박스만 수동으로 선택한 상태
+- 결과 파일 없이 README에 완료라고 작성한 문장
+- 다른 Output에 잘못 연결된 제출본
+- `countsAsEvidence: false`로 분류된 보존용 제출본
+
+## 5. 절대 규칙: 개인 폴더 변경 시 TIMELINE 작성
 
 `members/<개인영문폴더>/` 아래에서 파일이나 폴더를 생성·수정·삭제·이동·이름 변경한 경우, **같은 작업 또는 같은 커밋에서 반드시 해당 개인 폴더의 `TIMELINE.md` 맨 아래에 기록을 추가해야 합니다.**
 
@@ -59,7 +88,7 @@
 
 - **작성자:** 이름 (`@GitHub계정`) 또는 사용한 AI 도구
 - **Phase / Issue:** Phase N / #N 또는 해당 없음
-- **결과물 ID:** `PXX-OXX` 또는 해당 없음
+- **결과물 ID:** `PXX-TXX-OXX` 또는 해당 없음
 - **변경 유형:** 생성 / 수정 / 삭제 / 이동 / 제출 / 분석 / 인수인계
 - **변경 파일:** `members/.../file`
 - **작업 내용:** 무엇을 했는지
@@ -70,7 +99,7 @@
 
 사실이 확인되지 않은 항목은 추측하지 말고 `미확인`, `실행하지 않음`, `결과 없음`처럼 명시합니다.
 
-## 5. 개인 폴더 작업 범위
+## 6. 개인 폴더 작업 범위
 
 AI는 기본적으로 현재 지정된 개인 폴더 안에서만 작업합니다.
 
@@ -80,37 +109,41 @@ AI는 기본적으로 현재 지정된 개인 폴더 안에서만 작업합니�
 - 실험 결과가 없는 상태에서 수치, 그래프, 성공 여부를 만들어내지 않습니다.
 - 사용자가 제공한 코드·로그·이미지·결과를 우선 근거로 사용합니다.
 
-## 6. 결과물 저장 규칙
+## 7. 결과물 저장 규칙
 
 대시보드 제출 기능이 만드는 표준 경로는 다음과 같습니다.
 
 ```text
-members/<MemberFolder>/phases/phase-XX/outputs/PXX-OXX/submissions/<submission-id>/
+members/<MemberFolder>/phases/phase-XX/tasks/PXX-TXX/outputs/PXX-TXX-OXX/submissions/<submission-id>/
 ```
 
-- 결과물 ID는 Issue 체크리스트의 `PXX-OXX`를 유지합니다.
+- Task ID는 `PXX-TXX`, Output ID는 `PXX-TXX-OXX` 형식을 유지합니다.
 - 기존 제출본을 지우지 않고 새 버전으로 추가하는 것을 기본으로 합니다.
 - 이미지·표·문서·압축 파일은 **파일 업로드**를 사용합니다.
 - SDE, SProcess, SDevice, SVisual, Tcl, Python 코드는 **코드 삽입**을 사용합니다.
 - TDR, PLT, DAT, LOG 등 대용량 원본은 서버에 두고 **서버 경로 등록**을 사용합니다.
-- 파일이 필요 없는 결론 항목만 **체크만 완료**를 사용합니다.
+- 파일이 필요 없는 과제는 해당 Output을 `completion-policy.json`에서 선택 산출물로 명시합니다.
+- 제출본의 Task ID, Output ID, 폴더 경로와 메타데이터는 서로 같아야 합니다.
+- 파일명이 `PXX-TXX-OXX`로 시작한다면 실제 등록 Output ID와 같아야 합니다.
 
-## 7. 파일명과 폴더명
+기존 제출물의 의미가 불명확하거나 잘못 연결됐더라도 임의로 삭제하지 않습니다. `docs/data/submission-classifications.json`에 보존 사유, 의도한 Output과 완료 증거 포함 여부를 기록합니다.
+
+## 8. 파일명과 폴더명
 
 - 폴더명은 영문, 숫자, 하이픈을 우선 사용합니다.
 - 날짜는 `YYYYMMDD` 또는 `YYYY-MM-DD`로 통일합니다.
-- Phase는 `phase-01`, 결과물은 `P01-O01` 형식을 사용합니다.
+- Phase는 `phase-01`, Task는 `P01-T01`, Output은 `P01-T01-O01` 형식을 사용합니다.
 - 의미 없는 `final`, `new`, `수정본2` 대신 조건과 버전을 표시합니다.
 
 권장 예:
 
 ```text
-phase-01_planar-dual-metal_sde_v01.cmd
-phase-01_idvg-comparison_20260728.csv
-phase-01_interface-potential_v02.png
+P01-T05-O01_dual-metal-gap_sprocess_v01.cmd
+P01-T07-O01_idvg-comparison_20260728.csv
+P01-T08-O02_interface-potential_v02.png
 ```
 
-## 8. 연구 기록 표준 형식
+## 9. 연구 기록 표준 형식
 
 연구 과정 문서는 가능한 한 다음 순서를 사용합니다.
 
@@ -130,7 +163,9 @@ phase-01_interface-potential_v02.png
 ## 11. 다음 작업
 ```
 
-## 9. 코드 문서 표준
+현재 완료 목록과 진행률을 수동 문서에 반복해서 적지 않습니다. 실시간 상태는 `docs/generated/phases/phase-XX.md` 또는 대시보드를 연결합니다.
+
+## 10. 코드 문서 표준
 
 코드를 작성하거나 분석할 때 다음 정보를 함께 남깁니다.
 
@@ -138,7 +173,7 @@ phase-01_interface-potential_v02.png
 ## 코드 정보
 
 - Phase:
-- 결과물 ID:
+- Task / Output ID:
 - 시뮬레이터/버전:
 - 파일명:
 - 기준 코드:
@@ -155,7 +190,7 @@ phase-01_interface-potential_v02.png
 
 수정된 일부 조각만으로 재현하기 어려운 경우 전체 코드를 보존합니다. 사용자가 명시하지 않은 물리 모델, 단위, 경계조건을 임의로 확정하지 않습니다.
 
-## 10. 결과 해석 원칙
+## 11. 결과 해석 원칙
 
 - 수치와 단위를 함께 작성합니다.
 - 동일 조건 비교인지 확인합니다.
@@ -164,14 +199,16 @@ phase-01_interface-potential_v02.png
 - 그래프·표·이미지는 생성 조건과 원본 데이터 위치를 기록합니다.
 - 실패한 실행과 오류도 삭제하지 말고 원인과 재실행 여부를 남깁니다.
 
-## 11. 작업 완료 조건
+## 12. 작업 완료 조건
 
 AI는 다음을 모두 확인한 뒤 작업 완료로 보고합니다.
 
 1. 요청한 파일이 올바른 개인 폴더 또는 결과물 경로에 저장됨
-2. 관련 Issue와 결과물 ID가 문서에 표시됨
+2. 관련 Issue와 Task·Output ID가 문서에 표시됨
 3. 실행·검증 여부가 사실대로 기록됨
-4. 다음 작업자가 이해할 수 있는 설명 또는 인수인계가 있음
-5. **해당 개인 폴더의 `TIMELINE.md`가 같은 작업에서 갱신됨**
+4. 필수 산출물 기반 자동 상태와 Issue 체크박스의 불일치를 확인함
+5. `integrity-report.json`에 새 오류가 생기지 않음
+6. 다음 작업자가 이해할 수 있는 설명 또는 인수인계가 있음
+7. **해당 개인 폴더의 `TIMELINE.md`가 같은 작업에서 갱신됨**
 
 타임라인이 갱신되지 않았다면 작업은 완료되지 않은 것으로 간주합니다.
