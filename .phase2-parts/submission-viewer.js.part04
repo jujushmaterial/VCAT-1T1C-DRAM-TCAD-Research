@@ -1,0 +1,7 @@
+    if (images.length < 2 || !["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+    event.preventDefault();
+    const index = images.findIndex((item) => item.id === viewer.file.id);
+    const next = event.key === "ArrowRight" ? (index + 1) % images.length : (index - 1 + images.length) % images.length;
+    selectFile(images[next].id);
+  });
+})();
