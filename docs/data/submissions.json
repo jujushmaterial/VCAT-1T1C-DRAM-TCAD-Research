@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T05:59:03.989Z",
+  "updatedAt": "2026-07-31T05:59:44.394Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -623,6 +623,32 @@
             "name": "P02-T05-O03_Actual_Sentaurus_Log_Excerpt.txt",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA/files/P02-T05-O03_Actual_Sentaurus_Log_Excerpt.txt",
             "size": 3687
+          }
+        ]
+      }
+    ],
+    "P02-T02-O01": [
+      {
+        "submissionId": "20260731055944-minhosong-mse-F33y-Q",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T02",
+        "taskText": "SDE로 Single-Metal VCAT 구조를 만든다.",
+        "outputId": "P02-T02-O01",
+        "outputText": "Single-Metal VCAT 전체 SDE 코드",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "code",
+        "uploadedAt": "2026-07-31T05:59:44.394Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260731055944-minhosong-mse-F33y-Q",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260731055944-minhosong-mse-F33y-Q",
+        "summary": "1개 코드 파일 · 8.7KB",
+        "files": [
+          {
+            "name": "sde.cmd",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260731055944-minhosong-mse-F33y-Q/source/sde.cmd",
+            "size": 8928
           }
         ]
       }
