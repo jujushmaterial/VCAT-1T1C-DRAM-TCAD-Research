@@ -4,6 +4,8 @@ on:
   pull_request:
     paths:
       - "scripts/research_state.py"
+      - "scripts/research_state_core.py"
+      - "scripts/research_state_integrity.py"
       - "scripts/sync_dashboard.py"
       - "scripts/sync_dashboard_v5.py"
       - "tests/test_research_state.py"
