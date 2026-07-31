@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T14:58:53+09:00",
+  "generatedAt": "2026-07-31T15:52:46+09:00",
   "overallProgress": 8,
   "phases": [
     {
@@ -782,7 +782,7 @@
       "progress": 67,
       "tasksDone": 6,
       "tasksTotal": 9,
-      "outputsDone": 15,
+      "outputsDone": 17,
       "outputsTotal": 26,
       "tasks": [
         {
@@ -898,7 +898,32 @@
               "text": "Single-Metal VCAT 전체 SDE 코드",
               "type": "code",
               "review": "none",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260731055944-minhosong-mse-F33y-Q",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T02",
+                  "taskText": "SDE로 Single-Metal VCAT 구조를 만든다.",
+                  "outputId": "P02-T02-O01",
+                  "outputText": "Single-Metal VCAT 전체 SDE 코드",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "code",
+                  "uploadedAt": "2026-07-31T05:59:44.394Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260731055944-minhosong-mse-F33y-Q",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260731055944-minhosong-mse-F33y-Q",
+                  "summary": "1개 코드 파일 · 8.7KB",
+                  "files": [
+                    {
+                      "name": "sde.cmd",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260731055944-minhosong-mse-F33y-Q/source/sde.cmd",
+                      "size": 8928
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "P02-T02-O02",
@@ -1091,6 +1116,30 @@
                       "size": 79558
                     }
                   ]
+                },
+                {
+                  "submissionId": "20260731060911-minhosong-mse-5JVyrQ",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T04",
+                  "taskText": "도핑과 접합 위치를 설정한다.",
+                  "outputId": "P02-T04-O02",
+                  "outputText": "도핑 분포 이미지",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-31T06:09:11.342Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260731060911-minhosong-mse-5JVyrQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260731060911-minhosong-mse-5JVyrQ",
+                  "summary": "1개 파일 · 93.0KB",
+                  "files": [
+                    {
+                      "name": "P02-T04-O03_Doping_Xcut.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260731060911-minhosong-mse-5JVyrQ/files/P02-T04-O03_Doping_Xcut.png",
+                      "size": 95202
+                    }
+                  ]
                 }
               ]
             },
@@ -1231,7 +1280,37 @@
               "text": "주요 경계 최소 메시 크기",
               "type": "files",
               "review": "recommended",
-              "submissions": []
+              "submissions": [
+                {
+                  "submissionId": "20260731055903-minhosong-mse-f6QHpA",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T05",
+                  "taskText": "메시를 설정하고 구조를 확인한다.",
+                  "outputId": "P02-T05-O03",
+                  "outputText": "주요 경계 최소 메시 크기",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-07-31T05:59:03.989Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA",
+                  "summary": "2개 파일 · 4.1KB",
+                  "files": [
+                    {
+                      "name": "P02-T05-O03_Actual_Mesh_Run_Summary.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA/files/P02-T05-O03_Actual_Mesh_Run_Summary.csv",
+                      "size": 467
+                    },
+                    {
+                      "name": "P02-T05-O03_Actual_Sentaurus_Log_Excerpt.txt",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA/files/P02-T05-O03_Actual_Sentaurus_Log_Excerpt.txt",
+                      "size": 3687
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1603,7 +1682,32 @@
           "text": "Single-Metal VCAT 전체 SDE 코드",
           "type": "code",
           "review": "none",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260731055944-minhosong-mse-F33y-Q",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T02",
+              "taskText": "SDE로 Single-Metal VCAT 구조를 만든다.",
+              "outputId": "P02-T02-O01",
+              "outputText": "Single-Metal VCAT 전체 SDE 코드",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "code",
+              "uploadedAt": "2026-07-31T05:59:44.394Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260731055944-minhosong-mse-F33y-Q",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260731055944-minhosong-mse-F33y-Q",
+              "summary": "1개 코드 파일 · 8.7KB",
+              "files": [
+                {
+                  "name": "sde.cmd",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260731055944-minhosong-mse-F33y-Q/source/sde.cmd",
+                  "size": 8928
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T02"
         },
         {
@@ -1787,6 +1891,30 @@
                   "size": 79558
                 }
               ]
+            },
+            {
+              "submissionId": "20260731060911-minhosong-mse-5JVyrQ",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T04",
+              "taskText": "도핑과 접합 위치를 설정한다.",
+              "outputId": "P02-T04-O02",
+              "outputText": "도핑 분포 이미지",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-31T06:09:11.342Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260731060911-minhosong-mse-5JVyrQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260731060911-minhosong-mse-5JVyrQ",
+              "summary": "1개 파일 · 93.0KB",
+              "files": [
+                {
+                  "name": "P02-T04-O03_Doping_Xcut.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T04/outputs/P02-T04-O02/submissions/20260731060911-minhosong-mse-5JVyrQ/files/P02-T04-O03_Doping_Xcut.png",
+                  "size": 95202
+                }
+              ]
             }
           ],
           "taskId": "P02-T04"
@@ -1924,7 +2052,37 @@
           "text": "주요 경계 최소 메시 크기",
           "type": "files",
           "review": "recommended",
-          "submissions": [],
+          "submissions": [
+            {
+              "submissionId": "20260731055903-minhosong-mse-f6QHpA",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T05",
+              "taskText": "메시를 설정하고 구조를 확인한다.",
+              "outputId": "P02-T05-O03",
+              "outputText": "주요 경계 최소 메시 크기",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-07-31T05:59:03.989Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA",
+              "summary": "2개 파일 · 4.1KB",
+              "files": [
+                {
+                  "name": "P02-T05-O03_Actual_Mesh_Run_Summary.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA/files/P02-T05-O03_Actual_Mesh_Run_Summary.csv",
+                  "size": 467
+                },
+                {
+                  "name": "P02-T05-O03_Actual_Sentaurus_Log_Excerpt.txt",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T05/outputs/P02-T05-O03/submissions/20260731055903-minhosong-mse-f6QHpA/files/P02-T05-O03_Actual_Sentaurus_Log_Excerpt.txt",
+                  "size": 3687
+                }
+              ]
+            }
+          ],
           "taskId": "P02-T05"
         },
         {
