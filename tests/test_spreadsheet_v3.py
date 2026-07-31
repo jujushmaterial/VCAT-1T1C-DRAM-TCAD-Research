@@ -12,6 +12,7 @@ class SpreadsheetV3Tests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.js = read("docs/spreadsheet-v3.js")
+        cls.guard = read("docs/spreadsheet-v3-guard.js")
         cls.css = read("docs/spreadsheet-v3.css")
         cls.index = read("docs/index.html")
 
@@ -40,6 +41,8 @@ class SpreadsheetV3Tests(unittest.TestCase):
             "undoEditor",
         ):
             self.assertIn(token, self.js)
+        self.assertIn("event.buttons === 0", self.guard)
+        self.assertIn('src="spreadsheet-v3-guard.js"', self.index)
 
     def test_csv_tsv_xls_xlsx_and_multisheet_contracts(self):
         self.assertIn('new Set(["csv", "tsv", "xls", "xlsx"])', self.js)
@@ -57,7 +60,7 @@ class SpreadsheetV3Tests(unittest.TestCase):
     def test_integrated_viewer_spreadsheet_kind_is_connected(self):
         for token in (
             "manifestCache",
-            'data-kind="spreadsheet"',
+            'file?.kind === "spreadsheet"',
             "renderUploadedSpreadsheet",
             "openStoredTableViewer",
             "renderWorkbook",
