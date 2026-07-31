@@ -15,10 +15,13 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertIn('id="phase-dialog"', html)
         self.assertIn('id="submission-viewer-dialog"', html)
         self.assertIn('href="submission-viewer.css"', html)
+        self.assertIn('href="submission-viewer-comments.css"', html)
         self.assertIn('src="submission-viewer.js"', html)
         self.assertIn('src="submission-viewer-polish.js"', html)
+        self.assertIn('src="submission-viewer-comments.js"', html)
         self.assertLess(html.index('src="submission-delete.js"'), html.index('src="submission-viewer.js"'))
         self.assertLess(html.index('src="submission-viewer.js"'), html.index('src="submission-viewer-polish.js"'))
+        self.assertLess(html.index('src="submission-viewer-polish.js"'), html.index('src="submission-viewer-comments.js"'))
 
     def test_viewer_features_and_phase3_exclusions(self):
         js = read("docs/submission-viewer.js")
@@ -47,6 +50,7 @@ class SubmissionViewerContractTests(unittest.TestCase):
 
     def test_worker_routes_and_safety_contract(self):
         worker = read("worker/src/v8.js")
+        wrapper = read("worker/src/v9.js")
         self.assertIn("/api\\/submissions", worker)
         self.assertIn("manifestRoute", worker)
         self.assertIn("fileRoute", worker)
@@ -55,7 +59,10 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertIn("Content-Disposition", worker)
         self.assertIn("Range", worker)
         self.assertIn("GITHUB_READ_TOKEN", worker)
-        self.assertIn('main = "src/v8.js"', read("worker/wrangler.toml"))
+        self.assertIn('import v8 from "./v8.js"', wrapper)
+        self.assertIn("persistComment", wrapper)
+        self.assertIn("commentLabel", wrapper)
+        self.assertIn('main = "src/v9.js"', read("worker/wrangler.toml"))
 
     def test_existing_submission_index_has_viewer_safe_examples(self):
         import json
