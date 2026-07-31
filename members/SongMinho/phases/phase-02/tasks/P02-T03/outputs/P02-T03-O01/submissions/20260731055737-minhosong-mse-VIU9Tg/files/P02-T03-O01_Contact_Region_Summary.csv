@@ -1,0 +1,8 @@
+﻿Type,Name,Material_or_location,Actual_evidence
+Region,R.SN,Silicon; X=0.000 to 0.020 um,Actual SVisual region list and SDE code
+Region,R.Channel,Silicon; X=0.020 to 0.080 um,Actual SVisual region list and SDE code
+Region,R.BL,Silicon; X=0.080 to 0.100 um,Actual SVisual region list and SDE code
+Region,R.GateOxide,"SiO2; X=0.020 to 0.080 um, Y=0.006 to 0.007 um",Actual SVisual region list and SDE code
+Contact,storage,Top silicon boundary,Actual SVisual contact list and SDE code
+Contact,bitline,Bottom silicon boundary,Actual SVisual contact list and SDE code
+Contact,gate,Outer gate-oxide boundary,Actual SVisual contact list and SDE code

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T05:57:09.822Z",
+  "updatedAt": "2026-07-31T05:57:37.333Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -463,6 +463,42 @@
             "name": "P02-T02-O02_Actual_TDR_Full_Structure.png",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O02/submissions/20260731055709-minhosong-mse-kvOiGg/files/P02-T02-O02_Actual_TDR_Full_Structure.png",
             "size": 40921
+          }
+        ]
+      }
+    ],
+    "P02-T03-O01": [
+      {
+        "submissionId": "20260731055737-minhosong-mse-VIU9Tg",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T03",
+        "taskText": "위쪽·아래쪽 전극, 게이트, 절연막을 설정한다.",
+        "outputId": "P02-T03-O01",
+        "outputText": "Contact·Region 확인 이미지 또는 표",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-07-31T05:57:37.333Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260731055737-minhosong-mse-VIU9Tg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260731055737-minhosong-mse-VIU9Tg",
+        "summary": "3개 파일 · 75.1KB",
+        "files": [
+          {
+            "name": "P02-T03-O01_Actual_Contact_List.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260731055737-minhosong-mse-VIU9Tg/files/P02-T03-O01_Actual_Contact_List.png",
+            "size": 39600
+          },
+          {
+            "name": "P02-T03-O01_Actual_Region_List.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260731055737-minhosong-mse-VIU9Tg/files/P02-T03-O01_Actual_Region_List.png",
+            "size": 36698
+          },
+          {
+            "name": "P02-T03-O01_Contact_Region_Summary.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260731055737-minhosong-mse-VIU9Tg/files/P02-T03-O01_Contact_Region_Summary.csv",
+            "size": 653
           }
         ]
       }
