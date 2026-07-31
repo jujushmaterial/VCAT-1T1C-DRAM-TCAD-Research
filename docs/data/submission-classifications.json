@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "description": "기존 제출물을 삭제·이동하지 않고 의미와 연결 오류를 분류하는 보존용 메타데이터입니다.",
+  "submissions": {
+    "20260731060911-minhosong-mse-5JVyrQ": {
+      "status": "misfiled-duplicate",
+      "severity": "warning",
+      "intendedOutputId": "P02-T04-O03",
+      "countsAsEvidence": false,
+      "note": "파일명은 P02-T04-O03_Doping_Xcut.png이지만 P02-T04-O02에 등록된 중복 X-cut 이미지입니다. 기존 제출본은 보존하며 O03 완료 증거로 계산하지 않습니다. P02-T04-O03에는 별도의 X-cut 이미지와 Junction_Positions.csv가 이미 존재합니다."
+    }
+  }
+}
