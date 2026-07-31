@@ -1,0 +1,190 @@
+    `/repos/${env.REPOSITORY}/contents/${encodePath(file.path)}?ref=${encodeURIComponent(DEFAULT_BRANCH)}`,
+    token
+  );
+  if (metadata.type !== "file") throw httpError(404, "저장소 파일을 찾지 못했습니다.");
+  const declaredSize = Number(metadata.size || file.size || 0);
+  if (!download && declaredSize > MAX_INLINE_BYTES) {
+    throw httpError(413, "웹 미리보기 제한을 초과한 파일입니다. 다운로드를 이용해 주세요.");
+  }
+  if (!metadata.download_url) throw httpError(502, "GitHub 원본 파일 주소를 확인하지 못했습니다.");
+
+  const headers = new Headers({
+    "User-Agent": "vcat-dashboard-submission-viewer-v8",
+    Accept: "*/*"
+  });
+  const range = request.headers.get("Range");
+  if (range) headers.set("Range", range);
+  if (token) headers.set("Authorization", `Bearer ${token}`);
+
+  const raw = await fetch(metadata.download_url, { headers, redirect: "follow" });
+  if (!raw.ok && raw.status !== 206) throw httpError(raw.status === 404 ? 404 : 502, "GitHub 원본 파일을 불러오지 못했습니다.");
+  const classified = classifyFile(file.name);
+  const responseHeaders = new Headers({
+    "Content-Type": classified.mimeType,
+    "Content-Disposition": contentDisposition(file.name, download),
+    "Cache-Control": "public, max-age=300, immutable",
+    "X-Content-Type-Options": "nosniff",
+  });
+  if (classified.extension === "svg" || ["html", "htm"].includes(classified.extension)) {
+    responseHeaders.set("Content-Security-Policy", "default-src 'none'; sandbox");
+  }
+  for (const name of ["content-length", "content-range", "accept-ranges", "etag", "last-modified"]) {
+    const value = raw.headers.get(name);
+    if (value) responseHeaders.set(name, value);
+  }
+  if (request.method === "HEAD") return new Response(null, { status: raw.status, headers: responseHeaders });
+  return new Response(raw.body, { status: raw.status, headers: responseHeaders });
+}
+
+function classifyFile(name, submissionType = "files") {
+  const extension = extensionOf(name);
+  let kind = "unsupported";
+  let language = "text";
+  if (IMAGE_MIME[extension]) kind = "image";
+  else if (extension === "pdf") kind = "pdf";
+  else if (extension === "json") kind = "json";
+  else if (extension === "md" || extension === "markdown") kind = "markdown";
+  else if (CODE_EXTENSIONS.has(extension)) kind = "code";
+  else if (TEXT_EXTENSIONS.has(extension)) kind = "text";
+  else if (submissionType === "code" && !MIME_BY_EXTENSION[extension]) kind = "code";
+
+  const languageByExtension = {
+    cmd: "sentaurus", tcl: "tcl", py: "python", js: "javascript", mjs: "javascript", cjs: "javascript",
+    ts: "typescript", tsx: "typescript", jsx: "javascript", json: "json", md: "markdown", markdown: "markdown",
+    sh: "shell", bash: "shell", zsh: "shell", ps1: "powershell", v: "verilog", sv: "systemverilog",
+    vhd: "vhdl", vhdl: "vhdl", html: "html", htm: "html", css: "css", scss: "scss", xml: "xml",
+    c: "c", cc: "cpp", cpp: "cpp", cxx: "cpp", h: "c", hpp: "cpp", java: "java", go: "go", rs: "rust",
+    csv: "csv", tsv: "tsv", txt: "text", log: "log", out: "log", err: "log"
+  };
+  language = languageByExtension[extension] || (submissionType === "code" ? "sentaurus" : "text");
+  const mimeType = MIME_BY_EXTENSION[extension]
+    || (kind === "code" || kind === "text" ? "text/plain; charset=utf-8" : "application/octet-stream");
+  return {
+    extension,
+    kind,
+    language,
+    mimeType,
+    previewSupported: ["image", "pdf", "json", "markdown", "code", "text"].includes(kind)
+  };
+}
+
+function validateSubmissionFile(record, file) {
+  const folder = String(record.folderPath || "").replace(/\/$/, "");
+  const path = String(file.path || "");
+  if (!folder || !path || path.includes("..") || !path.startsWith(`${folder}/`)) {
+    throw httpError(500, "제출 파일 경로가 표준 제출 폴더와 일치하지 않습니다.");
+  }
+  if (path.includes("\\") || path.startsWith("/")) {
+    throw httpError(500, "제출 파일 경로 형식이 올바르지 않습니다.");
+  }
+}
+
+function extensionOf(name) {
+  const value = String(name || "").toLowerCase();
+  const index = value.lastIndexOf(".");
+  return index >= 0 ? value.slice(index + 1) : "";
+}
+
+function contentDisposition(name, download) {
+  const ascii = String(name || "file").replace(/[^\x20-\x7E]/g, "_").replace(/["\\]/g, "_");
+  const encoded = encodeURIComponent(String(name || "file")).replace(/['()*]/g, (character) => `%${character.charCodeAt(0).toString(16).toUpperCase()}`);
+  return `${download ? "attachment" : "inline"}; filename="${ascii}"; filename*=UTF-8''${encoded}`;
+}
+
+async function optionalReadToken(request, env) {
+  const sessionId = readBearer(request);
+  if (sessionId && env.SESSIONS) {
+    try {
+      const session = await env.SESSIONS.get(`session:${sessionId}`, "json");
+      if (session?.token) return session.token;
+    } catch (error) {
+      console.warn("Viewer session token lookup failed", error);
+    }
+  }
+  return env.GITHUB_READ_TOKEN || "";
+}
+
+function readBearer(request) {
+  const value = request.headers.get("Authorization") || "";
+  return value.startsWith("Bearer ") ? value.slice(7).trim() : "";
+}
+
+async function loadJsonFile(path, token, env) {
+  const payload = await githubJson(
+    `/repos/${env.REPOSITORY}/contents/${encodePath(path)}?ref=${encodeURIComponent(DEFAULT_BRANCH)}`,
+    token
+  );
+  if (payload.encoding !== "base64") throw httpError(502, "제출 이력 파일을 읽지 못했습니다.");
+  try {
+    return JSON.parse(base64ToUtf8(String(payload.content || "").replace(/\s/g, "")));
+  } catch {
+    throw httpError(500, "제출 이력 파일 형식이 올바르지 않습니다.");
+  }
+}
+
+async function githubJson(path, token) {
+  const headers = {
+    Accept: "application/vnd.github+json",
+    "X-GitHub-Api-Version": API_VERSION,
+    "User-Agent": "vcat-dashboard-submission-viewer-v8"
+  };
+  if (token) headers.Authorization = `Bearer ${token}`;
+  const response = await fetch(`${GITHUB_API}${path}`, { headers });
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    const error = httpError(response.status === 404 ? 404 : 502, payload.message || "GitHub API 요청에 실패했습니다.");
+    error.publicMessage = response.status >= 500 ? "GitHub 파일 서비스를 사용할 수 없습니다." : error.message;
+    throw error;
+  }
+  return payload;
+}
+
+function githubBlobUrl(repository, path) {
+  return `https://github.com/${repository}/blob/${DEFAULT_BRANCH}/${encodePath(path)}`;
+}
+
+function githubTreeUrl(repository, path) {
+  return `https://github.com/${repository}/tree/${DEFAULT_BRANCH}/${encodePath(path)}`;
+}
+
+function encodePath(path) {
+  return String(path || "").split("/").map(encodeURIComponent).join("/");
+}
+
+function base64ToUtf8(value) {
+  const binary = atob(value);
+  const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
+function corsJson(payload, request, env, status = 200, extraHeaders = {}) {
+  const headers = new Headers({ "Content-Type": "application/json; charset=utf-8", ...extraHeaders });
+  return corsResponse(new Response(JSON.stringify(payload), { status, headers }), request, env);
+}
+
+function corsResponse(response, request, env) {
+  const headers = new Headers(response.headers);
+  const origin = request.headers.get("Origin");
+  const allowedOrigin = env.FRONTEND_ORIGIN || "https://jujushmaterial.github.io";
+  if (!origin || origin === allowedOrigin || /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin)) {
+    headers.set("Access-Control-Allow-Origin", origin || allowedOrigin);
+  }
+  headers.set("Access-Control-Allow-Headers", "Authorization, Content-Type, Range");
+  headers.set("Access-Control-Allow-Methods", "GET, HEAD, OPTIONS, DELETE, POST, PATCH");
+  headers.set("Access-Control-Expose-Headers", "Content-Disposition, Content-Length, Content-Range, Accept-Ranges, ETag, Last-Modified");
+  headers.set("Vary", "Origin");
+  return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
+}
+
+function httpError(status, message) {
+  const error = new Error(message);
+  error.status = status;
+  return error;
+}
+
+export const __test = {
+  classifyFile,
+  contentDisposition,
+  extensionOf,
+  validateSubmissionFile
+};
