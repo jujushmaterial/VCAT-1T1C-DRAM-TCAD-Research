@@ -1,0 +1,353 @@
+/* Phase 3 Excel-style table editor and integrated spreadsheet viewer. */
+
+.excel-commandbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 14px 0 8px;
+}
+
+.excel-import-button {
+  cursor: pointer;
+}
+
+.excel-import-sheets {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  border: 1px solid #c8d1df;
+  border-radius: 6px;
+  background: #f7f9fc;
+  color: #344054;
+  font-size: 0.82rem;
+}
+
+.excel-import-sheets[hidden] {
+  display: none;
+}
+
+.excel-import-sheets span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.excel-import-sheets select {
+  min-width: 150px;
+  height: 30px;
+  border: 1px solid #b7c0ce;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.excel-formula-bar {
+  display: grid;
+  grid-template-columns: 118px minmax(0, 1fr);
+  min-height: 32px;
+  border: 1px solid #b8c1ce;
+  border-bottom: 0;
+  background: #f3f5f8;
+  color: #475467;
+  font-size: 0.78rem;
+}
+
+.excel-formula-bar label,
+.excel-formula-bar > div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 7px;
+}
+
+.excel-formula-bar label {
+  border-right: 1px solid #c7cfda;
+}
+
+.excel-formula-bar input {
+  width: 64px;
+  height: 23px;
+  border: 1px solid #c4ccd7;
+  background: #fff;
+  text-align: center;
+  font: 600 0.78rem Consolas, monospace;
+}
+
+.excel-formula-bar > div > span {
+  color: #217346;
+  font: italic 700 0.86rem Georgia, serif;
+}
+
+.excel-grid-wrap {
+  position: relative;
+  max-width: 100%;
+  max-height: min(55vh, 560px);
+  overflow: auto;
+  border: 1px solid #aeb8c6;
+  background: #fff;
+  scrollbar-color: #a8b1be #f0f2f5;
+  scrollbar-width: thin;
+}
+
+.excel-grid {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  user-select: none;
+}
+
+.excel-grid th,
+.excel-grid td {
+  height: 28px;
+  border-right: 1px solid #d7dce3;
+  border-bottom: 1px solid #d7dce3;
+  padding: 0;
+}
+
+.excel-grid thead th,
+.excel-grid tbody th {
+  position: sticky;
+  z-index: 4;
+  min-width: 42px;
+  width: 42px;
+  background: #f2f3f5;
+  color: #4c5665;
+  text-align: center;
+  font: 600 11px system-ui, sans-serif;
+}
+
+.excel-grid thead th {
+  top: 0;
+  min-width: 110px;
+}
+
+.excel-grid tbody th {
+  left: 0;
+}
+
+.excel-grid .excel-corner {
+  left: 0;
+  z-index: 7;
+  min-width: 42px;
+  width: 42px;
+}
+
+.excel-grid td {
+  position: relative;
+  min-width: 110px;
+  width: 110px;
+  background: #fff;
+}
+
+.excel-grid td.is-selected {
+  background: #e2f0d9;
+}
+
+.excel-grid td.is-active::after {
+  position: absolute;
+  z-index: 3;
+  inset: -1px;
+  border: 2px solid #217346;
+  content: "";
+  pointer-events: none;
+}
+
+.excel-grid td.is-editing::after {
+  border-color: #185abd;
+}
+
+.excel-grid input[data-excel-cell] {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 28px;
+  padding: 4px 6px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #17202a;
+  font: 12px/1.35 Calibri, "Segoe UI", Arial, sans-serif;
+  text-overflow: ellipsis;
+}
+
+.excel-grid input[data-excel-cell][readonly] {
+  cursor: cell;
+}
+
+.excel-grid td.is-editing input {
+  position: relative;
+  z-index: 5;
+  background: #fff;
+  cursor: text;
+  text-overflow: clip;
+}
+
+.sheet-size {
+  margin-left: auto;
+  color: #667085;
+  font-size: 0.8rem;
+}
+
+.spreadsheet-integrated-body {
+  grid-template-columns: 210px minmax(0, 1fr) !important;
+}
+
+.spreadsheet-result-toolbar {
+  display: block !important;
+  min-height: 42px;
+}
+
+.spreadsheet-viewer {
+  display: grid;
+  grid-template-rows: 38px 30px minmax(0, 1fr);
+  height: 100%;
+  min-height: 0;
+  background: #1e1e1e;
+}
+
+.spreadsheet-sheet-tabs {
+  display: flex;
+  gap: 1px;
+  align-items: end;
+  padding: 5px 8px 0;
+  overflow-x: auto;
+  border-bottom: 1px solid #3b3b3b;
+  background: #181818;
+}
+
+.spreadsheet-sheet-tabs button {
+  min-width: 92px;
+  max-width: 180px;
+  height: 32px;
+  padding: 0 12px;
+  overflow: hidden;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  background: #252526;
+  color: #bdbdbd;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.spreadsheet-sheet-tabs button.is-active {
+  border-color: #4a4a4a;
+  background: #2d2d2d;
+  color: #fff;
+  box-shadow: inset 0 2px 0 #217346;
+}
+
+.spreadsheet-sheet-meta {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid #3b3b3b;
+  color: #9fa6ad;
+  font-size: 11px;
+}
+
+.spreadsheet-readonly-grid {
+  min-height: 0;
+  overflow: auto;
+  background: #fff;
+  scrollbar-color: #7a7a7a #252525;
+  scrollbar-width: thin;
+}
+
+.spreadsheet-readonly-table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #1f2933;
+  table-layout: fixed;
+}
+
+.spreadsheet-readonly-table th,
+.spreadsheet-readonly-table td {
+  min-width: 108px;
+  max-width: 280px;
+  height: 27px;
+  padding: 4px 7px;
+  overflow: hidden;
+  border-right: 1px solid #d7dce3;
+  border-bottom: 1px solid #d7dce3;
+  background: #fff;
+  font: 12px/1.35 Calibri, "Segoe UI", Arial, sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.spreadsheet-readonly-table thead th,
+.spreadsheet-readonly-table tbody th {
+  position: sticky;
+  z-index: 3;
+  min-width: 42px;
+  width: 42px;
+  padding: 0 6px;
+  background: #f0f2f5;
+  color: #4b5563;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.spreadsheet-readonly-table thead th {
+  top: 0;
+}
+
+.spreadsheet-readonly-table tbody th {
+  left: 0;
+}
+
+.spreadsheet-readonly-table .excel-corner {
+  left: 0;
+  z-index: 6;
+  min-width: 42px;
+}
+
+.spreadsheet-readonly-table td.is-header-value {
+  background: #e2f0d9;
+  font-weight: 600;
+}
+
+@media (max-width: 760px) {
+  .excel-commandbar .btn {
+    min-height: 31px;
+    padding-inline: 8px;
+    font-size: 0.75rem;
+  }
+
+  .excel-formula-bar {
+    grid-template-columns: 100px minmax(0, 1fr);
+  }
+
+  .excel-grid-wrap {
+    max-height: 50vh;
+  }
+
+  .sheet-size {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .excel-import-sheets {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .spreadsheet-integrated-body {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto minmax(0, 1fr) !important;
+  }
+
+  .spreadsheet-viewer {
+    grid-template-rows: 36px 28px minmax(0, 1fr);
+  }
+}
