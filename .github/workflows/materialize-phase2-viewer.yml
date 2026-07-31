@@ -1,0 +1,45 @@
+name: Materialize phase 2 viewer sources
+
+on:
+  push:
+    branches:
+      - agent/phase2-integrated-submission-viewer
+    paths:
+      - ".github/workflows/materialize-phase2-viewer.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/phase2-integrated-submission-viewer
+          fetch-depth: 0
+
+      - name: Join staged source parts
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f .phase2-parts/submission-viewer.js.part00
+          test -f .phase2-parts/submission-viewer.js.part04
+          test -f .phase2-parts/v8.js.part00
+          test -f .phase2-parts/v8.js.part01
+          cat .phase2-parts/submission-viewer.js.part* > docs/submission-viewer.js
+          cat .phase2-parts/v8.js.part* > worker/src/v8.js
+          node --check docs/submission-viewer.js
+          node --check worker/src/v8.js
+          rm -rf .phase2-parts
+          rm -f .github/workflows/materialize-phase2-viewer.yml
+
+      - name: Commit materialized sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feat: implement integrated submission viewer"
+          git push origin HEAD:agent/phase2-integrated-submission-viewer
