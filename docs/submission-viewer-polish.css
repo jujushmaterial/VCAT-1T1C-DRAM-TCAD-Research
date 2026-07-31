@@ -1,0 +1,45 @@
+/* Final Phase 2.1 compact titlebar and mobile specificity corrections. */
+
+.submission-viewer__header-actions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 5px;
+  margin-right: 4px;
+  margin-left: auto;
+}
+
+#submission-viewer-dialog[data-portfolio-parity="true"][data-viewer-mode="code"] .submission-viewer__meta,
+#submission-viewer-dialog[data-portfolio-parity="true"][data-viewer-mode="image"] .submission-viewer__meta,
+#submission-viewer-dialog[data-portfolio-parity="true"][data-viewer-mode="pdf"] .submission-viewer__meta,
+#submission-viewer-dialog[data-portfolio-parity="true"][data-viewer-mode="markdown"] .submission-viewer__meta,
+#submission-viewer-dialog[data-portfolio-parity="true"][data-viewer-mode="text"] .submission-viewer__meta {
+  display: none;
+}
+
+#submission-viewer-dialog[data-viewer-mode="code"] .submission-viewer__eyebrow {
+  display: none;
+}
+
+@media (max-width: 680px) {
+  #submission-viewer-dialog:has(.submission-viewer__editor-shell) .submission-viewer__body,
+  #submission-viewer-dialog:has(.submission-viewer__image-canvas) .submission-viewer__body,
+  #submission-viewer-dialog:has(.submission-viewer__pdf) .submission-viewer__body,
+  #submission-viewer-dialog:has(.submission-viewer__plain-text) .submission-viewer__body,
+  #submission-viewer-dialog:has(.submission-viewer__markdown) .submission-viewer__body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
+  }
+
+  .submission-viewer__header-actions {
+    gap: 3px;
+    margin-right: 2px;
+  }
+
+  .submission-viewer__header-actions .btn {
+    min-height: 25px !important;
+    padding: 2px 6px !important;
+    font-size: 10px !important;
+  }
+}
