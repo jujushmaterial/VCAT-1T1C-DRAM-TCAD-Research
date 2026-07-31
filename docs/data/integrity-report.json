@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-31T17:51:24+09:00",
+  "generatedAt": "2026-07-31T18:09:44+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
     "error": 0,
-    "warning": 7,
+    "warning": 5,
     "info": 0
   },
   "items": [
@@ -42,19 +42,6 @@
       "countsAsEvidence": false
     },
     {
-      "code": "CHECKBOX_STATE_DRIFT",
-      "severity": "warning",
-      "message": "Issue 체크박스와 자동 완료 상태가 다릅니다.",
-      "phaseId": 1,
-      "issueNumber": 1,
-      "taskId": "P01-T05",
-      "declaredChecked": true,
-      "calculatedChecked": false,
-      "missingRequiredOutputs": [
-        "P01-T05-O03"
-      ]
-    },
-    {
       "code": "MISSING_REQUIRED_OUTPUT",
       "severity": "warning",
       "message": "진행 중인 과제에 필수 산출물이 부족합니다.",
@@ -62,22 +49,6 @@
       "taskId": "P01-T05",
       "missingRequiredOutputs": [
         "P01-T05-O03"
-      ]
-    },
-    {
-      "code": "CHECKBOX_STATE_DRIFT",
-      "severity": "warning",
-      "message": "Issue 체크박스와 자동 완료 상태가 다릅니다.",
-      "phaseId": 1,
-      "issueNumber": 1,
-      "taskId": "P01-T10",
-      "declaredChecked": true,
-      "calculatedChecked": false,
-      "missingRequiredOutputs": [
-        "P01-T10-O01",
-        "P01-T10-O02",
-        "P01-T10-O03",
-        "P01-T10-O04"
       ]
     },
     {
