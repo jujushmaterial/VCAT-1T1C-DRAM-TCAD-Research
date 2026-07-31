@@ -16,7 +16,9 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertIn('id="submission-viewer-dialog"', html)
         self.assertIn('href="submission-viewer.css"', html)
         self.assertIn('src="submission-viewer.js"', html)
+        self.assertIn('src="submission-viewer-polish.js"', html)
         self.assertLess(html.index('src="submission-delete.js"'), html.index('src="submission-viewer.js"'))
+        self.assertLess(html.index('src="submission-viewer.js"'), html.index('src="submission-viewer-polish.js"'))
 
     def test_viewer_features_and_phase3_exclusions(self):
         js = read("docs/submission-viewer.js")
@@ -69,11 +71,14 @@ class SubmissionViewerContractTests(unittest.TestCase):
 
     def test_mobile_and_desktop_layout_contract(self):
         css = read("docs/submission-viewer.css")
-        self.assertIn("grid-template-columns: 300px minmax(0, 1fr)", css)
-        self.assertIn("@media (max-width: 980px)", css)
-        self.assertIn("@media (max-width: 720px)", css)
+        self.assertIn("grid-template-columns: 230px minmax(0, 1fr)", css)
+        self.assertIn("width: 42px", css)
+        self.assertIn(":has(.submission-viewer__editor-shell)", css)
+        self.assertIn("@media (max-width: 900px)", css)
+        self.assertIn("@media (max-width: 680px)", css)
         self.assertIn("height: 100dvh", css)
         self.assertIn(".submission-viewer__minimap", css)
+        self.assertIn("user-select: text !important", css)
 
 
 if __name__ == "__main__":
