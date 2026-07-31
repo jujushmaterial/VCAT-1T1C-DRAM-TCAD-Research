@@ -1,0 +1,42 @@
+name: Test submission comments and copy feedback
+
+on:
+  pull_request:
+    paths:
+      - "worker/src/v9.js"
+      - "worker/wrangler.toml"
+      - "docs/index.html"
+      - "docs/submission-viewer-comments.js"
+      - "docs/submission-viewer-comments.css"
+      - "tests/test_submission_comments_copy_feedback.py"
+      - "tests/test_submission_comments_worker.mjs"
+      - ".github/workflows/test-submission-comments.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: JavaScript syntax
+        run: |
+          node --check worker/src/v9.js
+          node --check docs/submission-viewer-comments.js
+
+      - name: Comment and feedback contracts
+        run: python -m unittest tests/test_submission_comments_copy_feedback.py -v
+
+      - name: Worker v9 manifest
+        run: node tests/test_submission_comments_worker.mjs
