@@ -1,0 +1,14 @@
+﻿Mesh_block,Parameter,Value_at_MeshScale_1p0,Unit,Actual_code_expression
+Global,Maximum x spacing,5.0,nm,0.0050 um * MeshScale
+Global,Maximum y spacing,1.0,nm,0.0010 um * MeshScale
+Global,Minimum x spacing,0.5,nm,0.0005 um * MeshScale
+Global,Minimum y spacing,0.1,nm,0.0001 um * MeshScale
+Global,Doping refinement,MaxTransDiff=1,-,DopingConcentration MaxTransDiff 1
+Si/SiO2 interface,Target interface length,0.2,nm,0.0002 um * MeshScale
+Si/SiO2 interface,Growth ratio,1.5,-,DoubleSide
+Junction,Window half-range,4.0,nm,JunctionRange=0.004 um
+Junction,Maximum x spacing,1.0,nm,0.0010 um * MeshScale
+Junction,Maximum y spacing,0.5,nm,0.0005 um * MeshScale
+Junction,Minimum x spacing,0.2,nm,0.0002 um * MeshScale
+Junction,Minimum y spacing,0.1,nm,0.0001 um * MeshScale
+Mesh scaling,MeshScale,1.0,-,2.0 coarse / 1.0 medium / 0.5 fine
