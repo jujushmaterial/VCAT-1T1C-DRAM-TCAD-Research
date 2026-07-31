@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T05:46:38.092Z",
+  "updatedAt": "2026-07-31T05:46:51.025Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -134,31 +134,6 @@
           {
             "name": "P02_SWF_SDE_Summary.svg",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O02/submissions/20260730025104-minhosong-mse-repair/files/P02_SWF_SDE_Summary.svg"
-          }
-        ]
-      }
-    ],
-    "P02-T03-O01": [
-      {
-        "submissionId": "20260730025105-minhosong-mse-repair",
-        "phaseId": 2,
-        "issueNumber": 2,
-        "taskId": "P02-T03",
-        "taskText": "위쪽·아래쪽 전극, 게이트, 절연막을 설정한다.",
-        "outputId": "P02-T03-O01",
-        "outputText": "Contact·Region 확인 이미지 또는 표",
-        "uploader": "minhosong-mse",
-        "memberName": "송민호",
-        "memberFolder": "SongMinho",
-        "type": "files",
-        "uploadedAt": "2026-07-29T17:51:05.000Z",
-        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260730025105-minhosong-mse-repair",
-        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260730025105-minhosong-mse-repair",
-        "summary": "1개 파일",
-        "files": [
-          {
-            "name": "P02_SWF_Contact_Region_Summary.csv",
-            "path": "members/SongMinho/phases/phase-02/tasks/P02-T03/outputs/P02-T03-O01/submissions/20260730025105-minhosong-mse-repair/files/P02_SWF_Contact_Region_Summary.csv"
           }
         ]
       }
