@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-01T08:40:01.647Z",
+  "updatedAt": "2026-08-01T08:40:15.160Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -1034,7 +1034,26 @@
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O04/submissions/20260801082336-minhosong-mse-WiEGVA/source/Reverse-pp28_des.cmd",
             "size": 3477
           }
-        ]
+        ],
+        "review": {
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-01T08:40:15.160Z",
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-01T08:23:36.769Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-01T08:40:15.160Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ],
     "P02-T08-O04": [
