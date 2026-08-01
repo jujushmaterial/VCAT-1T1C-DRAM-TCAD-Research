@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T09:11:04.655Z",
+  "updatedAt": "2026-08-01T08:09:25.500Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -673,6 +673,42 @@
             "name": "sde.cmd",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T02/outputs/P02-T02-O01/submissions/20260731055944-minhosong-mse-F33y-Q/source/sde.cmd",
             "size": 8928
+          }
+        ]
+      }
+    ],
+    "P02-T07-O01": [
+      {
+        "submissionId": "20260801080925-minhosong-mse-XaMKzA",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T07",
+        "taskText": "위→아래와 아래→위 전류를 확인한다.",
+        "outputId": "P02-T07-O01",
+        "outputText": "양방향 전류 비교 그래프",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-01T08:09:25.500Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O01/submissions/20260801080925-minhosong-mse-XaMKzA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O01/submissions/20260801080925-minhosong-mse-XaMKzA",
+        "summary": "3개 파일 · 231.8KB",
+        "files": [
+          {
+            "name": "2026-08-01_P02-T07_SWB_Forward_Reverse_Conditions.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O01/submissions/20260801080925-minhosong-mse-XaMKzA/files/2026-08-01_P02-T07_SWB_Forward_Reverse_Conditions.png",
+            "size": 82205
+          },
+          {
+            "name": "2026-08-01_P02-T07-O01_Bidirectional_IdVg_Linear.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O01/submissions/20260801080925-minhosong-mse-XaMKzA/files/2026-08-01_P02-T07-O01_Bidirectional_IdVg_Linear.png",
+            "size": 71258
+          },
+          {
+            "name": "2026-08-01_P02-T07-O01_Bidirectional_IdVg_Log.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O01/submissions/20260801080925-minhosong-mse-XaMKzA/files/2026-08-01_P02-T07-O01_Bidirectional_IdVg_Log.png",
+            "size": 83912
           }
         ]
       }
