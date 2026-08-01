@@ -1,0 +1,39 @@
+{
+  "submissionId": "20260801081251-minhosong-mse-wUSw-Q",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T08",
+  "taskText": "누설 전류와 전계 분포를 확인한다.",
+  "outputId": "P02-T08-O03",
+  "outputText": "최대 전계 위치와 값",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-01T08:12:51.172Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O03/submissions/20260801081251-minhosong-mse-wUSw-Q",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O03/submissions/20260801081251-minhosong-mse-wUSw-Q",
+  "summary": "4개 파일 · 365.1KB",
+  "files": [
+    {
+      "name": "2026-08-01_P02-T08-O03_Emax_Hotspot_Zoom.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O03/submissions/20260801081251-minhosong-mse-wUSw-Q/files/2026-08-01_P02-T08-O03_Emax_Hotspot_Zoom.png",
+      "size": 148506
+    },
+    {
+      "name": "2026-08-01_P02-T08-O03_Emax_Probe_01.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O03/submissions/20260801081251-minhosong-mse-wUSw-Q/files/2026-08-01_P02-T08-O03_Emax_Probe_01.png",
+      "size": 107712
+    },
+    {
+      "name": "2026-08-01_P02-T08-O03_Emax_Probe_02.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O03/submissions/20260801081251-minhosong-mse-wUSw-Q/files/2026-08-01_P02-T08-O03_Emax_Probe_02.png",
+      "size": 117455
+    },
+    {
+      "name": "2026-08-01_P02-T08-O03_Maximum_Field.csv",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O03/submissions/20260801081251-minhosong-mse-wUSw-Q/files/2026-08-01_P02-T08-O03_Maximum_Field.csv",
+      "size": 204
+    }
+  ]
+}
