@@ -22,5 +22,19 @@
     }
   ],
   "comment": "할 때 위에서 만든 SDE에 T07이랑 T08 코드 각각 SDEVICE 3개 만들어서 시뮬레이션돌렸어. 참고",
-  "commentLabel": "실행 조건 및 설명"
+  "commentLabel": "실행 조건 및 설명",
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-01T08:25:13.341Z"
+      }
+    ],
+    "legacy": false
+  }
 }
