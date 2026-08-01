@@ -12,6 +12,8 @@ POLICY = Path("docs/data/completion-policy.json")
 CLASSIFICATIONS = Path("docs/data/submission-classifications.json")
 TASK_ID = re.compile(r"^P\d{2}-T\d{2}$")
 OUTPUT_ID = re.compile(r"^P\d{2}-T\d{2}-O\d{2}$")
+REVIEW_ACTIVATION_AT = "2026-08-01T06:30:00.000Z"
+VALID_REVIEW_STATES = {"pending", "approved", "held"}
 
 
 def read_json(path: Path, fallback: Any) -> Any:
@@ -62,6 +64,51 @@ def output_rule(output_id: str, metadata: dict[str, str], policy: dict[str, Any]
     return required, str(rule.get("reason") or "").strip() or None
 
 
+def normalize_submission_review(record: dict[str, Any]) -> dict[str, Any]:
+    raw = record.get("review") if isinstance(record.get("review"), dict) else None
+    if raw and str(raw.get("status") or "") in VALID_REVIEW_STATES:
+        status = str(raw.get("status"))
+        return {
+            "status": status,
+            "reviewer": raw.get("reviewer"),
+            "reviewedAt": raw.get("reviewedAt"),
+            "reason": str(raw.get("reason") or "") if status == "held" else None,
+            "history": raw.get("history") if isinstance(raw.get("history"), list) else [],
+            "legacy": bool(raw.get("legacy", False)),
+        }
+    uploaded_at = str(record.get("uploadedAt") or "")
+    if uploaded_at and uploaded_at >= REVIEW_ACTIVATION_AT:
+        return {
+            "status": "pending",
+            "reviewer": None,
+            "reviewedAt": None,
+            "reason": None,
+            "history": [],
+            "legacy": False,
+            "implicit": True,
+        }
+    return {
+        "status": "approved",
+        "reviewer": "system-migration",
+        "reviewedAt": record.get("uploadedAt"),
+        "reason": None,
+        "history": [],
+        "legacy": True,
+    }
+
+
+def submission_counts_as_evidence(
+    record: dict[str, Any],
+    classification: dict[str, Any] | None,
+    policy: dict[str, Any],
+) -> bool:
+    if isinstance(classification, dict) and not as_bool(classification.get("countsAsEvidence"), True):
+        return False
+    if not policy.get("reviewBlocks", False):
+        return True
+    return normalize_submission_review(record)["status"] == "approved"
+
+
 def parse_tasks(section: str, phase_id: int, submissions: dict[str, Any], policy: dict[str, Any], classes: dict[str, Any]) -> list[dict[str, Any]]:
     tasks: list[dict[str, Any]] = []
     current: dict[str, Any] | None = None
@@ -88,7 +135,9 @@ def parse_tasks(section: str, phase_id: int, submissions: dict[str, Any], policy
         fallback_output[current["id"]] = number + 1
         records = submissions.get(output_id, [])
         records = records if isinstance(records, list) else []
-        decorated, evidence = [], []
+        decorated: list[dict[str, Any]] = []
+        evidence: list[dict[str, Any]] = []
+        review_counts = {"approved": 0, "pending": 0, "held": 0}
         for record in records:
             if not isinstance(record, dict):
                 continue
@@ -96,25 +145,55 @@ def parse_tasks(section: str, phase_id: int, submissions: dict[str, Any], policy
             classification = classes.get(str(record.get("submissionId") or ""))
             if isinstance(classification, dict):
                 item["classification"] = classification
+            review = normalize_submission_review(record)
+            item["review"] = review
+            review_counts[review["status"]] += 1
             decorated.append(item)
-            if not isinstance(classification, dict) or as_bool(classification.get("countsAsEvidence"), True):
+            if submission_counts_as_evidence(record, classification, policy):
                 evidence.append(record)
         required, reason = output_rule(output_id, meta, policy)
-        output_type, review = str(meta.get("type") or "any").lower(), str(meta.get("review") or "none").lower()
+        output_type, review_mode = str(meta.get("type") or "any").lower(), str(meta.get("review") or "none").lower()
+        if evidence:
+            state = "submitted"
+        elif review_counts["held"]:
+            state = "held"
+        elif review_counts["pending"]:
+            state = "review-pending"
+        else:
+            state = "missing" if required else "optional"
         current["outputs"].append({
-            "id": output_id, "text": legacy.strip_metadata(output_match.group(1)),
+            "id": output_id,
+            "text": legacy.strip_metadata(output_match.group(1)),
             "type": output_type if output_type in {"any", "files", "code", "server", "table"} else "any",
-            "review": review if review in {"none", "recommended", "required"} else "none",
-            "required": required, "policyReason": reason, "submitted": bool(evidence),
-            "submissionCount": len(records), "evidenceSubmissionCount": len(evidence),
-            "state": "submitted" if evidence else ("missing" if required else "optional"), "submissions": decorated,
+            "review": review_mode if review_mode in {"none", "recommended", "required"} else "none",
+            "reviewBlocksCompletion": bool(policy.get("reviewBlocks", False)),
+            "required": required,
+            "policyReason": reason,
+            "submitted": bool(evidence),
+            "submissionCount": len(records),
+            "evidenceSubmissionCount": len(evidence),
+            "approvedSubmissionCount": review_counts["approved"],
+            "pendingReviewCount": review_counts["pending"],
+            "heldSubmissionCount": review_counts["held"],
+            "state": state,
+            "submissions": decorated,
         })
     for task in tasks:
         required = [item for item in task["outputs"] if item["required"]]
         missing = [item["id"] for item in required if not item["submitted"]]
         submitted = sum(1 for item in task["outputs"] if item["submitted"])
+        activity = sum(1 for item in task["outputs"] if item["submissionCount"] > 0)
         completed = all(item["submitted"] for item in required) if required else task["declaredChecked"]
-        task.update({"checked": completed, "state": "completed" if completed else ("in-progress" if submitted else "not-started"), "requiredOutputsDone": len(required) - len(missing), "requiredOutputsTotal": len(required), "outputsDone": submitted, "outputsTotal": len(task["outputs"]), "missingRequiredOutputs": missing, "checkboxDrift": task["declaredChecked"] != completed})
+        task.update({
+            "checked": completed,
+            "state": "completed" if completed else ("in-progress" if activity else "not-started"),
+            "requiredOutputsDone": len(required) - len(missing),
+            "requiredOutputsTotal": len(required),
+            "outputsDone": submitted,
+            "outputsTotal": len(task["outputs"]),
+            "missingRequiredOutputs": missing,
+            "checkboxDrift": task["declaredChecked"] != completed,
+        })
     return [task for task in tasks if task["text"]]
 
 

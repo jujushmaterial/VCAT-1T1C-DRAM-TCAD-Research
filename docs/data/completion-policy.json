@@ -1,9 +1,9 @@
 {
-  "version": 1,
-  "description": "필수 산출물 기반 자동 완료 정책. 명시되지 않은 산출물은 기본적으로 필수입니다.",
+  "version": 2,
+  "description": "필수 산출물과 검토 승인 기반 자동 완료 정책. 명시되지 않은 산출물은 기본적으로 필수이며 승인된 제출본만 완료 증거로 인정합니다.",
   "defaults": {
     "outputRequired": true,
-    "reviewBlocksCompletion": false
+    "reviewBlocksCompletion": true
   },
   "outputs": {
     "P01-T10-O05": {
