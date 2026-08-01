@@ -40,5 +40,19 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O02/submissions/20260801081223-minhosong-mse-6BqR1w/files/2026-08-01_P02-T08-O02_ElectricField_Magnitude.png",
       "size": 93572
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-01T08:12:23.981Z"
+      }
+    ],
+    "legacy": false
+  }
 }
