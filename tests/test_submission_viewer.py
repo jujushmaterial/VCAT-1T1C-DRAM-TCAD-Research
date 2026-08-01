@@ -16,15 +16,19 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertIn('id="submission-viewer-dialog"', html)
         self.assertIn('href="submission-viewer.css"', html)
         self.assertIn('href="submission-viewer-comments.css"', html)
+        self.assertIn('href="submission-review.css"', html)
         self.assertIn('href="spreadsheet-v3.css"', html)
         self.assertIn('src="submission-viewer.js"', html)
         self.assertIn('src="submission-viewer-polish.js"', html)
         self.assertIn('src="submission-viewer-comments.js"', html)
+        self.assertIn('src="submission-review.js"', html)
         self.assertIn('src="spreadsheet-v3.js"', html)
+        self.assertIn('src="review-state-ui.js"', html)
         self.assertLess(html.index('src="spreadsheet-v3.js"'), html.index('src="submission-viewer.js"'))
         self.assertLess(html.index('src="submission-delete.js"'), html.index('src="submission-viewer.js"'))
         self.assertLess(html.index('src="submission-viewer.js"'), html.index('src="submission-viewer-polish.js"'))
         self.assertLess(html.index('src="submission-viewer-polish.js"'), html.index('src="submission-viewer-comments.js"'))
+        self.assertLess(html.index('src="submission-viewer-comments.js"'), html.index('src="submission-review.js"'))
 
     def test_core_viewer_features_remain_available(self):
         js = read("docs/submission-viewer.js")
@@ -48,10 +52,11 @@ class SubmissionViewerContractTests(unittest.TestCase):
         ):
             self.assertIn(token, js)
 
-    def test_worker_routes_and_spreadsheet_contract(self):
+    def test_worker_routes_spreadsheet_and_review_contract(self):
         worker = read("worker/src/v8.js")
         comments = read("worker/src/v9.js")
         spreadsheets = read("worker/src/v10.js")
+        reviews = read("worker/src/v11.js")
         self.assertIn("/api\\/submissions", worker)
         self.assertIn("manifestRoute", worker)
         self.assertIn("fileRoute", worker)
@@ -64,7 +69,10 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertIn("persistComment", comments)
         self.assertIn('import v9 from "./v9.js"', spreadsheets)
         self.assertIn('kind: "spreadsheet"', spreadsheets)
-        self.assertIn('main = "src/v10.js"', read("worker/wrangler.toml"))
+        self.assertIn('import v10 from "./v10.js"', reviews)
+        self.assertIn('/review$/', reviews)
+        self.assertIn("reviewPermissions", reviews)
+        self.assertIn('main = "src/v11.js"', read("worker/wrangler.toml"))
 
     def test_existing_submission_index_has_viewer_safe_examples(self):
         import json
@@ -81,6 +89,7 @@ class SubmissionViewerContractTests(unittest.TestCase):
     def test_mobile_and_desktop_layout_contract(self):
         css = read("docs/submission-viewer.css")
         spreadsheet_css = read("docs/spreadsheet-v3.css")
+        review_css = read("docs/submission-review.css")
         self.assertIn("grid-template-columns: 230px minmax(0, 1fr)", css)
         self.assertIn("width: 42px", css)
         self.assertIn(":has(.submission-viewer__editor-shell)", css)
@@ -90,6 +99,8 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertIn(".submission-viewer__minimap", css)
         self.assertIn(".spreadsheet-integrated-body", spreadsheet_css)
         self.assertIn(".spreadsheet-sheet-tabs", spreadsheet_css)
+        self.assertIn(".submission-review__popover", review_css)
+        self.assertIn("@media (max-width: 680px)", review_css)
 
 
 if __name__ == "__main__":
