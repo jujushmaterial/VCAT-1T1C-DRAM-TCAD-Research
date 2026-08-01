@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-01T08:25:13.341Z",
+  "updatedAt": "2026-08-01T08:25:21.246Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -1045,7 +1045,9 @@
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O04/submissions/20260801082513-minhosong-mse-rrDbyA/source/2026-08-01_P02-T08_SDevice_GIDL.cmd",
             "size": 3486
           }
-        ]
+        ],
+        "comment": "할 때 위에서 만든 SDE에 T07이랑 T08 코드 각각 SDEVICE 3개 만들어서 시뮬레이션돌렸어. 참고",
+        "commentLabel": "실행 조건 및 설명"
       }
     ]
   }
