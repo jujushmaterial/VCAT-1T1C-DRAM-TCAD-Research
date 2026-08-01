@@ -1,0 +1,232 @@
+/* Submission review status buttons and compact decision popovers. */
+
+.submission-viewer__toolbar-main.has-review-popover {
+  position: relative;
+  overflow: visible;
+}
+
+#submission-viewer-dialog .submission-review__status.is-pending {
+  border-color: #9b7b2f !important;
+  background: #4a3b16 !important;
+  color: #ffe29a !important;
+}
+
+#submission-viewer-dialog .submission-review__status.is-held {
+  border-color: #8d4b4b !important;
+  background: #472526 !important;
+  color: #ffc3c3 !important;
+}
+
+.submission-review__popover {
+  position: absolute;
+  z-index: 80;
+  top: calc(100% + 6px);
+  right: 10px;
+  width: min(430px, calc(100vw - 72px));
+  max-height: min(430px, calc(100dvh - 140px));
+  overflow: hidden;
+  border: 1px solid #4b4b4b;
+  border-radius: 7px;
+  background: #202020;
+  color: #d4d4d4;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.55);
+}
+
+.submission-review__heading {
+  display: flex;
+  min-height: 36px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 8px 0 12px;
+  border-bottom: 1px solid #353535;
+  background: #181818;
+}
+
+.submission-review__heading strong {
+  color: #ededed;
+  font-size: 12px;
+}
+
+.submission-review__heading button {
+  display: grid;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  place-items: center;
+  border: 0;
+  background: transparent;
+  color: #c8c8c8;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.submission-review__heading button:hover,
+.submission-review__heading button:focus-visible {
+  background: #303030;
+  color: #ffffff;
+  outline: 1px solid #555555;
+}
+
+.submission-review__body {
+  display: grid;
+  gap: 12px;
+  padding: 12px;
+}
+
+.submission-review__reason-label {
+  display: grid;
+  gap: 7px;
+  color: #bdbdbd;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.submission-review__reason-label textarea {
+  width: 100%;
+  min-height: 124px;
+  resize: vertical;
+  padding: 10px;
+  border: 1px solid #484848;
+  border-radius: 4px;
+  background: #181818;
+  color: #e4e4e4;
+  font: 12px/1.6 "PT Sans", "Pretendard", sans-serif;
+}
+
+.submission-review__reason-label textarea:focus {
+  border-color: #b6923c;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(182, 146, 60, 0.18);
+}
+
+.submission-review__actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.submission-review__actions.is-single {
+  grid-template-columns: minmax(120px, 220px);
+  justify-content: center;
+}
+
+#submission-viewer-dialog .submission-review__approve {
+  border-color: #3d7656 !important;
+  background: #244532 !important;
+  color: #d8ffe7 !important;
+}
+
+#submission-viewer-dialog .submission-review__hold {
+  border-color: #874747 !important;
+  background: #432426 !important;
+  color: #ffd0d0 !important;
+}
+
+.submission-review__readonly {
+  margin: 10px 4px;
+  color: #c8c8c8;
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.submission-review__held-reason {
+  max-height: 220px;
+  padding: 15px 14px;
+  overflow: auto;
+  border: 1px solid #4e3a3a;
+  border-radius: 4px;
+  background: #2a1e1f;
+  color: #f0d4d4;
+  font-size: 13px;
+  line-height: 1.75;
+  text-align: center;
+  user-select: text;
+  scrollbar-color: #755454 #2a1e1f;
+  scrollbar-width: thin;
+}
+
+.submission-review__meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  border: 1px solid #373737;
+}
+
+.submission-review__meta div {
+  padding: 8px 10px;
+}
+
+.submission-review__meta div + div {
+  border-left: 1px solid #373737;
+}
+
+.submission-review__meta dt {
+  color: #858585;
+  font-size: 10px;
+}
+
+.submission-review__meta dd {
+  margin: 3px 0 0;
+  color: #d7d7d7;
+  font-size: 11px;
+}
+
+.submission-review__mini {
+  justify-self: start;
+  margin-top: 3px;
+  padding: 2px 5px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.submission-review__mini.is-pending {
+  border-color: #8d7130;
+  background: #433617;
+  color: #ffdd8a;
+}
+
+.submission-review__mini.is-held {
+  border-color: #7f4646;
+  background: #3d2425;
+  color: #ffc1c1;
+}
+
+.output-review-summary {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.output-review-summary .is-pending {
+  color: #9a7014;
+}
+
+.output-review-summary .is-held {
+  color: #a34b4b;
+}
+
+@media (max-width: 680px) {
+  .submission-review__popover {
+    right: 6px;
+    width: min(400px, calc(100vw - 20px));
+    max-height: calc(100dvh - 110px);
+  }
+
+  .submission-review__reason-label textarea {
+    min-height: 108px;
+  }
+
+  .submission-review__meta {
+    grid-template-columns: 1fr;
+  }
+
+  .submission-review__meta div + div {
+    border-top: 1px solid #373737;
+    border-left: 0;
+  }
+}
