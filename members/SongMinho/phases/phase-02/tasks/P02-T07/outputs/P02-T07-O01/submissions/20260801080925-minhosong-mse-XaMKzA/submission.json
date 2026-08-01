@@ -30,5 +30,19 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O01/submissions/20260801080925-minhosong-mse-XaMKzA/files/2026-08-01_P02-T07-O01_Bidirectional_IdVg_Log.png",
       "size": 83912
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-01T08:09:25.500Z"
+      }
+    ],
+    "legacy": false
+  }
 }
