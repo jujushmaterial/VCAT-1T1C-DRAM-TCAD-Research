@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-01T08:23:36.769Z",
+  "updatedAt": "2026-08-01T08:25:13.341Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -1018,6 +1018,32 @@
             "name": "Reverse-pp28_des.cmd",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O04/submissions/20260801082336-minhosong-mse-WiEGVA/source/Reverse-pp28_des.cmd",
             "size": 3477
+          }
+        ]
+      }
+    ],
+    "P02-T08-O04": [
+      {
+        "submissionId": "20260801082513-minhosong-mse-rrDbyA",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T08",
+        "taskText": "누설 전류와 전계 분포를 확인한다.",
+        "outputId": "P02-T08-O04",
+        "outputText": "GIDL 측정을 위한 SDEVICE코드",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "code",
+        "uploadedAt": "2026-08-01T08:25:13.341Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O04/submissions/20260801082513-minhosong-mse-rrDbyA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O04/submissions/20260801082513-minhosong-mse-rrDbyA",
+        "summary": "1개 코드 파일 · 3.4KB",
+        "files": [
+          {
+            "name": "2026-08-01_P02-T08_SDevice_GIDL.cmd",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O04/submissions/20260801082513-minhosong-mse-rrDbyA/source/2026-08-01_P02-T08_SDevice_GIDL.cmd",
+            "size": 3486
           }
         ]
       }
