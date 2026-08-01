@@ -92,19 +92,31 @@ jobs:
           from pathlib import Path
 
           root = Path('.')
+          activation = "2026-08-01T06:30:00.000Z"
           submissions = json.loads((root / 'docs/data/submissions.json').read_text(encoding='utf-8'))
           count = 0
+          legacy_without_metadata = []
           for output_id, records in submissions.get('outputs', {}).items():
               for record in records:
                   count += 1
                   folder = root / record['folderPath']
                   assert folder.is_dir(), f"missing folder: {folder}"
-                  assert (folder / 'submission.json').is_file(), f"missing submission.json: {folder}"
+
+                  metadata = folder / 'submission.json'
+                  requires_metadata = bool(record.get('review')) or str(record.get('uploadedAt') or '') >= activation
+                  if requires_metadata:
+                      assert metadata.is_file(), f"new/reviewed submission missing submission.json: {folder}"
+                  elif not metadata.is_file():
+                      legacy_without_metadata.append(record.get('submissionId'))
+
                   for item in record.get('files', []):
                       path = root / item['path']
                       assert path.is_file(), f"missing submitted file: {path}"
                       assert str(item['path']).startswith(record['folderPath'] + '/'), item['path']
+
           assert count > 0
-          json.loads((root / 'docs/data/completion-policy.json').read_text(encoding='utf-8'))
+          policy = json.loads((root / 'docs/data/completion-policy.json').read_text(encoding='utf-8'))
+          assert policy['defaults']['reviewBlocksCompletion'] is True
           print(f'validated {count} existing submission records')
+          print(f'legacy records without submission.json: {legacy_without_metadata}')
           PY
