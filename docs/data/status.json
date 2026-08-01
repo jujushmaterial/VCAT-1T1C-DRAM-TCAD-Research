@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-01T17:39:03+09:00",
+  "generatedAt": "2026-08-01T17:40:22+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 6,
+  "overallProgress": 7,
   "phases": [
     {
       "id": 1,
@@ -1591,13 +1591,13 @@
       "id": 2,
       "issueNumber": 2,
       "state": "in-progress",
-      "progress": 67,
-      "tasksDone": 6,
+      "progress": 78,
+      "tasksDone": 7,
       "tasksTotal": 9,
-      "issueTasksDone": 6,
-      "outputsDone": 20,
+      "issueTasksDone": 7,
+      "outputsDone": 21,
       "outputsTotal": 28,
-      "requiredOutputsDone": 20,
+      "requiredOutputsDone": 21,
       "requiredOutputsTotal": 28,
       "tasks": [
         {
@@ -2977,7 +2977,7 @@
         {
           "id": "P02-T08",
           "text": "누설 전류와 전계 분포를 확인한다.",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P02-T08-O01",
@@ -3058,13 +3058,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260801081223-minhosong-mse-6BqR1w",
@@ -3110,15 +3110,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-01T08:40:01.647Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-01T08:12:23.981Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-01T08:40:01.647Z"
                       }
                     ],
                     "legacy": false
@@ -3266,15 +3271,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 3,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 4,
           "requiredOutputsTotal": 4,
-          "outputsDone": 3,
+          "outputsDone": 4,
           "outputsTotal": 4,
-          "missingRequiredOutputs": [
-            "P02-T08-O02"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -4714,13 +4717,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260801081223-minhosong-mse-6BqR1w",
@@ -4766,15 +4769,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-01T08:40:01.647Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-01T08:12:23.981Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-01T08:40:01.647Z"
                   }
                 ],
                 "legacy": false
@@ -4985,7 +4993,7 @@
       "updatedAt": "2026-08-01T08:24:31Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 3
+      "integrityWarnings": 2
     },
     {
       "id": 3,
