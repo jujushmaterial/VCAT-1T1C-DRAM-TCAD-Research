@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-01T08:12:51.172Z",
+  "updatedAt": "2026-08-01T08:13:03.476Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -941,7 +941,21 @@
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O03/submissions/20260801081251-minhosong-mse-wUSw-Q/files/2026-08-01_P02-T08-O03_Maximum_Field.csv",
             "size": 204
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-01T08:12:51.172Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
