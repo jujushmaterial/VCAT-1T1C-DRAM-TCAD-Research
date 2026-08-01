@@ -158,6 +158,8 @@
     recalculatePhase(phase);
     previousRenderDialog(phase, options);
     recalculatePhase(phase);
+    const phaseLabel = document.querySelector("#dialog-content .dialog-phase");
+    if (phaseLabel) phaseLabel.textContent = `PHASE ${phase.id} · ${stateLabels[phase.state] || phase.state}`;
     const progress = document.querySelector("#dialog-content .dialog-summary > div:first-child strong");
     if (progress) progress.textContent = `${phase.progress}%`;
     const policy = document.querySelector("#dialog-content .output-policy p");
