@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-01T08:11:24.011Z",
+  "updatedAt": "2026-08-01T08:11:34.332Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -826,7 +826,21 @@
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O01/submissions/20260801081124-minhosong-mse-vH-GSg/files/2026-08-01_P02-T08-O01_GIDL_Raw.csv",
             "size": 14458
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-01T08:11:24.011Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
