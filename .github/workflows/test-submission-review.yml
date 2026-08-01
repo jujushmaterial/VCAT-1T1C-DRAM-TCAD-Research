@@ -1,0 +1,110 @@
+name: Test submission review workflow
+
+on:
+  pull_request:
+    paths:
+      - "worker/src/v11.js"
+      - "worker/wrangler.toml"
+      - "docs/index.html"
+      - "docs/submission-review.js"
+      - "docs/submission-review.css"
+      - "docs/review-state-ui.js"
+      - "docs/data/completion-policy.json"
+      - "scripts/research_state_core.py"
+      - "tests/test_submission_review.py"
+      - "tests/test_submission_review_worker.mjs"
+      - "tests/test_review_state.py"
+      - ".github/workflows/test-submission-review.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  review-1-feature:
+    name: Review 1 - feature and permissions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: JavaScript syntax
+        run: |
+          node --check worker/src/v11.js
+          node --check docs/submission-review.js
+          node --check docs/review-state-ui.js
+      - name: Review UI and API contracts
+        run: python -m unittest tests/test_submission_review.py -v
+      - name: Worker state machine and full manifest chain
+        run: node tests/test_submission_review_worker.mjs
+
+  review-2-regression:
+    name: Review 2 - existing feature regression
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Existing viewer and spreadsheet contracts
+        run: |
+          python -m unittest tests/test_submission_viewer.py -v
+          python -m unittest tests/test_submission_comments_copy_feedback.py -v
+          python scripts/test_frontend_contract.py
+          python scripts/test_table_submission_contract.py
+      - name: Existing JavaScript syntax
+        run: |
+          node --check docs/submission-viewer.js
+          node --check docs/submission-viewer-polish.js
+          node --check docs/submission-viewer-comments.js
+          node --check docs/spreadsheet-v3.js
+          node --check docs/submission-delete.js
+          node --check worker/src/v7.js
+          node --check worker/src/v8.js
+          node --check worker/src/v9.js
+          node --check worker/src/v10.js
+
+  review-3-data-integrity:
+    name: Review 3 - state, files and connections
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Review-aware state tests
+        run: |
+          python -m unittest tests/test_review_state.py -v
+          python -m unittest tests/test_research_state.py -v
+      - name: Repository state reconciliation check
+        run: python scripts/research_state.py check
+      - name: Validate submission paths and JSON files
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path('.')
+          submissions = json.loads((root / 'docs/data/submissions.json').read_text(encoding='utf-8'))
+          count = 0
+          for output_id, records in submissions.get('outputs', {}).items():
+              for record in records:
+                  count += 1
+                  folder = root / record['folderPath']
+                  assert folder.is_dir(), f"missing folder: {folder}"
+                  assert (folder / 'submission.json').is_file(), f"missing submission.json: {folder}"
+                  for item in record.get('files', []):
+                      path = root / item['path']
+                      assert path.is_file(), f"missing submitted file: {path}"
+                      assert str(item['path']).startswith(record['folderPath'] + '/'), item['path']
+          assert count > 0
+          json.loads((root / 'docs/data/completion-policy.json').read_text(encoding='utf-8'))
+          print(f'validated {count} existing submission records')
+          PY
