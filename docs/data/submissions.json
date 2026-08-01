@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-01T08:22:59.854Z",
+  "updatedAt": "2026-08-01T08:23:08.133Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -981,7 +981,21 @@
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O04/submissions/20260801082259-minhosong-mse-p4NFeg/source/Forward-pp26_des.cmd",
             "size": 3473
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-01T08:22:59.854Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
