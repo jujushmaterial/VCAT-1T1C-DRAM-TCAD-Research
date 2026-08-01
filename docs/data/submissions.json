@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-01T08:10:15.382Z",
+  "updatedAt": "2026-08-01T08:11:24.011Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -789,6 +789,42 @@
             "name": "2026-08-01_P02-T07-O03_Bidirectional_Interpretation.md",
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O03/submissions/20260801081015-minhosong-mse-Ta4dmw/files/2026-08-01_P02-T07-O03_Bidirectional_Interpretation.md",
             "size": 1235
+          }
+        ]
+      }
+    ],
+    "P02-T08-O01": [
+      {
+        "submissionId": "20260801081124-minhosong-mse-vH-GSg",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T08",
+        "taskText": "누설 전류와 전계 분포를 확인한다.",
+        "outputId": "P02-T08-O01",
+        "outputText": "GIDL 그래프",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-01T08:11:24.011Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O01/submissions/20260801081124-minhosong-mse-vH-GSg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O01/submissions/20260801081124-minhosong-mse-vH-GSg",
+        "summary": "3개 파일 · 122.0KB",
+        "files": [
+          {
+            "name": "2026-08-01_P02-T08-O01_GIDL_Linear.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O01/submissions/20260801081124-minhosong-mse-vH-GSg/files/2026-08-01_P02-T08-O01_GIDL_Linear.png",
+            "size": 62279
+          },
+          {
+            "name": "2026-08-01_P02-T08-O01_GIDL_Log.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O01/submissions/20260801081124-minhosong-mse-vH-GSg/files/2026-08-01_P02-T08-O01_GIDL_Log.png",
+            "size": 48205
+          },
+          {
+            "name": "2026-08-01_P02-T08-O01_GIDL_Raw.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O01/submissions/20260801081124-minhosong-mse-vH-GSg/files/2026-08-01_P02-T08-O01_GIDL_Raw.csv",
+            "size": 14458
           }
         ]
       }
