@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-01T08:22:11.542Z",
+  "updatedAt": "2026-08-01T08:22:59.854Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -956,6 +956,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P02-T07-O04": [
+      {
+        "submissionId": "20260801082259-minhosong-mse-p4NFeg",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T07",
+        "taskText": "위→아래와 아래→위 전류를 확인한다.",
+        "outputId": "P02-T07-O04",
+        "outputText": "양방향 비교 시 사용한 SDEVICE코드",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "code",
+        "uploadedAt": "2026-08-01T08:22:59.854Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O04/submissions/20260801082259-minhosong-mse-p4NFeg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O04/submissions/20260801082259-minhosong-mse-p4NFeg",
+        "summary": "1개 코드 파일 · 3.4KB",
+        "files": [
+          {
+            "name": "Forward-pp26_des.cmd",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O04/submissions/20260801082259-minhosong-mse-p4NFeg/source/Forward-pp26_des.cmd",
+            "size": 3473
+          }
+        ]
       }
     ]
   }
