@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-01T08:11:34.332Z",
+  "updatedAt": "2026-08-01T08:12:23.981Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -841,6 +841,52 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P02-T08-O02": [
+      {
+        "submissionId": "20260801081223-minhosong-mse-6BqR1w",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T08",
+        "taskText": "누설 전류와 전계 분포를 확인한다.",
+        "outputId": "P02-T08-O02",
+        "outputText": "전계 분포 이미지",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-01T08:12:23.981Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O02/submissions/20260801081223-minhosong-mse-6BqR1w",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O02/submissions/20260801081223-minhosong-mse-6BqR1w",
+        "summary": "5개 파일 · 361.4KB",
+        "files": [
+          {
+            "name": "2026-08-01_P02-T08_ElectricField_X_Component.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O02/submissions/20260801081223-minhosong-mse-6BqR1w/files/2026-08-01_P02-T08_ElectricField_X_Component.png",
+            "size": 93658
+          },
+          {
+            "name": "2026-08-01_P02-T08_ElectricField_Y_Component.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O02/submissions/20260801081223-minhosong-mse-6BqR1w/files/2026-08-01_P02-T08_ElectricField_Y_Component.png",
+            "size": 89942
+          },
+          {
+            "name": "2026-08-01_P02-T08_Interpretation.md",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O02/submissions/20260801081223-minhosong-mse-6BqR1w/files/2026-08-01_P02-T08_Interpretation.md",
+            "size": 2273
+          },
+          {
+            "name": "2026-08-01_P02-T08-O02_Band2BandGeneration.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O02/submissions/20260801081223-minhosong-mse-6BqR1w/files/2026-08-01_P02-T08-O02_Band2BandGeneration.png",
+            "size": 90603
+          },
+          {
+            "name": "2026-08-01_P02-T08-O02_ElectricField_Magnitude.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O02/submissions/20260801081223-minhosong-mse-6BqR1w/files/2026-08-01_P02-T08-O02_ElectricField_Magnitude.png",
+            "size": 93572
+          }
+        ]
       }
     ]
   }
