@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-01T08:10:02.757Z",
+  "updatedAt": "2026-08-01T08:10:15.382Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -765,6 +765,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P02-T07-O03": [
+      {
+        "submissionId": "20260801081015-minhosong-mse-Ta4dmw",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T07",
+        "taskText": "위→아래와 아래→위 전류를 확인한다.",
+        "outputId": "P02-T07-O03",
+        "outputText": "양방향 차이 해석",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-01T08:10:15.382Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O03/submissions/20260801081015-minhosong-mse-Ta4dmw",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O03/submissions/20260801081015-minhosong-mse-Ta4dmw",
+        "summary": "1개 파일 · 1.2KB",
+        "files": [
+          {
+            "name": "2026-08-01_P02-T07-O03_Bidirectional_Interpretation.md",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O03/submissions/20260801081015-minhosong-mse-Ta4dmw/files/2026-08-01_P02-T07-O03_Bidirectional_Interpretation.md",
+            "size": 1235
+          }
+        ]
       }
     ]
   }
