@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T17:23:58+09:00",
+  "generatedAt": "2026-08-01T17:24:31+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -1596,9 +1596,9 @@
       "tasksTotal": 9,
       "issueTasksDone": 6,
       "outputsDone": 17,
-      "outputsTotal": 27,
+      "outputsTotal": 28,
       "requiredOutputsDone": 17,
-      "requiredOutputsTotal": 27,
+      "requiredOutputsTotal": 28,
       "tasks": [
         {
           "id": "P02-T01",
@@ -3191,18 +3191,36 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "P02-T08-O04",
+              "text": "GIDL 측정을 위한 SDEVICE코드",
+              "type": "code",
+              "review": "recommended",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 3,
+          "requiredOutputsTotal": 4,
           "outputsDone": 0,
-          "outputsTotal": 3,
+          "outputsTotal": 4,
           "missingRequiredOutputs": [
             "P02-T08-O01",
             "P02-T08-O02",
-            "P02-T08-O03"
+            "P02-T08-O03",
+            "P02-T08-O04"
           ],
           "checkboxDrift": false
         },
@@ -4780,6 +4798,24 @@
           "taskId": "P02-T08"
         },
         {
+          "id": "P02-T08-O04",
+          "text": "GIDL 측정을 위한 SDEVICE코드",
+          "type": "code",
+          "review": "recommended",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P02-T08"
+        },
+        {
           "id": "P02-T09-O01",
           "text": "메시 조건별 결과 비교표",
           "type": "files",
@@ -4837,7 +4873,7 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-08-01T08:22:24Z",
+      "updatedAt": "2026-08-01T08:24:21Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 2
