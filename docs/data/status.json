@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T17:09:41+09:00",
+  "generatedAt": "2026-08-01T17:10:22+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -2751,9 +2751,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-01T08:09:25.500Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -2767,13 +2772,52 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260801080955-minhosong-mse-uyIhiA",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T07",
+                  "taskText": "위→아래와 아래→위 전류를 확인한다.",
+                  "outputId": "P02-T07-O02",
+                  "outputText": "방향별 전류와 비대칭 비율 표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-01T08:09:55.693Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O02/submissions/20260801080955-minhosong-mse-uyIhiA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O02/submissions/20260801080955-minhosong-mse-uyIhiA",
+                  "summary": "1개 파일 · 26.6KB",
+                  "files": [
+                    {
+                      "name": "2026-08-01_P02-T07-O02_Bidirectional_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O02/submissions/20260801080955-minhosong-mse-uyIhiA/files/2026-08-01_P02-T07-O02_Bidirectional_Raw.csv",
+                      "size": 27270
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-01T08:09:55.693Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                }
+              ]
             },
             {
               "id": "P02-T07-O03",
@@ -4021,9 +4065,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-01T08:09:25.500Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -4038,13 +4087,52 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260801080955-minhosong-mse-uyIhiA",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T07",
+              "taskText": "위→아래와 아래→위 전류를 확인한다.",
+              "outputId": "P02-T07-O02",
+              "outputText": "방향별 전류와 비대칭 비율 표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-01T08:09:55.693Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O02/submissions/20260801080955-minhosong-mse-uyIhiA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O02/submissions/20260801080955-minhosong-mse-uyIhiA",
+              "summary": "1개 파일 · 26.6KB",
+              "files": [
+                {
+                  "name": "2026-08-01_P02-T07-O02_Bidirectional_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O02/submissions/20260801080955-minhosong-mse-uyIhiA/files/2026-08-01_P02-T07-O02_Bidirectional_Raw.csv",
+                  "size": 27270
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-01T08:09:55.693Z"
+                  }
+                ],
+                "legacy": false
+              }
+            }
+          ],
           "taskId": "P02-T07"
         },
         {
