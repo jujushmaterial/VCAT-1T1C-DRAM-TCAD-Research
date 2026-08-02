@@ -1,0 +1,34 @@
+{
+  "submissionId": "20260802125540-minhosong-mse-dAs9QA",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T08",
+  "taskText": "누설 전류와 전계 분포를 확인한다.",
+  "outputId": "P02-T08-O06",
+  "outputText": "피드백 내용 추가(이미지)",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-02T12:55:40.195Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125540-minhosong-mse-dAs9QA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125540-minhosong-mse-dAs9QA",
+  "summary": "3개 파일 · 701.1KB",
+  "files": [
+    {
+      "name": "P02-T08_Medium_BTBT_Max_Probe.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125540-minhosong-mse-dAs9QA/files/P02-T08_Medium_BTBT_Max_Probe.png",
+      "size": 321171
+    },
+    {
+      "name": "P02-T08_Medium_Si_Oxide_Field_Context.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125540-minhosong-mse-dAs9QA/files/P02-T08_Medium_Si_Oxide_Field_Context.png",
+      "size": 24893
+    },
+    {
+      "name": "P02-T08_Medium_Silicon_Field_Probe_and_Cutline.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125540-minhosong-mse-dAs9QA/files/P02-T08_Medium_Silicon_Field_Probe_and_Cutline.png",
+      "size": 371854
+    }
+  ]
+}
