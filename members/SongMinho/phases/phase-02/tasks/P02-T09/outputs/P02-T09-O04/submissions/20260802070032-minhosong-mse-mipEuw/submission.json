@@ -45,5 +45,7 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070032-minhosong-mse-mipEuw/files/P02-T09_Medium_Mesh_UpperJunction_Zoom.png",
       "size": 77163
     }
-  ]
+  ],
+  "comment": "파라미터 어떻게 설정했는지랑, 각각 전체/확대 메시 이미지",
+  "commentLabel": "제출 메모"
 }
