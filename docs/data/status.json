@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:05:18+09:00",
+  "generatedAt": "2026-08-02T16:05:37+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -1596,9 +1596,9 @@
       "tasksTotal": 9,
       "issueTasksDone": 8,
       "outputsDone": 25,
-      "outputsTotal": 30,
+      "outputsTotal": 31,
       "requiredOutputsDone": 25,
-      "requiredOutputsTotal": 30,
+      "requiredOutputsTotal": 31,
       "tasks": [
         {
           "id": "P02-T01",
@@ -3885,20 +3885,38 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "P02-T09-O06",
+              "text": "사용 코드",
+              "type": "code",
+              "review": "recommended",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 5,
+          "requiredOutputsTotal": 6,
           "outputsDone": 0,
-          "outputsTotal": 5,
+          "outputsTotal": 6,
           "missingRequiredOutputs": [
             "P02-T09-O01",
             "P02-T09-O02",
             "P02-T09-O03",
             "P02-T09-O04",
-            "P02-T09-O05"
+            "P02-T09-O05",
+            "P02-T09-O06"
           ],
           "checkboxDrift": false
         }
@@ -6094,12 +6112,30 @@
             }
           ],
           "taskId": "P02-T09"
+        },
+        {
+          "id": "P02-T09-O06",
+          "text": "사용 코드",
+          "type": "code",
+          "review": "recommended",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P02-T09"
         }
       ],
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-08-02T06:59:51Z",
+      "updatedAt": "2026-08-02T07:05:26Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 2
