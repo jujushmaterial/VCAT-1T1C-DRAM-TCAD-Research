@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-02T13:02:19.412Z",
+  "updatedAt": "2026-08-02T13:02:27.478Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2076,7 +2076,21 @@
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O07/submissions/20260802130219-minhosong-mse-Y-Z9nA/files/P02-T09_DC_vs_GIDL_Mesh_Scope_Clarification.md",
             "size": 1213
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-02T13:02:19.412Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
