@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:51:03+09:00",
+  "generatedAt": "2026-08-02T21:51:34+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3367,13 +3367,67 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260802125114-minhosong-mse-77l7zw",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T08",
+                  "taskText": "누설 전류와 전계 분포를 확인한다.",
+                  "outputId": "P02-T08-O05",
+                  "outputText": "피드백 내용 추가",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-02T12:51:14.861Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw",
+                  "summary": "5개 파일 · 4.2KB",
+                  "files": [
+                    {
+                      "name": "P02-T08_Fine_Referenced_Error.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw/files/P02-T08_Fine_Referenced_Error.csv",
+                      "size": 2077
+                    },
+                    {
+                      "name": "P02-T08_Fixed_Point_Probe_Results.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw/files/P02-T08_Fixed_Point_Probe_Results.csv",
+                      "size": 548
+                    },
+                    {
+                      "name": "P02-T08_GIDL_Mesh_Node_Map.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw/files/P02-T08_GIDL_Mesh_Node_Map.csv",
+                      "size": 301
+                    },
+                    {
+                      "name": "P02-T08_GIDL_Mesh_Sensitivity_Summary.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw/files/P02-T08_GIDL_Mesh_Sensitivity_Summary.csv",
+                      "size": 1109
+                    },
+                    {
+                      "name": "P02-T08_Runtime_and_Convergence.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw/files/P02-T08_Runtime_and_Convergence.csv",
+                      "size": 295
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
@@ -5737,13 +5791,67 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260802125114-minhosong-mse-77l7zw",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T08",
+              "taskText": "누설 전류와 전계 분포를 확인한다.",
+              "outputId": "P02-T08-O05",
+              "outputText": "피드백 내용 추가",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-02T12:51:14.861Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw",
+              "summary": "5개 파일 · 4.2KB",
+              "files": [
+                {
+                  "name": "P02-T08_Fine_Referenced_Error.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw/files/P02-T08_Fine_Referenced_Error.csv",
+                  "size": 2077
+                },
+                {
+                  "name": "P02-T08_Fixed_Point_Probe_Results.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw/files/P02-T08_Fixed_Point_Probe_Results.csv",
+                  "size": 548
+                },
+                {
+                  "name": "P02-T08_GIDL_Mesh_Node_Map.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw/files/P02-T08_GIDL_Mesh_Node_Map.csv",
+                  "size": 301
+                },
+                {
+                  "name": "P02-T08_GIDL_Mesh_Sensitivity_Summary.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw/files/P02-T08_GIDL_Mesh_Sensitivity_Summary.csv",
+                  "size": 1109
+                },
+                {
+                  "name": "P02-T08_Runtime_and_Convergence.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125114-minhosong-mse-77l7zw/files/P02-T08_Runtime_and_Convergence.csv",
+                  "size": 295
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P02-T08"
         },
         {
