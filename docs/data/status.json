@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:58:30+09:00",
+  "generatedAt": "2026-08-02T21:58:55+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3707,7 +3707,7 @@
             },
             {
               "id": "P02-T08-O07",
-              "text": "피드백 내용 추가(코드)",
+              "text": "피드백 내용 추가(코드 및 로그)",
               "type": "code",
               "review": "none",
               "reviewBlocksCompletion": true,
@@ -6519,7 +6519,7 @@
         },
         {
           "id": "P02-T08-O07",
-          "text": "피드백 내용 추가(코드)",
+          "text": "피드백 내용 추가(코드 및 로그)",
           "type": "code",
           "review": "none",
           "reviewBlocksCompletion": true,
@@ -7281,7 +7281,7 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-08-02T12:53:25Z",
+      "updatedAt": "2026-08-02T12:58:46Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 4
