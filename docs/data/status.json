@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:01:41+09:00",
+  "generatedAt": "2026-08-02T16:02:55+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3324,10 +3324,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 1,
+              "submissionCount": 2,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -3377,6 +3377,39 @@
                       }
                     ],
                     "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260802070239-minhosong-mse-AYRoww",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T09",
+                  "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+                  "outputId": "P02-T09-O01",
+                  "outputText": "메시 조건별 결과 비교표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-02T07:02:39.273Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802070239-minhosong-mse-AYRoww",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802070239-minhosong-mse-AYRoww",
+                  "summary": "1개 파일 · 74.1KB",
+                  "files": [
+                    {
+                      "name": "P02-T09_SWB_Mesh_Split.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802070239-minhosong-mse-AYRoww/files/P02-T09_SWB_Mesh_Split.png",
+                      "size": 75837
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
                   }
                 }
               ]
@@ -3517,10 +3550,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 1,
+              "submissionCount": 2,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -3584,6 +3617,54 @@
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-02T07:00:32.711Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260802070130-minhosong-mse-BF_EBQ",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T09",
+                  "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+                  "outputId": "P02-T09-O04",
+                  "outputText": "메시 조건별 구조 이미지",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-02T07:01:30.762Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ",
+                  "summary": "3개 파일 · 8.8KB",
+                  "files": [
+                    {
+                      "name": "P02-T09_Coarse_n37_Mesh_Log_transcribed.txt",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ/files/P02-T09_Coarse_n37_Mesh_Log_transcribed.txt",
+                      "size": 2993
+                    },
+                    {
+                      "name": "P02-T09_Fine_n27_Mesh_Log_transcribed.txt",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ/files/P02-T09_Fine_n27_Mesh_Log_transcribed.txt",
+                      "size": 3003
+                    },
+                    {
+                      "name": "P02-T09_Medium_n1_Mesh_Log_transcribed.txt",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ/files/P02-T09_Medium_n1_Mesh_Log_transcribed.txt",
+                      "size": 2993
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-02T07:01:30.762Z"
                       }
                     ],
                     "legacy": false
@@ -5250,10 +5331,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 1,
+          "submissionCount": 2,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -5303,6 +5384,39 @@
                   }
                 ],
                 "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260802070239-minhosong-mse-AYRoww",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T09",
+              "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+              "outputId": "P02-T09-O01",
+              "outputText": "메시 조건별 결과 비교표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-02T07:02:39.273Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802070239-minhosong-mse-AYRoww",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802070239-minhosong-mse-AYRoww",
+              "summary": "1개 파일 · 74.1KB",
+              "files": [
+                {
+                  "name": "P02-T09_SWB_Mesh_Split.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802070239-minhosong-mse-AYRoww/files/P02-T09_SWB_Mesh_Split.png",
+                  "size": 75837
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
               }
             }
           ],
@@ -5446,10 +5560,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 1,
+          "submissionCount": 2,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -5513,6 +5627,54 @@
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-02T07:00:32.711Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260802070130-minhosong-mse-BF_EBQ",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T09",
+              "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+              "outputId": "P02-T09-O04",
+              "outputText": "메시 조건별 구조 이미지",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-02T07:01:30.762Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ",
+              "summary": "3개 파일 · 8.8KB",
+              "files": [
+                {
+                  "name": "P02-T09_Coarse_n37_Mesh_Log_transcribed.txt",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ/files/P02-T09_Coarse_n37_Mesh_Log_transcribed.txt",
+                  "size": 2993
+                },
+                {
+                  "name": "P02-T09_Fine_n27_Mesh_Log_transcribed.txt",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ/files/P02-T09_Fine_n27_Mesh_Log_transcribed.txt",
+                  "size": 3003
+                },
+                {
+                  "name": "P02-T09_Medium_n1_Mesh_Log_transcribed.txt",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ/files/P02-T09_Medium_n1_Mesh_Log_transcribed.txt",
+                  "size": 2993
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-02T07:01:30.762Z"
                   }
                 ],
                 "legacy": false
