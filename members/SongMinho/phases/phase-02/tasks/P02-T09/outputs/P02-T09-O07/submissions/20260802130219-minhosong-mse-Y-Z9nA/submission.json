@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260802130219-minhosong-mse-Y-Z9nA",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T09",
+  "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+  "outputId": "P02-T09-O07",
+  "outputText": "피드백 내용 추가",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-02T13:02:19.412Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O07/submissions/20260802130219-minhosong-mse-Y-Z9nA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O07/submissions/20260802130219-minhosong-mse-Y-Z9nA",
+  "summary": "1개 파일 · 1.2KB",
+  "files": [
+    {
+      "name": "P02-T09_DC_vs_GIDL_Mesh_Scope_Clarification.md",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O07/submissions/20260802130219-minhosong-mse-Y-Z9nA/files/P02-T09_DC_vs_GIDL_Mesh_Scope_Clarification.md",
+      "size": 1213
+    }
+  ]
+}
