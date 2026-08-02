@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-02T07:01:01.587Z",
+  "updatedAt": "2026-08-02T07:01:30.762Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -1347,6 +1347,40 @@
           ],
           "legacy": false
         }
+      },
+      {
+        "submissionId": "20260802070130-minhosong-mse-BF_EBQ",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T09",
+        "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+        "outputId": "P02-T09-O04",
+        "outputText": "메시 조건별 구조 이미지",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-02T07:01:30.762Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ",
+        "summary": "3개 파일 · 8.8KB",
+        "files": [
+          {
+            "name": "P02-T09_Coarse_n37_Mesh_Log_transcribed.txt",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ/files/P02-T09_Coarse_n37_Mesh_Log_transcribed.txt",
+            "size": 2993
+          },
+          {
+            "name": "P02-T09_Fine_n27_Mesh_Log_transcribed.txt",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ/files/P02-T09_Fine_n27_Mesh_Log_transcribed.txt",
+            "size": 3003
+          },
+          {
+            "name": "P02-T09_Medium_n1_Mesh_Log_transcribed.txt",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ/files/P02-T09_Medium_n1_Mesh_Log_transcribed.txt",
+            "size": 2993
+          }
+        ]
       }
     ]
   }

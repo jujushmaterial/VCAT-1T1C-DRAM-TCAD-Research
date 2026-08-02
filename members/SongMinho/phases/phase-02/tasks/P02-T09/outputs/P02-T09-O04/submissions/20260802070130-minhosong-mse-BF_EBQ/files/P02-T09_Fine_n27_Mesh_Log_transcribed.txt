@@ -1,0 +1,75 @@
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                          Version T-2022.03                           ***
+***                      (0.7486838, x86_64, Linux)                      ***
+***                                                                      ***
+***                       Copyright (C) 2005-2022                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Mon Feb 14 00:17:31 PST 2022 on: swe-vm-kcr-tcad02
+Running on: ssudisu1
+Hardware type: x86_64
+OS name: Linux
+OS release: 3.10.0-1160.119.1.el7.x86_64
+OS version: #1 SMP Tue Jun 4 14:43:51 UTC 2024
+Process ID: 66607
+
+Flags used:
+
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  2865 (tree) + 367 (boundary)
+
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (2915 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+    2843 points.
+    5430 elements.
+       7 regions.
+Max. connectivity = 7 located at (0.0148437;0.0004375)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    4   3  10  16   1   1  16  11   3  36                                
+---------------------------------------------------------------------------------
+minAngle: 0.572939  maxAngle: 90
+nVerts = 2843  nTris = 5430  nMats = 4
+max connectivity (tris per node): 7
+bmin: -0 -0
+bmax: 0.1 0.007
+min edgeLength: 1.5625e-05  [near (0.0773438 0.00600781)]
+min volume: 9.15527e-10  max volume: 3.41797e-07  Total volume: 0.00066
+bbox  volume: 0.0007
+Are all boundaries on bbox? false
+=================================================================================
+
+Smallest region: R.GateOxide  Total volume: 6e-05
+Interpolating data...done.
+done.
+Saving file n27_msh.tdr...done.
+
+===============================  Timer Report===================================
+              Total Mesh Generation Time:      0.19s       100%
+                       Rate of #Vertices:  1.49e+04
+                          Rate of #Edges:  2.96e+04
+                          Rate of #Faces:  2.85e+04
+                       Rate of #Elements:         0
+
+                            Time Covered:         0s         0%
