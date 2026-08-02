@@ -1,0 +1,3 @@
+Vd_V,Reported_Baseline_Vth_V,New_Vth_V,Delta_Vth_mV,Reported_Baseline_SS_mV_dec,New_SS_mV_dec,Delta_SS_pct,Reported_Baseline_Ioff_A,New_Ioff_A,Ioff_Decade_Diff,Reported_Baseline_Ion_A,New_Ion_A,Delta_Ion_pct,Validation_Note
+0.05,0.50667,0.5066663748192048,-0.003625180795108207,60.246,60.35814132156721,0.1861390325784414,4.388e-16,4.44558e-16,0.005661811053077059,2.865e-06,2.8646581e-06,-0.011933682373479367,Baseline values were user-reported rounded values.
+1.0,0.50343,0.5034284693493403,-0.0015306506597756453,60.048,60.14023410016177,0.15360061977379452,3.101e-15,3.0940812e-15,0.0009700592498038674,8.476e-06,8.4764497e-06,0.005305568664458175,Baseline values were user-reported rounded values.

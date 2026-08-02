@@ -1,0 +1,7 @@
+Input_File,SDevice_Node,Mesh,MeshScale,Vd_V,VgStop_V,WF_eV,Temp_K
+P2T09_1.csv,n47,Medium,1.0,0.05,1.0,4.7,300
+P2T09_2.csv,n48,Medium,1.0,1.0,1.0,4.7,300
+P2T09_3.csv,n49,Fine,0.5,0.05,1.0,4.7,300
+P2T09_4.csv,n50,Fine,0.5,1.0,1.0,4.7,300
+P2T09_5.csv,n51,Coarse,2.0,0.05,1.0,4.7,300
+P2T09_6.csv,n52,Coarse,2.0,1.0,1.0,4.7,300
