@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-02T12:52:01.036Z",
+  "updatedAt": "2026-08-02T12:52:10.393Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -1780,7 +1780,21 @@
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O05/submissions/20260802125201-minhosong-mse-a1E16g/files/P02-T08_GIDL_Mesh_Raw.csv",
             "size": 43362
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-02T12:52:01.036Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
