@@ -20,5 +20,19 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O06/submissions/20260802070630-minhosong-mse-ztl9lg/source/P2T09_SDEVICE.cmd",
       "size": 3236
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-02T07:06:30.152Z"
+      }
+    ],
+    "legacy": false
+  }
 }
