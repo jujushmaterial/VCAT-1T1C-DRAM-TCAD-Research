@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-02T07:01:30.762Z",
+  "updatedAt": "2026-08-02T07:01:40.849Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -1380,7 +1380,21 @@
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070130-minhosong-mse-BF_EBQ/files/P02-T09_Medium_n1_Mesh_Log_transcribed.txt",
             "size": 2993
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-02T07:01:30.762Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
