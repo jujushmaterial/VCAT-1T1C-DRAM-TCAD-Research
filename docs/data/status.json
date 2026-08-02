@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:05:37+09:00",
+  "generatedAt": "2026-08-02T16:06:45+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3895,13 +3895,47 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260802070630-minhosong-mse-ztl9lg",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T09",
+                  "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+                  "outputId": "P02-T09-O06",
+                  "outputText": "사용 코드",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "code",
+                  "uploadedAt": "2026-08-02T07:06:30.152Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O06/submissions/20260802070630-minhosong-mse-ztl9lg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O06/submissions/20260802070630-minhosong-mse-ztl9lg",
+                  "summary": "1개 코드 파일 · 3.2KB",
+                  "files": [
+                    {
+                      "name": "P2T09_SDEVICE.cmd",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O06/submissions/20260802070630-minhosong-mse-ztl9lg/source/P2T09_SDEVICE.cmd",
+                      "size": 3236
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
@@ -6122,20 +6156,54 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260802070630-minhosong-mse-ztl9lg",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T09",
+              "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+              "outputId": "P02-T09-O06",
+              "outputText": "사용 코드",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "code",
+              "uploadedAt": "2026-08-02T07:06:30.152Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O06/submissions/20260802070630-minhosong-mse-ztl9lg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O06/submissions/20260802070630-minhosong-mse-ztl9lg",
+              "summary": "1개 코드 파일 · 3.2KB",
+              "files": [
+                {
+                  "name": "P2T09_SDEVICE.cmd",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O06/submissions/20260802070630-minhosong-mse-ztl9lg/source/P2T09_SDEVICE.cmd",
+                  "size": 3236
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P02-T09"
         }
       ],
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-08-02T07:05:26Z",
+      "updatedAt": "2026-08-02T07:05:37Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 2
