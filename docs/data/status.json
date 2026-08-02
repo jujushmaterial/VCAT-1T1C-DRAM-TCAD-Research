@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:52:16+09:00",
+  "generatedAt": "2026-08-02T21:53:26+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -1596,9 +1596,9 @@
       "tasksTotal": 9,
       "issueTasksDone": 6,
       "outputsDone": 25,
-      "outputsTotal": 34,
+      "outputsTotal": 37,
       "requiredOutputsDone": 25,
-      "requiredOutputsTotal": 34,
+      "requiredOutputsTotal": 37,
       "tasks": [
         {
           "id": "P02-T01",
@@ -3360,7 +3360,7 @@
             },
             {
               "id": "P02-T08-O05",
-              "text": "피드백 내용 추가",
+              "text": "피드백 내용 추가(CSV)",
               "type": "files",
               "review": "none",
               "reviewBlocksCompletion": true,
@@ -3460,22 +3460,81 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-02T12:52:01.036Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
+            },
+            {
+              "id": "P02-T08-O06",
+              "text": "피드백 내용 추가(이미지)",
+              "type": "files",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
+            },
+            {
+              "id": "P02-T08-O07",
+              "text": "피드백 내용 추가(코드)",
+              "type": "code",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
+            },
+            {
+              "id": "P02-T08-O08",
+              "text": "피드백 내용 추가(기타)",
+              "type": "files",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 4,
-          "requiredOutputsTotal": 5,
+          "requiredOutputsTotal": 8,
           "outputsDone": 4,
-          "outputsTotal": 5,
+          "outputsTotal": 8,
           "missingRequiredOutputs": [
-            "P02-T08-O05"
+            "P02-T08-O05",
+            "P02-T08-O06",
+            "P02-T08-O07",
+            "P02-T08-O08"
           ],
           "checkboxDrift": false
         },
@@ -5822,7 +5881,7 @@
         },
         {
           "id": "P02-T08-O05",
-          "text": "피드백 내용 추가",
+          "text": "피드백 내용 추가(CSV)",
           "type": "files",
           "review": "none",
           "reviewBlocksCompletion": true,
@@ -5922,12 +5981,71 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-02T12:52:01.036Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
+          "taskId": "P02-T08"
+        },
+        {
+          "id": "P02-T08-O06",
+          "text": "피드백 내용 추가(이미지)",
+          "type": "files",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P02-T08"
+        },
+        {
+          "id": "P02-T08-O07",
+          "text": "피드백 내용 추가(코드)",
+          "type": "code",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P02-T08"
+        },
+        {
+          "id": "P02-T08-O08",
+          "text": "피드백 내용 추가(기타)",
+          "type": "files",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
           "taskId": "P02-T08"
         },
         {
@@ -6585,7 +6703,7 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-08-02T12:50:02Z",
+      "updatedAt": "2026-08-02T12:53:16Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 4
