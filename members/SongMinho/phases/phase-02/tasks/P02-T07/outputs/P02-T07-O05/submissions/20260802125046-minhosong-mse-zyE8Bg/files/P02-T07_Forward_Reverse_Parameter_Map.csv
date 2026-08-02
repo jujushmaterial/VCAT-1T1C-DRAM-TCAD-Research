@@ -1,0 +1,5 @@
+Meaning,Forward_parameter,Reverse_parameter_in_existing_code,Recommended_common_parameter,Risk
+Gate work function,WF,WF1,WF,Different values may be passed after a SWB edit
+Temperature,Temp,Temp1,Temp,Different values may be passed after a SWB edit
+Drain/storage bias,VdBias,VdBias1,VdBias,Forward/reverse bias mismatch risk
+Gate stop voltage,VgStop,VgStop1,VgStop,Sweep range mismatch risk
