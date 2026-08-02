@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-02T07:03:21.106Z",
+  "updatedAt": "2026-08-02T07:03:33.205Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -1485,7 +1485,21 @@
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070321-minhosong-mse-VAAy4w/files/P02-T09_Medium_Vd100_Merged_Raw.csv",
             "size": 24965
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-02T07:03:21.106Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
