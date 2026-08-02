@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:50:03+09:00",
+  "generatedAt": "2026-08-02T21:51:03+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3003,13 +3003,52 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260802125046-minhosong-mse-zyE8Bg",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T07",
+                  "taskText": "위→아래와 아래→위 전류를 확인한다.",
+                  "outputId": "P02-T07-O05",
+                  "outputText": "피드백 내용 추가",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-02T12:50:46.858Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O05/submissions/20260802125046-minhosong-mse-zyE8Bg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O05/submissions/20260802125046-minhosong-mse-zyE8Bg",
+                  "summary": "2개 파일 · 1.8KB",
+                  "files": [
+                    {
+                      "name": "P02-T07_Forward_Reverse_Parameter_Map.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O05/submissions/20260802125046-minhosong-mse-zyE8Bg/files/P02-T07_Forward_Reverse_Parameter_Map.csv",
+                      "size": 395
+                    },
+                    {
+                      "name": "P02-T07_Supplemental_Code_Consistency_Review.md",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O05/submissions/20260802125046-minhosong-mse-zyE8Bg/files/P02-T07_Supplemental_Code_Consistency_Review.md",
+                      "size": 1418
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
@@ -5346,13 +5385,52 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260802125046-minhosong-mse-zyE8Bg",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T07",
+              "taskText": "위→아래와 아래→위 전류를 확인한다.",
+              "outputId": "P02-T07-O05",
+              "outputText": "피드백 내용 추가",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-02T12:50:46.858Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O05/submissions/20260802125046-minhosong-mse-zyE8Bg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O05/submissions/20260802125046-minhosong-mse-zyE8Bg",
+              "summary": "2개 파일 · 1.8KB",
+              "files": [
+                {
+                  "name": "P02-T07_Forward_Reverse_Parameter_Map.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O05/submissions/20260802125046-minhosong-mse-zyE8Bg/files/P02-T07_Forward_Reverse_Parameter_Map.csv",
+                  "size": 395
+                },
+                {
+                  "name": "P02-T07_Supplemental_Code_Consistency_Review.md",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T07/outputs/P02-T07-O05/submissions/20260802125046-minhosong-mse-zyE8Bg/files/P02-T07_Supplemental_Code_Consistency_Review.md",
+                  "size": 1418
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P02-T07"
         },
         {
@@ -6323,7 +6401,7 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-08-02T12:49:54Z",
+      "updatedAt": "2026-08-02T12:50:02Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 4
