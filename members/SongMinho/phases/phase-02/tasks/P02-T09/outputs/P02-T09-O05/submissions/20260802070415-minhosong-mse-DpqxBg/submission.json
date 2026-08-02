@@ -60,5 +60,19 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Mesh_Vd100_Long_Raw.csv",
       "size": 81660
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-02T07:04:15.917Z"
+      }
+    ],
+    "legacy": false
+  }
 }
