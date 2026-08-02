@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-02T06:58:02.577Z",
+  "updatedAt": "2026-08-02T06:58:14.058Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -1220,7 +1220,21 @@
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O02/submissions/20260802065802-minhosong-mse-Q083YA/files/P02-T09-O02_IdVg_Mesh_Vd100_Log.png",
             "size": 184839
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-02T06:58:02.577Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
