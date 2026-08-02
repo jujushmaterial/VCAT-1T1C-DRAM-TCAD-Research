@@ -1,0 +1,29 @@
+{
+  "submissionId": "20260802065851-minhosong-mse-6Y6-8g",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T09",
+  "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+  "outputId": "P02-T09-O03",
+  "outputText": "결과 오차율과 채택 메시 조건",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-02T06:58:51.722Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O03/submissions/20260802065851-minhosong-mse-6Y6-8g",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O03/submissions/20260802065851-minhosong-mse-6Y6-8g",
+  "summary": "2개 파일 · 3.0KB",
+  "files": [
+    {
+      "name": "P02-T09-O03_Mesh_Error_and_Selection.md",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O03/submissions/20260802065851-minhosong-mse-6Y6-8g/files/P02-T09-O03_Mesh_Error_and_Selection.md",
+      "size": 1950
+    },
+    {
+      "name": "P02-T09-O03_Mesh_Error_vs_Fine.csv",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O03/submissions/20260802065851-minhosong-mse-6Y6-8g/files/P02-T09-O03_Mesh_Error_vs_Fine.csv",
+      "size": 1075
+    }
+  ]
+}
