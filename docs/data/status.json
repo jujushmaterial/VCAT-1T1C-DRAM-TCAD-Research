@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:03:41+09:00",
+  "generatedAt": "2026-08-02T16:04:36+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3688,10 +3688,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 1,
+              "submissionCount": 2,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -3741,6 +3741,84 @@
                       "name": "P02-T09_Medium_Vd100_Merged_Raw.csv",
                       "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070321-minhosong-mse-VAAy4w/files/P02-T09_Medium_Vd100_Merged_Raw.csv",
                       "size": 24965
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-02T07:03:21.106Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260802070415-minhosong-mse-DpqxBg",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T09",
+                  "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+                  "outputId": "P02-T09-O05",
+                  "outputText": "도움될만한 데이터 (AI가 판단내릴때 필요할까봐 다 첨부하겠음)",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-02T07:04:15.917Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg",
+                  "summary": "9개 파일 · 372.8KB",
+                  "files": [
+                    {
+                      "name": "P02-T09_All_IdVg_Long_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_All_IdVg_Long_Raw.csv",
+                      "size": 155278
+                    },
+                    {
+                      "name": "P02-T09_Coarse_Vd005_Stages_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Coarse_Vd005_Stages_Raw.csv",
+                      "size": 11454
+                    },
+                    {
+                      "name": "P02-T09_Coarse_Vd100_Stages_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Coarse_Vd100_Stages_Raw.csv",
+                      "size": 12159
+                    },
+                    {
+                      "name": "P02-T09_Fine_Vd005_Stages_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Fine_Vd005_Stages_Raw.csv",
+                      "size": 11555
+                    },
+                    {
+                      "name": "P02-T09_Fine_Vd100_Stages_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Fine_Vd100_Stages_Raw.csv",
+                      "size": 13518
+                    },
+                    {
+                      "name": "P02-T09_Medium_Vd005_Stages_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Medium_Vd005_Stages_Raw.csv",
+                      "size": 11069
+                    },
+                    {
+                      "name": "P02-T09_Medium_Vd100_Stages_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Medium_Vd100_Stages_Raw.csv",
+                      "size": 11336
+                    },
+                    {
+                      "name": "P02-T09_Mesh_Vd005_Long_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Mesh_Vd005_Long_Raw.csv",
+                      "size": 73693
+                    },
+                    {
+                      "name": "P02-T09_Mesh_Vd100_Long_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Mesh_Vd100_Long_Raw.csv",
+                      "size": 81660
                     }
                   ],
                   "review": {
@@ -5765,10 +5843,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 1,
+          "submissionCount": 2,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -5818,6 +5896,84 @@
                   "name": "P02-T09_Medium_Vd100_Merged_Raw.csv",
                   "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070321-minhosong-mse-VAAy4w/files/P02-T09_Medium_Vd100_Merged_Raw.csv",
                   "size": 24965
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-02T07:03:21.106Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260802070415-minhosong-mse-DpqxBg",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T09",
+              "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+              "outputId": "P02-T09-O05",
+              "outputText": "도움될만한 데이터 (AI가 판단내릴때 필요할까봐 다 첨부하겠음)",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-02T07:04:15.917Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg",
+              "summary": "9개 파일 · 372.8KB",
+              "files": [
+                {
+                  "name": "P02-T09_All_IdVg_Long_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_All_IdVg_Long_Raw.csv",
+                  "size": 155278
+                },
+                {
+                  "name": "P02-T09_Coarse_Vd005_Stages_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Coarse_Vd005_Stages_Raw.csv",
+                  "size": 11454
+                },
+                {
+                  "name": "P02-T09_Coarse_Vd100_Stages_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Coarse_Vd100_Stages_Raw.csv",
+                  "size": 12159
+                },
+                {
+                  "name": "P02-T09_Fine_Vd005_Stages_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Fine_Vd005_Stages_Raw.csv",
+                  "size": 11555
+                },
+                {
+                  "name": "P02-T09_Fine_Vd100_Stages_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Fine_Vd100_Stages_Raw.csv",
+                  "size": 13518
+                },
+                {
+                  "name": "P02-T09_Medium_Vd005_Stages_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Medium_Vd005_Stages_Raw.csv",
+                  "size": 11069
+                },
+                {
+                  "name": "P02-T09_Medium_Vd100_Stages_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Medium_Vd100_Stages_Raw.csv",
+                  "size": 11336
+                },
+                {
+                  "name": "P02-T09_Mesh_Vd005_Long_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Mesh_Vd005_Long_Raw.csv",
+                  "size": 73693
+                },
+                {
+                  "name": "P02-T09_Mesh_Vd100_Long_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070415-minhosong-mse-DpqxBg/files/P02-T09_Mesh_Vd100_Long_Raw.csv",
+                  "size": 81660
                 }
               ],
               "review": {
