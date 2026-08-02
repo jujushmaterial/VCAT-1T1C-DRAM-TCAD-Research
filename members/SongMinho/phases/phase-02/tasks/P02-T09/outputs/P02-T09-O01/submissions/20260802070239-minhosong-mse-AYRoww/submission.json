@@ -22,5 +22,19 @@
     }
   ],
   "comment": "파라미터 설정한거",
-  "commentLabel": "제출 메모"
+  "commentLabel": "제출 메모",
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-02T07:02:39.273Z"
+      }
+    ],
+    "legacy": false
+  }
 }
