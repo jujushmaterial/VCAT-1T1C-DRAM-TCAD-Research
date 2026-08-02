@@ -30,5 +30,19 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070452-minhosong-mse-pIHvSQ/files/P02-T09_Node_Map.csv",
       "size": 330
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-02T07:04:52.222Z"
+      }
+    ],
+    "legacy": false
+  }
 }
