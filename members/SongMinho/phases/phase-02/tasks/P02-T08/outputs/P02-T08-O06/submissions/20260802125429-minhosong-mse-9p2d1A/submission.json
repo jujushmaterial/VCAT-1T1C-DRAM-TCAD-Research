@@ -30,5 +30,19 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125429-minhosong-mse-9p2d1A/files/P02-T08_Fine_Silicon_Field_Probe.png",
       "size": 357194
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-02T12:54:29.779Z"
+      }
+    ],
+    "legacy": false
+  }
 }
