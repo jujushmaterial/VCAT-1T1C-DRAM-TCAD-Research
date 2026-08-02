@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-02T12:53:47.890Z",
+  "updatedAt": "2026-08-02T12:54:01.933Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -1830,7 +1830,21 @@
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125347-minhosong-mse-pLgxww/files/P02-T08_Coarse_Silicon_Field_Probe_Raw.png",
             "size": 337785
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-02T12:53:47.890Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
