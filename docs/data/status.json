@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T15:59:06+09:00",
+  "generatedAt": "2026-08-02T15:59:51+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -1596,9 +1596,9 @@
       "tasksTotal": 9,
       "issueTasksDone": 8,
       "outputsDone": 25,
-      "outputsTotal": 28,
+      "outputsTotal": 30,
       "requiredOutputsDone": 25,
-      "requiredOutputsTotal": 28,
+      "requiredOutputsTotal": 30,
       "tasks": [
         {
           "id": "P02-T01",
@@ -3496,24 +3496,65 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-02T06:58:51.722Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
+            },
+            {
+              "id": "P02-T09-O04",
+              "text": "메시 조건별 구조 이미지",
+              "type": "files",
+              "review": "recommended",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
+            },
+            {
+              "id": "P02-T09-O05",
+              "text": "도움될만한 데이터 (AI가 판단내릴때 필요할까봐 다 첨부하겠음)",
+              "type": "files",
+              "review": "recommended",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 3,
+          "requiredOutputsTotal": 5,
           "outputsDone": 0,
-          "outputsTotal": 3,
+          "outputsTotal": 5,
           "missingRequiredOutputs": [
             "P02-T09-O01",
             "P02-T09-O02",
-            "P02-T09-O03"
+            "P02-T09-O03",
+            "P02-T09-O04",
+            "P02-T09-O05"
           ],
           "checkboxDrift": false
         }
@@ -5317,19 +5358,60 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-02T06:58:51.722Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
+          "taskId": "P02-T09"
+        },
+        {
+          "id": "P02-T09-O04",
+          "text": "메시 조건별 구조 이미지",
+          "type": "files",
+          "review": "recommended",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P02-T09"
+        },
+        {
+          "id": "P02-T09-O05",
+          "text": "도움될만한 데이터 (AI가 판단내릴때 필요할까봐 다 첨부하겠음)",
+          "type": "files",
+          "review": "recommended",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
           "taskId": "P02-T09"
         }
       ],
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-08-01T08:41:02Z",
+      "updatedAt": "2026-08-02T06:59:44Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 2
