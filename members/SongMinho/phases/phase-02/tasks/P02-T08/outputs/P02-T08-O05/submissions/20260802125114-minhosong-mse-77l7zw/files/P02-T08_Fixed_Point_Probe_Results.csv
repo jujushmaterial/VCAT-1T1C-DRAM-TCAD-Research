@@ -1,0 +1,4 @@
+Mesh,MeshScale,SDeviceNode,Silicon_fixed_X_um,Silicon_fixed_Y_um,Silicon_region,Silicon_Efield_V_per_cm,Silicon_BTBT_cm-3_s-1,Oxide_fixed_X_um,Oxide_fixed_Y_um,Oxide_region,Oxide_Efield_V_per_cm
+Coarse,2.0,n69,0.0199,0.0059,R.SN,2.259982479250E+06,3.413084750810E+24,0.0201,0.0061,R.GateOxide,5.040670933830E+06
+Medium,1.0,n33,0.0199,0.0059,R.SN,2.518677936730E+06,4.324316872020E+24,0.0201,0.0061,R.GateOxide,5.171054598490E+06
+Fine,0.5,n53,0.0199,0.0059,R.SN,2.658727817190E+06,4.347687433060E+24,0.0201,0.0061,R.GateOxide,6.329164345470E+06

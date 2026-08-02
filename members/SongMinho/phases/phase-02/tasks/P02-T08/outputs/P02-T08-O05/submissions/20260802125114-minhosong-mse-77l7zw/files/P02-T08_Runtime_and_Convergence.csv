@@ -1,0 +1,4 @@
+Mesh,MeshScale,SDeviceNode,Runtime_s,Runtime_hms,PeakMemory_MB,FinalGate_V,FinalStorage_V,Status
+Coarse,2.0,n69,115.87,00:01:55,131,-0.4,1.0,Curve trace finished
+Medium,1.0,n33,321.40,00:05:21,147,-0.4,1.0,Curve trace finished
+Fine,0.5,n53,1008.88,00:16:48,214,-0.4,1.0,Curve trace finished

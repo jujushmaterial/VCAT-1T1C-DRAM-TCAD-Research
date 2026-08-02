@@ -1,0 +1,4 @@
+Mesh,MeshScale,SDE_Mesh_Node,SDevice_GIDL_Node,GridFile,BiasCondition
+Medium,1.0,n1,n33,n1_msh.tdr,storage=+1.0 V; gate=0 to -0.4 V; bitline=0 V
+Fine,0.5,n38,n53,n38_msh.tdr,storage=+1.0 V; gate=0 to -0.4 V; bitline=0 V
+Coarse,2.0,n54,n69,n54_msh.tdr,storage=+1.0 V; gate=0 to -0.4 V; bitline=0 V
