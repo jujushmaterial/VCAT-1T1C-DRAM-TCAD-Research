@@ -30,5 +30,19 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125540-minhosong-mse-dAs9QA/files/P02-T08_Medium_Silicon_Field_Probe_and_Cutline.png",
       "size": 371854
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-02T12:55:40.195Z"
+      }
+    ],
+    "legacy": false
+  }
 }
