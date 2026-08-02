@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T17:41:45+09:00",
+  "generatedAt": "2026-08-02T15:56:43+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3324,13 +3324,57 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260802065627-minhosong-mse-X-GnSw",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T09",
+                  "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+                  "outputId": "P02-T09-O01",
+                  "outputText": "메시 조건별 결과 비교표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-02T06:56:27.898Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802065627-minhosong-mse-X-GnSw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802065627-minhosong-mse-X-GnSw",
+                  "summary": "3개 파일 · 2.3KB",
+                  "files": [
+                    {
+                      "name": "P02-T09-O01_DC_Metrics.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802065627-minhosong-mse-X-GnSw/files/P02-T09-O01_DC_Metrics.csv",
+                      "size": 824
+                    },
+                    {
+                      "name": "P02-T09-O01_Mesh_Comparison.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802065627-minhosong-mse-X-GnSw/files/P02-T09-O01_Mesh_Comparison.csv",
+                      "size": 1120
+                    },
+                    {
+                      "name": "P02-T09-O01_Mesh_Statistics.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802065627-minhosong-mse-X-GnSw/files/P02-T09-O01_Mesh_Statistics.csv",
+                      "size": 416
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P02-T09-O02",
@@ -3368,7 +3412,7 @@
             }
           ],
           "checked": false,
-          "state": "not-started",
+          "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 3,
           "outputsDone": 0,
@@ -5006,13 +5050,57 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260802065627-minhosong-mse-X-GnSw",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T09",
+              "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+              "outputId": "P02-T09-O01",
+              "outputText": "메시 조건별 결과 비교표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-02T06:56:27.898Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802065627-minhosong-mse-X-GnSw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802065627-minhosong-mse-X-GnSw",
+              "summary": "3개 파일 · 2.3KB",
+              "files": [
+                {
+                  "name": "P02-T09-O01_DC_Metrics.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802065627-minhosong-mse-X-GnSw/files/P02-T09-O01_DC_Metrics.csv",
+                  "size": 824
+                },
+                {
+                  "name": "P02-T09-O01_Mesh_Comparison.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802065627-minhosong-mse-X-GnSw/files/P02-T09-O01_Mesh_Comparison.csv",
+                  "size": 1120
+                },
+                {
+                  "name": "P02-T09-O01_Mesh_Statistics.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802065627-minhosong-mse-X-GnSw/files/P02-T09-O01_Mesh_Statistics.csv",
+                  "size": 416
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P02-T09"
         },
         {
