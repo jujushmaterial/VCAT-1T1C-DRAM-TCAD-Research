@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260802125737-minhosong-mse-VDtlpQ",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T08",
+  "taskText": "누설 전류와 전계 분포를 확인한다.",
+  "outputId": "P02-T08-O07",
+  "outputText": "피드백 내용 추가(코드)",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "code",
+  "uploadedAt": "2026-08-02T12:57:37.063Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O07/submissions/20260802125737-minhosong-mse-VDtlpQ",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O07/submissions/20260802125737-minhosong-mse-VDtlpQ",
+  "summary": "1개 코드 파일 · 2.8KB",
+  "files": [
+    {
+      "name": "P02-T08-Single-WF-VCAT-GIDL-and-Electric-Field-Analysis.cmd",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O07/submissions/20260802125737-minhosong-mse-VDtlpQ/source/P02-T08-Single-WF-VCAT-GIDL-and-Electric-Field-Analysis.cmd",
+      "size": 2832
+    }
+  ]
+}
