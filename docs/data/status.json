@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-02T18:18:55+09:00",
+  "generatedAt": "2026-08-02T21:50:03+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 8,
+  "overallProgress": 6,
   "phases": [
     {
       "id": 1,
@@ -1591,14 +1591,14 @@
       "id": 2,
       "issueNumber": 2,
       "state": "in-progress",
-      "progress": 89,
-      "tasksDone": 8,
+      "progress": 67,
+      "tasksDone": 6,
       "tasksTotal": 9,
-      "issueTasksDone": 8,
+      "issueTasksDone": 6,
       "outputsDone": 25,
-      "outputsTotal": 31,
+      "outputsTotal": 34,
       "requiredOutputsDone": 25,
-      "requiredOutputsTotal": 31,
+      "requiredOutputsTotal": 34,
       "tasks": [
         {
           "id": "P02-T01",
@@ -2695,7 +2695,7 @@
         {
           "id": "P02-T07",
           "text": "위→아래와 아래→위 전류를 확인한다.",
-          "declaredChecked": true,
+          "declaredChecked": false,
           "outputs": [
             {
               "id": "P02-T07-O01",
@@ -2993,21 +2993,40 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "P02-T07-O05",
+              "text": "피드백 내용 추가",
+              "type": "files",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
-          "checked": true,
-          "state": "completed",
+          "checked": false,
+          "state": "in-progress",
           "requiredOutputsDone": 4,
-          "requiredOutputsTotal": 4,
+          "requiredOutputsTotal": 5,
           "outputsDone": 4,
-          "outputsTotal": 4,
-          "missingRequiredOutputs": [],
+          "outputsTotal": 5,
+          "missingRequiredOutputs": [
+            "P02-T07-O05"
+          ],
           "checkboxDrift": false
         },
         {
           "id": "P02-T08",
           "text": "누설 전류와 전계 분포를 확인한다.",
-          "declaredChecked": true,
+          "declaredChecked": false,
           "outputs": [
             {
               "id": "P02-T08-O01",
@@ -3299,15 +3318,34 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "P02-T08-O05",
+              "text": "피드백 내용 추가",
+              "type": "files",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
-          "checked": true,
-          "state": "completed",
+          "checked": false,
+          "state": "in-progress",
           "requiredOutputsDone": 4,
-          "requiredOutputsTotal": 4,
+          "requiredOutputsTotal": 5,
           "outputsDone": 4,
-          "outputsTotal": 4,
-          "missingRequiredOutputs": [],
+          "outputsTotal": 5,
+          "missingRequiredOutputs": [
+            "P02-T08-O05"
+          ],
           "checkboxDrift": false
         },
         {
@@ -3941,21 +3979,39 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "P02-T09-O07",
+              "text": "피드백 내용 추가",
+              "type": "files",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 6,
+          "requiredOutputsTotal": 7,
           "outputsDone": 0,
-          "outputsTotal": 6,
+          "outputsTotal": 7,
           "missingRequiredOutputs": [
             "P02-T09-O01",
             "P02-T09-O02",
             "P02-T09-O03",
             "P02-T09-O04",
             "P02-T09-O05",
-            "P02-T09-O06"
+            "P02-T09-O06",
+            "P02-T09-O07"
           ],
           "checkboxDrift": false
         }
@@ -5282,6 +5338,24 @@
           "taskId": "P02-T07"
         },
         {
+          "id": "P02-T07-O05",
+          "text": "피드백 내용 추가",
+          "type": "files",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P02-T07"
+        },
+        {
           "id": "P02-T08-O01",
           "text": "GIDL 그래프",
           "type": "files",
@@ -5574,6 +5648,24 @@
               }
             }
           ],
+          "taskId": "P02-T08"
+        },
+        {
+          "id": "P02-T08-O05",
+          "text": "피드백 내용 추가",
+          "type": "files",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
           "taskId": "P02-T08"
         },
         {
@@ -6208,15 +6300,33 @@
             }
           ],
           "taskId": "P02-T09"
+        },
+        {
+          "id": "P02-T09-O07",
+          "text": "피드백 내용 추가",
+          "type": "files",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P02-T09"
         }
       ],
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-08-02T07:05:37Z",
+      "updatedAt": "2026-08-02T12:49:54Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 2
+      "integrityWarnings": 4
     },
     {
       "id": 3,
