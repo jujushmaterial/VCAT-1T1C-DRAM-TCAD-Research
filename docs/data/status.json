@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:00:53+09:00",
+  "generatedAt": "2026-08-02T16:01:41+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3572,14 +3572,21 @@
                       "size": 77163
                     }
                   ],
+                  "comment": "파라미터 어떻게 설정했는지랑, 각각 전체/확대 메시 이미지",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-02T07:00:32.711Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -5494,14 +5501,21 @@
                   "size": 77163
                 }
               ],
+              "comment": "파라미터 어떻게 설정했는지랑, 각각 전체/확대 메시 이미지",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-02T07:00:32.711Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
