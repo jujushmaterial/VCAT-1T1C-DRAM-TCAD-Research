@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-02T12:54:42.456Z",
+  "updatedAt": "2026-08-02T12:55:08.965Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -1893,6 +1893,35 @@
           ],
           "legacy": false
         }
+      },
+      {
+        "submissionId": "20260802125508-minhosong-mse-q_r1og",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T08",
+        "taskText": "누설 전류와 전계 분포를 확인한다.",
+        "outputId": "P02-T08-O06",
+        "outputText": "피드백 내용 추가(이미지)",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-02T12:55:08.965Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125508-minhosong-mse-q_r1og",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125508-minhosong-mse-q_r1og",
+        "summary": "2개 파일 · 177.6KB",
+        "files": [
+          {
+            "name": "P02-T08_GIDL_Mesh_Comparison_Linear.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125508-minhosong-mse-q_r1og/files/P02-T08_GIDL_Mesh_Comparison_Linear.png",
+            "size": 93548
+          },
+          {
+            "name": "P02-T08_GIDL_Mesh_Comparison_Log.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125508-minhosong-mse-q_r1og/files/P02-T08_GIDL_Mesh_Comparison_Log.png",
+            "size": 88304
+          }
+        ]
       }
     ]
   }
