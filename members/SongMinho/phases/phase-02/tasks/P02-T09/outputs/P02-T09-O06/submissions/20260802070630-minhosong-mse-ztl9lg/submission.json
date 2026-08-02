@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260802070630-minhosong-mse-ztl9lg",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T09",
+  "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+  "outputId": "P02-T09-O06",
+  "outputText": "사용 코드",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "code",
+  "uploadedAt": "2026-08-02T07:06:30.152Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O06/submissions/20260802070630-minhosong-mse-ztl9lg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O06/submissions/20260802070630-minhosong-mse-ztl9lg",
+  "summary": "1개 코드 파일 · 3.2KB",
+  "files": [
+    {
+      "name": "P2T09_SDEVICE.cmd",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O06/submissions/20260802070630-minhosong-mse-ztl9lg/source/P2T09_SDEVICE.cmd",
+      "size": 3236
+    }
+  ]
+}
