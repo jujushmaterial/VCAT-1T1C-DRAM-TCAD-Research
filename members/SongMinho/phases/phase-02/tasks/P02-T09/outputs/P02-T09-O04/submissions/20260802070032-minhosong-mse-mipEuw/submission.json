@@ -1,0 +1,49 @@
+{
+  "submissionId": "20260802070032-minhosong-mse-mipEuw",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T09",
+  "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+  "outputId": "P02-T09-O04",
+  "outputText": "메시 조건별 구조 이미지",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-02T07:00:32.711Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070032-minhosong-mse-mipEuw",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070032-minhosong-mse-mipEuw",
+  "summary": "6개 파일 · 508.1KB",
+  "files": [
+    {
+      "name": "P02-T09_Coarse_Mesh_Full.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070032-minhosong-mse-mipEuw/files/P02-T09_Coarse_Mesh_Full.png",
+      "size": 82416
+    },
+    {
+      "name": "P02-T09_Coarse_Mesh_UpperJunction_Zoom.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070032-minhosong-mse-mipEuw/files/P02-T09_Coarse_Mesh_UpperJunction_Zoom.png",
+      "size": 86475
+    },
+    {
+      "name": "P02-T09_Fine_Mesh_Full.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070032-minhosong-mse-mipEuw/files/P02-T09_Fine_Mesh_Full.png",
+      "size": 85623
+    },
+    {
+      "name": "P02-T09_Fine_Mesh_UpperJunction_Zoom.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070032-minhosong-mse-mipEuw/files/P02-T09_Fine_Mesh_UpperJunction_Zoom.png",
+      "size": 96266
+    },
+    {
+      "name": "P02-T09_Medium_Mesh_Full.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070032-minhosong-mse-mipEuw/files/P02-T09_Medium_Mesh_Full.png",
+      "size": 92341
+    },
+    {
+      "name": "P02-T09_Medium_Mesh_UpperJunction_Zoom.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O04/submissions/20260802070032-minhosong-mse-mipEuw/files/P02-T09_Medium_Mesh_UpperJunction_Zoom.png",
+      "size": 77163
+    }
+  ]
+}
