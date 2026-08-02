@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:56:05+09:00",
+  "generatedAt": "2026-08-02T21:57:14+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3481,10 +3481,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 4,
+              "submissionCount": 5,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 4,
+              "pendingReviewCount": 5,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -3653,6 +3653,44 @@
                       "name": "P02-T08_Medium_Silicon_Field_Probe_and_Cutline.png",
                       "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125540-minhosong-mse-dAs9QA/files/P02-T08_Medium_Silicon_Field_Probe_and_Cutline.png",
                       "size": 371854
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-02T12:55:40.195Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260802125654-minhosong-mse-g7T5Uw",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T08",
+                  "taskText": "누설 전류와 전계 분포를 확인한다.",
+                  "outputId": "P02-T08-O06",
+                  "outputText": "피드백 내용 추가(이미지)",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-02T12:56:54.440Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125654-minhosong-mse-g7T5Uw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125654-minhosong-mse-g7T5Uw",
+                  "summary": "1개 파일 · 28.1KB",
+                  "files": [
+                    {
+                      "name": "P02-T08_SWB_GIDL_Mesh_Split.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125654-minhosong-mse-g7T5Uw/files/P02-T08_SWB_GIDL_Mesh_Split.png",
+                      "size": 28725
                     }
                   ],
                   "review": {
@@ -6181,10 +6219,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 4,
+          "submissionCount": 5,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 4,
+          "pendingReviewCount": 5,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -6353,6 +6391,44 @@
                   "name": "P02-T08_Medium_Silicon_Field_Probe_and_Cutline.png",
                   "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125540-minhosong-mse-dAs9QA/files/P02-T08_Medium_Silicon_Field_Probe_and_Cutline.png",
                   "size": 371854
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-02T12:55:40.195Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260802125654-minhosong-mse-g7T5Uw",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T08",
+              "taskText": "누설 전류와 전계 분포를 확인한다.",
+              "outputId": "P02-T08-O06",
+              "outputText": "피드백 내용 추가(이미지)",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-02T12:56:54.440Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125654-minhosong-mse-g7T5Uw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125654-minhosong-mse-g7T5Uw",
+              "summary": "1개 파일 · 28.1KB",
+              "files": [
+                {
+                  "name": "P02-T08_SWB_GIDL_Mesh_Split.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125654-minhosong-mse-g7T5Uw/files/P02-T08_SWB_GIDL_Mesh_Split.png",
+                  "size": 28725
                 }
               ],
               "review": {
