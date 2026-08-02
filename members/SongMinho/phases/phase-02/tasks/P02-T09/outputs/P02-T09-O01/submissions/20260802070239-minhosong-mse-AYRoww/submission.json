@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260802070239-minhosong-mse-AYRoww",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T09",
+  "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+  "outputId": "P02-T09-O01",
+  "outputText": "메시 조건별 결과 비교표",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-02T07:02:39.273Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802070239-minhosong-mse-AYRoww",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802070239-minhosong-mse-AYRoww",
+  "summary": "1개 파일 · 74.1KB",
+  "files": [
+    {
+      "name": "P02-T09_SWB_Mesh_Split.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O01/submissions/20260802070239-minhosong-mse-AYRoww/files/P02-T09_SWB_Mesh_Split.png",
+      "size": 75837
+    }
+  ]
+}
