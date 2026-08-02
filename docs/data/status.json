@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:04:36+09:00",
+  "generatedAt": "2026-08-02T16:05:18+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3688,10 +3688,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 2,
+              "submissionCount": 3,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "pendingReviewCount": 3,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -3826,9 +3826,62 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-02T07:04:15.917Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260802070452-minhosong-mse-pIHvSQ",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T09",
+                  "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+                  "outputId": "P02-T09-O05",
+                  "outputText": "도움될만한 데이터 (AI가 판단내릴때 필요할까봐 다 첨부하겠음)",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-02T07:04:52.222Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070452-minhosong-mse-pIHvSQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070452-minhosong-mse-pIHvSQ",
+                  "summary": "3개 파일 · 3.1KB",
+                  "files": [
+                    {
+                      "name": "P02-T09_Image_SHA256_Manifest.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070452-minhosong-mse-pIHvSQ/files/P02-T09_Image_SHA256_Manifest.csv",
+                      "size": 2137
+                    },
+                    {
+                      "name": "P02-T09_Medium_Solver_Validation.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070452-minhosong-mse-pIHvSQ/files/P02-T09_Medium_Solver_Validation.csv",
+                      "size": 706
+                    },
+                    {
+                      "name": "P02-T09_Node_Map.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070452-minhosong-mse-pIHvSQ/files/P02-T09_Node_Map.csv",
+                      "size": 330
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-02T07:04:52.222Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -5843,10 +5896,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 2,
+          "submissionCount": 3,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "pendingReviewCount": 3,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -5981,9 +6034,62 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-02T07:04:15.917Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260802070452-minhosong-mse-pIHvSQ",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T09",
+              "taskText": "메시를 바꾸어 결과가 안정적인지 확인한다.",
+              "outputId": "P02-T09-O05",
+              "outputText": "도움될만한 데이터 (AI가 판단내릴때 필요할까봐 다 첨부하겠음)",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-02T07:04:52.222Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070452-minhosong-mse-pIHvSQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070452-minhosong-mse-pIHvSQ",
+              "summary": "3개 파일 · 3.1KB",
+              "files": [
+                {
+                  "name": "P02-T09_Image_SHA256_Manifest.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070452-minhosong-mse-pIHvSQ/files/P02-T09_Image_SHA256_Manifest.csv",
+                  "size": 2137
+                },
+                {
+                  "name": "P02-T09_Medium_Solver_Validation.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070452-minhosong-mse-pIHvSQ/files/P02-T09_Medium_Solver_Validation.csv",
+                  "size": 706
+                },
+                {
+                  "name": "P02-T09_Node_Map.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T09/outputs/P02-T09-O05/submissions/20260802070452-minhosong-mse-pIHvSQ/files/P02-T09_Node_Map.csv",
+                  "size": 330
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-02T07:04:52.222Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
