@@ -16,8 +16,15 @@
       const safety = document.createElement("p");
       safety.className = "submission-viewer__read-safety";
       safety.textContent = "기존 제출 파일과 검토 기록은 변경되지 않았습니다. 잠시 후 다시 시도하거나 GitHub 원본을 이용해 주세요.";
-      const actionHost = panel.querySelector("div") || panel;
-      panel.insertBefore(safety, actionHost);
+
+      let actionHost = panel.querySelector("div");
+      if (actionHost) {
+        panel.insertBefore(safety, actionHost);
+      } else {
+        panel.append(safety);
+        actionHost = document.createElement("div");
+        panel.append(actionHost);
+      }
 
       if (!panel.querySelector("[data-viewer-read-retry]")) {
         const retry = document.createElement("button");
