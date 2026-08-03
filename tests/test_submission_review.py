@@ -13,7 +13,7 @@ class SubmissionReviewContractTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.worker = read("worker/src/v11.js")
-        cls.raw_worker = read("worker/src/v12.js")
+        cls.static_worker = read("worker/src/v13.js")
         cls.ui = read("docs/submission-review.js")
         cls.css = read("docs/submission-review.css")
         cls.state_ui = read("docs/review-state-ui.js")
@@ -76,9 +76,9 @@ class SubmissionReviewContractTests(unittest.TestCase):
         self.assertIn('src="submission-review.js"', self.index)
         self.assertLess(self.index.index('src="research-state-ui.js"'), self.index.index('src="review-state-ui.js"'))
         self.assertLess(self.index.index('src="submission-viewer-comments.js"'), self.index.index('src="submission-review.js"'))
-        self.assertIn('import v11, { __test as reviewTest } from "./v11.js"', self.raw_worker)
-        self.assertIn("reviewTest.reviewPermissions", self.raw_worker)
-        self.assertIn('main = "src/v12.js"', read("worker/wrangler.toml"))
+        self.assertIn('import v11, { __test as reviewTest } from "./v11.js"', self.static_worker)
+        self.assertIn("reviewTest.reviewPermissions", self.static_worker)
+        self.assertIn('main = "src/v13.js"', read("worker/wrangler.toml"))
 
 
 if __name__ == "__main__":
