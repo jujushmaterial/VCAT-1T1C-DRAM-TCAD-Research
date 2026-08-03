@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T23:34:48+09:00",
+  "generatedAt": "2026-08-03T23:37:42+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -1595,9 +1595,9 @@
       "tasksDone": 7,
       "tasksTotal": 9,
       "issueTasksDone": 7,
-      "outputsDone": 26,
+      "outputsDone": 27,
       "outputsTotal": 37,
-      "requiredOutputsDone": 26,
+      "requiredOutputsDone": 27,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -3375,13 +3375,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 2,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260802125114-minhosong-mse-77l7zw",
@@ -3465,15 +3465,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-03T14:37:21.521Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-02T12:52:01.036Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-03T14:37:21.521Z"
                       }
                     ],
                     "legacy": false
@@ -3853,12 +3858,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 4,
+          "requiredOutputsDone": 5,
           "requiredOutputsTotal": 8,
-          "outputsDone": 4,
+          "outputsDone": 5,
           "outputsTotal": 8,
           "missingRequiredOutputs": [
-            "P02-T08-O05",
             "P02-T08-O06",
             "P02-T08-O07",
             "P02-T08-O08"
@@ -6264,13 +6268,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 2,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260802125114-minhosong-mse-77l7zw",
@@ -6354,15 +6358,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-03T14:37:21.521Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-02T12:52:01.036Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-03T14:37:21.521Z"
                   }
                 ],
                 "legacy": false
@@ -7437,7 +7446,7 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-08-02T13:01:54Z",
+      "updatedAt": "2026-08-03T14:34:48Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 3
