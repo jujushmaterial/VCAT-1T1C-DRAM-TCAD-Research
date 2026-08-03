@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T23:37:42+09:00",
+  "generatedAt": "2026-08-03T23:38:33+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -1595,9 +1595,9 @@
       "tasksDone": 7,
       "tasksTotal": 9,
       "issueTasksDone": 7,
-      "outputsDone": 27,
+      "outputsDone": 28,
       "outputsTotal": 37,
-      "requiredOutputsDone": 27,
+      "requiredOutputsDone": 28,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -3377,9 +3377,9 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 2,
-              "evidenceSubmissionCount": 1,
-              "approvedSubmissionCount": 1,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 2,
+              "approvedSubmissionCount": 2,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -3427,15 +3427,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-03T14:37:35.758Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-02T12:51:14.861Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-03T14:37:35.758Z"
                       }
                     ],
                     "legacy": false
@@ -3756,13 +3761,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260802125737-minhosong-mse-VDtlpQ",
@@ -3788,13 +3793,24 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-03T14:38:21.274Z",
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-02T12:57:37.063Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-03T14:38:21.274Z",
+                        "note": "Coarse·Medium·Fine에서 bias, WF, 온도, physics와 solver를 동일하게 유지하고 입력 mesh만 변경한 비교 구조입니다. T08과 T09가 서로 다른 bias와 물리량을 검증하기 때문에 코드가 다른 것도 정상입니다.\n\n이 코드는 결과가 완전 수렴했음을 증명하는 것이 아니라, 관찰된 차이가 조건 변경이 아니라 mesh 변화에서 왔음을 증명합니다."
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -3858,13 +3874,12 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 5,
+          "requiredOutputsDone": 6,
           "requiredOutputsTotal": 8,
-          "outputsDone": 5,
+          "outputsDone": 6,
           "outputsTotal": 8,
           "missingRequiredOutputs": [
             "P02-T08-O06",
-            "P02-T08-O07",
             "P02-T08-O08"
           ],
           "checkboxDrift": false
@@ -6270,9 +6285,9 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 2,
-          "evidenceSubmissionCount": 1,
-          "approvedSubmissionCount": 1,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 2,
+          "approvedSubmissionCount": 2,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -6320,15 +6335,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-03T14:37:35.758Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-02T12:51:14.861Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-03T14:37:35.758Z"
                   }
                 ],
                 "legacy": false
@@ -6651,13 +6671,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260802125737-minhosong-mse-VDtlpQ",
@@ -6683,13 +6703,24 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-03T14:38:21.274Z",
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-02T12:57:37.063Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-03T14:38:21.274Z",
+                    "note": "Coarse·Medium·Fine에서 bias, WF, 온도, physics와 solver를 동일하게 유지하고 입력 mesh만 변경한 비교 구조입니다. T08과 T09가 서로 다른 bias와 물리량을 검증하기 때문에 코드가 다른 것도 정상입니다.\n\n이 코드는 결과가 완전 수렴했음을 증명하는 것이 아니라, 관찰된 차이가 조건 변경이 아니라 mesh 변화에서 왔음을 증명합니다."
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
