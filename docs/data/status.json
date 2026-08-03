@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T23:40:32+09:00",
+  "generatedAt": "2026-08-04T00:06:52+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -4273,9 +4273,9 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 3,
-              "evidenceSubmissionCount": 1,
-              "approvedSubmissionCount": 1,
-              "pendingReviewCount": 2,
+              "evidenceSubmissionCount": 2,
+              "approvedSubmissionCount": 2,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -4459,15 +4459,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-03T15:06:35.051Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-02T07:04:52.222Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-03T15:06:35.051Z",
+                        "note": "O05는 결론을 주장하는 산출물이라기보다 다음의 재현 증거입니다.\n\n여섯 개 Id–Vg 원본\nsegmented stage data\nnode mapping\nMedium 기존 결과와 새 실행 비교\n이미지 SHA manifest\n\n기존 Medium 결과와 새 계산의 차이도 매우 작습니다.\n\nVth: 약 0.004 mV 이하\nIon: 약 0.012% 이하\nSS: 약 0.15–0.19%"
                       }
                     ],
                     "legacy": false
@@ -7186,9 +7192,9 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 3,
-          "evidenceSubmissionCount": 1,
-          "approvedSubmissionCount": 1,
-          "pendingReviewCount": 2,
+          "evidenceSubmissionCount": 2,
+          "approvedSubmissionCount": 2,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -7372,15 +7378,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-03T15:06:35.051Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-02T07:04:52.222Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-03T15:06:35.051Z",
+                    "note": "O05는 결론을 주장하는 산출물이라기보다 다음의 재현 증거입니다.\n\n여섯 개 Id–Vg 원본\nsegmented stage data\nnode mapping\nMedium 기존 결과와 새 실행 비교\n이미지 SHA manifest\n\n기존 Medium 결과와 새 계산의 차이도 매우 작습니다.\n\nVth: 약 0.004 mV 이하\nIon: 약 0.012% 이하\nSS: 약 0.15–0.19%"
                   }
                 ],
                 "legacy": false
