@@ -22,6 +22,7 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertIn('src="submission-viewer-polish.js"', html)
         self.assertIn('src="submission-viewer-comments.js"', html)
         self.assertIn('src="submission-review.js"', html)
+        self.assertIn('src="submission-viewer-read-errors.js"', html)
         self.assertIn('src="spreadsheet-v3.js"', html)
         self.assertIn('src="review-state-ui.js"', html)
         self.assertLess(html.index('src="spreadsheet-v3.js"'), html.index('src="submission-viewer.js"'))
@@ -29,6 +30,7 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertLess(html.index('src="submission-viewer.js"'), html.index('src="submission-viewer-polish.js"'))
         self.assertLess(html.index('src="submission-viewer-polish.js"'), html.index('src="submission-viewer-comments.js"'))
         self.assertLess(html.index('src="submission-viewer-comments.js"'), html.index('src="submission-review.js"'))
+        self.assertLess(html.index('src="submission-review.js"'), html.index('src="submission-viewer-read-errors.js"'))
 
     def test_core_viewer_features_remain_available(self):
         js = read("docs/submission-viewer.js")
@@ -52,11 +54,12 @@ class SubmissionViewerContractTests(unittest.TestCase):
         ):
             self.assertIn(token, js)
 
-    def test_worker_routes_spreadsheet_and_review_contract(self):
+    def test_worker_routes_spreadsheet_review_and_raw_read_contract(self):
         worker = read("worker/src/v8.js")
         comments = read("worker/src/v9.js")
         spreadsheets = read("worker/src/v10.js")
         reviews = read("worker/src/v11.js")
+        raw_reads = read("worker/src/v12.js")
         self.assertIn("/api\\/submissions", worker)
         self.assertIn("manifestRoute", worker)
         self.assertIn("fileRoute", worker)
@@ -72,7 +75,10 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertIn('import v10 from "./v10.js"', reviews)
         self.assertIn('/review$/', reviews)
         self.assertIn("reviewPermissions", reviews)
-        self.assertIn('main = "src/v11.js"', read("worker/wrangler.toml"))
+        self.assertIn('import v11, { __test as reviewTest } from "./v11.js"', raw_reads)
+        self.assertIn("raw.githubusercontent.com", raw_reads)
+        self.assertIn('"X-GitHub-User-Token-Used": "false"', raw_reads)
+        self.assertIn('main = "src/v12.js"', read("worker/wrangler.toml"))
 
     def test_existing_submission_index_has_viewer_safe_examples(self):
         import json
