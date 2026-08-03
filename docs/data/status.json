@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-04T00:10:26+09:00",
+  "generatedAt": "2026-08-04T00:12:45+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 7,
+  "overallProgress": 8,
   "phases": [
     {
       "id": 1,
@@ -1591,13 +1591,13 @@
       "id": 2,
       "issueNumber": 2,
       "state": "in-progress",
-      "progress": 78,
-      "tasksDone": 7,
+      "progress": 89,
+      "tasksDone": 8,
       "tasksTotal": 9,
-      "issueTasksDone": 7,
-      "outputsDone": 32,
+      "issueTasksDone": 8,
+      "outputsDone": 33,
       "outputsTotal": 37,
-      "requiredOutputsDone": 32,
+      "requiredOutputsDone": 33,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -3074,7 +3074,7 @@
         {
           "id": "P02-T08",
           "text": "누설 전류와 전계 분포를 확인한다.",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P02-T08-O01",
@@ -3499,13 +3499,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 5,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
               "pendingReviewCount": 1,
-              "heldSubmissionCount": 4,
-              "state": "held",
+              "heldSubmissionCount": 3,
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260802125347-minhosong-mse-pLgxww",
@@ -3731,10 +3731,10 @@
                     }
                   ],
                   "review": {
-                    "status": "held",
+                    "status": "approved",
                     "reviewer": "jujushmaterial",
-                    "reviewedAt": "2026-08-03T09:15:35.204Z",
-                    "reason": "이거 각 변수 설명좀 부탁해요",
+                    "reviewedAt": "2026-08-03T15:08:52.046Z",
+                    "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
@@ -3746,6 +3746,11 @@
                         "reviewer": "jujushmaterial",
                         "at": "2026-08-03T09:15:35.204Z",
                         "reason": "이거 각 변수 설명좀 부탁해요"
+                      },
+                      {
+                        "action": "approved-after-hold",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-03T15:08:52.046Z"
                       }
                     ],
                     "legacy": false
@@ -3883,15 +3888,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 7,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 8,
           "requiredOutputsTotal": 8,
-          "outputsDone": 7,
+          "outputsDone": 8,
           "outputsTotal": 8,
-          "missingRequiredOutputs": [
-            "P02-T08-O06"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -6443,13 +6446,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 5,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
           "pendingReviewCount": 1,
-          "heldSubmissionCount": 4,
-          "state": "held",
+          "heldSubmissionCount": 3,
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260802125347-minhosong-mse-pLgxww",
@@ -6675,10 +6678,10 @@
                 }
               ],
               "review": {
-                "status": "held",
+                "status": "approved",
                 "reviewer": "jujushmaterial",
-                "reviewedAt": "2026-08-03T09:15:35.204Z",
-                "reason": "이거 각 변수 설명좀 부탁해요",
+                "reviewedAt": "2026-08-03T15:08:52.046Z",
+                "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
@@ -6690,6 +6693,11 @@
                     "reviewer": "jujushmaterial",
                     "at": "2026-08-03T09:15:35.204Z",
                     "reason": "이거 각 변수 설명좀 부탁해요"
+                  },
+                  {
+                    "action": "approved-after-hold",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-03T15:08:52.046Z"
                   }
                 ],
                 "legacy": false
@@ -7551,10 +7559,10 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-08-03T14:34:48Z",
+      "updatedAt": "2026-08-03T15:10:48Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 4
+      "integrityWarnings": 3
     },
     {
       "id": 3,
