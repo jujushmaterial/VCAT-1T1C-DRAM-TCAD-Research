@@ -32,15 +32,21 @@
     }
   ],
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
-    "reason": null,
+    "status": "held",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-03T09:09:14.301Z",
+    "reason": "이것도 어디를 찍은건지 설명좀 적어줘",
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-02T12:53:47.890Z"
+      },
+      {
+        "action": "held",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-03T09:09:14.301Z",
+        "reason": "이것도 어디를 찍은건지 설명좀 적어줘"
       }
     ],
     "legacy": false
