@@ -25,5 +25,25 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O08/submissions/20260802125810-minhosong-mse-O5TkYA/files/P02-T08_T08_T09_Scope_Note.md",
       "size": 493
     }
-  ]
+  ],
+  "review": {
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-03T14:38:46.579Z",
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-02T12:58:10.513Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-03T14:38:46.579Z",
+        "note": "이 자료는 다음을 정확하게 제한합니다.\n\n전역 DC에는 Medium 사용 가능\nabsolute GIDL과 oxide field는 아직 mesh-sensitive\nfixed-point silicon BTBT는 Medium과 Fine에서 거의 일치\nBTBT 공간 적분과 더 미세한 mesh는 수행하지 않음\n\n과도한 결론 없이 한계를 명시하므로 연구 기록으로 적절합니다"
+      }
+    ],
+    "legacy": false
+  }
 }
