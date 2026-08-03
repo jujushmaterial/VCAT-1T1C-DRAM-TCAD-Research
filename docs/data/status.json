@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T18:14:58+09:00",
+  "generatedAt": "2026-08-03T18:16:54+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3484,8 +3484,8 @@
               "submissionCount": 5,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
-              "heldSubmissionCount": 3,
+              "pendingReviewCount": 1,
+              "heldSubmissionCount": 4,
               "state": "held",
               "submissions": [
                 {
@@ -3712,13 +3712,24 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
-                    "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "status": "held",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-03T09:15:35.204Z",
+                    "reason": "이거 각 변수 설명좀 부탁해요",
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-02T12:56:54.440Z"
+                      },
+                      {
+                        "action": "held",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-03T09:15:35.204Z",
+                        "reason": "이거 각 변수 설명좀 부탁해요"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -6352,8 +6363,8 @@
           "submissionCount": 5,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
-          "heldSubmissionCount": 3,
+          "pendingReviewCount": 1,
+          "heldSubmissionCount": 4,
           "state": "held",
           "submissions": [
             {
@@ -6580,13 +6591,24 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
-                "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "status": "held",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-03T09:15:35.204Z",
+                "reason": "이거 각 변수 설명좀 부탁해요",
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-02T12:56:54.440Z"
+                  },
+                  {
+                    "action": "held",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-03T09:15:35.204Z",
+                    "reason": "이거 각 변수 설명좀 부탁해요"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
