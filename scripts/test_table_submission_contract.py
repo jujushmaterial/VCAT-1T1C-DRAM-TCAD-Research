@@ -19,6 +19,7 @@ worker_v8 = read("worker/src/v8.js")
 worker_v9 = read("worker/src/v9.js")
 worker_v10 = read("worker/src/v10.js")
 worker_v11 = read("worker/src/v11.js")
+worker_v12 = read("worker/src/v12.js")
 wrangler = read("worker/wrangler.toml")
 sync = read("scripts/sync_dashboard_v5.py")
 
@@ -78,8 +79,10 @@ assert 'import v7 from "./v7.js"' in worker_v8
 assert 'import v8 from "./v8.js"' in worker_v9
 assert 'import v9 from "./v9.js"' in worker_v10
 assert 'import v10 from "./v10.js"' in worker_v11
+assert 'import v11, { __test as reviewTest } from "./v11.js"' in worker_v12
 assert 'kind: "spreadsheet"' in worker_v10
-assert 'main = "src/v11.js"' in wrangler
+assert 'spreadsheetTest.classifySpreadsheet' in worker_v12
+assert 'main = "src/v12.js"' in wrangler
 assert 'output["type"] = "table"' in sync
 
 print("phase 3 spreadsheet contract test passed")
