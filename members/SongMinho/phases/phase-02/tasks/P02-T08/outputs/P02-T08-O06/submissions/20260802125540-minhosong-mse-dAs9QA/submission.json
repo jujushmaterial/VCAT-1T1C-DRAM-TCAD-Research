@@ -32,15 +32,21 @@
     }
   ],
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
-    "reason": null,
+    "status": "held",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-03T09:14:43.284Z",
+    "reason": "이게 지금 body 부분인거임? 이따 와서 설명해줘",
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-02T12:55:40.195Z"
+      },
+      {
+        "action": "held",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-03T09:14:43.284Z",
+        "reason": "이게 지금 body 부분인거임? 이따 와서 설명해줘"
       }
     ],
     "legacy": false
