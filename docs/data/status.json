@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T18:16:54+09:00",
+  "generatedAt": "2026-08-03T22:41:19+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -8657,9 +8657,9 @@
       "tasksTotal": 12,
       "issueTasksDone": 0,
       "outputsDone": 0,
-      "outputsTotal": 27,
+      "outputsTotal": 30,
       "requiredOutputsDone": 0,
-      "requiredOutputsTotal": 27,
+      "requiredOutputsTotal": 30,
       "tasks": [
         {
           "id": "P04-T01",
@@ -8715,7 +8715,7 @@
         },
         {
           "id": "P04-T02",
-          "text": "Word Line과 Bit Line 전압을 설정한다.",
+          "text": "공통 1T1C 회로·전압·시간·Read 판정 조건을 고정한다.",
           "declaredChecked": false,
           "outputs": [
             {
@@ -8751,17 +8751,71 @@
               "heldSubmissionCount": 0,
               "state": "missing",
               "submissions": []
+            },
+            {
+              "id": "P04-T02-O03",
+              "text": "저장 커패시터·Bit Line 등가 부하 조건표",
+              "type": "files",
+              "review": "recommended",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
+            },
+            {
+              "id": "P04-T02-O04",
+              "text": "Bit Line Precharge·Read 구간·성공 판정 기준표",
+              "type": "files",
+              "review": "recommended",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
+            },
+            {
+              "id": "P04-T02-O05",
+              "text": "공통 측정 시점·측정값·단위 정의표",
+              "type": "files",
+              "review": "recommended",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "not-started",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 2,
+          "requiredOutputsTotal": 5,
           "outputsDone": 0,
-          "outputsTotal": 2,
+          "outputsTotal": 5,
           "missingRequiredOutputs": [
             "P04-T02-O01",
-            "P04-T02-O02"
+            "P04-T02-O02",
+            "P04-T02-O03",
+            "P04-T02-O04",
+            "P04-T02-O05"
           ],
           "checkboxDrift": false
         },
@@ -9414,6 +9468,60 @@
           "taskId": "P04-T02"
         },
         {
+          "id": "P04-T02-O03",
+          "text": "저장 커패시터·Bit Line 등가 부하 조건표",
+          "type": "files",
+          "review": "recommended",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P04-T02"
+        },
+        {
+          "id": "P04-T02-O04",
+          "text": "Bit Line Precharge·Read 구간·성공 판정 기준표",
+          "type": "files",
+          "review": "recommended",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P04-T02"
+        },
+        {
+          "id": "P04-T02-O05",
+          "text": "공통 측정 시점·측정값·단위 정의표",
+          "type": "files",
+          "review": "recommended",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P04-T02"
+        },
+        {
           "id": "P04-T03-O01",
           "text": "Write ‘1’ WL·BL·Storage Node 파형",
           "type": "files",
@@ -9829,7 +9937,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-29T02:14:56Z",
+      "updatedAt": "2026-08-03T13:41:09Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
