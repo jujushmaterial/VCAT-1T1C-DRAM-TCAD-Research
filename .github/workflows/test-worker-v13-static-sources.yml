@@ -1,0 +1,77 @@
+name: Test Worker v13 static sources
+
+on:
+  pull_request:
+    paths:
+      - "worker/src/v13.js"
+      - "worker/wrangler.toml"
+      - "tests/test_worker_v13_static_sources.mjs"
+      - "tests/test_read_optimization_integrity.py"
+      - "tests/test_submission_review.py"
+      - "tests/test_submission_viewer.py"
+      - "scripts/test_frontend_contract.py"
+      - "scripts/test_table_submission_contract.py"
+      - ".github/workflows/test-worker-v13-static-sources.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: worker-v13-static-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  static-source-unit:
+    name: 1. Static source failover
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node --check worker/src/v13.js
+      - run: node tests/test_worker_v13_static_sources.mjs
+
+  review-and-regression:
+    name: 2. Review and existing features
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest discover -s tests -p "test_*.py" -v
+      - run: python scripts/test_frontend_contract.py
+      - run: python scripts/test_table_submission_contract.py
+      - run: node tests/test_submission_review_worker.mjs
+      - run: node tests/test_worker_v12_existing_records.mjs
+
+  data-protection:
+    name: 3. Submission data protection
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Reject submission and member changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE_REF="${GITHUB_BASE_REF:-main}"
+          git fetch origin "${BASE_REF}"
+          git diff --name-only "origin/${BASE_REF}"...HEAD | tee /tmp/changed-files.txt
+          if grep -E '^(docs/data/submissions\.json$|members/|.*/submission\.json$|.*/TIMELINE\.md$)' /tmp/changed-files.txt; then
+            echo "Forbidden submission or member data change detected."
+            exit 1
+          fi
+          git show "origin/${BASE_REF}:docs/data/submissions.json" > /tmp/base-submissions.json
+          cmp --silent /tmp/base-submissions.json docs/data/submissions.json
+          git diff --quiet "origin/${BASE_REF}"...HEAD -- members
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest tests/test_read_optimization_integrity.py -v
