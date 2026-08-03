@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-03T15:07:13.743Z",
+  "updatedAt": "2026-08-03T15:07:37.016Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2203,15 +2203,21 @@
           }
         ],
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-03T15:07:37.016Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-02T13:02:19.412Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-03T15:07:37.016Z",
+              "note": "다음 구분은 현재 데이터와 정확히 일치합니다.\n\nDC Id–Vg: Medium mesh 사용 가능\nfixed-point silicon BTBT: 거의 수렴\nabsolute GIDL 및 oxide field: 아직 mesh-sensitive\n\n이 문서는 Phase 3에서 Medium mesh를 모든 물리량에 무조건 사용하는 오해를 막아주므로 오히려 필수적인 인수인계 자료입니다."
             }
           ],
           "legacy": false
