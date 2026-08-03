@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-03T15:08:01.329Z",
+  "updatedAt": "2026-08-03T15:08:52.046Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2065,10 +2065,10 @@
           }
         ],
         "review": {
-          "status": "held",
+          "status": "approved",
           "reviewer": "jujushmaterial",
-          "reviewedAt": "2026-08-03T09:15:35.204Z",
-          "reason": "이거 각 변수 설명좀 부탁해요",
+          "reviewedAt": "2026-08-03T15:08:52.046Z",
+          "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
@@ -2080,6 +2080,11 @@
               "reviewer": "jujushmaterial",
               "at": "2026-08-03T09:15:35.204Z",
               "reason": "이거 각 변수 설명좀 부탁해요"
+            },
+            {
+              "action": "approved-after-hold",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-03T15:08:52.046Z"
             }
           ],
           "legacy": false
