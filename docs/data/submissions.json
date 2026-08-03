@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-03T14:37:35.758Z",
+  "updatedAt": "2026-08-03T14:38:21.274Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2087,7 +2087,27 @@
             "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O07/submissions/20260802125737-minhosong-mse-VDtlpQ/source/P02-T08-Single-WF-VCAT-GIDL-and-Electric-Field-Analysis.cmd",
             "size": 2832
           }
-        ]
+        ],
+        "review": {
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-03T14:38:21.274Z",
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-02T12:57:37.063Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-03T14:38:21.274Z",
+              "note": "Coarse·Medium·Fine에서 bias, WF, 온도, physics와 solver를 동일하게 유지하고 입력 mesh만 변경한 비교 구조입니다. T08과 T09가 서로 다른 bias와 물리량을 검증하기 때문에 코드가 다른 것도 정상입니다.\n\n이 코드는 결과가 완전 수렴했음을 증명하는 것이 아니라, 관찰된 차이가 조건 변경이 아니라 mesh 변화에서 왔음을 증명합니다."
+            }
+          ],
+          "legacy": false
+        }
       }
     ],
     "P02-T08-O08": [
