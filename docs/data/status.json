@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T18:08:24+09:00",
+  "generatedAt": "2026-08-03T18:14:58+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3484,8 +3484,8 @@
               "submissionCount": 5,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 4,
-              "heldSubmissionCount": 1,
+              "pendingReviewCount": 2,
+              "heldSubmissionCount": 3,
               "state": "held",
               "submissions": [
                 {
@@ -3522,15 +3522,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
-                    "reason": null,
+                    "status": "held",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-03T09:09:14.301Z",
+                    "reason": "이것도 어디를 찍은건지 설명좀 적어줘",
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-02T12:53:47.890Z"
+                      },
+                      {
+                        "action": "held",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-03T09:09:14.301Z",
+                        "reason": "이것도 어디를 찍은건지 설명좀 적어줘"
                       }
                     ],
                     "legacy": false
@@ -3662,15 +3668,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
-                    "reason": null,
+                    "status": "held",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-03T09:14:43.284Z",
+                    "reason": "이게 지금 body 부분인거임? 이따 와서 설명해줘",
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-02T12:55:40.195Z"
+                      },
+                      {
+                        "action": "held",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-03T09:14:43.284Z",
+                        "reason": "이게 지금 body 부분인거임? 이따 와서 설명해줘"
                       }
                     ],
                     "legacy": false
@@ -6340,8 +6352,8 @@
           "submissionCount": 5,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 4,
-          "heldSubmissionCount": 1,
+          "pendingReviewCount": 2,
+          "heldSubmissionCount": 3,
           "state": "held",
           "submissions": [
             {
@@ -6378,15 +6390,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
-                "reason": null,
+                "status": "held",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-03T09:09:14.301Z",
+                "reason": "이것도 어디를 찍은건지 설명좀 적어줘",
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-02T12:53:47.890Z"
+                  },
+                  {
+                    "action": "held",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-03T09:09:14.301Z",
+                    "reason": "이것도 어디를 찍은건지 설명좀 적어줘"
                   }
                 ],
                 "legacy": false
@@ -6518,15 +6536,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
-                "reason": null,
+                "status": "held",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-03T09:14:43.284Z",
+                "reason": "이게 지금 body 부분인거임? 이따 와서 설명해줘",
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-02T12:55:40.195Z"
+                  },
+                  {
+                    "action": "held",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-03T09:14:43.284Z",
+                    "reason": "이게 지금 body 부분인거임? 이따 와서 설명해줘"
                   }
                 ],
                 "legacy": false
