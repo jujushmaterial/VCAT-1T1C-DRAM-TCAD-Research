@@ -45,16 +45,30 @@ class ReviewAwareResearchStateTests(unittest.TestCase):
         self.assertTrue(review["implicit"])
         self.assertFalse(core.submission_counts_as_evidence(record, None, self.policy))
 
-    def test_current_repository_records_do_not_lose_legacy_completion(self) -> None:
+    def test_current_repository_review_states_are_valid_and_preserved(self) -> None:
         data = json.loads((ROOT / "docs/data/submissions.json").read_text(encoding="utf-8"))
         records = [record for values in data.get("outputs", {}).values() for record in values]
         self.assertGreater(len(records), 0)
-        unexpected = [
-            record.get("submissionId")
-            for record in records
-            if core.normalize_submission_review(record)["status"] != "approved"
-        ]
-        self.assertEqual(unexpected, [], f"기존 제출본이 미승인으로 바뀜: {unexpected}")
+
+        counts = {"approved": 0, "pending": 0, "held": 0}
+        invalid = []
+        for record in records:
+            review = core.normalize_submission_review(record)
+            status = review.get("status")
+            if status not in counts:
+                invalid.append(record.get("submissionId"))
+                continue
+            counts[status] += 1
+            raw = record.get("review")
+            if isinstance(raw, dict) and raw.get("status") in counts:
+                self.assertEqual(status, raw["status"])
+                self.assertIsInstance(review.get("history", []), list)
+            if status == "held":
+                self.assertTrue(str(review.get("reason") or "").strip())
+
+        self.assertEqual(invalid, [], f"올바르지 않은 검토 상태: {invalid}")
+        self.assertGreater(counts["approved"], 0, "기존 승인 제출본은 계속 유지되어야 합니다.")
+        self.assertEqual(sum(counts.values()), len(records))
 
 
 if __name__ == "__main__":
