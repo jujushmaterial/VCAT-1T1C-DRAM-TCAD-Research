@@ -54,12 +54,12 @@ class SubmissionViewerContractTests(unittest.TestCase):
         ):
             self.assertIn(token, js)
 
-    def test_worker_routes_spreadsheet_review_and_raw_read_contract(self):
+    def test_worker_routes_spreadsheet_review_and_static_read_contract(self):
         worker = read("worker/src/v8.js")
         comments = read("worker/src/v9.js")
         spreadsheets = read("worker/src/v10.js")
         reviews = read("worker/src/v11.js")
-        raw_reads = read("worker/src/v12.js")
+        static_reads = read("worker/src/v13.js")
         self.assertIn("/api\\/submissions", worker)
         self.assertIn("manifestRoute", worker)
         self.assertIn("fileRoute", worker)
@@ -75,10 +75,11 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertIn('import v10 from "./v10.js"', reviews)
         self.assertIn('/review$/', reviews)
         self.assertIn("reviewPermissions", reviews)
-        self.assertIn('import v11, { __test as reviewTest } from "./v11.js"', raw_reads)
-        self.assertIn("raw.githubusercontent.com", raw_reads)
-        self.assertIn('"X-GitHub-User-Token-Used": "false"', raw_reads)
-        self.assertIn('main = "src/v12.js"', read("worker/wrangler.toml"))
+        self.assertIn('import v11, { __test as reviewTest } from "./v11.js"', static_reads)
+        self.assertIn("github-pages", static_reads)
+        self.assertIn("cdn.jsdelivr.net", static_reads)
+        self.assertIn('"X-GitHub-User-Token-Used": "false"', static_reads)
+        self.assertIn('main = "src/v13.js"', read("worker/wrangler.toml"))
 
     def test_existing_submission_index_has_viewer_safe_examples(self):
         import json
