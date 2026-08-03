@@ -15,7 +15,7 @@ index = (root / 'docs/index.html').read_text(encoding='utf-8')
 wrangler = (root / 'worker/wrangler.toml').read_text(encoding='utf-8')
 worker_v10 = (root / 'worker/src/v10.js').read_text(encoding='utf-8')
 worker_v11 = (root / 'worker/src/v11.js').read_text(encoding='utf-8')
-worker_v12 = (root / 'worker/src/v12.js').read_text(encoding='utf-8')
+worker_v13 = (root / 'worker/src/v13.js').read_text(encoding='utf-8')
 required_js = [
     'function renderTask(',
     'function renderTaskOutput(',
@@ -61,10 +61,12 @@ assert index.index('spreadsheet-v3.js') < index.index('submission-delete.js')
 assert index.index('research-state-ui.js') < index.index('review-state-ui.js')
 assert index.index('submission-viewer-comments.js') < index.index('submission-review.js')
 assert index.index('submission-review.js') < index.index('submission-viewer-read-errors.js')
-assert 'main = "src/v12.js"' in wrangler
+assert 'main = "src/v13.js"' in wrangler
 assert 'import v9 from "./v9.js"' in worker_v10
 assert 'import v10 from "./v10.js"' in worker_v11
-assert 'import v11, { __test as reviewTest } from "./v11.js"' in worker_v12
-assert 'raw.githubusercontent.com' in worker_v12
-assert 'api.github.com' not in worker_v12
+assert 'import v11, { __test as reviewTest } from "./v11.js"' in worker_v13
+assert 'github-pages' in worker_v13
+assert 'cdn.jsdelivr.net' in worker_v13
+assert 'raw.githubusercontent.com' in worker_v13
+assert 'api.github.com' not in worker_v13
 print('frontend contract tests passed')

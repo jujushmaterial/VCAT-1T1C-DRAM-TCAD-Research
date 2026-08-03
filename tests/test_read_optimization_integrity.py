@@ -14,7 +14,7 @@ class RawReadOptimizationIntegrityTests(unittest.TestCase):
     def setUpClass(cls):
         cls.submissions = json.loads(read("docs/data/submissions.json"))
         cls.status = json.loads(read("docs/data/status.json"))
-        cls.worker = read("worker/src/v12.js")
+        cls.worker = read("worker/src/v13.js")
         cls.index = read("docs/index.html")
         cls.error_ui = read("docs/submission-viewer-read-errors.js")
 
@@ -57,8 +57,10 @@ class RawReadOptimizationIntegrityTests(unittest.TestCase):
         self.assertIn("findPhase(status, record)", self.worker)
         self.assertNotIn("/issues/", self.worker)
 
-    def test_user_token_is_not_forwarded_to_raw_github(self):
+    def test_user_token_is_not_forwarded_to_static_sources(self):
         self.assertIn('"X-GitHub-User-Token-Used": "false"', self.worker)
+        self.assertIn("github-pages", self.worker)
+        self.assertIn("cdn.jsdelivr.net", self.worker)
         self.assertIn("raw.githubusercontent.com", self.worker)
         self.assertNotIn("api.github.com", self.worker)
         self.assertNotIn("headers.set(\"Authorization\"", self.worker)
@@ -68,7 +70,7 @@ class RawReadOptimizationIntegrityTests(unittest.TestCase):
         self.assertIn("const response = await v11.fetch(request, env, ctx)", self.worker)
         self.assertIn("mutatesSubmissionState(request, url)", self.worker)
         wrangler = read("worker/wrangler.toml")
-        self.assertIn('main = "src/v12.js"', wrangler)
+        self.assertIn('main = "src/v13.js"', wrangler)
 
     def test_viewer_error_message_is_updated_without_rewriting_core_viewer(self):
         self.assertIn('src="submission-viewer-read-errors.js"', self.index)
