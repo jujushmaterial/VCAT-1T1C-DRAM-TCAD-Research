@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T00:06:52+09:00",
+  "generatedAt": "2026-08-04T00:07:28+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -1595,9 +1595,9 @@
       "tasksDone": 7,
       "tasksTotal": 9,
       "issueTasksDone": 7,
-      "outputsDone": 30,
+      "outputsDone": 31,
       "outputsTotal": 37,
-      "requiredOutputsDone": 30,
+      "requiredOutputsDone": 31,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -4489,13 +4489,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260802070630-minhosong-mse-ztl9lg",
@@ -4521,15 +4521,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-03T15:07:13.743Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-02T07:06:30.152Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-03T15:07:13.743Z",
+                        "note": "세 mesh와 두 drain bias에서 공통 physics와 balanced continuation을 사용한 구조이며, node map도 명확합니다."
                       }
                     ],
                     "legacy": false
@@ -4596,16 +4602,15 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 1,
+          "requiredOutputsDone": 2,
           "requiredOutputsTotal": 7,
-          "outputsDone": 1,
+          "outputsDone": 2,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
             "P02-T09-O01",
             "P02-T09-O02",
             "P02-T09-O03",
             "P02-T09-O04",
-            "P02-T09-O06",
             "P02-T09-O07"
           ],
           "checkboxDrift": false
@@ -7409,13 +7414,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260802070630-minhosong-mse-ztl9lg",
@@ -7441,15 +7446,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-03T15:07:13.743Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-02T07:06:30.152Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-03T15:07:13.743Z",
+                    "note": "세 mesh와 두 drain bias에서 공통 physics와 balanced continuation을 사용한 구조이며, node map도 명확합니다."
                   }
                 ],
                 "legacy": false
