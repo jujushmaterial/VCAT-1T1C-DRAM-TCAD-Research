@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T00:07:28+09:00",
+  "generatedAt": "2026-08-04T00:07:51+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -1595,9 +1595,9 @@
       "tasksDone": 7,
       "tasksTotal": 9,
       "issueTasksDone": 7,
-      "outputsDone": 31,
+      "outputsDone": 32,
       "outputsTotal": 37,
-      "requiredOutputsDone": 31,
+      "requiredOutputsDone": 32,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -4551,13 +4551,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260802130219-minhosong-mse-Y-Z9nA",
@@ -4583,15 +4583,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-03T15:07:37.016Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-02T13:02:19.412Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-03T15:07:37.016Z",
+                        "note": "다음 구분은 현재 데이터와 정확히 일치합니다.\n\nDC Id–Vg: Medium mesh 사용 가능\nfixed-point silicon BTBT: 거의 수렴\nabsolute GIDL 및 oxide field: 아직 mesh-sensitive\n\n이 문서는 Phase 3에서 Medium mesh를 모든 물리량에 무조건 사용하는 오해를 막아주므로 오히려 필수적인 인수인계 자료입니다."
                       }
                     ],
                     "legacy": false
@@ -4602,16 +4608,15 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 2,
+          "requiredOutputsDone": 3,
           "requiredOutputsTotal": 7,
-          "outputsDone": 2,
+          "outputsDone": 3,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
             "P02-T09-O01",
             "P02-T09-O02",
             "P02-T09-O03",
-            "P02-T09-O04",
-            "P02-T09-O07"
+            "P02-T09-O04"
           ],
           "checkboxDrift": false
         }
@@ -7477,13 +7482,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260802130219-minhosong-mse-Y-Z9nA",
@@ -7509,15 +7514,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-03T15:07:37.016Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-02T13:02:19.412Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-03T15:07:37.016Z",
+                    "note": "다음 구분은 현재 데이터와 정확히 일치합니다.\n\nDC Id–Vg: Medium mesh 사용 가능\nfixed-point silicon BTBT: 거의 수렴\nabsolute GIDL 및 oxide field: 아직 mesh-sensitive\n\n이 문서는 Phase 3에서 Medium mesh를 모든 물리량에 무조건 사용하는 오해를 막아주므로 오히려 필수적인 인수인계 자료입니다."
                   }
                 ],
                 "legacy": false
