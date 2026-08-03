@@ -1,0 +1,113 @@
+name: Test Worker v12 raw reads
+
+on:
+  pull_request:
+    paths:
+      - "worker/src/v12.js"
+      - "worker/wrangler.toml"
+      - "docs/index.html"
+      - "docs/submission-viewer-read-errors.js"
+      - "tests/test_worker_v12_raw_reads.mjs"
+      - "tests/test_worker_v12_existing_records.mjs"
+      - "tests/test_read_optimization_integrity.py"
+      - "tests/test_submission_viewer.py"
+      - "tests/test_submission_review.py"
+      - "scripts/test_frontend_contract.py"
+      - "scripts/test_table_submission_contract.py"
+      - ".github/workflows/test-worker-v12-raw-reads.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: worker-v12-raw-reads-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  read-unit:
+    name: 1. Raw read unit checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: JavaScript syntax
+        run: |
+          node --check worker/src/v12.js
+          node --check docs/submission-viewer-read-errors.js
+      - name: Raw manifest, files, range and rate limit
+        run: node tests/test_worker_v12_raw_reads.mjs
+
+  review-permissions:
+    name: 2. Existing review permission checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Review state machine
+        run: node tests/test_submission_review_worker.mjs
+      - name: Review UI and storage contracts
+        run: python -m unittest tests/test_submission_review.py -v
+
+  full-regression:
+    name: 3. Existing feature regression
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Python regression suite
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+      - name: Dashboard and spreadsheet contracts
+        run: |
+          python scripts/test_frontend_contract.py
+          python scripts/test_table_submission_contract.py
+      - name: JavaScript regression suite
+        run: |
+          for test in tests/*.mjs; do
+            echo "Running ${test}"
+            node "${test}"
+          done
+
+  repository-integrity:
+    name: 4. Existing repository data integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reject changes to submissions and member records
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE_REF="${GITHUB_BASE_REF:-main}"
+          git fetch origin "${BASE_REF}"
+          git diff --name-only "origin/${BASE_REF}"...HEAD | tee /tmp/changed-files.txt
+          if grep -E '^(docs/data/submissions\.json$|members/|.*/submission\.json$|.*/TIMELINE\.md$)' /tmp/changed-files.txt; then
+            echo "Forbidden submission or member data change detected."
+            exit 1
+          fi
+          git show "origin/${BASE_REF}:docs/data/submissions.json" > /tmp/base-submissions.json
+          cmp --silent /tmp/base-submissions.json docs/data/submissions.json
+          git diff --quiet "origin/${BASE_REF}"...HEAD -- members
+      - name: Validate every existing record and file path
+        run: |
+          python -m unittest tests/test_read_optimization_integrity.py -v
+          node tests/test_worker_v12_existing_records.mjs
