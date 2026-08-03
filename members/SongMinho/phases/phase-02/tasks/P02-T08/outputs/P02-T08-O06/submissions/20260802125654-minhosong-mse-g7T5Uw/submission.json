@@ -20,5 +20,25 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T08/outputs/P02-T08-O06/submissions/20260802125654-minhosong-mse-g7T5Uw/files/P02-T08_SWB_GIDL_Mesh_Split.png",
       "size": 28725
     }
-  ]
+  ],
+  "review": {
+    "status": "held",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-03T09:15:35.204Z",
+    "reason": "이거 각 변수 설명좀 부탁해요",
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-02T12:56:54.440Z"
+      },
+      {
+        "action": "held",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-03T09:15:35.204Z",
+        "reason": "이거 각 변수 설명좀 부탁해요"
+      }
+    ],
+    "legacy": false
+  }
 }
