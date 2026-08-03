@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T23:38:33+09:00",
+  "generatedAt": "2026-08-03T23:39:06+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -1595,9 +1595,9 @@
       "tasksDone": 7,
       "tasksTotal": 9,
       "issueTasksDone": 7,
-      "outputsDone": 28,
+      "outputsDone": 29,
       "outputsTotal": 37,
-      "requiredOutputsDone": 28,
+      "requiredOutputsDone": 29,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -3823,13 +3823,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260802125810-minhosong-mse-O5TkYA",
@@ -3860,13 +3860,24 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-03T14:38:46.579Z",
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-02T12:58:10.513Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-03T14:38:46.579Z",
+                        "note": "이 자료는 다음을 정확하게 제한합니다.\n\n전역 DC에는 Medium 사용 가능\nabsolute GIDL과 oxide field는 아직 mesh-sensitive\nfixed-point silicon BTBT는 Medium과 Fine에서 거의 일치\nBTBT 공간 적분과 더 미세한 mesh는 수행하지 않음\n\n과도한 결론 없이 한계를 명시하므로 연구 기록으로 적절합니다"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -3874,13 +3885,12 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 6,
+          "requiredOutputsDone": 7,
           "requiredOutputsTotal": 8,
-          "outputsDone": 6,
+          "outputsDone": 7,
           "outputsTotal": 8,
           "missingRequiredOutputs": [
-            "P02-T08-O06",
-            "P02-T08-O08"
+            "P02-T08-O06"
           ],
           "checkboxDrift": false
         },
@@ -6734,13 +6744,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260802125810-minhosong-mse-O5TkYA",
@@ -6771,13 +6781,24 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-03T14:38:46.579Z",
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-02T12:58:10.513Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-03T14:38:46.579Z",
+                    "note": "이 자료는 다음을 정확하게 제한합니다.\n\n전역 DC에는 Medium 사용 가능\nabsolute GIDL과 oxide field는 아직 mesh-sensitive\nfixed-point silicon BTBT는 Medium과 Fine에서 거의 일치\nBTBT 공간 적분과 더 미세한 mesh는 수행하지 않음\n\n과도한 결론 없이 한계를 명시하므로 연구 기록으로 적절합니다"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
