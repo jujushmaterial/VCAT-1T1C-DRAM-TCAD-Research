@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-04T16:04:22.192Z",
+  "updatedAt": "2026-08-04T16:04:29.072Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -128,7 +128,21 @@
             "path": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804160422-jujushmaterial-UTGWFQ/source/sdevice.cmd",
             "size": 5418
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-04T16:04:22.192Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ],
     "P01-T05-O02": [
