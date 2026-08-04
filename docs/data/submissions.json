@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-03T15:08:52.046Z",
+  "updatedAt": "2026-08-04T06:06:54.612Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2021,10 +2021,10 @@
           }
         ],
         "review": {
-          "status": "held",
+          "status": "approved",
           "reviewer": "jujushmaterial",
-          "reviewedAt": "2026-08-03T09:14:43.284Z",
-          "reason": "이게 지금 body 부분인거임? 이따 와서 설명해줘",
+          "reviewedAt": "2026-08-04T06:06:54.612Z",
+          "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
@@ -2036,6 +2036,11 @@
               "reviewer": "jujushmaterial",
               "at": "2026-08-03T09:14:43.284Z",
               "reason": "이게 지금 body 부분인거임? 이따 와서 설명해줘"
+            },
+            {
+              "action": "approved-after-hold",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-04T06:06:54.612Z"
             }
           ],
           "legacy": false
