@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-04T07:25:28.104Z",
+  "updatedAt": "2026-08-04T07:45:53.472Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -87,15 +87,20 @@
         "comment": "sdevice 우클릭 -> command 아래에 parmeter 클릭 -> 새로 만들기 -> 붙여넣기 ->  저장",
         "commentLabel": "실행 조건 및 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-04T07:45:53.472Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-04T07:25:14.243Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-04T07:45:53.472Z"
             }
           ],
           "legacy": false

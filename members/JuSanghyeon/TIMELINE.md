@@ -63,3 +63,14 @@
 - **작업 이유:** 개인 폴더의 모든 변경 이력을 반드시 남기는 저장소 규칙을 보장하기 위해서입니다.
 - **결과 및 검증:** 커밋 `e894b7839958` 감지. 커밋 메시지: `Mark P01-T05-O01 submission 20260804072514-jujushmaterial-8zRadQ for review`. 파일 내용과 TCAD 결과의 타당성은 자동 검증하지 않았습니다.
 - **남은 일:** 실제 작업자는 필요하면 이 자동 기록 아래에 목적, 조건, 결과와 검증 내용을 보완해야 합니다.
+
+## 2026-08-04 16:45 KST — 제출본 검토 승인
+
+- **검토자:** jujushmaterial (`@jujushmaterial`)
+- **Phase / Output:** Phase 1 / `P01-T05-O01`
+- **제출본:** `20260804072514-jujushmaterial-8zRadQ`
+- **제출자:** 주상현 (`@jujushmaterial`)
+- **이전 상태:** 검토 필요
+- **검토 결과:** 승인
+- **GitHub 기록:** `docs/data/submissions.json`과 제출본 `submission.json`을 같은 커밋에서 갱신했습니다.
+- **다음 작업:** 승인된 제출본을 연구 진행률 증거로 사용합니다.
