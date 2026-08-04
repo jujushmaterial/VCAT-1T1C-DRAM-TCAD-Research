@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T00:38:43+09:00",
+  "generatedAt": "2026-08-05T01:04:38+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -441,10 +441,10 @@
               "required": true,
               "policyReason": null,
               "submitted": true,
-              "submissionCount": 3,
+              "submissionCount": 4,
               "evidenceSubmissionCount": 3,
               "approvedSubmissionCount": 3,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -565,6 +565,39 @@
                       }
                     ],
                     "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260804160422-jujushmaterial-UTGWFQ",
+                  "phaseId": 1,
+                  "issueNumber": 1,
+                  "taskId": "P01-T05",
+                  "taskText": "기존 Dual-Metal Gap SProcess 구조를 공통 기준 구조로 보존하고 실제 형상을 확인한다.",
+                  "outputId": "P01-T05-O01",
+                  "outputText": "Dual-Metal Gap 구조 전체 코드",
+                  "uploader": "jujushmaterial",
+                  "memberName": "주상현",
+                  "memberFolder": "JuSanghyeon",
+                  "type": "code",
+                  "uploadedAt": "2026-08-04T16:04:22.192Z",
+                  "folderPath": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804160422-jujushmaterial-UTGWFQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804160422-jujushmaterial-UTGWFQ",
+                  "summary": "1개 코드 파일 · 5.3KB",
+                  "files": [
+                    {
+                      "name": "sdevice.cmd",
+                      "path": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804160422-jujushmaterial-UTGWFQ/source/sdevice.cmd",
+                      "size": 5418
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
                   }
                 }
               ]
@@ -1689,10 +1722,10 @@
           "required": true,
           "policyReason": null,
           "submitted": true,
-          "submissionCount": 3,
+          "submissionCount": 4,
           "evidenceSubmissionCount": 3,
           "approvedSubmissionCount": 3,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -1813,6 +1846,39 @@
                   }
                 ],
                 "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260804160422-jujushmaterial-UTGWFQ",
+              "phaseId": 1,
+              "issueNumber": 1,
+              "taskId": "P01-T05",
+              "taskText": "기존 Dual-Metal Gap SProcess 구조를 공통 기준 구조로 보존하고 실제 형상을 확인한다.",
+              "outputId": "P01-T05-O01",
+              "outputText": "Dual-Metal Gap 구조 전체 코드",
+              "uploader": "jujushmaterial",
+              "memberName": "주상현",
+              "memberFolder": "JuSanghyeon",
+              "type": "code",
+              "uploadedAt": "2026-08-04T16:04:22.192Z",
+              "folderPath": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804160422-jujushmaterial-UTGWFQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804160422-jujushmaterial-UTGWFQ",
+              "summary": "1개 코드 파일 · 5.3KB",
+              "files": [
+                {
+                  "name": "sdevice.cmd",
+                  "path": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804160422-jujushmaterial-UTGWFQ/source/sdevice.cmd",
+                  "size": 5418
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
               }
             }
           ],
