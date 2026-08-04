@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T00:33:19+09:00",
+  "generatedAt": "2026-08-05T00:38:43+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
@@ -48,7 +48,9 @@
       "phaseId": 1,
       "taskId": "P01-T05",
       "missingRequiredOutputs": [
-        "P01-T05-O03"
+        "P01-T05-O03",
+        "P01-T05-O04",
+        "P01-T05-O05"
       ]
     },
     {
@@ -61,7 +63,10 @@
         "P01-T10-O01",
         "P01-T10-O02",
         "P01-T10-O03",
-        "P01-T10-O04"
+        "P01-T10-O04",
+        "P01-T10-O06",
+        "P01-T10-O07",
+        "P01-T10-O08"
       ]
     }
   ]
