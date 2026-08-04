@@ -32,10 +32,10 @@
     }
   ],
   "review": {
-    "status": "held",
+    "status": "approved",
     "reviewer": "jujushmaterial",
-    "reviewedAt": "2026-08-03T09:07:22.842Z",
-    "reason": "어디를 찍은건지 모르겠음",
+    "reviewedAt": "2026-08-04T12:23:44.852Z",
+    "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
@@ -47,6 +47,11 @@
         "reviewer": "jujushmaterial",
         "at": "2026-08-03T09:07:22.842Z",
         "reason": "어디를 찍은건지 모르겠음"
+      },
+      {
+        "action": "approved-after-hold",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-04T12:23:44.852Z"
       }
     ],
     "legacy": false
