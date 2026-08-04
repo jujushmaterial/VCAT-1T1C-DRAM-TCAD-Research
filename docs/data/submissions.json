@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-04T06:24:53.865Z",
+  "updatedAt": "2026-08-04T07:25:14.243Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -58,6 +58,30 @@
             "name": "Svisual_DIBL.tcl",
             "path": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260730080004-jujushmaterial-14BZHQ/source/Svisual_DIBL.tcl",
             "size": 20828
+          }
+        ]
+      },
+      {
+        "submissionId": "20260804072514-jujushmaterial-8zRadQ",
+        "phaseId": 1,
+        "issueNumber": 1,
+        "taskId": "P01-T05",
+        "taskText": "서로 다른 두 금속 사이에 간격이 있는 기존 구조를 만든다.",
+        "outputId": "P01-T05-O01",
+        "outputText": "Dual-Metal Gap 구조 전체 코드",
+        "uploader": "jujushmaterial",
+        "memberName": "주상현",
+        "memberFolder": "JuSanghyeon",
+        "type": "code",
+        "uploadedAt": "2026-08-04T07:25:14.243Z",
+        "folderPath": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804072514-jujushmaterial-8zRadQ",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804072514-jujushmaterial-8zRadQ",
+        "summary": "1개 코드 파일 · 2.2KB",
+        "files": [
+          {
+            "name": "sdevice.cmd",
+            "path": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804072514-jujushmaterial-8zRadQ/source/sdevice.cmd",
+            "size": 2236
           }
         ]
       }
