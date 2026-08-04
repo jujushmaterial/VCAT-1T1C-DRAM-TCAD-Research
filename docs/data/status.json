@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T15:09:09+09:00",
+  "generatedAt": "2026-08-04T15:22:44+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -1595,9 +1595,9 @@
       "tasksDone": 8,
       "tasksTotal": 9,
       "issueTasksDone": 8,
-      "outputsDone": 33,
+      "outputsDone": 34,
       "outputsTotal": 37,
-      "requiredOutputsDone": 33,
+      "requiredOutputsDone": 34,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -3915,13 +3915,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 2,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260802065627-minhosong-mse-X-GnSw",
@@ -3997,15 +3997,21 @@
                   "comment": "파라미터 설정한거",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-04T06:22:25.844Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-02T07:02:39.273Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-04T06:22:25.844Z",
+                        "note": "Coarse·Medium·Fine mesh에서 형상, 도핑, WF, 온도와 Vd/Vg 조건이 동일하게 통제됐으며, 제출 CSV가 원본 Sentaurus Mesh log의 points, elements, 7 regions, 4 materials, 최소 edge 및 최소각과 일치한다. DC 비교 결과 Medium–Fine 차이는 Vth 0.048 mV 이하, SS 0.027% 이하, Ion 0.842% 이하, DIBL 1.285%로 전역 DC 비교에 충분하다. 단, Vd=1.0 V Ioff는 약 9.28% 차이가 있어 극저전류 절대값은 별도 민감 항목으로 취급한다."
                       }
                     ],
                     "legacy": false
@@ -4627,12 +4633,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 3,
+          "requiredOutputsDone": 4,
           "requiredOutputsTotal": 7,
-          "outputsDone": 3,
+          "outputsDone": 4,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P02-T09-O01",
             "P02-T09-O02",
             "P02-T09-O03",
             "P02-T09-O04"
@@ -6861,13 +6866,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 2,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260802065627-minhosong-mse-X-GnSw",
@@ -6943,15 +6948,21 @@
               "comment": "파라미터 설정한거",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-04T06:22:25.844Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-02T07:02:39.273Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-04T06:22:25.844Z",
+                    "note": "Coarse·Medium·Fine mesh에서 형상, 도핑, WF, 온도와 Vd/Vg 조건이 동일하게 통제됐으며, 제출 CSV가 원본 Sentaurus Mesh log의 points, elements, 7 regions, 4 materials, 최소 edge 및 최소각과 일치한다. DC 비교 결과 Medium–Fine 차이는 Vth 0.048 mV 이하, SS 0.027% 이하, Ion 0.842% 이하, DIBL 1.285%로 전역 DC 비교에 충분하다. 단, Vd=1.0 V Ioff는 약 9.28% 차이가 있어 극저전류 절대값은 별도 민감 항목으로 취급한다."
                   }
                 ],
                 "legacy": false
