@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-04T06:22:59.676Z",
+  "updatedAt": "2026-08-04T06:23:43.314Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -1274,15 +1274,21 @@
           }
         ],
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
-          "reason": null,
+          "status": "held",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-04T06:23:43.314Z",
+          "reason": "축 이름 표기 후 재제출 권장",
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-02T06:58:02.577Z"
+            },
+            {
+              "action": "held",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-04T06:23:43.314Z",
+              "reason": "축 이름 표기 후 재제출 권장"
             }
           ],
           "legacy": false
