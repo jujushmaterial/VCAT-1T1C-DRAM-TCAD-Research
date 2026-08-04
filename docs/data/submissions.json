@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-04T16:04:29.072Z",
+  "updatedAt": "2026-08-04T16:18:39.838Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -130,15 +130,20 @@
           }
         ],
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-04T16:18:39.838Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-04T16:04:22.192Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-04T16:18:39.838Z"
             }
           ],
           "legacy": false
