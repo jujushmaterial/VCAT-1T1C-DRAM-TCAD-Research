@@ -1,0 +1,31 @@
+name: Test Phase 1 restructure
+
+on:
+  pull_request:
+    paths:
+      - "members/JuSanghyeon/phases/phase-01/README.md"
+      - "members/JuSanghyeon/phases/phase-01/ISSUE_BODY.md"
+      - "docs/data/completion-policy.json"
+      - "tests/test_phase1_restructure_contract.py"
+      - ".github/workflows/test-phase1-restructure.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: phase1-restructure-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate Phase 1 ID and scope contract
+        run: python -m unittest tests/test_phase1_restructure_contract.py -v
