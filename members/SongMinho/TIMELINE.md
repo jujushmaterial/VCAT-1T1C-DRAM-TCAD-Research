@@ -992,3 +992,35 @@
 - **검토 결과:** 승인
 - **GitHub 기록:** `docs/data/submissions.json`과 제출본 `submission.json`을 같은 커밋에서 갱신했습니다.
 - **다음 작업:** 승인된 제출본을 연구 진행률 증거로 사용합니다.
+
+## 2026-08-04 15:08 KST — 제출본 검토 보류
+
+- **검토자:** jujushmaterial (`@jujushmaterial`)
+- **Phase / Output:** Phase 2 / `P02-T09-O03`
+- **제출본:** `20260802065851-minhosong-mse-6Y6-8g`
+- **제출자:** 송민호 (`@minhosong-mse`)
+- **이전 상태:** 검토 필요
+- **검토 결과:** 보류
+- **보류 사유:** Medium mesh 선택 결론 자체는 타당합니다.
+
+Ion 최대 차이: 0.842%
+DIBL 차이: 1.285%
+Vth·SS 차이: 매우 작음
+
+하지만 CSV의 모든 criterion이 True인 반면 실제 허용 기준 숫자가 없습니다.
+
+필요한 기준 예:
+
+Vth 허용 절대차이: 몇 mV
+SS 허용 상대차이: 몇 %
+Ion 허용 상대차이: 몇 %
+Ioff 허용 decade 차이
+DIBL 허용 상대 또는 절대차이
+
+현재 문서는 “current project DC acceptance limits”라고만 하므로 제3자가 True 판정을 재현할 수 없습니다.
+
+재실행 필요성
+
+재실행은 필요하지 않습니다. 기준표와 판정식을 추가하면 됩니다.
+- **GitHub 기록:** `docs/data/submissions.json`과 제출본 `submission.json`을 같은 커밋에서 갱신했습니다.
+- **다음 작업:** 사유를 확인해 수정본을 새 제출본으로 등록합니다.

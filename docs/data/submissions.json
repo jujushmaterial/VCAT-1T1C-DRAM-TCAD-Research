@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-04T06:06:54.612Z",
+  "updatedAt": "2026-08-04T06:08:54.764Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -1307,15 +1307,21 @@
           }
         ],
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
-          "reason": null,
+          "status": "held",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-04T06:08:54.764Z",
+          "reason": "Medium mesh 선택 결론 자체는 타당합니다.\n\nIon 최대 차이: 0.842%\nDIBL 차이: 1.285%\nVth·SS 차이: 매우 작음\n\n하지만 CSV의 모든 criterion이 True인 반면 실제 허용 기준 숫자가 없습니다.\n\n필요한 기준 예:\n\nVth 허용 절대차이: 몇 mV\nSS 허용 상대차이: 몇 %\nIon 허용 상대차이: 몇 %\nIoff 허용 decade 차이\nDIBL 허용 상대 또는 절대차이\n\n현재 문서는 “current project DC acceptance limits”라고만 하므로 제3자가 True 판정을 재현할 수 없습니다.\n\n재실행 필요성\n\n재실행은 필요하지 않습니다. 기준표와 판정식을 추가하면 됩니다.",
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-02T06:58:51.722Z"
+            },
+            {
+              "action": "held",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-04T06:08:54.764Z",
+              "reason": "Medium mesh 선택 결론 자체는 타당합니다.\n\nIon 최대 차이: 0.842%\nDIBL 차이: 1.285%\nVth·SS 차이: 매우 작음\n\n하지만 CSV의 모든 criterion이 True인 반면 실제 허용 기준 숫자가 없습니다.\n\n필요한 기준 예:\n\nVth 허용 절대차이: 몇 mV\nSS 허용 상대차이: 몇 %\nIon 허용 상대차이: 몇 %\nIoff 허용 decade 차이\nDIBL 허용 상대 또는 절대차이\n\n현재 문서는 “current project DC acceptance limits”라고만 하므로 제3자가 True 판정을 재현할 수 없습니다.\n\n재실행 필요성\n\n재실행은 필요하지 않습니다. 기준표와 판정식을 추가하면 됩니다."
             }
           ],
           "legacy": false
