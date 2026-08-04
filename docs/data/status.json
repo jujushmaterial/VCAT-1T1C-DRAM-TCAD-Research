@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T15:23:56+09:00",
+  "generatedAt": "2026-08-04T15:24:44+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -1595,9 +1595,9 @@
       "tasksDone": 8,
       "tasksTotal": 9,
       "issueTasksDone": 8,
-      "outputsDone": 34,
+      "outputsDone": 35,
       "outputsTotal": 37,
-      "requiredOutputsDone": 34,
+      "requiredOutputsDone": 35,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -4172,13 +4172,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 2,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260802070032-minhosong-mse-mipEuw",
@@ -4279,15 +4279,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-04T06:24:31.240Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-02T07:01:30.762Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-04T06:24:31.240Z",
+                        "note": "Coarse·Medium·Fine의 전체 구조 및 upper SN–Channel junction 확대 이미지를 직접 검토했다. 세 조건은 동일한 구조에서 junction과 Si/oxide interface refinement 강도만 변화하며, mesh density 증가가 full/zoom 이미지에서 일관되게 확인된다. 구조 이미지의 node mapping과 원본 Sentaurus Mesh log의 points, elements, 최소 edge, 최소각 및 생성시간도 CSV와 일치한다. Fine의 매우 작은 최소 edge와 최소각은 국부 최대값 해석 시 주의사항이지만 구조 이미지 산출물 자체는 유효하다."
                       }
                     ],
                     "legacy": false
@@ -4645,14 +4651,13 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 4,
+          "requiredOutputsDone": 5,
           "requiredOutputsTotal": 7,
-          "outputsDone": 4,
+          "outputsDone": 5,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
             "P02-T09-O02",
-            "P02-T09-O03",
-            "P02-T09-O04"
+            "P02-T09-O03"
           ],
           "checkboxDrift": false
         }
@@ -7138,13 +7143,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 2,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260802070032-minhosong-mse-mipEuw",
@@ -7245,15 +7250,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-04T06:24:31.240Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-02T07:01:30.762Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-04T06:24:31.240Z",
+                    "note": "Coarse·Medium·Fine의 전체 구조 및 upper SN–Channel junction 확대 이미지를 직접 검토했다. 세 조건은 동일한 구조에서 junction과 Si/oxide interface refinement 강도만 변화하며, mesh density 증가가 full/zoom 이미지에서 일관되게 확인된다. 구조 이미지의 node mapping과 원본 Sentaurus Mesh log의 points, elements, 최소 edge, 최소각 및 생성시간도 CSV와 일치한다. Fine의 매우 작은 최소 edge와 최소각은 국부 최대값 해석 시 주의사항이지만 구조 이미지 산출물 자체는 유효하다."
                   }
                 ],
                 "legacy": false
