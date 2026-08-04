@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T16:46:14+09:00",
+  "generatedAt": "2026-08-04T21:24:05+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3591,10 +3591,10 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 5,
-              "evidenceSubmissionCount": 2,
-              "approvedSubmissionCount": 2,
+              "evidenceSubmissionCount": 3,
+              "approvedSubmissionCount": 3,
               "pendingReviewCount": 1,
-              "heldSubmissionCount": 2,
+              "heldSubmissionCount": 1,
               "state": "submitted",
               "submissions": [
                 {
@@ -3685,10 +3685,10 @@
                     }
                   ],
                   "review": {
-                    "status": "held",
+                    "status": "approved",
                     "reviewer": "jujushmaterial",
-                    "reviewedAt": "2026-08-03T09:07:22.842Z",
-                    "reason": "어디를 찍은건지 모르겠음",
+                    "reviewedAt": "2026-08-04T12:23:44.852Z",
+                    "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
@@ -3700,6 +3700,11 @@
                         "reviewer": "jujushmaterial",
                         "at": "2026-08-03T09:07:22.842Z",
                         "reason": "어디를 찍은건지 모르겠음"
+                      },
+                      {
+                        "action": "approved-after-hold",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-04T12:23:44.852Z"
                       }
                     ],
                     "legacy": false
@@ -6577,10 +6582,10 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 5,
-          "evidenceSubmissionCount": 2,
-          "approvedSubmissionCount": 2,
+          "evidenceSubmissionCount": 3,
+          "approvedSubmissionCount": 3,
           "pendingReviewCount": 1,
-          "heldSubmissionCount": 2,
+          "heldSubmissionCount": 1,
           "state": "submitted",
           "submissions": [
             {
@@ -6671,10 +6676,10 @@
                 }
               ],
               "review": {
-                "status": "held",
+                "status": "approved",
                 "reviewer": "jujushmaterial",
-                "reviewedAt": "2026-08-03T09:07:22.842Z",
-                "reason": "어디를 찍은건지 모르겠음",
+                "reviewedAt": "2026-08-04T12:23:44.852Z",
+                "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
@@ -6686,6 +6691,11 @@
                     "reviewer": "jujushmaterial",
                     "at": "2026-08-03T09:07:22.842Z",
                     "reason": "어디를 찍은건지 모르겠음"
+                  },
+                  {
+                    "action": "approved-after-hold",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-04T12:23:44.852Z"
                   }
                 ],
                 "legacy": false
