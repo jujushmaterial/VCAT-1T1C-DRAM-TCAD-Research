@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T15:25:10+09:00",
+  "generatedAt": "2026-08-04T16:25:36+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -279,10 +279,10 @@
               "required": true,
               "policyReason": null,
               "submitted": true,
-              "submissionCount": 2,
+              "submissionCount": 3,
               "evidenceSubmissionCount": 2,
               "approvedSubmissionCount": 2,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -358,6 +358,39 @@
                     "reason": null,
                     "history": [],
                     "legacy": true
+                  }
+                },
+                {
+                  "submissionId": "20260804072514-jujushmaterial-8zRadQ",
+                  "phaseId": 1,
+                  "issueNumber": 1,
+                  "taskId": "P01-T05",
+                  "taskText": "서로 다른 두 금속 사이에 간격이 있는 기존 구조를 만든다.",
+                  "outputId": "P01-T05-O01",
+                  "outputText": "Dual-Metal Gap 구조 전체 코드",
+                  "uploader": "jujushmaterial",
+                  "memberName": "주상현",
+                  "memberFolder": "JuSanghyeon",
+                  "type": "code",
+                  "uploadedAt": "2026-08-04T07:25:14.243Z",
+                  "folderPath": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804072514-jujushmaterial-8zRadQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804072514-jujushmaterial-8zRadQ",
+                  "summary": "1개 코드 파일 · 2.2KB",
+                  "files": [
+                    {
+                      "name": "sdevice.cmd",
+                      "path": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804072514-jujushmaterial-8zRadQ/source/sdevice.cmd",
+                      "size": 2236
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
                   }
                 }
               ]
@@ -1068,10 +1101,10 @@
           "required": true,
           "policyReason": null,
           "submitted": true,
-          "submissionCount": 2,
+          "submissionCount": 3,
           "evidenceSubmissionCount": 2,
           "approvedSubmissionCount": 2,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -1147,6 +1180,39 @@
                 "reason": null,
                 "history": [],
                 "legacy": true
+              }
+            },
+            {
+              "submissionId": "20260804072514-jujushmaterial-8zRadQ",
+              "phaseId": 1,
+              "issueNumber": 1,
+              "taskId": "P01-T05",
+              "taskText": "서로 다른 두 금속 사이에 간격이 있는 기존 구조를 만든다.",
+              "outputId": "P01-T05-O01",
+              "outputText": "Dual-Metal Gap 구조 전체 코드",
+              "uploader": "jujushmaterial",
+              "memberName": "주상현",
+              "memberFolder": "JuSanghyeon",
+              "type": "code",
+              "uploadedAt": "2026-08-04T07:25:14.243Z",
+              "folderPath": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804072514-jujushmaterial-8zRadQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804072514-jujushmaterial-8zRadQ",
+              "summary": "1개 코드 파일 · 2.2KB",
+              "files": [
+                {
+                  "name": "sdevice.cmd",
+                  "path": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804072514-jujushmaterial-8zRadQ/source/sdevice.cmd",
+                  "size": 2236
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
               }
             }
           ],
