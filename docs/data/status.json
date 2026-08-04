@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T21:24:05+09:00",
+  "generatedAt": "2026-08-04T21:27:08+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -1685,9 +1685,9 @@
       "tasksDone": 8,
       "tasksTotal": 9,
       "issueTasksDone": 8,
-      "outputsDone": 35,
+      "outputsDone": 36,
       "outputsTotal": 37,
-      "requiredOutputsDone": 35,
+      "requiredOutputsDone": 36,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -3591,10 +3591,10 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 5,
-              "evidenceSubmissionCount": 3,
-              "approvedSubmissionCount": 3,
+              "evidenceSubmissionCount": 4,
+              "approvedSubmissionCount": 4,
               "pendingReviewCount": 1,
-              "heldSubmissionCount": 1,
+              "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
                 {
@@ -3631,10 +3631,10 @@
                     }
                   ],
                   "review": {
-                    "status": "held",
+                    "status": "approved",
                     "reviewer": "jujushmaterial",
-                    "reviewedAt": "2026-08-03T09:09:14.301Z",
-                    "reason": "이것도 어디를 찍은건지 설명좀 적어줘",
+                    "reviewedAt": "2026-08-04T12:23:53.478Z",
+                    "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
@@ -3646,6 +3646,11 @@
                         "reviewer": "jujushmaterial",
                         "at": "2026-08-03T09:09:14.301Z",
                         "reason": "이것도 어디를 찍은건지 설명좀 적어줘"
+                      },
+                      {
+                        "action": "approved-after-hold",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-04T12:23:53.478Z"
                       }
                     ],
                     "legacy": false
@@ -4128,13 +4133,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
               "pendingReviewCount": 0,
-              "heldSubmissionCount": 1,
-              "state": "held",
+              "heldSubmissionCount": 0,
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260802065802-minhosong-mse-Q083YA",
@@ -4170,10 +4175,10 @@
                     }
                   ],
                   "review": {
-                    "status": "held",
+                    "status": "approved",
                     "reviewer": "jujushmaterial",
-                    "reviewedAt": "2026-08-04T06:23:43.314Z",
-                    "reason": "축 이름 표기 후 재제출 권장",
+                    "reviewedAt": "2026-08-04T12:26:47.472Z",
+                    "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
@@ -4185,6 +4190,11 @@
                         "reviewer": "jujushmaterial",
                         "at": "2026-08-04T06:23:43.314Z",
                         "reason": "축 이름 표기 후 재제출 권장"
+                      },
+                      {
+                        "action": "approved-after-hold",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-04T12:26:47.472Z"
                       }
                     ],
                     "legacy": false
@@ -4752,12 +4762,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 5,
+          "requiredOutputsDone": 6,
           "requiredOutputsTotal": 7,
-          "outputsDone": 5,
+          "outputsDone": 6,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P02-T09-O02",
             "P02-T09-O03"
           ],
           "checkboxDrift": false
@@ -6582,10 +6591,10 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 5,
-          "evidenceSubmissionCount": 3,
-          "approvedSubmissionCount": 3,
+          "evidenceSubmissionCount": 4,
+          "approvedSubmissionCount": 4,
           "pendingReviewCount": 1,
-          "heldSubmissionCount": 1,
+          "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
             {
@@ -6622,10 +6631,10 @@
                 }
               ],
               "review": {
-                "status": "held",
+                "status": "approved",
                 "reviewer": "jujushmaterial",
-                "reviewedAt": "2026-08-03T09:09:14.301Z",
-                "reason": "이것도 어디를 찍은건지 설명좀 적어줘",
+                "reviewedAt": "2026-08-04T12:23:53.478Z",
+                "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
@@ -6637,6 +6646,11 @@
                     "reviewer": "jujushmaterial",
                     "at": "2026-08-03T09:09:14.301Z",
                     "reason": "이것도 어디를 찍은건지 설명좀 적어줘"
+                  },
+                  {
+                    "action": "approved-after-hold",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-04T12:23:53.478Z"
                   }
                 ],
                 "legacy": false
@@ -7108,13 +7122,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
           "pendingReviewCount": 0,
-          "heldSubmissionCount": 1,
-          "state": "held",
+          "heldSubmissionCount": 0,
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260802065802-minhosong-mse-Q083YA",
@@ -7150,10 +7164,10 @@
                 }
               ],
               "review": {
-                "status": "held",
+                "status": "approved",
                 "reviewer": "jujushmaterial",
-                "reviewedAt": "2026-08-04T06:23:43.314Z",
-                "reason": "축 이름 표기 후 재제출 권장",
+                "reviewedAt": "2026-08-04T12:26:47.472Z",
+                "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
@@ -7165,6 +7179,11 @@
                     "reviewer": "jujushmaterial",
                     "at": "2026-08-04T06:23:43.314Z",
                     "reason": "축 이름 표기 후 재제출 권장"
+                  },
+                  {
+                    "action": "approved-after-hold",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-04T12:26:47.472Z"
                   }
                 ],
                 "legacy": false
