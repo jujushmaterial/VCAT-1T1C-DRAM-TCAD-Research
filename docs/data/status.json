@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T15:23:18+09:00",
+  "generatedAt": "2026-08-04T15:23:56+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -4037,9 +4037,9 @@
               "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
-              "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 1,
+              "state": "held",
               "submissions": [
                 {
                   "submissionId": "20260802065802-minhosong-mse-Q083YA",
@@ -4075,15 +4075,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
-                    "reason": null,
+                    "status": "held",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-04T06:23:43.314Z",
+                    "reason": "축 이름 표기 후 재제출 권장",
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-02T06:58:02.577Z"
+                      },
+                      {
+                        "action": "held",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-04T06:23:43.314Z",
+                        "reason": "축 이름 표기 후 재제출 권장"
                       }
                     ],
                     "legacy": false
@@ -6995,9 +7001,9 @@
           "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
-          "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 1,
+          "state": "held",
           "submissions": [
             {
               "submissionId": "20260802065802-minhosong-mse-Q083YA",
@@ -7033,15 +7039,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
-                "reason": null,
+                "status": "held",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-04T06:23:43.314Z",
+                "reason": "축 이름 표기 후 재제출 권장",
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-02T06:58:02.577Z"
+                  },
+                  {
+                    "action": "held",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-04T06:23:43.314Z",
+                    "reason": "축 이름 표기 후 재제출 권장"
                   }
                 ],
                 "legacy": false
