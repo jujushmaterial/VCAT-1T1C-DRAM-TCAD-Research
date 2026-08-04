@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T15:24:44+09:00",
+  "generatedAt": "2026-08-04T15:25:10+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -4174,9 +4174,9 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 2,
-              "evidenceSubmissionCount": 1,
-              "approvedSubmissionCount": 1,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 2,
+              "approvedSubmissionCount": 2,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -4231,15 +4231,21 @@
                   "comment": "파라미터 어떻게 설정했는지랑, 각각 전체/확대 메시 이미지",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-04T06:24:53.865Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-02T07:00:32.711Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-04T06:24:53.865Z",
+                        "note": "Coarse·Medium·Fine의 전체 구조 및 upper SN–Channel junction 확대 이미지를 직접 검토했다. 세 조건은 동일한 구조에서 junction과 Si/oxide interface refinement 강도만 변화하며, mesh density 증가가 full/zoom 이미지에서 일관되게 확인된다. 구조 이미지의 node mapping과 원본 Sentaurus Mesh log의 points, elements, 최소 edge, 최소각 및 생성시간도 CSV와 일치한다. Fine의 매우 작은 최소 edge와 최소각은 국부 최대값 해석 시 주의사항이지만 구조 이미지 산출물 자체는 유효하다."
                       }
                     ],
                     "legacy": false
@@ -7145,9 +7151,9 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 2,
-          "evidenceSubmissionCount": 1,
-          "approvedSubmissionCount": 1,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 2,
+          "approvedSubmissionCount": 2,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -7202,15 +7208,21 @@
               "comment": "파라미터 어떻게 설정했는지랑, 각각 전체/확대 메시 이미지",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-04T06:24:53.865Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-02T07:00:32.711Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-04T06:24:53.865Z",
+                    "note": "Coarse·Medium·Fine의 전체 구조 및 upper SN–Channel junction 확대 이미지를 직접 검토했다. 세 조건은 동일한 구조에서 junction과 Si/oxide interface refinement 강도만 변화하며, mesh density 증가가 full/zoom 이미지에서 일관되게 확인된다. 구조 이미지의 node mapping과 원본 Sentaurus Mesh log의 points, elements, 최소 edge, 최소각 및 생성시간도 CSV와 일치한다. Fine의 매우 작은 최소 edge와 최소각은 국부 최대값 해석 시 주의사항이지만 구조 이미지 산출물 자체는 유효하다."
                   }
                 ],
                 "legacy": false
