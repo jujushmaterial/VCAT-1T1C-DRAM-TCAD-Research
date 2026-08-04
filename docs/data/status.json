@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T16:25:36+09:00",
+  "generatedAt": "2026-08-04T16:46:14+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -280,9 +280,9 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 3,
-              "evidenceSubmissionCount": 2,
-              "approvedSubmissionCount": 2,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 3,
+              "approvedSubmissionCount": 3,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -383,14 +383,26 @@
                       "size": 2236
                     }
                   ],
+                  "comment": "sdevice 우클릭 -> command 아래에 parmeter 클릭 -> 새로 만들기 -> 붙여넣기 ->  저장",
+                  "commentLabel": "실행 조건 및 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-04T07:45:53.472Z",
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-04T07:25:14.243Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-04T07:45:53.472Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -1102,9 +1114,9 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 3,
-          "evidenceSubmissionCount": 2,
-          "approvedSubmissionCount": 2,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 3,
+          "approvedSubmissionCount": 3,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -1205,14 +1217,26 @@
                   "size": 2236
                 }
               ],
+              "comment": "sdevice 우클릭 -> command 아래에 parmeter 클릭 -> 새로 만들기 -> 붙여넣기 ->  저장",
+              "commentLabel": "실행 조건 및 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-04T07:45:53.472Z",
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-04T07:25:14.243Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-04T07:45:53.472Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
