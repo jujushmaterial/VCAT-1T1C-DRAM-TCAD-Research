@@ -1,14 +1,26 @@
 {
-  "version": 2,
-  "description": "필수 산출물과 검토 승인 기반 자동 완료 정책. 명시되지 않은 산출물은 기본적으로 필수이며 승인된 제출본만 완료 증거로 인정합니다.",
+  "version": 3,
+  "description": "필수 산출물과 검토 승인 기반 자동 완료 정책. 명시되지 않은 산출물은 기본적으로 필수이며 승인된 제출본만 완료 증거로 인정합니다. Phase 1 기존 제출 자료는 경로와 이력을 보존하는 선택 참고자료로 유지합니다.",
   "defaults": {
     "outputRequired": true,
     "reviewBlocksCompletion": true
   },
   "outputs": {
+    "P01-T05-O01": {
+      "required": false,
+      "reason": "기존 Dual-Metal Gap 구조 코드 제출본을 보존하는 참고자료입니다."
+    },
+    "P01-T05-O02": {
+      "required": false,
+      "reason": "기존 Dual-Metal Gap 구조 단면 이미지 제출본을 보존하는 참고자료입니다."
+    },
+    "P01-T05-O03": {
+      "required": false,
+      "reason": "기존 Gap·금속 경계 확인 항목을 보존하는 참고자료입니다."
+    },
     "P01-T10-O05": {
       "required": false,
-      "reason": "DIBL 추출 코드 수정 과정의 참고자료이며 P01-T10의 핵심 결론 산출물은 O01~O04입니다."
+      "reason": "DIBL 추출 코드 수정 과정의 기존 참고자료입니다."
     }
   }
 }
