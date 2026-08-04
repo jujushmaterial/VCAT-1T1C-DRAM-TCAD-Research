@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-04T07:25:14.243Z",
+  "updatedAt": "2026-08-04T07:25:23.349Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -83,7 +83,9 @@
             "path": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804072514-jujushmaterial-8zRadQ/source/sdevice.cmd",
             "size": 2236
           }
-        ]
+        ],
+        "comment": "sdevice 우클릭 -> command 아래에 parmeter 클릭 -> 새로 만들기 -> 붙여넣기 ->  저장",
+        "commentLabel": "실행 조건 및 설명"
       }
     ],
     "P01-T05-O02": [
