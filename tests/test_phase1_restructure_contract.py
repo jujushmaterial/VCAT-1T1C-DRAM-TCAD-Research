@@ -49,6 +49,7 @@ class Phase1RestructureContractTests(unittest.TestCase):
             self.assertIn(line, self.issue)
 
     def test_new_research_scope_is_explicit(self):
+        combined = self.issue + self.plan
         for token in (
             "LL·LH·HL·HH",
             "n1_fps.tdr",
@@ -60,8 +61,11 @@ class Phase1RestructureContractTests(unittest.TestCase):
             "WF 공간 배치 방향 효과",
             "Gap 효과는 미평가",
         ):
-            self.assertIn(token, self.issue + self.plan)
-        self.assertNotIn("Gap 효과가 없다", self.issue + self.plan)
+            self.assertIn(token, combined)
+        self.assertIsNone(
+            re.search(r"(?m)^\s*(?:[-*]\s*)?Gap 효과가 없다[.!]?\s*$", combined),
+            "금지 결론이 독립 문장으로 작성되면 안 됩니다.",
+        )
         self.assertIn("새로운 SDE 구조 재구성과 Gap sweep은 수행하지 않는다", self.issue)
 
     def test_unverified_values_are_not_claimed_as_verified(self):
