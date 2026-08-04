@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T00:12:45+09:00",
+  "generatedAt": "2026-08-04T15:07:17+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 2,
@@ -3501,10 +3501,10 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 5,
-              "evidenceSubmissionCount": 1,
-              "approvedSubmissionCount": 1,
+              "evidenceSubmissionCount": 2,
+              "approvedSubmissionCount": 2,
               "pendingReviewCount": 1,
-              "heldSubmissionCount": 3,
+              "heldSubmissionCount": 2,
               "state": "submitted",
               "submissions": [
                 {
@@ -3687,10 +3687,10 @@
                     }
                   ],
                   "review": {
-                    "status": "held",
+                    "status": "approved",
                     "reviewer": "jujushmaterial",
-                    "reviewedAt": "2026-08-03T09:14:43.284Z",
-                    "reason": "이게 지금 body 부분인거임? 이따 와서 설명해줘",
+                    "reviewedAt": "2026-08-04T06:06:54.612Z",
+                    "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
@@ -3702,6 +3702,11 @@
                         "reviewer": "jujushmaterial",
                         "at": "2026-08-03T09:14:43.284Z",
                         "reason": "이게 지금 body 부분인거임? 이따 와서 설명해줘"
+                      },
+                      {
+                        "action": "approved-after-hold",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-04T06:06:54.612Z"
                       }
                     ],
                     "legacy": false
@@ -6448,10 +6453,10 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 5,
-          "evidenceSubmissionCount": 1,
-          "approvedSubmissionCount": 1,
+          "evidenceSubmissionCount": 2,
+          "approvedSubmissionCount": 2,
           "pendingReviewCount": 1,
-          "heldSubmissionCount": 3,
+          "heldSubmissionCount": 2,
           "state": "submitted",
           "submissions": [
             {
@@ -6634,10 +6639,10 @@
                 }
               ],
               "review": {
-                "status": "held",
+                "status": "approved",
                 "reviewer": "jujushmaterial",
-                "reviewedAt": "2026-08-03T09:14:43.284Z",
-                "reason": "이게 지금 body 부분인거임? 이따 와서 설명해줘",
+                "reviewedAt": "2026-08-04T06:06:54.612Z",
+                "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
@@ -6649,6 +6654,11 @@
                     "reviewer": "jujushmaterial",
                     "at": "2026-08-03T09:14:43.284Z",
                     "reason": "이게 지금 body 부분인거임? 이따 와서 설명해줘"
+                  },
+                  {
+                    "action": "approved-after-hold",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-04T06:06:54.612Z"
                   }
                 ],
                 "legacy": false
