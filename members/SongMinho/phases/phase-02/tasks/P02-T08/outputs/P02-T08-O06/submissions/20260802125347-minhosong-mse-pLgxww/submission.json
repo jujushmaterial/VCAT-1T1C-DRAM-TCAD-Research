@@ -32,10 +32,10 @@
     }
   ],
   "review": {
-    "status": "held",
+    "status": "approved",
     "reviewer": "jujushmaterial",
-    "reviewedAt": "2026-08-03T09:09:14.301Z",
-    "reason": "이것도 어디를 찍은건지 설명좀 적어줘",
+    "reviewedAt": "2026-08-04T12:23:53.478Z",
+    "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
@@ -47,6 +47,11 @@
         "reviewer": "jujushmaterial",
         "at": "2026-08-03T09:09:14.301Z",
         "reason": "이것도 어디를 찍은건지 설명좀 적어줘"
+      },
+      {
+        "action": "approved-after-hold",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-04T12:23:53.478Z"
       }
     ],
     "legacy": false
