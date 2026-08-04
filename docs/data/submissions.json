@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-04T12:26:47.472Z",
+  "updatedAt": "2026-08-04T16:04:22.192Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -105,6 +105,30 @@
           ],
           "legacy": false
         }
+      },
+      {
+        "submissionId": "20260804160422-jujushmaterial-UTGWFQ",
+        "phaseId": 1,
+        "issueNumber": 1,
+        "taskId": "P01-T05",
+        "taskText": "기존 Dual-Metal Gap SProcess 구조를 공통 기준 구조로 보존하고 실제 형상을 확인한다.",
+        "outputId": "P01-T05-O01",
+        "outputText": "Dual-Metal Gap 구조 전체 코드",
+        "uploader": "jujushmaterial",
+        "memberName": "주상현",
+        "memberFolder": "JuSanghyeon",
+        "type": "code",
+        "uploadedAt": "2026-08-04T16:04:22.192Z",
+        "folderPath": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804160422-jujushmaterial-UTGWFQ",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804160422-jujushmaterial-UTGWFQ",
+        "summary": "1개 코드 파일 · 5.3KB",
+        "files": [
+          {
+            "name": "sdevice.cmd",
+            "path": "members/JuSanghyeon/phases/phase-01/tasks/P01-T05/outputs/P01-T05-O01/submissions/20260804160422-jujushmaterial-UTGWFQ/source/sdevice.cmd",
+            "size": 5418
+          }
+        ]
       }
     ],
     "P01-T05-O02": [
