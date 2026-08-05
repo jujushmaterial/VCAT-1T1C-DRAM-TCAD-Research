@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T12:18:27.572Z",
+  "updatedAt": "2026-08-05T12:18:38.452Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -3317,7 +3317,21 @@
             "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121827-minhosong-mse-TmVqtQ/files/P01-T04-O01_profile_bias_mapping.csv",
             "size": 212
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-05T12:18:27.572Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
