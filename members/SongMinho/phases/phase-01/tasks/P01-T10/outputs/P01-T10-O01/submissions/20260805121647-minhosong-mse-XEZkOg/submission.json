@@ -20,5 +20,19 @@
       "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121647-minhosong-mse-XEZkOg/files/P01-T10-O01_terminal_metrics.csv",
       "size": 1243
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-05T12:16:47.734Z"
+      }
+    ],
+    "legacy": false
+  }
 }
