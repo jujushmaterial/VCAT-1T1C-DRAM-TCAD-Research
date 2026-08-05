@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-08-05T20:57:56+09:00",
+  "generatedAt": "2026-08-05T20:58:41+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 9,
+  "overallProgress": 8,
   "phases": [
     {
       "id": 1,
       "issueNumber": 1,
       "state": "in-progress",
-      "progress": 17,
-      "tasksDone": 1,
+      "progress": 0,
+      "tasksDone": 0,
       "tasksTotal": 6,
-      "issueTasksDone": 1,
+      "issueTasksDone": 0,
       "outputsDone": 3,
-      "outputsTotal": 10,
+      "outputsTotal": 11,
       "requiredOutputsDone": 0,
-      "requiredOutputsTotal": 6,
+      "requiredOutputsTotal": 7,
       "tasks": [
         {
           "id": "P01-T01",
@@ -59,17 +59,35 @@
               "heldSubmissionCount": 0,
               "state": "missing",
               "submissions": []
+            },
+            {
+              "id": "P01-T01-O03",
+              "text": "기타 도움될만한 파일들 (cmd, plt 등)",
+              "type": "files",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "not-started",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 2,
+          "requiredOutputsTotal": 3,
           "outputsDone": 0,
-          "outputsTotal": 2,
+          "outputsTotal": 3,
           "missingRequiredOutputs": [
             "P01-T01-O01",
-            "P01-T01-O02"
+            "P01-T01-O02",
+            "P01-T01-O03"
           ],
           "checkboxDrift": false
         },
@@ -144,7 +162,7 @@
         {
           "id": "P01-T05",
           "text": "기존 Dual-Metal Gap 구조 자료를 참고자료로 보존한다.",
-          "declaredChecked": true,
+          "declaredChecked": false,
           "outputs": [
             {
               "id": "P01-T05-O01",
@@ -394,8 +412,8 @@
               "submissions": []
             }
           ],
-          "checked": true,
-          "state": "completed",
+          "checked": false,
+          "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 0,
           "outputsDone": 2,
@@ -546,6 +564,24 @@
           "text": "LL·LH·HL·HH 실행 확인표와 로그·TDR 생성 증거",
           "type": "files",
           "review": "recommended",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P01-T01"
+        },
+        {
+          "id": "P01-T01-O03",
+          "text": "기타 도움될만한 파일들 (cmd, plt 등)",
+          "type": "files",
+          "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
@@ -936,8 +972,8 @@
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-08-04T16:33:08Z",
-      "lastModifiedBy": "jujushmaterial",
+      "updatedAt": "2026-08-05T11:58:20Z",
+      "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 1
     },
@@ -7597,9 +7633,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-05T11:57:37.727Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -8442,9 +8483,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-05T11:57:37.727Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
