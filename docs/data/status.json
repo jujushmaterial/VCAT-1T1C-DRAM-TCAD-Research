@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:09:21+09:00",
+  "generatedAt": "2026-08-05T21:15:00+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -816,17 +816,61 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260805121444-minhosong-mse-WemW9g",
+                  "phaseId": 1,
+                  "issueNumber": 1,
+                  "taskId": "P01-T09",
+                  "taskText": "LL·LH·HL·HH의 Id–Vg와 주요 단자 지표를 비교한다.",
+                  "outputId": "P01-T09-O01",
+                  "outputText": "LL·LH·HL·HH Id–Vg와 Vth·Ion·Ioff·SS·DIBL 비교표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-05T12:14:44.534Z",
+                  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121444-minhosong-mse-WemW9g",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121444-minhosong-mse-WemW9g",
+                  "summary": "3개 파일 · 21.6KB",
+                  "files": [
+                    {
+                      "name": "P01-T09-O01_IdVg_8curves_raw.csv",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121444-minhosong-mse-WemW9g/files/P01-T09-O01_IdVg_8curves_raw.csv",
+                      "size": 6022
+                    },
+                    {
+                      "name": "P01-T09-O01_IdVg_long_raw.csv",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121444-minhosong-mse-WemW9g/files/P01-T09-O01_IdVg_long_raw.csv",
+                      "size": 14898
+                    },
+                    {
+                      "name": "P01-T09-O01_metrics.csv",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121444-minhosong-mse-WemW9g/files/P01-T09-O01_metrics.csv",
+                      "size": 1243
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
-          "state": "not-started",
+          "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 1,
           "outputsDone": 0,
@@ -1652,13 +1696,57 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260805121444-minhosong-mse-WemW9g",
+              "phaseId": 1,
+              "issueNumber": 1,
+              "taskId": "P01-T09",
+              "taskText": "LL·LH·HL·HH의 Id–Vg와 주요 단자 지표를 비교한다.",
+              "outputId": "P01-T09-O01",
+              "outputText": "LL·LH·HL·HH Id–Vg와 Vth·Ion·Ioff·SS·DIBL 비교표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-05T12:14:44.534Z",
+              "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121444-minhosong-mse-WemW9g",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121444-minhosong-mse-WemW9g",
+              "summary": "3개 파일 · 21.6KB",
+              "files": [
+                {
+                  "name": "P01-T09-O01_IdVg_8curves_raw.csv",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121444-minhosong-mse-WemW9g/files/P01-T09-O01_IdVg_8curves_raw.csv",
+                  "size": 6022
+                },
+                {
+                  "name": "P01-T09-O01_IdVg_long_raw.csv",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121444-minhosong-mse-WemW9g/files/P01-T09-O01_IdVg_long_raw.csv",
+                  "size": 14898
+                },
+                {
+                  "name": "P01-T09-O01_metrics.csv",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121444-minhosong-mse-WemW9g/files/P01-T09-O01_metrics.csv",
+                  "size": 1243
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P01-T09"
         },
         {
