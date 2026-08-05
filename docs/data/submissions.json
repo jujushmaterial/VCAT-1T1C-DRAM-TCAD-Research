@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T08:28:28.564Z",
+  "updatedAt": "2026-08-05T11:50:20.766Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2454,6 +2454,37 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P03-T01-O03": [
+      {
+        "submissionId": "20260805115020-LEE-TAEK-GYU-HcCiBQ",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T01",
+        "taskText": "Dual-Metal의 두 배치 방향을 만든다.",
+        "outputId": "P03-T01-O03",
+        "outputText": "금속 배치 조건표",
+        "uploader": "LEE-TAEK-GYU",
+        "memberName": "이택규",
+        "memberFolder": "LeeTaekGyu",
+        "type": "files",
+        "uploadedAt": "2026-08-05T11:50:20.766Z",
+        "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T01/outputs/P03-T01-O03/submissions/20260805115020-LEE-TAEK-GYU-HcCiBQ",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T01/outputs/P03-T01-O03/submissions/20260805115020-LEE-TAEK-GYU-HcCiBQ",
+        "summary": "2개 파일 · 64.8KB",
+        "files": [
+          {
+            "name": "P03-T01-O03_Metal_Arrangement.csv",
+            "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T01/outputs/P03-T01-O03/submissions/20260805115020-LEE-TAEK-GYU-HcCiBQ/files/P03-T01-O03_Metal_Arrangement.csv",
+            "size": 763
+          },
+          {
+            "name": "P03-T01-O03b_Arrangement_Comparison.png",
+            "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T01/outputs/P03-T01-O03/submissions/20260805115020-LEE-TAEK-GYU-HcCiBQ/files/P03-T01-O03b_Arrangement_Comparison.png",
+            "size": 65609
+          }
+        ]
       }
     ]
   }

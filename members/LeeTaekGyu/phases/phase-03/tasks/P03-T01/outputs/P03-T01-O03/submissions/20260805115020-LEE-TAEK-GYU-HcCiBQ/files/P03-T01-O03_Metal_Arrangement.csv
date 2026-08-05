@@ -1,0 +1,11 @@
+Arrangement,delta_WF_eV,WF_SN_eV,WF_BL_eV,High_WF_side,Node_Vd0p05,Node_Vd1p00,Note
+A-0.4,-0.4,4.50,4.90,BL (bit line),n129,n130,reverse arrangement
+A-0.2,-0.2,4.60,4.80,BL (bit line),n109,n110,reverse arrangement
+A0.0,+0.0,4.70,4.70,none,n2,n21,control - equals single-metal
+A+0.2,+0.2,4.80,4.60,SN (storage node),n89,n90,forward arrangement
+A+0.4,+0.4,4.90,4.50,SN (storage node),n69,n70,forward arrangement
+
+"# Both metal arrangements are covered by the sign of delta_WF, so no separate structure file is needed."
+# delta_WF = WF_SN - WF_BL. Mean work function fixed at 4.70 eV for every condition.
+"# Structure: 2-zone gate, RatioSN = 0.5 (metal boundary at the gate midpoint)."
+# Structure code: P03-T01-O01 (P03-T01_dual-metal-2zone_sde_v01.cmd)
