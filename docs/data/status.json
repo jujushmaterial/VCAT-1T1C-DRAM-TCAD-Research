@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T20:58:41+09:00",
+  "generatedAt": "2026-08-05T20:59:23+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -17,9 +17,9 @@
       "tasksTotal": 6,
       "issueTasksDone": 0,
       "outputsDone": 3,
-      "outputsTotal": 11,
+      "outputsTotal": 10,
       "requiredOutputsDone": 0,
-      "requiredOutputsTotal": 7,
+      "requiredOutputsTotal": 6,
       "tasks": [
         {
           "id": "P01-T01",
@@ -59,35 +59,17 @@
               "heldSubmissionCount": 0,
               "state": "missing",
               "submissions": []
-            },
-            {
-              "id": "P01-T01-O03",
-              "text": "기타 도움될만한 파일들 (cmd, plt 등)",
-              "type": "files",
-              "review": "none",
-              "reviewBlocksCompletion": true,
-              "required": true,
-              "policyReason": null,
-              "submitted": false,
-              "submissionCount": 0,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
-              "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
             }
           ],
           "checked": false,
           "state": "not-started",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 3,
+          "requiredOutputsTotal": 2,
           "outputsDone": 0,
-          "outputsTotal": 3,
+          "outputsTotal": 2,
           "missingRequiredOutputs": [
             "P01-T01-O01",
-            "P01-T01-O02",
-            "P01-T01-O03"
+            "P01-T01-O02"
           ],
           "checkboxDrift": false
         },
@@ -578,24 +560,6 @@
           "taskId": "P01-T01"
         },
         {
-          "id": "P01-T01-O03",
-          "text": "기타 도움될만한 파일들 (cmd, plt 등)",
-          "type": "files",
-          "review": "none",
-          "reviewBlocksCompletion": true,
-          "required": true,
-          "policyReason": null,
-          "submitted": false,
-          "submissionCount": 0,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
-          "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
-          "taskId": "P01-T01"
-        },
-        {
           "id": "P01-T03-O01",
           "text": "Potential·ConductionBandEnergy·ElectricField·eDensity·eCurrent 핵심 프로파일 비교 자료",
           "type": "files",
@@ -972,7 +936,7 @@
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-08-05T11:58:20Z",
+      "updatedAt": "2026-08-05T11:59:06Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 1
