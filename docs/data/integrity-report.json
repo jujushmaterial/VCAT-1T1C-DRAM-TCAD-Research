@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-05T21:07:48+09:00",
+  "generatedAt": "2026-08-05T21:08:20+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
     "error": 0,
-    "warning": 20,
+    "warning": 28,
     "info": 0
   },
   "items": [
@@ -209,6 +209,86 @@
       "outputId": "P01-T04-O01",
       "submissionId": "20260805120713-minhosong-mse-iQmS_w",
       "fileName": "P01-T03-O01_Vg1p0_Potential_Cutline.png",
+      "fileOutputId": "P01-T03-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T04-O01",
+      "submissionId": "20260805120752-minhosong-mse-ZXhgTg",
+      "fileName": "P01-T03-O01_Vg2p5_CBE_2D.png",
+      "fileOutputId": "P01-T03-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T04-O01",
+      "submissionId": "20260805120752-minhosong-mse-ZXhgTg",
+      "fileName": "P01-T03-O01_Vg2p5_CBE_Cutline.png",
+      "fileOutputId": "P01-T03-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T04-O01",
+      "submissionId": "20260805120752-minhosong-mse-ZXhgTg",
+      "fileName": "P01-T03-O01_Vg2p5_eCurrent_Cutline.png",
+      "fileOutputId": "P01-T03-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T04-O01",
+      "submissionId": "20260805120752-minhosong-mse-ZXhgTg",
+      "fileName": "P01-T03-O01_Vg2p5_eDensity_Cutline.png",
+      "fileOutputId": "P01-T03-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T04-O01",
+      "submissionId": "20260805120752-minhosong-mse-ZXhgTg",
+      "fileName": "P01-T03-O01_Vg2p5_ElectricField_2D.png",
+      "fileOutputId": "P01-T03-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T04-O01",
+      "submissionId": "20260805120752-minhosong-mse-ZXhgTg",
+      "fileName": "P01-T03-O01_Vg2p5_ElectricField_Cutline.png",
+      "fileOutputId": "P01-T03-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T04-O01",
+      "submissionId": "20260805120752-minhosong-mse-ZXhgTg",
+      "fileName": "P01-T03-O01_Vg2p5_Potential_2D.png",
+      "fileOutputId": "P01-T03-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T04-O01",
+      "submissionId": "20260805120752-minhosong-mse-ZXhgTg",
+      "fileName": "P01-T03-O01_Vg2p5_Potential_Cutline.png",
       "fileOutputId": "P01-T03-O01"
     }
   ]
