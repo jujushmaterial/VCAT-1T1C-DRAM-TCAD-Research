@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T11:56:19.324Z",
+  "updatedAt": "2026-08-05T11:57:37.727Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2565,6 +2565,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P03-T05-O03": [
+      {
+        "submissionId": "20260805115737-LEE-TAEK-GYU-1sq7zw",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T05",
+        "taskText": "금속의 일함수 차이를 넓은 범위로 바꾼다.",
+        "outputId": "P03-T05-O03",
+        "outputText": "일함수 차이에 따른 성능 그래프",
+        "uploader": "LEE-TAEK-GYU",
+        "memberName": "이택규",
+        "memberFolder": "LeeTaekGyu",
+        "type": "files",
+        "uploadedAt": "2026-08-05T11:57:37.727Z",
+        "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O03/submissions/20260805115737-LEE-TAEK-GYU-1sq7zw",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O03/submissions/20260805115737-LEE-TAEK-GYU-1sq7zw",
+        "summary": "1개 파일 · 300.9KB",
+        "files": [
+          {
+            "name": "P03-T05-O03_Performance_vs_dWF.png",
+            "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O03/submissions/20260805115737-LEE-TAEK-GYU-1sq7zw/files/P03-T05-O03_Performance_vs_dWF.png",
+            "size": 308086
+          }
+        ]
       }
     ]
   }
