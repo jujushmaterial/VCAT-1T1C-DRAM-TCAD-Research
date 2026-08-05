@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:15:57+09:00",
+  "generatedAt": "2026-08-05T21:16:36+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -962,13 +962,87 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260805121609-minhosong-mse-bARnyA",
+                  "phaseId": 1,
+                  "issueNumber": 1,
+                  "taskId": "P01-T10",
+                  "taskText": "프로파일·cutline·단자 결과를 연결해 Dual-WF 작동 원인을 정리한다.",
+                  "outputId": "P01-T10-O01",
+                  "outputText": "Dual-WF 작동 원인 통합 결론과 발표용 핵심 그림",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-05T12:16:09.740Z",
+                  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA",
+                  "summary": "9개 파일 · 1.31MB",
+                  "files": [
+                    {
+                      "name": "P01-T10-O01_integrated_key_figure.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_integrated_key_figure.png",
+                      "size": 298247
+                    },
+                    {
+                      "name": "P01-T10-O01_Vg0_Potential_Cutline.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg0_Potential_Cutline.png",
+                      "size": 122043
+                    },
+                    {
+                      "name": "P01-T10-O01_Vg1p0_CBE_Cutline.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg1p0_CBE_Cutline.png",
+                      "size": 116521
+                    },
+                    {
+                      "name": "P01-T10-O01_Vg1p0_eCurrent_Cutline.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg1p0_eCurrent_Cutline.png",
+                      "size": 159424
+                    },
+                    {
+                      "name": "P01-T10-O01_Vg1p0_eDensity_Cutline.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg1p0_eDensity_Cutline.png",
+                      "size": 104303
+                    },
+                    {
+                      "name": "P01-T10-O01_Vg1p0_ElectricField_Cutline.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg1p0_ElectricField_Cutline.png",
+                      "size": 119780
+                    },
+                    {
+                      "name": "P01-T10-O01_Vg1p0_Potential_Cutline.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg1p0_Potential_Cutline.png",
+                      "size": 118638
+                    },
+                    {
+                      "name": "P01-T10-O01_Vg2p5_Potential_Cutline.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg2p5_Potential_Cutline.png",
+                      "size": 120871
+                    },
+                    {
+                      "name": "P01-T10-O01_IdVg_log.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_IdVg_log.png",
+                      "size": 209193
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P01-T10-O05",
@@ -1894,13 +1968,87 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260805121609-minhosong-mse-bARnyA",
+              "phaseId": 1,
+              "issueNumber": 1,
+              "taskId": "P01-T10",
+              "taskText": "프로파일·cutline·단자 결과를 연결해 Dual-WF 작동 원인을 정리한다.",
+              "outputId": "P01-T10-O01",
+              "outputText": "Dual-WF 작동 원인 통합 결론과 발표용 핵심 그림",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-05T12:16:09.740Z",
+              "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA",
+              "summary": "9개 파일 · 1.31MB",
+              "files": [
+                {
+                  "name": "P01-T10-O01_integrated_key_figure.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_integrated_key_figure.png",
+                  "size": 298247
+                },
+                {
+                  "name": "P01-T10-O01_Vg0_Potential_Cutline.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg0_Potential_Cutline.png",
+                  "size": 122043
+                },
+                {
+                  "name": "P01-T10-O01_Vg1p0_CBE_Cutline.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg1p0_CBE_Cutline.png",
+                  "size": 116521
+                },
+                {
+                  "name": "P01-T10-O01_Vg1p0_eCurrent_Cutline.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg1p0_eCurrent_Cutline.png",
+                  "size": 159424
+                },
+                {
+                  "name": "P01-T10-O01_Vg1p0_eDensity_Cutline.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg1p0_eDensity_Cutline.png",
+                  "size": 104303
+                },
+                {
+                  "name": "P01-T10-O01_Vg1p0_ElectricField_Cutline.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg1p0_ElectricField_Cutline.png",
+                  "size": 119780
+                },
+                {
+                  "name": "P01-T10-O01_Vg1p0_Potential_Cutline.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg1p0_Potential_Cutline.png",
+                  "size": 118638
+                },
+                {
+                  "name": "P01-T10-O01_Vg2p5_Potential_Cutline.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_Vg2p5_Potential_Cutline.png",
+                  "size": 120871
+                },
+                {
+                  "name": "P01-T10-O01_IdVg_log.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121609-minhosong-mse-bARnyA/files/P01-T10-O01_IdVg_log.png",
+                  "size": 209193
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P01-T10"
         },
         {
