@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:16:36+09:00",
+  "generatedAt": "2026-08-05T21:17:21+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -962,10 +962,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 1,
+              "submissionCount": 2,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -1037,9 +1037,52 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-05T12:16:09.740Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260805121647-minhosong-mse-XEZkOg",
+                  "phaseId": 1,
+                  "issueNumber": 1,
+                  "taskId": "P01-T10",
+                  "taskText": "프로파일·cutline·단자 결과를 연결해 Dual-WF 작동 원인을 정리한다.",
+                  "outputId": "P01-T10-O01",
+                  "outputText": "Dual-WF 작동 원인 통합 결론과 발표용 핵심 그림",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-05T12:16:47.734Z",
+                  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121647-minhosong-mse-XEZkOg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121647-minhosong-mse-XEZkOg",
+                  "summary": "1개 파일 · 1.2KB",
+                  "files": [
+                    {
+                      "name": "P01-T10-O01_terminal_metrics.csv",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121647-minhosong-mse-XEZkOg/files/P01-T10-O01_terminal_metrics.csv",
+                      "size": 1243
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-05T12:16:47.734Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -1968,10 +2011,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 1,
+          "submissionCount": 2,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -2043,9 +2086,52 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-05T12:16:09.740Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260805121647-minhosong-mse-XEZkOg",
+              "phaseId": 1,
+              "issueNumber": 1,
+              "taskId": "P01-T10",
+              "taskText": "프로파일·cutline·단자 결과를 연결해 Dual-WF 작동 원인을 정리한다.",
+              "outputId": "P01-T10-O01",
+              "outputText": "Dual-WF 작동 원인 통합 결론과 발표용 핵심 그림",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-05T12:16:47.734Z",
+              "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121647-minhosong-mse-XEZkOg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121647-minhosong-mse-XEZkOg",
+              "summary": "1개 파일 · 1.2KB",
+              "files": [
+                {
+                  "name": "P01-T10-O01_terminal_metrics.csv",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121647-minhosong-mse-XEZkOg/files/P01-T10-O01_terminal_metrics.csv",
+                  "size": 1243
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-05T12:16:47.734Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
