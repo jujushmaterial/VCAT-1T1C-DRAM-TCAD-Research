@@ -1,0 +1,5 @@
+﻿Case,Node,WF_S_eV,WF_D_eV,Vd_Low_V,Vd_High_V,Vg_Sweep_V,Simulation_Finished,Curve_Trace_Finished,Final_TDR_Written,LowVd_Profile_TDR_Count,HighVd_Profile_TDR_Count,Representative_HighVd_TDRs,Wallclock_s,Finish_Time_KST,Warning_Summary
+LL,n2,4.2,4.2,0.08,0.7,0 to 2.5,YES,YES,YES,6,6,n2_Profile_HighVd_0000/0003/0005_des.tdr,71.19,Tue Aug  4 22:25:45 2026,BarrierTunneling plot aliases deprecated; simulation completed
+LH,n19,4.2,4.8,0.08,0.7,0 to 2.5,YES,YES,YES,6,6,n19_Profile_HighVd_0000/0003/0005_des.tdr,87.37,Tue Aug  4 22:27:15 2026,BarrierTunneling plot aliases deprecated; simulation completed
+HL,n15,4.8,4.2,0.08,0.7,0 to 2.5,YES,YES,YES,6,6,n15_Profile_HighVd_0000/0003/0005_des.tdr,84.19,Tue Aug  4 22:28:42 2026,BarrierTunneling plot aliases deprecated; simulation completed
+HH,n21,4.8,4.8,0.08,0.7,0 to 2.5,YES,YES,YES,6,6,n21_Profile_HighVd_0000/0003/0005_des.tdr,66.23,Tue Aug  4 22:29:52 2026,BarrierTunneling plot aliases deprecated; simulation completed
