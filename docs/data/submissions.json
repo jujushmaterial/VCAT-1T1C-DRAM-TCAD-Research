@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T12:16:31.177Z",
+  "updatedAt": "2026-08-05T12:16:47.734Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -3191,6 +3191,30 @@
           ],
           "legacy": false
         }
+      },
+      {
+        "submissionId": "20260805121647-minhosong-mse-XEZkOg",
+        "phaseId": 1,
+        "issueNumber": 1,
+        "taskId": "P01-T10",
+        "taskText": "프로파일·cutline·단자 결과를 연결해 Dual-WF 작동 원인을 정리한다.",
+        "outputId": "P01-T10-O01",
+        "outputText": "Dual-WF 작동 원인 통합 결론과 발표용 핵심 그림",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-05T12:16:47.734Z",
+        "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121647-minhosong-mse-XEZkOg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121647-minhosong-mse-XEZkOg",
+        "summary": "1개 파일 · 1.2KB",
+        "files": [
+          {
+            "name": "P01-T10-O01_terminal_metrics.csv",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O01/submissions/20260805121647-minhosong-mse-XEZkOg/files/P01-T10-O01_terminal_metrics.csv",
+            "size": 1243
+          }
+        ]
       }
     ]
   }
