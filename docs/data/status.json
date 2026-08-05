@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:08:20+09:00",
+  "generatedAt": "2026-08-05T21:09:21+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -242,10 +242,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 3,
+              "submissionCount": 4,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 3,
+              "pendingReviewCount": 4,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -453,9 +453,77 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-05T12:07:52.747Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260805120831-minhosong-mse-s2wlxg",
+                  "phaseId": 1,
+                  "issueNumber": 1,
+                  "taskId": "P01-T04",
+                  "taskText": "모든 조건에 공통 적용한 cutline 위치와 profile 매핑을 검증한다.",
+                  "outputId": "P01-T04-O01",
+                  "outputText": "소자 단면의 lateral·vertical cutline 위치 이미지와 좌표·bias 매핑",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-05T12:08:31.308Z",
+                  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg",
+                  "summary": "6개 파일 · 1.32MB",
+                  "files": [
+                    {
+                      "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_CBE_2D.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_CBE_2D.png",
+                      "size": 417633
+                    },
+                    {
+                      "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_CBE_Cutline.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_CBE_Cutline.png",
+                      "size": 124880
+                    },
+                    {
+                      "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_ElectricField_2D.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_ElectricField_2D.png",
+                      "size": 166573
+                    },
+                    {
+                      "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_ElectricField_Cutline.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_ElectricField_Cutline.png",
+                      "size": 127641
+                    },
+                    {
+                      "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_2D.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_2D.png",
+                      "size": 433697
+                    },
+                    {
+                      "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_Cutline.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_Cutline.png",
+                      "size": 112541
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-05T12:08:31.308Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -1038,10 +1106,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 3,
+          "submissionCount": 4,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 3,
+          "pendingReviewCount": 4,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -1249,9 +1317,77 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-05T12:07:52.747Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260805120831-minhosong-mse-s2wlxg",
+              "phaseId": 1,
+              "issueNumber": 1,
+              "taskId": "P01-T04",
+              "taskText": "모든 조건에 공통 적용한 cutline 위치와 profile 매핑을 검증한다.",
+              "outputId": "P01-T04-O01",
+              "outputText": "소자 단면의 lateral·vertical cutline 위치 이미지와 좌표·bias 매핑",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-05T12:08:31.308Z",
+              "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg",
+              "summary": "6개 파일 · 1.32MB",
+              "files": [
+                {
+                  "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_CBE_2D.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_CBE_2D.png",
+                  "size": 417633
+                },
+                {
+                  "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_CBE_Cutline.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_CBE_Cutline.png",
+                  "size": 124880
+                },
+                {
+                  "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_ElectricField_2D.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_ElectricField_2D.png",
+                  "size": 166573
+                },
+                {
+                  "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_ElectricField_Cutline.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_ElectricField_Cutline.png",
+                  "size": 127641
+                },
+                {
+                  "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_2D.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_2D.png",
+                  "size": 433697
+                },
+                {
+                  "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_Cutline.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_Cutline.png",
+                  "size": 112541
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-05T12:08:31.308Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -1601,7 +1737,7 @@
       "updatedAt": "2026-08-05T11:59:06Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 25
+      "integrityWarnings": 31
     },
     {
       "id": 2,
