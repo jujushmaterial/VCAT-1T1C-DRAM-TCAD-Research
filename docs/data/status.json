@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:19:07+09:00",
+  "generatedAt": "2026-08-05T21:20:04+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -196,12 +196,12 @@
         },
         {
           "id": "P01-T03",
-          "text": "대표 bias에서 Device 소자 프로파일을 비교한다.",
+          "text": "모든 조건에 공통 적용한 cutline 위치와 profile 매핑을 검증한다.",
           "declaredChecked": false,
           "outputs": [
             {
               "id": "P01-T03-O01",
-              "text": "Potential·ConductionBandEnergy·ElectricField·eDensity·eCurrent 핵심 프로파일 비교 자료",
+              "text": "소자 단면의 lateral·vertical cutline 위치 이미지와 좌표·bias 매핑 비교 자료",
               "type": "files",
               "review": "recommended",
               "reviewBlocksCompletion": true,
@@ -332,12 +332,12 @@
         },
         {
           "id": "P01-T04",
-          "text": "모든 조건에 공통 적용한 cutline 위치와 profile 매핑을 검증한다.",
+          "text": "대표 bias에서 Device 소자 프로파일을 비교한다.",
           "declaredChecked": false,
           "outputs": [
             {
               "id": "P01-T04-O01",
-              "text": "소자 단면의 lateral·vertical cutline 위치 이미지와 좌표·bias 매핑",
+              "text": "Potential·ConductionBandEnergy·ElectricField·eDensity·eCurrent 핵심 프로파일",
               "type": "files",
               "review": "recommended",
               "reviewBlocksCompletion": true,
@@ -1412,7 +1412,7 @@
         },
         {
           "id": "P01-T03-O01",
-          "text": "Potential·ConductionBandEnergy·ElectricField·eDensity·eCurrent 핵심 프로파일 비교 자료",
+          "text": "소자 단면의 lateral·vertical cutline 위치 이미지와 좌표·bias 매핑 비교 자료",
           "type": "files",
           "review": "recommended",
           "reviewBlocksCompletion": true,
@@ -1532,7 +1532,7 @@
         },
         {
           "id": "P01-T04-O01",
-          "text": "소자 단면의 lateral·vertical cutline 위치 이미지와 좌표·bias 매핑",
+          "text": "Potential·ConductionBandEnergy·ElectricField·eDensity·eCurrent 핵심 프로파일",
           "type": "files",
           "review": "recommended",
           "reviewBlocksCompletion": true,
@@ -2396,7 +2396,7 @@
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-08-05T11:59:06Z",
+      "updatedAt": "2026-08-05T12:19:45Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 38
