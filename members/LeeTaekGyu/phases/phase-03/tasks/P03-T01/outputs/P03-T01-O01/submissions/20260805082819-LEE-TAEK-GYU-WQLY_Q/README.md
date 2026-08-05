@@ -11,3 +11,4 @@
 
 - [보기용 코드 문서](./code-submission.md)
 - [원본 semi302-p3.cmd](./source/semi302-p3.cmd)
+  <img width="1058" height="460" alt="image" src="https://github.com/user-attachments/assets/d1c8d3b5-808c-49cb-b1bc-f4faee2519bf" />
