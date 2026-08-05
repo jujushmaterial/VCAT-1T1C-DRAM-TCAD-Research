@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T12:07:52.747Z",
+  "updatedAt": "2026-08-05T12:08:10.774Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2920,7 +2920,21 @@
             "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120752-minhosong-mse-ZXhgTg/files/P01-T03-O01_Vg2p5_Potential_Cutline.png",
             "size": 120871
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-05T12:07:52.747Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
