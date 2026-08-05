@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T12:00:33.581Z",
+  "updatedAt": "2026-08-05T12:00:44.587Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2675,7 +2675,21 @@
             "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260805120033-minhosong-mse-PtnK3g/files/P01-T01-O02_workbench_parameter_map_02.png",
             "size": 99740
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-05T12:00:33.581Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
