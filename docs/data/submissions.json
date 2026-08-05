@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T08:15:44.760Z",
+  "updatedAt": "2026-08-05T08:28:19.187Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2416,6 +2416,30 @@
           ],
           "legacy": false
         }
+      },
+      {
+        "submissionId": "20260805082819-LEE-TAEK-GYU-WQLY_Q",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T01",
+        "taskText": "Dual-Metal의 두 배치 방향을 만든다.",
+        "outputId": "P03-T01-O01",
+        "outputText": "Dual-Metal 양방향 구조 코드",
+        "uploader": "LEE-TAEK-GYU",
+        "memberName": "이택규",
+        "memberFolder": "LeeTaekGyu",
+        "type": "code",
+        "uploadedAt": "2026-08-05T08:28:19.187Z",
+        "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T01/outputs/P03-T01-O01/submissions/20260805082819-LEE-TAEK-GYU-WQLY_Q",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T01/outputs/P03-T01-O01/submissions/20260805082819-LEE-TAEK-GYU-WQLY_Q",
+        "summary": "1개 코드 파일 · 3.3KB",
+        "files": [
+          {
+            "name": "semi302-p3.cmd",
+            "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T01/outputs/P03-T01-O01/submissions/20260805082819-LEE-TAEK-GYU-WQLY_Q/source/semi302-p3.cmd",
+            "size": 3341
+          }
+        ]
       }
     ]
   }
