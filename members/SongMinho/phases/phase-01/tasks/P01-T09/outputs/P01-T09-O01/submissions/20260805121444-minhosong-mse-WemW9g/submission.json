@@ -30,5 +30,19 @@
       "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121444-minhosong-mse-WemW9g/files/P01-T09-O01_metrics.csv",
       "size": 1243
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-05T12:14:44.534Z"
+      }
+    ],
+    "legacy": false
+  }
 }
