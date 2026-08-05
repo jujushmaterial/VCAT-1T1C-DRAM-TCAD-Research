@@ -1113,3 +1113,17 @@ DIBL 허용 상대 또는 절대차이
 - **검토 결과:** 승인
 - **GitHub 기록:** `docs/data/submissions.json`과 제출본 `submission.json`을 같은 커밋에서 갱신했습니다.
 - **다음 작업:** 승인된 제출본을 연구 진행률 증거로 사용합니다.
+
+
+## 2026-08-05 21:00 KST — 자동 타임라인 보완
+
+- **작성자:** GitHub Actions (`@minhosong-mse`의 변경 감지)
+- **Phase / Issue:** Phase 1 / Issue 미확인
+- **결과물 ID:** `해당 없음`
+- **변경 유형:** 자동 기록
+- **변경 파일:**
+  - `members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260805120033-minhosong-mse-PtnK3g/submission.json` (수정)
+- **작업 내용:** 개인 폴더 변경에서 수동 `TIMELINE.md` 기록이 확인되지 않아 변경 파일 목록을 자동으로 추가했습니다.
+- **작업 이유:** 개인 폴더의 모든 변경 이력을 반드시 남기는 저장소 규칙을 보장하기 위해서입니다.
+- **결과 및 검증:** 커밋 `9e539ab6d825` 감지. 커밋 메시지: `Mark P01-T01-O02 submission 20260805120033-minhosong-mse-PtnK3g for review`. 파일 내용과 TCAD 결과의 타당성은 자동 검증하지 않았습니다.
+- **남은 일:** 실제 작업자는 필요하면 이 자동 기록 아래에 목적, 조건, 결과와 검증 내용을 보완해야 합니다.
