@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-05T21:17:21+09:00",
+  "generatedAt": "2026-08-05T21:18:10+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
     "error": 0,
-    "warning": 34,
+    "warning": 39,
     "info": 0
   },
   "items": [
@@ -50,6 +50,56 @@
       "missingRequiredOutputs": [
         "P01-T10-O01"
       ]
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T03-O01",
+      "submissionId": "20260805121739-minhosong-mse-zxy1QA",
+      "fileName": "P01-T04-O01_C1_lateral_coordinates.png",
+      "fileOutputId": "P01-T04-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T03-O01",
+      "submissionId": "20260805121739-minhosong-mse-zxy1QA",
+      "fileName": "P01-T04-O01_C2_vertical_coordinates.png",
+      "fileOutputId": "P01-T04-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T03-O01",
+      "submissionId": "20260805121739-minhosong-mse-zxy1QA",
+      "fileName": "P01-T04-O01_cutline_overview_C1-C2.png",
+      "fileOutputId": "P01-T04-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T03-O01",
+      "submissionId": "20260805121739-minhosong-mse-zxy1QA",
+      "fileName": "P01-T04-O01_lateral_cutline_with_plot_supplement.png",
+      "fileOutputId": "P01-T04-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T03-O01",
+      "submissionId": "20260805121739-minhosong-mse-zxy1QA",
+      "fileName": "P01-T04-O01_vertical_cutline_with_plot_supplement.png",
+      "fileOutputId": "P01-T04-O01"
     },
     {
       "code": "FILENAME_PREFIX_MISMATCH",
