@@ -55,5 +55,19 @@
       "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120501-minhosong-mse-8Mqf1Q/files/P01-T03-O01_Vg0_Potential_Cutline.png",
       "size": 122043
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-05T12:05:01.422Z"
+      }
+    ],
+    "legacy": false
+  }
 }
