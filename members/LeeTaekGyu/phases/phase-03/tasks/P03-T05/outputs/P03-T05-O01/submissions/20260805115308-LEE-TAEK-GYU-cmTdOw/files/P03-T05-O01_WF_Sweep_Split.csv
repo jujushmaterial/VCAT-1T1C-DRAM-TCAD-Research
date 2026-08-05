@@ -1,0 +1,20 @@
+Condition,delta_WF_eV,WF_SN_eV,WF_BL_eV,Mean_WF_eV,VdBias_V,Node,Status
+dWF-0.4,-0.4,4.50,4.90,4.70,0.05,n129,converged
+dWF-0.4,-0.4,4.50,4.90,4.70,1.00,n130,converged
+dWF-0.2,-0.2,4.60,4.80,4.70,0.05,n109,converged
+dWF-0.2,-0.2,4.60,4.80,4.70,1.00,n110,converged
+dWF+0.0,+0.0,4.70,4.70,4.70,0.05,n2,converged
+dWF+0.0,+0.0,4.70,4.70,4.70,1.00,n21,converged
+dWF+0.2,+0.2,4.80,4.60,4.70,0.05,n89,converged
+dWF+0.2,+0.2,4.80,4.60,4.70,1.00,n90,converged
+dWF+0.4,+0.4,4.90,4.50,4.70,0.05,n69,converged
+dWF+0.4,+0.4,4.90,4.50,4.70,1.00,n70,converged
+
+# Sweep design
+# delta_WF range,-0.4 .. +0.4 eV,step 0.2 eV,5 conditions
+# Mean WF,4.70 eV fixed,= P02 single-WF baseline value
+# Rationale,Fixing the mean isolates the work-function STEP from an overall level shift.
+# Finding,The premise did not hold: Vth still rises by up to 0.18 V because the two zones are in series and the higher-WF zone dominates the threshold.
+# Sign convention,delta_WF < 0 : high WF on the BL side,delta_WF > 0 : high WF on the SN side
+# Fixed parameters,RatioSN 0.5,Temp 300 K,VgStop 1.0 V,MeshScale 1.0
+# SDevice,P03-T05_dual-metal-2zone_sdevice_idvg-forward_v03.cmd
