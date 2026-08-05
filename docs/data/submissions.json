@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T11:56:10.166Z",
+  "updatedAt": "2026-08-05T11:56:19.324Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2550,7 +2550,21 @@
             "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O02/submissions/20260805115610-LEE-TAEK-GYU-W3ZnIQ/files/P03-T05-O02_DC_Metrics.csv",
             "size": 1777
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-05T11:56:10.166Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
