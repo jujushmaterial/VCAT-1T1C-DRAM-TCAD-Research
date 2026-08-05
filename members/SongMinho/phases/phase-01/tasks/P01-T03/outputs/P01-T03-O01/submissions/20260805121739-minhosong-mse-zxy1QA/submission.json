@@ -40,5 +40,19 @@
       "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121739-minhosong-mse-zxy1QA/files/P01-T04-O01_vertical_cutline_with_plot_supplement.png",
       "size": 78860
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-05T12:17:39.541Z"
+      }
+    ],
+    "legacy": false
+  }
 }
