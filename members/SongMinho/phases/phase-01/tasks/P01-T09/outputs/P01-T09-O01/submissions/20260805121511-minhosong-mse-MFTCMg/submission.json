@@ -45,5 +45,19 @@
       "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_metric_table_part3.png",
       "size": 111246
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-05T12:15:11.223Z"
+      }
+    ],
+    "legacy": false
+  }
 }
