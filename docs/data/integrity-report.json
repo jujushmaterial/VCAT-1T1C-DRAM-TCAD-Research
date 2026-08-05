@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-05T21:18:10+09:00",
+  "generatedAt": "2026-08-05T21:19:07+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
     "error": 0,
-    "warning": 39,
+    "warning": 41,
     "info": 0
   },
   "items": [
@@ -99,6 +99,26 @@
       "outputId": "P01-T03-O01",
       "submissionId": "20260805121739-minhosong-mse-zxy1QA",
       "fileName": "P01-T04-O01_vertical_cutline_with_plot_supplement.png",
+      "fileOutputId": "P01-T04-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T03-O01",
+      "submissionId": "20260805121827-minhosong-mse-TmVqtQ",
+      "fileName": "P01-T04-O01_cutline_and_bias_map.csv",
+      "fileOutputId": "P01-T04-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T03-O01",
+      "submissionId": "20260805121827-minhosong-mse-TmVqtQ",
+      "fileName": "P01-T04-O01_profile_bias_mapping.csv",
       "fileOutputId": "P01-T04-O01"
     },
     {

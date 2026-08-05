@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:18:10+09:00",
+  "generatedAt": "2026-08-05T21:19:07+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -208,10 +208,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 1,
+              "submissionCount": 2,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -263,9 +263,57 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-05T12:17:39.541Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260805121827-minhosong-mse-TmVqtQ",
+                  "phaseId": 1,
+                  "issueNumber": 1,
+                  "taskId": "P01-T03",
+                  "taskText": "대표 bias에서 Device 소자 프로파일을 비교한다.",
+                  "outputId": "P01-T03-O01",
+                  "outputText": "Potential·ConductionBandEnergy·ElectricField·eDensity·eCurrent 핵심 프로파일 비교 자료",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-05T12:18:27.572Z",
+                  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121827-minhosong-mse-TmVqtQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121827-minhosong-mse-TmVqtQ",
+                  "summary": "2개 파일 · 423B",
+                  "files": [
+                    {
+                      "name": "P01-T04-O01_cutline_and_bias_map.csv",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121827-minhosong-mse-TmVqtQ/files/P01-T04-O01_cutline_and_bias_map.csv",
+                      "size": 211
+                    },
+                    {
+                      "name": "P01-T04-O01_profile_bias_mapping.csv",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121827-minhosong-mse-TmVqtQ/files/P01-T04-O01_profile_bias_mapping.csv",
+                      "size": 212
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-05T12:18:27.572Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -1371,10 +1419,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 1,
+          "submissionCount": 2,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -1426,9 +1474,57 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-05T12:17:39.541Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260805121827-minhosong-mse-TmVqtQ",
+              "phaseId": 1,
+              "issueNumber": 1,
+              "taskId": "P01-T03",
+              "taskText": "대표 bias에서 Device 소자 프로파일을 비교한다.",
+              "outputId": "P01-T03-O01",
+              "outputText": "Potential·ConductionBandEnergy·ElectricField·eDensity·eCurrent 핵심 프로파일 비교 자료",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-05T12:18:27.572Z",
+              "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121827-minhosong-mse-TmVqtQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121827-minhosong-mse-TmVqtQ",
+              "summary": "2개 파일 · 423B",
+              "files": [
+                {
+                  "name": "P01-T04-O01_cutline_and_bias_map.csv",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121827-minhosong-mse-TmVqtQ/files/P01-T04-O01_cutline_and_bias_map.csv",
+                  "size": 211
+                },
+                {
+                  "name": "P01-T04-O01_profile_bias_mapping.csv",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121827-minhosong-mse-TmVqtQ/files/P01-T04-O01_profile_bias_mapping.csv",
+                  "size": 212
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-05T12:18:27.572Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -2303,7 +2399,7 @@
       "updatedAt": "2026-08-05T11:59:06Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 36
+      "integrityWarnings": 38
     },
     {
       "id": 2,
