@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T20:59:53+09:00",
+  "generatedAt": "2026-08-05T21:00:58+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -70,9 +70,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-05T11:59:36.599Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -86,13 +91,52 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260805120033-minhosong-mse-PtnK3g",
+                  "phaseId": 1,
+                  "issueNumber": 1,
+                  "taskId": "P01-T01",
+                  "taskText": "LL·LH·HL·HH 네 조건을 동일한 SDevice 코드로 실행하고 실제 적용값과 성공 여부를 확인한다.",
+                  "outputId": "P01-T01-O02",
+                  "outputText": "LL·LH·HL·HH 실행 확인표와 로그·TDR 생성 증거",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-05T12:00:33.581Z",
+                  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260805120033-minhosong-mse-PtnK3g",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260805120033-minhosong-mse-PtnK3g",
+                  "summary": "2개 파일 · 146.9KB",
+                  "files": [
+                    {
+                      "name": "P01-T01-O02_workbench_parameter_map_01.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260805120033-minhosong-mse-PtnK3g/files/P01-T01-O02_workbench_parameter_map_01.png",
+                      "size": 50644
+                    },
+                    {
+                      "name": "P01-T01-O02_workbench_parameter_map_02.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260805120033-minhosong-mse-PtnK3g/files/P01-T01-O02_workbench_parameter_map_02.png",
+                      "size": 99740
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
@@ -601,9 +645,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-05T11:59:36.599Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -618,13 +667,52 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260805120033-minhosong-mse-PtnK3g",
+              "phaseId": 1,
+              "issueNumber": 1,
+              "taskId": "P01-T01",
+              "taskText": "LL·LH·HL·HH 네 조건을 동일한 SDevice 코드로 실행하고 실제 적용값과 성공 여부를 확인한다.",
+              "outputId": "P01-T01-O02",
+              "outputText": "LL·LH·HL·HH 실행 확인표와 로그·TDR 생성 증거",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-05T12:00:33.581Z",
+              "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260805120033-minhosong-mse-PtnK3g",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260805120033-minhosong-mse-PtnK3g",
+              "summary": "2개 파일 · 146.9KB",
+              "files": [
+                {
+                  "name": "P01-T01-O02_workbench_parameter_map_01.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260805120033-minhosong-mse-PtnK3g/files/P01-T01-O02_workbench_parameter_map_01.png",
+                  "size": 50644
+                },
+                {
+                  "name": "P01-T01-O02_workbench_parameter_map_02.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260805120033-minhosong-mse-PtnK3g/files/P01-T01-O02_workbench_parameter_map_02.png",
+                  "size": 99740
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P01-T01"
         },
         {
