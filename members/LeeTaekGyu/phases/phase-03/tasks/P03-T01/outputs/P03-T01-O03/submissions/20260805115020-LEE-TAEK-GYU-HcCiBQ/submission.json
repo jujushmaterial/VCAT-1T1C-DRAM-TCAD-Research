@@ -25,5 +25,19 @@
       "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T01/outputs/P03-T01-O03/submissions/20260805115020-LEE-TAEK-GYU-HcCiBQ/files/P03-T01-O03b_Arrangement_Comparison.png",
       "size": 65609
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-05T11:50:20.766Z"
+      }
+    ],
+    "legacy": false
+  }
 }
