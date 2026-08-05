@@ -20,5 +20,19 @@
       "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T01/outputs/P03-T01-O01/submissions/20260805082819-LEE-TAEK-GYU-WQLY_Q/source/semi302-p3.cmd",
       "size": 3341
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-05T08:28:19.187Z"
+      }
+    ],
+    "legacy": false
+  }
 }
