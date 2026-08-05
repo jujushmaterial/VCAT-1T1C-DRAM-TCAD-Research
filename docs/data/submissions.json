@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T12:16:58.714Z",
+  "updatedAt": "2026-08-05T12:17:39.541Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -3229,6 +3229,52 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P01-T03-O01": [
+      {
+        "submissionId": "20260805121739-minhosong-mse-zxy1QA",
+        "phaseId": 1,
+        "issueNumber": 1,
+        "taskId": "P01-T03",
+        "taskText": "대표 bias에서 Device 소자 프로파일을 비교한다.",
+        "outputId": "P01-T03-O01",
+        "outputText": "Potential·ConductionBandEnergy·ElectricField·eDensity·eCurrent 핵심 프로파일 비교 자료",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-05T12:17:39.541Z",
+        "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121739-minhosong-mse-zxy1QA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121739-minhosong-mse-zxy1QA",
+        "summary": "5개 파일 · 947.7KB",
+        "files": [
+          {
+            "name": "P01-T04-O01_C1_lateral_coordinates.png",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121739-minhosong-mse-zxy1QA/files/P01-T04-O01_C1_lateral_coordinates.png",
+            "size": 322158
+          },
+          {
+            "name": "P01-T04-O01_C2_vertical_coordinates.png",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121739-minhosong-mse-zxy1QA/files/P01-T04-O01_C2_vertical_coordinates.png",
+            "size": 331909
+          },
+          {
+            "name": "P01-T04-O01_cutline_overview_C1-C2.png",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121739-minhosong-mse-zxy1QA/files/P01-T04-O01_cutline_overview_C1-C2.png",
+            "size": 95971
+          },
+          {
+            "name": "P01-T04-O01_lateral_cutline_with_plot_supplement.png",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121739-minhosong-mse-zxy1QA/files/P01-T04-O01_lateral_cutline_with_plot_supplement.png",
+            "size": 141591
+          },
+          {
+            "name": "P01-T04-O01_vertical_cutline_with_plot_supplement.png",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260805121739-minhosong-mse-zxy1QA/files/P01-T04-O01_vertical_cutline_with_plot_supplement.png",
+            "size": 78860
+          }
+        ]
       }
     ]
   }
