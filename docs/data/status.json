@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:15:00+09:00",
+  "generatedAt": "2026-08-05T21:15:57+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -816,10 +816,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 1,
+              "submissionCount": 2,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -861,9 +861,77 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-05T12:14:44.534Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260805121511-minhosong-mse-MFTCMg",
+                  "phaseId": 1,
+                  "issueNumber": 1,
+                  "taskId": "P01-T09",
+                  "taskText": "LL·LH·HL·HH의 Id–Vg와 주요 단자 지표를 비교한다.",
+                  "outputId": "P01-T09-O01",
+                  "outputText": "LL·LH·HL·HH Id–Vg와 Vth·Ion·Ioff·SS·DIBL 비교표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-05T12:15:11.223Z",
+                  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg",
+                  "summary": "6개 파일 · 1.21MB",
+                  "files": [
+                    {
+                      "name": "P01-T09-O01_IdVg_8curves_linear_SVisual.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_IdVg_8curves_linear_SVisual.png",
+                      "size": 161140
+                    },
+                    {
+                      "name": "P01-T09-O01_IdVg_8curves_log_replot.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_IdVg_8curves_log_replot.png",
+                      "size": 209193
+                    },
+                    {
+                      "name": "P01-T09-O01_IdVg_8curves_log_SVisual.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_IdVg_8curves_log_SVisual.png",
+                      "size": 512346
+                    },
+                    {
+                      "name": "P01-T09-O01_metric_table_part1.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_metric_table_part1.png",
+                      "size": 114944
+                    },
+                    {
+                      "name": "P01-T09-O01_metric_table_part2.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_metric_table_part2.png",
+                      "size": 157882
+                    },
+                    {
+                      "name": "P01-T09-O01_metric_table_part3.png",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_metric_table_part3.png",
+                      "size": 111246
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-05T12:15:11.223Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -1696,10 +1764,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 1,
+          "submissionCount": 2,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -1741,9 +1809,77 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-05T12:14:44.534Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260805121511-minhosong-mse-MFTCMg",
+              "phaseId": 1,
+              "issueNumber": 1,
+              "taskId": "P01-T09",
+              "taskText": "LL·LH·HL·HH의 Id–Vg와 주요 단자 지표를 비교한다.",
+              "outputId": "P01-T09-O01",
+              "outputText": "LL·LH·HL·HH Id–Vg와 Vth·Ion·Ioff·SS·DIBL 비교표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-05T12:15:11.223Z",
+              "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg",
+              "summary": "6개 파일 · 1.21MB",
+              "files": [
+                {
+                  "name": "P01-T09-O01_IdVg_8curves_linear_SVisual.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_IdVg_8curves_linear_SVisual.png",
+                  "size": 161140
+                },
+                {
+                  "name": "P01-T09-O01_IdVg_8curves_log_replot.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_IdVg_8curves_log_replot.png",
+                  "size": 209193
+                },
+                {
+                  "name": "P01-T09-O01_IdVg_8curves_log_SVisual.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_IdVg_8curves_log_SVisual.png",
+                  "size": 512346
+                },
+                {
+                  "name": "P01-T09-O01_metric_table_part1.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_metric_table_part1.png",
+                  "size": 114944
+                },
+                {
+                  "name": "P01-T09-O01_metric_table_part2.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_metric_table_part2.png",
+                  "size": 157882
+                },
+                {
+                  "name": "P01-T09-O01_metric_table_part3.png",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260805121511-minhosong-mse-MFTCMg/files/P01-T09-O01_metric_table_part3.png",
+                  "size": 111246
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-05T12:15:11.223Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
