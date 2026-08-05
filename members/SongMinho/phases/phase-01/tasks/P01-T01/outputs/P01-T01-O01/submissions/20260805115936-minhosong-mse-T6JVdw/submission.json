@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260805115936-minhosong-mse-T6JVdw",
+  "phaseId": 1,
+  "issueNumber": 1,
+  "taskId": "P01-T01",
+  "taskText": "LL·LH·HL·HH 네 조건을 동일한 SDevice 코드로 실행하고 실제 적용값과 성공 여부를 확인한다.",
+  "outputId": "P01-T01-O01",
+  "outputText": "공통 SDevice 코드와 WF·bias 설정",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "code",
+  "uploadedAt": "2026-08-05T11:59:36.599Z",
+  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O01/submissions/20260805115936-minhosong-mse-T6JVdw",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O01/submissions/20260805115936-minhosong-mse-T6JVdw",
+  "summary": "1개 코드 파일 · 5.3KB",
+  "files": [
+    {
+      "name": "SDevice.cmd",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O01/submissions/20260805115936-minhosong-mse-T6JVdw/source/SDevice.cmd",
+      "size": 5418
+    }
+  ]
+}
