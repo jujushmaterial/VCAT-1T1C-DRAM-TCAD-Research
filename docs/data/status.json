@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T20:50:35+09:00",
+  "generatedAt": "2026-08-05T20:53:30+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -7205,9 +7205,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-05T11:50:20.766Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -7450,13 +7455,47 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260805115308-LEE-TAEK-GYU-cmTdOw",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T05",
+                  "taskText": "금속의 일함수 차이를 넓은 범위로 바꾼다.",
+                  "outputId": "P03-T05-O01",
+                  "outputText": "일함수 Sweep 범위와 Split 표",
+                  "uploader": "LEE-TAEK-GYU",
+                  "memberName": "이택규",
+                  "memberFolder": "LeeTaekGyu",
+                  "type": "files",
+                  "uploadedAt": "2026-08-05T11:53:08.569Z",
+                  "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O01/submissions/20260805115308-LEE-TAEK-GYU-cmTdOw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O01/submissions/20260805115308-LEE-TAEK-GYU-cmTdOw",
+                  "summary": "1개 파일 · 1.1KB",
+                  "files": [
+                    {
+                      "name": "P03-T05-O01_WF_Sweep_Split.csv",
+                      "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O01/submissions/20260805115308-LEE-TAEK-GYU-cmTdOw/files/P03-T05-O01_WF_Sweep_Split.csv",
+                      "size": 1162
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T05-O02",
@@ -7494,7 +7533,7 @@
             }
           ],
           "checked": false,
-          "state": "not-started",
+          "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 3,
           "outputsDone": 0,
@@ -8002,9 +8041,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-05T11:50:20.766Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -8181,13 +8225,47 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260805115308-LEE-TAEK-GYU-cmTdOw",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T05",
+              "taskText": "금속의 일함수 차이를 넓은 범위로 바꾼다.",
+              "outputId": "P03-T05-O01",
+              "outputText": "일함수 Sweep 범위와 Split 표",
+              "uploader": "LEE-TAEK-GYU",
+              "memberName": "이택규",
+              "memberFolder": "LeeTaekGyu",
+              "type": "files",
+              "uploadedAt": "2026-08-05T11:53:08.569Z",
+              "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O01/submissions/20260805115308-LEE-TAEK-GYU-cmTdOw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O01/submissions/20260805115308-LEE-TAEK-GYU-cmTdOw",
+              "summary": "1개 파일 · 1.1KB",
+              "files": [
+                {
+                  "name": "P03-T05-O01_WF_Sweep_Split.csv",
+                  "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O01/submissions/20260805115308-LEE-TAEK-GYU-cmTdOw/files/P03-T05-O01_WF_Sweep_Split.csv",
+                  "size": 1162
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T05"
         },
         {
