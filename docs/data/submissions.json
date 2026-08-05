@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T11:53:08.569Z",
+  "updatedAt": "2026-08-05T11:56:10.166Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2523,6 +2523,32 @@
             "name": "P03-T05-O01_WF_Sweep_Split.csv",
             "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O01/submissions/20260805115308-LEE-TAEK-GYU-cmTdOw/files/P03-T05-O01_WF_Sweep_Split.csv",
             "size": 1162
+          }
+        ]
+      }
+    ],
+    "P03-T05-O02": [
+      {
+        "submissionId": "20260805115610-LEE-TAEK-GYU-W3ZnIQ",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T05",
+        "taskText": "금속의 일함수 차이를 넓은 범위로 바꾼다.",
+        "outputId": "P03-T05-O02",
+        "outputText": "일함수 Sweep 원본 데이터",
+        "uploader": "LEE-TAEK-GYU",
+        "memberName": "이택규",
+        "memberFolder": "LeeTaekGyu",
+        "type": "files",
+        "uploadedAt": "2026-08-05T11:56:10.166Z",
+        "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O02/submissions/20260805115610-LEE-TAEK-GYU-W3ZnIQ",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O02/submissions/20260805115610-LEE-TAEK-GYU-W3ZnIQ",
+        "summary": "1개 파일 · 1.7KB",
+        "files": [
+          {
+            "name": "P03-T05-O02_DC_Metrics.csv",
+            "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O02/submissions/20260805115610-LEE-TAEK-GYU-W3ZnIQ/files/P03-T05-O02_DC_Metrics.csv",
+            "size": 1777
           }
         ]
       }

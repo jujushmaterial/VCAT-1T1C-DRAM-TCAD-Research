@@ -1,0 +1,21 @@
+delta_WF_eV,WF_SN_eV,WF_BL_eV,Vd_V,Node,Vth_V,SS_mV_per_dec,Ioff_A,Ion_A_at_Vg1p0,Ion_A_at_overdrive0p3,Ion_over_Ioff,DIBL_mV_per_V
+-0.4,4.50,4.90,0.05,n129,0.689628,60.9410,4.659600e-19,2.696300e-06,2.669400e-06,5.7865e+12,2.0211
+-0.4,4.50,4.90,1.00,n130,0.687708,60.6535,3.585500e-17,5.254900e-06,5.045600e-06,1.4656e+11,2.0211
+-0.2,4.60,4.80,0.05,n109,0.590617,60.5249,1.889200e-17,2.823800e-06,2.604100e-06,1.4947e+11,0.7526
+-0.2,4.60,4.80,1.00,n110,0.589902,60.4930,4.787100e-16,6.975500e-06,5.049700e-06,1.4571e+10,0.7526
++0.0,4.70,4.70,0.05,n2,0.506691,60.2488,4.385600e-16,2.863800e-06,2.477900e-06,6.5300e+09,3.4053
++0.0,4.70,4.70,1.00,n21,0.503456,60.0480,3.104300e-15,8.471800e-06,5.090700e-06,2.7291e+09,3.4053
++0.2,4.80,4.60,0.05,n89,0.589456,60.4195,1.909000e-17,2.840400e-06,2.623500e-06,1.4879e+11,8.2084
++0.2,4.80,4.60,1.00,n90,0.581658,59.9396,7.883400e-15,8.134900e-06,5.962900e-06,1.0319e+09,8.2084
++0.4,4.90,4.50,0.05,n69,0.688324,60.9276,4.716200e-19,2.733200e-06,2.703100e-06,5.7953e+12,8.8179
++0.4,4.90,4.50,1.00,n70,0.679947,60.5450,1.451800e-14,6.745000e-06,6.359400e-06,4.6460e+08,8.8179
+
+# Extraction method (identical to P02-T06-O04)
+# Vth,constant current |Id| = 1E-7 A,log-current interpolation
+# SS,log-current linear fit,1E-12 to 1E-8 A
+# Ioff,|Id| at Vg = 0 V
+# Ion,|Id| at Vg = 1.0 V (reporting basis)
+# Ion_overdrive,|Id| at Vg = Vth + 0.3 V (interpretation aid only)
+# DIBL,(Vth@0.05V - Vth@1.00V) / 0.95,reported but NOT used as a selection criterion in Phase 3
+# Note,DIBL is measured at a different operating point for each condition because Vth shifts by up to 0.18 V; short-channel degradation and threshold shift are not separable here.
+# Raw .plt files,server: /user/semi/semi302/p3/,ForwardIdVg_n{node}_des.plt
