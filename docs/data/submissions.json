@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T11:59:36.599Z",
+  "updatedAt": "2026-08-05T11:59:46.139Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2630,7 +2630,21 @@
             "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O01/submissions/20260805115936-minhosong-mse-T6JVdw/source/SDevice.cmd",
             "size": 5418
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-05T11:59:36.599Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
