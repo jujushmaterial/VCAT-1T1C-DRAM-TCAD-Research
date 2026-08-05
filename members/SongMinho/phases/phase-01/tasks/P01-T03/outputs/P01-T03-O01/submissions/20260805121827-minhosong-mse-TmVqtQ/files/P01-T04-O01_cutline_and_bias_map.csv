@@ -1,0 +1,3 @@
+﻿Item,X1_um,Y1_um,X2_um,Y2_um,Meaning
+C1_lateral,0.0003,-0.112,0.0003,0.112,"Silicon-side lateral cutline, 0.3 nm below interface"
+C2_vertical,-0.0744944,0,0.4,0,Vertical line through Y=0 split-gate center

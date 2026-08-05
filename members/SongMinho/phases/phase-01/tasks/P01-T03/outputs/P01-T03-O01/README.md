@@ -9,4 +9,5 @@
 
 | 버전 | 제출 시각 | 유형 | 제출본 |
 |---|---|---|---|
+| v2 | 2026-08-05T12:18:27.572Z | files | [열기](./submissions/20260805121827-minhosong-mse-TmVqtQ/) |
 | v1 | 2026-08-05T12:17:39.541Z | files | [열기](./submissions/20260805121739-minhosong-mse-zxy1QA/) |

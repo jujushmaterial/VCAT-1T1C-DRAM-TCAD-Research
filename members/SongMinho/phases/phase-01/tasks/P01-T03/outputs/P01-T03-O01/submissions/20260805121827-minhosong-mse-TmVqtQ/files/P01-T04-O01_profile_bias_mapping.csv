@@ -1,0 +1,4 @@
+﻿TDR_Index,Vg_V,Vd_V,Nodes,Cases,Cutline
+0000,0.0,0.7,"n2,n19,n15,n21","LL,LH,HL,HH",C1_lateral
+0003,1.0,0.7,"n2,n19,n15,n21","LL,LH,HL,HH",C1_lateral
+0005,2.5,0.7,"n2,n19,n15,n21","LL,LH,HL,HH",C1_lateral
