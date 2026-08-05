@@ -1,0 +1,49 @@
+{
+  "submissionId": "20260805120831-minhosong-mse-s2wlxg",
+  "phaseId": 1,
+  "issueNumber": 1,
+  "taskId": "P01-T04",
+  "taskText": "모든 조건에 공통 적용한 cutline 위치와 profile 매핑을 검증한다.",
+  "outputId": "P01-T04-O01",
+  "outputText": "소자 단면의 lateral·vertical cutline 위치 이미지와 좌표·bias 매핑",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-05T12:08:31.308Z",
+  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg",
+  "summary": "6개 파일 · 1.32MB",
+  "files": [
+    {
+      "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_CBE_2D.png",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_CBE_2D.png",
+      "size": 417633
+    },
+    {
+      "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_CBE_Cutline.png",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_CBE_Cutline.png",
+      "size": 124880
+    },
+    {
+      "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_ElectricField_2D.png",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_ElectricField_2D.png",
+      "size": 166573
+    },
+    {
+      "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_ElectricField_Cutline.png",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_ElectricField_Cutline.png",
+      "size": 127641
+    },
+    {
+      "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_2D.png",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_2D.png",
+      "size": 433697
+    },
+    {
+      "name": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_Cutline.png",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120831-minhosong-mse-s2wlxg/files/P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_Cutline.png",
+      "size": 112541
+    }
+  ]
+}
