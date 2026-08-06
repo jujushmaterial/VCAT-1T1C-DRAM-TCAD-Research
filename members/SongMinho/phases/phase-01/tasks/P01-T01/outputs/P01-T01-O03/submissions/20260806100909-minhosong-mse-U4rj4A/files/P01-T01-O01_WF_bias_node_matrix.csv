@@ -1,0 +1,5 @@
+﻿Case,Node,WF_S_eV,WF_D_eV,Vd_Low_V,Vd_High_V,Vg_Start_V,Vg_End_V,Input_TDR
+LL,n2,4.2,4.2,0.08,0.7,0.0,2.5,n1_fps.tdr
+LH,n19,4.2,4.8,0.08,0.7,0.0,2.5,n1_fps.tdr
+HL,n15,4.8,4.2,0.08,0.7,0.0,2.5,n1_fps.tdr
+HH,n21,4.8,4.8,0.08,0.7,0.0,2.5,n1_fps.tdr

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-06T09:51:32.617Z",
+  "updatedAt": "2026-08-06T10:09:09.317Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -3397,6 +3397,47 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P01-T01-O03": [
+      {
+        "submissionId": "20260806100909-minhosong-mse-U4rj4A",
+        "phaseId": 1,
+        "issueNumber": 1,
+        "taskId": "P01-T01",
+        "taskText": "LL·LH·HL·HH 네 조건을 동일한 SDevice 코드로 실행하고 실제 적용값과 성공 여부를 확인한다.",
+        "outputId": "P01-T01-O03",
+        "outputText": "P1-T01보완파일",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-06T10:09:09.317Z",
+        "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O03/submissions/20260806100909-minhosong-mse-U4rj4A",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O03/submissions/20260806100909-minhosong-mse-U4rj4A",
+        "summary": "4개 파일 · 2.3KB",
+        "files": [
+          {
+            "name": "P01-T01-O01_WF_bias_node_matrix.csv",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O03/submissions/20260806100909-minhosong-mse-U4rj4A/files/P01-T01-O01_WF_bias_node_matrix.csv",
+            "size": 254
+          },
+          {
+            "name": "PROVENANCE.md",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O03/submissions/20260806100909-minhosong-mse-U4rj4A/files/PROVENANCE.md",
+            "size": 393
+          },
+          {
+            "name": "README.md",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O03/submissions/20260806100909-minhosong-mse-U4rj4A/files/README.md",
+            "size": 891
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O03/submissions/20260806100909-minhosong-mse-U4rj4A/files/SHA256SUMS.txt",
+            "size": 826
+          }
+        ]
       }
     ]
   }
