@@ -1,0 +1,93 @@
+name: Deploy Worker v14 temporary
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/deploy-worker-v14-temporary.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Validate Worker v14 archive download
+        run: |
+          node --check docs/submission-viewer-download.js
+          node --check worker/src/archive-zip.js
+          node --check worker/src/v14.js
+          node --test worker/test/archive-download.test.mjs
+          python scripts/test_frontend_contract.py
+          python -m unittest tests/test_submission_viewer.py tests/test_submission_review.py tests/test_read_optimization_integrity.py -v
+
+      - name: Check Cloudflare credentials
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::error::Repository secret CLOUDFLARE_API_TOKEN is not configured."
+            exit 1
+          fi
+          if [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Repository secret CLOUDFLARE_ACCOUNT_ID is not configured."
+            exit 1
+          fi
+
+      - name: Install Worker dependencies
+        working-directory: worker
+        run: npm install
+
+      - name: Deploy Worker v14
+        working-directory: worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npm run deploy
+
+      - name: Smoke test live archive endpoint
+        env:
+          ARCHIVE_URL: https://vcat-dashboard-api.jujushmaterial.workers.dev/api/submissions/20260729045729-seanthe17-mNFaUg/archive?outputId=P01-T05-O01
+        run: |
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+            if curl --fail --silent --show-error --dump-header /tmp/archive-headers.txt "$ARCHIVE_URL" -o /tmp/submission.zip; then
+              break
+            fi
+            if [ "$attempt" -eq 10 ]; then
+              echo "::error::Live Worker archive API did not become available."
+              exit 1
+            fi
+            sleep 6
+          done
+
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+
+          archive = Path('/tmp/submission.zip')
+          assert archive.stat().st_size > 0
+          with ZipFile(archive) as bundle:
+              names = bundle.namelist()
+              assert len(names) == 3, names
+              for name in names:
+                  assert bundle.read(name), name
+          headers = Path('/tmp/archive-headers.txt').read_text(encoding='utf-8', errors='replace').lower()
+          assert 'content-type: application/zip' in headers, headers
+          assert 'content-disposition: attachment;' in headers, headers
+          assert 'x-archive-file-count: 3' in headers, headers
+          print(f'live archive ok: {names}')
+          PY
+
+          curl --fail --silent --show-error --dump-header /tmp/archive-headers-second.txt "$ARCHIVE_URL" -o /tmp/submission-second.zip
+          cmp /tmp/submission.zip /tmp/submission-second.zip
+          grep -qi '^x-archive-cache: HIT' /tmp/archive-headers-second.txt
+          echo "live Worker v14 archive cache: ok"
