@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-08-06T20:50:58+09:00",
+  "generatedAt": "2026-08-07T00:22:09+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 9,
+  "overallProgress": 10,
   "phases": [
     {
       "id": 1,
       "issueNumber": 1,
       "state": "in-progress",
-      "progress": 17,
-      "tasksDone": 1,
+      "progress": 33,
+      "tasksDone": 2,
       "tasksTotal": 6,
-      "issueTasksDone": 1,
-      "outputsDone": 7,
+      "issueTasksDone": 2,
+      "outputsDone": 8,
       "outputsTotal": 14,
-      "requiredOutputsDone": 4,
+      "requiredOutputsDone": 5,
       "requiredOutputsTotal": 10,
       "tasks": [
         {
@@ -462,7 +462,7 @@
         {
           "id": "P01-T03",
           "text": "모든 조건에 공통 적용한 cutline 위치와 profile 매핑을 검증한다.",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P01-T03-O01",
@@ -472,13 +472,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 3,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 3,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260805121739-minhosong-mse-zxy1QA",
@@ -615,27 +615,35 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-06T15:21:41.474Z",
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-06T10:12:54.505Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-06T15:21:41.474Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 1,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 1,
-          "missingRequiredOutputs": [
-            "P01-T03-O01"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -2343,13 +2351,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 3,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 3,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260805121739-minhosong-mse-zxy1QA",
@@ -2486,13 +2494,23 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-06T15:21:41.474Z",
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-06T10:12:54.505Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-06T15:21:41.474Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
