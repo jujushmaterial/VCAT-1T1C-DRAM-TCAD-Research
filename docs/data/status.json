@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T20:48:40+09:00",
+  "generatedAt": "2026-08-06T20:49:00+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -16,9 +16,9 @@
       "tasksDone": 0,
       "tasksTotal": 6,
       "issueTasksDone": 0,
-      "outputsDone": 4,
+      "outputsDone": 5,
       "outputsTotal": 14,
-      "requiredOutputsDone": 1,
+      "requiredOutputsDone": 2,
       "requiredOutputsTotal": 10,
       "tasks": [
         {
@@ -95,13 +95,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 3,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 3,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260805120033-minhosong-mse-PtnK3g",
@@ -228,15 +228,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-06T11:48:47.254Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-06T10:09:54.309Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-06T11:48:47.254Z"
                       }
                     ],
                     "legacy": false
@@ -422,12 +427,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 1,
+          "requiredOutputsDone": 2,
           "requiredOutputsTotal": 4,
-          "outputsDone": 1,
+          "outputsDone": 2,
           "outputsTotal": 4,
           "missingRequiredOutputs": [
-            "P01-T01-O02",
             "P01-T01-O03",
             "P01-T01-O04"
           ],
@@ -1952,13 +1956,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 3,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 3,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260805120033-minhosong-mse-PtnK3g",
@@ -2085,15 +2089,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-06T11:48:47.254Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-06T10:09:54.309Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-06T11:48:47.254Z"
                   }
                 ],
                 "legacy": false
