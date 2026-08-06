@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-06T19:11:28+09:00",
+  "generatedAt": "2026-08-06T19:12:33+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
     "error": 0,
-    "warning": 43,
+    "warning": 46,
     "info": 0
   },
   "items": [
@@ -69,6 +69,36 @@
       "outputId": "P01-T01-O04",
       "submissionId": "20260806101106-minhosong-mse-hR1oBw",
       "fileName": "P01-T01-O02_LL_n2_sdevice.txt",
+      "fileOutputId": "P01-T01-O02"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T01-O04",
+      "submissionId": "20260806101212-minhosong-mse-4DeaHQ",
+      "fileName": "P01-T01-O02_LH_n19_sdevice.txt",
+      "fileOutputId": "P01-T01-O02"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T01-O04",
+      "submissionId": "20260806101212-minhosong-mse-4DeaHQ",
+      "fileName": "P01-T01-O02_HL_n15_sdevice.txt",
+      "fileOutputId": "P01-T01-O02"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T01-O04",
+      "submissionId": "20260806101212-minhosong-mse-4DeaHQ",
+      "fileName": "P01-T01-O02_HH_n21_sdevice.cmd",
       "fileOutputId": "P01-T01-O02"
     },
     {
