@@ -20,5 +20,19 @@
       "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O02/submissions/20260806101708-minhosong-mse-1zAVgA/files/P01-T10-O01_terminal_metrics_with_dibl_sign.csv",
       "size": 1552
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-06T10:17:08.063Z"
+      }
+    ],
+    "legacy": false
+  }
 }
