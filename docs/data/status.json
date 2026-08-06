@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-08-07T00:25:39+09:00",
+  "generatedAt": "2026-08-07T03:01:24+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 10,
+  "overallProgress": 11,
   "phases": [
     {
       "id": 1,
       "issueNumber": 1,
       "state": "in-progress",
-      "progress": 33,
-      "tasksDone": 2,
+      "progress": 50,
+      "tasksDone": 3,
       "tasksTotal": 6,
-      "issueTasksDone": 2,
-      "outputsDone": 8,
+      "issueTasksDone": 3,
+      "outputsDone": 9,
       "outputsTotal": 14,
-      "requiredOutputsDone": 5,
+      "requiredOutputsDone": 6,
       "requiredOutputsTotal": 10,
       "tasks": [
         {
@@ -659,7 +659,7 @@
         {
           "id": "P01-T04",
           "text": "대표 bias에서 Device 소자 프로파일을 비교한다.",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P01-T04-O01",
@@ -669,13 +669,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 5,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 5,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 4,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260805120501-minhosong-mse-8Mqf1Q",
@@ -998,15 +998,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-06T16:03:45.432Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-06T10:13:33.620Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-06T16:03:45.432Z"
                       }
                     ],
                     "legacy": false
@@ -1015,15 +1020,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 1,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 1,
-          "missingRequiredOutputs": [
-            "P01-T04-O01"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -2544,13 +2547,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 5,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 5,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 4,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260805120501-minhosong-mse-8Mqf1Q",
@@ -2873,15 +2876,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-06T16:03:45.432Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-06T10:13:33.620Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-06T16:03:45.432Z"
                   }
                 ],
                 "legacy": false
@@ -9835,7 +9843,7 @@
       "assignees": [
         "minhosong-mse"
       ],
-      "updatedAt": "2026-08-03T15:10:48Z",
+      "updatedAt": "2026-08-06T17:52:30Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 3
@@ -11605,7 +11613,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-29T04:08:16Z",
+      "updatedAt": "2026-08-06T17:52:56Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
@@ -14269,7 +14277,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-07-29T03:27:02Z",
+      "updatedAt": "2026-08-06T17:53:19Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
@@ -17073,7 +17081,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-03T13:41:39Z",
+      "updatedAt": "2026-08-06T17:54:47Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
@@ -18635,7 +18643,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-03T13:42:13Z",
+      "updatedAt": "2026-08-06T17:55:16Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
@@ -20053,7 +20061,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-03T13:42:42Z",
+      "updatedAt": "2026-08-06T17:55:45Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
