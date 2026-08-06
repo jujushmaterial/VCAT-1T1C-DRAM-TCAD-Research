@@ -1,6 +1,19 @@
 const ARCHIVE_CACHE_ORIGIN = "https://vcat-archive-cache.invalid";
 const ZIP_UTF8_DATA_DESCRIPTOR_FLAGS = 0x0808;
 const ZIP_STORE_METHOD = 0;
+const CRC32_TABLE = createCrc32Table();
+
+function createCrc32Table() {
+  const table = new Uint32Array(256);
+  for (let index = 0; index < 256; index += 1) {
+    let value = index;
+    for (let bit = 0; bit < 8; bit += 1) {
+      value = (value >>> 1) ^ (value & 1 ? 0xedb88320 : 0);
+    }
+    table[index] = value >>> 0;
+  }
+  return table;
+}
 
 export function createZipStream(files, loadFile, options = {}) {
   const names = uniqueArchiveNames(files.map((file) => file.name));
@@ -132,10 +145,7 @@ function endOfCentralDirectory(entryCount, centralSize, centralOffset) {
 export function crc32Update(crc, bytes) {
   let value = crc >>> 0;
   for (const byte of bytes) {
-    value ^= byte;
-    for (let bit = 0; bit < 8; bit += 1) {
-      value = (value >>> 1) ^ (value & 1 ? 0xedb88320 : 0);
-    }
+    value = (value >>> 8) ^ CRC32_TABLE[(value ^ byte) & 0xff];
   }
   return value >>> 0;
 }
