@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-06T10:15:10.351Z",
+  "updatedAt": "2026-08-06T10:15:21.512Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -3768,7 +3768,21 @@
             "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O02/submissions/20260806101510-minhosong-mse-_M5Grg/source/P01-T09-O01_svisual_metric_extraction.cmd",
             "size": 18474
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-06T10:15:10.351Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
