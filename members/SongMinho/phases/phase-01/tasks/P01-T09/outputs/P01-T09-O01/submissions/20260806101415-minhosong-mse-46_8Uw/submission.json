@@ -35,5 +35,19 @@
       "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw/files/SHA256SUMS.txt",
       "size": 374
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-06T10:14:15.295Z"
+      }
+    ],
+    "legacy": false
+  }
 }
