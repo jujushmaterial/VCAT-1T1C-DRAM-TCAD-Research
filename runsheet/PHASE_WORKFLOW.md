@@ -116,3 +116,46 @@ Phase 9에서는 다음을 비교합니다.
 - 다음 Phase가 바로 사용할 전달값이 준비되어 있는가
 
 > Phase 번호와 연구 목표는 유지합니다. 세부 Task와 Output은 연구 결과에 따라 보완할 수 있지만, 변경 시 기존 제출 ID와 경로를 먼저 확인해야 합니다.
+
+## 8. 기존 Task·산출물 보존 원칙
+
+- 기존 제출 산출물이 연결된 Task는 삭제하거나 수정하지 않습니다.
+- 기존 Task ID, 제목, 설명, Output, 체크 상태와 제출물 파일을 유지합니다.
+- 새로운 연구 요구는 현재 마지막 ID 뒤에 신규 Task로만 추가합니다.
+- 기존 실험은 Workflow 개편을 이유로 일괄 재실행하지 않습니다.
+- 신규 검증에서 차이가 발견되면 신규 산출물에 영향 범위만 기록합니다.
+- 선택 분석은 필수 완료조건으로 만들지 않습니다.
+
+## 9. 최소 추가 흐름
+
+```text
+기존 Phase 2 P02-T01~T09
+→ P02-T10 기존 Mesh 재사용 기반 Local Mesh Baseline
+→ Phase 3 초기 Sweep 병행
+→ P02-T11 Single-Metal 3D·2D–3D 최소 비교
+→ P03-T11 상위 후보 WF 경계 확인
+→ 기존 Phase 4
+→ 기존 Phase 5 + P05-T11 최종 후보 제한 3D
+→ 기존 Phase 6
+→ 기존 Phase 7 + P07-T13 Variation Basis·DOE 범위
+→ 기존 Phase 8 + P08-T14 Process Window·Robust point
+→ 기존 Phase 9 + P09-T14 최소 holdout·critical corner
+```
+
+## 10. 진행 Gate와 계산량 제한
+
+- Phase 3 초기 탐색은 기존 Phase 2 결과로 시작할 수 있습니다.
+- Phase 3 최종 후보 확정 전 `P02-T10`을 반영합니다.
+- 최종 Multi-WF 3D 전 `P02-T11`을 완료합니다.
+- Local Mesh는 1조건부터 시작하고, 결론이 불분명한 경우에만 Reference-Local 1조건을 추가합니다.
+- Single-Metal 3D는 기본 1조건으로 시작하며 Mesh 영향이 의심될 때만 둘레 방향 1조건을 추가합니다.
+- Multi-WF 3D는 최종 후보 1개를 기본으로 하고 실제 후보가 다른 구조일 때만 최대 2개로 제한합니다.
+- RSM·Monte Carlo·Cp·Cpk와 모든 Process Window 조건의 3D 계산은 기본 필수조건이 아닙니다.
+- 결과가 명확하고 후보 순위와 연구 결론이 유지되면 조건을 더 추가하지 않습니다.
+
+## 11. 관련 공통 문서
+
+- [Mesh Baseline Policy](../docs/policies/mesh-baseline-policy.md)
+- [2D–3D Comparison Policy](../docs/policies/2d-3d-comparison-policy.md)
+- [Process Window Policy](../docs/policies/process-window-policy.md)
+- [Phase 2 최소 개편 Handoff](../docs/handoffs/phase-02-minimal-workflow-handoff.md)
