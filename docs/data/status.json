@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T19:13:59+09:00",
+  "generatedAt": "2026-08-06T19:14:42+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -954,9 +954,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-06T10:13:33.620Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -1313,10 +1318,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 2,
+              "submissionCount": 3,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "pendingReviewCount": 3,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -1426,6 +1431,59 @@
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-05T12:15:11.223Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260806101415-minhosong-mse-46_8Uw",
+                  "phaseId": 1,
+                  "issueNumber": 1,
+                  "taskId": "P01-T09",
+                  "taskText": "LL·LH·HL·HH의 Id–Vg와 주요 단자 지표를 비교한다.",
+                  "outputId": "P01-T09-O01",
+                  "outputText": "LL·LH·HL·HH Id–Vg와 Vth·Ion·Ioff·SS·DIBL 비교표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-06T10:14:15.295Z",
+                  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw",
+                  "summary": "4개 파일 · 2.2KB",
+                  "files": [
+                    {
+                      "name": "P01-T09-O01_metrics_table.md",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw/files/P01-T09-O01_metrics_table.md",
+                      "size": 447
+                    },
+                    {
+                      "name": "PROVENANCE.md",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw/files/PROVENANCE.md",
+                      "size": 414
+                    },
+                    {
+                      "name": "README.md",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw/files/README.md",
+                      "size": 1025
+                    },
+                    {
+                      "name": "SHA256SUMS.txt",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw/files/SHA256SUMS.txt",
+                      "size": 374
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-06T10:14:15.295Z"
                       }
                     ],
                     "legacy": false
@@ -2544,9 +2602,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-06T10:13:33.620Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -2875,10 +2938,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 2,
+          "submissionCount": 3,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "pendingReviewCount": 3,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -2988,6 +3051,59 @@
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-05T12:15:11.223Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260806101415-minhosong-mse-46_8Uw",
+              "phaseId": 1,
+              "issueNumber": 1,
+              "taskId": "P01-T09",
+              "taskText": "LL·LH·HL·HH의 Id–Vg와 주요 단자 지표를 비교한다.",
+              "outputId": "P01-T09-O01",
+              "outputText": "LL·LH·HL·HH Id–Vg와 Vth·Ion·Ioff·SS·DIBL 비교표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-06T10:14:15.295Z",
+              "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw",
+              "summary": "4개 파일 · 2.2KB",
+              "files": [
+                {
+                  "name": "P01-T09-O01_metrics_table.md",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw/files/P01-T09-O01_metrics_table.md",
+                  "size": 447
+                },
+                {
+                  "name": "PROVENANCE.md",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw/files/PROVENANCE.md",
+                  "size": 414
+                },
+                {
+                  "name": "README.md",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw/files/README.md",
+                  "size": 1025
+                },
+                {
+                  "name": "SHA256SUMS.txt",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O01/submissions/20260806101415-minhosong-mse-46_8Uw/files/SHA256SUMS.txt",
+                  "size": 374
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-06T10:14:15.295Z"
                   }
                 ],
                 "legacy": false
