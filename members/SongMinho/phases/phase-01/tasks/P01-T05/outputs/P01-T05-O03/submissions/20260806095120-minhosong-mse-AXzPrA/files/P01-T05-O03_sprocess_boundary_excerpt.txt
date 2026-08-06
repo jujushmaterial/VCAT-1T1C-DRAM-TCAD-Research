@@ -1,0 +1,18 @@
+# Relevant SProcess excerpt supplied in the project conversation
+# Coordinate convention:
+# y < 0 : source side
+# y > 0 : drain side
+# gateS : Titanium
+# gateD : Tungsten
+
+# Actual Workbench variables:
+# Lg      = 0.028 um
+# DMG_Gap = 0.001 um
+
+mask name= gateS left= -@Lg@/2 right= -@DMG_Gap@/2
+mask name= gateD left=  @DMG_Gap@/2 right=  @Lg@/2
+
+# Evaluated boundaries:
+# gateS = -0.0140 to -0.0005 um
+# Gap   = -0.0005 to +0.0005 um
+# gateD = +0.0005 to +0.0140 um

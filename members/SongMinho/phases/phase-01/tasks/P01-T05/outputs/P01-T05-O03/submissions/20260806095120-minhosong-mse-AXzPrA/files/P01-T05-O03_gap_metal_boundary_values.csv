@@ -1,0 +1,5 @@
+﻿Item,Meaning,Y_Start_um,Y_End_um,Width_um,Width_nm,Evidence
+Lg,gate total length,-0.014,0.014,0.028,28.0,Workbench Lg=0.028 um
+gateS,source-side Titanium,-0.014,-0.0005,0.0135,13.5,mask: -Lg/2 to -DMG_Gap/2
+Gap,metal-free center interval,-0.0005,0.0005,0.001,1.0,Workbench DMG_Gap=0.001 um
+gateD,drain-side Tungsten,0.0005,0.014,0.0135,13.5,mask: +DMG_Gap/2 to +Lg/2
