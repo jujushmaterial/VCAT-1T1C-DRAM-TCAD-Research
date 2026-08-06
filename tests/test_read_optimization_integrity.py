@@ -15,6 +15,7 @@ class RawReadOptimizationIntegrityTests(unittest.TestCase):
         cls.submissions = json.loads(read("docs/data/submissions.json"))
         cls.status = json.loads(read("docs/data/status.json"))
         cls.worker = read("worker/src/v13.js")
+        cls.worker_v14 = read("worker/src/v14.js")
         cls.index = read("docs/index.html")
         cls.error_ui = read("docs/submission-viewer-read-errors.js")
 
@@ -69,8 +70,10 @@ class RawReadOptimizationIntegrityTests(unittest.TestCase):
         self.assertIn('import v11, { __test as reviewTest } from "./v11.js"', self.worker)
         self.assertIn("const response = await v11.fetch(request, env, ctx)", self.worker)
         self.assertIn("mutatesSubmissionState(request, url)", self.worker)
+        self.assertIn('import v13 from "./v13.js"', self.worker_v14)
+        self.assertIn("return v13.fetch(request, env, ctx)", self.worker_v14)
         wrangler = read("worker/wrangler.toml")
-        self.assertIn('main = "src/v13.js"', wrangler)
+        self.assertIn('main = "src/v14.js"', wrangler)
 
     def test_viewer_error_message_is_updated_without_rewriting_core_viewer(self):
         self.assertIn('src="submission-viewer-read-errors.js"', self.index)
