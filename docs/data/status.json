@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-08-06T20:50:10+09:00",
+  "generatedAt": "2026-08-06T20:50:58+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 8,
+  "overallProgress": 9,
   "phases": [
     {
       "id": 1,
       "issueNumber": 1,
       "state": "in-progress",
-      "progress": 0,
-      "tasksDone": 0,
+      "progress": 17,
+      "tasksDone": 1,
       "tasksTotal": 6,
-      "issueTasksDone": 0,
-      "outputsDone": 6,
+      "issueTasksDone": 1,
+      "outputsDone": 7,
       "outputsTotal": 14,
-      "requiredOutputsDone": 3,
+      "requiredOutputsDone": 4,
       "requiredOutputsTotal": 10,
       "tasks": [
         {
           "id": "P01-T01",
           "text": "LL·LH·HL·HH 네 조건을 동일한 SDevice 코드로 실행하고 실제 적용값과 성공 여부를 확인한다.",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P01-T01-O01",
@@ -343,13 +343,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 2,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "evidenceSubmissionCount": 2,
+              "approvedSubmissionCount": 2,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260806101106-minhosong-mse-hR1oBw",
@@ -375,15 +375,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-06T11:50:19.752Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-06T10:11:06.475Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-06T11:50:19.752Z"
                       }
                     ],
                     "legacy": false
@@ -423,15 +428,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-06T11:49:57.690Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-06T10:12:12.185Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-06T11:49:57.690Z"
                       }
                     ],
                     "legacy": false
@@ -440,15 +450,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 3,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 4,
           "requiredOutputsTotal": 4,
-          "outputsDone": 3,
+          "outputsDone": 4,
           "outputsTotal": 4,
-          "missingRequiredOutputs": [
-            "P01-T01-O04"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -2220,13 +2228,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 2,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "evidenceSubmissionCount": 2,
+          "approvedSubmissionCount": 2,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260806101106-minhosong-mse-hR1oBw",
@@ -2252,15 +2260,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-06T11:50:19.752Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-06T10:11:06.475Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-06T11:50:19.752Z"
                   }
                 ],
                 "legacy": false
@@ -2300,15 +2313,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-06T11:49:57.690Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-06T10:12:12.185Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-06T11:49:57.690Z"
                   }
                 ],
                 "legacy": false
@@ -3693,10 +3711,10 @@
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-08-06T10:16:00Z",
+      "updatedAt": "2026-08-06T11:50:25Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 48
+      "integrityWarnings": 47
     },
     {
       "id": 2,
