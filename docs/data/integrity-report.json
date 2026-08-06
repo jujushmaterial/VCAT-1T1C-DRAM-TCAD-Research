@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-06T19:08:59+09:00",
+  "generatedAt": "2026-08-06T19:09:33+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
     "error": 0,
-    "warning": 41,
+    "warning": 42,
     "info": 0
   },
   "items": [
@@ -50,6 +50,16 @@
       "missingRequiredOutputs": [
         "P01-T10-O01"
       ]
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T01-O03",
+      "submissionId": "20260806100909-minhosong-mse-U4rj4A",
+      "fileName": "P01-T01-O01_WF_bias_node_matrix.csv",
+      "fileOutputId": "P01-T01-O01"
     },
     {
       "code": "FILENAME_PREFIX_MISMATCH",
