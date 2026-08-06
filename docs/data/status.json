@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T19:10:18+09:00",
+  "generatedAt": "2026-08-06T19:10:51+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -17,9 +17,9 @@
       "tasksTotal": 6,
       "issueTasksDone": 0,
       "outputsDone": 3,
-      "outputsTotal": 11,
+      "outputsTotal": 12,
       "requiredOutputsDone": 0,
-      "requiredOutputsTotal": 7,
+      "requiredOutputsTotal": 8,
       "tasks": [
         {
           "id": "P01-T01",
@@ -309,18 +309,36 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "P01-T01-O04",
+              "text": "로그파일",
+              "type": "code",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 3,
+          "requiredOutputsTotal": 4,
           "outputsDone": 0,
-          "outputsTotal": 3,
+          "outputsTotal": 4,
           "missingRequiredOutputs": [
             "P01-T01-O01",
             "P01-T01-O02",
-            "P01-T01-O03"
+            "P01-T01-O03",
+            "P01-T01-O04"
           ],
           "checkboxDrift": false
         },
@@ -1735,6 +1753,24 @@
           "taskId": "P01-T01"
         },
         {
+          "id": "P01-T01-O04",
+          "text": "로그파일",
+          "type": "code",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P01-T01"
+        },
+        {
           "id": "P01-T03-O01",
           "text": "소자 단면의 lateral·vertical cutline 위치 이미지와 좌표·bias 매핑 비교 자료",
           "type": "files",
@@ -2784,7 +2820,7 @@
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-08-06T10:08:47Z",
+      "updatedAt": "2026-08-06T10:10:31Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 39
