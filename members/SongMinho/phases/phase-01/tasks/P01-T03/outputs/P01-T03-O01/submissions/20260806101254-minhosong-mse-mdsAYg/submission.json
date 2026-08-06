@@ -1,0 +1,34 @@
+{
+  "submissionId": "20260806101254-minhosong-mse-mdsAYg",
+  "phaseId": 1,
+  "issueNumber": 1,
+  "taskId": "P01-T03",
+  "taskText": "모든 조건에 공통 적용한 cutline 위치와 profile 매핑을 검증한다.",
+  "outputId": "P01-T03-O01",
+  "outputText": "소자 단면의 lateral·vertical cutline 위치 이미지와 좌표·bias 매핑 비교 자료",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-06T10:12:54.505Z",
+  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260806101254-minhosong-mse-mdsAYg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260806101254-minhosong-mse-mdsAYg",
+  "summary": "3개 파일 · 1.4KB",
+  "files": [
+    {
+      "name": "PROVENANCE.md",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260806101254-minhosong-mse-mdsAYg/files/PROVENANCE.md",
+      "size": 335
+    },
+    {
+      "name": "README.md",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260806101254-minhosong-mse-mdsAYg/files/README.md",
+      "size": 889
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T03/outputs/P01-T03-O01/submissions/20260806101254-minhosong-mse-mdsAYg/files/SHA256SUMS.txt",
+      "size": 160
+    }
+  ]
+}
