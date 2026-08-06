@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-06T10:15:21.512Z",
+  "updatedAt": "2026-08-06T10:16:35.352Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -3783,6 +3783,52 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P01-T10-O02": [
+      {
+        "submissionId": "20260806101635-minhosong-mse-WDDVzg",
+        "phaseId": 1,
+        "issueNumber": 1,
+        "taskId": "P01-T10",
+        "taskText": "프로파일·cutline·단자 결과를 연결해 Dual-WF 작동 원인을 정리한다.",
+        "outputId": "P01-T10-O02",
+        "outputText": "P1-R10보완자료",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-06T10:16:35.352Z",
+        "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O02/submissions/20260806101635-minhosong-mse-WDDVzg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O02/submissions/20260806101635-minhosong-mse-WDDVzg",
+        "summary": "5개 파일 · 8.3KB",
+        "files": [
+          {
+            "name": "P01-T10-O01_evidence_map.csv",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O02/submissions/20260806101635-minhosong-mse-WDDVzg/files/P01-T10-O01_evidence_map.csv",
+            "size": 1313
+          },
+          {
+            "name": "P01-T10-O01_integrated_conclusion.md",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O02/submissions/20260806101635-minhosong-mse-WDDVzg/files/P01-T10-O01_integrated_conclusion.md",
+            "size": 4674
+          },
+          {
+            "name": "PROVENANCE.md",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O02/submissions/20260806101635-minhosong-mse-WDDVzg/files/PROVENANCE.md",
+            "size": 1121
+          },
+          {
+            "name": "README.md",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O02/submissions/20260806101635-minhosong-mse-WDDVzg/files/README.md",
+            "size": 922
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T10/outputs/P01-T10-O02/submissions/20260806101635-minhosong-mse-WDDVzg/files/SHA256SUMS.txt",
+            "size": 483
+          }
+        ]
       }
     ]
   }

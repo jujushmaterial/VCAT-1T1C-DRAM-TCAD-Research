@@ -1,0 +1,7 @@
+Claim_ID,Observation,Primary_Evidence,Interpretation_Status,Limitation
+C1,Four WF cases used the intended gate work functions and finished.,P01-T01-O01; P01-T01-O02,Directly verified from generated CMD and logs,TDR binaries are not included
+C2,LL has the lowest extracted Vth and the highest High-Vd Ioff and Ion among the four cases.,P01-T09-O01; existing P01-T10-O01 terminal metrics,Direct numerical comparison,Current normalization unit needs confirmation
+C3,LH and HL differ despite equal average work function.,P01-T04-O01 profiles; P01-T09-O01 metrics,Supports a spatial WF-order effect,Does not alone prove a pure WF-boundary mechanism
+C4,High-Vd Ion values occupy a much narrower range than off-state leakage values.,P01-T09-O01; P01-T04-O01 Vg=2.5 V profiles,Direct trend comparison,Absolute current unit normalization is unresolved
+C5,Reported DIBL values are absolute magnitudes while Vth_High exceeds Vth_Low for all four cases.,P01-T09-O01 metrics; terminal_metrics_with_dibl_sign.csv,Verified arithmetic from extracted Vth,Do not interpret as conventional positive DIBL until extraction and sweep are rechecked
+C6,The split-gate gap is 1 nm in the evaluated structure but its effect was not swept.,P01-T05-O03,Geometry value verified; effect not evaluated,No comparison across different gap values
