@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-06T10:14:25.588Z",
+  "updatedAt": "2026-08-06T10:15:10.351Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -3743,6 +3743,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P01-T09-O02": [
+      {
+        "submissionId": "20260806101510-minhosong-mse-_M5Grg",
+        "phaseId": 1,
+        "issueNumber": 1,
+        "taskId": "P01-T09",
+        "taskText": "LL·LH·HL·HH의 Id–Vg와 주요 단자 지표를 비교한다.",
+        "outputId": "P01-T09-O02",
+        "outputText": "P01-T09-O01_svisual_metric_extraction",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "code",
+        "uploadedAt": "2026-08-06T10:15:10.351Z",
+        "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O02/submissions/20260806101510-minhosong-mse-_M5Grg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O02/submissions/20260806101510-minhosong-mse-_M5Grg",
+        "summary": "1개 코드 파일 · 18.0KB",
+        "files": [
+          {
+            "name": "P01-T09-O01_svisual_metric_extraction.cmd",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O02/submissions/20260806101510-minhosong-mse-_M5Grg/source/P01-T09-O01_svisual_metric_extraction.cmd",
+            "size": 18474
+          }
+        ]
       }
     ]
   }
