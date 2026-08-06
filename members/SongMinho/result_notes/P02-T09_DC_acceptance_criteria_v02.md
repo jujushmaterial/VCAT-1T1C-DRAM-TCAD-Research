@@ -25,9 +25,9 @@
 
 Vth, SS, Ion, Ioff는 두 drain bias 중 더 큰 오차를 사용한다.
 
-## 3. P2 내부 DC 허용 기준
+## 3. P2 잠정 DC 허용 기준
 
-아래 수치는 외부 표준이 아니라 **P2 기준 소자의 DC 재현성과 후속 구조 순위 비교를 위한 프로젝트 내부 공학 기준**이다. 2026-08-06에 명문화되었으며, 기존 계산 전에 사전 등록된 기준은 아니므로 이 점을 결과 해석에 남긴다.
+아래 수치는 외부 표준이 아니라 **P2 기준 소자의 DC 재현성과 후속 구조 순위 비교를 위한 프로젝트 내부 잠정 공학 기준**이다. 2026-08-06에 명문화되었으며, 기존 계산 전에 사전 등록된 기준은 아니다. 따라서 검토자의 승인 전에는 확정 기준이 아니라 재현 가능한 보완안으로 사용한다.
 
 ### 3.1 DC screening 통과 기준
 
@@ -41,30 +41,30 @@ Vth, SS, Ion, Ioff는 두 drain bias 중 더 큰 오차를 사용한다.
 
 `Overall_DC_Screening_Pass=True`는 위 항목을 모두 만족할 때만 부여한다.
 
-### 3.2 공식 baseline 선호 기준
+### 3.2 P2 baseline 선택 기준
 
-Screening을 통과한 비-reference mesh 중 다음을 추가로 만족하는 가장 계산비용이 낮은 mesh를 P2 공식 DC baseline으로 선택한다.
+Screening을 통과한 비-reference mesh 중 다음을 추가로 만족하는 가장 계산비용이 낮은 mesh를 P2 DC baseline으로 추천한다.
 
 - 최대 Ion 상대오차 ≤ 1.0%
 - DIBL 상대오차 ≤ 2.0%
 
-이 2단계 규칙을 적용하면 Coarse는 screening 용도로는 통과하지만 baseline 선호 기준을 만족하지 못하고, Medium은 두 기준을 모두 만족한다.
+이 2단계 규칙을 적용하면 Coarse는 screening 용도로는 통과하지만 baseline 선택 기준을 만족하지 못하고, Medium은 두 기준을 모두 만족한다.
 
 ## 4. 재계산 결과
 
-| Mesh | Vth 최대 절대차이 | SS 최대 상대오차 | Ion 최대 상대오차 | Ioff 최대 decade 차이 | DIBL 절대차이 | DIBL 상대오차 | Screening | Baseline 선호 |
+| Mesh | Vth 최대 절대차이 | SS 최대 상대오차 | Ion 최대 상대오차 | Ioff 최대 decade 차이 | DIBL 절대차이 | DIBL 상대오차 | Screening | Baseline 선택 |
 |---|---:|---:|---:|---:|---:|---:|---|---|
 | Coarse | 0.139199 mV | 0.037385% | 1.896032% | 0.072503 | 0.116634 mV/V | 3.466009% | Pass | Fail |
 | Medium | 0.047477 mV | 0.026675% | 0.841722% | 0.038525 | 0.043243 mV/V | 1.285056% | Pass | Pass |
 | Fine | 0 | 0 | 0 | 0 | 0 | 0 | Reference | Reference |
 
-따라서 **Medium, MeshScale=1.0 선택 결론은 유지**한다. Coarse는 넓은 DC screening에는 사용할 수 있으나 P2 공식 baseline으로는 채택하지 않는다.
+따라서 **Medium, MeshScale=1.0 선택 결론은 유지**한다. Coarse는 넓은 DC screening에는 사용할 수 있으나 P2 DC baseline으로는 추천하지 않는다.
 
 정확한 수치와 boolean 재계산 결과는 `P02-T09_DC_acceptance_recalculation_v02.csv`에 기록한다.
 
 ## 5. 기존 문서와의 관계
 
-기존 `P02-T09-O03_Mesh_Error_and_Selection.md`의 문구 `current project DC acceptance limits`는 이 문서의 3절 기준으로 구체화한다. 기존 CSV의 `*_Criterion_Pass`와 `Overall_Project_Criteria_Pass` 열은 당시 수치 기준이 누락된 역사적 결과이므로, 독립적인 판정 근거로 사용하지 않고 이 v02 재계산표를 우선 사용한다.
+기존 `P02-T09-O03_Mesh_Error_and_Selection.md`의 문구 `current project DC acceptance limits`는 이 문서의 3절 잠정 기준으로 구체화한다. 기존 CSV의 `*_Criterion_Pass`와 `Overall_Project_Criteria_Pass` 열은 당시 수치 기준이 누락된 역사적 결과이므로, 독립적인 판정 근거로 사용하지 않고 이 v02 재계산표를 우선 사용한다.
 
 기존 제출본은 보존하며 덮어쓰지 않는다.
 
@@ -90,4 +90,5 @@ Screening을 통과한 비-reference mesh 중 다음을 추가로 만족하는 �
 ## 8. 변경 기록
 
 - **v02 (2026-08-06):** 수치 허용 기준, 판정식, Coarse/Medium의 screening·baseline 구분, 재실행 필요성을 명문화했다.
+- 해당 수치 기준은 검토 승인 전까지 잠정 보완안이다.
 - 이 보완은 기존 결과를 다시 계산한 문서·CSV 추가 작업이며 TCAD 재실행이나 기존 제출본 덮어쓰기는 수행하지 않았다.
