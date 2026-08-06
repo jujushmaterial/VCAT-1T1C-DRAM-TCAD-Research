@@ -30,5 +30,19 @@
       "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O04/submissions/20260806101212-minhosong-mse-4DeaHQ/source/P01-T01-O02_HH_n21_sdevice.cmd",
       "size": 166493
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-06T10:12:12.185Z"
+      }
+    ],
+    "legacy": false
+  }
 }
