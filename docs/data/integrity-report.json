@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-06T19:14:42+09:00",
+  "generatedAt": "2026-08-06T19:15:30+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
     "error": 0,
-    "warning": 46,
+    "warning": 47,
     "info": 0
   },
   "items": [
@@ -470,6 +470,16 @@
       "submissionId": "20260805120831-minhosong-mse-s2wlxg",
       "fileName": "P01-T03-O01_supp_Vg1p0_LH-HL_HighLowVd_Potential_Cutline.png",
       "fileOutputId": "P01-T03-O01"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 1,
+      "outputId": "P01-T09-O02",
+      "submissionId": "20260806101510-minhosong-mse-_M5Grg",
+      "fileName": "P01-T09-O01_svisual_metric_extraction.cmd",
+      "fileOutputId": "P01-T09-O01"
     }
   ]
 }

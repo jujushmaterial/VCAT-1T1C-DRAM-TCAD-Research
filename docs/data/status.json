@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T19:14:42+09:00",
+  "generatedAt": "2026-08-06T19:15:30+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -17,9 +17,9 @@
       "tasksTotal": 6,
       "issueTasksDone": 0,
       "outputsDone": 3,
-      "outputsTotal": 12,
+      "outputsTotal": 13,
       "requiredOutputsDone": 0,
-      "requiredOutputsTotal": 8,
+      "requiredOutputsTotal": 9,
       "tasks": [
         {
           "id": "P01-T01",
@@ -1490,16 +1490,68 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "P01-T09-O02",
+              "text": "P01-T09-O01_svisual_metric_extraction",
+              "type": "code",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 1,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 1,
+              "heldSubmissionCount": 0,
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260806101510-minhosong-mse-_M5Grg",
+                  "phaseId": 1,
+                  "issueNumber": 1,
+                  "taskId": "P01-T09",
+                  "taskText": "LL·LH·HL·HH의 Id–Vg와 주요 단자 지표를 비교한다.",
+                  "outputId": "P01-T09-O02",
+                  "outputText": "P01-T09-O01_svisual_metric_extraction",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "code",
+                  "uploadedAt": "2026-08-06T10:15:10.351Z",
+                  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O02/submissions/20260806101510-minhosong-mse-_M5Grg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O02/submissions/20260806101510-minhosong-mse-_M5Grg",
+                  "summary": "1개 코드 파일 · 18.0KB",
+                  "files": [
+                    {
+                      "name": "P01-T09-O01_svisual_metric_extraction.cmd",
+                      "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O02/submissions/20260806101510-minhosong-mse-_M5Grg/source/P01-T09-O01_svisual_metric_extraction.cmd",
+                      "size": 18474
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 1,
+          "requiredOutputsTotal": 2,
           "outputsDone": 0,
-          "outputsTotal": 1,
+          "outputsTotal": 2,
           "missingRequiredOutputs": [
-            "P01-T09-O01"
+            "P01-T09-O01",
+            "P01-T09-O02"
           ],
           "checkboxDrift": false
         },
@@ -3113,6 +3165,58 @@
           "taskId": "P01-T09"
         },
         {
+          "id": "P01-T09-O02",
+          "text": "P01-T09-O01_svisual_metric_extraction",
+          "type": "code",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 1,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 1,
+          "heldSubmissionCount": 0,
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260806101510-minhosong-mse-_M5Grg",
+              "phaseId": 1,
+              "issueNumber": 1,
+              "taskId": "P01-T09",
+              "taskText": "LL·LH·HL·HH의 Id–Vg와 주요 단자 지표를 비교한다.",
+              "outputId": "P01-T09-O02",
+              "outputText": "P01-T09-O01_svisual_metric_extraction",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "code",
+              "uploadedAt": "2026-08-06T10:15:10.351Z",
+              "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O02/submissions/20260806101510-minhosong-mse-_M5Grg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O02/submissions/20260806101510-minhosong-mse-_M5Grg",
+              "summary": "1개 코드 파일 · 18.0KB",
+              "files": [
+                {
+                  "name": "P01-T09-O01_svisual_metric_extraction.cmd",
+                  "path": "members/SongMinho/phases/phase-01/tasks/P01-T09/outputs/P01-T09-O02/submissions/20260806101510-minhosong-mse-_M5Grg/source/P01-T09-O01_svisual_metric_extraction.cmd",
+                  "size": 18474
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
+          "taskId": "P01-T09"
+        },
+        {
           "id": "P01-T10-O01",
           "text": "Dual-WF 작동 원인 통합 결론과 발표용 핵심 그림",
           "type": "files",
@@ -3302,10 +3406,10 @@
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-08-06T10:10:31Z",
+      "updatedAt": "2026-08-06T10:14:55Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 43
+      "integrityWarnings": 44
     },
     {
       "id": 2,
