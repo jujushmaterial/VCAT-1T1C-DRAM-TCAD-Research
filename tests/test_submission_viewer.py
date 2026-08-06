@@ -18,9 +18,11 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertIn('href="submission-viewer-comments.css"', html)
         self.assertIn('href="submission-review.css"', html)
         self.assertIn('href="spreadsheet-v3.css"', html)
+        self.assertIn('href="submission-viewer-download.css"', html)
         self.assertIn('src="submission-viewer.js"', html)
         self.assertIn('src="submission-viewer-polish.js"', html)
         self.assertIn('src="submission-viewer-comments.js"', html)
+        self.assertIn('src="submission-viewer-download.js"', html)
         self.assertIn('src="submission-review.js"', html)
         self.assertIn('src="submission-viewer-read-errors.js"', html)
         self.assertIn('src="spreadsheet-v3.js"', html)
@@ -29,7 +31,8 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertLess(html.index('src="submission-delete.js"'), html.index('src="submission-viewer.js"'))
         self.assertLess(html.index('src="submission-viewer.js"'), html.index('src="submission-viewer-polish.js"'))
         self.assertLess(html.index('src="submission-viewer-polish.js"'), html.index('src="submission-viewer-comments.js"'))
-        self.assertLess(html.index('src="submission-viewer-comments.js"'), html.index('src="submission-review.js"'))
+        self.assertLess(html.index('src="submission-viewer-comments.js"'), html.index('src="submission-viewer-download.js"'))
+        self.assertLess(html.index('src="submission-viewer-download.js"'), html.index('src="submission-review.js"'))
         self.assertLess(html.index('src="submission-review.js"'), html.index('src="submission-viewer-read-errors.js"'))
 
     def test_core_viewer_features_remain_available(self):
@@ -60,6 +63,7 @@ class SubmissionViewerContractTests(unittest.TestCase):
         spreadsheets = read("worker/src/v10.js")
         reviews = read("worker/src/v11.js")
         static_reads = read("worker/src/v13.js")
+        archive_reads = read("worker/src/v14.js")
         self.assertIn("/api\\/submissions", worker)
         self.assertIn("manifestRoute", worker)
         self.assertIn("fileRoute", worker)
@@ -79,7 +83,10 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertIn("github-pages", static_reads)
         self.assertIn("cdn.jsdelivr.net", static_reads)
         self.assertIn('"X-GitHub-User-Token-Used": "false"', static_reads)
-        self.assertIn('main = "src/v13.js"', read("worker/wrangler.toml"))
+        self.assertIn('import v13 from "./v13.js"', archive_reads)
+        self.assertIn("archiveRoute", archive_reads)
+        self.assertIn("return v13.fetch(request, env, ctx)", archive_reads)
+        self.assertIn('main = "src/v14.js"', read("worker/wrangler.toml"))
 
     def test_existing_submission_index_has_viewer_safe_examples(self):
         import json
@@ -97,6 +104,7 @@ class SubmissionViewerContractTests(unittest.TestCase):
         css = read("docs/submission-viewer.css")
         spreadsheet_css = read("docs/spreadsheet-v3.css")
         review_css = read("docs/submission-review.css")
+        download_css = read("docs/submission-viewer-download.css")
         self.assertIn("grid-template-columns: 230px minmax(0, 1fr)", css)
         self.assertIn("width: 42px", css)
         self.assertIn(":has(.submission-viewer__editor-shell)", css)
@@ -108,6 +116,8 @@ class SubmissionViewerContractTests(unittest.TestCase):
         self.assertIn(".spreadsheet-sheet-tabs", spreadsheet_css)
         self.assertIn(".submission-review__popover", review_css)
         self.assertIn("@media (max-width: 680px)", review_css)
+        self.assertIn("@media (max-width: 760px)", download_css)
+        self.assertIn(".submission-viewer__download-options", download_css)
 
 
 if __name__ == "__main__":
