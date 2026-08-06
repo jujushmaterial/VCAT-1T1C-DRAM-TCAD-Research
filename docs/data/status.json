@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T18:51:39+09:00",
+  "generatedAt": "2026-08-06T19:08:59+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -17,9 +17,9 @@
       "tasksTotal": 6,
       "issueTasksDone": 0,
       "outputsDone": 3,
-      "outputsTotal": 10,
+      "outputsTotal": 11,
       "requiredOutputsDone": 0,
-      "requiredOutputsTotal": 6,
+      "requiredOutputsTotal": 7,
       "tasks": [
         {
           "id": "P01-T01",
@@ -180,17 +180,35 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "P01-T01-O03",
+              "text": "P1-T01보완파일",
+              "type": "files",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 2,
+          "requiredOutputsTotal": 3,
           "outputsDone": 0,
-          "outputsTotal": 2,
+          "outputsTotal": 3,
           "missingRequiredOutputs": [
             "P01-T01-O01",
-            "P01-T01-O02"
+            "P01-T01-O02",
+            "P01-T01-O03"
           ],
           "checkboxDrift": false
         },
@@ -946,9 +964,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-06T09:51:20.590Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -1467,6 +1490,24 @@
               }
             }
           ],
+          "taskId": "P01-T01"
+        },
+        {
+          "id": "P01-T01-O03",
+          "text": "P1-T01보완파일",
+          "type": "files",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
           "taskId": "P01-T01"
         },
         {
@@ -2186,9 +2227,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-06T09:51:20.590Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -2514,7 +2560,7 @@
       "assignees": [
         "jujushmaterial"
       ],
-      "updatedAt": "2026-08-05T12:19:45Z",
+      "updatedAt": "2026-08-06T10:08:47Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 38
