@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-06T10:12:54.505Z",
+  "updatedAt": "2026-08-06T10:13:33.620Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -3056,6 +3056,50 @@
           ],
           "legacy": false
         }
+      },
+      {
+        "submissionId": "20260806101333-minhosong-mse-ish7Uw",
+        "phaseId": 1,
+        "issueNumber": 1,
+        "taskId": "P01-T04",
+        "taskText": "대표 bias에서 Device 소자 프로파일을 비교한다.",
+        "outputId": "P01-T04-O01",
+        "outputText": "Potential·ConductionBandEnergy·ElectricField·eDensity·eCurrent 핵심 프로파일",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-06T10:13:33.620Z",
+        "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260806101333-minhosong-mse-ish7Uw",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260806101333-minhosong-mse-ish7Uw",
+        "summary": "5개 파일 · 7.8KB",
+        "files": [
+          {
+            "name": "P01-T04-O01_image_provenance.csv",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260806101333-minhosong-mse-ish7Uw/files/P01-T04-O01_image_provenance.csv",
+            "size": 2169
+          },
+          {
+            "name": "P01-T04-O01_profile_index.csv",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260806101333-minhosong-mse-ish7Uw/files/P01-T04-O01_profile_index.csv",
+            "size": 4005
+          },
+          {
+            "name": "PROVENANCE.md",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260806101333-minhosong-mse-ish7Uw/files/PROVENANCE.md",
+            "size": 432
+          },
+          {
+            "name": "README.md",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260806101333-minhosong-mse-ish7Uw/files/README.md",
+            "size": 974
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260806101333-minhosong-mse-ish7Uw/files/SHA256SUMS.txt",
+            "size": 359
+          }
+        ]
       }
     ],
     "P01-T09-O01": [

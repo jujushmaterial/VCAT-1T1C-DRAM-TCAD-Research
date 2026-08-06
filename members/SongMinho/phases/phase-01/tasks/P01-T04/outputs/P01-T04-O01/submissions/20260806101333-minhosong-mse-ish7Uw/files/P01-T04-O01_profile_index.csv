@@ -1,0 +1,25 @@
+﻿Vg_V,Vd_V,TDR_Index,Variable,Evidence_Type,Cases_and_Nodes,Common_Cutline,File
+0.0,0.7,0000,ElectrostaticPotential,2D,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg0/P01-T04-O01_Vg0_Potential_2D.png
+0.0,0.7,0000,ElectrostaticPotential,Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg0/P01-T04-O01_Vg0_Potential_Cutline.png
+0.0,0.7,0000,ConductionBandEnergy,2D,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg0/P01-T04-O01_Vg0_CBE_2D.png
+0.0,0.7,0000,ConductionBandEnergy,Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg0/P01-T04-O01_Vg0_CBE_Cutline.png
+0.0,0.7,0000,Abs(ElectricField-V),2D,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg0/P01-T04-O01_Vg0_ElectricField_2D.png
+0.0,0.7,0000,Abs(ElectricField-V),Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg0/P01-T04-O01_Vg0_ElectricField_Cutline.png
+0.0,0.7,0000,eDensity,Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg0/P01-T04-O01_Vg0_eDensity_Cutline.png
+0.0,0.7,0000,Abs(eCurrentDensity-V),Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg0/P01-T04-O01_Vg0_eCurrent_Cutline.png
+1.0,0.7,0003,ElectrostaticPotential,2D,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg1p0/P01-T04-O01_Vg1p0_Potential_2D.png
+1.0,0.7,0003,ElectrostaticPotential,Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg1p0/P01-T04-O01_Vg1p0_Potential_Cutline.png
+1.0,0.7,0003,ConductionBandEnergy,2D,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg1p0/P01-T04-O01_Vg1p0_CBE_2D.png
+1.0,0.7,0003,ConductionBandEnergy,Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg1p0/P01-T04-O01_Vg1p0_CBE_Cutline.png
+1.0,0.7,0003,Abs(ElectricField-V),2D,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg1p0/P01-T04-O01_Vg1p0_ElectricField_2D.png
+1.0,0.7,0003,Abs(ElectricField-V),Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg1p0/P01-T04-O01_Vg1p0_ElectricField_Cutline.png
+1.0,0.7,0003,eDensity,Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg1p0/P01-T04-O01_Vg1p0_eDensity_Cutline.png
+1.0,0.7,0003,Abs(eCurrentDensity-V),Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg1p0/P01-T04-O01_Vg1p0_eCurrent_Cutline.png
+2.5,0.7,0005,ElectrostaticPotential,2D,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg2p5/P01-T04-O01_Vg2p5_Potential_2D.png
+2.5,0.7,0005,ElectrostaticPotential,Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg2p5/P01-T04-O01_Vg2p5_Potential_Cutline.png
+2.5,0.7,0005,ConductionBandEnergy,2D,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg2p5/P01-T04-O01_Vg2p5_CBE_2D.png
+2.5,0.7,0005,ConductionBandEnergy,Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg2p5/P01-T04-O01_Vg2p5_CBE_Cutline.png
+2.5,0.7,0005,Abs(ElectricField-V),2D,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg2p5/P01-T04-O01_Vg2p5_ElectricField_2D.png
+2.5,0.7,0005,Abs(ElectricField-V),Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg2p5/P01-T04-O01_Vg2p5_ElectricField_Cutline.png
+2.5,0.7,0005,eDensity,Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg2p5/P01-T04-O01_Vg2p5_eDensity_Cutline.png
+2.5,0.7,0005,Abs(eCurrentDensity-V),Cutline,LL(n2);LH(n19);HL(n15);HH(n21),"C1: X=0.0003 um, Y=-0.112 to +0.112 um",profiles/Vg2p5/P01-T04-O01_Vg2p5_eCurrent_Cutline.png
