@@ -86,3 +86,8 @@ Screening을 통과한 비-reference mesh 중 다음을 추가로 만족하는 �
 ## 7. 적용 범위
 
 이 기준은 P2 Single-WF 기준 소자의 **global DC Id–Vg 지표**에 한정한다. GIDL 절대값, oxide field, 국부 peak field 및 BTBT에는 적용하지 않는다.
+
+## 8. 변경 기록
+
+- **v02 (2026-08-06):** 수치 허용 기준, 판정식, Coarse/Medium의 screening·baseline 구분, 재실행 필요성을 명문화했다.
+- 이 보완은 기존 결과를 다시 계산한 문서·CSV 추가 작업이며 TCAD 재실행이나 기존 제출본 덮어쓰기는 수행하지 않았다.
