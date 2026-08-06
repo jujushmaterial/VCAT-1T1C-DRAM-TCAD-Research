@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-06T10:10:05.858Z",
+  "updatedAt": "2026-08-06T10:11:06.475Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -3510,6 +3510,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P01-T01-O04": [
+      {
+        "submissionId": "20260806101106-minhosong-mse-hR1oBw",
+        "phaseId": 1,
+        "issueNumber": 1,
+        "taskId": "P01-T01",
+        "taskText": "LL·LH·HL·HH 네 조건을 동일한 SDevice 코드로 실행하고 실제 적용값과 성공 여부를 확인한다.",
+        "outputId": "P01-T01-O04",
+        "outputText": "로그파일",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "code",
+        "uploadedAt": "2026-08-06T10:11:06.475Z",
+        "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O04/submissions/20260806101106-minhosong-mse-hR1oBw",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O04/submissions/20260806101106-minhosong-mse-hR1oBw",
+        "summary": "1개 코드 파일 · 163.4KB",
+        "files": [
+          {
+            "name": "P01-T01-O02_LL_n2_sdevice.txt",
+            "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O04/submissions/20260806101106-minhosong-mse-hR1oBw/source/P01-T01-O02_LL_n2_sdevice.txt",
+            "size": 167319
+          }
+        ]
       }
     ]
   }
