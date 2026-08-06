@@ -1,0 +1,44 @@
+{
+  "submissionId": "20260806100954-minhosong-mse-ewC69Q",
+  "phaseId": 1,
+  "issueNumber": 1,
+  "taskId": "P01-T01",
+  "taskText": "LL·LH·HL·HH 네 조건을 동일한 SDevice 코드로 실행하고 실제 적용값과 성공 여부를 확인한다.",
+  "outputId": "P01-T01-O02",
+  "outputText": "LL·LH·HL·HH 실행 확인표와 로그·TDR 생성 증거",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-06T10:09:54.309Z",
+  "folderPath": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260806100954-minhosong-mse-ewC69Q",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260806100954-minhosong-mse-ewC69Q",
+  "summary": "5개 파일 · 9.4KB",
+  "files": [
+    {
+      "name": "P01-T01-O02_log_evidence_index.csv",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260806100954-minhosong-mse-ewC69Q/files/P01-T01-O02_log_evidence_index.csv",
+      "size": 1620
+    },
+    {
+      "name": "P01-T01-O02_tdr_manifest.csv",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260806100954-minhosong-mse-ewC69Q/files/P01-T01-O02_tdr_manifest.csv",
+      "size": 5038
+    },
+    {
+      "name": "PROVENANCE.md",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260806100954-minhosong-mse-ewC69Q/files/PROVENANCE.md",
+      "size": 1194
+    },
+    {
+      "name": "README.md",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260806100954-minhosong-mse-ewC69Q/files/README.md",
+      "size": 1045
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O02/submissions/20260806100954-minhosong-mse-ewC69Q/files/SHA256SUMS.txt",
+      "size": 775
+    }
+  ]
+}

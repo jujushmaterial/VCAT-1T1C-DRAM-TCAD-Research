@@ -1,0 +1,21 @@
+﻿Case,Node,Evidence,Value,Log_File,Line
+LL,n2,Applied WorkFunction,gateS=4.2 eV,P01-T01-O02_LL_n2_sdevice.log,238
+LL,n2,Applied WorkFunction,gateD=4.2 eV,P01-T01-O02_LL_n2_sdevice.log,239
+LL,n2,Final TDR written,n2_des.tdr,P01-T01-O02_LL_n2_sdevice.log,3577
+LL,n2,Simulation finished,Tue Aug  4 22:25:45 2026,P01-T01-O02_LL_n2_sdevice.log,3586
+LL,n2,Good Bye,Normal program exit marker,P01-T01-O02_LL_n2_sdevice.log,3587
+LH,n19,Applied WorkFunction,gateS=4.2 eV,P01-T01-O02_LH_n19_sdevice.log,238
+LH,n19,Applied WorkFunction,gateD=4.8 eV,P01-T01-O02_LH_n19_sdevice.log,239
+LH,n19,Final TDR written,n19_des.tdr,P01-T01-O02_LH_n19_sdevice.log,3690
+LH,n19,Simulation finished,Tue Aug  4 22:27:15 2026,P01-T01-O02_LH_n19_sdevice.log,3699
+LH,n19,Good Bye,Normal program exit marker,P01-T01-O02_LH_n19_sdevice.log,3700
+HL,n15,Applied WorkFunction,gateS=4.8 eV,P01-T01-O02_HL_n15_sdevice.log,238
+HL,n15,Applied WorkFunction,gateD=4.2 eV,P01-T01-O02_HL_n15_sdevice.log,239
+HL,n15,Final TDR written,n15_des.tdr,P01-T01-O02_HL_n15_sdevice.log,3651
+HL,n15,Simulation finished,Tue Aug  4 22:28:42 2026,P01-T01-O02_HL_n15_sdevice.log,3660
+HL,n15,Good Bye,Normal program exit marker,P01-T01-O02_HL_n15_sdevice.log,3661
+HH,n21,Applied WorkFunction,gateS=4.8 eV,P01-T01-O02_HH_n21_sdevice.log,238
+HH,n21,Applied WorkFunction,gateD=4.8 eV,P01-T01-O02_HH_n21_sdevice.log,239
+HH,n21,Final TDR written,n21_des.tdr,P01-T01-O02_HH_n21_sdevice.log,3556
+HH,n21,Simulation finished,Tue Aug  4 22:29:52 2026,P01-T01-O02_HH_n21_sdevice.log,3565
+HH,n21,Good Bye,Normal program exit marker,P01-T01-O02_HH_n21_sdevice.log,3566
