@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-06T10:09:09.317Z",
+  "updatedAt": "2026-08-06T10:09:20.178Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -3437,7 +3437,21 @@
             "path": "members/SongMinho/phases/phase-01/tasks/P01-T01/outputs/P01-T01-O03/submissions/20260806100909-minhosong-mse-U4rj4A/files/SHA256SUMS.txt",
             "size": 826
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-06T10:09:09.317Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
