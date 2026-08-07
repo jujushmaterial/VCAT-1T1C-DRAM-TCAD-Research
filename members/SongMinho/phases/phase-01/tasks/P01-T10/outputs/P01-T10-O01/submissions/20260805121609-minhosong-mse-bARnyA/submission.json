@@ -62,15 +62,21 @@
     }
   ],
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-07T17:02:47.983Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-05T12:16:09.740Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-07T17:02:47.983Z",
+        "note": "이미 분석한 이미지와 중복으로 예상됨(발표 자료로 참고)"
       }
     ],
     "legacy": false
