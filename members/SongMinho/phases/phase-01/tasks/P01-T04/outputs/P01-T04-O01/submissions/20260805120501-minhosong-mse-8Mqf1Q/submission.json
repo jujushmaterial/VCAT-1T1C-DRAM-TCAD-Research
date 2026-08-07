@@ -57,15 +57,21 @@
     }
   ],
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-07T15:10:06.397Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-05T12:05:01.422Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-07T15:10:06.397Z",
+        "note": "HH의 누설전류가 압도적으로 작으며, HL 보다 LH 배열이 누설전류가 더 적음. Drain 쪽 barrier 강화로 인한 것으로 예상"
       }
     ],
     "legacy": false
