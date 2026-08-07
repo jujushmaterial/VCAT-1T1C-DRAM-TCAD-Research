@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T10:13:21+09:00",
+  "generatedAt": "2026-08-07T21:23:12+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -12040,10 +12040,12 @@
           "taskId": "P03-T11"
         }
       ],
-      "assignees": [],
-      "updatedAt": "2026-08-07T01:13:11Z",
+      "assignees": [
+        "jujushmaterial"
+      ],
+      "updatedAt": "2026-08-07T12:23:03Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "과제·산출물 목록 수정",
+      "lastModifiedAction": "담당자 지정",
       "integrityWarnings": 0
     },
     {
