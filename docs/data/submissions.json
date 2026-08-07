@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-07T15:10:06.397Z",
+  "updatedAt": "2026-08-07T17:01:53.843Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2950,7 +2950,27 @@
             "path": "members/SongMinho/phases/phase-01/tasks/P01-T04/outputs/P01-T04-O01/submissions/20260805120713-minhosong-mse-iQmS_w/files/P01-T03-O01_Vg1p0_Potential_Cutline.png",
             "size": 118638
           }
-        ]
+        ],
+        "review": {
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-07T17:01:53.843Z",
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-05T12:07:13.684Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-07T17:01:53.843Z",
+              "note": "LH 와 HL 비교에서, 실제로 일함수가 높은 쪽이 source에 있으면, 처음에는 전자가 잘 넘어오다가 drain 쪽에서 확 막히는 경향을 보임. 반대의 경우는 처음부터 조금씩 막힘. 이로 인해 전류 밀도 자체는 LH가 높음"
+            }
+          ],
+          "legacy": false
+        }
       },
       {
         "submissionId": "20260805120752-minhosong-mse-ZXhgTg",
