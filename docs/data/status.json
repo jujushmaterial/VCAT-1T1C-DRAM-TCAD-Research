@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T02:02:08+09:00",
+  "generatedAt": "2026-08-08T02:03:06+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -16,9 +16,9 @@
       "tasksDone": 3,
       "tasksTotal": 6,
       "issueTasksDone": 3,
-      "outputsDone": 9,
+      "outputsDone": 10,
       "outputsTotal": 14,
-      "requiredOutputsDone": 6,
+      "requiredOutputsDone": 7,
       "requiredOutputsTotal": 10,
       "tasks": [
         {
@@ -1641,13 +1641,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 2,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260805121609-minhosong-mse-bARnyA",
@@ -1713,15 +1713,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-07T17:02:47.983Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-05T12:16:09.740Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-07T17:02:47.983Z",
+                        "note": "이미 분석한 이미지와 중복으로 예상됨(발표 자료로 참고)"
                       }
                     ],
                     "legacy": false
@@ -1934,12 +1940,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 2,
-          "outputsDone": 1,
+          "outputsDone": 2,
           "outputsTotal": 3,
           "missingRequiredOutputs": [
-            "P01-T10-O01",
             "P01-T10-O02"
           ],
           "checkboxDrift": false
@@ -3494,13 +3499,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 2,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260805121609-minhosong-mse-bARnyA",
@@ -3566,15 +3571,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-07T17:02:47.983Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-05T12:16:09.740Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-07T17:02:47.983Z",
+                    "note": "이미 분석한 이미지와 중복으로 예상됨(발표 자료로 참고)"
                   }
                 ],
                 "legacy": false
