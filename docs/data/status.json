@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T21:23:12+09:00",
+  "generatedAt": "2026-08-07T21:23:28+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -12041,9 +12041,9 @@
         }
       ],
       "assignees": [
-        "jujushmaterial"
+        "LEE-TAEK-GYU"
       ],
-      "updatedAt": "2026-08-07T12:23:03Z",
+      "updatedAt": "2026-08-07T12:23:20Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "담당자 지정",
       "integrityWarnings": 0

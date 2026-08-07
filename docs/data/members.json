@@ -7,10 +7,10 @@
       "role": "admin",
       "membership": "active",
       "status": "active",
-      "statusLabel": "Issue #3 assigned",
+      "statusLabel": "Issue #3 unassigned",
       "activityState": "active",
-      "lastActivityAt": "2026-08-07T12:23:04Z",
-      "recentActivity": "Issue #3 assigned",
+      "lastActivityAt": "2026-08-07T12:23:22Z",
+      "recentActivity": "Issue #3 unassigned",
       "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon"
     },
     {
