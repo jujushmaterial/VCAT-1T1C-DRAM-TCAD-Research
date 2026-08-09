@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T23:16:12+09:00",
+  "generatedAt": "2026-08-09T23:18:26+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -7050,7 +7050,7 @@
         },
         {
           "id": "P02-T11",
-          "text": "Single-Metal 3D 기준 구조와 최소 2D–3D 비교를 수행한다.",
+          "text": "Single-Metal 3D 기준 구조와 최소 2D–3D 비교를 수행한다.(추후진행)",
           "declaredChecked": false,
           "outputs": [
             {
@@ -10326,9 +10326,9 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-07T15:07:22Z",
+      "updatedAt": "2026-08-09T14:18:15Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "담당자 지정",
+      "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 2
     },
     {
