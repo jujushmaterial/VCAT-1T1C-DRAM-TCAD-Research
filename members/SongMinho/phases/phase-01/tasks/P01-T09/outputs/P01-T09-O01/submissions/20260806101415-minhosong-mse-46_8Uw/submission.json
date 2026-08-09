@@ -37,15 +37,20 @@
     }
   ],
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-09T16:29:47.958Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-06T10:14:15.295Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-09T16:29:47.958Z"
       }
     ],
     "legacy": false
