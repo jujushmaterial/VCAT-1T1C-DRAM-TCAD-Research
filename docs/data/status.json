@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T23:18:26+09:00",
+  "generatedAt": "2026-08-10T01:14:52+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -16,7 +16,7 @@
       "tasksDone": 4,
       "tasksTotal": 6,
       "issueTasksDone": 4,
-      "outputsDone": 11,
+      "outputsDone": 12,
       "outputsTotal": 14,
       "requiredOutputsDone": 8,
       "requiredOutputsTotal": 10,
@@ -1299,13 +1299,13 @@
               "reviewBlocksCompletion": true,
               "required": false,
               "policyReason": "기존 Gap·금속 경계 확인 항목을 보존하는 참고자료입니다.",
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260806095120-minhosong-mse-AXzPrA",
@@ -1356,15 +1356,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-09T16:14:40.524Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-06T09:51:20.590Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-09T16:14:40.524Z"
                       }
                     ],
                     "legacy": false
@@ -1377,7 +1382,7 @@
           "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 0,
-          "outputsDone": 2,
+          "outputsDone": 3,
           "outputsTotal": 3,
           "missingRequiredOutputs": [],
           "checkboxDrift": false
@@ -3205,13 +3210,13 @@
           "reviewBlocksCompletion": true,
           "required": false,
           "policyReason": "기존 Gap·금속 경계 확인 항목을 보존하는 참고자료입니다.",
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260806095120-minhosong-mse-AXzPrA",
@@ -3262,15 +3267,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-09T16:14:40.524Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-06T09:51:20.590Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-09T16:14:40.524Z"
                   }
                 ],
                 "legacy": false
