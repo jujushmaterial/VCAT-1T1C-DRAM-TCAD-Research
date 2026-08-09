@@ -183,7 +183,7 @@ def parse_tasks(section: str, phase_id: int, submissions: dict[str, Any], policy
         missing = [item["id"] for item in required if not item["submitted"]]
         submitted = sum(1 for item in task["outputs"] if item["submitted"])
         activity = sum(1 for item in task["outputs"] if item["submissionCount"] > 0)
-        completed = all(item["submitted"] for item in required) if required else task["declaredChecked"]
+        completed = all(item["submitted"] for item in required) if required else True
         task.update({
             "checked": completed,
             "state": "completed" if completed else ("in-progress" if activity else "not-started"),
