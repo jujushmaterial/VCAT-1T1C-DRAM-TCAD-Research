@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T11:33:22+09:00",
+  "generatedAt": "2026-08-11T11:57:14+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -7013,13 +7013,47 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260811025653-LSH-linear-8B8ZOA",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T10",
+                  "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+                  "outputId": "P02-T10-O01",
+                  "outputText": "기존 Mesh 결과 재사용·적용 범위 표",
+                  "uploader": "LSH-linear",
+                  "memberName": "이선형",
+                  "memberFolder": "LeeSeonHyeong",
+                  "type": "files",
+                  "uploadedAt": "2026-08-11T02:56:53.476Z",
+                  "folderPath": "members/LeeSeonHyeong/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260811025653-LSH-linear-8B8ZOA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260811025653-LSH-linear-8B8ZOA",
+                  "summary": "1개 파일 · 11.6KB",
+                  "files": [
+                    {
+                      "name": "P02-T10-O01_mesh-reuse-scope.xlsx",
+                      "path": "members/LeeSeonHyeong/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260811025653-LSH-linear-8B8ZOA/files/P02-T10-O01_mesh-reuse-scope.xlsx",
+                      "size": 11888
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P02-T10-O02",
@@ -7094,14 +7128,21 @@
                       "size": 165302
                     }
                   ],
+                  "comment": "P02-T10-O04 1차 제출 — Junction Mesh 추가 Split 검증 자료\n\n기존 Local Mesh의 Fine 대비 GIDL/BTBT 차이 원인을 확인하기 위해 JunctionMesh만 Uniform Fine 0.5 수준으로 강화한 단일 추가 split 검증 결과를 우선 제출한다.\n\nReference mesh는 정상 생성되었으나 SDevice 계산에서 Newton iteration 150회 초과 후 step reduction이 반복되고 MinStep에 도달하여 목표 Vg=-0.4 V까지 정상 sweep하지 못했으며, runtime은 3087.76 s로 증가하였다. 따라서 본 조건은 “Junction Mesh 추가 Split 검증 결과 — 최종 적용 X”로 보존하고 최종 Local Mesh baseline에는 반영하지 않는다.\n\n본 제출은 O04의 1차 제출본이다. 현재 Local/Fine 비교 결과 자체는 확보되어 있으나, 보고서 재사용성과 증거 명확성을 높이기 위해 Local Mesh, GIDL, ElectricField, BTBT 및 fixed-point 화면 일부를 다시 캡처하고 있다. 재캡처가 완료되면 Local/Fine 최소 비교표(CSV)와 대표 결과 이미지들을 동일 P02-T10-O04에 2차 보완 제출할 예정이다.\n\n따라서 이번 1차 제출은 Junction Mesh 추가 split 검증 기록을 우선 보존하기 위한 것이며, O04 최종 증거 패키지는 2차 보완 제출까지 포함하여 구성한다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-11T02:33:05.366Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -10283,13 +10324,47 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260811025653-LSH-linear-8B8ZOA",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T10",
+              "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+              "outputId": "P02-T10-O01",
+              "outputText": "기존 Mesh 결과 재사용·적용 범위 표",
+              "uploader": "LSH-linear",
+              "memberName": "이선형",
+              "memberFolder": "LeeSeonHyeong",
+              "type": "files",
+              "uploadedAt": "2026-08-11T02:56:53.476Z",
+              "folderPath": "members/LeeSeonHyeong/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260811025653-LSH-linear-8B8ZOA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260811025653-LSH-linear-8B8ZOA",
+              "summary": "1개 파일 · 11.6KB",
+              "files": [
+                {
+                  "name": "P02-T10-O01_mesh-reuse-scope.xlsx",
+                  "path": "members/LeeSeonHyeong/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260811025653-LSH-linear-8B8ZOA/files/P02-T10-O01_mesh-reuse-scope.xlsx",
+                  "size": 11888
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P02-T10"
         },
         {
@@ -10367,14 +10442,21 @@
                   "size": 165302
                 }
               ],
+              "comment": "P02-T10-O04 1차 제출 — Junction Mesh 추가 Split 검증 자료\n\n기존 Local Mesh의 Fine 대비 GIDL/BTBT 차이 원인을 확인하기 위해 JunctionMesh만 Uniform Fine 0.5 수준으로 강화한 단일 추가 split 검증 결과를 우선 제출한다.\n\nReference mesh는 정상 생성되었으나 SDevice 계산에서 Newton iteration 150회 초과 후 step reduction이 반복되고 MinStep에 도달하여 목표 Vg=-0.4 V까지 정상 sweep하지 못했으며, runtime은 3087.76 s로 증가하였다. 따라서 본 조건은 “Junction Mesh 추가 Split 검증 결과 — 최종 적용 X”로 보존하고 최종 Local Mesh baseline에는 반영하지 않는다.\n\n본 제출은 O04의 1차 제출본이다. 현재 Local/Fine 비교 결과 자체는 확보되어 있으나, 보고서 재사용성과 증거 명확성을 높이기 위해 Local Mesh, GIDL, ElectricField, BTBT 및 fixed-point 화면 일부를 다시 캡처하고 있다. 재캡처가 완료되면 Local/Fine 최소 비교표(CSV)와 대표 결과 이미지들을 동일 P02-T10-O04에 2차 보완 제출할 예정이다.\n\n따라서 이번 1차 제출은 Junction Mesh 추가 split 검증 기록을 우선 보존하기 위한 것이며, O04 최종 증거 패키지는 2차 보완 제출까지 포함하여 구성한다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-11T02:33:05.366Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
