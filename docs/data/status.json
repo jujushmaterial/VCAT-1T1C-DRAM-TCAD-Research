@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T22:38:29+09:00",
+  "generatedAt": "2026-08-11T23:17:06+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -10735,7 +10735,7 @@
             {
               "id": "P03-T01-O01",
               "text": "Dual-Metal 양방향 구조 코드",
-              "type": "code",
+              "type": "any",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -11720,7 +11720,7 @@
         {
           "id": "P03-T01-O01",
           "text": "Dual-Metal 양방향 구조 코드",
-          "type": "code",
+          "type": "any",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -12553,9 +12553,9 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-11T12:11:07Z",
-      "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "담당자 지정",
+      "updatedAt": "2026-08-11T14:16:56Z",
+      "lastModifiedBy": "LEE-TAEK-GYU",
+      "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
     },
     {
