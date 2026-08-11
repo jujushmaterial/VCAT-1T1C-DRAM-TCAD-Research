@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-11T02:26:22.322Z",
+  "updatedAt": "2026-08-11T02:33:05.366Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -4119,6 +4119,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P02-T10-O04": [
+      {
+        "submissionId": "20260811023305-LSH-linear-b1Q8Vw",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T10",
+        "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+        "outputId": "P02-T10-O04",
+        "outputText": "기존 Medium 또는 Fine 대비 최소 비교표",
+        "uploader": "LSH-linear",
+        "memberName": "이선형",
+        "memberFolder": "LeeSeonHyeong",
+        "type": "files",
+        "uploadedAt": "2026-08-11T02:33:05.366Z",
+        "folderPath": "members/LeeSeonHyeong/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260811023305-LSH-linear-b1Q8Vw",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260811023305-LSH-linear-b1Q8Vw",
+        "summary": "1개 파일 · 161.4KB",
+        "files": [
+          {
+            "name": "P02-T10-O04_junction-mesh-additional-split_not-applied.pdf",
+            "path": "members/LeeSeonHyeong/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260811023305-LSH-linear-b1Q8Vw/files/P02-T10-O04_junction-mesh-additional-split_not-applied.pdf",
+            "size": 165302
+          }
+        ]
       }
     ]
   }
