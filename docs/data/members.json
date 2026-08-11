@@ -45,11 +45,11 @@
       "folder": "LeeSeonJae",
       "role": "member",
       "membership": "active",
-      "status": "inactive",
-      "statusLabel": "코드 변경",
-      "activityState": "inactive",
-      "lastActivityAt": "2026-07-30T08:23:00Z",
-      "recentActivity": "코드 변경",
+      "status": "active",
+      "statusLabel": "커밋 · Review P03-T01-O01 submission 20260805081534",
+      "activityState": "active",
+      "lastActivityAt": "2026-08-11T12:10:00Z",
+      "recentActivity": "커밋 · Review P03-T01-O01 submission 20260805081534",
       "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonJae"
     },
     {
