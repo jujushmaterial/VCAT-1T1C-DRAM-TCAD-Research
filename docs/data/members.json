@@ -58,11 +58,11 @@
       "folder": "LeeSeonHyeong",
       "role": "member",
       "membership": "active",
-      "status": "inactive",
-      "statusLabel": "GitHub 활동",
-      "activityState": "inactive",
-      "lastActivityAt": "2026-07-27T13:22:06Z",
-      "recentActivity": "GitHub 활동",
+      "status": "active",
+      "statusLabel": "코드 변경",
+      "activityState": "active",
+      "lastActivityAt": "2026-08-11T02:26:15Z",
+      "recentActivity": "코드 변경",
       "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong"
     }
   ]
