@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-09T16:30:32.278Z",
+  "updatedAt": "2026-08-11T02:26:01.143Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -4077,6 +4077,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P02-T10-O05": [
+      {
+        "submissionId": "20260811022601-LSH-linear-DzexZA",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T10",
+        "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+        "outputId": "P02-T10-O05",
+        "outputText": "후속 Phase용 Mesh Baseline 안내서",
+        "uploader": "LSH-linear",
+        "memberName": "이선형",
+        "memberFolder": "LeeSeonHyeong",
+        "type": "files",
+        "uploadedAt": "2026-08-11T02:26:01.143Z",
+        "folderPath": "members/LeeSeonHyeong/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O05/submissions/20260811022601-LSH-linear-DzexZA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O05/submissions/20260811022601-LSH-linear-DzexZA",
+        "summary": "1개 파일 · 547.9KB",
+        "files": [
+          {
+            "name": "P02-T10-O05_local-mesh-baseline-final-handoff.pdf",
+            "path": "members/LeeSeonHyeong/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O05/submissions/20260811022601-LSH-linear-DzexZA/files/P02-T10-O05_local-mesh-baseline-final-handoff.pdf",
+            "size": 561058
+          }
+        ]
       }
     ]
   }
