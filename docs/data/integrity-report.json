@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T21:10:00+09:00",
+  "generatedAt": "2026-08-11T21:10:53+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
@@ -15,7 +15,6 @@
       "phaseId": 3,
       "taskId": "P03-T01",
       "missingRequiredOutputs": [
-        "P03-T01-O02",
         "P03-T01-O03"
       ]
     },
