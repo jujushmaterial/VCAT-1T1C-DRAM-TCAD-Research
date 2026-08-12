@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-11T12:10:42.164Z",
+  "updatedAt": "2026-08-12T05:27:22.358Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -2544,7 +2544,26 @@
             "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T05/outputs/P03-T05-O01/submissions/20260805115308-LEE-TAEK-GYU-cmTdOw/files/P03-T05-O01_WF_Sweep_Split.csv",
             "size": 1162
           }
-        ]
+        ],
+        "review": {
+          "status": "approved",
+          "reviewer": "seanthe17",
+          "reviewedAt": "2026-08-12T05:27:22.358Z",
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-05T11:53:08.569Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "seanthe17",
+              "at": "2026-08-12T05:27:22.358Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ],
     "P03-T05-O02": [
