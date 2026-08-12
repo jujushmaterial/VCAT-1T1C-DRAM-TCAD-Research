@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260812091305-minhosong-mse-P_J5rg",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T10",
+  "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+  "outputId": "P02-T10-O04",
+  "outputText": "기존 Medium 또는 Fine 대비 최소 비교표",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-12T09:13:05.803Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091305-minhosong-mse-P_J5rg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091305-minhosong-mse-P_J5rg",
+  "summary": "1개 파일 · 9.5KB",
+  "files": [
+    {
+      "name": "P02-T10-O04_Local_vs_Reference_Comparison.xlsx",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091305-minhosong-mse-P_J5rg/files/P02-T10-O04_Local_vs_Reference_Comparison.xlsx",
+      "size": 9757
+    }
+  ]
+}
