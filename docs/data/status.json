@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T18:13:25+09:00",
+  "generatedAt": "2026-08-12T18:14:18+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -7282,10 +7282,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 2,
+              "submissionCount": 3,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "pendingReviewCount": 3,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -7350,6 +7350,76 @@
                       "name": "P02-T10-O04_Local_vs_Reference_Comparison.xlsx",
                       "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091305-minhosong-mse-P_J5rg/files/P02-T10-O04_Local_vs_Reference_Comparison.xlsx",
                       "size": 9757
+                    }
+                  ],
+                  "comment": "Local Contour v1과 기존 Uniform Fine 0.5/Medium 1.0을 비교했다. DC 및 peak ElectricField는 Fine에 근접했으나 GIDL(-0.4 V)은 Fine보다 약 19.96%, BTBT peak는 약 15.93% 높았다. 반면 GIDL runtime은 약 33.7%, SDevice element 수는 약 36.4% 감소했다. 따라서 Local mesh는 2D screening baseline으로 채택하되 absolute GIDL/BTBT precision reference는 Fine 0.5를 유지한다.",
+                  "commentLabel": "제출 메모",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-12T09:13:05.803Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260812091344-minhosong-mse-Jq2a8g",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T10",
+                  "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+                  "outputId": "P02-T10-O04",
+                  "outputText": "기존 Medium 또는 Fine 대비 최소 비교표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-12T09:13:44.945Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g",
+                  "summary": "7개 파일 · 2.04MB",
+                  "files": [
+                    {
+                      "name": "P02-T10-O04_BTBT_Overall.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_BTBT_Overall.png",
+                      "size": 459885
+                    },
+                    {
+                      "name": "P02-T10-O04_BTBT_SN_Zoom.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_BTBT_SN_Zoom.png",
+                      "size": 440536
+                    },
+                    {
+                      "name": "P02-T10-O04_ElectricField_Overall.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_ElectricField_Overall.png",
+                      "size": 449215
+                    },
+                    {
+                      "name": "P02-T10-O04_ElectricField_SN_Zoom.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_ElectricField_SN_Zoom.png",
+                      "size": 481346
+                    },
+                    {
+                      "name": "P02-T10-O04_GIDL_Raw.csv",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_GIDL_Raw.csv",
+                      "size": 14449
+                    },
+                    {
+                      "name": "P02-T10-O04_GIDL_Semilog.png",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_GIDL_Semilog.png",
+                      "size": 292946
+                    },
+                    {
+                      "name": "P02-T10-O04_README.md",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_README.md",
+                      "size": 1286
                     }
                   ],
                   "review": {
@@ -10872,10 +10942,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 2,
+          "submissionCount": 3,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "pendingReviewCount": 3,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -10940,6 +11010,76 @@
                   "name": "P02-T10-O04_Local_vs_Reference_Comparison.xlsx",
                   "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091305-minhosong-mse-P_J5rg/files/P02-T10-O04_Local_vs_Reference_Comparison.xlsx",
                   "size": 9757
+                }
+              ],
+              "comment": "Local Contour v1과 기존 Uniform Fine 0.5/Medium 1.0을 비교했다. DC 및 peak ElectricField는 Fine에 근접했으나 GIDL(-0.4 V)은 Fine보다 약 19.96%, BTBT peak는 약 15.93% 높았다. 반면 GIDL runtime은 약 33.7%, SDevice element 수는 약 36.4% 감소했다. 따라서 Local mesh는 2D screening baseline으로 채택하되 absolute GIDL/BTBT precision reference는 Fine 0.5를 유지한다.",
+              "commentLabel": "제출 메모",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-12T09:13:05.803Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260812091344-minhosong-mse-Jq2a8g",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T10",
+              "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+              "outputId": "P02-T10-O04",
+              "outputText": "기존 Medium 또는 Fine 대비 최소 비교표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-12T09:13:44.945Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g",
+              "summary": "7개 파일 · 2.04MB",
+              "files": [
+                {
+                  "name": "P02-T10-O04_BTBT_Overall.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_BTBT_Overall.png",
+                  "size": 459885
+                },
+                {
+                  "name": "P02-T10-O04_BTBT_SN_Zoom.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_BTBT_SN_Zoom.png",
+                  "size": 440536
+                },
+                {
+                  "name": "P02-T10-O04_ElectricField_Overall.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_ElectricField_Overall.png",
+                  "size": 449215
+                },
+                {
+                  "name": "P02-T10-O04_ElectricField_SN_Zoom.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_ElectricField_SN_Zoom.png",
+                  "size": 481346
+                },
+                {
+                  "name": "P02-T10-O04_GIDL_Raw.csv",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_GIDL_Raw.csv",
+                  "size": 14449
+                },
+                {
+                  "name": "P02-T10-O04_GIDL_Semilog.png",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_GIDL_Semilog.png",
+                  "size": 292946
+                },
+                {
+                  "name": "P02-T10-O04_README.md",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_README.md",
+                  "size": 1286
                 }
               ],
               "review": {
