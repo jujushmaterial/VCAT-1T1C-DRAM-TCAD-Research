@@ -20,5 +20,19 @@
       "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng/files/P03-T06-O03_Performance_vs_RatioSN.png",
       "size": 196457
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-12T12:30:38.987Z"
+      }
+    ],
+    "legacy": false
+  }
 }
