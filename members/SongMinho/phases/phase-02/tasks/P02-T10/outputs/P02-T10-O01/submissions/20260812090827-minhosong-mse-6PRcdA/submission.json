@@ -20,5 +20,7 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260812090827-minhosong-mse-6PRcdA/files/P02-T10-O01_Mesh_Reuse_Application_Range_v02.xlsx",
       "size": 4412
     }
-  ]
+  ],
+  "comment": "기존 P02-T09 Uniform Coarse/Medium/Fine 결과를 재사용하고, Local Contour v1을 후속 2D screening baseline으로, Uniform Fine 0.5를 absolute GIDL/BTBT precision reference로 구분한 적용 범위 표이다. 기존 Uniform 조건은 재실행x",
+  "commentLabel": "제출 메모"
 }
