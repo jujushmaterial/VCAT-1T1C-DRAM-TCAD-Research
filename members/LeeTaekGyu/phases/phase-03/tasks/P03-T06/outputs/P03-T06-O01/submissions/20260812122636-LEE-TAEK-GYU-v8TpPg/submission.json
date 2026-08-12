@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260812122636-LEE-TAEK-GYU-v8TpPg",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T06",
+  "taskText": "각 금속 구간의 비율을 넓은 범위로 바꾼다.",
+  "outputId": "P03-T06-O01",
+  "outputText": "금속 구간 비율 Sweep 표",
+  "uploader": "LEE-TAEK-GYU",
+  "memberName": "이택규",
+  "memberFolder": "LeeTaekGyu",
+  "type": "table",
+  "uploadedAt": "2026-08-12T12:26:36.338Z",
+  "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg",
+  "summary": "8행 × 6열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg/table.tsv",
+      "size": 206
+    },
+    {
+      "name": "table.csv",
+      "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg/table.csv",
+      "size": 217
+    },
+    {
+      "name": "table.json",
+      "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg/table.json",
+      "size": 827
+    }
+  ],
+  "table": {
+    "rowCount": 8,
+    "columnCount": 6,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg/table.tsv"
+  }
+}
