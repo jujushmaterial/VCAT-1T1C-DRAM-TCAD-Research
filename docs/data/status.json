@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T21:30:56+09:00",
+  "generatedAt": "2026-08-12T21:34:25+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -12275,70 +12275,13 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 1,
+              "submissionCount": 0,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
-              "submissions": [
-                {
-                  "submissionId": "20260812122812-LEE-TAEK-GYU-gTMTAQ",
-                  "phaseId": 3,
-                  "issueNumber": 3,
-                  "taskId": "P03-T06",
-                  "taskText": "각 금속 구간의 비율을 넓은 범위로 바꾼다.",
-                  "outputId": "P03-T06-O02",
-                  "outputText": "구간 비율 Sweep 원본 데이터",
-                  "uploader": "LEE-TAEK-GYU",
-                  "memberName": "이택규",
-                  "memberFolder": "LeeTaekGyu",
-                  "type": "table",
-                  "uploadedAt": "2026-08-12T12:28:12.193Z",
-                  "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ",
-                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ",
-                  "summary": "18행 × 10열 표",
-                  "files": [
-                    {
-                      "name": "table.tsv",
-                      "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/table.tsv",
-                      "size": 1211
-                    },
-                    {
-                      "name": "table.csv",
-                      "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/table.csv",
-                      "size": 1232
-                    },
-                    {
-                      "name": "table.json",
-                      "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/table.json",
-                      "size": 3142
-                    }
-                  ],
-                  "table": {
-                    "rowCount": 18,
-                    "columnCount": 10,
-                    "hasHeader": true,
-                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/table.json",
-                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/table.csv",
-                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/table.tsv"
-                  },
-                  "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
-                    "reason": null,
-                    "history": [
-                      {
-                        "action": "submitted-for-review",
-                        "reviewer": null,
-                        "at": "2026-08-12T12:28:12.193Z"
-                      }
-                    ],
-                    "legacy": false
-                  }
-                }
-              ]
+              "state": "missing",
+              "submissions": []
             },
             {
               "id": "P03-T06-O03",
@@ -12384,9 +12327,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-12T12:30:38.987Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -13369,70 +13317,13 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 1,
+          "submissionCount": 0,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
-          "submissions": [
-            {
-              "submissionId": "20260812122812-LEE-TAEK-GYU-gTMTAQ",
-              "phaseId": 3,
-              "issueNumber": 3,
-              "taskId": "P03-T06",
-              "taskText": "각 금속 구간의 비율을 넓은 범위로 바꾼다.",
-              "outputId": "P03-T06-O02",
-              "outputText": "구간 비율 Sweep 원본 데이터",
-              "uploader": "LEE-TAEK-GYU",
-              "memberName": "이택규",
-              "memberFolder": "LeeTaekGyu",
-              "type": "table",
-              "uploadedAt": "2026-08-12T12:28:12.193Z",
-              "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ",
-              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ",
-              "summary": "18행 × 10열 표",
-              "files": [
-                {
-                  "name": "table.tsv",
-                  "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/table.tsv",
-                  "size": 1211
-                },
-                {
-                  "name": "table.csv",
-                  "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/table.csv",
-                  "size": 1232
-                },
-                {
-                  "name": "table.json",
-                  "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/table.json",
-                  "size": 3142
-                }
-              ],
-              "table": {
-                "rowCount": 18,
-                "columnCount": 10,
-                "hasHeader": true,
-                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/table.json",
-                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/table.csv",
-                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/table.tsv"
-              },
-              "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
-                "reason": null,
-                "history": [
-                  {
-                    "action": "submitted-for-review",
-                    "reviewer": null,
-                    "at": "2026-08-12T12:28:12.193Z"
-                  }
-                ],
-                "legacy": false
-              }
-            }
-          ],
+          "state": "missing",
+          "submissions": [],
           "taskId": "P03-T06"
         },
         {
@@ -13479,9 +13370,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-12T12:30:38.987Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
