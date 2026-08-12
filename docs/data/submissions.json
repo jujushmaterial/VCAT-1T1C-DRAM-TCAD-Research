@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-12T09:14:04.022Z",
+  "updatedAt": "2026-08-12T09:14:53.274Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -4168,6 +4168,30 @@
           ],
           "legacy": false
         }
+      },
+      {
+        "submissionId": "20260812091453-minhosong-mse-ErT4DQ",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T10",
+        "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+        "outputId": "P02-T10-O05",
+        "outputText": "후속 Phase용 Mesh Baseline 안내서",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-12T09:14:53.274Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O05/submissions/20260812091453-minhosong-mse-ErT4DQ",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O05/submissions/20260812091453-minhosong-mse-ErT4DQ",
+        "summary": "1개 파일 · 1.7KB",
+        "files": [
+          {
+            "name": "P02-T10-O05_Mesh_Baseline_Handoff_v02.md",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O05/submissions/20260812091453-minhosong-mse-ErT4DQ/files/P02-T10-O05_Mesh_Baseline_Handoff_v02.md",
+            "size": 1708
+          }
+        ]
       }
     ],
     "P02-T10-O04": [
