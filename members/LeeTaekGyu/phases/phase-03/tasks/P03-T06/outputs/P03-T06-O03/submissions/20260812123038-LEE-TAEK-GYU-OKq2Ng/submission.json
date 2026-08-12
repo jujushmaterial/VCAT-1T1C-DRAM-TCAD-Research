@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260812123038-LEE-TAEK-GYU-OKq2Ng",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T06",
+  "taskText": "각 금속 구간의 비율을 넓은 범위로 바꾼다.",
+  "outputId": "P03-T06-O03",
+  "outputText": "금속 비율에 따른 성능 그래프",
+  "uploader": "LEE-TAEK-GYU",
+  "memberName": "이택규",
+  "memberFolder": "LeeTaekGyu",
+  "type": "files",
+  "uploadedAt": "2026-08-12T12:30:38.987Z",
+  "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng",
+  "summary": "1개 파일 · 191.9KB",
+  "files": [
+    {
+      "name": "P03-T06-O03_Performance_vs_RatioSN.png",
+      "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng/files/P03-T06-O03_Performance_vs_RatioSN.png",
+      "size": 196457
+    }
+  ]
+}
