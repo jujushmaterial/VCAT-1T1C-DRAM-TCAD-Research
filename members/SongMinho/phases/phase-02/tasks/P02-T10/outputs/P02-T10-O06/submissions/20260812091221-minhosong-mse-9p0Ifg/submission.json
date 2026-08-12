@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260812091221-minhosong-mse-9p0Ifg",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T10",
+  "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+  "outputId": "P02-T10-O06",
+  "outputText": "Local Mesh 후보 코드와 Mesh 이미지_SDE코드",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "code",
+  "uploadedAt": "2026-08-12T09:12:21.754Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O06/submissions/20260812091221-minhosong-mse-9p0Ifg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O06/submissions/20260812091221-minhosong-mse-9p0Ifg",
+  "summary": "1개 코드 파일 · 14.0KB",
+  "files": [
+    {
+      "name": "P02-T10-O03_LocalMesh_Contour_v1.cmd",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O06/submissions/20260812091221-minhosong-mse-9p0Ifg/source/P02-T10-O03_LocalMesh_Contour_v1.cmd",
+      "size": 14358
+    }
+  ]
+}
