@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-12T18:11:45+09:00",
+  "generatedAt": "2026-08-12T18:12:40+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
     "error": 0,
-    "warning": 48,
+    "warning": 49,
     "info": 0
   },
   "items": [
@@ -30,6 +30,16 @@
       "classification": "misfiled-duplicate",
       "intendedOutputId": "P02-T04-O03",
       "countsAsEvidence": false
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 2,
+      "outputId": "P02-T10-O06",
+      "submissionId": "20260812091221-minhosong-mse-9p0Ifg",
+      "fileName": "P02-T10-O03_LocalMesh_Contour_v1.cmd",
+      "fileOutputId": "P02-T10-O03"
     },
     {
       "code": "FILENAME_PREFIX_MISMATCH",
