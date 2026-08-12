@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T18:10:45+09:00",
+  "generatedAt": "2026-08-12T18:11:45+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -3911,9 +3911,9 @@
       "tasksTotal": 11,
       "issueTasksDone": 9,
       "outputsDone": 37,
-      "outputsTotal": 47,
+      "outputsTotal": 48,
       "requiredOutputsDone": 37,
-      "requiredOutputsTotal": 47,
+      "requiredOutputsTotal": 48,
       "tasks": [
         {
           "id": "P02-T01",
@@ -7254,14 +7254,21 @@
                       "size": 1397
                     }
                   ],
+                  "comment": "2D axisymmetric VCAT용 Local Mesh 최적화 SDE 코드와 실제 mesh 이미지이다. 전체 Uniform Fine 대신 bulk/terminal은 coarse-like, channel/interface는 medium-like, junction support는 medium junction, gate-edge/high-field 영역은 fine contour로 구성하였다. SN/BL 양쪽에 대칭적으로 적용하였다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-12T09:10:20.329Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -7381,20 +7388,38 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "P02-T10-O06",
+              "text": "Local Mesh 후보 코드와 Mesh 이미지_SDE코드",
+              "type": "code",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 5,
+          "requiredOutputsTotal": 6,
           "outputsDone": 0,
-          "outputsTotal": 5,
+          "outputsTotal": 6,
           "missingRequiredOutputs": [
             "P02-T10-O01",
             "P02-T10-O02",
             "P02-T10-O03",
             "P02-T10-O04",
-            "P02-T10-O05"
+            "P02-T10-O05",
+            "P02-T10-O06"
           ],
           "checkboxDrift": false
         },
@@ -10744,14 +10769,21 @@
                   "size": 1397
                 }
               ],
+              "comment": "2D axisymmetric VCAT용 Local Mesh 최적화 SDE 코드와 실제 mesh 이미지이다. 전체 Uniform Fine 대신 bulk/terminal은 coarse-like, channel/interface는 medium-like, junction support는 medium junction, gate-edge/high-field 영역은 fine contour로 구성하였다. SN/BL 양쪽에 대칭적으로 적용하였다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-12T09:10:20.329Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -10876,6 +10908,24 @@
           "taskId": "P02-T10"
         },
         {
+          "id": "P02-T10-O06",
+          "text": "Local Mesh 후보 코드와 Mesh 이미지_SDE코드",
+          "type": "code",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P02-T10"
+        },
+        {
           "id": "P02-T11-O01",
           "text": "3D 구조·Contact·Region 확인 이미지",
           "type": "files",
@@ -10969,8 +11019,8 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-09T14:18:15Z",
-      "lastModifiedBy": "jujushmaterial",
+      "updatedAt": "2026-08-12T09:11:33Z",
+      "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 2
     },
