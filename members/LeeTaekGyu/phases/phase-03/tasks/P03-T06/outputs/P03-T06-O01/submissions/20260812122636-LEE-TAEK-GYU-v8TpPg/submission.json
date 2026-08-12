@@ -38,5 +38,19 @@
     "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg/table.json",
     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg/table.csv",
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg/table.tsv"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-12T12:26:36.338Z"
+      }
+    ],
+    "legacy": false
   }
 }
