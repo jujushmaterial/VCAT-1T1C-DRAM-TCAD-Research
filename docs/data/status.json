@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T21:28:30+09:00",
+  "generatedAt": "2026-08-12T21:30:56+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -12328,9 +12328,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-12T12:28:12.193Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -12344,13 +12349,47 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260812123038-LEE-TAEK-GYU-OKq2Ng",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T06",
+                  "taskText": "각 금속 구간의 비율을 넓은 범위로 바꾼다.",
+                  "outputId": "P03-T06-O03",
+                  "outputText": "금속 비율에 따른 성능 그래프",
+                  "uploader": "LEE-TAEK-GYU",
+                  "memberName": "이택규",
+                  "memberFolder": "LeeTaekGyu",
+                  "type": "files",
+                  "uploadedAt": "2026-08-12T12:30:38.987Z",
+                  "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng",
+                  "summary": "1개 파일 · 191.9KB",
+                  "files": [
+                    {
+                      "name": "P03-T06-O03_Performance_vs_RatioSN.png",
+                      "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng/files/P03-T06-O03_Performance_vs_RatioSN.png",
+                      "size": 196457
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
@@ -13383,9 +13422,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-12T12:28:12.193Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -13400,13 +13444,47 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260812123038-LEE-TAEK-GYU-OKq2Ng",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T06",
+              "taskText": "각 금속 구간의 비율을 넓은 범위로 바꾼다.",
+              "outputId": "P03-T06-O03",
+              "outputText": "금속 비율에 따른 성능 그래프",
+              "uploader": "LEE-TAEK-GYU",
+              "memberName": "이택규",
+              "memberFolder": "LeeTaekGyu",
+              "type": "files",
+              "uploadedAt": "2026-08-12T12:30:38.987Z",
+              "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng",
+              "summary": "1개 파일 · 191.9KB",
+              "files": [
+                {
+                  "name": "P03-T06-O03_Performance_vs_RatioSN.png",
+                  "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng/files/P03-T06-O03_Performance_vs_RatioSN.png",
+                  "size": 196457
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T06"
         },
         {
