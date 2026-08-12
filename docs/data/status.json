@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T18:14:18+09:00",
+  "generatedAt": "2026-08-12T18:15:12+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -7422,6 +7422,8 @@
                       "size": 1286
                     }
                   ],
+                  "comment": "GIDL raw CSV 축 설명:\n\nX = gate OuterVoltage [V]\n\nY = storage TotalCurrent [A]\n\nraw signed current 보존\n\nDC raw CSV 축 설명:\n\nX = gate OuterVoltage [V]\n\nY = bitline TotalCurrent [A]\n\nn47: Vd=0.05 V\n\nn48: Vd=1.0 V",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
@@ -7443,10 +7445,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 1,
+              "submissionCount": 2,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -7488,6 +7490,39 @@
                       }
                     ],
                     "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260812091453-minhosong-mse-ErT4DQ",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T10",
+                  "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+                  "outputId": "P02-T10-O05",
+                  "outputText": "후속 Phase용 Mesh Baseline 안내서",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-12T09:14:53.274Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O05/submissions/20260812091453-minhosong-mse-ErT4DQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O05/submissions/20260812091453-minhosong-mse-ErT4DQ",
+                  "summary": "1개 파일 · 1.7KB",
+                  "files": [
+                    {
+                      "name": "P02-T10-O05_Mesh_Baseline_Handoff_v02.md",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O05/submissions/20260812091453-minhosong-mse-ErT4DQ/files/P02-T10-O05_Mesh_Baseline_Handoff_v02.md",
+                      "size": 1708
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
                   }
                 }
               ]
@@ -11082,6 +11117,8 @@
                   "size": 1286
                 }
               ],
+              "comment": "GIDL raw CSV 축 설명:\n\nX = gate OuterVoltage [V]\n\nY = storage TotalCurrent [A]\n\nraw signed current 보존\n\nDC raw CSV 축 설명:\n\nX = gate OuterVoltage [V]\n\nY = bitline TotalCurrent [A]\n\nn47: Vd=0.05 V\n\nn48: Vd=1.0 V",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
@@ -11104,10 +11141,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 1,
+          "submissionCount": 2,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -11149,6 +11186,39 @@
                   }
                 ],
                 "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260812091453-minhosong-mse-ErT4DQ",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T10",
+              "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+              "outputId": "P02-T10-O05",
+              "outputText": "후속 Phase용 Mesh Baseline 안내서",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-12T09:14:53.274Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O05/submissions/20260812091453-minhosong-mse-ErT4DQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O05/submissions/20260812091453-minhosong-mse-ErT4DQ",
+              "summary": "1개 파일 · 1.7KB",
+              "files": [
+                {
+                  "name": "P02-T10-O05_Mesh_Baseline_Handoff_v02.md",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O05/submissions/20260812091453-minhosong-mse-ErT4DQ/files/P02-T10-O05_Mesh_Baseline_Handoff_v02.md",
+                  "size": 1708
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
               }
             }
           ],
