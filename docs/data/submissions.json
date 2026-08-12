@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-12T09:15:09.583Z",
+  "updatedAt": "2026-08-12T09:17:35.856Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -4609,6 +4609,72 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P02-T10-O07": [
+      {
+        "submissionId": "20260812091735-minhosong-mse-w-xRGw",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T10",
+        "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+        "outputId": "P02-T10-O07",
+        "outputText": "n47/n48 Stage 1·2·3 raw CSV 및 doping+mesh 이미지 (참고용)",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-12T09:17:35.856Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O07/submissions/20260812091735-minhosong-mse-w-xRGw",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O07/submissions/20260812091735-minhosong-mse-w-xRGw",
+        "summary": "9개 파일 · 1.73MB",
+        "files": [
+          {
+            "name": "P02-T10_Local_n47_Vd005_Stage1.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O07/submissions/20260812091735-minhosong-mse-w-xRGw/files/P02-T10_Local_n47_Vd005_Stage1.csv",
+            "size": 1710
+          },
+          {
+            "name": "P02-T10_Local_n47_Vd005_Stage2.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O07/submissions/20260812091735-minhosong-mse-w-xRGw/files/P02-T10_Local_n47_Vd005_Stage2.csv",
+            "size": 6087
+          },
+          {
+            "name": "P02-T10_Local_n47_Vd005_Stage3.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O07/submissions/20260812091735-minhosong-mse-w-xRGw/files/P02-T10_Local_n47_Vd005_Stage3.csv",
+            "size": 2897
+          },
+          {
+            "name": "P02-T10_Local_n48_Vd100_Stage1.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O07/submissions/20260812091735-minhosong-mse-w-xRGw/files/P02-T10_Local_n48_Vd100_Stage1.csv",
+            "size": 1816
+          },
+          {
+            "name": "P02-T10_Local_n48_Vd100_Stage2.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O07/submissions/20260812091735-minhosong-mse-w-xRGw/files/P02-T10_Local_n48_Vd100_Stage2.csv",
+            "size": 6087
+          },
+          {
+            "name": "P02-T10_Local_n48_Vd100_Stage3.csv",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O07/submissions/20260812091735-minhosong-mse-w-xRGw/files/P02-T10_Local_n48_Vd100_Stage3.csv",
+            "size": 2900
+          },
+          {
+            "name": "P02-T10_LocalMesh_Doping_BL_Zoom.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O07/submissions/20260812091735-minhosong-mse-w-xRGw/files/P02-T10_LocalMesh_Doping_BL_Zoom.png",
+            "size": 717403
+          },
+          {
+            "name": "P02-T10_LocalMesh_Doping_Overall.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O07/submissions/20260812091735-minhosong-mse-w-xRGw/files/P02-T10_LocalMesh_Doping_Overall.png",
+            "size": 479600
+          },
+          {
+            "name": "P02-T10_LocalMesh_Doping_SN_Zoom.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O07/submissions/20260812091735-minhosong-mse-w-xRGw/files/P02-T10_LocalMesh_Doping_SN_Zoom.png",
+            "size": 595516
+          }
+        ]
       }
     ]
   }
