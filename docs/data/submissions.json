@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-12T09:08:36.956Z",
+  "updatedAt": "2026-08-12T09:08:42.011Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -4317,7 +4317,21 @@
           }
         ],
         "comment": "기존 P02-T09 Uniform Coarse/Medium/Fine 결과를 재사용하고, Local Contour v1을 후속 2D screening baseline으로, Uniform Fine 0.5를 absolute GIDL/BTBT precision reference로 구분한 적용 범위 표이다. 기존 Uniform 조건은 재실행x",
-        "commentLabel": "제출 메모"
+        "commentLabel": "제출 메모",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-12T09:08:27.049Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
