@@ -50,5 +50,7 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_README.md",
       "size": 1286
     }
-  ]
+  ],
+  "comment": "GIDL raw CSV 축 설명:\n\nX = gate OuterVoltage [V]\n\nY = storage TotalCurrent [A]\n\nraw signed current 보존\n\nDC raw CSV 축 설명:\n\nX = gate OuterVoltage [V]\n\nY = bitline TotalCurrent [A]\n\nn47: Vd=0.05 V\n\nn48: Vd=1.0 V",
+  "commentLabel": "제출 메모"
 }
