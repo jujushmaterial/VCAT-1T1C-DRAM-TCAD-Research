@@ -60,5 +60,19 @@
       "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O07/submissions/20260812091735-minhosong-mse-w-xRGw/files/P02-T10_LocalMesh_Doping_SN_Zoom.png",
       "size": 595516
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-12T09:17:35.856Z"
+      }
+    ],
+    "legacy": false
+  }
 }
