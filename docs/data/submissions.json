@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-12T09:08:42.011Z",
+  "updatedAt": "2026-08-12T09:09:00.995Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -4332,6 +4332,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P02-T10-O02": [
+      {
+        "submissionId": "20260812090900-minhosong-mse-Bik7kQ",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T10",
+        "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+        "outputId": "P02-T10-O02",
+        "outputText": "공간별 A/B/C/E Mesh 중요도 Map",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-12T09:09:00.995Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O02/submissions/20260812090900-minhosong-mse-Bik7kQ",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O02/submissions/20260812090900-minhosong-mse-Bik7kQ",
+        "summary": "1개 파일 · 5.1KB",
+        "files": [
+          {
+            "name": "P02-T10-O02_ABCE_Mesh_Importance_Map.xlsx",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O02/submissions/20260812090900-minhosong-mse-Bik7kQ/files/P02-T10-O02_ABCE_Mesh_Importance_Map.xlsx",
+            "size": 5202
+          }
+        ]
       }
     ]
   }
