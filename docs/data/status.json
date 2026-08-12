@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T19:18:08+09:00",
+  "generatedAt": "2026-08-12T21:26:44+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -12195,7 +12195,7 @@
             {
               "id": "P03-T06-O01",
               "text": "금속 구간 비율 Sweep 표",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -13140,7 +13140,7 @@
         {
           "id": "P03-T06-O01",
           "text": "금속 구간 비율 Sweep 표",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -13465,7 +13465,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-12T05:28:32Z",
+      "updatedAt": "2026-08-12T12:26:26Z",
       "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
