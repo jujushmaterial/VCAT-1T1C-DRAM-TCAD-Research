@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T15:39:49+09:00",
+  "generatedAt": "2026-08-12T18:08:45+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -7013,10 +7013,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 2,
+              "submissionCount": 3,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "pendingReviewCount": 3,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -7098,6 +7098,39 @@
                       }
                     ],
                     "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260812090827-minhosong-mse-6PRcdA",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T10",
+                  "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+                  "outputId": "P02-T10-O01",
+                  "outputText": "기존 Mesh 결과 재사용·적용 범위 표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-12T09:08:27.049Z",
+                  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260812090827-minhosong-mse-6PRcdA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260812090827-minhosong-mse-6PRcdA",
+                  "summary": "1개 파일 · 4.3KB",
+                  "files": [
+                    {
+                      "name": "P02-T10-O01_Mesh_Reuse_Application_Range_v02.xlsx",
+                      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260812090827-minhosong-mse-6PRcdA/files/P02-T10-O01_Mesh_Reuse_Application_Range_v02.xlsx",
+                      "size": 4412
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
                   }
                 }
               ]
@@ -10371,10 +10404,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 2,
+          "submissionCount": 3,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "pendingReviewCount": 3,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -10456,6 +10489,39 @@
                   }
                 ],
                 "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260812090827-minhosong-mse-6PRcdA",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T10",
+              "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+              "outputId": "P02-T10-O01",
+              "outputText": "기존 Mesh 결과 재사용·적용 범위 표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-12T09:08:27.049Z",
+              "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260812090827-minhosong-mse-6PRcdA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260812090827-minhosong-mse-6PRcdA",
+              "summary": "1개 파일 · 4.3KB",
+              "files": [
+                {
+                  "name": "P02-T10-O01_Mesh_Reuse_Application_Range_v02.xlsx",
+                  "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O01/submissions/20260812090827-minhosong-mse-6PRcdA/files/P02-T10-O01_Mesh_Reuse_Application_Range_v02.xlsx",
+                  "size": 4412
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
               }
             }
           ],
