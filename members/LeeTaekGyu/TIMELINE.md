@@ -333,3 +333,18 @@ overdrive(Vth+0.3 V) 기준으로는 5.046e-06 vs 5.091e-06으로 거의
 - **작업 이유:** 개인 폴더의 모든 변경 이력을 반드시 남기는 저장소 규칙을 보장하기 위해서입니다.
 - **결과 및 검증:** 커밋 `688162d389f4` 감지. 커밋 메시지: `Mark P03-T06-O01 submission 20260812122636-LEE-TAEK-GYU-v8TpPg for review`. 파일 내용과 TCAD 결과의 타당성은 자동 검증하지 않았습니다.
 - **남은 일:** 실제 작업자는 필요하면 이 자동 기록 아래에 목적, 조건, 결과와 검증 내용을 보완해야 합니다.
+## 2026-08-12 21:XX KST — P03-T06 RatioSN Sweep 데이터 추출 및 제출 준비
+
+- **작성자:** 이택규 (`@LEE-TAEK-GYU`) / Claude
+- **Phase / Issue:** Phase 3 / #3
+- **결과물 ID:** `P03-T06-O01`, `P03-T06-O02`, `P03-T06-O03`
+- **변경 유형:** 생성
+- **변경 파일:**
+  members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/P03-T06-O01_RatioSN_Sweep_Split.csv
+  members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/P03-T06-O02_DC_Metrics.csv
+  members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/P03-T06-O03_Performance_vs_RatioSN.png
+- **작업 내용:** Project D(semi333, RatioSN 0.25/0.50/0.75 × Vd 0.05/1.00V, WF_SN=4.60eV/WF_BL=4.80eV 고정, 6노드) 완료 확인. p03_check.py(semi302에서 이전, T01/T05와 동일 추출 로직)로 DC 지표 추출, gtree.dat로 노드-조건 매핑 검증(n5/n6/n7=Vd0.05, n12/n14/n16=Vd1.0), DIBL 계산, 성능 그래프 작성.
+- **작업 이유:** Issue #3 체크리스트 "각 금속 구간의 비율을 넓은 범위로 바꾼다"(P03-T06) 충족.
+- **결과 및 검증:** 6노드 전부 정상 종료 확인 (`grep -iE "\bnan\b|\binf\b"` 결과 없음, `grep -H . n*_des.sta` 전부 done). p03_check.py sanity check 전 항목 OK. RatioSN 증가에 따라 Vth 감소·SS 악화·Ioff 증가·DIBL 증가 확인 — RatioSN=0.25가 5개 지표 전부에서 최우수. T01/T05 결론(BL쪽 고WF 유리)과 방향 일치.
+- **남은 일:** RatioSN=0.5를 T01/T05에서 임의 제안값으로 고정 사용한 근거가 이번 결과상 최적이 아닐 수 있음 — 팀 확인 필요(주상현). T07 통합표에 본 데이터 반영 예정 (Project C 완료 후).
+- 
