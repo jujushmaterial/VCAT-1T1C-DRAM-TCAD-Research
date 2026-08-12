@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-12T12:34:10.991Z",
+  "updatedAt": "2026-08-12T12:34:29.443Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -4786,6 +4786,50 @@
             }
           ],
           "legacy": false
+        }
+      }
+    ],
+    "P03-T06-O02": [
+      {
+        "submissionId": "20260812123429-LEE-TAEK-GYU-M2QCnA",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T06",
+        "taskText": "각 금속 구간의 비율을 넓은 범위로 바꾼다.",
+        "outputId": "P03-T06-O02",
+        "outputText": "구간 비율 Sweep 원본 데이터",
+        "uploader": "LEE-TAEK-GYU",
+        "memberName": "이택규",
+        "memberFolder": "LeeTaekGyu",
+        "type": "table",
+        "uploadedAt": "2026-08-12T12:34:29.443Z",
+        "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812123429-LEE-TAEK-GYU-M2QCnA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812123429-LEE-TAEK-GYU-M2QCnA",
+        "summary": "8행 × 11열 표",
+        "files": [
+          {
+            "name": "table.tsv",
+            "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812123429-LEE-TAEK-GYU-M2QCnA/table.tsv",
+            "size": 604
+          },
+          {
+            "name": "table.csv",
+            "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812123429-LEE-TAEK-GYU-M2QCnA/table.csv",
+            "size": 615
+          },
+          {
+            "name": "table.json",
+            "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812123429-LEE-TAEK-GYU-M2QCnA/table.json",
+            "size": 1586
+          }
+        ],
+        "table": {
+          "rowCount": 8,
+          "columnCount": 11,
+          "hasHeader": true,
+          "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812123429-LEE-TAEK-GYU-M2QCnA/table.json",
+          "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812123429-LEE-TAEK-GYU-M2QCnA/table.csv",
+          "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812123429-LEE-TAEK-GYU-M2QCnA/table.tsv"
         }
       }
     ]
