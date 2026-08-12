@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T18:15:12+09:00",
+  "generatedAt": "2026-08-12T18:16:27+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -3911,9 +3911,9 @@
       "tasksTotal": 11,
       "issueTasksDone": 9,
       "outputsDone": 37,
-      "outputsTotal": 48,
+      "outputsTotal": 49,
       "requiredOutputsDone": 37,
-      "requiredOutputsTotal": 48,
+      "requiredOutputsTotal": 49,
       "tasks": [
         {
           "id": "P02-T01",
@@ -7515,14 +7515,21 @@
                       "size": 1708
                     }
                   ],
+                  "comment": "후속 2D screening은 Local Contour v1을 기본 mesh로 사용하고, absolute GIDL/BTBT 또는 최종 대표 후보의 정밀 검증은 Uniform Fine 0.5로 수행한다. 새로운 WF 경계·oxide 변화·gap·hotspot 이동이 발생할 때만 해당 위치의 local refinement를 재검토한다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-12T09:14:53.274Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -7531,7 +7538,7 @@
               "id": "P02-T10-O06",
               "text": "Local Mesh 후보 코드와 Mesh 이미지_SDE코드",
               "type": "code",
-              "review": "none",
+              "review": "recommended",
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
@@ -7584,21 +7591,39 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "P02-T10-O07",
+              "text": "n47/n48 Stage 1·2·3 raw CSV 및 doping+mesh 이미지 (참고용)",
+              "type": "files",
+              "review": "recommended",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 6,
+          "requiredOutputsTotal": 7,
           "outputsDone": 0,
-          "outputsTotal": 6,
+          "outputsTotal": 7,
           "missingRequiredOutputs": [
             "P02-T10-O01",
             "P02-T10-O02",
             "P02-T10-O03",
             "P02-T10-O04",
             "P02-T10-O05",
-            "P02-T10-O06"
+            "P02-T10-O06",
+            "P02-T10-O07"
           ],
           "checkboxDrift": false
         },
@@ -11211,14 +11236,21 @@
                   "size": 1708
                 }
               ],
+              "comment": "후속 2D screening은 Local Contour v1을 기본 mesh로 사용하고, absolute GIDL/BTBT 또는 최종 대표 후보의 정밀 검증은 Uniform Fine 0.5로 수행한다. 새로운 WF 경계·oxide 변화·gap·hotspot 이동이 발생할 때만 해당 위치의 local refinement를 재검토한다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-12T09:14:53.274Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -11228,7 +11260,7 @@
           "id": "P02-T10-O06",
           "text": "Local Mesh 후보 코드와 Mesh 이미지_SDE코드",
           "type": "code",
-          "review": "none",
+          "review": "recommended",
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
@@ -11281,6 +11313,24 @@
               }
             }
           ],
+          "taskId": "P02-T10"
+        },
+        {
+          "id": "P02-T10-O07",
+          "text": "n47/n48 Stage 1·2·3 raw CSV 및 doping+mesh 이미지 (참고용)",
+          "type": "files",
+          "review": "recommended",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
           "taskId": "P02-T10"
         },
         {
@@ -11377,7 +11427,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-12T09:11:45Z",
+      "updatedAt": "2026-08-12T09:16:16Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 3
