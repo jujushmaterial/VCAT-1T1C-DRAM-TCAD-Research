@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-12T09:10:35.028Z",
+  "updatedAt": "2026-08-12T09:10:40.529Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -4416,7 +4416,21 @@
           }
         ],
         "comment": "2D axisymmetric VCAT용 Local Mesh 최적화 SDE 코드와 실제 mesh 이미지이다. 전체 Uniform Fine 대신 bulk/terminal은 coarse-like, channel/interface는 medium-like, junction support는 medium junction, gate-edge/high-field 영역은 fine contour로 구성하였다. SN/BL 양쪽에 대칭적으로 적용하였다.",
-        "commentLabel": "제출 메모"
+        "commentLabel": "제출 메모",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-12T09:10:20.329Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
