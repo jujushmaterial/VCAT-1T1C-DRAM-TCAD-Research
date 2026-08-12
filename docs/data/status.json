@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-12T14:27:35+09:00",
+  "generatedAt": "2026-08-12T14:28:33+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 16,
+  "overallProgress": 17,
   "phases": [
     {
       "id": 1,
@@ -10718,13 +10718,13 @@
       "id": 3,
       "issueNumber": 3,
       "state": "in-progress",
-      "progress": 10,
-      "tasksDone": 1,
+      "progress": 20,
+      "tasksDone": 2,
       "tasksTotal": 10,
-      "issueTasksDone": 1,
-      "outputsDone": 4,
+      "issueTasksDone": 2,
+      "outputsDone": 6,
       "outputsTotal": 30,
-      "requiredOutputsDone": 4,
+      "requiredOutputsDone": 6,
       "requiredOutputsTotal": 30,
       "tasks": [
         {
@@ -11116,7 +11116,7 @@
         {
           "id": "P03-T05",
           "text": "금속의 일함수 차이를 넓은 범위로 바꾼다.",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P03-T05-O01",
@@ -11187,13 +11187,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260805115610-LEE-TAEK-GYU-W3ZnIQ",
@@ -11219,15 +11219,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-12T05:27:31.568Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-05T11:56:10.166Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-12T05:27:31.568Z"
                       }
                     ],
                     "legacy": false
@@ -11243,13 +11248,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260805115737-LEE-TAEK-GYU-1sq7zw",
@@ -11275,15 +11280,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-12T05:28:12.525Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-05T11:57:37.727Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-12T05:28:12.525Z"
                       }
                     ],
                     "legacy": false
@@ -11292,16 +11302,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 1,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 3,
           "requiredOutputsTotal": 3,
-          "outputsDone": 1,
+          "outputsDone": 3,
           "outputsTotal": 3,
-          "missingRequiredOutputs": [
-            "P03-T05-O02",
-            "P03-T05-O03"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -12138,13 +12145,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260805115610-LEE-TAEK-GYU-W3ZnIQ",
@@ -12170,15 +12177,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-12T05:27:31.568Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-05T11:56:10.166Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-12T05:27:31.568Z"
                   }
                 ],
                 "legacy": false
@@ -12195,13 +12207,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260805115737-LEE-TAEK-GYU-1sq7zw",
@@ -12227,15 +12239,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-12T05:28:12.525Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-05T11:57:37.727Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-12T05:28:12.525Z"
                   }
                 ],
                 "legacy": false
@@ -12575,7 +12592,7 @@
       "updatedAt": "2026-08-11T14:16:56Z",
       "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 1
+      "integrityWarnings": 0
     },
     {
       "id": 4,
