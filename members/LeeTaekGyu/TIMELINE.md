@@ -347,4 +347,16 @@ overdrive(Vth+0.3 V) 기준으로는 5.046e-06 vs 5.091e-06으로 거의
 - **작업 이유:** Issue #3 체크리스트 "각 금속 구간의 비율을 넓은 범위로 바꾼다"(P03-T06) 충족.
 - **결과 및 검증:** 6노드 전부 정상 종료 확인 (`grep -iE "\bnan\b|\binf\b"` 결과 없음, `grep -H . n*_des.sta` 전부 done). p03_check.py sanity check 전 항목 OK. RatioSN 증가에 따라 Vth 감소·SS 악화·Ioff 증가·DIBL 증가 확인 — RatioSN=0.25가 5개 지표 전부에서 최우수. T01/T05 결론(BL쪽 고WF 유리)과 방향 일치.
 - **남은 일:** RatioSN=0.5를 T01/T05에서 임의 제안값으로 고정 사용한 근거가 이번 결과상 최적이 아닐 수 있음 — 팀 확인 필요(주상현). T07 통합표에 본 데이터 반영 예정 (Project C 완료 후).
-- 
+-
+
+## 2026-08-12 21:34 KST — 결과물 제출본 삭제
+
+- **작성자:** LEE-TAEK-GYU (`@LEE-TAEK-GYU`)
+- **Phase / Issue:** Phase 3 / #3
+- **결과물 ID:** `P03-T06-O02`
+- **변경 유형:** 삭제 / 본인 제출본 삭제
+- **변경 파일:** `members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812122812-LEE-TAEK-GYU-gTMTAQ/`, `members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/README.md`, `docs/data/submissions.json`
+- **작업 내용:** 제출본 `20260812122812-LEE-TAEK-GYU-gTMTAQ`을 삭제하고 제출 폴더, 제출 인덱스와 개인 결과물 README 이력을 함께 정리했습니다.
+- **작업 이유:** 잘못 제출했거나 중복된 제출본을 대시보드와 저장소에서 불일치 없이 제거하기 위해서입니다.
+- **결과 및 검증:** 삭제 작업을 하나의 Git 커밋으로 처리했습니다. 해당 산출물의 마지막 제출본이 삭제되어 대시보드에는 미제출 또는 파일 없음으로 표시됩니다.
+- **남은 일:** 필요하면 올바른 결과물을 다시 제출합니다.
