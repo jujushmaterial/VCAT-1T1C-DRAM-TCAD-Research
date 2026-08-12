@@ -1,0 +1,54 @@
+{
+  "submissionId": "20260812091344-minhosong-mse-Jq2a8g",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T10",
+  "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+  "outputId": "P02-T10-O04",
+  "outputText": "기존 Medium 또는 Fine 대비 최소 비교표",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-12T09:13:44.945Z",
+  "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g",
+  "summary": "7개 파일 · 2.04MB",
+  "files": [
+    {
+      "name": "P02-T10-O04_BTBT_Overall.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_BTBT_Overall.png",
+      "size": 459885
+    },
+    {
+      "name": "P02-T10-O04_BTBT_SN_Zoom.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_BTBT_SN_Zoom.png",
+      "size": 440536
+    },
+    {
+      "name": "P02-T10-O04_ElectricField_Overall.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_ElectricField_Overall.png",
+      "size": 449215
+    },
+    {
+      "name": "P02-T10-O04_ElectricField_SN_Zoom.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_ElectricField_SN_Zoom.png",
+      "size": 481346
+    },
+    {
+      "name": "P02-T10-O04_GIDL_Raw.csv",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_GIDL_Raw.csv",
+      "size": 14449
+    },
+    {
+      "name": "P02-T10-O04_GIDL_Semilog.png",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_GIDL_Semilog.png",
+      "size": 292946
+    },
+    {
+      "name": "P02-T10-O04_README.md",
+      "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O04/submissions/20260812091344-minhosong-mse-Jq2a8g/files/P02-T10-O04_README.md",
+      "size": 1286
+    }
+  ]
+}
