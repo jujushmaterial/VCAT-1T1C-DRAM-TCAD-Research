@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-12T09:09:15.916Z",
+  "updatedAt": "2026-08-12T09:10:20.329Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -4374,6 +4374,47 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P02-T10-O03": [
+      {
+        "submissionId": "20260812091020-minhosong-mse-cWEA1w",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T10",
+        "taskText": "기존 P02-T09 결과를 재사용해 Local Mesh Baseline을 만든다.",
+        "outputId": "P02-T10-O03",
+        "outputText": "Local Mesh 후보 코드와 Mesh 이미지",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-12T09:10:20.329Z",
+        "folderPath": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O03/submissions/20260812091020-minhosong-mse-cWEA1w",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O03/submissions/20260812091020-minhosong-mse-cWEA1w",
+        "summary": "4개 파일 · 1.73MB",
+        "files": [
+          {
+            "name": "P02-T10-O03_LocalMesh_BL_Zoom.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O03/submissions/20260812091020-minhosong-mse-cWEA1w/files/P02-T10-O03_LocalMesh_BL_Zoom.png",
+            "size": 713055
+          },
+          {
+            "name": "P02-T10-O03_LocalMesh_Overall.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O03/submissions/20260812091020-minhosong-mse-cWEA1w/files/P02-T10-O03_LocalMesh_Overall.png",
+            "size": 477043
+          },
+          {
+            "name": "P02-T10-O03_LocalMesh_SN_Zoom.png",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O03/submissions/20260812091020-minhosong-mse-cWEA1w/files/P02-T10-O03_LocalMesh_SN_Zoom.png",
+            "size": 618991
+          },
+          {
+            "name": "P02-T10-O03_README.md",
+            "path": "members/SongMinho/phases/phase-02/tasks/P02-T10/outputs/P02-T10-O03/submissions/20260812091020-minhosong-mse-cWEA1w/files/P02-T10-O03_README.md",
+            "size": 1397
+          }
+        ]
       }
     ]
   }
