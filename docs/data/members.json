@@ -6,11 +6,11 @@
       "folder": "JuSanghyeon",
       "role": "admin",
       "membership": "active",
-      "status": "recent",
-      "statusLabel": "Issue #1 closed",
-      "activityState": "recent",
-      "lastActivityAt": "2026-08-09T17:01:09Z",
-      "recentActivity": "Issue #1 closed",
+      "status": "active",
+      "statusLabel": "코드 변경",
+      "activityState": "active",
+      "lastActivityAt": "2026-08-12T20:00:52Z",
+      "recentActivity": "코드 변경",
       "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon"
     },
     {
