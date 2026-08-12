@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "description": "필수 산출물과 검토 승인 기반 자동 완료 정책. 명시되지 않은 산출물은 기본적으로 필수이며 승인된 제출본만 완료 증거로 인정합니다. Phase 1 기존 제출 자료는 경로와 이력을 보존하는 선택 참고자료로 유지합니다.",
+  "version": 4,
+  "description": "필수 산출물과 검토 승인 기반 자동 완료 정책. 명시되지 않은 산출물은 기본적으로 필수이며 승인된 제출본만 완료 증거로 인정합니다. Phase 1 기존 제출 자료와 Phase 3 개편 이전 제출 자료는 경로와 이력을 보존하는 선택 참고자료로 유지합니다. P07-T02는 선택 Screening이므로 실제 Screening 산출물은 선택이며 포함·제외 판단 근거만 필수입니다.",
   "defaults": {
     "outputRequired": true,
     "reviewBlocksCompletion": true
@@ -21,6 +21,54 @@
     "P01-T10-O05": {
       "required": false,
       "reason": "DIBL 추출 코드 수정 과정의 기존 참고자료입니다."
+    },
+    "P03-T01-O01": {
+      "required": false,
+      "reason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다."
+    },
+    "P03-T01-O02": {
+      "required": false,
+      "reason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다."
+    },
+    "P03-T01-O03": {
+      "required": false,
+      "reason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다."
+    },
+    "P03-T05-O01": {
+      "required": false,
+      "reason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다."
+    },
+    "P03-T05-O02": {
+      "required": false,
+      "reason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다."
+    },
+    "P03-T05-O03": {
+      "required": false,
+      "reason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다."
+    },
+    "P03-T06-O01": {
+      "required": false,
+      "reason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다."
+    },
+    "P03-T06-O02": {
+      "required": false,
+      "reason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다."
+    },
+    "P03-T06-O03": {
+      "required": false,
+      "reason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다."
+    },
+    "P07-T02-O01": {
+      "required": false,
+      "reason": "P07-T02는 필요할 때만 수행하는 선택 Screening이며 미수행 시 P07-T02-O04의 판단 근거로 대체합니다."
+    },
+    "P07-T02-O02": {
+      "required": false,
+      "reason": "P07-T02는 필요할 때만 수행하는 선택 Screening이며 미수행 시 P07-T02-O04의 판단 근거로 대체합니다."
+    },
+    "P07-T02-O03": {
+      "required": false,
+      "reason": "P07-T02는 필요할 때만 수행하는 선택 Screening이며 미수행 시 P07-T02-O04의 판단 근거로 대체합니다."
     }
   }
 }
