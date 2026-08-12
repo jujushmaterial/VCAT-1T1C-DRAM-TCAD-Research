@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T21:27:33+09:00",
+  "generatedAt": "2026-08-12T21:27:49+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 3,
@@ -12269,7 +12269,7 @@
             {
               "id": "P03-T06-O02",
               "text": "구간 비율 Sweep 원본 데이터",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -13272,7 +13272,7 @@
         {
           "id": "P03-T06-O02",
           "text": "구간 비율 Sweep 원본 데이터",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -13579,7 +13579,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-12T12:26:26Z",
+      "updatedAt": "2026-08-12T12:27:38Z",
       "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
