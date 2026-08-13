@@ -1,0 +1,39 @@
+{
+  "submissionId": "20260813160812-minhosong-mse-gik9DQ",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T13",
+  "taskText": "Low-High-Low Three-zone 구조 구현",
+  "outputId": "P03-T13-O06",
+  "outputText": "기준 Mesh 확인 자료",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-13T16:08:12.385Z",
+  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O06/submissions/20260813160812-minhosong-mse-gik9DQ",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O06/submissions/20260813160812-minhosong-mse-gik9DQ",
+  "summary": "4개 파일 · 479.5KB",
+  "files": [
+    {
+      "name": "P03-T13-O06_Mesh_Overall.png",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O06/submissions/20260813160812-minhosong-mse-gik9DQ/files/P03-T13-O06_Mesh_Overall.png",
+      "size": 51822
+    },
+    {
+      "name": "P03-T13-O06_Mesh_SN_Junction_Zoom.png",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O06/submissions/20260813160812-minhosong-mse-gik9DQ/files/P03-T13-O06_Mesh_SN_Junction_Zoom.png",
+      "size": 373473
+    },
+    {
+      "name": "P03-T13-O06_README.md",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O06/submissions/20260813160812-minhosong-mse-gik9DQ/files/P03-T13-O06_README.md",
+      "size": 414
+    },
+    {
+      "name": "P03-T13-O06_WF_Boundary_Mesh_Zoom.png",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O06/submissions/20260813160812-minhosong-mse-gik9DQ/files/P03-T13-O06_WF_Boundary_Mesh_Zoom.png",
+      "size": 65248
+    }
+  ]
+}
