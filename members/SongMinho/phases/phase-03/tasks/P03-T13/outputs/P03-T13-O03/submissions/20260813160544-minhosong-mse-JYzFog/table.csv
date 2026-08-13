@@ -1,0 +1,4 @@
+﻿Zone,Region name,Contact,WF role,Axial range (um),Length (nm),Material / note
+M1 (SN-side),R.GateOxide.M1,gate_m1,LOW,0.020–0.040,20,SiO2 gate-oxide segment; WF assigned in SDevice
+M2 (center),R.GateOxide.M2,gate_m2,HIGH,0.040–0.060,20,SiO2 gate-oxide segment; WF assigned in SDevice
+M3 (BL-side),R.GateOxide.M3,gate_m3,LOW,0.060–0.080,20,SiO2 gate-oxide segment; WF assigned in SDevice
