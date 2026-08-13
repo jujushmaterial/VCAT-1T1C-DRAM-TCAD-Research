@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-13T16:15:06.173Z",
+  "updatedAt": "2026-08-13T16:15:14.297Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5385,7 +5385,21 @@
             "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O03/submissions/20260813161506-minhosong-mse--cpOpA/files/P03-T14-O03_README.md",
             "size": 304
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-13T16:15:06.173Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
