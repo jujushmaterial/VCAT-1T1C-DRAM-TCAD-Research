@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-12T12:34:40.611Z",
+  "updatedAt": "2026-08-13T16:04:00.279Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -4845,6 +4845,37 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P03-T13-O01": [
+      {
+        "submissionId": "20260813160400-minhosong-mse-FL5cUg",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T13",
+        "taskText": "Low-High-Low Three-zone 구조 구현",
+        "outputId": "P03-T13-O01",
+        "outputText": "L-H-L SDE·SDevice 구조 코드",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "code",
+        "uploadedAt": "2026-08-13T16:04:00.279Z",
+        "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O01/submissions/20260813160400-minhosong-mse-FL5cUg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O01/submissions/20260813160400-minhosong-mse-FL5cUg",
+        "summary": "2개 코드 파일 · 11.6KB",
+        "files": [
+          {
+            "name": "P03-T13-O01_LHL_ThreeZone_SDE.cmd",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O01/submissions/20260813160400-minhosong-mse-FL5cUg/source/P03-T13-O01_LHL_ThreeZone_SDE.cmd",
+            "size": 8893
+          },
+          {
+            "name": "P03-T13-O01_LHL_ThreeZone_Forward_SDevice.cmd",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O01/submissions/20260813160400-minhosong-mse-FL5cUg/source/P03-T13-O01_LHL_ThreeZone_Forward_SDevice.cmd",
+            "size": 3030
+          }
+        ]
       }
     ]
   }
