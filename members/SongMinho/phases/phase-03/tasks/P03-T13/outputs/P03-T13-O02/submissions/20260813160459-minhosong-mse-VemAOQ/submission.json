@@ -1,0 +1,29 @@
+{
+  "submissionId": "20260813160459-minhosong-mse-VemAOQ",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T13",
+  "taskText": "Low-High-Low Three-zone 구조 구현",
+  "outputId": "P03-T13-O02",
+  "outputText": "L-H-L 구조 이미지",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-13T16:04:59.938Z",
+  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ",
+  "summary": "2개 파일 · 652.2KB",
+  "files": [
+    {
+      "name": "P03-T13-O02_LHL_Structure_Overall.png",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ/files/P03-T13-O02_LHL_Structure_Overall.png",
+      "size": 344498
+    },
+    {
+      "name": "P03-T13-O02_LHL_Structure_SN_Zoom.png",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ/files/P03-T13-O02_LHL_Structure_SN_Zoom.png",
+      "size": 323374
+    }
+  ]
+}
