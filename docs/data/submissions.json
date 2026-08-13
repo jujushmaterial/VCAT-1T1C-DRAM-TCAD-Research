@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-13T16:09:15.507Z",
+  "updatedAt": "2026-08-13T16:09:21.112Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5189,7 +5189,9 @@
             "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O07/submissions/20260813160915-minhosong-mse-gptDfg/files/P03-T13-O07_WF_Split_Baseline_Confirmation.md",
             "size": 700
           }
-        ]
+        ],
+        "comment": "L-H-L 3-zone 구조, contact mapping, 1:1:1 segment, boundary 위치와 기준 mesh 조건을 고정한 WF Split 실행 baseline 확인 자료이다.",
+        "commentLabel": "제출 메모"
       }
     ]
   }
