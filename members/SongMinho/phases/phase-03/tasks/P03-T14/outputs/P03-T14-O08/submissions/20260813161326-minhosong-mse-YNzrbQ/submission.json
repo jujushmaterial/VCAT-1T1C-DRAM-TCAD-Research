@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260813161326-minhosong-mse-YNzrbQ",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T14",
+  "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+  "outputId": "P03-T14-O08",
+  "outputText": "WF Split Raw Data(전체 law data)",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-13T16:13:26.716Z",
+  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260813161326-minhosong-mse-YNzrbQ",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260813161326-minhosong-mse-YNzrbQ",
+  "summary": "1개 파일 · 511.8KB",
+  "files": [
+    {
+      "name": "P03-T14-O02_WF_Split_Raw_Data.xlsx",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260813161326-minhosong-mse-YNzrbQ/files/P03-T14-O02_WF_Split_Raw_Data.xlsx",
+      "size": 524086
+    }
+  ]
+}
