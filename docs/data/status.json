@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T01:08:47+09:00",
+  "generatedAt": "2026-08-14T01:09:36+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -12146,14 +12146,21 @@
                       "size": 65248
                     }
                   ],
+                  "comment": "현재 P3 기준 구조의 전체 mesh, junction 확대, WF boundary 주변 refinement를 확인한 자료이다. T16의 mesh 전/후 안정성 비교와는 별도이다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-13T16:08:12.385Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -12167,13 +12174,54 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260813160915-minhosong-mse-gptDfg",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T13",
+                  "taskText": "Low-High-Low Three-zone 구조 구현",
+                  "outputId": "P03-T13-O07",
+                  "outputText": "WF Split 실행용 기준 구조 확인",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-13T16:09:15.507Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O07/submissions/20260813160915-minhosong-mse-gptDfg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O07/submissions/20260813160915-minhosong-mse-gptDfg",
+                  "summary": "1개 파일 · 700B",
+                  "files": [
+                    {
+                      "name": "P03-T13-O07_WF_Split_Baseline_Confirmation.md",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O07/submissions/20260813160915-minhosong-mse-gptDfg/files/P03-T13-O07_WF_Split_Baseline_Confirmation.md",
+                      "size": 700
+                    }
+                  ],
+                  "comment": "L-H-L 3-zone 구조, contact mapping, 1:1:1 segment, boundary 위치와 기준 mesh 조건을 고정한 WF Split 실행 baseline 확인 자료이다.",
+                  "commentLabel": "제출 메모",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-13T16:09:15.507Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
@@ -13811,14 +13859,21 @@
                   "size": 65248
                 }
               ],
+              "comment": "현재 P3 기준 구조의 전체 mesh, junction 확대, WF boundary 주변 refinement를 확인한 자료이다. T16의 mesh 전/후 안정성 비교와는 별도이다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-13T16:08:12.385Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -13833,13 +13888,54 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260813160915-minhosong-mse-gptDfg",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T13",
+              "taskText": "Low-High-Low Three-zone 구조 구현",
+              "outputId": "P03-T13-O07",
+              "outputText": "WF Split 실행용 기준 구조 확인",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-13T16:09:15.507Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O07/submissions/20260813160915-minhosong-mse-gptDfg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O07/submissions/20260813160915-minhosong-mse-gptDfg",
+              "summary": "1개 파일 · 700B",
+              "files": [
+                {
+                  "name": "P03-T13-O07_WF_Split_Baseline_Confirmation.md",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O07/submissions/20260813160915-minhosong-mse-gptDfg/files/P03-T13-O07_WF_Split_Baseline_Confirmation.md",
+                  "size": 700
+                }
+              ],
+              "comment": "L-H-L 3-zone 구조, contact mapping, 1:1:1 segment, boundary 위치와 기준 mesh 조건을 고정한 WF Split 실행 baseline 확인 자료이다.",
+              "commentLabel": "제출 메모",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-13T16:09:15.507Z"
+                  }
+                ],
+                "legacy": false
+              }
+            }
+          ],
           "taskId": "P03-T13"
         },
         {
