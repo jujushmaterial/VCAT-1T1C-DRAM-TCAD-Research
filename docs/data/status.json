@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T01:11:45+09:00",
+  "generatedAt": "2026-08-14T01:13:34+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11599,9 +11599,9 @@
       "tasksTotal": 8,
       "issueTasksDone": 3,
       "outputsDone": 6,
-      "outputsTotal": 44,
+      "outputsTotal": 45,
       "requiredOutputsDone": 0,
-      "requiredOutputsTotal": 35,
+      "requiredOutputsTotal": 36,
       "tasks": [
         {
           "id": "P03-T12",
@@ -12384,9 +12384,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-13T16:11:28.457Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -12475,14 +12480,31 @@
               "heldSubmissionCount": 0,
               "state": "missing",
               "submissions": []
+            },
+            {
+              "id": "P03-T14-O08",
+              "text": "WF Split Raw Data(전체 law data)",
+              "type": "files",
+              "review": "recommended",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 7,
+          "requiredOutputsTotal": 8,
           "outputsDone": 0,
-          "outputsTotal": 7,
+          "outputsTotal": 8,
           "missingRequiredOutputs": [
             "P03-T14-O01",
             "P03-T14-O02",
@@ -12490,7 +12512,8 @@
             "P03-T14-O04",
             "P03-T14-O05",
             "P03-T14-O06",
-            "P03-T14-O07"
+            "P03-T14-O07",
+            "P03-T14-O08"
           ],
           "checkboxDrift": false
         },
@@ -14188,9 +14211,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-13T16:11:28.457Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -14271,6 +14299,24 @@
         {
           "id": "P03-T14-O07",
           "text": "P4~P9 Fixed WF 선언·전달값",
+          "type": "files",
+          "review": "recommended",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P03-T14"
+        },
+        {
+          "id": "P03-T14-O08",
+          "text": "WF Split Raw Data(전체 law data)",
           "type": "files",
           "review": "recommended",
           "reviewBlocksCompletion": true,
@@ -15169,8 +15215,8 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-12T20:04:36Z",
-      "lastModifiedBy": "jujushmaterial",
+      "updatedAt": "2026-08-13T16:13:16Z",
+      "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
     },
