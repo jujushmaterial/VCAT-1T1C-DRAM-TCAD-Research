@@ -25,5 +25,19 @@
       "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O01/submissions/20260813160400-minhosong-mse-FL5cUg/source/P03-T13-O01_LHL_ThreeZone_Forward_SDevice.cmd",
       "size": 3030
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-13T16:04:00.279Z"
+      }
+    ],
+    "legacy": false
+  }
 }
