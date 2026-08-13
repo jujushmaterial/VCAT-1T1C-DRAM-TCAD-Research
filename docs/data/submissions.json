@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-13T16:04:59.938Z",
+  "updatedAt": "2026-08-13T16:05:06.459Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -4920,7 +4920,21 @@
             "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ/files/P03-T13-O02_LHL_Structure_SN_Zoom.png",
             "size": 323374
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-13T16:04:59.938Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
