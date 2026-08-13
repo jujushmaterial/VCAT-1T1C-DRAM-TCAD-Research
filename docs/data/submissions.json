@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-13T16:06:54.253Z",
+  "updatedAt": "2026-08-13T16:06:57.673Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5040,7 +5040,21 @@
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.tsv"
         },
         "comment": "Lg=60 nm, M1:M2:M3=1:1:1 기준으로 Xbnd1=0.040 um, Xbnd2=0.060 um이며 각 segment 길이는 20 nm이다.",
-        "commentLabel": "표 설명"
+        "commentLabel": "표 설명",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-13T16:06:48.568Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
