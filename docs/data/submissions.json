@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-13T16:06:57.673Z",
+  "updatedAt": "2026-08-13T16:07:34.680Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5055,6 +5055,42 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P03-T13-O05": [
+      {
+        "submissionId": "20260813160734-minhosong-mse-g5IjsQ",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T13",
+        "taskText": "Low-High-Low Three-zone 구조 구현",
+        "outputId": "P03-T13-O05",
+        "outputText": "Contact·Region 확인표",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-13T16:07:34.680Z",
+        "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ",
+        "summary": "3개 파일 · 138.6KB",
+        "files": [
+          {
+            "name": "P03-T13-O05_Region_List.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ/files/P03-T13-O05_Region_List.png",
+            "size": 69483
+          },
+          {
+            "name": "P03-T13-O05_Contact_List.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ/files/P03-T13-O05_Contact_List.png",
+            "size": 72147
+          },
+          {
+            "name": "P03-T13-O05_README.md",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ/files/P03-T13-O05_README.md",
+            "size": 250
+          }
+        ]
       }
     ]
   }
