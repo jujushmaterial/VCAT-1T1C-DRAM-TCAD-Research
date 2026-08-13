@@ -1,0 +1,5 @@
+﻿Condition,Lg_nm,M1Ratio,M2Ratio,M3Ratio,M1_nm,M2_nm,M3_nm,Xbnd1_um,Xbnd2_um
+Baseline,60,1,1,1,20.0,20.0,20.0,0.040,0.060
+,,,,,,,,,
+"Derived from SDE: XsnEnd=0.020 um, XgateEnd=0.080 um; M1/M2/M3 ratios are normalized.",,,,,,,,,
+WF boundaries are structural segment boundaries; work functions are assigned in SDevice through gate_m1/gate_m2/gate_m3.,,,,,,,,,
