@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T01:07:03+09:00",
+  "generatedAt": "2026-08-14T01:07:59+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -12005,14 +12005,21 @@
                     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.csv",
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.tsv"
                   },
+                  "comment": "Lg=60 nm, M1:M2:M3=1:1:1 기준으로 Xbnd1=0.040 um, Xbnd2=0.060 um이며 각 segment 길이는 20 nm이다.",
+                  "commentLabel": "표 설명",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-13T16:06:48.568Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -12026,13 +12033,57 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260813160734-minhosong-mse-g5IjsQ",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T13",
+                  "taskText": "Low-High-Low Three-zone 구조 구현",
+                  "outputId": "P03-T13-O05",
+                  "outputText": "Contact·Region 확인표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-13T16:07:34.680Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ",
+                  "summary": "3개 파일 · 138.6KB",
+                  "files": [
+                    {
+                      "name": "P03-T13-O05_Region_List.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ/files/P03-T13-O05_Region_List.png",
+                      "size": 69483
+                    },
+                    {
+                      "name": "P03-T13-O05_Contact_List.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ/files/P03-T13-O05_Contact_List.png",
+                      "size": 72147
+                    },
+                    {
+                      "name": "P03-T13-O05_README.md",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ/files/P03-T13-O05_README.md",
+                      "size": 250
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T13-O06",
@@ -13561,14 +13612,21 @@
                 "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.csv",
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.tsv"
               },
+              "comment": "Lg=60 nm, M1:M2:M3=1:1:1 기준으로 Xbnd1=0.040 um, Xbnd2=0.060 um이며 각 segment 길이는 20 nm이다.",
+              "commentLabel": "표 설명",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-13T16:06:48.568Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -13583,13 +13641,57 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260813160734-minhosong-mse-g5IjsQ",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T13",
+              "taskText": "Low-High-Low Three-zone 구조 구현",
+              "outputId": "P03-T13-O05",
+              "outputText": "Contact·Region 확인표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-13T16:07:34.680Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ",
+              "summary": "3개 파일 · 138.6KB",
+              "files": [
+                {
+                  "name": "P03-T13-O05_Region_List.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ/files/P03-T13-O05_Region_List.png",
+                  "size": 69483
+                },
+                {
+                  "name": "P03-T13-O05_Contact_List.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ/files/P03-T13-O05_Contact_List.png",
+                  "size": 72147
+                },
+                {
+                  "name": "P03-T13-O05_README.md",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260813160734-minhosong-mse-g5IjsQ/files/P03-T13-O05_README.md",
+                  "size": 250
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T13"
         },
         {
