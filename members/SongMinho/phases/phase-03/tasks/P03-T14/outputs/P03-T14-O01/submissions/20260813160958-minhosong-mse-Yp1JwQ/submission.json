@@ -40,5 +40,19 @@
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O01/submissions/20260813160958-minhosong-mse-Yp1JwQ/table.tsv"
   },
   "comment": "Al/Ti/W/TiN/Mo(110) 프로젝트 WF 값을 이용한 LOW<HIGH 10개 pair를 Vd=0.05 V와 1.0 V에서 실행한 총 20개 Forward WF Split 조건표이다.",
-  "commentLabel": "표 설명"
+  "commentLabel": "표 설명",
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-13T16:09:58.026Z"
+      }
+    ],
+    "legacy": false
+  }
 }
