@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T01:06:14+09:00",
+  "generatedAt": "2026-08-14T01:07:03+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11957,13 +11957,65 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260813160648-minhosong-mse-f_sSGg",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T13",
+                  "taskText": "Low-High-Low Three-zone 구조 구현",
+                  "outputId": "P03-T13-O04",
+                  "outputText": "두 Metal Boundary 위치·Segment 조건표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-13T16:06:48.568Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg",
+                  "summary": "5행 × 10열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.tsv",
+                      "size": 356
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.csv",
+                      "size": 366
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.json",
+                      "size": 960
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 5,
+                    "columnCount": 10,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.tsv"
+                  },
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T13-O05",
@@ -13461,13 +13513,65 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260813160648-minhosong-mse-f_sSGg",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T13",
+              "taskText": "Low-High-Low Three-zone 구조 구현",
+              "outputId": "P03-T13-O04",
+              "outputText": "두 Metal Boundary 위치·Segment 조건표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-13T16:06:48.568Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg",
+              "summary": "5행 × 10열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.tsv",
+                  "size": 356
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.csv",
+                  "size": 366
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.json",
+                  "size": 960
+                }
+              ],
+              "table": {
+                "rowCount": 5,
+                "columnCount": 10,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O04/submissions/20260813160648-minhosong-mse-f_sSGg/table.tsv"
+              },
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T13"
         },
         {
