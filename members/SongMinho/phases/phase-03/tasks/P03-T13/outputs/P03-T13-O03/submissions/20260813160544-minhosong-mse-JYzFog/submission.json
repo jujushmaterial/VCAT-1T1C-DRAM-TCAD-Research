@@ -38,5 +38,7 @@
     "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O03/submissions/20260813160544-minhosong-mse-JYzFog/table.json",
     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O03/submissions/20260813160544-minhosong-mse-JYzFog/table.csv",
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O03/submissions/20260813160544-minhosong-mse-JYzFog/table.tsv"
-  }
+  },
+  "comment": "M1/M2/M3 gate-oxide region과 gate contact의 LOW/HIGH/LOW 역할을 정리한 표이다. 1:1:1 조건에서 각 segment는 20 nm이다.",
+  "commentLabel": "표 설명"
 }
