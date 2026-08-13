@@ -35,5 +35,7 @@
       "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O06/submissions/20260813160812-minhosong-mse-gik9DQ/files/P03-T13-O06_WF_Boundary_Mesh_Zoom.png",
       "size": 65248
     }
-  ]
+  ],
+  "comment": "현재 P3 기준 구조의 전체 mesh, junction 확대, WF boundary 주변 refinement를 확인한 자료이다. T16의 mesh 전/후 안정성 비교와는 별도이다.",
+  "commentLabel": "제출 메모"
 }
