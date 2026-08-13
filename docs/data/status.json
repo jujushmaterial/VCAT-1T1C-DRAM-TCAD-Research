@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T01:04:14+09:00",
+  "generatedAt": "2026-08-14T01:05:16+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11799,9 +11799,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-13T16:04:00.279Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -11815,13 +11820,52 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260813160459-minhosong-mse-VemAOQ",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T13",
+                  "taskText": "Low-High-Low Three-zone 구조 구현",
+                  "outputId": "P03-T13-O02",
+                  "outputText": "L-H-L 구조 이미지",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-13T16:04:59.938Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ",
+                  "summary": "2개 파일 · 652.2KB",
+                  "files": [
+                    {
+                      "name": "P03-T13-O02_LHL_Structure_Overall.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ/files/P03-T13-O02_LHL_Structure_Overall.png",
+                      "size": 344498
+                    },
+                    {
+                      "name": "P03-T13-O02_LHL_Structure_SN_Zoom.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ/files/P03-T13-O02_LHL_Structure_SN_Zoom.png",
+                      "size": 323374
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T13-O03",
@@ -13192,9 +13236,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-13T16:04:00.279Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -13209,13 +13258,52 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260813160459-minhosong-mse-VemAOQ",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T13",
+              "taskText": "Low-High-Low Three-zone 구조 구현",
+              "outputId": "P03-T13-O02",
+              "outputText": "L-H-L 구조 이미지",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-13T16:04:59.938Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ",
+              "summary": "2개 파일 · 652.2KB",
+              "files": [
+                {
+                  "name": "P03-T13-O02_LHL_Structure_Overall.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ/files/P03-T13-O02_LHL_Structure_Overall.png",
+                  "size": 344498
+                },
+                {
+                  "name": "P03-T13-O02_LHL_Structure_SN_Zoom.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O02/submissions/20260813160459-minhosong-mse-VemAOQ/files/P03-T13-O02_LHL_Structure_SN_Zoom.png",
+                  "size": 323374
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T13"
         },
         {
