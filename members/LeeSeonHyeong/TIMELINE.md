@@ -109,3 +109,15 @@
 - **작업 이유:** 개인 폴더의 모든 변경 이력을 반드시 남기는 저장소 규칙을 보장하기 위해서입니다.
 - **결과 및 검증:** 커밋 `2b8416f54655` 감지. 커밋 메시지: `Add personal Phase 4 Mixed-Mode handoff`. 파일 내용과 TCAD 결과의 타당성은 자동 검증하지 않았습니다.
 - **남은 일:** 실제 작업자는 필요하면 이 자동 기록 아래에 목적, 조건, 결과와 검증 내용을 보완해야 합니다.
+
+## 2026-08-15 02:18 KST — Phase 4 Mixed-Mode smoke test 개인 인수인계 상세 기록
+
+- **작성자:** 이선형 (`@LSH-linear`) / OpenAI ChatGPT 정리
+- **Phase / Issue:** Phase 4 / #4
+- **결과물 ID:** P04-T01, P04-T02 관련 개인 사전검증 (공식 제출 아님)
+- **변경 유형:** 생성 / 분석 / 인수인계
+- **변경 파일:** `members/LeeSeonHyeong/handoff/P04_MixedMode_Smoke_Handoff_2026-08-15.md`, `members/LeeSeonHyeong/TIMELINE.md`
+- **작업 내용:** 연구실 서버 `semi330@ssudisu1`의 Sentaurus T-2022.03에서 P2 Single-Metal Local Mesh/SDevice 원본을 검증하고 Mixed-Mode Step A/B/B2/C/C2 smoke test 실행 경과를 개인 인수인계 문서로 정리했습니다. Step A는 BL 0→0.5 V precharge를 통과했고, BDF2 Step B는 수렴 실패했으나 `Transient=BE`의 Step B2는 10 ns 및 WL 1.0 V 전달을 확인했습니다. anchor 없는 floating SN Step C는 약 22 ps에서 실패했고, `Rsn=1e20 Ohm`을 둔 Step C2는 10 ns를 완주하며 SN 최대 0.4564 V를 확인했습니다. 다음 접속 시 서버 확인 명령, 성공 판정 순서, 정식 Write→Hold→Read 작업 순서와 향후 1 ms Hold 결과 기록 항목을 매뉴얼로 포함했습니다.
+- **작업 이유:** 현재까지 확인된 실행 사실과 실패/미검증 항목을 개인 폴더에 보존하고, 사용자가 추후 직접 Phase 4 공식 업로드를 수행할 수 있도록 smoke 조건과 공식 결과를 분리하기 위해서입니다.
+- **결과 및 검증:** 연결 GitHub 계정은 `LSH-linear`로 `members.json`과 일치하며 저장소 write 권한을 확인했습니다. 최신 Issue #4의 Assignee는 `@seanthe17`임을 재확인했습니다. 공식 Phase 4 Issue/체크리스트/대시보드 제출/`shared/`는 수정하지 않았습니다. 1 ms overnight Hold는 시작하지 않았으며, 오늘의 최장 검증은 Step C2 10 ns입니다.
+- **남은 일:** `P4C2_Write1_Ranchor.cmd`를 보존하고 새 복사본에서 정식 Write 조건, Hold 구간, Read BL floating을 단계적으로 검증합니다. 실제 정식 결과가 나온 뒤 사용자가 직접 Phase 4 공식 업로드를 수행합니다.
