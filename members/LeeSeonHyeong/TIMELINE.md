@@ -121,3 +121,17 @@
 - **작업 이유:** 현재까지 확인된 실행 사실과 실패/미검증 항목을 개인 폴더에 보존하고, 사용자가 추후 직접 Phase 4 공식 업로드를 수행할 수 있도록 smoke 조건과 공식 결과를 분리하기 위해서입니다.
 - **결과 및 검증:** 연결 GitHub 계정은 `LSH-linear`로 `members.json`과 일치하며 저장소 write 권한을 확인했습니다. 최신 Issue #4의 Assignee는 `@seanthe17`임을 재확인했습니다. 공식 Phase 4 Issue/체크리스트/대시보드 제출/`shared/`는 수정하지 않았습니다. 1 ms overnight Hold는 시작하지 않았으며, 오늘의 최장 검증은 Step C2 10 ns입니다.
 - **남은 일:** `P4C2_Write1_Ranchor.cmd`를 보존하고 새 복사본에서 정식 Write 조건, Hold 구간, Read BL floating을 단계적으로 검증합니다. 실제 정식 결과가 나온 뒤 사용자가 직접 Phase 4 공식 업로드를 수행합니다.
+
+
+## 2026-08-15 02:24 KST — 자동 타임라인 보완
+
+- **작성자:** GitHub Actions (`@LSH-linear`의 변경 감지)
+- **Phase / Issue:** 해당 없음 / Issue 미확인
+- **결과물 ID:** `해당 없음`
+- **변경 유형:** 자동 기록
+- **변경 파일:**
+  - `members/LeeSeonHyeong/handoff/P04_Server_File_Index_2026-08-15.md` (생성)
+- **작업 내용:** 개인 폴더 변경에서 수동 `TIMELINE.md` 기록이 확인되지 않아 변경 파일 목록을 자동으로 추가했습니다.
+- **작업 이유:** 개인 폴더의 모든 변경 이력을 반드시 남기는 저장소 규칙을 보장하기 위해서입니다.
+- **결과 및 검증:** 커밋 `cbd5ef9aacf6` 감지. 커밋 메시지: `Add Phase 4 server file index correction`. 파일 내용과 TCAD 결과의 타당성은 자동 검증하지 않았습니다.
+- **남은 일:** 실제 작업자는 필요하면 이 자동 기록 아래에 목적, 조건, 결과와 검증 내용을 보완해야 합니다.
