@@ -83,3 +83,15 @@
 - **작업 이유:** 개인 폴더의 모든 변경 이력을 반드시 남기는 저장소 규칙을 보장하기 위해서입니다.
 - **결과 및 검증:** 커밋 `78e8b9952dcf` 감지. 커밋 메시지: `Add Phase 4 Mixed-Mode precheck note`. 파일 내용과 TCAD 결과의 타당성은 자동 검증하지 않았습니다.
 - **남은 일:** 실제 작업자는 필요하면 이 자동 기록 아래에 목적, 조건, 결과와 검증 내용을 보완해야 합니다.
+
+## 2026-08-15 00:20 KST — Phase 4 Mixed-Mode 사전 점검 상세 기록
+
+- **작성자:** 이선형 (`@LSH-linear`) / OpenAI ChatGPT 정리
+- **Phase / Issue:** Phase 4 / #4
+- **결과물 ID:** P04-T01, P04-T02 관련 개인 사전검토 메모 (공식 제출 아님)
+- **변경 유형:** 분석 / 기록
+- **변경 파일:** `members/LeeSeonHyeong/result_notes/P04_MixedMode_Precheck_2026-08-15.md`, `members/LeeSeonHyeong/TIMELINE.md`
+- **작업 내용:** 최신 GitHub Phase 4 정의와 P2 Single-Metal SDE/SDevice/metrics를 대조하고, Phase 4 Mixed-Mode 테스트벤치 초안의 contact mapping, physics 연속성, `Cs=10 fF`, `Cbl=100 fF`, BL precharge 및 read 시 BL floating 필요성을 정리했습니다. 현재 P2 실제 electrode는 `storage`, `bitline`, `gate`이며 별도 substrate contact가 없음을 확인했습니다. 또한 기존 draft의 `Switch_pset`, PWL source, System Plot current 표기, multi-stage Transient syntax는 아직 서버 문법 검증 전임을 명시했습니다.
+- **작업 이유:** Single-Metal 1T1C baseline 실행 전에 확인된 전제와 미검증 syntax를 구분하여 보존하고, 잘못된 코드를 공식 기준으로 확정하는 것을 방지하기 위해서입니다.
+- **결과 및 검증:** 연결 GitHub 계정 `LSH-linear`가 `members.json`의 이선형 username과 일치함을 확인했습니다. 연구실 Sentaurus 실행, syntax compile, Write/Hold/Read 파형 생성은 수행하지 않았습니다. Phase 4 실제 Assignee는 현재 `@seanthe17`이므로 개인 사전검토 기록만 남겼고 Issue 체크/공식 제출/공용 폴더 수정은 하지 않았습니다.
+- **남은 일:** 설치된 Sentaurus Device 버전에서 Mixed-Mode compact element 및 BL isolation/floating 구현 문법을 확인하고 최소 smoke test부터 수행합니다. 시뮬팀 인수인계 자료는 추후 별도 요청 시 일괄 정리합니다.
