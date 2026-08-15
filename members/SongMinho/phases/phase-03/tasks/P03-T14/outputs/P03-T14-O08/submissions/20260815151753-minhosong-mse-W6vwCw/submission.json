@@ -65,5 +65,19 @@
       "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw/files/GIDL_B_79.csv",
       "size": 14481
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-15T15:17:53.391Z"
+      }
+    ],
+    "legacy": false
+  }
 }
