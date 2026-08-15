@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T00:16:05+09:00",
+  "generatedAt": "2026-08-16T00:16:54+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -12872,10 +12872,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 2,
+              "submissionCount": 3,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "pendingReviewCount": 3,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -12945,14 +12945,104 @@
                       "size": 978
                     }
                   ],
+                  "comment": "Forward 원본 CSV 20개(Vd=0.05 V 10개 + Vd=1.0 V 10개)와\nGIDL 원본 CSV 10개를 전체 raw data로 제출한다.\n\nGIDL은 계산시간 때문에 5조건씩 두 개의 SWB 실행으로 나누어 수행하였다.\n원본 실행 증거로 Sentaurus Visual 5-curve 화면 2개와 SWB split/parameter 화면을 첨부한다.\n\n전체 10조건 GIDL 비교 그래프는 두 실행에서 export한 원본 CSV 10개를 통합해\nExcel에서 작성하였다. 이 Excel은 새로운 TCAD 결과를 생성하지 않으며\n원본 signed current를 보존한다.\n\n기존 O08 제출본의 파일명이 P03-T14-O02로 시작해 integrity warning이 있으므로,\n이번 보완본은 P03-T14-O08 접두어를 사용한다. 기존 제출본은 삭제하지 않는다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-15T15:15:46.038Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260815151618-minhosong-mse-nR4UYg",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T14",
+                  "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+                  "outputId": "P03-T14-O08",
+                  "outputText": "WF Split Raw Data(전체 law data)",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-15T15:16:18.243Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg",
+                  "summary": "10개 파일 · 147.0KB",
+                  "files": [
+                    {
+                      "name": "n76(1).csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n76(1).csv",
+                      "size": 19519
+                    },
+                    {
+                      "name": "n77(1).csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n77(1).csv",
+                      "size": 14024
+                    },
+                    {
+                      "name": "n78(1).csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n78(1).csv",
+                      "size": 13651
+                    },
+                    {
+                      "name": "n79(1).csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n79(1).csv",
+                      "size": 20883
+                    },
+                    {
+                      "name": "n52(1).csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n52(1).csv",
+                      "size": 13636
+                    },
+                    {
+                      "name": "n68(1).csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n68(1).csv",
+                      "size": 13640
+                    },
+                    {
+                      "name": "n69(1).csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n69(1).csv",
+                      "size": 13641
+                    },
+                    {
+                      "name": "n72(1).csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n72(1).csv",
+                      "size": 13634
+                    },
+                    {
+                      "name": "n73(1).csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n73(1).csv",
+                      "size": 13638
+                    },
+                    {
+                      "name": "n74(1).csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n74(1).csv",
+                      "size": 14265
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-15T15:16:18.243Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -15164,10 +15254,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 2,
+          "submissionCount": 3,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "pendingReviewCount": 3,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -15237,14 +15327,104 @@
                   "size": 978
                 }
               ],
+              "comment": "Forward 원본 CSV 20개(Vd=0.05 V 10개 + Vd=1.0 V 10개)와\nGIDL 원본 CSV 10개를 전체 raw data로 제출한다.\n\nGIDL은 계산시간 때문에 5조건씩 두 개의 SWB 실행으로 나누어 수행하였다.\n원본 실행 증거로 Sentaurus Visual 5-curve 화면 2개와 SWB split/parameter 화면을 첨부한다.\n\n전체 10조건 GIDL 비교 그래프는 두 실행에서 export한 원본 CSV 10개를 통합해\nExcel에서 작성하였다. 이 Excel은 새로운 TCAD 결과를 생성하지 않으며\n원본 signed current를 보존한다.\n\n기존 O08 제출본의 파일명이 P03-T14-O02로 시작해 integrity warning이 있으므로,\n이번 보완본은 P03-T14-O08 접두어를 사용한다. 기존 제출본은 삭제하지 않는다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-15T15:15:46.038Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260815151618-minhosong-mse-nR4UYg",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T14",
+              "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+              "outputId": "P03-T14-O08",
+              "outputText": "WF Split Raw Data(전체 law data)",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-15T15:16:18.243Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg",
+              "summary": "10개 파일 · 147.0KB",
+              "files": [
+                {
+                  "name": "n76(1).csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n76(1).csv",
+                  "size": 19519
+                },
+                {
+                  "name": "n77(1).csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n77(1).csv",
+                  "size": 14024
+                },
+                {
+                  "name": "n78(1).csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n78(1).csv",
+                  "size": 13651
+                },
+                {
+                  "name": "n79(1).csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n79(1).csv",
+                  "size": 20883
+                },
+                {
+                  "name": "n52(1).csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n52(1).csv",
+                  "size": 13636
+                },
+                {
+                  "name": "n68(1).csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n68(1).csv",
+                  "size": 13640
+                },
+                {
+                  "name": "n69(1).csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n69(1).csv",
+                  "size": 13641
+                },
+                {
+                  "name": "n72(1).csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n72(1).csv",
+                  "size": 13634
+                },
+                {
+                  "name": "n73(1).csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n73(1).csv",
+                  "size": 13638
+                },
+                {
+                  "name": "n74(1).csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n74(1).csv",
+                  "size": 14265
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-15T15:16:18.243Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
