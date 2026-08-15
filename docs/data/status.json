@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T02:09:44+09:00",
+  "generatedAt": "2026-08-16T00:07:24+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -12471,13 +12471,65 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260815150707-minhosong-mse-dcznHw",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T14",
+                  "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+                  "outputId": "P03-T14-O04",
+                  "outputText": "WF별 Ion·Ioff·Vth·SS·GIDL 지표표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-15T15:07:07.804Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw",
+                  "summary": "16행 × 16열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.tsv",
+                      "size": 1837
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.csv",
+                      "size": 1856
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.json",
+                      "size": 4428
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 16,
+                    "columnCount": 16,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.tsv"
+                  },
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T14-O05",
@@ -14383,13 +14435,65 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260815150707-minhosong-mse-dcznHw",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T14",
+              "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+              "outputId": "P03-T14-O04",
+              "outputText": "WF별 Ion·Ioff·Vth·SS·GIDL 지표표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-15T15:07:07.804Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw",
+              "summary": "16행 × 16열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.tsv",
+                  "size": 1837
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.csv",
+                  "size": 1856
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.json",
+                  "size": 4428
+                }
+              ],
+              "table": {
+                "rowCount": 16,
+                "columnCount": 16,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.tsv"
+              },
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T14"
         },
         {
