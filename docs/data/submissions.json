@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-15T15:14:47.503Z",
+  "updatedAt": "2026-08-15T15:15:46.038Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5348,6 +5348,40 @@
             "name": "P03-T14-O02_WF_Split_Raw_Data.xlsx",
             "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260813161326-minhosong-mse-YNzrbQ/files/P03-T14-O02_WF_Split_Raw_Data.xlsx",
             "size": 524086
+          }
+        ]
+      },
+      {
+        "submissionId": "20260815151546-minhosong-mse-fgt1Ew",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T14",
+        "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+        "outputId": "P03-T14-O08",
+        "outputText": "WF Split Raw Data(전체 law data)",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-15T15:15:46.038Z",
+        "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew",
+        "summary": "3개 파일 · 297.2KB",
+        "files": [
+          {
+            "name": "P03-T14-O08_GIDL_10WF_CSV_Integrated_Curve.xlsx",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew/files/P03-T14-O08_GIDL_10WF_CSV_Integrated_Curve.xlsx",
+            "size": 303030
+          },
+          {
+            "name": "P03-T14-O08_GIDL_Node_Map.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew/files/P03-T14-O08_GIDL_Node_Map.csv",
+            "size": 305
+          },
+          {
+            "name": "P03-T14-O08_README.md",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew/files/P03-T14-O08_README.md",
+            "size": 978
           }
         ]
       }

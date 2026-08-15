@@ -1,0 +1,11 @@
+﻿Set,Node,LOW metal,WF_LOW (eV),HIGH metal,WF_HIGH (eV)
+A,n52,Al,4.28,Ti,4.33
+A,n68,Al,4.28,W,4.55
+A,n69,Ti,4.33,W,4.55
+A,n72,Al,4.28,TiN,4.7
+B,n73,Ti,4.33,TiN,4.7
+B,n74,W,4.55,TiN,4.7
+A,n76,Al,4.28,Mo(110),4.95
+B,n77,Ti,4.33,Mo(110),4.95
+B,n78,W,4.55,Mo(110),4.95
+B,n79,TiN,4.7,Mo(110),4.95
