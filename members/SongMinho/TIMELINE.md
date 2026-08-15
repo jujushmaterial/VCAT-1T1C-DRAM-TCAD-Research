@@ -1823,3 +1823,15 @@ DIBL 허용 상대 또는 절대차이
 - **작업 이유:** 개인 폴더의 모든 변경 이력을 반드시 남기는 저장소 규칙을 보장하기 위해서입니다.
 - **결과 및 검증:** 커밋 `2e0b83d5ff30` 감지. 커밋 메시지: `Mark P03-T14-O07 submission 20260815151222-minhosong-mse-ArPLtg for review`. 파일 내용과 TCAD 결과의 타당성은 자동 검증하지 않았습니다.
 - **남은 일:** 실제 작업자는 필요하면 이 자동 기록 아래에 목적, 조건, 결과와 검증 내용을 보완해야 합니다.
+
+## 2026-08-16 00:13 KST — 결과물 제출본 삭제
+
+- **작성자:** minhosong-mse (`@minhosong-mse`)
+- **Phase / Issue:** Phase 3 / #3
+- **결과물 ID:** `P03-T14-O07`
+- **변경 유형:** 삭제 / 본인 제출본 삭제
+- **변경 파일:** `members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O07/submissions/20260815151222-minhosong-mse-ArPLtg/`, `members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O07/README.md`, `docs/data/submissions.json`
+- **작업 내용:** 제출본 `20260815151222-minhosong-mse-ArPLtg`을 삭제하고 제출 폴더, 제출 인덱스와 개인 결과물 README 이력을 함께 정리했습니다.
+- **작업 이유:** 잘못 제출했거나 중복된 제출본을 대시보드와 저장소에서 불일치 없이 제거하기 위해서입니다.
+- **결과 및 검증:** 삭제 작업을 하나의 Git 커밋으로 처리했습니다. 해당 산출물에 1개 제출본이 남아 있습니다.
+- **남은 일:** 남아 있는 제출본을 확인합니다.
