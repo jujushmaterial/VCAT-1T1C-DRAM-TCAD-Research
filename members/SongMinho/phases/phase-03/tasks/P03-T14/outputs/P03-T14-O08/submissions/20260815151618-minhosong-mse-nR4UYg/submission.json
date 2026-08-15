@@ -1,0 +1,69 @@
+{
+  "submissionId": "20260815151618-minhosong-mse-nR4UYg",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T14",
+  "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+  "outputId": "P03-T14-O08",
+  "outputText": "WF Split Raw Data(전체 law data)",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-15T15:16:18.243Z",
+  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg",
+  "summary": "10개 파일 · 147.0KB",
+  "files": [
+    {
+      "name": "n76(1).csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n76(1).csv",
+      "size": 19519
+    },
+    {
+      "name": "n77(1).csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n77(1).csv",
+      "size": 14024
+    },
+    {
+      "name": "n78(1).csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n78(1).csv",
+      "size": 13651
+    },
+    {
+      "name": "n79(1).csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n79(1).csv",
+      "size": 20883
+    },
+    {
+      "name": "n52(1).csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n52(1).csv",
+      "size": 13636
+    },
+    {
+      "name": "n68(1).csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n68(1).csv",
+      "size": 13640
+    },
+    {
+      "name": "n69(1).csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n69(1).csv",
+      "size": 13641
+    },
+    {
+      "name": "n72(1).csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n72(1).csv",
+      "size": 13634
+    },
+    {
+      "name": "n73(1).csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n73(1).csv",
+      "size": 13638
+    },
+    {
+      "name": "n74(1).csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151618-minhosong-mse-nR4UYg/files/n74(1).csv",
+      "size": 14265
+    }
+  ]
+}
