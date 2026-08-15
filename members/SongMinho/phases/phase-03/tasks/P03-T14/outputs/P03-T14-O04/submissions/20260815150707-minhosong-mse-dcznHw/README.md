@@ -1,0 +1,49 @@
+# Phase 3 산출물 — WF별 Ion·Ioff·Vth·SS·GIDL 지표표
+
+- 과제 ID: `P03-T14`
+- 산출물 ID: `P03-T14-O04`
+- 제출자: 송민호 (`@minhosong-mse`)
+- 제출 시각: 2026-08-15T15:07:07.804Z
+- 관련 Issue: [#3](https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/3)
+- 제출 방식: table
+
+## 저장된 표
+
+- 크기: 16행 × 16열
+- 첫 행 제목 사용: 예
+- [CSV 원본](./table.csv)
+- [TSV 원본](./table.tsv)
+- [JSON 원본](./table.json)
+
+## 표 설명
+
+10개 WF 조합에 대해 Forward Id–Vg(Vd=0.05/1.0 V) 원본 CSV와
+GIDL(storage=1.0 V, gate 0→-0.4 V) 원본 CSV를 이용해
+Ion, Ioff, Vth, SS, DIBL, GIDL을 동일 기준으로 추출하였다.
+
+- Vth: |Id|=1e-7 A constant-current, log interpolation
+- SS: |Id|=1e-12~1e-8 A 구간 log-current 선형 fit
+- Ioff: Forward 첫 점 Vg≈0(약 1e-5 V)
+- Ion: Vg=1.0 V
+- DIBL: (Vth@0.05 - Vth@1.0)/0.95
+- GIDL: Vg=-0.4 V에서 |storage TotalCurrent|
+
+원본 signed current는 수정하지 않았으며, 전류 크기 지표 계산에서만 절댓값을 사용하였다.
+
+| P03-T14-O04 · WF별 Ion·Ioff·Vth·SS·GIDL 지표표 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Extraction basis: 20 Forward CSV files (Vd=0.05/1.0 V) + 10 GIDL CSV files. Vth: \|Id\|=1e-7 A constant-current with log interpolation. SS: log10(\|Id\|) linear fit over 1e-12–1e-8 A. Ioff: first Forward point at Vg≈0 (≈1e-5 V). Ion: Vg=1.0 V. GIDL: \|storage TotalCurrent\| at Vg=-0.4 V. Signed raw current is preserved in O08. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Node | LOW metal | WF_LOW (eV) | HIGH metal | WF_HIGH (eV) | ΔWF (eV) | Vth @ Vd=0.05 V (V) | Vth @ Vd=1.0 V (V) | SS @ Vd=0.05 (mV/dec) | SS @ Vd=1.0 (mV/dec) | Ioff @ Vd=0.05 (A) | Ioff @ Vd=1.0 (A) | Ion @ Vd=0.05 (A) | Ion @ Vd=1.0 (A) | DIBL (mV/V) | GIDL \|I\| @ Vg=-0.4 V (A) |
+| n52 | Al | 4.28 | Ti | 4.33 | 0.05 | 0.1169 | 0.1166 | 60.0457 | 60.0308 | 1.270E-09 | 1.279E-09 | 3.194E-06 | 1.410E-05 | 0.35 | 2.319E-15 |
+| n68 | Al | 4.28 | W | 4.55 | 0.27 | 0.3190 | 0.3163 | 60.2698 | 60.0761 | 6.581E-13 | 6.606E-13 | 3.182E-06 | 1.297E-05 | 2.86 | 1.876E-15 |
+| n69 | Ti | 4.33 | W | 4.55 | 0.22 | 0.3211 | 0.3193 | 59.9143 | 59.8428 | 5.520E-13 | 5.541E-13 | 3.158E-06 | 1.274E-05 | 1.86 | 3.700E-15 |
+| n72 | Al | 4.28 | TiN | 4.70 | 0.42 | 0.4649 | 0.4587 | 62.0863 | 61.1432 | 3.308E-15 | 3.311E-15 | 3.166E-06 | 1.096E-05 | 6.48 | 1.836E-15 |
+| n73 | Ti | 4.33 | TiN | 4.70 | 0.37 | 0.4660 | 0.4611 | 61.3877 | 60.7649 | 2.796E-15 | 2.805E-15 | 3.143E-06 | 1.082E-05 | 5.22 | 3.646E-15 |
+| n74 | W | 4.55 | TiN | 4.70 | 0.15 | 0.4752 | 0.4745 | 59.6797 | 59.6645 | 1.286E-15 | 1.374E-15 | 3.007E-06 | 9.883E-06 | 0.81 | 1.756E-14 |
+| n76 | Al | 4.28 | Mo(110) | 4.95 | 0.67 | 0.7110 | 0.6986 | 64.3861 | 62.6365 | 4.504E-19 | 4.847E-19 | 3.061E-06 | 6.584E-06 | 13.05 | 1.809E-15 |
+| n77 | Ti | 4.33 | Mo(110) | 4.95 | 0.62 | 0.7116 | 0.7005 | 64.1019 | 62.3843 | 3.927E-19 | 5.817E-19 | 3.038E-06 | 6.515E-06 | 11.73 | 3.604E-15 |
+| n78 | W | 4.55 | Mo(110) | 4.95 | 0.40 | 0.7153 | 0.7096 | 62.2589 | 60.9983 | 1.956E-19 | 1.445E-16 | 2.909E-06 | 6.137E-06 | 5.97 | 1.766E-14 |
+| n79 | TiN | 4.70 | Mo(110) | 4.95 | 0.25 | 0.7198 | 0.7175 | 60.1063 | 59.9689 | 1.174E-19 | 2.511E-15 | 2.773E-06 | 5.755E-06 | 2.44 | 2.911E-14 |
