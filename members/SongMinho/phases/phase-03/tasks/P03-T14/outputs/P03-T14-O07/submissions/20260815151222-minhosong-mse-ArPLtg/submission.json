@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260815151222-minhosong-mse-ArPLtg",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T14",
+  "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+  "outputId": "P03-T14-O07",
+  "outputText": "P4~P9 Fixed WF 선언·전달값",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-15T15:12:22.879Z",
+  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O07/submissions/20260815151222-minhosong-mse-ArPLtg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O07/submissions/20260815151222-minhosong-mse-ArPLtg",
+  "summary": "1개 파일 · 825B",
+  "files": [
+    {
+      "name": "P03-T14-O07_P4-P9_Fixed_WF_Declaration.md",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O07/submissions/20260815151222-minhosong-mse-ArPLtg/files/P03-T14-O07_P4-P9_Fixed_WF_Declaration.md",
+      "size": 825
+    }
+  ]
+}
