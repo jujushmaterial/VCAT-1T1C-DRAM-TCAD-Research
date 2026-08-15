@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T00:14:47+09:00",
+  "generatedAt": "2026-08-16T00:16:05+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -12844,14 +12844,21 @@
                       "size": 825
                     }
                   ],
+                  "comment": "P03-T14-O06에서 확정한 P3 Fixed WF를 P4~P9 전달값으로 기록한다.\n\n- M1 LOW = Ti, 4.33 eV\n- M2 HIGH = TiN, 4.70 eV\n- M3 LOW = Ti, 4.33 eV\n\nP4~P9에서는 WF를 다시 Sweep하지 않는다.\n현재 P3 1:1:1 geometry는 P4 기본 동작 확인을 위한 대표 기준구조이며,\n최종 optimized geometry로 선언하지 않는다.\nP5에서는 Fixed WF를 유지하고 두 metal boundary를 독립변수로 최적화한다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-15T15:14:30.511Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -12865,10 +12872,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 1,
+              "submissionCount": 2,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -12893,6 +12900,49 @@
                       "name": "P03-T14-O02_WF_Split_Raw_Data.xlsx",
                       "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260813161326-minhosong-mse-YNzrbQ/files/P03-T14-O02_WF_Split_Raw_Data.xlsx",
                       "size": 524086
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                },
+                {
+                  "submissionId": "20260815151546-minhosong-mse-fgt1Ew",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T14",
+                  "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+                  "outputId": "P03-T14-O08",
+                  "outputText": "WF Split Raw Data(전체 law data)",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-15T15:15:46.038Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew",
+                  "summary": "3개 파일 · 297.2KB",
+                  "files": [
+                    {
+                      "name": "P03-T14-O08_GIDL_10WF_CSV_Integrated_Curve.xlsx",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew/files/P03-T14-O08_GIDL_10WF_CSV_Integrated_Curve.xlsx",
+                      "size": 303030
+                    },
+                    {
+                      "name": "P03-T14-O08_GIDL_Node_Map.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew/files/P03-T14-O08_GIDL_Node_Map.csv",
+                      "size": 305
+                    },
+                    {
+                      "name": "P03-T14-O08_README.md",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew/files/P03-T14-O08_README.md",
+                      "size": 978
                     }
                   ],
                   "review": {
@@ -15085,14 +15135,21 @@
                   "size": 825
                 }
               ],
+              "comment": "P03-T14-O06에서 확정한 P3 Fixed WF를 P4~P9 전달값으로 기록한다.\n\n- M1 LOW = Ti, 4.33 eV\n- M2 HIGH = TiN, 4.70 eV\n- M3 LOW = Ti, 4.33 eV\n\nP4~P9에서는 WF를 다시 Sweep하지 않는다.\n현재 P3 1:1:1 geometry는 P4 기본 동작 확인을 위한 대표 기준구조이며,\n최종 optimized geometry로 선언하지 않는다.\nP5에서는 Fixed WF를 유지하고 두 metal boundary를 독립변수로 최적화한다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-15T15:14:30.511Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -15107,10 +15164,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 1,
+          "submissionCount": 2,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -15135,6 +15192,49 @@
                   "name": "P03-T14-O02_WF_Split_Raw_Data.xlsx",
                   "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260813161326-minhosong-mse-YNzrbQ/files/P03-T14-O02_WF_Split_Raw_Data.xlsx",
                   "size": 524086
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            },
+            {
+              "submissionId": "20260815151546-minhosong-mse-fgt1Ew",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T14",
+              "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+              "outputId": "P03-T14-O08",
+              "outputText": "WF Split Raw Data(전체 law data)",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-15T15:15:46.038Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew",
+              "summary": "3개 파일 · 297.2KB",
+              "files": [
+                {
+                  "name": "P03-T14-O08_GIDL_10WF_CSV_Integrated_Curve.xlsx",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew/files/P03-T14-O08_GIDL_10WF_CSV_Integrated_Curve.xlsx",
+                  "size": 303030
+                },
+                {
+                  "name": "P03-T14-O08_GIDL_Node_Map.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew/files/P03-T14-O08_GIDL_Node_Map.csv",
+                  "size": 305
+                },
+                {
+                  "name": "P03-T14-O08_README.md",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151546-minhosong-mse-fgt1Ew/files/P03-T14-O08_README.md",
+                  "size": 978
                 }
               ],
               "review": {
