@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-15T15:16:36.736Z",
+  "updatedAt": "2026-08-15T15:17:23.659Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5483,6 +5483,40 @@
           ],
           "legacy": false
         }
+      },
+      {
+        "submissionId": "20260815151723-minhosong-mse-R5S36w",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T14",
+        "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+        "outputId": "P03-T14-O08",
+        "outputText": "WF Split Raw Data(전체 law data)",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-15T15:17:23.659Z",
+        "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151723-minhosong-mse-R5S36w",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151723-minhosong-mse-R5S36w",
+        "summary": "3개 파일 · 906.7KB",
+        "files": [
+          {
+            "name": "P03-T14-O08_GIDL_SetA_5curves_SVisual.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151723-minhosong-mse-R5S36w/files/P03-T14-O08_GIDL_SetA_5curves_SVisual.png",
+            "size": 365056
+          },
+          {
+            "name": "P03-T14-O08_GIDL_SetB_5curves_SVisual.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151723-minhosong-mse-R5S36w/files/P03-T14-O08_GIDL_SetB_5curves_SVisual.png",
+            "size": 393808
+          },
+          {
+            "name": "P03-T14-O08_GIDL_SWB_Split_Evidence.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151723-minhosong-mse-R5S36w/files/P03-T14-O08_GIDL_SWB_Split_Evidence.png",
+            "size": 169599
+          }
+        ]
       }
     ],
     "P03-T14-O03": [
