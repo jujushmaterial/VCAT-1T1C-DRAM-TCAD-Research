@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-15T15:07:33.577Z",
+  "updatedAt": "2026-08-15T15:09:03.636Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5460,6 +5460,77 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P03-T14-O05": [
+      {
+        "submissionId": "20260815150903-minhosong-mse-lugJsA",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T14",
+        "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+        "outputId": "P03-T14-O05",
+        "outputText": "대표 WF 조건 Electric Field·Barrier 비교",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-15T15:09:03.636Z",
+        "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA",
+        "summary": "10개 파일 · 1.46MB",
+        "files": [
+          {
+            "name": "P03-T14-O05_BTBT_n72_Al-TiN.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA/files/P03-T14-O05_BTBT_n72_Al-TiN.png",
+            "size": 77135
+          },
+          {
+            "name": "P03-T14-O05_BTBT_n73_Ti-TiN.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA/files/P03-T14-O05_BTBT_n73_Ti-TiN.png",
+            "size": 77275
+          },
+          {
+            "name": "P03-T14-O05_BTBT_n74_W-TiN.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA/files/P03-T14-O05_BTBT_n74_W-TiN.png",
+            "size": 73996
+          },
+          {
+            "name": "P03-T14-O05_BTBT_Overview_n72-n74.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA/files/P03-T14-O05_BTBT_Overview_n72-n74.png",
+            "size": 470884
+          },
+          {
+            "name": "P03-T14-O05_ConductionBand_Cutline_Overlay_n72-n74.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA/files/P03-T14-O05_ConductionBand_Cutline_Overlay_n72-n74.png",
+            "size": 79191
+          },
+          {
+            "name": "P03-T14-O05_ConductionBand_n72_Al-TiN.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA/files/P03-T14-O05_ConductionBand_n72_Al-TiN.png",
+            "size": 71549
+          },
+          {
+            "name": "P03-T14-O05_ConductionBand_n73_Ti-TiN.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA/files/P03-T14-O05_ConductionBand_n73_Ti-TiN.png",
+            "size": 71215
+          },
+          {
+            "name": "P03-T14-O05_ConductionBand_n74_W-TiN.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA/files/P03-T14-O05_ConductionBand_n74_W-TiN.png",
+            "size": 71184
+          },
+          {
+            "name": "P03-T14-O05_ConductionBand_Overview_n72-n74.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA/files/P03-T14-O05_ConductionBand_Overview_n72-n74.png",
+            "size": 464254
+          },
+          {
+            "name": "P03-T14-O05_ElectricField_n72_Al-TiN.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA/files/P03-T14-O05_ElectricField_n72_Al-TiN.png",
+            "size": 75595
+          }
+        ]
       }
     ]
   }
