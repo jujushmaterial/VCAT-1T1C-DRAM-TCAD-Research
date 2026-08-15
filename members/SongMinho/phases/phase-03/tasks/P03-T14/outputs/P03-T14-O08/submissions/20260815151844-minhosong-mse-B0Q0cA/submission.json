@@ -65,5 +65,19 @@
       "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151844-minhosong-mse-B0Q0cA/files/n79.csv",
       "size": 13647
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-15T15:18:44.157Z"
+      }
+    ],
+    "legacy": false
+  }
 }
