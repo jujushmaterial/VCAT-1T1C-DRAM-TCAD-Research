@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-15T15:17:38.814Z",
+  "updatedAt": "2026-08-15T15:17:53.391Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5531,6 +5531,75 @@
           ],
           "legacy": false
         }
+      },
+      {
+        "submissionId": "20260815151753-minhosong-mse-W6vwCw",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T14",
+        "taskText": "L-H-L 구조 WF Split 및 실제 Low·High WF 확정",
+        "outputId": "P03-T14-O08",
+        "outputText": "WF Split Raw Data(전체 law data)",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-15T15:17:53.391Z",
+        "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw",
+        "summary": "10개 파일 · 162.6KB",
+        "files": [
+          {
+            "name": "GIDL_A_52.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw/files/GIDL_A_52.csv",
+            "size": 15617
+          },
+          {
+            "name": "GIDL_A_68.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw/files/GIDL_A_68.csv",
+            "size": 17912
+          },
+          {
+            "name": "GIDL_A_69.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw/files/GIDL_A_69.csv",
+            "size": 17015
+          },
+          {
+            "name": "GIDL_A_72.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw/files/GIDL_A_72.csv",
+            "size": 17124
+          },
+          {
+            "name": "GIDL_A_76.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw/files/GIDL_A_76.csv",
+            "size": 16402
+          },
+          {
+            "name": "GIDL_B_73.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw/files/GIDL_B_73.csv",
+            "size": 17731
+          },
+          {
+            "name": "GIDL_B_74.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw/files/GIDL_B_74.csv",
+            "size": 18454
+          },
+          {
+            "name": "GIDL_B_77.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw/files/GIDL_B_77.csv",
+            "size": 16171
+          },
+          {
+            "name": "GIDL_B_78.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw/files/GIDL_B_78.csv",
+            "size": 15620
+          },
+          {
+            "name": "GIDL_B_79.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260815151753-minhosong-mse-W6vwCw/files/GIDL_B_79.csv",
+            "size": 14481
+          }
+        ]
       }
     ],
     "P03-T14-O03": [
