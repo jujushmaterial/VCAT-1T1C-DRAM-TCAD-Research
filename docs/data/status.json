@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T00:07:24+09:00",
+  "generatedAt": "2026-08-16T00:08:04+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -12519,14 +12519,21 @@
                     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.csv",
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.tsv"
                   },
+                  "comment": "10개 WF 조합에 대해 Forward Id–Vg(Vd=0.05/1.0 V) 원본 CSV와\nGIDL(storage=1.0 V, gate 0→-0.4 V) 원본 CSV를 이용해\nIon, Ioff, Vth, SS, DIBL, GIDL을 동일 기준으로 추출하였다.\n\n- Vth: |Id|=1e-7 A constant-current, log interpolation\n- SS: |Id|=1e-12~1e-8 A 구간 log-current 선형 fit\n- Ioff: Forward 첫 점 Vg≈0(약 1e-5 V)\n- Ion: Vg=1.0 V\n- DIBL: (Vth@0.05 - Vth@1.0)/0.95\n- GIDL: Vg=-0.4 V에서 |storage TotalCurrent|\n\n원본 signed current는 수정하지 않았으며, 전류 크기 지표 계산에서만 절댓값을 사용하였다.",
+                  "commentLabel": "표 설명",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-15T15:07:07.804Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -14483,14 +14490,21 @@
                 "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.csv",
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O04/submissions/20260815150707-minhosong-mse-dcznHw/table.tsv"
               },
+              "comment": "10개 WF 조합에 대해 Forward Id–Vg(Vd=0.05/1.0 V) 원본 CSV와\nGIDL(storage=1.0 V, gate 0→-0.4 V) 원본 CSV를 이용해\nIon, Ioff, Vth, SS, DIBL, GIDL을 동일 기준으로 추출하였다.\n\n- Vth: |Id|=1e-7 A constant-current, log interpolation\n- SS: |Id|=1e-12~1e-8 A 구간 log-current 선형 fit\n- Ioff: Forward 첫 점 Vg≈0(약 1e-5 V)\n- Ion: Vg=1.0 V\n- DIBL: (Vth@0.05 - Vth@1.0)/0.95\n- GIDL: Vg=-0.4 V에서 |storage TotalCurrent|\n\n원본 signed current는 수정하지 않았으며, 전류 크기 지표 계산에서만 절댓값을 사용하였다.",
+              "commentLabel": "표 설명",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-15T15:07:07.804Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
