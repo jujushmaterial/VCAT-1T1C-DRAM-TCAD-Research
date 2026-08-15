@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-15T15:09:03.636Z",
+  "updatedAt": "2026-08-15T15:09:26.720Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5530,7 +5530,21 @@
             "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O05/submissions/20260815150903-minhosong-mse-lugJsA/files/P03-T14-O05_ElectricField_n72_Al-TiN.png",
             "size": 75595
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-15T15:09:03.636Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
