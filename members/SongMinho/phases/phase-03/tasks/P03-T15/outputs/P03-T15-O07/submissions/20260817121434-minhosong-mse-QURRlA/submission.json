@@ -1,0 +1,44 @@
+{
+  "submissionId": "20260817121434-minhosong-mse-QURRlA",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T15",
+  "taskText": "최소 Geometry Check 및 통합 전기특성 평가",
+  "outputId": "P03-T15-O07",
+  "outputText": "P4 전달 대표후보 통합 비교표",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-17T12:14:34.558Z",
+  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O07/submissions/20260817121434-minhosong-mse-QURRlA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O07/submissions/20260817121434-minhosong-mse-QURRlA",
+  "summary": "5개 파일 · 48.6KB",
+  "files": [
+    {
+      "name": "P03-T15-O07_Control_470_FWD_Vd0p05.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O07/submissions/20260817121434-minhosong-mse-QURRlA/files/P03-T15-O07_Control_470_FWD_Vd0p05.csv",
+      "size": 13644
+    },
+    {
+      "name": "P03-T15-O07_Control_470_FWD_Vd1p0.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O07/submissions/20260817121434-minhosong-mse-QURRlA/files/P03-T15-O07_Control_470_FWD_Vd1p0.csv",
+      "size": 15367
+    },
+    {
+      "name": "P03-T15-O07_Control_470_GIDL.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O07/submissions/20260817121434-minhosong-mse-QURRlA/files/P03-T15-O07_Control_470_GIDL.csv",
+      "size": 14487
+    },
+    {
+      "name": "P03-T15-O07_P4_Candidate_Comparison_PROVISIONAL.xlsx",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O07/submissions/20260817121434-minhosong-mse-QURRlA/files/P03-T15-O07_P4_Candidate_Comparison_PROVISIONAL.xlsx",
+      "size": 5095
+    },
+    {
+      "name": "P03-T15-O07_SingleMetal_Comparison_and_Significance.md",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O07/submissions/20260817121434-minhosong-mse-QURRlA/files/P03-T15-O07_SingleMetal_Comparison_and_Significance.md",
+      "size": 1152
+    }
+  ]
+}
