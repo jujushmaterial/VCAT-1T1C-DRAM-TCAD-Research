@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T23:40:11+09:00",
+  "generatedAt": "2026-08-18T00:56:08+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -7720,13 +7720,57 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260817155541-LEE-TAEK-GYU-HZVJXw",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T11",
+                  "taskText": "Single-Metal 3D 기준 구조와 최소 2D–3D 비교를 수행한다.(추후진행)",
+                  "outputId": "P02-T11-O01",
+                  "outputText": "3D 구조·Contact·Region 확인 이미지",
+                  "uploader": "LEE-TAEK-GYU",
+                  "memberName": "이택규",
+                  "memberFolder": "LeeTaekGyu",
+                  "type": "files",
+                  "uploadedAt": "2026-08-17T15:55:41.223Z",
+                  "folderPath": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw",
+                  "summary": "3개 파일 · 1.25MB",
+                  "files": [
+                    {
+                      "name": "KakaoTalk_20260818_002622205.png",
+                      "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw/files/KakaoTalk_20260818_002622205.png",
+                      "size": 185681
+                    },
+                    {
+                      "name": "KakaoTalk_20260818_002544395.png",
+                      "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw/files/KakaoTalk_20260818_002544395.png",
+                      "size": 209168
+                    },
+                    {
+                      "name": "KakaoTalk_20260818_002956553.png",
+                      "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw/files/KakaoTalk_20260818_002956553.png",
+                      "size": 911402
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P02-T11-O02",
@@ -7798,7 +7842,7 @@
             }
           ],
           "checked": false,
-          "state": "not-started",
+          "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 5,
           "outputsDone": 0,
@@ -11500,13 +11544,57 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260817155541-LEE-TAEK-GYU-HZVJXw",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T11",
+              "taskText": "Single-Metal 3D 기준 구조와 최소 2D–3D 비교를 수행한다.(추후진행)",
+              "outputId": "P02-T11-O01",
+              "outputText": "3D 구조·Contact·Region 확인 이미지",
+              "uploader": "LEE-TAEK-GYU",
+              "memberName": "이택규",
+              "memberFolder": "LeeTaekGyu",
+              "type": "files",
+              "uploadedAt": "2026-08-17T15:55:41.223Z",
+              "folderPath": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw",
+              "summary": "3개 파일 · 1.25MB",
+              "files": [
+                {
+                  "name": "KakaoTalk_20260818_002622205.png",
+                  "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw/files/KakaoTalk_20260818_002622205.png",
+                  "size": 185681
+                },
+                {
+                  "name": "KakaoTalk_20260818_002544395.png",
+                  "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw/files/KakaoTalk_20260818_002544395.png",
+                  "size": 209168
+                },
+                {
+                  "name": "KakaoTalk_20260818_002956553.png",
+                  "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw/files/KakaoTalk_20260818_002956553.png",
+                  "size": 911402
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P02-T11"
         },
         {
