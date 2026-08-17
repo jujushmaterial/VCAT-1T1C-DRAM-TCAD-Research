@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T23:38:29+09:00",
+  "generatedAt": "2026-08-17T23:39:32+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -14215,10 +14215,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 2,
+              "submissionCount": 3,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "pendingReviewCount": 3,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -14343,6 +14343,44 @@
                       "name": "P03-T15-O05_G2_FWD_Vd1p0.csv",
                       "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G2_FWD_Vd1p0.csv",
                       "size": 13585
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                },
+                {
+                  "submissionId": "20260817143906-minhosong-mse-zbAq_Q",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T15",
+                  "taskText": "최소 Geometry Check 및 통합 전기특성 평가",
+                  "outputId": "P03-T15-O05",
+                  "outputText": "양방향 전류 비대칭 비교",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-17T14:39:06.405Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143906-minhosong-mse-zbAq_Q",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143906-minhosong-mse-zbAq_Q",
+                  "summary": "2개 파일 · 26.8KB",
+                  "files": [
+                    {
+                      "name": "P03-T15-O05_G2_REV_Vd0p05.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143906-minhosong-mse-zbAq_Q/files/P03-T15-O05_G2_REV_Vd0p05.csv",
+                      "size": 13650
+                    },
+                    {
+                      "name": "P03-T15-O05_G2_REV_Vd1p0.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143906-minhosong-mse-zbAq_Q/files/P03-T15-O05_G2_REV_Vd1p0.csv",
+                      "size": 13813
                     }
                   ],
                   "review": {
@@ -17906,10 +17944,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 2,
+          "submissionCount": 3,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "pendingReviewCount": 3,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -18034,6 +18072,44 @@
                   "name": "P03-T15-O05_G2_FWD_Vd1p0.csv",
                   "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G2_FWD_Vd1p0.csv",
                   "size": 13585
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            },
+            {
+              "submissionId": "20260817143906-minhosong-mse-zbAq_Q",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T15",
+              "taskText": "최소 Geometry Check 및 통합 전기특성 평가",
+              "outputId": "P03-T15-O05",
+              "outputText": "양방향 전류 비대칭 비교",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-17T14:39:06.405Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143906-minhosong-mse-zbAq_Q",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143906-minhosong-mse-zbAq_Q",
+              "summary": "2개 파일 · 26.8KB",
+              "files": [
+                {
+                  "name": "P03-T15-O05_G2_REV_Vd0p05.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143906-minhosong-mse-zbAq_Q/files/P03-T15-O05_G2_REV_Vd0p05.csv",
+                  "size": 13650
+                },
+                {
+                  "name": "P03-T15-O05_G2_REV_Vd1p0.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143906-minhosong-mse-zbAq_Q/files/P03-T15-O05_G2_REV_Vd1p0.csv",
+                  "size": 13813
                 }
               ],
               "review": {
