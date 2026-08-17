@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T12:12:03.074Z",
+  "updatedAt": "2026-08-17T12:12:18.947Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -6855,6 +6855,37 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P03-T15-O03": [
+      {
+        "submissionId": "20260817121218-minhosong-mse-OMI1EA",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T15",
+        "taskText": "최소 Geometry Check 및 통합 전기특성 평가",
+        "outputId": "P03-T15-O03",
+        "outputText": "Geometry별 Id–Vg·DC 비교",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-17T12:12:18.947Z",
+        "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O03/submissions/20260817121218-minhosong-mse-OMI1EA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O03/submissions/20260817121218-minhosong-mse-OMI1EA",
+        "summary": "2개 파일 · 718.8KB",
+        "files": [
+          {
+            "name": "P03-T15-O03_G1_G2_Forward_IdVg_SVisual.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O03/submissions/20260817121218-minhosong-mse-OMI1EA/files/P03-T15-O03_G1_G2_Forward_IdVg_SVisual.png",
+            "size": 401223
+          },
+          {
+            "name": "P03-T15-O03_G1_G2_GIDL_SVisual.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O03/submissions/20260817121218-minhosong-mse-OMI1EA/files/P03-T15-O03_G1_G2_GIDL_SVisual.png",
+            "size": 334790
+          }
+        ]
       }
     ]
   }
