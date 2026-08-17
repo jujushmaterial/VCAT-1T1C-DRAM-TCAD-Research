@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T18:47:07+09:00",
+  "generatedAt": "2026-08-17T19:02:17+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -12043,10 +12043,10 @@
               "required": true,
               "policyReason": null,
               "submitted": true,
-              "submissionCount": 1,
+              "submissionCount": 2,
               "evidenceSubmissionCount": 1,
               "approvedSubmissionCount": 1,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -12103,6 +12103,39 @@
                       }
                     ],
                     "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260817100157-minhosong-mse-6w4T8g",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T13",
+                  "taskText": "Low-High-Low Three-zone 구조 구현",
+                  "outputId": "P03-T13-O05",
+                  "outputText": "Contact·Region 확인표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-17T10:01:57.553Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260817100157-minhosong-mse-6w4T8g",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260817100157-minhosong-mse-6w4T8g",
+                  "summary": "1개 파일 · 50.6KB",
+                  "files": [
+                    {
+                      "name": "P03-T13-O06_Mesh_Overall.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260817100157-minhosong-mse-6w4T8g/files/P03-T13-O06_Mesh_Overall.png",
+                      "size": 51822
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
                   }
                 }
               ]
@@ -14672,10 +14705,10 @@
           "required": true,
           "policyReason": null,
           "submitted": true,
-          "submissionCount": 1,
+          "submissionCount": 2,
           "evidenceSubmissionCount": 1,
           "approvedSubmissionCount": 1,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -14732,6 +14765,39 @@
                   }
                 ],
                 "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260817100157-minhosong-mse-6w4T8g",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T13",
+              "taskText": "Low-High-Low Three-zone 구조 구현",
+              "outputId": "P03-T13-O05",
+              "outputText": "Contact·Region 확인표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-17T10:01:57.553Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260817100157-minhosong-mse-6w4T8g",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260817100157-minhosong-mse-6w4T8g",
+              "summary": "1개 파일 · 50.6KB",
+              "files": [
+                {
+                  "name": "P03-T13-O06_Mesh_Overall.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260817100157-minhosong-mse-6w4T8g/files/P03-T13-O06_Mesh_Overall.png",
+                  "size": 51822
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
               }
             }
           ],
@@ -16789,7 +16855,7 @@
       "updatedAt": "2026-08-13T16:13:33Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 2
+      "integrityWarnings": 3
     },
     {
       "id": 4,
