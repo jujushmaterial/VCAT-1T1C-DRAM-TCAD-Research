@@ -38,5 +38,7 @@
     "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O01/submissions/20260817121029-minhosong-mse-VALY3A/table.json",
     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O01/submissions/20260817121029-minhosong-mse-VALY3A/table.csv",
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O01/submissions/20260817121029-minhosong-mse-VALY3A/table.tsv"
-  }
+  },
+  "comment": "P03-T15-O01 — Coarse Geometry 조건표\n\nFixed WF는 T14 확정값 Ti/TiN/Ti = 4.33/4.70/4.33 eV이다.\n총 gate 60 nm와 대칭 L-H-L을 유지하면서 중앙 HIGH 길이를 10/20/30 nm로 넓게 세 점만 확인했다:\n- G1 = 25/10/25 nm (HIGH-short)\n- G0 = 20/20/20 nm (baseline)\n- G2 = 15/30/15 nm (HIGH-long)\n\n이 범위는 최적점을 찾기 위한 정밀 Sweep이 아니라 방향성/robustness를 확인하는 coarse bracket이다. P5에서는 WF를 고정하고 두 boundary를 독립변수로 더 촘촘히 Sweep한다.",
+  "commentLabel": "표 설명"
 }
