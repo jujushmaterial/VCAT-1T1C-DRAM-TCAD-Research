@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T21:15:36+09:00",
+  "generatedAt": "2026-08-17T23:34:20+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -14215,13 +14215,62 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260817143354-minhosong-mse-A5pvCw",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T15",
+                  "taskText": "최소 Geometry Check 및 통합 전기특성 평가",
+                  "outputId": "P03-T15-O05",
+                  "outputText": "양방향 전류 비대칭 비교",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-17T14:33:54.180Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143354-minhosong-mse-A5pvCw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143354-minhosong-mse-A5pvCw",
+                  "summary": "4개 파일 · 158.8KB",
+                  "files": [
+                    {
+                      "name": "P03-T15-O05_Bidirectional_Current_Asymmetry.xlsx",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143354-minhosong-mse-A5pvCw/files/P03-T15-O05_Bidirectional_Current_Asymmetry.xlsx",
+                      "size": 9101
+                    },
+                    {
+                      "name": "P03-T15-O05_Bidirectional_Current_Asymmetry_Summary.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143354-minhosong-mse-A5pvCw/files/P03-T15-O05_Bidirectional_Current_Asymmetry_Summary.csv",
+                      "size": 871
+                    },
+                    {
+                      "name": "P03-T15-O05_Summary_Preview.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143354-minhosong-mse-A5pvCw/files/P03-T15-O05_Summary_Preview.png",
+                      "size": 151285
+                    },
+                    {
+                      "name": "README.md",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143354-minhosong-mse-A5pvCw/files/README.md",
+                      "size": 1349
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T15-O06",
@@ -17772,13 +17821,62 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260817143354-minhosong-mse-A5pvCw",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T15",
+              "taskText": "최소 Geometry Check 및 통합 전기특성 평가",
+              "outputId": "P03-T15-O05",
+              "outputText": "양방향 전류 비대칭 비교",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-17T14:33:54.180Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143354-minhosong-mse-A5pvCw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143354-minhosong-mse-A5pvCw",
+              "summary": "4개 파일 · 158.8KB",
+              "files": [
+                {
+                  "name": "P03-T15-O05_Bidirectional_Current_Asymmetry.xlsx",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143354-minhosong-mse-A5pvCw/files/P03-T15-O05_Bidirectional_Current_Asymmetry.xlsx",
+                  "size": 9101
+                },
+                {
+                  "name": "P03-T15-O05_Bidirectional_Current_Asymmetry_Summary.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143354-minhosong-mse-A5pvCw/files/P03-T15-O05_Bidirectional_Current_Asymmetry_Summary.csv",
+                  "size": 871
+                },
+                {
+                  "name": "P03-T15-O05_Summary_Preview.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143354-minhosong-mse-A5pvCw/files/P03-T15-O05_Summary_Preview.png",
+                  "size": 151285
+                },
+                {
+                  "name": "README.md",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143354-minhosong-mse-A5pvCw/files/README.md",
+                  "size": 1349
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T15"
         },
         {
