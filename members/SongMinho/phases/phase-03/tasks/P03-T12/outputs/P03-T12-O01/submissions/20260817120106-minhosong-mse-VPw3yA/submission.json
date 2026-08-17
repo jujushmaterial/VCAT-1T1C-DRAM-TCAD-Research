@@ -1,0 +1,34 @@
+{
+  "submissionId": "20260817120106-minhosong-mse-VPw3yA",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T12",
+  "taskText": "Dual-Metal 전기적 특성 경향 검증",
+  "outputId": "P03-T12-O01",
+  "outputText": "Dual-Metal 양방향 구조 코드",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "code",
+  "uploadedAt": "2026-08-17T12:01:06.896Z",
+  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O01/submissions/20260817120106-minhosong-mse-VPw3yA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O01/submissions/20260817120106-minhosong-mse-VPw3yA",
+  "summary": "3개 코드 파일 · 16.0KB",
+  "files": [
+    {
+      "name": "P03-T12-O01_DualMetal_SDE.cmd",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O01/submissions/20260817120106-minhosong-mse-VPw3yA/source/P03-T12-O01_DualMetal_SDE.cmd",
+      "size": 11595
+    },
+    {
+      "name": "P03-T12-O01_DualMetal_Forward_SDevice.cmd",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O01/submissions/20260817120106-minhosong-mse-VPw3yA/source/P03-T12-O01_DualMetal_Forward_SDevice.cmd",
+      "size": 2066
+    },
+    {
+      "name": "P03-T12-O01_DualMetal_GIDL_SDevice.cmd",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O01/submissions/20260817120106-minhosong-mse-VPw3yA/source/P03-T12-O01_DualMetal_GIDL_SDevice.cmd",
+      "size": 2739
+    }
+  ]
+}
