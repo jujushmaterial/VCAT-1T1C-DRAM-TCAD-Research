@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T09:45:21.304Z",
+  "updatedAt": "2026-08-17T09:46:51.165Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5104,15 +5104,20 @@
         "comment": "R.GateOxide.M1/M2/M3 및 R.SN/R.Channel/R.BL region과 storage/bitline/gate_m1/gate_m2/gate_m3 contact를 확인한 자료이다.",
         "commentLabel": "제출 메모",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "seanthe17",
+          "reviewedAt": "2026-08-17T09:46:51.165Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-13T16:07:34.680Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "seanthe17",
+              "at": "2026-08-17T09:46:51.165Z"
             }
           ],
           "legacy": false
