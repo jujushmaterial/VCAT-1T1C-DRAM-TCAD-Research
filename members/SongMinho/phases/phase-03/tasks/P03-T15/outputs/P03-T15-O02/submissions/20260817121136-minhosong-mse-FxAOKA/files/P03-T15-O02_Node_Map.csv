@@ -1,0 +1,4 @@
+﻿Geometry,Segments_nm,Forward_Vd1_node,Forward_Vd0p05_node,GIDL_node,WF_LOW,WF_HIGH
+G0,20/20/20,n73,n73,n73,4.33,4.7
+G1,25/10/25,n112,n115,n103,4.33,4.7
+G2,15/30/15,n123,n126,n111,4.33,4.7
