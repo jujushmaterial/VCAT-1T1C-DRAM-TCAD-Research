@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T12:14:12.033Z",
+  "updatedAt": "2026-08-17T12:14:19.163Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -6991,7 +6991,21 @@
           }
         ],
         "comment": "P03-T15-O06 — Electric Field·Emax 비교\n\nG0/G1/G2는 동일 GIDL 최종 상태(storage=1.0 V, gates=-0.4 V)에서 비교한다.\n2D ElectricField contour의 color scale은 각 화면의 자동 range일 수 있으므로 색 자체보다 legend의 Emax와 hot-spot 위치를 우선 해석한다.\nG1/G2 BTBT 및 ConductionBand 화면은 field 변화가 실제 tunneling/barrier 분포와 어떻게 연결되는지 보조 확인하기 위해 함께 첨부한다.",
-        "commentLabel": "제출 메모"
+        "commentLabel": "제출 메모",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-17T12:13:46.712Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
