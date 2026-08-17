@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T12:12:18.947Z",
+  "updatedAt": "2026-08-17T12:12:32.808Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -6885,7 +6885,9 @@
             "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O03/submissions/20260817121218-minhosong-mse-OMI1EA/files/P03-T15-O03_G1_G2_GIDL_SVisual.png",
             "size": 334790
           }
-        ]
+        ],
+        "comment": "P03-T15-O03 — Geometry별 Id–Vg·DC 비교\n\nSVisual 원본을 사용한다.\nForward 그래프 축:\n- X축: gate_m1 OuterVoltage [V]\n- Y축: storage TotalCurrent [A], signed raw current\n- n112/n115 = G1(25/10/25) Vd=1.0/0.05 V\n- n123/n126 = G2(15/30/15) Vd=1.0/0.05 V\n\nG0는 T14의 n73 1:1:1 기준 raw를 재사용하며 정량 비교는 O04 통합표에 함께 포함했다.\nGIDL 보조 그래프도 X=gate_m1 OuterVoltage [V], Y=storage TotalCurrent [A]이다.",
+        "commentLabel": "제출 메모"
       }
     ]
   }
