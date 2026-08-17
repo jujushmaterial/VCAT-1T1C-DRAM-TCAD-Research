@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T21:01:27+09:00",
+  "generatedAt": "2026-08-17T21:02:19+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11657,14 +11657,21 @@
                       "size": 2739
                     }
                   ],
+                  "comment": "P03-T12-O01 — Dual-Metal 양방향 구조 코드\n\nP2 기준 VCAT geometry/doping/mesh를 유지하고 gate oxide를 SN/BL 2-zone으로 분리한 Dual-Metal 구조이다.\nRatioSN=0.5에서 gate 60 nm를 SN 30 nm / BL 30 nm로 동일 분할한다.\nSDevice에서는 gate_sn과 gate_bl에 WF_SN/WF_BL을 독립 지정하고 두 gate는 하나의 word line처럼 동일 전압으로 sweep한다.\n\n포함 파일:\n- SDE: 2-zone geometry + metal-boundary local mesh\n- Forward SDevice: Vd=0.05/1.0 V, gate 0→1.0 V\n- GIDL SDevice: storage=1.0 V, gate 0→-0.4 V\n\n'양방향'은 source/drain reverse-bias가 아니라 WF_SN/WF_BL의 공간 배치 방향(ΔWF 부호)을 뜻한다.\nPhysics는 Fermi, OldSlotboom, PhuMob, HighFieldSaturation, SRH, Band2Band NonlocalPath를 공통 사용한다.",
+                  "commentLabel": "실행 조건 및 설명",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-17T12:01:06.896Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -11678,13 +11685,57 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260817120156-minhosong-mse-e1znpA",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T12",
+                  "taskText": "Dual-Metal 전기적 특성 경향 검증",
+                  "outputId": "P03-T12-O02",
+                  "outputText": "양방향 구조 비교 이미지",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-17T12:01:56.590Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O02/submissions/20260817120156-minhosong-mse-e1znpA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O02/submissions/20260817120156-minhosong-mse-e1znpA",
+                  "summary": "3개 파일 · 1.08MB",
+                  "files": [
+                    {
+                      "name": "P03-T12-O02_Forward_SWB_Conditions.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O02/submissions/20260817120156-minhosong-mse-e1znpA/files/P03-T12-O02_Forward_SWB_Conditions.png",
+                      "size": 366374
+                    },
+                    {
+                      "name": "P03-T12-O02_GIDL_SWB_Conditions.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O02/submissions/20260817120156-minhosong-mse-e1znpA/files/P03-T12-O02_GIDL_SWB_Conditions.png",
+                      "size": 340906
+                    },
+                    {
+                      "name": "P03-T12-O02_Representative_CBE_Arrangement_Comparison.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O02/submissions/20260817120156-minhosong-mse-e1znpA/files/P03-T12-O02_Representative_CBE_Arrangement_Comparison.png",
+                      "size": 428115
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T12-O03",
@@ -14380,14 +14431,21 @@
                   "size": 2739
                 }
               ],
+              "comment": "P03-T12-O01 — Dual-Metal 양방향 구조 코드\n\nP2 기준 VCAT geometry/doping/mesh를 유지하고 gate oxide를 SN/BL 2-zone으로 분리한 Dual-Metal 구조이다.\nRatioSN=0.5에서 gate 60 nm를 SN 30 nm / BL 30 nm로 동일 분할한다.\nSDevice에서는 gate_sn과 gate_bl에 WF_SN/WF_BL을 독립 지정하고 두 gate는 하나의 word line처럼 동일 전압으로 sweep한다.\n\n포함 파일:\n- SDE: 2-zone geometry + metal-boundary local mesh\n- Forward SDevice: Vd=0.05/1.0 V, gate 0→1.0 V\n- GIDL SDevice: storage=1.0 V, gate 0→-0.4 V\n\n'양방향'은 source/drain reverse-bias가 아니라 WF_SN/WF_BL의 공간 배치 방향(ΔWF 부호)을 뜻한다.\nPhysics는 Fermi, OldSlotboom, PhuMob, HighFieldSaturation, SRH, Band2Band NonlocalPath를 공통 사용한다.",
+              "commentLabel": "실행 조건 및 설명",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-17T12:01:06.896Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -14402,13 +14460,57 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260817120156-minhosong-mse-e1znpA",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T12",
+              "taskText": "Dual-Metal 전기적 특성 경향 검증",
+              "outputId": "P03-T12-O02",
+              "outputText": "양방향 구조 비교 이미지",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-17T12:01:56.590Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O02/submissions/20260817120156-minhosong-mse-e1znpA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O02/submissions/20260817120156-minhosong-mse-e1znpA",
+              "summary": "3개 파일 · 1.08MB",
+              "files": [
+                {
+                  "name": "P03-T12-O02_Forward_SWB_Conditions.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O02/submissions/20260817120156-minhosong-mse-e1znpA/files/P03-T12-O02_Forward_SWB_Conditions.png",
+                  "size": 366374
+                },
+                {
+                  "name": "P03-T12-O02_GIDL_SWB_Conditions.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O02/submissions/20260817120156-minhosong-mse-e1znpA/files/P03-T12-O02_GIDL_SWB_Conditions.png",
+                  "size": 340906
+                },
+                {
+                  "name": "P03-T12-O02_Representative_CBE_Arrangement_Comparison.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O02/submissions/20260817120156-minhosong-mse-e1znpA/files/P03-T12-O02_Representative_CBE_Arrangement_Comparison.png",
+                  "size": 428115
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T12"
         },
         {
