@@ -1,0 +1,44 @@
+{
+  "submissionId": "20260817121346-minhosong-mse-fCqCGQ",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T15",
+  "taskText": "최소 Geometry Check 및 통합 전기특성 평가",
+  "outputId": "P03-T15-O06",
+  "outputText": "Electric Field·Emax 비교",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-17T12:13:46.712Z",
+  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O06/submissions/20260817121346-minhosong-mse-fCqCGQ",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O06/submissions/20260817121346-minhosong-mse-fCqCGQ",
+  "summary": "5개 파일 · 1.38MB",
+  "files": [
+    {
+      "name": "P03-T15-O06_Emax_Summary.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O06/submissions/20260817121346-minhosong-mse-fCqCGQ/files/P03-T15-O06_Emax_Summary.csv",
+      "size": 177
+    },
+    {
+      "name": "P03-T15-O06_G0_n73_ElectricField.png",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O06/submissions/20260817121346-minhosong-mse-fCqCGQ/files/P03-T15-O06_G0_n73_ElectricField.png",
+      "size": 76207
+    },
+    {
+      "name": "P03-T15-O06_G1_G2_BTBT_SVisual.png",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O06/submissions/20260817121346-minhosong-mse-fCqCGQ/files/P03-T15-O06_G1_G2_BTBT_SVisual.png",
+      "size": 460521
+    },
+    {
+      "name": "P03-T15-O06_G1_G2_ConductionBand_SVisual.png",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O06/submissions/20260817121346-minhosong-mse-fCqCGQ/files/P03-T15-O06_G1_G2_ConductionBand_SVisual.png",
+      "size": 449089
+    },
+    {
+      "name": "P03-T15-O06_G1_G2_ElectricField_SVisual.png",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O06/submissions/20260817121346-minhosong-mse-fCqCGQ/files/P03-T15-O06_G1_G2_ElectricField_SVisual.png",
+      "size": 463692
+    }
+  ]
+}
