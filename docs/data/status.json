@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T23:34:57+09:00",
+  "generatedAt": "2026-08-17T23:38:29+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -14215,10 +14215,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 1,
+              "submissionCount": 2,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -14262,6 +14262,89 @@
                   ],
                   "comment": "P03-T15-O05 — 양방향 전류 비대칭 비교\n\n고정 조건\n- WF_LOW / WF_HIGH = 4.33 / 4.70 eV\n- gate_m1 / gate_m2 / gate_m3 = 4.33 / 4.70 / 4.33 eV\n- Temp = 300 K, MeshScale = 1.0, Vg = 0→1.0 V\n- Vd = 0.05 V, 1.0 V\n\nGeometry\n- G0 = 1:1:1 = 20/20/20 nm\n- G2 = 1:2:1 = 15/30/15 nm\n- G1 = 2.5:1:2.5 = 25/10/25 nm\n\nAxes\n- Forward: X = gate_m1 OuterVoltage [V], Y = storage TotalCurrent [A, signed raw]\n- Reverse: X = gate_m1 OuterVoltage [V], Y = bitline TotalCurrent [A, signed raw]\n\n비대칭 정의\n- |FWD−REV| / ((|FWD|+|REV|)/2) × 100 %\n- Issue가 특정 수식을 지정한 것은 아니므로, 본 산출물에서 사용한 비교 정의를 명시함.\n\n결과\n- Vd=1.0 V Ion 비대칭: G0≈0.0258 %, G2≈0.0308 %, G1≈0.0262 %\n- Vd=0.05 V Ion 비대칭: 세 구조 모두 약 0.006 %\n- Vth, SS, Ioff, DIBL 역시 Forward/Reverse에서 거의 동일함.\n\n결론\n- 세 coarse geometry 모두 유의한 양방향 전류 패널티가 관찰되지 않음.\n- T15-O05 관점에서 G2를 배제할 방향성 문제는 없음.\n- 최종 geometry 판단은 T15-O04와 함께 해석하며, 현재 G2가 대표후보로 유지됨.",
                   "commentLabel": "제출 메모",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-17T14:33:54.180Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260817143758-minhosong-mse-dsEh9Q",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T15",
+                  "taskText": "최소 Geometry Check 및 통합 전기특성 평가",
+                  "outputId": "P03-T15-O05",
+                  "outputText": "양방향 전류 비대칭 비교",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-17T14:37:58.688Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q",
+                  "summary": "10개 파일 · 133.3KB",
+                  "files": [
+                    {
+                      "name": "P03-T15-O05_G0_FWD_Vd0p05.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G0_FWD_Vd0p05.csv",
+                      "size": 13641
+                    },
+                    {
+                      "name": "P03-T15-O05_G0_FWD_Vd1p0.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G0_FWD_Vd1p0.csv",
+                      "size": 13638
+                    },
+                    {
+                      "name": "P03-T15-O05_G0_REV_Vd0p05.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G0_REV_Vd0p05.csv",
+                      "size": 13640
+                    },
+                    {
+                      "name": "P03-T15-O05_G0_REV_Vd1p0.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G0_REV_Vd1p0.csv",
+                      "size": 13621
+                    },
+                    {
+                      "name": "P03-T15-O05_G1_FWD_Vd0p05.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G1_FWD_Vd0p05.csv",
+                      "size": 13810
+                    },
+                    {
+                      "name": "P03-T15-O05_G1_FWD_Vd1p0.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G1_FWD_Vd1p0.csv",
+                      "size": 13636
+                    },
+                    {
+                      "name": "P03-T15-O05_G1_REV_Vd0p05.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G1_REV_Vd0p05.csv",
+                      "size": 13624
+                    },
+                    {
+                      "name": "P03-T15-O05_G1_REV_Vd1p0.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G1_REV_Vd1p0.csv",
+                      "size": 13635
+                    },
+                    {
+                      "name": "P03-T15-O05_G2_FWD_Vd0p05.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G2_FWD_Vd0p05.csv",
+                      "size": 13626
+                    },
+                    {
+                      "name": "P03-T15-O05_G2_FWD_Vd1p0.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G2_FWD_Vd1p0.csv",
+                      "size": 13585
+                    }
+                  ],
                   "review": {
                     "status": "pending",
                     "reviewer": null,
@@ -17823,10 +17906,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 1,
+          "submissionCount": 2,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -17870,6 +17953,89 @@
               ],
               "comment": "P03-T15-O05 — 양방향 전류 비대칭 비교\n\n고정 조건\n- WF_LOW / WF_HIGH = 4.33 / 4.70 eV\n- gate_m1 / gate_m2 / gate_m3 = 4.33 / 4.70 / 4.33 eV\n- Temp = 300 K, MeshScale = 1.0, Vg = 0→1.0 V\n- Vd = 0.05 V, 1.0 V\n\nGeometry\n- G0 = 1:1:1 = 20/20/20 nm\n- G2 = 1:2:1 = 15/30/15 nm\n- G1 = 2.5:1:2.5 = 25/10/25 nm\n\nAxes\n- Forward: X = gate_m1 OuterVoltage [V], Y = storage TotalCurrent [A, signed raw]\n- Reverse: X = gate_m1 OuterVoltage [V], Y = bitline TotalCurrent [A, signed raw]\n\n비대칭 정의\n- |FWD−REV| / ((|FWD|+|REV|)/2) × 100 %\n- Issue가 특정 수식을 지정한 것은 아니므로, 본 산출물에서 사용한 비교 정의를 명시함.\n\n결과\n- Vd=1.0 V Ion 비대칭: G0≈0.0258 %, G2≈0.0308 %, G1≈0.0262 %\n- Vd=0.05 V Ion 비대칭: 세 구조 모두 약 0.006 %\n- Vth, SS, Ioff, DIBL 역시 Forward/Reverse에서 거의 동일함.\n\n결론\n- 세 coarse geometry 모두 유의한 양방향 전류 패널티가 관찰되지 않음.\n- T15-O05 관점에서 G2를 배제할 방향성 문제는 없음.\n- 최종 geometry 판단은 T15-O04와 함께 해석하며, 현재 G2가 대표후보로 유지됨.",
               "commentLabel": "제출 메모",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-17T14:33:54.180Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260817143758-minhosong-mse-dsEh9Q",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T15",
+              "taskText": "최소 Geometry Check 및 통합 전기특성 평가",
+              "outputId": "P03-T15-O05",
+              "outputText": "양방향 전류 비대칭 비교",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-17T14:37:58.688Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q",
+              "summary": "10개 파일 · 133.3KB",
+              "files": [
+                {
+                  "name": "P03-T15-O05_G0_FWD_Vd0p05.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G0_FWD_Vd0p05.csv",
+                  "size": 13641
+                },
+                {
+                  "name": "P03-T15-O05_G0_FWD_Vd1p0.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G0_FWD_Vd1p0.csv",
+                  "size": 13638
+                },
+                {
+                  "name": "P03-T15-O05_G0_REV_Vd0p05.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G0_REV_Vd0p05.csv",
+                  "size": 13640
+                },
+                {
+                  "name": "P03-T15-O05_G0_REV_Vd1p0.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G0_REV_Vd1p0.csv",
+                  "size": 13621
+                },
+                {
+                  "name": "P03-T15-O05_G1_FWD_Vd0p05.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G1_FWD_Vd0p05.csv",
+                  "size": 13810
+                },
+                {
+                  "name": "P03-T15-O05_G1_FWD_Vd1p0.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G1_FWD_Vd1p0.csv",
+                  "size": 13636
+                },
+                {
+                  "name": "P03-T15-O05_G1_REV_Vd0p05.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G1_REV_Vd0p05.csv",
+                  "size": 13624
+                },
+                {
+                  "name": "P03-T15-O05_G1_REV_Vd1p0.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G1_REV_Vd1p0.csv",
+                  "size": 13635
+                },
+                {
+                  "name": "P03-T15-O05_G2_FWD_Vd0p05.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G2_FWD_Vd0p05.csv",
+                  "size": 13626
+                },
+                {
+                  "name": "P03-T15-O05_G2_FWD_Vd1p0.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G2_FWD_Vd1p0.csv",
+                  "size": 13585
+                }
+              ],
               "review": {
                 "status": "pending",
                 "reviewer": null,
