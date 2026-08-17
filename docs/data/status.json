@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T21:05:14+09:00",
+  "generatedAt": "2026-08-17T21:06:04+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11829,10 +11829,10 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 1,
+              "submissionCount": 2,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
               "state": "review-pending",
               "submissions": [
@@ -11904,14 +11904,64 @@
                       "size": 13614
                     }
                   ],
+                  "comment": "P03-T12-O04 — 방향별 Id–Vg·전류 비교\n\n원본 SVisual Forward Id–Vg 5조건 비교와 raw CSV 10개를 제출한다.\n\n그래프 축:\n- X축: gate_sn OuterVoltage [V] (gate_sn/gate_bl은 같은 word-line 전압으로 함께 sweep)\n- Y축: storage TotalCurrent [A], signed raw current\n\nVd=0.05 V와 Vd=1.0 V를 각각 비교한다. 표 지표 계산 시 전류 크기 |Id|를 사용하지만 raw CSV의 부호는 보존했다.\nΔWF 부호를 바꾸었을 때 같은 평균 WF에서도 Id–Vg 이동과 전류가 달라져 spatial WF order 효과가 확인된다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-17T12:04:49.690Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                },
+                {
+                  "submissionId": "20260817120526-minhosong-mse-v1Dx_Q",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T12",
+                  "taskText": "Dual-Metal 전기적 특성 경향 검증",
+                  "outputId": "P03-T12-O04",
+                  "outputText": "방향별 Id–Vg·전류 비교",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-17T12:05:26.852Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O04/submissions/20260817120526-minhosong-mse-v1Dx_Q",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O04/submissions/20260817120526-minhosong-mse-v1Dx_Q",
+                  "summary": "2개 파일 · 822.8KB",
+                  "files": [
+                    {
+                      "name": "P03-T12-O04_IdVg_Vd0p05_SVisual.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O04/submissions/20260817120526-minhosong-mse-v1Dx_Q/files/P03-T12-O04_IdVg_Vd0p05_SVisual.png",
+                      "size": 425906
+                    },
+                    {
+                      "name": "P03-T12-O04_IdVg_Vd1p0_SVisual.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O04/submissions/20260817120526-minhosong-mse-v1Dx_Q/files/P03-T12-O04_IdVg_Vd1p0_SVisual.png",
+                      "size": 416643
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-17T12:05:26.852Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -14751,10 +14801,10 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 1,
+          "submissionCount": 2,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
           "state": "review-pending",
           "submissions": [
@@ -14826,14 +14876,64 @@
                   "size": 13614
                 }
               ],
+              "comment": "P03-T12-O04 — 방향별 Id–Vg·전류 비교\n\n원본 SVisual Forward Id–Vg 5조건 비교와 raw CSV 10개를 제출한다.\n\n그래프 축:\n- X축: gate_sn OuterVoltage [V] (gate_sn/gate_bl은 같은 word-line 전압으로 함께 sweep)\n- Y축: storage TotalCurrent [A], signed raw current\n\nVd=0.05 V와 Vd=1.0 V를 각각 비교한다. 표 지표 계산 시 전류 크기 |Id|를 사용하지만 raw CSV의 부호는 보존했다.\nΔWF 부호를 바꾸었을 때 같은 평균 WF에서도 Id–Vg 이동과 전류가 달라져 spatial WF order 효과가 확인된다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-17T12:04:49.690Z"
+                  }
+                ],
+                "legacy": false
+              }
+            },
+            {
+              "submissionId": "20260817120526-minhosong-mse-v1Dx_Q",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T12",
+              "taskText": "Dual-Metal 전기적 특성 경향 검증",
+              "outputId": "P03-T12-O04",
+              "outputText": "방향별 Id–Vg·전류 비교",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-17T12:05:26.852Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O04/submissions/20260817120526-minhosong-mse-v1Dx_Q",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O04/submissions/20260817120526-minhosong-mse-v1Dx_Q",
+              "summary": "2개 파일 · 822.8KB",
+              "files": [
+                {
+                  "name": "P03-T12-O04_IdVg_Vd0p05_SVisual.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O04/submissions/20260817120526-minhosong-mse-v1Dx_Q/files/P03-T12-O04_IdVg_Vd0p05_SVisual.png",
+                  "size": 425906
+                },
+                {
+                  "name": "P03-T12-O04_IdVg_Vd1p0_SVisual.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O04/submissions/20260817120526-minhosong-mse-v1Dx_Q/files/P03-T12-O04_IdVg_Vd1p0_SVisual.png",
+                  "size": 416643
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-17T12:05:26.852Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
