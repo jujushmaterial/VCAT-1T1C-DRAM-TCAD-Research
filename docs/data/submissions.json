@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T12:03:14.435Z",
+  "updatedAt": "2026-08-17T12:03:26.814Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -6285,7 +6285,9 @@
           "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O03/submissions/20260817120314-minhosong-mse-3xIbcg/table.json",
           "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O03/submissions/20260817120314-minhosong-mse-3xIbcg/table.csv",
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O03/submissions/20260817120314-minhosong-mse-3xIbcg/table.tsv"
-        }
+        },
+        "comment": "P03-T12-O03 — Dual-Metal 비교 조건표\n\n평균 WF가 약 4.70 eV가 되도록 ΔWF=0, ±0.2, ±0.4 eV의 공간 배치 방향을 비교했다.\nForward는 Vd=0.05 V와 1.0 V에서 수행했고 GIDL은 storage=1.0 V, gate=0→-0.4 V에서 수행했다.\nRatioSN=0.5, Temp=300 K, P2 기준 geometry/doping/mesh를 공통 유지했다.",
+        "commentLabel": "표 설명"
       }
     ]
   }
