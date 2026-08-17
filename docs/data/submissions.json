@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T12:05:13.263Z",
+  "updatedAt": "2026-08-17T12:05:26.852Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -6389,6 +6389,35 @@
           ],
           "legacy": false
         }
+      },
+      {
+        "submissionId": "20260817120526-minhosong-mse-v1Dx_Q",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T12",
+        "taskText": "Dual-Metal 전기적 특성 경향 검증",
+        "outputId": "P03-T12-O04",
+        "outputText": "방향별 Id–Vg·전류 비교",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-17T12:05:26.852Z",
+        "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O04/submissions/20260817120526-minhosong-mse-v1Dx_Q",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O04/submissions/20260817120526-minhosong-mse-v1Dx_Q",
+        "summary": "2개 파일 · 822.8KB",
+        "files": [
+          {
+            "name": "P03-T12-O04_IdVg_Vd0p05_SVisual.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O04/submissions/20260817120526-minhosong-mse-v1Dx_Q/files/P03-T12-O04_IdVg_Vd0p05_SVisual.png",
+            "size": 425906
+          },
+          {
+            "name": "P03-T12-O04_IdVg_Vd1p0_SVisual.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O04/submissions/20260817120526-minhosong-mse-v1Dx_Q/files/P03-T12-O04_IdVg_Vd1p0_SVisual.png",
+            "size": 416643
+          }
+        ]
       }
     ]
   }
