@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T18:45:23+09:00",
+  "generatedAt": "2026-08-17T18:47:07+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11598,9 +11598,9 @@
       "tasksDone": 3,
       "tasksTotal": 8,
       "issueTasksDone": 3,
-      "outputsDone": 9,
+      "outputsDone": 11,
       "outputsTotal": 45,
-      "requiredOutputsDone": 3,
+      "requiredOutputsDone": 5,
       "requiredOutputsTotal": 36,
       "tasks": [
         {
@@ -12042,13 +12042,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260813160734-minhosong-mse-g5IjsQ",
@@ -12086,15 +12086,20 @@
                   "comment": "R.GateOxide.M1/M2/M3 및 R.SN/R.Channel/R.BL region과 storage/bitline/gate_m1/gate_m2/gate_m3 contact를 확인한 자료이다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-17T09:46:51.165Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-13T16:07:34.680Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-17T09:46:51.165Z"
                       }
                     ],
                     "legacy": false
@@ -12110,13 +12115,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260813160812-minhosong-mse-gik9DQ",
@@ -12159,15 +12164,20 @@
                   "comment": "현재 P3 기준 구조의 전체 mesh, junction 확대, WF boundary 주변 refinement를 확인한 자료이다. T16의 mesh 전/후 안정성 비교와는 별도이다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-17T09:45:21.304Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-13T16:08:12.385Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-17T09:45:21.304Z"
                       }
                     ],
                     "legacy": false
@@ -12241,15 +12251,13 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 3,
+          "requiredOutputsDone": 5,
           "requiredOutputsTotal": 7,
-          "outputsDone": 3,
+          "outputsDone": 5,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
             "P03-T13-O03",
-            "P03-T13-O04",
-            "P03-T13-O05",
-            "P03-T13-O06"
+            "P03-T13-O04"
           ],
           "checkboxDrift": false
         },
@@ -14663,13 +14671,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260813160734-minhosong-mse-g5IjsQ",
@@ -14707,15 +14715,20 @@
               "comment": "R.GateOxide.M1/M2/M3 및 R.SN/R.Channel/R.BL region과 storage/bitline/gate_m1/gate_m2/gate_m3 contact를 확인한 자료이다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-17T09:46:51.165Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-13T16:07:34.680Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-17T09:46:51.165Z"
                   }
                 ],
                 "legacy": false
@@ -14732,13 +14745,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260813160812-minhosong-mse-gik9DQ",
@@ -14781,15 +14794,20 @@
               "comment": "현재 P3 기준 구조의 전체 mesh, junction 확대, WF boundary 주변 refinement를 확인한 자료이다. T16의 mesh 전/후 안정성 비교와는 별도이다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-17T09:45:21.304Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-13T16:08:12.385Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-17T09:45:21.304Z"
                   }
                 ],
                 "legacy": false
