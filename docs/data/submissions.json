@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T12:13:12.689Z",
+  "updatedAt": "2026-08-17T12:13:26.390Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -6929,7 +6929,21 @@
           }
         ],
         "comment": "P03-T15-O04 — Ion·Ioff·Vth·SS·GIDL 통합 지표표\n\nG0/G1/G2를 T14와 동일한 추출 기준으로 비교했다.\nG1은 Ion을 높이지만 Ioff와 DIBL 열화가 크다. G2는 Ion이 G0보다 약 2.9% 낮지만 Ioff와 DIBL을 크게 개선하고 GIDL은 증가하지 않는다.\n따라서 현재 coarse 결과에서는 G2가 가장 균형적인 방향이다.",
-        "commentLabel": "제출 메모"
+        "commentLabel": "제출 메모",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-17T12:13:00.983Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
