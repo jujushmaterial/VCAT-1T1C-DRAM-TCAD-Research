@@ -20,5 +20,19 @@
       "path": "members/SongMinho/phases/phase-03/tasks/P03-T13/outputs/P03-T13-O05/submissions/20260817100157-minhosong-mse-6w4T8g/files/P03-T13-O06_Mesh_Overall.png",
       "size": 51822
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-17T10:01:57.553Z"
+      }
+    ],
+    "legacy": false
+  }
 }
