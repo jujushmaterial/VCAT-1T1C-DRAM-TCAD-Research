@@ -1,0 +1,69 @@
+{
+  "submissionId": "20260817143758-minhosong-mse-dsEh9Q",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T15",
+  "taskText": "최소 Geometry Check 및 통합 전기특성 평가",
+  "outputId": "P03-T15-O05",
+  "outputText": "양방향 전류 비대칭 비교",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-17T14:37:58.688Z",
+  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q",
+  "summary": "10개 파일 · 133.3KB",
+  "files": [
+    {
+      "name": "P03-T15-O05_G0_FWD_Vd0p05.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G0_FWD_Vd0p05.csv",
+      "size": 13641
+    },
+    {
+      "name": "P03-T15-O05_G0_FWD_Vd1p0.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G0_FWD_Vd1p0.csv",
+      "size": 13638
+    },
+    {
+      "name": "P03-T15-O05_G0_REV_Vd0p05.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G0_REV_Vd0p05.csv",
+      "size": 13640
+    },
+    {
+      "name": "P03-T15-O05_G0_REV_Vd1p0.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G0_REV_Vd1p0.csv",
+      "size": 13621
+    },
+    {
+      "name": "P03-T15-O05_G1_FWD_Vd0p05.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G1_FWD_Vd0p05.csv",
+      "size": 13810
+    },
+    {
+      "name": "P03-T15-O05_G1_FWD_Vd1p0.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G1_FWD_Vd1p0.csv",
+      "size": 13636
+    },
+    {
+      "name": "P03-T15-O05_G1_REV_Vd0p05.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G1_REV_Vd0p05.csv",
+      "size": 13624
+    },
+    {
+      "name": "P03-T15-O05_G1_REV_Vd1p0.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G1_REV_Vd1p0.csv",
+      "size": 13635
+    },
+    {
+      "name": "P03-T15-O05_G2_FWD_Vd0p05.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G2_FWD_Vd0p05.csv",
+      "size": 13626
+    },
+    {
+      "name": "P03-T15-O05_G2_FWD_Vd1p0.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143758-minhosong-mse-dsEh9Q/files/P03-T15-O05_G2_FWD_Vd1p0.csv",
+      "size": 13585
+    }
+  ]
+}
