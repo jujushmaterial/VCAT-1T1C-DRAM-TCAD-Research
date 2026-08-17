@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T16:31:24+09:00",
+  "generatedAt": "2026-08-17T18:45:23+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11598,9 +11598,9 @@
       "tasksDone": 3,
       "tasksTotal": 8,
       "issueTasksDone": 3,
-      "outputsDone": 8,
+      "outputsDone": 9,
       "outputsTotal": 45,
-      "requiredOutputsDone": 2,
+      "requiredOutputsDone": 3,
       "requiredOutputsTotal": 36,
       "tasks": [
         {
@@ -12183,13 +12183,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260813160915-minhosong-mse-gptDfg",
@@ -12217,15 +12217,20 @@
                   "comment": "L-H-L 3-zone 구조, contact mapping, 1:1:1 segment, boundary 위치와 기준 mesh 조건을 고정한 WF Split 실행 baseline 확인 자료이다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-17T09:45:09.780Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-13T16:09:15.507Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-17T09:45:09.780Z"
                       }
                     ],
                     "legacy": false
@@ -12236,16 +12241,15 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 2,
+          "requiredOutputsDone": 3,
           "requiredOutputsTotal": 7,
-          "outputsDone": 2,
+          "outputsDone": 3,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
             "P03-T13-O03",
             "P03-T13-O04",
             "P03-T13-O05",
-            "P03-T13-O06",
-            "P03-T13-O07"
+            "P03-T13-O06"
           ],
           "checkboxDrift": false
         },
@@ -14802,13 +14806,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260813160915-minhosong-mse-gptDfg",
@@ -14836,15 +14840,20 @@
               "comment": "L-H-L 3-zone 구조, contact mapping, 1:1:1 segment, boundary 위치와 기준 mesh 조건을 고정한 WF Split 실행 baseline 확인 자료이다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-17T09:45:09.780Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-13T16:09:15.507Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-17T09:45:09.780Z"
                   }
                 ],
                 "legacy": false
