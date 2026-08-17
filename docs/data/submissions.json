@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T12:05:07.215Z",
+  "updatedAt": "2026-08-17T12:05:13.263Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -6374,7 +6374,21 @@
           }
         ],
         "comment": "P03-T12-O04 — 방향별 Id–Vg·전류 비교\n\n원본 SVisual Forward Id–Vg 5조건 비교와 raw CSV 10개를 제출한다.\n\n그래프 축:\n- X축: gate_sn OuterVoltage [V] (gate_sn/gate_bl은 같은 word-line 전압으로 함께 sweep)\n- Y축: storage TotalCurrent [A], signed raw current\n\nVd=0.05 V와 Vd=1.0 V를 각각 비교한다. 표 지표 계산 시 전류 크기 |Id|를 사용하지만 raw CSV의 부호는 보존했다.\nΔWF 부호를 바꾸었을 때 같은 평균 WF에서도 Id–Vg 이동과 전류가 달라져 spatial WF order 효과가 확인된다.",
-        "commentLabel": "제출 메모"
+        "commentLabel": "제출 메모",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-17T12:04:49.690Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
