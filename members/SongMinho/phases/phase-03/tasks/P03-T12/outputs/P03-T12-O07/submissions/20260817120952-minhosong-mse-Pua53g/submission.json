@@ -22,5 +22,19 @@
     }
   ],
   "comment": "P03-T12-O07 — Phase 1 SProcess 대비 VCAT 경향성 결론\n\nPhase 1에서 확인된 '같은 평균 WF라도 LH/HL 공간 순서가 결과를 바꾼다'는 방향성 효과가 P3 VCAT Dual-Metal에서도 재현되는지 비교했다.\n절대 metric을 직접 비교하지 않고, spatial WF order → barrier/field 변화 → Id–Vg·누설 차이라는 공통 경향만 연결한다.",
-  "commentLabel": "제출 메모"
+  "commentLabel": "제출 메모",
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-17T12:09:52.064Z"
+      }
+    ],
+    "legacy": false
+  }
 }
