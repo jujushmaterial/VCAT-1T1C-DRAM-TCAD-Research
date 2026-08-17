@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T21:06:04+09:00",
+  "generatedAt": "2026-08-17T21:06:50+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11969,7 +11969,7 @@
             {
               "id": "P03-T12-O05",
               "text": "Ion·Ioff·Vth·SS·GIDL 통합표",
-              "type": "table",
+              "type": "files",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -14942,7 +14942,7 @@
         {
           "id": "P03-T12-O05",
           "text": "Ion·Ioff·Vth·SS·GIDL 통합표",
-          "type": "table",
+          "type": "files",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -17442,7 +17442,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-13T16:13:33Z",
+      "updatedAt": "2026-08-17T12:06:36Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 3
