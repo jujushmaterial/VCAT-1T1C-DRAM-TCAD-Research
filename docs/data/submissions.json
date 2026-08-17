@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T12:06:56.149Z",
+  "updatedAt": "2026-08-17T12:07:12.751Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -6487,7 +6487,9 @@
             "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_5WF_SVisual.png",
             "size": 417964
           }
-        ]
+        ],
+        "comment": "P03-T12-O05 — Ion·Ioff·Vth·SS·GIDL 통합표\n\nForward raw와 신규 Dual-Metal GIDL raw를 동일 추출법으로 통합했다.\n\nGIDL 그래프 축:\n- X축: gate_sn OuterVoltage [V], 0→-0.4 V sweep\n- Y축: storage TotalCurrent [A], signed raw current\n- 정량 GIDL 지표: |storage TotalCurrent| at Vd=1.0 V, Vg=-0.4 V\n\n핵심 경향:\n- negative ΔWF(WF_SN<WF_BL): Ioff/GIDL/DIBL 감소, 대신 큰 |ΔWF|에서 Vth 증가와 Ion 감소\n- positive ΔWF(WF_SN>WF_BL): GIDL/Ioff/DIBL 악화\n따라서 평균 WF뿐 아니라 공간적 WF 순서가 전기특성에 중요하다.",
+        "commentLabel": "제출 메모"
       }
     ]
   }
