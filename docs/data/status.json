@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T21:06:50+09:00",
+  "generatedAt": "2026-08-17T21:07:19+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11975,13 +11975,77 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260817120656-minhosong-mse-xknaZw",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T12",
+                  "taskText": "Dual-Metal 전기적 특성 경향 검증",
+                  "outputId": "P03-T12-O05",
+                  "outputText": "Ion·Ioff·Vth·SS·GIDL 통합표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-17T12:06:56.149Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw",
+                  "summary": "7개 파일 · 483.4KB",
+                  "files": [
+                    {
+                      "name": "P03-T12-O05_DualMetal_DC_GIDL_Metrics.xlsx",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_DualMetal_DC_GIDL_Metrics.xlsx",
+                      "size": 5268
+                    },
+                    {
+                      "name": "P03-T12-O05_GIDL_1.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_1.csv",
+                      "size": 14278
+                    },
+                    {
+                      "name": "P03-T12-O05_GIDL_2.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_2.csv",
+                      "size": 14298
+                    },
+                    {
+                      "name": "P03-T12-O05_GIDL_3.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_3.csv",
+                      "size": 14281
+                    },
+                    {
+                      "name": "P03-T12-O05_GIDL_4.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_4.csv",
+                      "size": 14275
+                    },
+                    {
+                      "name": "P03-T12-O05_GIDL_5.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_5.csv",
+                      "size": 14638
+                    },
+                    {
+                      "name": "P03-T12-O05_GIDL_5WF_SVisual.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_5WF_SVisual.png",
+                      "size": 417964
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T12-O06",
@@ -14948,13 +15012,77 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260817120656-minhosong-mse-xknaZw",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T12",
+              "taskText": "Dual-Metal 전기적 특성 경향 검증",
+              "outputId": "P03-T12-O05",
+              "outputText": "Ion·Ioff·Vth·SS·GIDL 통합표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-17T12:06:56.149Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw",
+              "summary": "7개 파일 · 483.4KB",
+              "files": [
+                {
+                  "name": "P03-T12-O05_DualMetal_DC_GIDL_Metrics.xlsx",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_DualMetal_DC_GIDL_Metrics.xlsx",
+                  "size": 5268
+                },
+                {
+                  "name": "P03-T12-O05_GIDL_1.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_1.csv",
+                  "size": 14278
+                },
+                {
+                  "name": "P03-T12-O05_GIDL_2.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_2.csv",
+                  "size": 14298
+                },
+                {
+                  "name": "P03-T12-O05_GIDL_3.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_3.csv",
+                  "size": 14281
+                },
+                {
+                  "name": "P03-T12-O05_GIDL_4.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_4.csv",
+                  "size": 14275
+                },
+                {
+                  "name": "P03-T12-O05_GIDL_5.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_5.csv",
+                  "size": 14638
+                },
+                {
+                  "name": "P03-T12-O05_GIDL_5WF_SVisual.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O05/submissions/20260817120656-minhosong-mse-xknaZw/files/P03-T12-O05_GIDL_5WF_SVisual.png",
+                  "size": 417964
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T12"
         },
         {
