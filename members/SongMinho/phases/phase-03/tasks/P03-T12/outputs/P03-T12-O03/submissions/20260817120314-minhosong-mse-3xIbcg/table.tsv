@@ -1,0 +1,6 @@
+Case	DeltaWF_eV	WF_SN_eV	WF_BL_eV	RatioSN	SN_nm	BL_nm	Forward_Vd_V	GIDLDrain_V	GIDLGateStop_V
+DM0	0	4.7	4.7	0.5	30	30	0.05/1.0	1	-0.4
+DM+0.4	0.4	4.9	4.5	0.5	30	30	0.05/1.0	1	-0.4
+DM+0.2	0.2	4.8	4.6	0.5	30	30	0.05/1.0	1	-0.4
+DM-0.2	-0.2	4.6	4.8	0.5	30	30	0.05/1.0	1	-0.4
+DM-0.4	-0.4	4.5	4.9	0.5	30	30	0.05/1.0	1	-0.4

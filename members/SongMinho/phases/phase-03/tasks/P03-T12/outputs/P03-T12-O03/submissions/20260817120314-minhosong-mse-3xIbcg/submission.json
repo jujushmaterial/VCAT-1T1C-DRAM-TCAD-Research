@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260817120314-minhosong-mse-3xIbcg",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T12",
+  "taskText": "Dual-Metal 전기적 특성 경향 검증",
+  "outputId": "P03-T12-O03",
+  "outputText": "Dual-Metal 비교 조건표",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "table",
+  "uploadedAt": "2026-08-17T12:03:14.435Z",
+  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O03/submissions/20260817120314-minhosong-mse-3xIbcg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O03/submissions/20260817120314-minhosong-mse-3xIbcg",
+  "summary": "6행 × 10열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O03/submissions/20260817120314-minhosong-mse-3xIbcg/table.tsv",
+      "size": 316
+    },
+    {
+      "name": "table.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O03/submissions/20260817120314-minhosong-mse-3xIbcg/table.csv",
+      "size": 325
+    },
+    {
+      "name": "table.json",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O03/submissions/20260817120314-minhosong-mse-3xIbcg/table.json",
+      "size": 1022
+    }
+  ],
+  "table": {
+    "rowCount": 6,
+    "columnCount": 10,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O03/submissions/20260817120314-minhosong-mse-3xIbcg/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O03/submissions/20260817120314-minhosong-mse-3xIbcg/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O03/submissions/20260817120314-minhosong-mse-3xIbcg/table.tsv"
+  }
+}
