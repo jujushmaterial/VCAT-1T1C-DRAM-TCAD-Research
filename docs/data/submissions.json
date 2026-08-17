@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T12:11:56.227Z",
+  "updatedAt": "2026-08-17T12:12:03.074Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -6840,7 +6840,21 @@
           }
         ],
         "comment": "P03-T15-O02 — 통합 Raw Data\n\nG0/G1/G2 각각 Forward Vd=0.05 V, Forward Vd=1.0 V, GIDL의 signed raw CSV를 그대로 제출한다.\nForward/GIDL 모두 X축 변수는 gate_m1 OuterVoltage [V], Y축은 storage TotalCurrent [A]이다.\n원본 부호를 보존하며 지표 추출 시에만 |Id|를 사용한다.",
-        "commentLabel": "제출 메모"
+        "commentLabel": "제출 메모",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-17T12:11:36.746Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
