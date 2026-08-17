@@ -40,5 +40,7 @@
       "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O07/submissions/20260817121434-minhosong-mse-QURRlA/files/P03-T15-O07_SingleMetal_Comparison_and_Significance.md",
       "size": 1152
     }
-  ]
+  ],
+  "comment": "P03-T15-O07 — P4 전달 대표후보 통합 비교표 (PROVISIONAL)\n\n현재 데이터만으로는 G2(15/30/15)가 가장 균형적인 후보이다.\nSingle-Metal P2 및 3-zone uniform 4.70 control과 함께 비교해 L-H-L WF split 자체의 의의를 분리했다.\n단, 공식 T15-O05 양방향 전류 비대칭이 아직 없으므로 '최종 대표구조'가 아니라 '현재 대표후보'로만 업로드한다.",
+  "commentLabel": "제출 메모"
 }
