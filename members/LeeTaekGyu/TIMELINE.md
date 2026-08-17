@@ -360,3 +360,22 @@ overdrive(Vth+0.3 V) 기준으로는 5.046e-06 vs 5.091e-06으로 거의
 - **작업 이유:** 잘못 제출했거나 중복된 제출본을 대시보드와 저장소에서 불일치 없이 제거하기 위해서입니다.
 - **결과 및 검증:** 삭제 작업을 하나의 Git 커밋으로 처리했습니다. 해당 산출물의 마지막 제출본이 삭제되어 대시보드에는 미제출 또는 파일 없음으로 표시됩니다.
 - **남은 일:** 필요하면 올바른 결과물을 다시 제출합니다.
+
+
+## 2026-08-18 00:56 KST — 자동 타임라인 보완
+
+- **작성자:** GitHub Actions (`@LEE-TAEK-GYU`의 변경 감지)
+- **Phase / Issue:** Phase 2 / Issue 미확인
+- **결과물 ID:** `해당 없음`
+- **변경 유형:** 자동 기록
+- **변경 파일:**
+  - `members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/README.md` (생성)
+  - `members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw/README.md` (생성)
+  - `members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw/files/KakaoTalk_20260818_002544395.png` (생성)
+  - `members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw/files/KakaoTalk_20260818_002622205.png` (생성)
+  - `members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw/files/KakaoTalk_20260818_002956553.png` (생성)
+  - `members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw/submission.json` (생성)
+- **작업 내용:** 개인 폴더 변경에서 수동 `TIMELINE.md` 기록이 확인되지 않아 변경 파일 목록을 자동으로 추가했습니다.
+- **작업 이유:** 개인 폴더의 모든 변경 이력을 반드시 남기는 저장소 규칙을 보장하기 위해서입니다.
+- **결과 및 검증:** 커밋 `165d1e9449ee` 감지. 커밋 메시지: `Submit P02-T11-O01 result by LEE-TAEK-GYU`. 파일 내용과 TCAD 결과의 타당성은 자동 검증하지 않았습니다.
+- **남은 일:** 실제 작업자는 필요하면 이 자동 기록 아래에 목적, 조건, 결과와 검증 내용을 보완해야 합니다.
