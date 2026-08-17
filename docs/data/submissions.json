@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T15:55:41.223Z",
+  "updatedAt": "2026-08-17T15:56:24.342Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -7272,7 +7272,21 @@
             "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O01/submissions/20260817155541-LEE-TAEK-GYU-HZVJXw/files/KakaoTalk_20260818_002956553.png",
             "size": 911402
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-17T15:55:41.223Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
