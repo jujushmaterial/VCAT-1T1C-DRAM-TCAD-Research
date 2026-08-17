@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T16:30:58+09:00",
+  "generatedAt": "2026-08-17T16:31:24+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11598,9 +11598,9 @@
       "tasksDone": 3,
       "tasksTotal": 8,
       "issueTasksDone": 3,
-      "outputsDone": 7,
+      "outputsDone": 8,
       "outputsTotal": 45,
-      "requiredOutputsDone": 1,
+      "requiredOutputsDone": 2,
       "requiredOutputsTotal": 36,
       "tasks": [
         {
@@ -11824,13 +11824,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260813160459-minhosong-mse-VemAOQ",
@@ -11861,15 +11861,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-17T07:31:08.317Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-13T16:04:59.938Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-17T07:31:08.317Z"
                       }
                     ],
                     "legacy": false
@@ -12231,12 +12236,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 1,
+          "requiredOutputsDone": 2,
           "requiredOutputsTotal": 7,
-          "outputsDone": 1,
+          "outputsDone": 2,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P03-T13-O02",
             "P03-T13-O03",
             "P03-T13-O04",
             "P03-T13-O05",
@@ -14434,13 +14438,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260813160459-minhosong-mse-VemAOQ",
@@ -14471,15 +14475,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-17T07:31:08.317Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-13T16:04:59.938Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-17T07:31:08.317Z"
                   }
                 ],
                 "legacy": false
