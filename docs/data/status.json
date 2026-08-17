@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T21:11:05+09:00",
+  "generatedAt": "2026-08-17T21:11:25+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -13985,7 +13985,7 @@
             {
               "id": "P03-T15-O02",
               "text": "통합 Raw Data",
-              "type": "table",
+              "type": "files",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -14019,7 +14019,7 @@
             {
               "id": "P03-T15-O04",
               "text": "Ion·Ioff·Vth·SS·GIDL 통합 지표표",
-              "type": "table",
+              "type": "files",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -14070,7 +14070,7 @@
             {
               "id": "P03-T15-O07",
               "text": "P4 전달 대표후보 통합 비교표",
-              "type": "table",
+              "type": "files",
               "review": "recommended",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -17244,7 +17244,7 @@
         {
           "id": "P03-T15-O02",
           "text": "통합 Raw Data",
-          "type": "table",
+          "type": "files",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -17280,7 +17280,7 @@
         {
           "id": "P03-T15-O04",
           "text": "Ion·Ioff·Vth·SS·GIDL 통합 지표표",
-          "type": "table",
+          "type": "files",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -17334,7 +17334,7 @@
         {
           "id": "P03-T15-O07",
           "text": "P4 전달 대표후보 통합 비교표",
-          "type": "table",
+          "type": "files",
           "review": "recommended",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -18106,7 +18106,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-17T12:06:36Z",
+      "updatedAt": "2026-08-17T12:11:15Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 3
