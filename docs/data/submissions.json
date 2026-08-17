@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T12:10:10.591Z",
+  "updatedAt": "2026-08-17T12:10:29.055Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -6707,6 +6707,50 @@
             }
           ],
           "legacy": false
+        }
+      }
+    ],
+    "P03-T15-O01": [
+      {
+        "submissionId": "20260817121029-minhosong-mse-VALY3A",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T15",
+        "taskText": "최소 Geometry Check 및 통합 전기특성 평가",
+        "outputId": "P03-T15-O01",
+        "outputText": "Coarse Geometry 조건표",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "table",
+        "uploadedAt": "2026-08-17T12:10:29.055Z",
+        "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O01/submissions/20260817121029-minhosong-mse-VALY3A",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O01/submissions/20260817121029-minhosong-mse-VALY3A",
+        "summary": "13행 × 12열 표",
+        "files": [
+          {
+            "name": "table.tsv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O01/submissions/20260817121029-minhosong-mse-VALY3A/table.tsv",
+            "size": 1188
+          },
+          {
+            "name": "table.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O01/submissions/20260817121029-minhosong-mse-VALY3A/table.csv",
+            "size": 1204
+          },
+          {
+            "name": "table.json",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O01/submissions/20260817121029-minhosong-mse-VALY3A/table.json",
+            "size": 2843
+          }
+        ],
+        "table": {
+          "rowCount": 13,
+          "columnCount": 12,
+          "hasHeader": true,
+          "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O01/submissions/20260817121029-minhosong-mse-VALY3A/table.json",
+          "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O01/submissions/20260817121029-minhosong-mse-VALY3A/table.csv",
+          "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O01/submissions/20260817121029-minhosong-mse-VALY3A/table.tsv"
         }
       }
     ]
