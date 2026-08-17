@@ -1,0 +1,4 @@
+Node,DeltaWF_eV,WF_SN_eV,WF_BL_eV,EField_image,BTBT_image,CBE_image,Cutline
+n19,0.0,4.70,4.70,P03-T12-O06_EField_n19_Delta0.png,P03-T12-O06_BTBT_n19_Delta0.png,P03-T12-O06_CBE_n19_Delta0.png,"y=0.0055 um; x=0 to 0.1 um"
+n67,+0.4,4.90,4.50,P03-T12-O06_EField_n67_Delta_p0p4.png,P03-T12-O06_BTBT_n67_Delta_p0p4.png,P03-T12-O06_CBE_n67_Delta_p0p4.png,"y=0.0055 um; x=0 to 0.1 um"
+n127,-0.4,4.50,4.90,P03-T12-O06_EField_n127_Delta_m0p4.png,P03-T12-O06_BTBT_n127_Delta_m0p4.png,P03-T12-O06_CBE_n127_Delta_m0p4.png,"y=0.0055 um; x=0 to 0.1 um"

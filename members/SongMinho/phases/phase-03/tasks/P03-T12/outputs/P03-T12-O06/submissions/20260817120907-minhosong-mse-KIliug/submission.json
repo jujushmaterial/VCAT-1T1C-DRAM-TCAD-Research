@@ -1,0 +1,59 @@
+{
+  "submissionId": "20260817120907-minhosong-mse-KIliug",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T12",
+  "taskText": "Dual-Metal 전기적 특성 경향 검증",
+  "outputId": "P03-T12-O06",
+  "outputText": "대표 Electric Field·Barrier 비교",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-17T12:09:07.239Z",
+  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120907-minhosong-mse-KIliug",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120907-minhosong-mse-KIliug",
+  "summary": "8개 파일 · 588.5KB",
+  "files": [
+    {
+      "name": "P03-T12-O06_CBE_Cutline_n67_Delta_p0p4.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120907-minhosong-mse-KIliug/files/P03-T12-O06_CBE_Cutline_n67_Delta_p0p4.csv",
+      "size": 3426
+    },
+    {
+      "name": "P03-T12-O06_CBE_Cutline_n127_Delta_m0p4.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120907-minhosong-mse-KIliug/files/P03-T12-O06_CBE_Cutline_n127_Delta_m0p4.csv",
+      "size": 3428
+    },
+    {
+      "name": "P03-T12-O06_EField_n127_Delta_m0p4.png",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120907-minhosong-mse-KIliug/files/P03-T12-O06_EField_n127_Delta_m0p4.png",
+      "size": 81768
+    },
+    {
+      "name": "P03-T12-O06_Field_BTBT_Summary.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120907-minhosong-mse-KIliug/files/P03-T12-O06_Field_BTBT_Summary.csv",
+      "size": 208
+    },
+    {
+      "name": "P03-T12-O06_Visual_Manifest.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120907-minhosong-mse-KIliug/files/P03-T12-O06_Visual_Manifest.csv",
+      "size": 538
+    },
+    {
+      "name": "P03-T12-O06_CBE_3Condition_Overview_SVisual.png",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120907-minhosong-mse-KIliug/files/P03-T12-O06_CBE_3Condition_Overview_SVisual.png",
+      "size": 419532
+    },
+    {
+      "name": "P03-T12-O06_CBE_Cutline_n19_Delta0.csv",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120907-minhosong-mse-KIliug/files/P03-T12-O06_CBE_Cutline_n19_Delta0.csv",
+      "size": 3435
+    },
+    {
+      "name": "P03-T12-O06_CBE_Cutline_Overlay_SVisual.png",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120907-minhosong-mse-KIliug/files/P03-T12-O06_CBE_Cutline_Overlay_SVisual.png",
+      "size": 90289
+    }
+  ]
+}
