@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T09:45:09.780Z",
+  "updatedAt": "2026-08-17T09:45:21.304Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5161,15 +5161,20 @@
         "comment": "현재 P3 기준 구조의 전체 mesh, junction 확대, WF boundary 주변 refinement를 확인한 자료이다. T16의 mesh 전/후 안정성 비교와는 별도이다.",
         "commentLabel": "제출 메모",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "seanthe17",
+          "reviewedAt": "2026-08-17T09:45:21.304Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-13T16:08:12.385Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "seanthe17",
+              "at": "2026-08-17T09:45:21.304Z"
             }
           ],
           "legacy": false
