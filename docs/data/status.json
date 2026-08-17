@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T21:08:06+09:00",
+  "generatedAt": "2026-08-17T21:08:40+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -12063,13 +12063,92 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260817120810-minhosong-mse-4WRs6Q",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T12",
+                  "taskText": "Dual-Metal 전기적 특성 경향 검증",
+                  "outputId": "P03-T12-O06",
+                  "outputText": "대표 Electric Field·Barrier 비교",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-17T12:08:10.329Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q",
+                  "summary": "10개 파일 · 1.42MB",
+                  "files": [
+                    {
+                      "name": "P03-T12-O06_BTBT_n19_Delta0.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_BTBT_n19_Delta0.png",
+                      "size": 79216
+                    },
+                    {
+                      "name": "P03-T12-O06_BTBT_n67_Delta_p0p4.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_BTBT_n67_Delta_p0p4.png",
+                      "size": 80595
+                    },
+                    {
+                      "name": "P03-T12-O06_BTBT_n127_Delta_m0p4.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_BTBT_n127_Delta_m0p4.png",
+                      "size": 80065
+                    },
+                    {
+                      "name": "P03-T12-O06_CBE_Cutline_Position_Proof.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_CBE_Cutline_Position_Proof.png",
+                      "size": 428115
+                    },
+                    {
+                      "name": "P03-T12-O06_CBE_Cutline_Proof_and_Overlay.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_CBE_Cutline_Proof_and_Overlay.png",
+                      "size": 428115
+                    },
+                    {
+                      "name": "P03-T12-O06_CBE_n19_Delta0.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_CBE_n19_Delta0.png",
+                      "size": 76291
+                    },
+                    {
+                      "name": "P03-T12-O06_CBE_n67_Delta_p0p4.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_CBE_n67_Delta_p0p4.png",
+                      "size": 76593
+                    },
+                    {
+                      "name": "P03-T12-O06_CBE_n127_Delta_m0p4.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_CBE_n127_Delta_m0p4.png",
+                      "size": 78268
+                    },
+                    {
+                      "name": "P03-T12-O06_EField_n19_Delta0.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_EField_n19_Delta0.png",
+                      "size": 78923
+                    },
+                    {
+                      "name": "P03-T12-O06_EField_n67_Delta_p0p4.png",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_EField_n67_Delta_p0p4.png",
+                      "size": 80857
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T12-O07",
@@ -15108,13 +15187,92 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260817120810-minhosong-mse-4WRs6Q",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T12",
+              "taskText": "Dual-Metal 전기적 특성 경향 검증",
+              "outputId": "P03-T12-O06",
+              "outputText": "대표 Electric Field·Barrier 비교",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-17T12:08:10.329Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q",
+              "summary": "10개 파일 · 1.42MB",
+              "files": [
+                {
+                  "name": "P03-T12-O06_BTBT_n19_Delta0.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_BTBT_n19_Delta0.png",
+                  "size": 79216
+                },
+                {
+                  "name": "P03-T12-O06_BTBT_n67_Delta_p0p4.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_BTBT_n67_Delta_p0p4.png",
+                  "size": 80595
+                },
+                {
+                  "name": "P03-T12-O06_BTBT_n127_Delta_m0p4.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_BTBT_n127_Delta_m0p4.png",
+                  "size": 80065
+                },
+                {
+                  "name": "P03-T12-O06_CBE_Cutline_Position_Proof.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_CBE_Cutline_Position_Proof.png",
+                  "size": 428115
+                },
+                {
+                  "name": "P03-T12-O06_CBE_Cutline_Proof_and_Overlay.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_CBE_Cutline_Proof_and_Overlay.png",
+                  "size": 428115
+                },
+                {
+                  "name": "P03-T12-O06_CBE_n19_Delta0.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_CBE_n19_Delta0.png",
+                  "size": 76291
+                },
+                {
+                  "name": "P03-T12-O06_CBE_n67_Delta_p0p4.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_CBE_n67_Delta_p0p4.png",
+                  "size": 76593
+                },
+                {
+                  "name": "P03-T12-O06_CBE_n127_Delta_m0p4.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_CBE_n127_Delta_m0p4.png",
+                  "size": 78268
+                },
+                {
+                  "name": "P03-T12-O06_EField_n19_Delta0.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_EField_n19_Delta0.png",
+                  "size": 78923
+                },
+                {
+                  "name": "P03-T12-O06_EField_n67_Delta_p0p4.png",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T12/outputs/P03-T12-O06/submissions/20260817120810-minhosong-mse-4WRs6Q/files/P03-T12-O06_EField_n67_Delta_p0p4.png",
+                  "size": 80857
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T12"
         },
         {
