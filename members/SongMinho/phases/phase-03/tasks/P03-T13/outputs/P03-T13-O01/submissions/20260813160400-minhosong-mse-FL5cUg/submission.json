@@ -27,15 +27,20 @@
     }
   ],
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "seanthe17",
+    "reviewedAt": "2026-08-17T07:30:42.320Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-13T16:04:00.279Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "seanthe17",
+        "at": "2026-08-17T07:30:42.320Z"
       }
     ],
     "legacy": false
