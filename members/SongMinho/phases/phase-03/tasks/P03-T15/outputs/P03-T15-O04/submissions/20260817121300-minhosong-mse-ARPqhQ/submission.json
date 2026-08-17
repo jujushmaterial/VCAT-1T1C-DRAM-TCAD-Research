@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260817121300-minhosong-mse-ARPqhQ",
+  "phaseId": 3,
+  "issueNumber": 3,
+  "taskId": "P03-T15",
+  "taskText": "최소 Geometry Check 및 통합 전기특성 평가",
+  "outputId": "P03-T15-O04",
+  "outputText": "Ion·Ioff·Vth·SS·GIDL 통합 지표표",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-17T12:13:00.983Z",
+  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O04/submissions/20260817121300-minhosong-mse-ARPqhQ",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O04/submissions/20260817121300-minhosong-mse-ARPqhQ",
+  "summary": "1개 파일 · 4.8KB",
+  "files": [
+    {
+      "name": "P03-T15-O04_Geometry_DC_GIDL_Metrics.xlsx",
+      "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O04/submissions/20260817121300-minhosong-mse-ARPqhQ/files/P03-T15-O04_Geometry_DC_GIDL_Metrics.xlsx",
+      "size": 4940
+    }
+  ]
+}
