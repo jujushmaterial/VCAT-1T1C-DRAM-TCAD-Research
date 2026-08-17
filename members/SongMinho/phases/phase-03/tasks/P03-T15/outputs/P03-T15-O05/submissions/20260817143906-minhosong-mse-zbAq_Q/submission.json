@@ -25,5 +25,19 @@
       "path": "members/SongMinho/phases/phase-03/tasks/P03-T15/outputs/P03-T15-O05/submissions/20260817143906-minhosong-mse-zbAq_Q/files/P03-T15-O05_G2_REV_Vd1p0.csv",
       "size": 13813
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-17T14:39:06.405Z"
+      }
+    ],
+    "legacy": false
+  }
 }
