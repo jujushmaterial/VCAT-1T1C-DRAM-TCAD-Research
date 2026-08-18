@@ -40,5 +40,19 @@
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.tsv"
   },
   "comment": "P03-T14에서 확정한 Fixed WF를 P4 전달값으로 정리했습니다. WF_LOW=4.33 eV(Ti), WF_HIGH=4.70 eV(TiN), gate_m1/m2/m3=4.33/4.70/4.33 eV입니다. 이후 P4~P9에서는 해당 WF를 다시 Sweep하지 않습니다.",
-  "commentLabel": "표 설명"
+  "commentLabel": "표 설명",
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-18T04:48:18.889Z"
+      }
+    ],
+    "legacy": false
+  }
 }
