@@ -1,0 +1,21 @@
+P03-T16-O01 P4 전달 L-H-L 대표구조 조건표			
+			
+Item	Value	Unit	Note
+Structure	Low-High-Low three-zone VCAT		P4 final representative
+Geometry ID	G2		T15/T16 representative
+M1:M2:M3	1:2:1		relative segment ratio
+Segment lengths	15 / 30 / 15	nm	Lg=60 nm
+Dpillar	12	nm	
+Tox	1	nm	
+Lg	60	nm	
+Lsn / Lbl	20 / 20	nm	
+Xgate span	0.020 ~ 0.080	um	
+Xbnd1	0.035	um	M1/M2 boundary
+Xbnd2	0.065	um	M2/M3 boundary
+Nbody	1e17	cm^-3	
+NSD	1e20	cm^-3	
+JDepthSN / JDepthBL	20 / 20	nm	
+GaussFactor	0.8		
+MeshScale	1		
+Temp	300	K	
+Final mesh	Mesh ON		WF-boundary dedicated refinement retained
