@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T13:54:26+09:00",
+  "generatedAt": "2026-08-18T14:09:42+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -14973,7 +14973,7 @@
             {
               "id": "P03-T16-O05",
               "text": "Mesh 전·후 핵심 지표 안정성",
-              "type": "table",
+              "type": "files",
               "review": "recommended",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -15065,9 +15065,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-18T04:54:04.770Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -18968,7 +18973,7 @@
         {
           "id": "P03-T16-O05",
           "text": "Mesh 전·후 핵심 지표 안정성",
-          "type": "table",
+          "type": "files",
           "review": "recommended",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -19063,9 +19068,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-18T04:54:04.770Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -19702,7 +19712,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-18T04:53:39Z",
+      "updatedAt": "2026-08-18T05:09:30Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 4
