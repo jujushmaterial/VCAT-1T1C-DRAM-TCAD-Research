@@ -1,300 +1,233 @@
-# Phase 4 1T1C 중단 결정 및 DRAM Future Work 인수인계 — 2026-08-17
+# Phase 4 1T1C 검토 중단 및 SF_DRAM 분석 정리
 
-## 1. 기록 성격
+## 1. Phase 4 검토 목적
 
-- **작업자:** 이선형 (`@LSH-linear`)
-- **관련 Phase / Issue:** Phase 4 / #4, 이후 Phase 5~9 연구 흐름 참고
-- **관련 Task:** P04-T01~T03 검토 및 개인 사전검증
-- **현재 Phase 4 실제 Assignee:** `@seanthe17`
-- **문서 성격:** 조원 논의 결과와 이선형의 P4 사전검증·문헌 검토를 정리한 **개인 인수인계 기록**
-- **공식 제출/Issue 체크/shared 수정:** 수행하지 않음
+Phase 4에서는 P2 Single-Metal VCAT과 P3 L-H-L 구조를 1T1C 환경에 연결하여 Write, Hold, Read 등의 기본 동작을 검증하는 방안을 검토하였다.
 
-> 중요: 2026-08-17 기준 최신 GitHub Issue #4는 여전히 P4에서 공통 1T1C Testbench, Single-Metal baseline, L-H-L 기본 1T1C 동작을 확정하도록 정의되어 있다. 따라서 아래의 “P4 중단”은 사용자에게 전달된 **조원 합의 사항**을 기록한 것이며, 저장소의 공식 Phase 정의는 아직 변경되지 않았다. 향후 팀이 이 방향을 공식 채택하면 P4/P5/P9 연결 문구를 별도로 정비해야 한다.
+이를 위해 Single-Metal 구조를 이용한 Sentaurus Mixed-Mode smoke test를 수행하고, DRAM 동작 조건을 정하기 위한 문헌 조사와 Synopsys 공식 `SF_DRAM` 예제 분석을 병행하였다.
 
-## 2. 이번 결정의 핵심
+---
 
-조원 논의 결과, **현재 연구의 필수 흐름에서 P4 1T1C 검증을 중단**하기로 했다.
+## 2. 1T1C 검증 과정에서 확인된 문제
 
-중단 이유는 1T1C를 단순화하여 우회 구현할 경우 실제 DRAM 동작의 회로 조건을 충분히 반영하지 못해, 오히려 “DRAM 타당성 검증”이라는 주장의 신뢰도를 떨어뜨릴 수 있다고 판단했기 때문이다.
+1T1C 검증을 수행하려면 VCAT 소자 자체의 특성 외에도 여러 회로 조건을 추가로 정의해야 한다.
 
-현재까지 검토 과정에서 1T1C 동작을 정의하려면 구조 외에도 다음 요소를 새롭게 선택해야 함이 확인되었다.
+대표적으로 Storage capacitor 크기, Bit-line 등가 capacitance, BL precharge 전압, WL high/low 전압, cell plate 전압, Write/Read pulse timing, sensing 방식, Read Disturb 및 Retention 판정 기준 등이 필요하다.
 
-- Storage capacitor `Ccell`
-- Bit-line equivalent load `CBL`
-- BL precharge 방식과 전압
-- WL high/low 운용
-- cell plate bias 여부
-- Write/Read/Hold pulse와 시간축
-- Read 시 charge sharing 및 sensing 범위
-- Sense amplifier/BLB/reference/restore를 어디까지 모델링할지
-- Hold/Retention/Read Disturb의 정량 판정 기준
+이 변수들은 서로 독립적인 단순 parameter가 아니라 실제 DRAM의 sensing 및 cell-operating architecture와 연계되어 있다.
 
-이 값들은 단순한 보조 설정이 아니라 서로 결합된 DRAM 회로 조건이다. 충분한 회로 근거 없이 일부 값만 선택하면, 관찰된 결과가 VCAT 구조 차이 때문인지 Testbench 선택 때문인지 분리하기 어려워질 수 있다.
+따라서 이러한 조건을 충분히 검증하지 않은 상태에서 간략화된 1T1C Testbench를 구성하면, 결과가 VCAT 구조 자체의 특성 때문인지 선택한 회로 조건 때문인지 구분하기 어려워질 수 있다.
 
-따라서 이번 연구의 핵심 결과는 우선 **device-level L-H-L gate segmentation geometry 성능·민감도·tolerance**에 집중하고, 1T1C는 시간이 허용될 경우 후속 적용성 검증으로 배치하는 방향이 더 방어적이라고 판단했다.
+---
 
-## 3. 기존 연구 흐름을 우선한 결정
+## 3. 문헌 검토에서 확인한 사항
 
-### 3.1 WL Low
+DRAM 관련 문헌을 조사한 결과 BL precharge, WL bias, cell plate, sensing 방식은 하나의 회로 체계 안에서 함께 결정되는 경우가 많았다.
 
-- **이번 연구 방향:** 기존 P1~P2에서 사용해 온 `WL Low = 0 V` 기준을 유지한다.
-- **검토한 대안:** 실제 DRAM/VCAT 문헌에서 retention 개선을 위한 negative WL bias가 사용됨.
-- **미채택 이유:** 지금 negative WL을 새 nominal 조건으로 도입하면 P1~P2에서 이미 구축한 device 기준을 다시 흔들고 별도의 회로 최적화 문제가 추가된다. 현재 프로젝트의 시간과 연구 범위를 고려하면 새 기준 도입의 비용이 크다.
-- **처리:** 실제 DRAM에서는 negative WL이 사용될 수 있다는 점만 한계/Future Work로 기록한다.
+예를 들어 GND-precharge DRAM은 단순히 Bit Line을 0 V로 초기화하는 방식이 아니라 negative WL, reference scheme, sense amplifier 구조 등과 결합되어 사용된다.
 
-### 3.2 Storage capacitor plate
+또한 conventional half-VDD precharge 방식에서도 `Ccell/CBL` 비율과 charge sharing, sense-amplifier 특성 등이 Read margin에 직접 영향을 준다.
 
-- **이번 연구 방향:** 기존 사전검증과의 연속성을 위해 `Ccell-to-GND` 단순화 모델을 유지하는 쪽으로 정리했다.
-- **검토한 대안:** 실제 DRAM처럼 별도 cell plate node `VCP`를 두고 중간전압을 인가.
-- **미채택 이유:** 본 연구의 핵심은 capacitor reliability/plate 설계가 아니라 VCAT access-transistor geometry 효과이다. VCP를 새로 도입하면 P4에서 새로운 공통 회로조건을 하나 더 정의·검증해야 하고 기존 Single-Metal smoke 결과와 조건도 달라진다.
-- **주의:** 이 선택은 실제 상용 DRAM capacitor plate를 재현했다는 의미가 아니다.
+따라서 특정 논문에서 사용한 전압이나 capacitance 값 하나만을 분리하여 본 연구의 1T1C 기준으로 사용하는 것은 적절하지 않다고 판단하였다.
 
-### 3.3 Read 범위
+---
 
-P4를 계속할 경우에는 full sense amplifier보다 다음의 최소 charge-sharing 측정이 연구 목적에 더 적합하다고 논의했다.
+## 4. Single-Metal Mixed-Mode 사전검증
 
-1. `Ccell`과 `CBL`을 두고 BL을 precharge
-2. WL ON
-3. SN–BL charge sharing
-4. `ΔVBL`, Read time, Read 전·후 `ΔVSN` 측정
+Single-Metal VCAT을 이용하여 1T1C Mixed-Mode 구현 가능성을 사전 확인하였다.
 
-다만 최종적으로 P4 자체를 필수 흐름에서 중단했으므로, 이 Read 설계 역시 **현재 공식 기준으로 확정하지 않는다.**
+WL 전압을 증가시키면서 Storage Node charging이 증가하는 것을 확인하였고, `WL=2.0 V`, `BL=1.0 V` 조건의 Write smoke에서는 Storage Node가 약 `1 V` 부근까지 충전되는 결과를 얻었다.
 
-Full BLSA/BLB/reference/restore 회로는 실제 DRAM에는 중요하지만 회로변수·offset·timing·reference·parasitic이 대폭 추가되어, 본 연구의 VCAT 구조 비교를 흐릴 수 있어 현재 범위에서는 채택하지 않았다.
+WL OFF 이후의 short-Hold 및 floating Hold smoke도 일부 조건에서 수치적으로 정상 종료하였다.
 
-## 4. 참고 문헌과 활용 범위
+반면 BL을 동적으로 floating시키는 통합 Write-to-Hold 구성에서는 수렴 실패 사례도 발생하였다.
 
-아래 논문은 P4 회로조건을 이해하고 “왜 단순 1T1C를 바로 DRAM 검증으로 간주하기 어려운가”를 판단하기 위해 검토했다. 특정 논문의 수치를 그대로 우리 nominal 값으로 복사하지 않는다.
+이 결과는 **1T1C Mixed-Mode 구현 자체가 불가능한 것은 아님**을 보여주지만, 공식적인 DRAM 동작 기준이나 PASS/FAIL 조건을 확정한 결과는 아니다.
 
-### 4.1 Spessot & Oh, 2020 — 1T-1C DRAM review
+---
 
-**A. Spessot and H. Oh, “1T-1C Dynamic Random Access Memory Status, Challenges, and Prospects,” IEEE Transactions on Electron Devices, 2020.**
+## 5. Synopsys 공식 SF_DRAM 예제 실행
 
-확인한 역할:
+Sentaurus T-2022.03 Applications Library의 `Memory/SF_DRAM` 예제를 연구실 서버에서 직접 실행하였다.
 
-- 1T1C access transistor–BL–storage capacitor 기본 연결
-- Write/Read/Retention의 전체 동작 체계
-- 현대 DRAM의 boosted WL, negative off-WL, BL precharge, cell plate bias가 서로 독립된 단일 숫자가 아니라 시스템 조건임
-- Read에서 `Cs/CBL` 비율과 charge sharing이 sensing margin에 직접 영향을 줌
+주요 SDevice 계산은 모두 정상 종료하였으며, SVisual 후처리까지 완료되었다.
 
-**채택:** 물리적 동작과 변수 관계의 기준 자료.
+| 항목 | 결과 |
+|---|---:|
+| `Vtgm` | `0.665 V` |
+| `VtLin` | `0.419 V` |
+| `IdSat` | `4.929e-06 A` |
+| `Ioff` | `4.209e-15 A` |
+| Write `Vmax` | `0.454777 V` |
+| `T_RET` | `0.2485 s` |
 
-**미채택:** 논문에 제시된 전형적인 VPP/VINTA/VCP 등의 수치를 우리 VCAT에 그대로 적용하지 않음. 해당 수치는 특정 DRAM 세대·회로 architecture의 예시이기 때문이다.
+Write 계산에서는 별도의 Mixed-Mode transient가 사용되었으며, `Write_n14_sys_des.plt` 종료 시점 `28.5 ns`에서 Storage Node는 약 `0.454774 V`였다. SVisual에서 추출한 `Vmax=0.454777 V`와 일치하였다.
 
-### 4.2 Song et al., 2010 — 실제 surrounding-gate VCAT 4F² DRAM
+이 수치는 Synopsys 공식 SF_DRAM 예제의 결과이며 본 연구의 VCAT 최종 구조 성능값이 아니다.
 
-**K.-W. Song et al., “A 31 ns Random Cycle VCAT-Based 4F² DRAM With Manufacturability and Enhanced Cell Efficiency,” IEEE Journal of Solid-State Circuits, 2010.**
+---
 
-확인한 역할:
+## 6. SF_DRAM의 Retention 평가 방식
 
-- surrounding-gate VCAT가 실제 DRAM access transistor로 적용된 직접적인 선행 연구
-- VCAT의 high drive, low leakage, retention 및 AC performance가 WL 운용과 연결됨
-- WL high 증가에 따른 AC 성능 포화가 약 2 V 수준에서 관찰되었다는 보고
-- retention mode에서는 negative WL 운용이 검토됨
+SF_DRAM에서 Retention은 단순히 Write 후 Storage Node를 장시간 transient로 관찰하는 방식으로만 계산되지 않았다.
 
-**채택:** 우리 vertical/surrounding-gate 구조가 DRAM access device로 연구될 수 있다는 직접적 타당성 근거.
+별도의 `IdVSC` 계산을 통해 Storage Node 전압에 따른 leakage current를 구한 뒤, SVisual 후처리에서 Storage capacitance와 leakage current를 이용해 Retention time을 계산한다.
 
-**미채택:** 논문의 WL bias·array 회로값을 우리 P4 nominal로 직접 복사하지 않음. 소자 geometry, technology node, Vth, core architecture가 다르기 때문이다.
+`Plot_RT_vis.tcl`에서 사용된 핵심 적분 형태는 다음과 같다.
 
-### 4.3 Feng et al., 2023 — 미래 4F² VCT access transistor
+```text
+T_RET ∝ ∫ Cs / |Isc| dVsc
+```
 
-**D. Feng et al., “Vertical Channel Transistor (VCT) as Access Transistor for Future 4F² DRAM Architecture,” IEEE IMW, 2023.**
+`IdVSC_n16_sys_des.plt`에서 Storage Node 전압은 약 `0.432 V`에서 `0.454777 V`까지 변화하며, 해당 구간의 Storage contact leakage current는 약 `9.1e-16 A` 수준으로 계산되었다.
 
-확인한 역할:
+SVisual 결과에서는 `RT=0.248458344763`, 즉 `T_RET≈0.2485 s`가 추출되었다.
 
-- vertical access transistor의 WL/BL parasitic capacitance가 DRAM system performance에 중요한 변수임
-- 3D TCAD에서 per-cell coupling capacitance를 별도로 평가
+따라서 공식 예제에서도 Write와 Retention은 서로 다른 계산 과정과 추출법을 사용한다.
 
-**채택:** `CBL`을 임의의 단순 비율만으로 정하면 안 되고 vertical 구조의 parasitic과 array load를 구분해야 한다는 근거.
+---
 
-**미채택:** 논문의 aF 단위 per-cell coupling 값을 Mixed-Mode의 전체 lumped `CBL`로 직접 사용하지 않음. 전체 bit line에는 여러 cell, wiring, contact 등의 load가 포함되므로 물리적 의미가 다르다.
+## 7. Row Hammer 평가 방식
 
-### 4.4 Eto et al., 1998 — Ground precharge + nonboosted WL
+SF_DRAM에서는 Row Hammer 역시 Write 또는 Retention 계산에 단순히 포함시키지 않고 별도의 Mixed-Mode 조건으로 계산한다.
 
-**S. Eto et al., “A 1-Gb SDRAM with Ground-Level Precharged Bit Line and Nonboosted 2.1-V Word Line,” IEEE Journal of Solid-State Circuits, 1998.**
+`n21`부터 `n24`까지의 노드는 모두 Row Hammer split으로 실행되었으며, 각각 precharge 과정과 반복 WL pulse 조건을 포함하였다.
 
-확인한 역할:
+각 SDevice 노드는 정상 종료하였고 `rh_*_sys_des.plt` 및 `rh_dram_*_des.plt` 결과가 생성되었다.
 
-- GND precharge가 단순히 BL precharge 전압 하나를 0 V로 바꾸는 방법이 아님
-- negative WL reset, 낮은 pass-transistor Vth, reference/sense scheme과 결합된 새로운 cell-operating concept
-- 이 architecture에서 2.1 V nonboosted WL을 사용
+따라서 공식 DRAM 예제에서도 Write, Retention, Disturb/Row Hammer가 **하나의 단순 1T1C transient로 통합되어 평가되지 않는다는 점**을 확인하였다.
 
-**채택:** GND precharge와 WL 조건은 architecture 전체와 함께 판단해야 한다는 근거.
+---
 
-**미채택:** `BL precharge=0 V`, `WL=2.1 V`를 분리하여 우리 P4 공통값으로 가져오지 않음.
+## 8. SF_DRAM 분석의 연구적 의의
 
-### 4.5 Lee et al., 2025 — GND-precharge single-ended BLSA
+SF_DRAM을 분석한 목적은 해당 예제의 성능값을 본 연구의 VCAT 결과와 직접 비교하기 위한 것이 아니다.
 
-**C. Lee et al., “A Single-Ended Offset-Compensating Bit-Line Sense-Amplifier With Ground Precharge and Charge Transfer Pre Sensing for Sub-1V DRAM,” IEEE Solid-State Circuits Letters, 2025.**
+가장 중요한 의미는 **DRAM-level 검증에 실제로 어느 정도의 회로 조건과 평가 절차가 필요한지를 확인한 것**이다.
 
-확인한 역할:
+공식 예제에서도 transistor characterization, Write Mixed-Mode, Retention leakage extraction, Row Hammer가 서로 다른 계산과 후처리 과정으로 구성되어 있었다.
 
-- 최신 GND precharge도 single-ended offset compensation, charge-transfer pre-sensing, 전용 BLSA와 결합됨
-- conventional VCCA/2 precharge와 다른 회로 목적·제약을 가짐
+따라서 간략화된 `VCAT + capacitor + bit-line load` 구조 하나만으로 Write/Hold/Read를 계산한 뒤 이를 실제 DRAM 성능 검증으로 확대 해석하는 것은 적절하지 않다고 판단하였다.
 
-**채택:** 0 V precharge를 “일반 DRAM 기본조건”으로 단정하지 않는 근거.
+SF_DRAM은 최종 성능 검증 데이터나 Window 보정 도구라기보다, **DRAM-level 검증의 요구사항과 한계를 확인하고 본 연구의 직접 검증 범위를 설정하기 위한 기준조사**로 의미가 있다.
 
-**미채택:** 해당 BLSA architecture를 P4에 그대로 구현하지 않음. 본 연구의 범위를 sense-amplifier 회로 설계로 확장하기 때문이다.
+---
 
-### 4.6 Half-Vcc precharge noise 연구
+## 9. Phase 4를 중단한 이유
 
-**S. Ikenaga et al., “New DRAM Noise Generation Under Half Vcc Precharge and Its Reduction Using a Transposed Amplifier.”**
+Phase 4를 중단한 이유는 1T1C simulation을 구현하지 못했기 때문이 아니다.
 
-확인한 역할:
+Single-Metal Mixed-Mode smoke test와 Synopsys 공식 SF_DRAM 실행을 통해 1T1C simulation 자체는 기술적으로 가능함을 확인하였다.
 
-- half-Vcc precharge가 실제 CMOS sense-amplifier DRAM에서 사용된 방식이며 sensing noise와 array coupling이 중요한 문제임
+그러나 실제 DRAM-level validation을 수행하려면 본 연구의 핵심 대상인 L-H-L gate geometry 외에도 상당한 회로 설계 및 평가 기준이 추가로 필요하다는 점을 확인하였다.
 
-**채택:** precharge 방식 선택이 sensing architecture·noise 문제와 결합된다는 근거.
+이를 충분히 검증하지 않은 상태에서 축약 Testbench로 DRAM 성능을 주장하는 것보다, 직접 검증 범위를 명확히 제한하는 것이 연구의 타당성 측면에서 더 적절하다고 판단하였다.
 
-**미채택:** 오래된 특정 회로의 전압/시간값을 현대 VCAT Testbench 수치로 직접 사용하지 않음.
+따라서 본 연구에서는 P4의 1T1C 검증을 필수 연구 흐름에서 제외하고, 후반부 연구를 device-level L-H-L geometry 최적화와 tolerance 분석에 집중한다.
 
-### 4.7 Noble & Walker, 1985 — DRAM storage capacitor 한계
+---
 
-**W. P. Noble and W. W. Walker, “Fundamental Limitations on DRAM Storage Capacitors,” 1985.**
+## 10. 수정된 연구 범위
 
-확인한 역할:
-
-- stored charge, BL sensing ability, capacitor leakage, dielectric field 사이의 기초적인 물리 관계
-- cell capacitance를 단순히 작게/크게 정하는 것이 아니라 sensing과 charge retention을 함께 고려해야 함
-
-**채택:** storage capacitance의 물리적 역할을 설명하는 기초 자료.
-
-**미채택:** 당시 DRAM 세대의 저장전하·전압·cell size 수치를 현재 프로젝트 nominal 값으로 사용하지 않음. 기술 세대 차이가 너무 크다.
-
-## 5. Synopsys 공식 SF_DRAM 예제의 위치
-
-Sentaurus T-2022.03 Applications Library의 `Memory/SF_DRAM`을 공식 구현 참고자료로 선택했다.
-
-확인된 코드 측면의 주요 특징:
-
-- 1T1C Mixed-Mode write 예제 존재
-- storage capacitor와 매우 큰 저항을 포함한 floating storage-node 처리
-- Set/Unset, Quasistationary precharge, Transient, Circuit 결합
-- retention은 장시간 Hold transient 하나가 아니라 leakage 특성과 SVisual extraction을 함께 사용하는 흐름을 포함
-- Row Hammer는 BL/SC floating 및 반복 pulse를 별도 조건으로 다룸
-
-2026-08-17 현재 공식 SF_DRAM 프로젝트를 `semi330@ssudisu1`에서 실행 중이며 **전체 결과 분석은 아직 완료되지 않았다.** 마지막 확인 시 IdVg 계산 일부와 RH split 일부가 완료되었고 RH SDevice가 계속 실행 중이었다. 따라서 SF_DRAM의 최종 파형·추출값·성공 여부는 이 문서에서 확정하지 않는다.
-
-**추가 계획:** SF_DRAM 실행이 종료되면 실제 결과와 SVisual extraction을 확인해 본 문서에 별도 후속 기록을 추가한다.
-
-## 6. 우리 Single-Metal 사전검증에서 확인된 것
-
-기존 `members/LeeSeonHyeong/handoff/P04_Write1_Hold_Smoke_Handoff_2026-08-17.md`에 상세 기록이 있다.
-
-현재 확인된 핵심은 다음과 같다.
-
-- WL command를 `1.0 → 1.2 → 1.5 → 2.0 V`로 올리며 SN charging이 증가함
-- `WL=2.0 V`, `BL=1.0 V` smoke에서 `MAX_SN≈0.9998 V`, WL OFF 후 10 ns 종료 시 SN≈`0.99837 V`
-- BL clamp 상태 50 ns short-Hold smoke와 별도 floating Hold-only smoke는 수치적으로 완주
-- BL Set/Unset을 포함한 통합 floating Write→Hold 시도는 수렴 실패 사례가 존재
-- `Rbl=1 Ω` control Write는 기존 Write 파형과 거의 같은 수준으로 재현됨
-
-이 결과들은 **개인 사전검증(smoke)**이며 P04-T01 공통 Testbench 또는 P04-T02 공식 baseline을 확정한 결과가 아니다.
-
-## 7. 왜 P4를 현재 필수 연구에서 중단하는가
-
-현재까지의 자료를 종합하면 다음 두 사실이 동시에 성립한다.
-
-1. VCAT을 Sentaurus Mixed-Mode 1T1C 회로에 연결해 Write/Hold smoke를 계산하는 것은 기술적으로 가능하다.
-2. 그러나 이를 실제 DRAM 타당성 검증으로 주장하려면 `Ccell`, `CBL`, precharge, WL/BL timing, sensing architecture, plate, restore, retention 판정 등 추가 회로 가정을 충분히 정당화해야 한다.
-
-현재 프로젝트는 P1~P3 device 연구에 이미 상당한 시간을 사용했고, 후반부 핵심 목표는 L-H-L geometry 최적화와 tolerance 분석이다. 따라서 P4에서 새로운 DRAM circuit benchmark 자체를 구축하는 것은 연구 범위를 과도하게 넓힐 수 있다.
-
-**결론:** 불충분한 단순 1T1C를 억지로 “DRAM 검증”으로 완료하기보다, 이번 연구의 직접 검증 범위를 device-level로 명확히 제한하는 것이 더 타당하다.
-
-## 8. 수정 제안 연구 스토리
-
-### 8.1 본 연구의 핵심 흐름
+현재 연구의 핵심 흐름은 다음과 같이 정리한다.
 
 ```text
 P1~P3
 VCAT 기본 구조 및 L-H-L 구조/WF 결정
         ↓
 P5
-L-H-L Metal Boundary 중심 geometry 최적화
+L-H-L Metal Boundary 기반 geometry 최적화
         ↓
 P6
-최종 Nominal 구조 parameterization 및 재현성 확인
+Nominal 구조 parameterization 및 공통 조건 고정
         ↓
 P7
-Nominal 주변 geometry sensitivity 분석
+Geometry sensitivity 분석
         ↓
 P8
-Device-level L-H-L Gate Segmentation Geometry
+Device-level
+L-H-L Gate Segmentation Geometry
 Tolerance Window 확정
         ↓
-[본 연구의 핵심 결론]
+최종 연구 결과
 ```
 
-핵심 주장은 다음 수준으로 제한한다.
+따라서 본 연구의 핵심 주장은 다음과 같이 제한한다.
 
-> L-H-L gate segmentation geometry가 VCAT의 device-level 성능에 미치는 영향과 허용 범위를 TCAD로 정량화한다.
+> **L-H-L gate segmentation geometry가 VCAT의 device-level 전기적 성능에 미치는 영향과 허용 범위를 TCAD를 이용해 정량적으로 분석한다.**
 
-현재 단계에서 다음 주장은 하지 않는다.
+---
 
-- 최종 구조가 실제 1T1C DRAM에서 성능 향상을 보장한다.
-- Device-level tolerance window가 곧바로 DRAM-level 또는 전체 fabrication tolerance를 의미한다.
+## 11. 연구 결과의 해석 범위
 
-### 8.2 시간 여유가 있을 경우의 보완/Future Work
+본 연구에서 얻은 Device-level 결과를 실제 1T1C DRAM 성능과 직접 동일시하지 않는다.
 
-P8에서 만든 Device-level Window에서 정보가 큰 소수 대표조건을 선택한다.
+특히 다음과 같은 확대 해석은 하지 않는다.
+
+- Device-level 성능 향상이 실제 DRAM 성능 향상을 보장한다고 주장하지 않는다.
+- 낮은 `Ioff`만으로 실제 DRAM Retention time을 직접 환산하지 않는다.
+- Device-level Geometry Tolerance Window를 DRAM Tolerance Window라고 부르지 않는다.
+- 제한된 geometry variation 결과를 전체 fabrication tolerance로 확대하지 않는다.
+
+이 구분을 통해 실제로 검증한 영역과 아직 검증하지 않은 영역을 명확히 한다.
+
+---
+
+## 12. 향후 DRAM 적용 연구
+
+DRAM-level 검증은 현재 연구의 필수 단계로 두지 않는다.
+
+향후 충분한 연구 시간과 회로 기준이 확보될 경우, 이번 연구에서 얻은 구조를 대상으로 별도의 DRAM Testbench와 평가 방법을 정립하여 Write, Retention, Disturb 등의 적용 가능성을 추가 연구할 수 있다.
+
+다만 이러한 후속 연구가 수행되지 않더라도 현재 연구는 **device-level L-H-L gate geometry 최적화 및 tolerance 분석**으로 독립적인 결론을 구성한다.
+
+---
+
+## 13. 최종 정리
+
+Synopsys 공식 DRAM 예제를 직접 실행하고 분석함으로써 DRAM-level 검증에는 Write, Retention, Disturb 각각에 대해 별도의 회로 조건과 평가 절차가 필요함을 확인하였다.
+
+이를 근거로, 본 연구에서는 불충분한 축약 1T1C 모델을 이용해 DRAM 타당성을 과도하게 주장하지 않고 직접 검증 범위를 **device-level L-H-L gate geometry 최적화와 tolerance 분석**으로 한정한다.
+
+---
+
+## 14. 관련 서버 및 결과 파일
+
+### Single-Metal P4 사전검증
 
 ```text
-P8 Device-level Window
-        ↓
-Nominal / Boundary / Outside / 필요 시 Corner
-소수 대표점 선택
-        ↓
-검증된 1T1C DRAM Testbench 적용
-        ↓
-Write / Hold / Read / Retention / Disturb 확인
-        ↓
-Device-level PASS/FAIL 경향이
-DRAM-level에서도 유지되는지 평가
+/user/semi/semi330/VCAT/P4_SingleMetal_1T1C_swb
 ```
 
-이 후속 검증의 의미는 “P4를 또 하나의 독립 Window로 만든다”가 아니라,
+### Synopsys SF_DRAM
 
-> **P8 Device-level Geometry Tolerance Window의 DRAM 적용 가능성을 대표점 기반으로 검증한다.**
+```text
+/user/semi/semi330/SF_DRAM
+```
 
-로 표현하는 것이 정확하다.
+주요 확인 파일:
 
-충분한 조건을 검증해 device-level 경계와 DRAM-level 경계를 실제로 비교할 수 있을 때에만 `DRAM-validated subset/window`와 같은 확장 개념을 논의한다.
+```text
+Write_n14_sys_des.plt
+IdVSC_n16_sys_des.plt
+rh_n21_sys_des.plt
+rh_n22_sys_des.plt
+rh_n23_sys_des.plt
+rh_n24_sys_des.plt
+gvars.dat
+n15_vis.out
+n17_vis.out
+Plot_RT_vis.tcl
+```
 
-## 9. 현재 GitHub 공식 흐름과의 충돌
+---
 
-2026-08-17 최신 저장소에서는 아직 다음과 같이 정의되어 있다.
+## 15. 참고 문헌
 
-- Issue #4: P4에서 1T1C 공통 Testbench와 Single/L-H-L 기본 기능 확정
-- Issue #5: Phase 4 기본 1T1C 기능 확인을 선행조건으로 기록
-- Issue #9: P4에서 고정한 동일 Testbench를 최종 Multi-Metal 및 Holdout 1T1C 검증에 재사용
-
-따라서 본 문서의 팀 논의 방향과 최신 GitHub 사이에 **명시적 충돌**이 있다.
-
-현재 적용 기준은 GitHub이므로, 이 문서만으로 Phase 순서가 공식 변경된 것은 아니다. 팀이 최종 승인하면 관리자/공용 작업에서 Issue 및 Phase 설명을 별도로 수정해야 한다. 이선형 개인 기록에서 공용 Phase 정의를 임의로 수정하지 않는다.
-
-## 10. 후속 작업
-
-1. 실행 중인 Synopsys `SF_DRAM` 결과가 종료되면 실제 결과 파일/파형/SVisual extraction을 분석한다.
-2. 그 결과는 “현재 P4를 중단한 판단이 합리적이었는지”와 “향후 1T1C 후속 검증을 어떻게 구성할지”를 보완하는 참고자료로 기록한다.
-3. 조원 합의가 최종 공식 방향으로 확정되면 P4/P5/P9 GitHub Issue 연결 흐름을 공용 작업에서 정비한다.
-4. 본 연구 본선은 device-level geometry 최적화와 tolerance 분석에 집중한다.
-
-## 11. 서버 및 관련 기존 기록
-
-- 우리 Single-Metal P4 사전검증 서버:
-  - `/user/semi/semi330/VCAT/P4_SingleMetal_1T1C_swb`
-- Synopsys 공식 SF_DRAM 실행 프로젝트:
-  - `/user/semi/semi330/SF_DRAM`
-- 기존 개인 인수인계:
-  - `members/LeeSeonHyeong/handoff/P04_MixedMode_Smoke_Handoff_2026-08-15.md`
-  - `members/LeeSeonHyeong/handoff/P04_Server_Account_Status_Handoff_2026-08-16.md`
-  - `members/LeeSeonHyeong/handoff/P04_Write1_Hold_Smoke_Handoff_2026-08-17.md`
-
-## 12. 검증 상태
-
-- 본 문서에서 새 TCAD 계산은 수행하지 않음.
-- Single-Metal 수치는 기존 개인 인수인계에 기록된 실행 결과를 재사용함.
-- 문헌 검토 결과는 사용자가 제공한 IEEE 논문 PDF를 기준으로 정리함.
-- Synopsys SF_DRAM 전체 실행 결과는 아직 미확정.
-- Phase 4 공식 제출/완료 처리, Issue 수정, shared 수정은 수행하지 않음.
+- A. Spessot and H. Oh, “1T-1C Dynamic Random Access Memory Status, Challenges, and Prospects,” IEEE Transactions on Electron Devices, 2020.
+- K.-W. Song et al., “A 31 ns Random Cycle VCAT-Based 4F² DRAM With Manufacturability and Enhanced Cell Efficiency,” IEEE Journal of Solid-State Circuits, 2010.
+- D. Feng et al., “Vertical Channel Transistor (VCT) as Access Transistor for Future 4F² DRAM Architecture,” IEEE IMW, 2023.
+- S. Eto et al., “A 1-Gb SDRAM with Ground-Level Precharged Bit Line and Nonboosted 2.1-V Word Line,” IEEE Journal of Solid-State Circuits, 1998.
+- C. Lee et al., “A Single-Ended Offset-Compensating Bit-Line Sense-Amplifier With Ground Precharge and Charge Transfer Pre Sensing for Sub-1V DRAM,” IEEE Solid-State Circuits Letters, 2025.
+- S. Ikenaga et al., “New DRAM Noise Generation Under Half Vcc Precharge and Its Reduction Using a Transposed Amplifier.”
+- W. P. Noble and W. W. Walker, “Fundamental Limitations on DRAM Storage Capacitors,” 1985.
