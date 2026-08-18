@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-18T13:53:39+09:00",
+  "generatedAt": "2026-08-18T13:54:26+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
     "error": 0,
-    "warning": 52,
+    "warning": 53,
     "info": 0
   },
   "items": [
@@ -38,6 +38,16 @@
       "submissionId": "20260813161326-minhosong-mse-YNzrbQ",
       "fileName": "P03-T14-O02_WF_Split_Raw_Data.xlsx",
       "fileOutputId": "P03-T14-O02"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 3,
+      "outputId": "P03-T16-O08",
+      "submissionId": "20260818045404-minhosong-mse-T7y1mg",
+      "fileName": "P03-T16-O04_MeshOFF_SDE_Comparison.cmd",
+      "fileOutputId": "P03-T16-O04"
     },
     {
       "code": "FILENAME_PREFIX_MISMATCH",

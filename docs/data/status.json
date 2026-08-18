@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T13:53:39+09:00",
+  "generatedAt": "2026-08-18T13:54:26+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -15030,13 +15030,47 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260818045404-minhosong-mse-T7y1mg",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T16",
+                  "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+                  "outputId": "P03-T16-O08",
+                  "outputText": "(참고)Mesh 전·후 핵심 지표 안정성 체크 시 사용한 SDE cmd",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "code",
+                  "uploadedAt": "2026-08-18T04:54:04.770Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O08/submissions/20260818045404-minhosong-mse-T7y1mg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O08/submissions/20260818045404-minhosong-mse-T7y1mg",
+                  "summary": "1개 코드 파일 · 6.1KB",
+                  "files": [
+                    {
+                      "name": "P03-T16-O04_MeshOFF_SDE_Comparison.cmd",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O08/submissions/20260818045404-minhosong-mse-T7y1mg/source/P03-T16-O04_MeshOFF_SDE_Comparison.cmd",
+                      "size": 6199
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
@@ -18994,13 +19028,47 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260818045404-minhosong-mse-T7y1mg",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T16",
+              "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+              "outputId": "P03-T16-O08",
+              "outputText": "(참고)Mesh 전·후 핵심 지표 안정성 체크 시 사용한 SDE cmd",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "code",
+              "uploadedAt": "2026-08-18T04:54:04.770Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O08/submissions/20260818045404-minhosong-mse-T7y1mg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O08/submissions/20260818045404-minhosong-mse-T7y1mg",
+              "summary": "1개 코드 파일 · 6.1KB",
+              "files": [
+                {
+                  "name": "P03-T16-O04_MeshOFF_SDE_Comparison.cmd",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O08/submissions/20260818045404-minhosong-mse-T7y1mg/source/P03-T16-O04_MeshOFF_SDE_Comparison.cmd",
+                  "size": 6199
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T16"
         },
         {
@@ -19634,10 +19702,10 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-18T04:53:28Z",
+      "updatedAt": "2026-08-18T04:53:39Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 3
+      "integrityWarnings": 4
     },
     {
       "id": 4,
