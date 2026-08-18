@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-18T04:49:25.792Z",
+  "updatedAt": "2026-08-18T04:51:02.299Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -7449,6 +7449,57 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P03-T16-O04": [
+      {
+        "submissionId": "20260818045102-minhosong-mse-B110-w",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T16",
+        "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+        "outputId": "P03-T16-O04",
+        "outputText": "WF Boundary Mesh 전·후 비교",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-18T04:51:02.299Z",
+        "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O04/submissions/20260818045102-minhosong-mse-B110-w",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O04/submissions/20260818045102-minhosong-mse-B110-w",
+        "summary": "6개 파일 · 2.87MB",
+        "files": [
+          {
+            "name": "P03-T16-O04_MeshOFF_LowerBoundary.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O04/submissions/20260818045102-minhosong-mse-B110-w/files/P03-T16-O04_MeshOFF_LowerBoundary.png",
+            "size": 507927
+          },
+          {
+            "name": "P03-T16-O04_MeshOFF_Overall.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O04/submissions/20260818045102-minhosong-mse-B110-w/files/P03-T16-O04_MeshOFF_Overall.png",
+            "size": 428451
+          },
+          {
+            "name": "P03-T16-O04_MeshOFF_UpperBoundary.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O04/submissions/20260818045102-minhosong-mse-B110-w/files/P03-T16-O04_MeshOFF_UpperBoundary.png",
+            "size": 510529
+          },
+          {
+            "name": "P03-T16-O04_MeshON_LowerBoundary.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O04/submissions/20260818045102-minhosong-mse-B110-w/files/P03-T16-O04_MeshON_LowerBoundary.png",
+            "size": 570361
+          },
+          {
+            "name": "P03-T16-O04_MeshON_Overall.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O04/submissions/20260818045102-minhosong-mse-B110-w/files/P03-T16-O04_MeshON_Overall.png",
+            "size": 430907
+          },
+          {
+            "name": "P03-T16-O04_MeshON_UpperBoundary.png",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O04/submissions/20260818045102-minhosong-mse-B110-w/files/P03-T16-O04_MeshON_UpperBoundary.png",
+            "size": 561261
+          }
+        ]
       }
     ]
   }
