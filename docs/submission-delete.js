@@ -1,5 +1,8 @@
 /* Submission deletion controls for dashboard v7. */
 
+const reviewOutputBeforeDeletion = typeof reviewOutput === "function" ? reviewOutput : null;
+const submissionRawRoot = "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/";
+
 function canDeleteSubmission(item) {
   if (!currentUser) return false;
   const login = String(currentUser.login || "").toLowerCase();
@@ -14,9 +17,70 @@ function submissionDeleteButton(item) {
   return `<button class="btn btn--small submission-delete-button" type="button" data-submission-id="${escapeHtml(item.submissionId)}">${label}</button>`;
 }
 
+function rawSubmissionFileUrl(path) {
+  const value = String(path || "").trim().replace(/^\/+/, "");
+  if (!value) return "";
+  return submissionRawRoot + value.split("/").map((part) => encodeURIComponent(part)).join("/");
+}
+
+function findSubmissionFile(item, fileName) {
+  const target = String(fileName || "").toLowerCase();
+  return (item?.files || []).find((file) => {
+    const name = String(file?.name || "").toLowerCase();
+    const pathName = String(file?.path || "").split("/").pop().toLowerCase();
+    return name === target || pathName === target;
+  }) || null;
+}
+
+function recoverTableAssetUrl(item, fileName, explicitUrl = "") {
+  if (explicitUrl) return String(explicitUrl);
+  const file = findSubmissionFile(item, fileName);
+  if (!file) return "";
+  for (const key of ["rawUrl", "downloadUrl", "previewUrl"]) {
+    if (file[key]) return String(file[key]);
+  }
+  if (file.path) return rawSubmissionFileUrl(file.path);
+  if (item?.folderPath) return rawSubmissionFileUrl(`${item.folderPath}/${fileName}`);
+  return "";
+}
+
+function normalizeTableSubmission(item) {
+  if (!item) return item;
+  const hasTableFile = Boolean(findSubmissionFile(item, "table.json"));
+  if (item.type !== "table" && !item.table && !hasTableFile) return item;
+
+  const dataUrl = recoverTableAssetUrl(item, "table.json", item.table?.dataUrl);
+  if (!dataUrl) return item;
+  const table = {
+    ...(item.table || {}),
+    dataUrl,
+    csvUrl: recoverTableAssetUrl(item, "table.csv", item.table?.csvUrl),
+    tsvUrl: recoverTableAssetUrl(item, "table.tsv", item.table?.tsvUrl)
+  };
+  return { ...item, type: "table", table };
+}
+
+function openTableSubmission(button, output, submissions) {
+  const submissionId = button?.dataset?.submissionId || button?.closest("article")?.dataset?.submissionId || "";
+  const item = submissions.find((entry) => String(entry?.submissionId || "") === String(submissionId));
+  if (!item?.table?.dataUrl) {
+    showToast("표 원본 파일을 찾지 못했습니다. 제출 폴더에서 원본을 확인해 주세요.");
+    return;
+  }
+  if (typeof reviewOutputBeforeDeletion !== "function") {
+    showToast("Spreadsheet Viewer를 불러오지 못했습니다.");
+    return;
+  }
+
+  const dialog = document.querySelector("#submission-dialog");
+  if (dialog?.open) dialog.close();
+  reviewOutputBeforeDeletion({ ...output, submissions: [item] });
+}
+
 reviewOutput = function reviewOutputWithDeletion(output) {
   if (!output) return;
-  const submissions = output.submissions ?? [];
+  const originalSubmissions = output.submissions ?? [];
+  const submissions = originalSubmissions.map(normalizeTableSubmission);
   submissionOutput = output;
   openSubmissionDialog(`
     <span class="dialog-phase">결과 확인 · ${escapeHtml(output.id)}</span>
@@ -28,17 +92,16 @@ reviewOutput = function reviewOutputWithDeletion(output) {
           <p>${escapeHtml(item.summary ?? "제출본")}</p>
           ${item.serverPath ? `<code>${escapeHtml(item.serverPath)}</code>` : ""}
           <div class="table-result-actions">
-            ${item.type === "table" && item.table?.dataUrl ? `<button class="btn btn--small table-preview-button" type="button" data-table-url="${escapeHtml(item.table.dataUrl)}" data-table-title="${escapeHtml(item.outputText || output.text)}">표 보기</button><a class="btn btn--small" href="${escapeHtml(item.table.csvUrl)}" target="_blank" rel="noreferrer">CSV 열기</a>` : ""}
+            ${item.type === "table" && item.table?.dataUrl ? `<button class="btn btn--small table-preview-button" type="button" data-submission-id="${escapeHtml(item.submissionId || "")}">표 보기</button>${item.table.csvUrl ? `<a class="btn btn--small" href="${escapeHtml(item.table.csvUrl)}" target="_blank" rel="noreferrer">CSV 열기</a>` : ""}` : ""}
             <a class="btn btn--small" href="${escapeHtml(item.folderUrl)}" target="_blank" rel="noreferrer">제출 폴더 열기</a>
             ${submissionDeleteButton(item)}
           </div>
         </article>`).join("") : '<div class="empty-checklist">제출된 결과물이 없습니다.</div>'}
     </div>
-    <div id="saved-table-preview"></div>
     <div class="dialog-actions"><button id="submission-close" class="btn" type="button">닫기</button></div>`);
 
   document.querySelectorAll(".table-preview-button").forEach((button) => {
-    button.addEventListener("click", () => showSavedTable(button));
+    button.addEventListener("click", () => openTableSubmission(button, output, submissions));
   });
   document.querySelectorAll(".submission-delete-button").forEach((button) => {
     button.addEventListener("click", () => deleteSubmissionRecord(button, output));

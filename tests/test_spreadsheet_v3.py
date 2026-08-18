@@ -13,6 +13,7 @@ class SpreadsheetV3Tests(unittest.TestCase):
     def setUpClass(cls):
         cls.js = read("docs/spreadsheet-v3.js")
         cls.guard = read("docs/spreadsheet-v3-guard.js")
+        cls.delete_js = read("docs/submission-delete.js")
         cls.css = read("docs/spreadsheet-v3.css")
         cls.index = read("docs/index.html")
 
@@ -69,6 +70,33 @@ class SpreadsheetV3Tests(unittest.TestCase):
             self.assertIn(token, self.js)
         self.assertIn(".spreadsheet-readonly-table", self.css)
         self.assertIn(".spreadsheet-sheet-tabs", self.css)
+
+    def test_saved_table_preview_delegates_to_existing_spreadsheet_viewer(self):
+        self.assertLess(
+            self.index.index('src="spreadsheet-v3.js"'),
+            self.index.index('src="submission-delete.js"')
+        )
+        for token in (
+            "const reviewOutputBeforeDeletion",
+            "function openTableSubmission",
+            'data-submission-id=',
+            "reviewOutputBeforeDeletion({ ...output, submissions: [item] });",
+        ):
+            self.assertIn(token, self.delete_js)
+        self.assertNotIn("showSavedTable(button)", self.delete_js)
+
+    def test_table_metadata_is_recovered_in_memory_from_existing_files(self):
+        for token in (
+            "function findSubmissionFile",
+            "function recoverTableAssetUrl",
+            'findSubmissionFile(item, "table.json")',
+            'recoverTableAssetUrl(item, "table.csv"',
+            'recoverTableAssetUrl(item, "table.tsv"',
+            'return { ...item, type: "table", table };',
+        ):
+            self.assertIn(token, self.delete_js)
+        self.assertNotIn("docs/data/submissions.json", self.delete_js)
+        self.assertNotIn("members/", self.delete_js)
 
 
 if __name__ == "__main__":
