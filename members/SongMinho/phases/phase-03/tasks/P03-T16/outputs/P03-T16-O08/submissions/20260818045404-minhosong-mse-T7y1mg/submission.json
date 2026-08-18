@@ -20,5 +20,19 @@
       "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O08/submissions/20260818045404-minhosong-mse-T7y1mg/source/P03-T16-O04_MeshOFF_SDE_Comparison.cmd",
       "size": 6199
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-18T04:54:04.770Z"
+      }
+    ],
+    "legacy": false
+  }
 }
