@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T14:09:42+09:00",
+  "generatedAt": "2026-08-18T14:10:13+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -14979,13 +14979,82 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260818050950-minhosong-mse-wSvHtA",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T16",
+                  "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+                  "outputId": "P03-T16-O05",
+                  "outputText": "Mesh 전·후 핵심 지표 안정성",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-18T05:09:50.031Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA",
+                  "summary": "8개 파일 · 92.2KB",
+                  "files": [
+                    {
+                      "name": "MeshOFF_G2_Forward_Vd0p05.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/MeshOFF_G2_Forward_Vd0p05.csv",
+                      "size": 13641
+                    },
+                    {
+                      "name": "MeshOFF_G2_Forward_Vd1p0.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/MeshOFF_G2_Forward_Vd1p0.csv",
+                      "size": 13653
+                    },
+                    {
+                      "name": "MeshOFF_G2_GIDL.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/MeshOFF_G2_GIDL.csv",
+                      "size": 16138
+                    },
+                    {
+                      "name": "MeshON_G2_Forward_Vd0p05.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/MeshON_G2_Forward_Vd0p05.csv",
+                      "size": 13626
+                    },
+                    {
+                      "name": "MeshON_G2_Forward_Vd1p0.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/MeshON_G2_Forward_Vd1p0.csv",
+                      "size": 13585
+                    },
+                    {
+                      "name": "MeshON_G2_GIDL.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/MeshON_G2_GIDL.csv",
+                      "size": 16510
+                    },
+                    {
+                      "name": "P03-T16-O05_Mesh_Stability.xlsx",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/P03-T16-O05_Mesh_Stability.xlsx",
+                      "size": 6491
+                    },
+                    {
+                      "name": "P03-T16-O05_Mesh_Stability_Summary.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/P03-T16-O05_Mesh_Stability_Summary.csv",
+                      "size": 795
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T16-O06",
@@ -18979,13 +19048,82 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260818050950-minhosong-mse-wSvHtA",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T16",
+              "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+              "outputId": "P03-T16-O05",
+              "outputText": "Mesh 전·후 핵심 지표 안정성",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-18T05:09:50.031Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA",
+              "summary": "8개 파일 · 92.2KB",
+              "files": [
+                {
+                  "name": "MeshOFF_G2_Forward_Vd0p05.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/MeshOFF_G2_Forward_Vd0p05.csv",
+                  "size": 13641
+                },
+                {
+                  "name": "MeshOFF_G2_Forward_Vd1p0.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/MeshOFF_G2_Forward_Vd1p0.csv",
+                  "size": 13653
+                },
+                {
+                  "name": "MeshOFF_G2_GIDL.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/MeshOFF_G2_GIDL.csv",
+                  "size": 16138
+                },
+                {
+                  "name": "MeshON_G2_Forward_Vd0p05.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/MeshON_G2_Forward_Vd0p05.csv",
+                  "size": 13626
+                },
+                {
+                  "name": "MeshON_G2_Forward_Vd1p0.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/MeshON_G2_Forward_Vd1p0.csv",
+                  "size": 13585
+                },
+                {
+                  "name": "MeshON_G2_GIDL.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/MeshON_G2_GIDL.csv",
+                  "size": 16510
+                },
+                {
+                  "name": "P03-T16-O05_Mesh_Stability.xlsx",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/P03-T16-O05_Mesh_Stability.xlsx",
+                  "size": 6491
+                },
+                {
+                  "name": "P03-T16-O05_Mesh_Stability_Summary.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O05/submissions/20260818050950-minhosong-mse-wSvHtA/files/P03-T16-O05_Mesh_Stability_Summary.csv",
+                  "size": 795
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T16"
         },
         {
@@ -19712,7 +19850,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-18T05:09:30Z",
+      "updatedAt": "2026-08-18T05:09:41Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 4
