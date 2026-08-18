@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T13:48:04+09:00",
+  "generatedAt": "2026-08-18T13:48:51+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -14734,14 +14734,21 @@
                     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.csv",
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.tsv"
                   },
+                  "comment": "P03-T16 최종 대표구조 조건표입니다. P03-T15 coarse geometry 평가와 양방향 검증 후 G2(1:2:1, 15/30/15 nm)를 P4 전달 대표구조로 고정합니다. Xbnd1=0.035 um, Xbnd2=0.065 um이며 최종 handoff mesh는 Mesh ON입니다.",
+                  "commentLabel": "표 설명",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-18T04:47:44.713Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -14755,13 +14762,67 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260818044818-minhosong-mse-LbA1WA",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T16",
+                  "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+                  "outputId": "P03-T16-O02",
+                  "outputText": "P4 전달 Fixed Low·High WF",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-18T04:48:18.889Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA",
+                  "summary": "9행 × 5열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.tsv",
+                      "size": 295
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.csv",
+                      "size": 307
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.json",
+                      "size": 901
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 9,
+                    "columnCount": 5,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.tsv"
+                  },
+                  "comment": "P03-T14에서 확정한 Fixed WF를 P4 전달값으로 정리했습니다. WF_LOW=4.33 eV(Ti), WF_HIGH=4.70 eV(TiN), gate_m1/m2/m3=4.33/4.70/4.33 eV입니다. 이후 P4~P9에서는 해당 WF를 다시 Sweep하지 않습니다.",
+                  "commentLabel": "표 설명",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T16-O03",
@@ -18500,14 +18561,21 @@
                 "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.csv",
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.tsv"
               },
+              "comment": "P03-T16 최종 대표구조 조건표입니다. P03-T15 coarse geometry 평가와 양방향 검증 후 G2(1:2:1, 15/30/15 nm)를 P4 전달 대표구조로 고정합니다. Xbnd1=0.035 um, Xbnd2=0.065 um이며 최종 handoff mesh는 Mesh ON입니다.",
+              "commentLabel": "표 설명",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-18T04:47:44.713Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -18522,13 +18590,67 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260818044818-minhosong-mse-LbA1WA",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T16",
+              "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+              "outputId": "P03-T16-O02",
+              "outputText": "P4 전달 Fixed Low·High WF",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-18T04:48:18.889Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA",
+              "summary": "9행 × 5열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.tsv",
+                  "size": 295
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.csv",
+                  "size": 307
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.json",
+                  "size": 901
+                }
+              ],
+              "table": {
+                "rowCount": 9,
+                "columnCount": 5,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.tsv"
+              },
+              "comment": "P03-T14에서 확정한 Fixed WF를 P4 전달값으로 정리했습니다. WF_LOW=4.33 eV(Ti), WF_HIGH=4.70 eV(TiN), gate_m1/m2/m3=4.33/4.70/4.33 eV입니다. 이후 P4~P9에서는 해당 WF를 다시 Sweep하지 않습니다.",
+              "commentLabel": "표 설명",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T16"
         },
         {
