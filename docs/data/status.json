@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T00:56:38+09:00",
+  "generatedAt": "2026-08-18T13:48:04+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -14686,13 +14686,65 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260818044744-minhosong-mse-UPeAfg",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T16",
+                  "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+                  "outputId": "P03-T16-O01",
+                  "outputText": "P4 전달 L-H-L 대표구조 조건표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-18T04:47:44.713Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg",
+                  "summary": "21행 × 4열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.tsv",
+                      "size": 580
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.csv",
+                      "size": 604
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.json",
+                      "size": 1682
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 21,
+                    "columnCount": 4,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.tsv"
+                  },
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T16-O02",
@@ -14798,7 +14850,7 @@
             }
           ],
           "checked": false,
-          "state": "not-started",
+          "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 7,
           "outputsDone": 0,
@@ -18400,13 +18452,65 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260818044744-minhosong-mse-UPeAfg",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T16",
+              "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+              "outputId": "P03-T16-O01",
+              "outputText": "P4 전달 L-H-L 대표구조 조건표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-18T04:47:44.713Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg",
+              "summary": "21행 × 4열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.tsv",
+                  "size": 580
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.csv",
+                  "size": 604
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.json",
+                  "size": 1682
+                }
+              ],
+              "table": {
+                "rowCount": 21,
+                "columnCount": 4,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.tsv"
+              },
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T16"
         },
         {
