@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T14:12:30+09:00",
+  "generatedAt": "2026-08-18T14:13:27+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -15112,14 +15112,21 @@
                       "size": 2525
                     }
                   ],
+                  "comment": "Phase 4에 전달할 최종 SDE/SDevice 코드입니다. P4 handoff SDE는 WF-boundary refinement를 유지한 Mesh ON 코드이며 Forward 및 GIDL SDevice와 고정 SWB 파라미터를 함께 제공합니다. Mesh OFF SDE는 O04 sensitivity 비교용으로만 사용합니다.\n\nP03-T16 / P4 handoff fixed parameters\n\nRepresentative geometry\n- Structure: Low-High-Low three-zone VCAT\n- M1Ratio = 1\n- M2Ratio = 2\n- M3Ratio = 1\n- Segment lengths = 15 / 30 / 15 nm\n- Lg = 60 nm\n- Xgate = 0.020 ~ 0.080 um\n- Xbnd1 = 0.035 um\n- Xbnd2 = 0.065 um\n\nFixed work functions\n- WF_LOW = 4.33 eV (Ti)\n- WF_HIGH = 4.70 eV (TiN)\n- gate_m1 / gate_m2 / gate_m3 = 4.33 / 4.70 / 4.33 eV\n\nCommon parameters\n- Dpillar_nm = 12\n- Tox_nm = 1\n- Lsn_nm = 20\n- Lbl_nm = 20\n- Nbody = 1e17 cm^-3\n- NSD = 1e20 cm^-3\n- JDepthSN_nm = 20\n- JDepthBL_nm = 20\n- GaussFactor = 0.8\n- MeshScale = 1.0\n- Temp = 300 K\n\nForward: VgStop=1.0 V, VdBias=0.05 / 1.0 V\nGIDL: GIDLDrain=1.0 V, GIDLGateStop=-0.4 V\n\nFinal mesh handoff\n- Use Mesh ON SDE (WF-boundary dedicated refinement retained).\n- Mesh OFF is the T16 sensitivity-comparison case only.",
+                  "commentLabel": "실행 조건 및 설명",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-18T05:12:09.538Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -15133,13 +15140,47 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260818051308-minhosong-mse-Hk9Vfg",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T16",
+                  "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+                  "outputId": "P03-T16-O07",
+                  "outputText": "Phase 4 Handoff",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-18T05:13:08.746Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O07/submissions/20260818051308-minhosong-mse-Hk9Vfg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O07/submissions/20260818051308-minhosong-mse-Hk9Vfg",
+                  "summary": "1개 파일 · 1.5KB",
+                  "files": [
+                    {
+                      "name": "P03-T16-O07_Phase4_Handoff.md",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O07/submissions/20260818051308-minhosong-mse-Hk9Vfg/files/P03-T16-O07_Phase4_Handoff.md",
+                      "size": 1530
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T16-O08",
@@ -19233,14 +19274,21 @@
                   "size": 2525
                 }
               ],
+              "comment": "Phase 4에 전달할 최종 SDE/SDevice 코드입니다. P4 handoff SDE는 WF-boundary refinement를 유지한 Mesh ON 코드이며 Forward 및 GIDL SDevice와 고정 SWB 파라미터를 함께 제공합니다. Mesh OFF SDE는 O04 sensitivity 비교용으로만 사용합니다.\n\nP03-T16 / P4 handoff fixed parameters\n\nRepresentative geometry\n- Structure: Low-High-Low three-zone VCAT\n- M1Ratio = 1\n- M2Ratio = 2\n- M3Ratio = 1\n- Segment lengths = 15 / 30 / 15 nm\n- Lg = 60 nm\n- Xgate = 0.020 ~ 0.080 um\n- Xbnd1 = 0.035 um\n- Xbnd2 = 0.065 um\n\nFixed work functions\n- WF_LOW = 4.33 eV (Ti)\n- WF_HIGH = 4.70 eV (TiN)\n- gate_m1 / gate_m2 / gate_m3 = 4.33 / 4.70 / 4.33 eV\n\nCommon parameters\n- Dpillar_nm = 12\n- Tox_nm = 1\n- Lsn_nm = 20\n- Lbl_nm = 20\n- Nbody = 1e17 cm^-3\n- NSD = 1e20 cm^-3\n- JDepthSN_nm = 20\n- JDepthBL_nm = 20\n- GaussFactor = 0.8\n- MeshScale = 1.0\n- Temp = 300 K\n\nForward: VgStop=1.0 V, VdBias=0.05 / 1.0 V\nGIDL: GIDLDrain=1.0 V, GIDLGateStop=-0.4 V\n\nFinal mesh handoff\n- Use Mesh ON SDE (WF-boundary dedicated refinement retained).\n- Mesh OFF is the T16 sensitivity-comparison case only.",
+              "commentLabel": "실행 조건 및 설명",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-18T05:12:09.538Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -19255,13 +19303,47 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260818051308-minhosong-mse-Hk9Vfg",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T16",
+              "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+              "outputId": "P03-T16-O07",
+              "outputText": "Phase 4 Handoff",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-18T05:13:08.746Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O07/submissions/20260818051308-minhosong-mse-Hk9Vfg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O07/submissions/20260818051308-minhosong-mse-Hk9Vfg",
+              "summary": "1개 파일 · 1.5KB",
+              "files": [
+                {
+                  "name": "P03-T16-O07_Phase4_Handoff.md",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O07/submissions/20260818051308-minhosong-mse-Hk9Vfg/files/P03-T16-O07_Phase4_Handoff.md",
+                  "size": 1530
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P03-T16"
         },
         {
