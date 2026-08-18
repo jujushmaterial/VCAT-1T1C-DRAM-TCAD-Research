@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T14:13:27+09:00",
+  "generatedAt": "2026-08-18T14:42:05+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -15170,14 +15170,21 @@
                       "size": 1530
                     }
                   ],
+                  "comment": "Phase 4 handoff 문서입니다. 최종 대표구조 G2=1:2:1(15/30/15 nm), Fixed WF=4.33/4.70/4.33 eV, final Mesh=ON을 전달합니다. T16 안정성 수치와 P4에서 유지해야 할 고정 조건을 함께 기록했습니다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-18T05:13:08.746Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -19333,14 +19340,21 @@
                   "size": 1530
                 }
               ],
+              "comment": "Phase 4 handoff 문서입니다. 최종 대표구조 G2=1:2:1(15/30/15 nm), Fixed WF=4.33/4.70/4.33 eV, final Mesh=ON을 전달합니다. T16 안정성 수치와 P4에서 유지해야 할 고정 조건을 함께 기록했습니다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-18T05:13:08.746Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
