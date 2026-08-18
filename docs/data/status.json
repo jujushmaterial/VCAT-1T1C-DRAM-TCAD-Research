@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T13:48:51+09:00",
+  "generatedAt": "2026-08-18T13:49:44+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -14817,9 +14817,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-18T04:48:18.889Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -14833,13 +14838,54 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260818044908-minhosong-mse-9crg6Q",
+                  "phaseId": 3,
+                  "issueNumber": 3,
+                  "taskId": "P03-T16",
+                  "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+                  "outputId": "P03-T16-O03",
+                  "outputText": "대표구조 선정 이유",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-18T04:49:08.718Z",
+                  "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O03/submissions/20260818044908-minhosong-mse-9crg6Q",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O03/submissions/20260818044908-minhosong-mse-9crg6Q",
+                  "summary": "1개 파일 · 1.3KB",
+                  "files": [
+                    {
+                      "name": "P03-T16-O03_Representative_Selection_Rationale.md",
+                      "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O03/submissions/20260818044908-minhosong-mse-9crg6Q/files/P03-T16-O03_Representative_Selection_Rationale.md",
+                      "size": 1314
+                    }
+                  ],
+                  "comment": "대표구조 G2(1:2:1)의 선정 이유를 정리한 문서입니다. T15의 coarse geometry/양방향 검증과 T16 mesh 안정성 결과를 종합해 G2를 P4 대표구조로 확정합니다. 단일 Ion 최대가 아니라 Ioff·DIBL·방향성까지 포함한 균형 기준을 적용했습니다.",
+                  "commentLabel": "제출 메모",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-18T04:49:08.718Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                }
+              ]
             },
             {
               "id": "P03-T16-O04",
@@ -18645,9 +18691,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-18T04:48:18.889Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -18662,13 +18713,54 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260818044908-minhosong-mse-9crg6Q",
+              "phaseId": 3,
+              "issueNumber": 3,
+              "taskId": "P03-T16",
+              "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+              "outputId": "P03-T16-O03",
+              "outputText": "대표구조 선정 이유",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-18T04:49:08.718Z",
+              "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O03/submissions/20260818044908-minhosong-mse-9crg6Q",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O03/submissions/20260818044908-minhosong-mse-9crg6Q",
+              "summary": "1개 파일 · 1.3KB",
+              "files": [
+                {
+                  "name": "P03-T16-O03_Representative_Selection_Rationale.md",
+                  "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O03/submissions/20260818044908-minhosong-mse-9crg6Q/files/P03-T16-O03_Representative_Selection_Rationale.md",
+                  "size": 1314
+                }
+              ],
+              "comment": "대표구조 G2(1:2:1)의 선정 이유를 정리한 문서입니다. T15의 coarse geometry/양방향 검증과 T16 mesh 안정성 결과를 종합해 G2를 P4 대표구조로 확정합니다. 단일 Ion 최대가 아니라 Ioff·DIBL·방향성까지 포함한 균형 기준을 적용했습니다.",
+              "commentLabel": "제출 메모",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-18T04:49:08.718Z"
+                  }
+                ],
+                "legacy": false
+              }
+            }
+          ],
           "taskId": "P03-T16"
         },
         {
