@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-18T04:48:02.223Z",
+  "updatedAt": "2026-08-18T04:48:18.889Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -7346,6 +7346,50 @@
             }
           ],
           "legacy": false
+        }
+      }
+    ],
+    "P03-T16-O02": [
+      {
+        "submissionId": "20260818044818-minhosong-mse-LbA1WA",
+        "phaseId": 3,
+        "issueNumber": 3,
+        "taskId": "P03-T16",
+        "taskText": "P4 전달 대표구조 확정 및 Mesh 확인",
+        "outputId": "P03-T16-O02",
+        "outputText": "P4 전달 Fixed Low·High WF",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "table",
+        "uploadedAt": "2026-08-18T04:48:18.889Z",
+        "folderPath": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA",
+        "summary": "9행 × 5열 표",
+        "files": [
+          {
+            "name": "table.tsv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.tsv",
+            "size": 295
+          },
+          {
+            "name": "table.csv",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.csv",
+            "size": 307
+          },
+          {
+            "name": "table.json",
+            "path": "members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.json",
+            "size": 901
+          }
+        ],
+        "table": {
+          "rowCount": 9,
+          "columnCount": 5,
+          "hasHeader": true,
+          "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.json",
+          "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.csv",
+          "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O02/submissions/20260818044818-minhosong-mse-LbA1WA/table.tsv"
         }
       }
     ]

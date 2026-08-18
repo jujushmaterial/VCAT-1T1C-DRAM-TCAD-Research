@@ -1,0 +1,9 @@
+﻿P03-T16-O02 P4 전달 Fixed Low·High WF,,,,
+,,,,
+Parameter,Value,Unit,Material,Mapping/Note
+WF_LOW,4.33,eV,Ti,gate_m1 / gate_m3
+WF_HIGH,4.7,eV,TiN,gate_m2
+Delta WF,0.37,eV,TiN - Ti,Fixed after P03-T14
+gate_m1,4.33,eV,Ti,SN-side LOW
+gate_m2,4.7,eV,TiN,center HIGH
+gate_m3,4.33,eV,Ti,BL-side LOW
