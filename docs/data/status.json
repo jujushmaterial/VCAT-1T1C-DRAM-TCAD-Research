@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T13:52:19+09:00",
+  "generatedAt": "2026-08-18T13:53:39+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11697,9 +11697,9 @@
       "tasksTotal": 8,
       "issueTasksDone": 3,
       "outputsDone": 11,
-      "outputsTotal": 45,
+      "outputsTotal": 46,
       "requiredOutputsDone": 5,
-      "requiredOutputsTotal": 36,
+      "requiredOutputsTotal": 37,
       "tasks": [
         {
           "id": "P03-T12",
@@ -15020,14 +15020,31 @@
               "heldSubmissionCount": 0,
               "state": "missing",
               "submissions": []
+            },
+            {
+              "id": "P03-T16-O08",
+              "text": "(참고)Mesh 전·후 핵심 지표 안정성 체크 시 사용한 SDE cmd",
+              "type": "code",
+              "review": "recommended",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 7,
+          "requiredOutputsTotal": 8,
           "outputsDone": 0,
-          "outputsTotal": 7,
+          "outputsTotal": 8,
           "missingRequiredOutputs": [
             "P03-T16-O01",
             "P03-T16-O02",
@@ -15035,7 +15052,8 @@
             "P03-T16-O04",
             "P03-T16-O05",
             "P03-T16-O06",
-            "P03-T16-O07"
+            "P03-T16-O07",
+            "P03-T16-O08"
           ],
           "checkboxDrift": false
         },
@@ -18968,6 +18986,24 @@
           "taskId": "P03-T16"
         },
         {
+          "id": "P03-T16-O08",
+          "text": "(참고)Mesh 전·후 핵심 지표 안정성 체크 시 사용한 SDE cmd",
+          "type": "code",
+          "review": "recommended",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P03-T16"
+        },
+        {
           "id": "P03-T01-O01",
           "text": "(이전) Dual-Metal 양방향 구조 코드",
           "type": "any",
@@ -19598,7 +19634,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-17T12:11:15Z",
+      "updatedAt": "2026-08-18T04:53:28Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 3
