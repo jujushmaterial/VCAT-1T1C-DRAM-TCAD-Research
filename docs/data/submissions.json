@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-18T04:47:55.300Z",
+  "updatedAt": "2026-08-18T04:48:02.223Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -7332,7 +7332,21 @@
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-03/tasks/P03-T16/outputs/P03-T16-O01/submissions/20260818044744-minhosong-mse-UPeAfg/table.tsv"
         },
         "comment": "P03-T16 최종 대표구조 조건표입니다. P03-T15 coarse geometry 평가와 양방향 검증 후 G2(1:2:1, 15/30/15 nm)를 P4 전달 대표구조로 고정합니다. Xbnd1=0.035 um, Xbnd2=0.065 um이며 최종 handoff mesh는 Mesh ON입니다.",
-        "commentLabel": "표 설명"
+        "commentLabel": "표 설명",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-18T04:47:44.713Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
