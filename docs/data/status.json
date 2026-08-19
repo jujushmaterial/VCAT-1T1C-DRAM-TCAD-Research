@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-19T22:01:54+09:00",
+  "generatedAt": "2026-08-19T22:02:55+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 48,
+  "overallProgress": 50,
   "phases": [
     {
       "id": 1,
@@ -11692,13 +11692,13 @@
       "id": 3,
       "issueNumber": 3,
       "state": "in-progress",
-      "progress": 75,
-      "tasksDone": 6,
+      "progress": 88,
+      "tasksDone": 7,
       "tasksTotal": 8,
-      "issueTasksDone": 6,
-      "outputsDone": 33,
+      "issueTasksDone": 7,
+      "outputsDone": 35,
       "outputsTotal": 46,
-      "requiredOutputsDone": 27,
+      "requiredOutputsDone": 29,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -14097,7 +14097,7 @@
         {
           "id": "P03-T15",
           "text": "최소 Geometry Check 및 통합 전기특성 평가",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P03-T15-O01",
@@ -14631,13 +14631,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260817121346-minhosong-mse-fCqCGQ",
@@ -14685,15 +14685,20 @@
                   "comment": "P03-T15-O06 — Electric Field·Emax 비교\n\nG0/G1/G2는 동일 GIDL 최종 상태(storage=1.0 V, gates=-0.4 V)에서 비교한다.\n2D ElectricField contour의 color scale은 각 화면의 자동 range일 수 있으므로 색 자체보다 legend의 Emax와 hot-spot 위치를 우선 해석한다.\nG1/G2 BTBT 및 ConductionBand 화면은 field 변화가 실제 tunneling/barrier 분포와 어떻게 연결되는지 보조 확인하기 위해 함께 첨부한다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T13:01:51.015Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-17T12:13:46.712Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T13:01:51.015Z"
                       }
                     ],
                     "legacy": false
@@ -14709,13 +14714,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260817121434-minhosong-mse-QURRlA",
@@ -14763,15 +14768,20 @@
                   "comment": "P03-T15-O07 — P4 전달 대표후보 통합 비교표 (PROVISIONAL)\n\n현재 데이터만으로는 G2(15/30/15)가 가장 균형적인 후보이다.\nSingle-Metal P2 및 3-zone uniform 4.70 control과 함께 비교해 L-H-L WF split 자체의 의의를 분리했다.\n단, 공식 T15-O05 양방향 전류 비대칭이 아직 없으므로 '최종 대표구조'가 아니라 '현재 대표후보'로만 업로드한다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T13:02:15.011Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-17T12:14:34.558Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T13:02:15.011Z"
                       }
                     ],
                     "legacy": false
@@ -14780,16 +14790,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 5,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 7,
           "requiredOutputsTotal": 7,
-          "outputsDone": 5,
+          "outputsDone": 7,
           "outputsTotal": 7,
-          "missingRequiredOutputs": [
-            "P03-T15-O06",
-            "P03-T15-O07"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -18956,13 +18963,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260817121346-minhosong-mse-fCqCGQ",
@@ -19010,15 +19017,20 @@
               "comment": "P03-T15-O06 — Electric Field·Emax 비교\n\nG0/G1/G2는 동일 GIDL 최종 상태(storage=1.0 V, gates=-0.4 V)에서 비교한다.\n2D ElectricField contour의 color scale은 각 화면의 자동 range일 수 있으므로 색 자체보다 legend의 Emax와 hot-spot 위치를 우선 해석한다.\nG1/G2 BTBT 및 ConductionBand 화면은 field 변화가 실제 tunneling/barrier 분포와 어떻게 연결되는지 보조 확인하기 위해 함께 첨부한다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T13:01:51.015Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-17T12:13:46.712Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T13:01:51.015Z"
                   }
                 ],
                 "legacy": false
@@ -19035,13 +19047,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260817121434-minhosong-mse-QURRlA",
@@ -19089,15 +19101,20 @@
               "comment": "P03-T15-O07 — P4 전달 대표후보 통합 비교표 (PROVISIONAL)\n\n현재 데이터만으로는 G2(15/30/15)가 가장 균형적인 후보이다.\nSingle-Metal P2 및 3-zone uniform 4.70 control과 함께 비교해 L-H-L WF split 자체의 의의를 분리했다.\n단, 공식 T15-O05 양방향 전류 비대칭이 아직 없으므로 '최종 대표구조'가 아니라 '현재 대표후보'로만 업로드한다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T13:02:15.011Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-17T12:14:34.558Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T13:02:15.011Z"
                   }
                 ],
                 "legacy": false
@@ -20316,7 +20333,7 @@
       "updatedAt": "2026-08-19T12:57:02Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 4
+      "integrityWarnings": 3
     },
     {
       "id": 4,
