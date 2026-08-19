@@ -59,15 +59,20 @@
   "comment": "WF 대표 후보 n72(Al/TiN), n73(Ti/TiN), n74(W/TiN)에 대해\n동일 GIDL 최종 상태(storage=1.0 V, bitline=0 V, gates=-0.4 V, 300 K)에서\nSentaurus Visual 원본 ElectricField, ConductionBandEnergy,\nBand2BandGeneration 이미지를 비교하였다.\n\nBarrier 비교는 동일 위치에서 추출한 ConductionBandEnergy cutline 원본 CSV 3개와\nSentaurus Visual의 3조건 중첩 그래프를 사용하였다.\n\n각 2D 이미지의 color range는 자동 범위이므로 색 자체보다 legend 수치와\n동일 cutline 데이터를 우선 비교하였다. 별도 TCAD 재실행이나 인공 데이터 생성은 하지 않았다.",
   "commentLabel": "제출 메모",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "seanthe17",
+    "reviewedAt": "2026-08-19T12:42:08.381Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-15T15:09:53.537Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "seanthe17",
+        "at": "2026-08-19T12:42:08.381Z"
       }
     ],
     "legacy": false
