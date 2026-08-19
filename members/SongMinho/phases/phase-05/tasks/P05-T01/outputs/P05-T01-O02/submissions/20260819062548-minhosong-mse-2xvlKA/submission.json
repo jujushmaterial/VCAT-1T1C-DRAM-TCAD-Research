@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260819062548-minhosong-mse-2xvlKA",
+  "phaseId": 5,
+  "issueNumber": 5,
+  "taskId": "P05-T01",
+  "taskText": "개선 기준·탐색범위 설정",
+  "outputId": "P05-T01-O02",
+  "outputText": "P5 공통 Bias·Physics·Mesh·추출 조건표",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "table",
+  "uploadedAt": "2026-08-19T06:25:48.491Z",
+  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA",
+  "summary": "15행 × 5열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.tsv",
+      "size": 928
+    },
+    {
+      "name": "table.csv",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.csv",
+      "size": 948
+    },
+    {
+      "name": "table.json",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.json",
+      "size": 1877
+    }
+  ],
+  "table": {
+    "rowCount": 15,
+    "columnCount": 5,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.tsv"
+  }
+}
