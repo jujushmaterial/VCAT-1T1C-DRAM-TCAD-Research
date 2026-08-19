@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T15:31:01.089Z",
+  "updatedAt": "2026-08-19T15:31:09.333Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9612,7 +9612,9 @@
           "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O04/submissions/20260819153101-LSH-linear-6m_wxA/table.json",
           "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O04/submissions/20260819153101-LSH-linear-6m_wxA/table.csv",
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O04/submissions/20260819153101-LSH-linear-6m_wxA/table.tsv"
-        }
+        },
+        "comment": "P7/P8 tolerance 분석에서 모든 구조를 동일 기준으로 비교하기 위해 공통 성능 추출 기준을 고정하였다. Ion은 Vd=1.0 V, Vg=1.0 V, Ioff는 Vd=1.0 V, Vg=0 V에서 추출하며, Vth는 |Id|=1×10^-7 A constant-current 기준, SS는 Vd=1.0 V에서 1×10^-12≤|Id|≤1×10^-8 A 구간, DIBL은 Vth@Vd=0.05 V와 Vth@Vd=1.0 V의 차이를 기준으로 계산한다.",
+        "commentLabel": "표 설명"
       }
     ]
   }
