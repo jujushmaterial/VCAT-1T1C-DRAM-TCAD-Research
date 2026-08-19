@@ -47,5 +47,19 @@
     }
   ],
   "comment": "Ion/logIoff/SS/DIBL/logIonIoff의 Boundary–성능 2D Map. 각 PNG 원본 그대로 업로드.",
-  "commentLabel": "제출 메모"
+  "commentLabel": "제출 메모",
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-19T06:35:50.660Z"
+      }
+    ],
+    "legacy": false
+  }
 }
