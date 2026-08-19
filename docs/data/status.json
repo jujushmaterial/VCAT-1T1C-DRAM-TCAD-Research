@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T22:02:55+09:00",
+  "generatedAt": "2026-08-19T22:03:23+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11696,9 +11696,9 @@
       "tasksDone": 7,
       "tasksTotal": 8,
       "issueTasksDone": 7,
-      "outputsDone": 35,
+      "outputsDone": 36,
       "outputsTotal": 46,
-      "requiredOutputsDone": 29,
+      "requiredOutputsDone": 30,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -14812,13 +14812,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260818044744-minhosong-mse-UPeAfg",
@@ -14864,15 +14864,20 @@
                   "comment": "P03-T16 최종 대표구조 조건표입니다. P03-T15 coarse geometry 평가와 양방향 검증 후 G2(1:2:1, 15/30/15 nm)를 P4 전달 대표구조로 고정합니다. Xbnd1=0.035 um, Xbnd2=0.065 um이며 최종 handoff mesh는 Mesh ON입니다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T13:03:03.769Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-18T04:47:44.713Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T13:03:03.769Z"
                       }
                     ],
                     "legacy": false
@@ -15375,12 +15380,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 8,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 8,
           "missingRequiredOutputs": [
-            "P03-T16-O01",
             "P03-T16-O02",
             "P03-T16-O03",
             "P03-T16-O04",
@@ -19131,13 +19135,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260818044744-minhosong-mse-UPeAfg",
@@ -19183,15 +19187,20 @@
               "comment": "P03-T16 최종 대표구조 조건표입니다. P03-T15 coarse geometry 평가와 양방향 검증 후 G2(1:2:1, 15/30/15 nm)를 P4 전달 대표구조로 고정합니다. Xbnd1=0.035 um, Xbnd2=0.065 um이며 최종 handoff mesh는 Mesh ON입니다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T13:03:03.769Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-18T04:47:44.713Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T13:03:03.769Z"
                   }
                 ],
                 "legacy": false
@@ -20330,10 +20339,10 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-19T12:57:02Z",
+      "updatedAt": "2026-08-19T13:02:55Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 3
+      "integrityWarnings": 4
     },
     {
       "id": 4,
