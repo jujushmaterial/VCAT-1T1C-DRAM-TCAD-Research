@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260819064206-minhosong-mse-pgf-SA",
+  "phaseId": 5,
+  "issueNumber": 5,
+  "taskId": "P05-T03",
+  "taskText": "개선 Nominal 대표구조 확정",
+  "outputId": "P05-T03-O04",
+  "outputText": "개선·열화 기준 Pass 판정",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-19T06:42:06.904Z",
+  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O04/submissions/20260819064206-minhosong-mse-pgf-SA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O04/submissions/20260819064206-minhosong-mse-pgf-SA",
+  "summary": "1개 파일 · 660B",
+  "files": [
+    {
+      "name": "P05-T03-O04_Pass_Decision.txt",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O04/submissions/20260819064206-minhosong-mse-pgf-SA/files/P05-T03-O04_Pass_Decision.txt",
+      "size": 660
+    }
+  ]
+}

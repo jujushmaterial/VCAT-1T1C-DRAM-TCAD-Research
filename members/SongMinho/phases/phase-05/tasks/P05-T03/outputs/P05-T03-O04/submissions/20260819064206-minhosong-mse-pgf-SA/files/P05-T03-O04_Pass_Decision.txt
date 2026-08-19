@@ -1,0 +1,20 @@
+P05 2D Nominal PASS 판정
+
+선택: B1/B2=35/67 nm, Segment=15/32/13 nm, WF=4.33/4.70/4.33 eV.
+
+P2 대비:
+Ion +23.575%
+Ioff 70.398% 감소
+Ion/Ioff +317.451%
+SS 0.030% 개선
+DIBL 37.633% 감소
+GIDL 87.529% 감소
+
+판정: PASS.
+
+35/67은 P3 35/65에서 B2만 +2 nm 이동한 최소 변경 구조이며,
+35/65 대비 Ion 손실은 약 0.311%에 불과하지만 Ioff/SS/DIBL/GIDL은 개선된다.
+33/67은 leakage/DIBL이 조금 더 강하지만, 35/67은 더 높은 Ion과 매우 낮은 GIDL을 유지하면서
+P2 대비 leakage/SCE 개선 폭이 충분해 balanced Nominal로 선택했다.
+
+다음: 추가 2D sweep 없이 P05-T04 3D Multi-vs-Single 검증.
