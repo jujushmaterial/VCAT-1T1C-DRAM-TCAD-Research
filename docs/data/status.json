@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T21:42:15+09:00",
+  "generatedAt": "2026-08-19T21:48:25+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11696,9 +11696,9 @@
       "tasksDone": 5,
       "tasksTotal": 8,
       "issueTasksDone": 5,
-      "outputsDone": 25,
+      "outputsDone": 26,
       "outputsTotal": 46,
-      "requiredOutputsDone": 19,
+      "requiredOutputsDone": 20,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -13336,9 +13336,9 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 2,
-              "evidenceSubmissionCount": 1,
-              "approvedSubmissionCount": 1,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 2,
+              "approvedSubmissionCount": 2,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -13491,15 +13491,20 @@
                   "comment": "WF 대표 후보 n72(Al/TiN), n73(Ti/TiN), n74(W/TiN)에 대해\n동일 GIDL 최종 상태(storage=1.0 V, bitline=0 V, gates=-0.4 V, 300 K)에서\nSentaurus Visual 원본 ElectricField, ConductionBandEnergy,\nBand2BandGeneration 이미지를 비교하였다.\n\nBarrier 비교는 동일 위치에서 추출한 ConductionBandEnergy cutline 원본 CSV 3개와\nSentaurus Visual의 3조건 중첩 그래프를 사용하였다.\n\n각 2D 이미지의 color range는 자동 범위이므로 색 자체보다 legend 수치와\n동일 cutline 데이터를 우선 비교하였다. 별도 TCAD 재실행이나 인공 데이터 생성은 하지 않았다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T12:42:08.381Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-15T15:09:53.537Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T12:42:08.381Z"
                       }
                     ],
                     "legacy": false
@@ -13515,13 +13520,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260815151050-minhosong-mse-k41QgA",
@@ -13549,15 +13554,20 @@
                   "comment": "P3의 1:1:1 L-H-L 기준구조에서 10개 WF 조합의 Forward/GIDL 지표를 비교하고,\n대표 후보 n72/n73/n74에 대해 Electric Field, ConductionBand cutline,\nBand2BandGeneration을 추가 비교하였다.\n\n최종 P3 Fixed WF로 LOW=Ti 4.33 eV, HIGH=TiN 4.70 eV(n73)을 선정한다.\n\n선정 이유:\n- n72 대비 DIBL과 peak E-field가 낮고 Ioff/SS도 소폭 개선됨\n- n74 대비 Ion 손실이 작고 GIDL 및 peak BTBT의 큰 증가를 피함\n- 단일 지표의 global best가 아니라 Forward 성능·누설·전계 간 치명적 열화가 없는 균형 후보\n\n주의:\n이 선정은 P3 기준 geometry에서의 Fixed WF 결정이다.\nWF×geometry 전체 공간의 절대 global optimum을 주장하지 않는다.\n후속 P5에서는 이 WF를 고정한 채 두 metal boundary만 정밀 최적화한다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T12:48:06.742Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-15T15:10:50.207Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T12:48:06.742Z"
                       }
                     ],
                     "legacy": false
@@ -14057,12 +14067,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 5,
+          "requiredOutputsDone": 6,
           "requiredOutputsTotal": 8,
-          "outputsDone": 5,
+          "outputsDone": 6,
           "outputsTotal": 8,
           "missingRequiredOutputs": [
-            "P03-T14-O06",
             "P03-T14-O07",
             "P03-T14-O08"
           ],
@@ -17616,9 +17625,9 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 2,
-          "evidenceSubmissionCount": 1,
-          "approvedSubmissionCount": 1,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 2,
+          "approvedSubmissionCount": 2,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -17771,15 +17780,20 @@
               "comment": "WF 대표 후보 n72(Al/TiN), n73(Ti/TiN), n74(W/TiN)에 대해\n동일 GIDL 최종 상태(storage=1.0 V, bitline=0 V, gates=-0.4 V, 300 K)에서\nSentaurus Visual 원본 ElectricField, ConductionBandEnergy,\nBand2BandGeneration 이미지를 비교하였다.\n\nBarrier 비교는 동일 위치에서 추출한 ConductionBandEnergy cutline 원본 CSV 3개와\nSentaurus Visual의 3조건 중첩 그래프를 사용하였다.\n\n각 2D 이미지의 color range는 자동 범위이므로 색 자체보다 legend 수치와\n동일 cutline 데이터를 우선 비교하였다. 별도 TCAD 재실행이나 인공 데이터 생성은 하지 않았다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T12:42:08.381Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-15T15:09:53.537Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T12:42:08.381Z"
                   }
                 ],
                 "legacy": false
@@ -17796,13 +17810,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260815151050-minhosong-mse-k41QgA",
@@ -17830,15 +17844,20 @@
               "comment": "P3의 1:1:1 L-H-L 기준구조에서 10개 WF 조합의 Forward/GIDL 지표를 비교하고,\n대표 후보 n72/n73/n74에 대해 Electric Field, ConductionBand cutline,\nBand2BandGeneration을 추가 비교하였다.\n\n최종 P3 Fixed WF로 LOW=Ti 4.33 eV, HIGH=TiN 4.70 eV(n73)을 선정한다.\n\n선정 이유:\n- n72 대비 DIBL과 peak E-field가 낮고 Ioff/SS도 소폭 개선됨\n- n74 대비 Ion 손실이 작고 GIDL 및 peak BTBT의 큰 증가를 피함\n- 단일 지표의 global best가 아니라 Forward 성능·누설·전계 간 치명적 열화가 없는 균형 후보\n\n주의:\n이 선정은 P3 기준 geometry에서의 Fixed WF 결정이다.\nWF×geometry 전체 공간의 절대 global optimum을 주장하지 않는다.\n후속 P5에서는 이 WF를 고정한 채 두 metal boundary만 정밀 최적화한다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T12:48:06.742Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-15T15:10:50.207Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T12:48:06.742Z"
                   }
                 ],
                 "legacy": false
