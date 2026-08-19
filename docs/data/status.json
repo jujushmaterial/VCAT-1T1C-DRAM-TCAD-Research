@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T22:05:31+09:00",
+  "generatedAt": "2026-08-19T22:06:01+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20401,7 +20401,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-19T13:02:55Z",
+      "updatedAt": "2026-08-19T13:05:31Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 3
