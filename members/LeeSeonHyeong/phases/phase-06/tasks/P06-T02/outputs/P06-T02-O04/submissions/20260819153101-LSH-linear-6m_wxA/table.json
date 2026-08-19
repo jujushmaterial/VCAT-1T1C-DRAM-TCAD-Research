@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "rowCount": 9,
+  "columnCount": 6,
+  "hasHeader": true,
+  "rows": [
+    [
+      "Metric",
+      "Bias_or_Data_Range",
+      "Extraction_Method",
+      "Current_Definition",
+      "Unit",
+      "Frozen_Note"
+    ],
+    [
+      "Ion",
+      "Vd=1.0 V, Vg=1.0 V",
+      "Use final Forward Id-Vg point",
+      "|storage TotalCurrent|",
+      "A",
+      "P5/P6 common"
+    ],
+    [
+      "Ioff",
+      "Vd=1.0 V, nominal Vg=0 V",
+      "Use first stored Forward Id-Vg point; fresh PLT first point is Vg=1e-5 V",
+      "|storage TotalCurrent|",
+      "A",
+      "Preserves P5 extraction behavior"
+    ],
+    [
+      "Ion/Ioff",
+      "Ion and Ioff above",
+      "Ion / Ioff",
+      "absolute-current ratio",
+      "-",
+      "P5/P6 common"
+    ],
+    [
+      "Vth@Vd=0.05",
+      "|Id| target = 1e-7 A",
+      "Log-linear interpolation in log10(|Id|) between bracketing points",
+      "|storage TotalCurrent|",
+      "V",
+      "constant-current method"
+    ],
+    [
+      "Vth@Vd=1.0",
+      "|Id| target = 1e-7 A",
+      "Log-linear interpolation in log10(|Id|) between bracketing points",
+      "|storage TotalCurrent|",
+      "V",
+      "constant-current method"
+    ],
+    [
+      "SS",
+      "Vd=1.0 V; 1e-12 <= |Id| <= 1e-8 A",
+      "Linear fit log10(|Id|) versus Vg; SS = 1000 / slope",
+      "|storage TotalCurrent|",
+      "mV/dec",
+      "120 points in fresh nominal run"
+    ],
+    [
+      "DIBL",
+      "Vd=0.05 and 1.0 V",
+      "(Vth@0.05 - Vth@1.0) / 0.95 × 1000",
+      "Vth values above",
+      "mV/V",
+      "P5/P6 common"
+    ],
+    [
+      "GIDL",
+      "Vd=1.0 V, Vg=-0.4 V",
+      "Use final GIDL gate-sweep point",
+      "|storage TotalCurrent|",
+      "A",
+      "Use validated P5 PRODFAST GIDL deck"
+    ]
+  ]
+}
