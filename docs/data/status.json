@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T15:29:17+09:00",
+  "generatedAt": "2026-08-19T15:30:06+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -21318,14 +21318,21 @@
                       "size": 550
                     }
                   ],
+                  "comment": "49 Forward + shortlist GIDL로 결론이 고정되면 추가 2D sweep 없이 Nominal 1개를 확정하는 종료 기준.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T06:28:59.242Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -22181,14 +22188,21 @@
                   "size": 550
                 }
               ],
+              "comment": "49 Forward + shortlist GIDL로 결론이 고정되면 추가 2D sweep 없이 Nominal 1개를 확정하는 종료 기준.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T06:28:59.242Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
