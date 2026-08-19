@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T14:42:05+09:00",
+  "generatedAt": "2026-08-19T15:25:31+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20884,7 +20884,7 @@
     {
       "id": 5,
       "issueNumber": 5,
-      "state": "locked",
+      "state": "in-progress",
       "progress": 0,
       "tasksDone": 0,
       "tasksTotal": 4,
@@ -20908,13 +20908,65 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260819062509-minhosong-mse-YNLHEg",
+                  "phaseId": 5,
+                  "issueNumber": 5,
+                  "taskId": "P05-T01",
+                  "taskText": "개선 기준·탐색범위 설정",
+                  "outputId": "P05-T01-O01",
+                  "outputText": "P2 Single-Metal 기준 성능표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-19T06:25:09.465Z",
+                  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg",
+                  "summary": "9행 × 5열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.tsv",
+                      "size": 628
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.csv",
+                      "size": 650
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.json",
+                      "size": 1234
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 9,
+                    "columnCount": 5,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.tsv"
+                  },
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P05-T01-O02",
@@ -21003,7 +21055,7 @@
             }
           ],
           "checked": false,
-          "state": "not-started",
+          "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 6,
           "outputsDone": 0,
@@ -21437,13 +21489,65 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260819062509-minhosong-mse-YNLHEg",
+              "phaseId": 5,
+              "issueNumber": 5,
+              "taskId": "P05-T01",
+              "taskText": "개선 기준·탐색범위 설정",
+              "outputId": "P05-T01-O01",
+              "outputText": "P2 Single-Metal 기준 성능표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-19T06:25:09.465Z",
+              "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg",
+              "summary": "9행 × 5열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.tsv",
+                  "size": 628
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.csv",
+                  "size": 650
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.json",
+                  "size": 1234
+                }
+              ],
+              "table": {
+                "rowCount": 9,
+                "columnCount": 5,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.tsv"
+              },
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P05-T01"
         },
         {
