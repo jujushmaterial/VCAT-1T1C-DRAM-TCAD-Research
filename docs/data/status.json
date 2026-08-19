@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T15:37:46+09:00",
+  "generatedAt": "2026-08-19T15:38:37+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -21747,13 +21747,72 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260819063737-minhosong-mse-0gq4-A",
+                  "phaseId": 5,
+                  "issueNumber": 5,
+                  "taskId": "P05-T02",
+                  "taskText": "Boundary 기반 2D 최적화",
+                  "outputId": "P05-T02-O06",
+                  "outputText": "유망 Boundary 조건 목록",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-19T06:37:37.105Z",
+                  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A",
+                  "summary": "5행 × 26열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.tsv",
+                      "size": 1755
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.csv",
+                      "size": 1763
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.json",
+                      "size": 3079
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 5,
+                    "columnCount": 26,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.tsv"
+                  },
+                  "comment": "핵심 후보 33/67, 35/67, 35/65, 37/63 통합표. GIDL 포함. 35/67 최종 선택.",
+                  "commentLabel": "표 설명",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T06:37:37.105Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                }
+              ]
             },
             {
               "id": "P05-T02-O07",
@@ -22895,13 +22954,72 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260819063737-minhosong-mse-0gq4-A",
+              "phaseId": 5,
+              "issueNumber": 5,
+              "taskId": "P05-T02",
+              "taskText": "Boundary 기반 2D 최적화",
+              "outputId": "P05-T02-O06",
+              "outputText": "유망 Boundary 조건 목록",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-19T06:37:37.105Z",
+              "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A",
+              "summary": "5행 × 26열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.tsv",
+                  "size": 1755
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.csv",
+                  "size": 1763
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.json",
+                  "size": 3079
+                }
+              ],
+              "table": {
+                "rowCount": 5,
+                "columnCount": 26,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.tsv"
+              },
+              "comment": "핵심 후보 33/67, 35/67, 35/65, 37/63 통합표. GIDL 포함. 35/67 최종 선택.",
+              "commentLabel": "표 설명",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T06:37:37.105Z"
+                  }
+                ],
+                "legacy": false
+              }
+            }
+          ],
           "taskId": "P05-T02"
         },
         {
