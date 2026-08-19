@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:35:50.660Z",
+  "updatedAt": "2026-08-19T06:36:09.373Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8291,7 +8291,9 @@
             "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O04/submissions/20260819063550-minhosong-mse-DE8_dw/files/P05-T02-O04_SS_mVdec_Map.png",
             "size": 62601
           }
-        ]
+        ],
+        "comment": "Ion/logIoff/SS/DIBL/logIonIoff의 Boundary–성능 2D Map. 각 PNG 원본 그대로 업로드.",
+        "commentLabel": "제출 메모"
       }
     ]
   }
