@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T22:00:59+09:00",
+  "generatedAt": "2026-08-19T22:01:54+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11696,9 +11696,9 @@
       "tasksDone": 6,
       "tasksTotal": 8,
       "issueTasksDone": 6,
-      "outputsDone": 31,
+      "outputsDone": 33,
       "outputsTotal": 46,
-      "requiredOutputsDone": 25,
+      "requiredOutputsDone": 27,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -14364,13 +14364,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260817121300-minhosong-mse-ARPqhQ",
@@ -14398,15 +14398,20 @@
                   "comment": "P03-T15-O04 — Ion·Ioff·Vth·SS·GIDL 통합 지표표\n\nG0/G1/G2를 T14와 동일한 추출 기준으로 비교했다.\nG1은 Ion을 높이지만 Ioff와 DIBL 열화가 크다. G2는 Ion이 G0보다 약 2.9% 낮지만 Ioff와 DIBL을 크게 개선하고 GIDL은 증가하지 않는다.\n따라서 현재 coarse 결과에서는 G2가 가장 균형적인 방향이다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T13:00:48.027Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-17T12:13:00.983Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T13:00:48.027Z"
                       }
                     ],
                     "legacy": false
@@ -14422,13 +14427,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 3,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 3,
+              "evidenceSubmissionCount": 2,
+              "approvedSubmissionCount": 2,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260817143354-minhosong-mse-A5pvCw",
@@ -14471,15 +14476,20 @@
                   "comment": "P03-T15-O05 — 양방향 전류 비대칭 비교\n\n고정 조건\n- WF_LOW / WF_HIGH = 4.33 / 4.70 eV\n- gate_m1 / gate_m2 / gate_m3 = 4.33 / 4.70 / 4.33 eV\n- Temp = 300 K, MeshScale = 1.0, Vg = 0→1.0 V\n- Vd = 0.05 V, 1.0 V\n\nGeometry\n- G0 = 1:1:1 = 20/20/20 nm\n- G2 = 1:2:1 = 15/30/15 nm\n- G1 = 2.5:1:2.5 = 25/10/25 nm\n\nAxes\n- Forward: X = gate_m1 OuterVoltage [V], Y = storage TotalCurrent [A, signed raw]\n- Reverse: X = gate_m1 OuterVoltage [V], Y = bitline TotalCurrent [A, signed raw]\n\n비대칭 정의\n- |FWD−REV| / ((|FWD|+|REV|)/2) × 100 %\n- Issue가 특정 수식을 지정한 것은 아니므로, 본 산출물에서 사용한 비교 정의를 명시함.\n\n결과\n- Vd=1.0 V Ion 비대칭: G0≈0.0258 %, G2≈0.0308 %, G1≈0.0262 %\n- Vd=0.05 V Ion 비대칭: 세 구조 모두 약 0.006 %\n- Vth, SS, Ioff, DIBL 역시 Forward/Reverse에서 거의 동일함.\n\n결론\n- 세 coarse geometry 모두 유의한 양방향 전류 패널티가 관찰되지 않음.\n- T15-O05 관점에서 G2를 배제할 방향성 문제는 없음.\n- 최종 geometry 판단은 T15-O04와 함께 해석하며, 현재 G2가 대표후보로 유지됨.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T13:01:19.072Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-17T14:33:54.180Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T13:01:19.072Z"
                       }
                     ],
                     "legacy": false
@@ -14592,15 +14602,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T13:01:06.743Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-17T14:39:06.405Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T13:01:06.743Z"
                       }
                     ],
                     "legacy": false
@@ -14767,13 +14782,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 3,
+          "requiredOutputsDone": 5,
           "requiredOutputsTotal": 7,
-          "outputsDone": 3,
+          "outputsDone": 5,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P03-T15-O04",
-            "P03-T15-O05",
             "P03-T15-O06",
             "P03-T15-O07"
           ],
@@ -18674,13 +18687,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260817121300-minhosong-mse-ARPqhQ",
@@ -18708,15 +18721,20 @@
               "comment": "P03-T15-O04 — Ion·Ioff·Vth·SS·GIDL 통합 지표표\n\nG0/G1/G2를 T14와 동일한 추출 기준으로 비교했다.\nG1은 Ion을 높이지만 Ioff와 DIBL 열화가 크다. G2는 Ion이 G0보다 약 2.9% 낮지만 Ioff와 DIBL을 크게 개선하고 GIDL은 증가하지 않는다.\n따라서 현재 coarse 결과에서는 G2가 가장 균형적인 방향이다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T13:00:48.027Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-17T12:13:00.983Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T13:00:48.027Z"
                   }
                 ],
                 "legacy": false
@@ -18733,13 +18751,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 3,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 3,
+          "evidenceSubmissionCount": 2,
+          "approvedSubmissionCount": 2,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260817143354-minhosong-mse-A5pvCw",
@@ -18782,15 +18800,20 @@
               "comment": "P03-T15-O05 — 양방향 전류 비대칭 비교\n\n고정 조건\n- WF_LOW / WF_HIGH = 4.33 / 4.70 eV\n- gate_m1 / gate_m2 / gate_m3 = 4.33 / 4.70 / 4.33 eV\n- Temp = 300 K, MeshScale = 1.0, Vg = 0→1.0 V\n- Vd = 0.05 V, 1.0 V\n\nGeometry\n- G0 = 1:1:1 = 20/20/20 nm\n- G2 = 1:2:1 = 15/30/15 nm\n- G1 = 2.5:1:2.5 = 25/10/25 nm\n\nAxes\n- Forward: X = gate_m1 OuterVoltage [V], Y = storage TotalCurrent [A, signed raw]\n- Reverse: X = gate_m1 OuterVoltage [V], Y = bitline TotalCurrent [A, signed raw]\n\n비대칭 정의\n- |FWD−REV| / ((|FWD|+|REV|)/2) × 100 %\n- Issue가 특정 수식을 지정한 것은 아니므로, 본 산출물에서 사용한 비교 정의를 명시함.\n\n결과\n- Vd=1.0 V Ion 비대칭: G0≈0.0258 %, G2≈0.0308 %, G1≈0.0262 %\n- Vd=0.05 V Ion 비대칭: 세 구조 모두 약 0.006 %\n- Vth, SS, Ioff, DIBL 역시 Forward/Reverse에서 거의 동일함.\n\n결론\n- 세 coarse geometry 모두 유의한 양방향 전류 패널티가 관찰되지 않음.\n- T15-O05 관점에서 G2를 배제할 방향성 문제는 없음.\n- 최종 geometry 판단은 T15-O04와 함께 해석하며, 현재 G2가 대표후보로 유지됨.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T13:01:19.072Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-17T14:33:54.180Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T13:01:19.072Z"
                   }
                 ],
                 "legacy": false
@@ -18903,15 +18926,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T13:01:06.743Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-17T14:39:06.405Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T13:01:06.743Z"
                   }
                 ],
                 "legacy": false
