@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:34:41.753Z",
+  "updatedAt": "2026-08-19T06:35:01.807Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8180,6 +8180,50 @@
             }
           ],
           "legacy": false
+        }
+      }
+    ],
+    "P05-T02-O03": [
+      {
+        "submissionId": "20260819063501-minhosong-mse-7P915w",
+        "phaseId": 5,
+        "issueNumber": 5,
+        "taskId": "P05-T02",
+        "taskText": "Boundary 기반 2D 최적화",
+        "outputId": "P05-T02-O03",
+        "outputText": "Single-Metal 대비 성능 비교표",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "table",
+        "uploadedAt": "2026-08-19T06:35:01.807Z",
+        "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O03/submissions/20260819063501-minhosong-mse-7P915w",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O03/submissions/20260819063501-minhosong-mse-7P915w",
+        "summary": "50행 × 23열 표",
+        "files": [
+          {
+            "name": "table.tsv",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O03/submissions/20260819063501-minhosong-mse-7P915w/table.tsv",
+            "size": 14921
+          },
+          {
+            "name": "table.csv",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O03/submissions/20260819063501-minhosong-mse-7P915w/table.csv",
+            "size": 14974
+          },
+          {
+            "name": "table.json",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O03/submissions/20260819063501-minhosong-mse-7P915w/table.json",
+            "size": 25966
+          }
+        ],
+        "table": {
+          "rowCount": 50,
+          "columnCount": 23,
+          "hasHeader": true,
+          "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O03/submissions/20260819063501-minhosong-mse-7P915w/table.json",
+          "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O03/submissions/20260819063501-minhosong-mse-7P915w/table.csv",
+          "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O03/submissions/20260819063501-minhosong-mse-7P915w/table.tsv"
         }
       }
     ]
