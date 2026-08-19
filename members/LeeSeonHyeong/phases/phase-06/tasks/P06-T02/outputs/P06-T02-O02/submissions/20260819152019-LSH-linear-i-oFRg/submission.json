@@ -1,0 +1,29 @@
+{
+  "submissionId": "20260819152019-LSH-linear-i-oFRg",
+  "phaseId": 6,
+  "issueNumber": 6,
+  "taskId": "P06-T02",
+  "taskText": "Nominal 재현성 및 공통 Simulation 기준 확정",
+  "outputId": "P06-T02-O02",
+  "outputText": "P5 원본–P6 Nominal Id–Vg 비교",
+  "uploader": "LSH-linear",
+  "memberName": "이선형",
+  "memberFolder": "LeeSeonHyeong",
+  "type": "files",
+  "uploadedAt": "2026-08-19T15:20:19.576Z",
+  "folderPath": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O02/submissions/20260819152019-LSH-linear-i-oFRg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O02/submissions/20260819152019-LSH-linear-i-oFRg",
+  "summary": "2개 파일 · 52.1KB",
+  "files": [
+    {
+      "name": "P06-T02-O02_IdVg_Vd0p05_SVisual.png",
+      "path": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O02/submissions/20260819152019-LSH-linear-i-oFRg/files/P06-T02-O02_IdVg_Vd0p05_SVisual.png",
+      "size": 28370
+    },
+    {
+      "name": "P06-T02-O02_IdVg_Vd1p0_SVisual.png",
+      "path": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O02/submissions/20260819152019-LSH-linear-i-oFRg/files/P06-T02-O02_IdVg_Vd1p0_SVisual.png",
+      "size": 25004
+    }
+  ]
+}
