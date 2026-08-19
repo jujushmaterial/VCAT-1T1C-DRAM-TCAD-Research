@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T15:27:47+09:00",
+  "generatedAt": "2026-08-19T15:28:36+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -21184,14 +21184,21 @@
                     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O04/submissions/20260819062720-minhosong-mse-FSnH_g/table.csv",
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O04/submissions/20260819062720-minhosong-mse-FSnH_g/table.tsv"
                   },
+                  "comment": "Ion-only가 아니라 drive/leakage/SS/DIBL/GIDL/convergence의 multi-metric 개선 기준.",
+                  "commentLabel": "표 설명",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T06:27:20.073Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -21205,13 +21212,72 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260819062800-minhosong-mse-nVu4NA",
+                  "phaseId": 5,
+                  "issueNumber": 5,
+                  "taskId": "P05-T01",
+                  "taskText": "개선 기준·탐색범위 설정",
+                  "outputId": "P05-T01-O05",
+                  "outputText": "제외 조건·치명적 열화 기준",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-19T06:28:00.275Z",
+                  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA",
+                  "summary": "6행 × 4열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.tsv",
+                      "size": 483
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.csv",
+                      "size": 494
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.json",
+                      "size": 864
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 6,
+                    "columnCount": 4,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.tsv"
+                  },
+                  "comment": "short-M2 leakage/SCE 악화, non-convergence, Ion-only optimum 등 탈락 기준.",
+                  "commentLabel": "표 설명",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T06:28:00.275Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                }
+              ]
             },
             {
               "id": "P05-T01-O06",
@@ -21945,14 +22011,21 @@
                 "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O04/submissions/20260819062720-minhosong-mse-FSnH_g/table.csv",
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O04/submissions/20260819062720-minhosong-mse-FSnH_g/table.tsv"
               },
+              "comment": "Ion-only가 아니라 drive/leakage/SS/DIBL/GIDL/convergence의 multi-metric 개선 기준.",
+              "commentLabel": "표 설명",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T06:27:20.073Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -21967,13 +22040,72 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260819062800-minhosong-mse-nVu4NA",
+              "phaseId": 5,
+              "issueNumber": 5,
+              "taskId": "P05-T01",
+              "taskText": "개선 기준·탐색범위 설정",
+              "outputId": "P05-T01-O05",
+              "outputText": "제외 조건·치명적 열화 기준",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-19T06:28:00.275Z",
+              "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA",
+              "summary": "6행 × 4열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.tsv",
+                  "size": 483
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.csv",
+                  "size": 494
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.json",
+                  "size": 864
+                }
+              ],
+              "table": {
+                "rowCount": 6,
+                "columnCount": 4,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.tsv"
+              },
+              "comment": "short-M2 leakage/SCE 악화, non-convergence, Ion-only optimum 등 탈락 기준.",
+              "commentLabel": "표 설명",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T06:28:00.275Z"
+                  }
+                ],
+                "legacy": false
+              }
+            }
+          ],
           "taskId": "P05-T01"
         },
         {
