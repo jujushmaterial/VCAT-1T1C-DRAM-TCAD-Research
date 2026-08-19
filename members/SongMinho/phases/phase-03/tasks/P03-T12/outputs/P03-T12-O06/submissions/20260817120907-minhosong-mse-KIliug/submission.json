@@ -59,15 +59,20 @@
   "comment": "P03-T12-O06 — 대표 Electric Field·Barrier 비교\n\n대표 ΔWF=0(n19), +0.4(n67), -0.4(n127)를 동일 GIDL 최종 상태\n(storage=1.0 V, bitline=0 V, gate_sn=gate_bl=-0.4 V, 300 K)에서 비교한다.\n\n첨부 구성:\n- ElectricField 3장: n19 / n67 / n127\n- Band2BandGeneration 3장: n19 / n67 / n127\n- ConductionBandEnergy 3장: n19 / n67 / n127\n- 동일 위치 ConductionBand cutline raw CSV 3개 및 SVisual overlay/위치 증빙\n\nBarrier cutline 축:\n- X축: device transport x-coordinate [µm], 0→0.1 µm\n- cutline 위치: y=0.0055 µm (세 조건 동일)\n- Y축: ConductionBandEnergy [eV]\n\n주의:\n개별 2D contour는 SVisual auto color scale이 서로 다를 수 있으므로 색 자체의 직접 비교보다\n각 legend의 수치와 동일 위치 cutline profile을 우선한다.\n\n대표 legend 값:\n- n19 (ΔWF=0): Emax≈6.227e6 V/cm, BTBT max≈7.876e24 cm^-3 s^-1\n- n67 (ΔWF=+0.4): Emax≈7.782e6 V/cm, BTBT max≈1.366e25 cm^-3 s^-1\n- n127 (ΔWF=-0.4): Emax≈6.446e6 V/cm, BTBT max≈3.188e24 cm^-3 s^-1\n\n따라서 +ΔWF 방향은 GIDL·전계·BTBT가 증가하는 방향이고,\n-ΔWF 방향은 BTBT/GIDL 억제 쪽으로 이동하는 경향을 보인다.",
   "commentLabel": "제출 메모",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "seanthe17",
+    "reviewedAt": "2026-08-19T12:37:46.541Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-17T12:09:07.239Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "seanthe17",
+        "at": "2026-08-19T12:37:46.541Z"
       }
     ],
     "legacy": false
