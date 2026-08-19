@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-19T22:05:07+09:00",
+  "generatedAt": "2026-08-19T22:05:31+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 50,
+  "overallProgress": 52,
   "phases": [
     {
       "id": 1,
@@ -11691,14 +11691,14 @@
     {
       "id": 3,
       "issueNumber": 3,
-      "state": "in-progress",
-      "progress": 88,
-      "tasksDone": 7,
+      "state": "review",
+      "progress": 100,
+      "tasksDone": 8,
       "tasksTotal": 8,
-      "issueTasksDone": 7,
-      "outputsDone": 42,
+      "issueTasksDone": 8,
+      "outputsDone": 43,
       "outputsTotal": 46,
-      "requiredOutputsDone": 36,
+      "requiredOutputsDone": 37,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -14802,7 +14802,7 @@
         {
           "id": "P03-T16",
           "text": "P4 전달 대표구조 확정 및 Mesh 확인",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P03-T16-O01",
@@ -15359,13 +15359,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260818045404-minhosong-mse-T7y1mg",
@@ -15391,15 +15391,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T13:05:13.708Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-18T04:54:04.770Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T13:05:13.708Z"
                       }
                     ],
                     "legacy": false
@@ -15408,15 +15413,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 7,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 8,
           "requiredOutputsTotal": 8,
-          "outputsDone": 7,
+          "outputsDone": 8,
           "outputsTotal": 8,
-          "missingRequiredOutputs": [
-            "P03-T16-O08"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -19713,13 +19716,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260818045404-minhosong-mse-T7y1mg",
@@ -19745,15 +19748,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T13:05:13.708Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-18T04:54:04.770Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T13:05:13.708Z"
                   }
                 ],
                 "legacy": false
@@ -20396,7 +20404,7 @@
       "updatedAt": "2026-08-19T13:02:55Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 4
+      "integrityWarnings": 3
     },
     {
       "id": 4,
