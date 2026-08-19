@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:42:19.375Z",
+  "updatedAt": "2026-08-19T06:42:26.075Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8677,7 +8677,21 @@
           }
         ],
         "comment": "최종 PASS 판정 및 35/67 선정 이유.",
-        "commentLabel": "제출 메모"
+        "commentLabel": "제출 메모",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-19T06:42:06.904Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
