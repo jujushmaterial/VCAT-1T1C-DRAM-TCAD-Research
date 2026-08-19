@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:45:02.677Z",
+  "updatedAt": "2026-08-19T06:45:14.342Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8769,7 +8769,9 @@
             "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O06/submissions/20260819064502-minhosong-mse-1LaTgQ/files/P05-T03-O06_3D_Verification_Input.txt",
             "size": 736
           }
-        ]
+        ],
+        "comment": "P05-T04 3D 담당자 전달용 최종 geometry/WF/bias/physics/extraction 조건.",
+        "commentLabel": "제출 메모"
       }
     ]
   }
