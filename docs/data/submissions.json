@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T07:48:09.039Z",
+  "updatedAt": "2026-08-19T12:34:34.965Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -6177,15 +6177,20 @@
         "comment": "P03-T12-O01 — Dual-Metal 양방향 구조 코드\n\nP2 기준 VCAT geometry/doping/mesh를 유지하고 gate oxide를 SN/BL 2-zone으로 분리한 Dual-Metal 구조이다.\nRatioSN=0.5에서 gate 60 nm를 SN 30 nm / BL 30 nm로 동일 분할한다.\nSDevice에서는 gate_sn과 gate_bl에 WF_SN/WF_BL을 독립 지정하고 두 gate는 하나의 word line처럼 동일 전압으로 sweep한다.\n\n포함 파일:\n- SDE: 2-zone geometry + metal-boundary local mesh\n- Forward SDevice: Vd=0.05/1.0 V, gate 0→1.0 V\n- GIDL SDevice: storage=1.0 V, gate 0→-0.4 V\n\n'양방향'은 source/drain reverse-bias가 아니라 WF_SN/WF_BL의 공간 배치 방향(ΔWF 부호)을 뜻한다.\nPhysics는 Fermi, OldSlotboom, PhuMob, HighFieldSaturation, SRH, Band2Band NonlocalPath를 공통 사용한다.",
         "commentLabel": "실행 조건 및 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "seanthe17",
+          "reviewedAt": "2026-08-19T12:34:34.965Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-17T12:01:06.896Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "seanthe17",
+              "at": "2026-08-19T12:34:34.965Z"
             }
           ],
           "legacy": false
