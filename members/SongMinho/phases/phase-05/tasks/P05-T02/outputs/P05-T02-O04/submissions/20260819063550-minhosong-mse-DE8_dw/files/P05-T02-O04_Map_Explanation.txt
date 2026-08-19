@@ -1,0 +1,4 @@
+49-point Forward 결과를 Xbnd1-Xbnd2 2D Map으로 정리했다.
+PNG는 metric별 원본 파일을 그대로 제출하며 합성 스크린샷으로 재가공하지 않는다.
+M2=B2-B1가 1차 주효과이고, 짧은 M2는 Ion을 높이지만 Ioff/DIBL을 급격히 악화시킨다.
+M2≈26–34 nm가 P2 대비 높은 Ion과 낮은 leakage/DIBL을 동시에 유지한다.

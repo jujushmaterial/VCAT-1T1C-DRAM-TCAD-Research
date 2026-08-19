@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:35:27.737Z",
+  "updatedAt": "2026-08-19T06:35:50.660Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8241,6 +8241,57 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P05-T02-O04": [
+      {
+        "submissionId": "20260819063550-minhosong-mse-DE8_dw",
+        "phaseId": 5,
+        "issueNumber": 5,
+        "taskId": "P05-T02",
+        "taskText": "Boundary 기반 2D 최적화",
+        "outputId": "P05-T02-O04",
+        "outputText": "Boundary–성능 2D Map",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-19T06:35:50.660Z",
+        "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O04/submissions/20260819063550-minhosong-mse-DE8_dw",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O04/submissions/20260819063550-minhosong-mse-DE8_dw",
+        "summary": "6개 파일 · 274.5KB",
+        "files": [
+          {
+            "name": "P05-T02-O04_DIBL_mVV_Map.png",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O04/submissions/20260819063550-minhosong-mse-DE8_dw/files/P05-T02-O04_DIBL_mVV_Map.png",
+            "size": 48203
+          },
+          {
+            "name": "P05-T02-O04_Ion_uA_Map.png",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O04/submissions/20260819063550-minhosong-mse-DE8_dw/files/P05-T02-O04_Ion_uA_Map.png",
+            "size": 48320
+          },
+          {
+            "name": "P05-T02-O04_Log10_Ioff_Map.png",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O04/submissions/20260819063550-minhosong-mse-DE8_dw/files/P05-T02-O04_Log10_Ioff_Map.png",
+            "size": 60227
+          },
+          {
+            "name": "P05-T02-O04_Log10_IonIoff_Map.png",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O04/submissions/20260819063550-minhosong-mse-DE8_dw/files/P05-T02-O04_Log10_IonIoff_Map.png",
+            "size": 61348
+          },
+          {
+            "name": "P05-T02-O04_Map_Explanation.txt",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O04/submissions/20260819063550-minhosong-mse-DE8_dw/files/P05-T02-O04_Map_Explanation.txt",
+            "size": 373
+          },
+          {
+            "name": "P05-T02-O04_SS_mVdec_Map.png",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O04/submissions/20260819063550-minhosong-mse-DE8_dw/files/P05-T02-O04_SS_mVdec_Map.png",
+            "size": 62601
+          }
+        ]
       }
     ]
   }
