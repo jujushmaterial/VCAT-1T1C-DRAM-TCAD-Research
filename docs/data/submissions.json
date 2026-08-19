@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T14:36:05.154Z",
+  "updatedAt": "2026-08-19T14:36:22.030Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5437,7 +5437,26 @@
             "path": "members/SongMinho/phases/phase-03/tasks/P03-T14/outputs/P03-T14-O08/submissions/20260813161326-minhosong-mse-YNzrbQ/files/P03-T14-O02_WF_Split_Raw_Data.xlsx",
             "size": 524086
           }
-        ]
+        ],
+        "review": {
+          "status": "approved",
+          "reviewer": "seanthe17",
+          "reviewedAt": "2026-08-19T14:36:22.030Z",
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-13T16:13:26.716Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "seanthe17",
+              "at": "2026-08-19T14:36:22.030Z"
+            }
+          ],
+          "legacy": false
+        }
       },
       {
         "submissionId": "20260815151546-minhosong-mse-fgt1Ew",
