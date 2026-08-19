@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260819063025-minhosong-mse--ss5Wg",
+  "phaseId": 5,
+  "issueNumber": 5,
+  "taskId": "P05-T02",
+  "taskText": "Boundary 기반 2D 최적화",
+  "outputId": "P05-T02-O01",
+  "outputText": "두 Metal Boundary Sweep 조건표",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "table",
+  "uploadedAt": "2026-08-19T06:30:25.546Z",
+  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg",
+  "summary": "50행 × 8열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg/table.tsv",
+      "size": 2174
+    },
+    {
+      "name": "table.csv",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg/table.csv",
+      "size": 2325
+    },
+    {
+      "name": "table.json",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg/table.json",
+      "size": 6468
+    }
+  ],
+  "table": {
+    "rowCount": 50,
+    "columnCount": 8,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg/table.tsv"
+  }
+}
