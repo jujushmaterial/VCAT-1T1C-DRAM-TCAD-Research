@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T15:29:02.032Z",
+  "updatedAt": "2026-08-19T15:29:11.086Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9552,7 +9552,9 @@
           "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O03/submissions/20260819152902-LSH-linear-JDZt-Q/table.json",
           "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O03/submissions/20260819152902-LSH-linear-JDZt-Q/table.csv",
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O03/submissions/20260819152902-LSH-linear-JDZt-Q/table.tsv"
-        }
+        },
+        "comment": "P6 Nominal 재현성 PASS를 기준으로 P7/P8 tolerance sweep에 공통 적용할 Mesh, Bias, Physics, Solver 조건을 고정하였다. Geometry와 WF의 물리적 의미는 P5 기준을 유지하고, Forward simulation은 P5 validated exact deck을 공통 baseline으로 사용한다.",
+        "commentLabel": "표 설명"
       }
     ]
   }
