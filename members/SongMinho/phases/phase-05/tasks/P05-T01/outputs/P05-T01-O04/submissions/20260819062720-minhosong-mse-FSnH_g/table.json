@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "rowCount": 8,
+  "columnCount": 4,
+  "hasHeader": true,
+  "rows": [
+    [
+      "Criterion",
+      "PreferredDirection",
+      "DecisionRule",
+      "Reason"
+    ],
+    [
+      "Drive",
+      "Ion higher than P2",
+      "do not select Ion-only global best",
+      "avoid short-M2 leakage collapse"
+    ],
+    [
+      "Off leakage",
+      "Ioff lower than P2",
+      "strong increase = rejection evidence",
+      "off-state/retention risk"
+    ],
+    [
+      "SS",
+      "no meaningful degradation",
+      "small sub-percent change may be accepted with strong total improvement",
+      "avoid arbitrary post-hoc cutoff"
+    ],
+    [
+      "DIBL",
+      "lower than P2",
+      "DIBL+Ioff both worse = strong reject",
+      "electrostatic control"
+    ],
+    [
+      "GIDL",
+      "lower than P2",
+      "shortlist/guard only, not all 49",
+      "expensive BTBT calculation"
+    ],
+    [
+      "Convergence",
+      "complete/reproducible",
+      "incomplete cannot be Nominal",
+      "numerical reliability"
+    ],
+    [
+      "Final",
+      "multi-metric balance",
+      "core improvement + no catastrophic degradation",
+      "P5 objective"
+    ]
+  ]
+}
