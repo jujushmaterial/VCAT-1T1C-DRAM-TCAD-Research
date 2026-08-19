@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T15:30:46+09:00",
+  "generatedAt": "2026-08-19T15:31:37+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -21416,14 +21416,21 @@
                     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg/table.csv",
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg/table.tsv"
                   },
+                  "comment": "49개 Boundary geometry 전체 조건표.",
+                  "commentLabel": "표 설명",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T06:30:25.546Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -21431,7 +21438,7 @@
             {
               "id": "P05-T02-O02",
               "text": "Boundary Sweep Raw Data",
-              "type": "table",
+              "type": "files",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -22317,14 +22324,21 @@
                 "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg/table.csv",
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg/table.tsv"
               },
+              "comment": "49개 Boundary geometry 전체 조건표.",
+              "commentLabel": "표 설명",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T06:30:25.546Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -22333,7 +22347,7 @@
         {
           "id": "P05-T02-O02",
           "text": "Boundary Sweep Raw Data",
-          "type": "table",
+          "type": "files",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -22674,8 +22688,8 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-12T20:02:05Z",
-      "lastModifiedBy": "jujushmaterial",
+      "updatedAt": "2026-08-19T06:31:18Z",
+      "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
     },
