@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:30:40.020Z",
+  "updatedAt": "2026-08-19T06:30:45.836Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8114,7 +8114,21 @@
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O01/submissions/20260819063025-minhosong-mse--ss5Wg/table.tsv"
         },
         "comment": "49개 Boundary geometry 전체 조건표.",
-        "commentLabel": "표 설명"
+        "commentLabel": "표 설명",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-19T06:30:25.546Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
