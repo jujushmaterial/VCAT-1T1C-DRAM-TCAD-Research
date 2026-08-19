@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T15:39:30+09:00",
+  "generatedAt": "2026-08-19T15:40:01+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -21904,13 +21904,65 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260819063938-minhosong-mse-zJWe5Q",
+                  "phaseId": 5,
+                  "issueNumber": 5,
+                  "taskId": "P05-T03",
+                  "taskText": "개선 Nominal 대표구조 확정",
+                  "outputId": "P05-T03-O01",
+                  "outputText": "Nominal 대표구조 조건표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-19T06:39:38.492Z",
+                  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q",
+                  "summary": "9행 × 4열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.tsv",
+                      "size": 191
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.csv",
+                      "size": 203
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.json",
+                      "size": 716
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 9,
+                    "columnCount": 4,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.tsv"
+                  },
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P05-T03-O02",
@@ -21999,7 +22051,7 @@
             }
           ],
           "checked": false,
-          "state": "not-started",
+          "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 6,
           "outputsDone": 0,
@@ -23131,13 +23183,65 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260819063938-minhosong-mse-zJWe5Q",
+              "phaseId": 5,
+              "issueNumber": 5,
+              "taskId": "P05-T03",
+              "taskText": "개선 Nominal 대표구조 확정",
+              "outputId": "P05-T03-O01",
+              "outputText": "Nominal 대표구조 조건표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-19T06:39:38.492Z",
+              "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q",
+              "summary": "9행 × 4열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.tsv",
+                  "size": 191
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.csv",
+                  "size": 203
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.json",
+                  "size": 716
+                }
+              ],
+              "table": {
+                "rowCount": 9,
+                "columnCount": 4,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.tsv"
+              },
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P05-T03"
         },
         {
