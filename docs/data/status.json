@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T15:34:34+09:00",
+  "generatedAt": "2026-08-19T15:35:21+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -21484,14 +21484,21 @@
                       "size": 300
                     }
                   ],
+                  "comment": "98 Forward raw PLT 대신 49 exact summary + 98 filename/node/SHA256 manifest를 제출. 원본 raw는 송민호 보관중",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T06:34:12.922Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -22437,14 +22444,21 @@
                   "size": 300
                 }
               ],
+              "comment": "98 Forward raw PLT 대신 49 exact summary + 98 filename/node/SHA256 manifest를 제출. 원본 raw는 송민호 보관중",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T06:34:12.922Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
