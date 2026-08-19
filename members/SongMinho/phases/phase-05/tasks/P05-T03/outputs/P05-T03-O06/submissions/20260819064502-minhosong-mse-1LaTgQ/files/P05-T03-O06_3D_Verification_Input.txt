@@ -1,0 +1,29 @@
+P05 최종 3D 검증 입력
+
+Final Multi
+- B1/B2 = 35/67 nm
+- Segment = 15/32/13 nm
+- WF = 4.33/4.70/4.33 eV
+- Temp=300 K, Dpillar=12 nm, Tox=1 nm, Lg=60 nm
+- Nbody=1e17 cm^-3, NSD=1e20 cm^-3
+
+Matched Single
+- 동일 channel/Tox/doping/Lg/junction/contact/bias/physics
+- Single gate WF=4.70 eV
+
+Forward
+- Vd=0.05/1.0 V, Vg 0→1.0 V
+- Ion/Ioff/Vth/SS/DIBL
+
+GIDL
+- Vd=1.0 V, gate 0→-0.4 V
+- |storage TotalCurrent| @ -0.4 V
+- 2D PRODFAST는 3D 1점 A/B 후 채택
+
+Physics
+- Fermi, OldSlotboom, PhuMob, HighFieldSaturation, SRH, Band2Band(Model=NonlocalPath)
+
+3D 주의
+- Full 3D에서 Cylindrical(yAxis=0) 제거.
+- total contact current 우선.
+- 절대 2D/3D 숫자보다 Single→Multi 개선 방향 유지 여부를 우선 확인.
