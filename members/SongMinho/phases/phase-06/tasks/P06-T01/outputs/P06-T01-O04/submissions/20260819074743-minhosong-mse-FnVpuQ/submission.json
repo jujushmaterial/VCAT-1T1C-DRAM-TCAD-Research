@@ -40,5 +40,7 @@
       "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074743-minhosong-mse-FnVpuQ/files/P06-T01-O04_Visual_Preflight_Summary.txt",
       "size": 1056
     }
-  ]
+  ],
+  "comment": "Nominal 35/67 및 B1±2 nm, B2±2 nm 총 5개 SDE geometry의 Sentaurus Visual 원본 캡처. 각 case에 full structure와 B1/B2 주변 mesh 확대 이미지를 포함한다. 모든 구조가 생성되었고 boundary variation과 local mesh 이동을 육안 확인했다. Electrical reproducibility는 P06-T02에서 별도 검증한다.",
+  "commentLabel": "제출 메모"
 }
