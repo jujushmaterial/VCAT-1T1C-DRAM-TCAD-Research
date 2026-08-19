@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T21:58:23+09:00",
+  "generatedAt": "2026-08-19T22:00:05+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11696,9 +11696,9 @@
       "tasksDone": 6,
       "tasksTotal": 8,
       "issueTasksDone": 6,
-      "outputsDone": 28,
+      "outputsDone": 29,
       "outputsTotal": 46,
-      "requiredOutputsDone": 22,
+      "requiredOutputsDone": 23,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -14107,13 +14107,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260817121029-minhosong-mse-VALY3A",
@@ -14159,15 +14159,20 @@
                   "comment": "P03-T15-O01 — Coarse Geometry 조건표\n\nFixed WF는 T14 확정값 Ti/TiN/Ti = 4.33/4.70/4.33 eV이다.\n총 gate 60 nm와 대칭 L-H-L을 유지하면서 중앙 HIGH 길이를 10/20/30 nm로 넓게 세 점만 확인했다:\n- G1 = 25/10/25 nm (HIGH-short)\n- G0 = 20/20/20 nm (baseline)\n- G2 = 15/30/15 nm (HIGH-long)\n\n이 범위는 최적점을 찾기 위한 정밀 Sweep이 아니라 방향성/robustness를 확인하는 coarse bracket이다. P5에서는 WF를 고정하고 두 boundary를 독립변수로 더 촘촘히 Sweep한다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T12:59:41.397Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-17T12:10:29.055Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T12:59:41.397Z"
                       }
                     ],
                     "legacy": false
@@ -14752,12 +14757,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 7,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P03-T15-O01",
             "P03-T15-O02",
             "P03-T15-O03",
             "P03-T15-O04",
@@ -18402,13 +18406,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260817121029-minhosong-mse-VALY3A",
@@ -18454,15 +18458,20 @@
               "comment": "P03-T15-O01 — Coarse Geometry 조건표\n\nFixed WF는 T14 확정값 Ti/TiN/Ti = 4.33/4.70/4.33 eV이다.\n총 gate 60 nm와 대칭 L-H-L을 유지하면서 중앙 HIGH 길이를 10/20/30 nm로 넓게 세 점만 확인했다:\n- G1 = 25/10/25 nm (HIGH-short)\n- G0 = 20/20/20 nm (baseline)\n- G2 = 15/30/15 nm (HIGH-long)\n\n이 범위는 최적점을 찾기 위한 정밀 Sweep이 아니라 방향성/robustness를 확인하는 coarse bracket이다. P5에서는 WF를 고정하고 두 boundary를 독립변수로 더 촘촘히 Sweep한다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T12:59:41.397Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-17T12:10:29.055Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T12:59:41.397Z"
                   }
                 ],
                 "legacy": false
@@ -20261,7 +20270,7 @@
       "updatedAt": "2026-08-19T12:57:02Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 3
+      "integrityWarnings": 4
     },
     {
       "id": 4,
