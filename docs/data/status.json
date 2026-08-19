@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T22:00:05+09:00",
+  "generatedAt": "2026-08-19T22:00:59+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11696,9 +11696,9 @@
       "tasksDone": 6,
       "tasksTotal": 8,
       "issueTasksDone": 6,
-      "outputsDone": 29,
+      "outputsDone": 31,
       "outputsTotal": 46,
-      "requiredOutputsDone": 23,
+      "requiredOutputsDone": 25,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -14188,13 +14188,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260817121136-minhosong-mse-FxAOKA",
@@ -14267,15 +14267,20 @@
                   "comment": "P03-T15-O02 — 통합 Raw Data\n\nG0/G1/G2 각각 Forward Vd=0.05 V, Forward Vd=1.0 V, GIDL의 signed raw CSV를 그대로 제출한다.\nForward/GIDL 모두 X축 변수는 gate_m1 OuterVoltage [V], Y축은 storage TotalCurrent [A]이다.\n원본 부호를 보존하며 지표 추출 시에만 |Id|를 사용한다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T12:59:56.133Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-17T12:11:36.746Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T12:59:56.133Z"
                       }
                     ],
                     "legacy": false
@@ -14291,13 +14296,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260817121218-minhosong-mse-OMI1EA",
@@ -14330,15 +14335,20 @@
                   "comment": "P03-T15-O03 — Geometry별 Id–Vg·DC 비교\n\nSVisual 원본을 사용한다.\nForward 그래프 축:\n- X축: gate_m1 OuterVoltage [V]\n- Y축: storage TotalCurrent [A], signed raw current\n- n112/n115 = G1(25/10/25) Vd=1.0/0.05 V\n- n123/n126 = G2(15/30/15) Vd=1.0/0.05 V\n\nG0는 T14의 n73 1:1:1 기준 raw를 재사용하며 정량 비교는 O04 통합표에 함께 포함했다.\nGIDL 보조 그래프도 X=gate_m1 OuterVoltage [V], Y=storage TotalCurrent [A]이다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T13:00:32.739Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-17T12:12:18.947Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T13:00:32.739Z"
                       }
                     ],
                     "legacy": false
@@ -14757,13 +14767,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 1,
+          "requiredOutputsDone": 3,
           "requiredOutputsTotal": 7,
-          "outputsDone": 1,
+          "outputsDone": 3,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P03-T15-O02",
-            "P03-T15-O03",
             "P03-T15-O04",
             "P03-T15-O05",
             "P03-T15-O06",
@@ -18488,13 +18496,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260817121136-minhosong-mse-FxAOKA",
@@ -18567,15 +18575,20 @@
               "comment": "P03-T15-O02 — 통합 Raw Data\n\nG0/G1/G2 각각 Forward Vd=0.05 V, Forward Vd=1.0 V, GIDL의 signed raw CSV를 그대로 제출한다.\nForward/GIDL 모두 X축 변수는 gate_m1 OuterVoltage [V], Y축은 storage TotalCurrent [A]이다.\n원본 부호를 보존하며 지표 추출 시에만 |Id|를 사용한다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T12:59:56.133Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-17T12:11:36.746Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T12:59:56.133Z"
                   }
                 ],
                 "legacy": false
@@ -18592,13 +18605,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260817121218-minhosong-mse-OMI1EA",
@@ -18631,15 +18644,20 @@
               "comment": "P03-T15-O03 — Geometry별 Id–Vg·DC 비교\n\nSVisual 원본을 사용한다.\nForward 그래프 축:\n- X축: gate_m1 OuterVoltage [V]\n- Y축: storage TotalCurrent [A], signed raw current\n- n112/n115 = G1(25/10/25) Vd=1.0/0.05 V\n- n123/n126 = G2(15/30/15) Vd=1.0/0.05 V\n\nG0는 T14의 n73 1:1:1 기준 raw를 재사용하며 정량 비교는 O04 통합표에 함께 포함했다.\nGIDL 보조 그래프도 X=gate_m1 OuterVoltage [V], Y=storage TotalCurrent [A]이다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T13:00:32.739Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-17T12:12:18.947Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T13:00:32.739Z"
                   }
                 ],
                 "legacy": false
