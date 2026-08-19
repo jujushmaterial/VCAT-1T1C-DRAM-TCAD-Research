@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T15:46:49+09:00",
+  "generatedAt": "2026-08-19T16:02:25+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -22346,14 +22346,21 @@
                       "size": 2061
                     }
                   ],
+                  "comment": "GIDL 부분 변경한 사항 및 진행 흐름 설명",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T06:46:29.867Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -23941,14 +23948,21 @@
                   "size": 2061
                 }
               ],
+              "comment": "GIDL 부분 변경한 사항 및 진행 흐름 설명",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T06:46:29.867Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
