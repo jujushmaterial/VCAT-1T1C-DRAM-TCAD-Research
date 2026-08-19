@@ -38,5 +38,7 @@
     "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.json",
     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.csv",
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.tsv"
-  }
+  },
+  "comment": "short-M2 leakage/SCE 악화, non-convergence, Ion-only optimum 등 탈락 기준.",
+  "commentLabel": "표 설명"
 }
