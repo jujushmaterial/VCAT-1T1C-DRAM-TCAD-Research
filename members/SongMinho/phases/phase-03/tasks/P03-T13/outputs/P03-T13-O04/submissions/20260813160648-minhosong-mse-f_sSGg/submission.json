@@ -42,15 +42,20 @@
   "comment": "Lg=60 nm, M1:M2:M3=1:1:1 기준으로 Xbnd1=0.040 um, Xbnd2=0.060 um이며 각 segment 길이는 20 nm이다.",
   "commentLabel": "표 설명",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "seanthe17",
+    "reviewedAt": "2026-08-19T12:39:28.919Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-13T16:06:48.568Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "seanthe17",
+        "at": "2026-08-19T12:39:28.919Z"
       }
     ],
     "legacy": false
