@@ -1,0 +1,5 @@
+﻿Variable,Values,Min,Max,Step_nm,Role
+Xbnd1_nm,"33,35,37,39,41,43,45",33,45,2,independent
+Xbnd2_nm,"55,57,59,61,63,65,67",55,67,2,independent
+Geometry count,7×7,,,,49 geometries
+M2_HIGH,B2-B1,10,34,,derived; not independently swept
