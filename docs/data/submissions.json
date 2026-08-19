@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:40:18.408Z",
+  "updatedAt": "2026-08-19T06:40:30.501Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8573,7 +8573,9 @@
           "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O02/submissions/20260819064018-minhosong-mse-ByrUkg/table.json",
           "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O02/submissions/20260819064018-minhosong-mse-ByrUkg/table.csv",
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O02/submissions/20260819064018-minhosong-mse-ByrUkg/table.tsv"
-        }
+        },
+        "comment": "P2 Single과 P5 Nominal의 통합 성능 비교.",
+        "commentLabel": "표 설명"
       }
     ]
   }
