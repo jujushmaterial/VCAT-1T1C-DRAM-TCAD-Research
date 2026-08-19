@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T15:31:14.807Z",
+  "updatedAt": "2026-08-19T15:33:28.283Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9629,6 +9629,37 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P06-T02-O05": [
+      {
+        "submissionId": "20260819153328-LSH-linear-IB_Uhg",
+        "phaseId": 6,
+        "issueNumber": 6,
+        "taskId": "P06-T02",
+        "taskText": "Nominal 재현성 및 공통 Simulation 기준 확정",
+        "outputId": "P06-T02-O05",
+        "outputText": "Nominal 재현성 Pass·Fail 판정",
+        "uploader": "LSH-linear",
+        "memberName": "이선형",
+        "memberFolder": "LeeSeonHyeong",
+        "type": "files",
+        "uploadedAt": "2026-08-19T15:33:28.283Z",
+        "folderPath": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg",
+        "summary": "2개 파일 · 3.9KB",
+        "files": [
+          {
+            "name": "P06-T02-O05_Nominal_Reproducibility_PASS.md",
+            "path": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg/files/P06-T02-O05_Nominal_Reproducibility_PASS.md",
+            "size": 2118
+          },
+          {
+            "name": "P06-T02-O05_Reproducibility_Evidence.csv",
+            "path": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg/files/P06-T02-O05_Reproducibility_Evidence.csv",
+            "size": 1845
+          }
+        ]
       }
     ]
   }

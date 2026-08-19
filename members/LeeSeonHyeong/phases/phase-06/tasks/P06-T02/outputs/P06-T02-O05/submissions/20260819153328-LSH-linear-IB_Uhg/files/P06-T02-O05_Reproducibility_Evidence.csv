@@ -1,0 +1,10 @@
+﻿Check,Reference,P6_Fresh,Comparison,Result,Interpretation
+n561 PLT SHA256,73bd9d04f22536aee76521778f55efaec8c16203484df581b061f6d8899ac006,73bd9d04f22536aee76521778f55efaec8c16203484df581b061f6d8899ac006,equal,PASS,Raw Id-Vg output is byte-identical to verified P5 original
+n561 LOG SHA256,d0ab22a0847f8854ab09dca75c240be4eb4edf40e333c75d8a7f1ffdc4f4aed9,e05d77e62e304fc18e86f0a60b6a64f7d54a8d9ebaab6d4674198eb8cecb563d,different,PASS,Fresh execution log differs from copied P5 log
+n564 PLT SHA256,eabe860c01e3852196c95cffc64e72b06d9c1229a69167bd941a3dc100331060,eabe860c01e3852196c95cffc64e72b06d9c1229a69167bd941a3dc100331060,equal,PASS,Raw Id-Vg output is byte-identical to verified P5 original
+n564 LOG SHA256,bbc887289f892999e648a170182eb2c9a94ba5cb2b27ab716e12f9f53ca6ae02,a5df5a95e6ee2d819b6f067fbeab955c3948aefd0457ad2a7568df5849f66838,different,PASS,Fresh execution log differs from copied P5 log
+Fresh nominal mesh SHA256,P5 prior mesh hash b787560bc4074f99c001e291c02e754c28e77088fa7c50d68ff3fdde332b3751,6547306be7dc90e706d48b561faecaffc7933b20be2dead1d70c6df1bd11baff,different,PASS,Nominal mesh file was freshly rebuilt in P6
+n561 execution completion,Expected independent P6 run,2026-08-19 19:45:07 KST; wallclock 868.93 s,fresh timestamp + Good Bye,PASS,Independent Vd=1.0 run completed
+n564 execution completion,Expected independent P6 run,2026-08-19 19:57:48 KST; wallclock 757.06 s,fresh timestamp + Good Bye,PASS,Independent Vd=0.05 run completed
+Scalar metric comparison,P5 official P05-T03-O02,All seven Forward metrics exactly equal at stored precision,absolute differences = 0,PASS,Parameterization preserves nominal electrical result
+Id-Vg curve comparison,P5 raw hashes previously verified on server,P6 fresh PLT hashes match at both Vd values,byte-for-byte equality,PASS,Full curves reproduce P5 original
