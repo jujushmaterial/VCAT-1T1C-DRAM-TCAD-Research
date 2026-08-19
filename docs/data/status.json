@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T22:03:23+09:00",
+  "generatedAt": "2026-08-19T22:04:15+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11696,9 +11696,9 @@
       "tasksDone": 7,
       "tasksTotal": 8,
       "issueTasksDone": 7,
-      "outputsDone": 36,
+      "outputsDone": 39,
       "outputsTotal": 46,
-      "requiredOutputsDone": 30,
+      "requiredOutputsDone": 33,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -14893,13 +14893,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260818044818-minhosong-mse-LbA1WA",
@@ -14945,15 +14945,20 @@
                   "comment": "P03-T14에서 확정한 Fixed WF를 P4 전달값으로 정리했습니다. WF_LOW=4.33 eV(Ti), WF_HIGH=4.70 eV(TiN), gate_m1/m2/m3=4.33/4.70/4.33 eV입니다. 이후 P4~P9에서는 해당 WF를 다시 Sweep하지 않습니다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T13:03:18.388Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-18T04:48:18.889Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T13:03:18.388Z"
                       }
                     ],
                     "legacy": false
@@ -14969,13 +14974,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260818044908-minhosong-mse-9crg6Q",
@@ -15003,15 +15008,20 @@
                   "comment": "대표구조 G2(1:2:1)의 선정 이유를 정리한 문서입니다. T15의 coarse geometry/양방향 검증과 T16 mesh 안정성 결과를 종합해 G2를 P4 대표구조로 확정합니다. 단일 Ion 최대가 아니라 Ioff·DIBL·방향성까지 포함한 균형 기준을 적용했습니다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T13:03:33.361Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-18T04:49:08.718Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T13:03:33.361Z"
                       }
                     ],
                     "legacy": false
@@ -15027,13 +15037,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260818045102-minhosong-mse-B110-w",
@@ -15086,15 +15096,20 @@
                   "comment": "G2 대표구조의 WF-boundary dedicated refinement ON/OFF를 원본 SVisual mesh 이미지로 비교합니다. ON=2697 elements/1313 points, OFF=1871 elements/911 points이며 동일 위치의 상·하 boundary 확대 이미지를 포함합니다. show_mesh/hide_mesh 표시 차이가 아니라 SDE boundary refinement 객체 유무가 ON/OFF 정의입니다.\n\nP03-T16-O04 WF Boundary Mesh 전·후 비교\n\n비교 대상\n- Representative: G2 = 1:2:1 = 15/30/15 nm\n- WF = 4.33/4.70/4.33 eV\n- Mesh ON: RefWin/Place.MetalBnd1 및 RefWin/Place.MetalBnd2 적용\n- Mesh OFF: 위 두 WF-boundary 전용 refinement만 제거\n- Geometry/contact/doping/global/interface/junction mesh는 동일\n\n원본 SVisual 증빙\n- Mesh ON overall / upper boundary / lower boundary\n- Mesh OFF overall / upper boundary / lower boundary\n\nMesh 규모\n- Mesh ON: Elements 2697 / Points 1313\n- Mesh OFF: Elements 1871 / Points 911\n- OFF에서 Elements 약 30.63%, Points 약 30.62% 감소\n\n해석\n- 동일 위치의 show_mesh 확대를 통해 WF-boundary 전용 refinement 유무를 확인한다.\n- show_mesh/hide_mesh는 화면 표시 옵션일 뿐 T16 Mesh ON/OFF의 정의가 아니다.\n- T16의 Mesh ON/OFF는 SDE의 전용 boundary refinement 객체 존재/부재로 정의한다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T13:03:50.316Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-18T04:51:02.299Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T13:03:50.316Z"
                       }
                     ],
                     "legacy": false
@@ -15380,14 +15395,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 1,
+          "requiredOutputsDone": 4,
           "requiredOutputsTotal": 8,
-          "outputsDone": 1,
+          "outputsDone": 4,
           "outputsTotal": 8,
           "missingRequiredOutputs": [
-            "P03-T16-O02",
-            "P03-T16-O03",
-            "P03-T16-O04",
             "P03-T16-O05",
             "P03-T16-O06",
             "P03-T16-O07",
@@ -19217,13 +19229,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260818044818-minhosong-mse-LbA1WA",
@@ -19269,15 +19281,20 @@
               "comment": "P03-T14에서 확정한 Fixed WF를 P4 전달값으로 정리했습니다. WF_LOW=4.33 eV(Ti), WF_HIGH=4.70 eV(TiN), gate_m1/m2/m3=4.33/4.70/4.33 eV입니다. 이후 P4~P9에서는 해당 WF를 다시 Sweep하지 않습니다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T13:03:18.388Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-18T04:48:18.889Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T13:03:18.388Z"
                   }
                 ],
                 "legacy": false
@@ -19294,13 +19311,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260818044908-minhosong-mse-9crg6Q",
@@ -19328,15 +19345,20 @@
               "comment": "대표구조 G2(1:2:1)의 선정 이유를 정리한 문서입니다. T15의 coarse geometry/양방향 검증과 T16 mesh 안정성 결과를 종합해 G2를 P4 대표구조로 확정합니다. 단일 Ion 최대가 아니라 Ioff·DIBL·방향성까지 포함한 균형 기준을 적용했습니다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T13:03:33.361Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-18T04:49:08.718Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T13:03:33.361Z"
                   }
                 ],
                 "legacy": false
@@ -19353,13 +19375,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260818045102-minhosong-mse-B110-w",
@@ -19412,15 +19434,20 @@
               "comment": "G2 대표구조의 WF-boundary dedicated refinement ON/OFF를 원본 SVisual mesh 이미지로 비교합니다. ON=2697 elements/1313 points, OFF=1871 elements/911 points이며 동일 위치의 상·하 boundary 확대 이미지를 포함합니다. show_mesh/hide_mesh 표시 차이가 아니라 SDE boundary refinement 객체 유무가 ON/OFF 정의입니다.\n\nP03-T16-O04 WF Boundary Mesh 전·후 비교\n\n비교 대상\n- Representative: G2 = 1:2:1 = 15/30/15 nm\n- WF = 4.33/4.70/4.33 eV\n- Mesh ON: RefWin/Place.MetalBnd1 및 RefWin/Place.MetalBnd2 적용\n- Mesh OFF: 위 두 WF-boundary 전용 refinement만 제거\n- Geometry/contact/doping/global/interface/junction mesh는 동일\n\n원본 SVisual 증빙\n- Mesh ON overall / upper boundary / lower boundary\n- Mesh OFF overall / upper boundary / lower boundary\n\nMesh 규모\n- Mesh ON: Elements 2697 / Points 1313\n- Mesh OFF: Elements 1871 / Points 911\n- OFF에서 Elements 약 30.63%, Points 약 30.62% 감소\n\n해석\n- 동일 위치의 show_mesh 확대를 통해 WF-boundary 전용 refinement 유무를 확인한다.\n- show_mesh/hide_mesh는 화면 표시 옵션일 뿐 T16 Mesh ON/OFF의 정의가 아니다.\n- T16의 Mesh ON/OFF는 SDE의 전용 boundary refinement 객체 존재/부재로 정의한다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T13:03:50.316Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-18T04:51:02.299Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T13:03:50.316Z"
                   }
                 ],
                 "legacy": false
