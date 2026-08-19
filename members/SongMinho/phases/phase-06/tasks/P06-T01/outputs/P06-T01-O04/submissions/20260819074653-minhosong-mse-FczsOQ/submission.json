@@ -1,0 +1,69 @@
+{
+  "submissionId": "20260819074653-minhosong-mse-FczsOQ",
+  "phaseId": 6,
+  "issueNumber": 6,
+  "taskId": "P06-T01",
+  "taskText": "허용오차 분석용 코드 Parameter화",
+  "outputId": "P06-T01-O04",
+  "outputText": "Nominal 및 ±Variation 구조 이미지",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-19T07:46:53.827Z",
+  "folderPath": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074653-minhosong-mse-FczsOQ",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074653-minhosong-mse-FczsOQ",
+  "summary": "10개 파일 · 4.87MB",
+  "files": [
+    {
+      "name": "P06-T01-O04_B1M2_B1-33_B2-67_full.png",
+      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074653-minhosong-mse-FczsOQ/files/P06-T01-O04_B1M2_B1-33_B2-67_full.png",
+      "size": 367688
+    },
+    {
+      "name": "P06-T01-O04_B1M2_B1-33_B2-67_B1zoom_mesh.png",
+      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074653-minhosong-mse-FczsOQ/files/P06-T01-O04_B1M2_B1-33_B2-67_B1zoom_mesh.png",
+      "size": 552182
+    },
+    {
+      "name": "P06-T01-O04_B1M2_B1-33_B2-67_B2zoom_mesh.png",
+      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074653-minhosong-mse-FczsOQ/files/P06-T01-O04_B1M2_B1-33_B2-67_B2zoom_mesh.png",
+      "size": 596161
+    },
+    {
+      "name": "P06-T01-O04_B1P2_B1-37_B2-67_B1zoom_mesh.png",
+      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074653-minhosong-mse-FczsOQ/files/P06-T01-O04_B1P2_B1-37_B2-67_B1zoom_mesh.png",
+      "size": 541329
+    },
+    {
+      "name": "P06-T01-O04_B1P2_B1-37_B2-67_B2zoom_mesh.png",
+      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074653-minhosong-mse-FczsOQ/files/P06-T01-O04_B1P2_B1-37_B2-67_B2zoom_mesh.png",
+      "size": 587600
+    },
+    {
+      "name": "P06-T01-O04_B1P2_B1-37_B2-67_full.png",
+      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074653-minhosong-mse-FczsOQ/files/P06-T01-O04_B1P2_B1-37_B2-67_full.png",
+      "size": 369496
+    },
+    {
+      "name": "P06-T01-O04_B2M2_B1-35_B2-65_B1zoom_mesh.png",
+      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074653-minhosong-mse-FczsOQ/files/P06-T01-O04_B2M2_B1-35_B2-65_B1zoom_mesh.png",
+      "size": 563905
+    },
+    {
+      "name": "P06-T01-O04_B2M2_B1-35_B2-65_B2zoom_mesh.png",
+      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074653-minhosong-mse-FczsOQ/files/P06-T01-O04_B2M2_B1-35_B2-65_B2zoom_mesh.png",
+      "size": 592465
+    },
+    {
+      "name": "P06-T01-O04_B2M2_B1-35_B2-65_full.png",
+      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074653-minhosong-mse-FczsOQ/files/P06-T01-O04_B2M2_B1-35_B2-65_full.png",
+      "size": 378319
+    },
+    {
+      "name": "P06-T01-O04_B2P2_B1-35_B2-69_B1zoom_mesh.png",
+      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074653-minhosong-mse-FczsOQ/files/P06-T01-O04_B2P2_B1-35_B2-69_B1zoom_mesh.png",
+      "size": 557191
+    }
+  ]
+}
