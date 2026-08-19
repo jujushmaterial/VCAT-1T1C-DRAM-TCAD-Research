@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T12:40:09.474Z",
+  "updatedAt": "2026-08-19T12:40:54.451Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -5331,15 +5331,20 @@
         "comment": "Al/Ti/W/TiN/Mo(110) 프로젝트 WF 값을 이용한 LOW<HIGH 10개 pair를 Vd=0.05 V와 1.0 V에서 실행한 총 20개 Forward WF Split 조건표이다.",
         "commentLabel": "표 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "seanthe17",
+          "reviewedAt": "2026-08-19T12:40:54.451Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-13T16:09:58.026Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "seanthe17",
+              "at": "2026-08-19T12:40:54.451Z"
             }
           ],
           "legacy": false
