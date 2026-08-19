@@ -38,5 +38,7 @@
     "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O01/submissions/20260819151727-LSH-linear-QgYLDA/table.json",
     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O01/submissions/20260819151727-LSH-linear-QgYLDA/table.csv",
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O01/submissions/20260819151727-LSH-linear-QgYLDA/table.tsv"
-  }
+  },
+  "comment": "P5 최종 Nominal 구조(B1/B2=35/67 nm, WF=4.33/4.70/4.33 eV)와 P6 Parameterized Nominal fresh rerun 결과를 비교하였다. Ion, Ioff, Ion/Ioff, Vth@Vd=0.05/1.0 V, SS, DIBL이 동일하게 재현되었으며, parameterization 전후 Nominal 전기적 특성의 일치를 확인하였다.",
+  "commentLabel": "표 설명"
 }
