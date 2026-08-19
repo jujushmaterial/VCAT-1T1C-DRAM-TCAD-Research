@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:34:12.922Z",
+  "updatedAt": "2026-08-19T06:34:26.200Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8164,7 +8164,9 @@
             "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O02/submissions/20260819063412-minhosong-mse-ZCT25w/files/P05-T02-O02_RAW_DATA_POLICY.txt",
             "size": 300
           }
-        ]
+        ],
+        "comment": "98 Forward raw PLT 대신 49 exact summary + 98 filename/node/SHA256 manifest를 제출. 원본 raw는 송민호 보관중",
+        "commentLabel": "제출 메모"
       }
     ]
   }
