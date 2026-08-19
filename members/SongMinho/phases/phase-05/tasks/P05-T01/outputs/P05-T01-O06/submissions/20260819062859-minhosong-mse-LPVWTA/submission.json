@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260819062859-minhosong-mse-LPVWTA",
+  "phaseId": 5,
+  "issueNumber": 5,
+  "taskId": "P05-T01",
+  "taskText": "개선 기준·탐색범위 설정",
+  "outputId": "P05-T01-O06",
+  "outputText": "P5 종료·대표구조 선정 기준",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-19T06:28:59.242Z",
+  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O06/submissions/20260819062859-minhosong-mse-LPVWTA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O06/submissions/20260819062859-minhosong-mse-LPVWTA",
+  "summary": "1개 파일 · 550B",
+  "files": [
+    {
+      "name": "P05-T01-O06_Termination_and_Representative_Selection_Criteria.txt",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O06/submissions/20260819062859-minhosong-mse-LPVWTA/files/P05-T01-O06_Termination_and_Representative_Selection_Criteria.txt",
+      "size": 550
+    }
+  ]
+}

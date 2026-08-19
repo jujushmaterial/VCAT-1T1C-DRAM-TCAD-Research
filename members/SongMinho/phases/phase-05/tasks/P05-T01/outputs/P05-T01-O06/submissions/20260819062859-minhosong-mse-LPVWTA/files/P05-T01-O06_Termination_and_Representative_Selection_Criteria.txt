@@ -1,0 +1,10 @@
+P05 종료·대표구조 선정 기준
+
+- P3 Fixed WF 4.33/4.70/4.33 eV 유지.
+- 7×7=49 Forward geometry 완료.
+- 주효과와 후보 순위가 명확하면 추가 전체 grid 금지.
+- Forward 유망 후보만 GIDL 검증.
+- GIDL이 후보 순위를 뒤집는 이상값이 없으면 추가 GIDL 중단.
+- 최종 Nominal은 Single 대비 핵심 성능 개선 + 치명적 열화 없음 기준으로 1개 선택.
+- 본 결과의 2D Nominal: B1/B2=35/67 nm, Segment=15/32/13 nm.
+- 이후 추가 2D sweep 없이 P05-T04 제한 3D 검증으로 전달.
