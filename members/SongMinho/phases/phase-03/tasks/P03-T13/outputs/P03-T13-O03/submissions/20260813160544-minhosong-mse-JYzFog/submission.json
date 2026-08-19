@@ -42,15 +42,20 @@
   "comment": "M1/M2/M3 gate-oxide region과 gate contact의 LOW/HIGH/LOW 역할을 정리한 표이다. 1:1:1 조건에서 각 segment는 20 nm이다.",
   "commentLabel": "표 설명",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "seanthe17",
+    "reviewedAt": "2026-08-19T12:38:46.069Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-13T16:05:44.337Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "seanthe17",
+        "at": "2026-08-19T12:38:46.069Z"
       }
     ],
     "legacy": false
