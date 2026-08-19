@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T21:48:25+09:00",
+  "generatedAt": "2026-08-19T21:55:53+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11696,9 +11696,9 @@
       "tasksDone": 5,
       "tasksTotal": 8,
       "issueTasksDone": 5,
-      "outputsDone": 26,
+      "outputsDone": 27,
       "outputsTotal": 46,
-      "requiredOutputsDone": 20,
+      "requiredOutputsDone": 21,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -13583,13 +13583,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 2,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260815151128-minhosong-mse-OCev6A",
@@ -13650,15 +13650,20 @@
                   "comment": "P03-T14-O06에서 확정한 P3 Fixed WF를 P4~P9 전달값으로 기록한다.\n\n- M1 LOW = Ti, 4.33 eV\n- M2 HIGH = TiN, 4.70 eV\n- M3 LOW = Ti, 4.33 eV\n\nP4~P9에서는 WF를 다시 Sweep하지 않는다.\n현재 P3 1:1:1 geometry는 P4 기본 동작 확인을 위한 대표 기준구조이며,\n최종 optimized geometry로 선언하지 않는다.\nP5에서는 Fixed WF를 유지하고 두 metal boundary를 독립변수로 최적화한다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T12:55:33.325Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-15T15:14:30.511Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T12:55:33.325Z"
                       }
                     ],
                     "legacy": false
@@ -14067,12 +14072,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 6,
+          "requiredOutputsDone": 7,
           "requiredOutputsTotal": 8,
-          "outputsDone": 6,
+          "outputsDone": 7,
           "outputsTotal": 8,
           "missingRequiredOutputs": [
-            "P03-T14-O07",
             "P03-T14-O08"
           ],
           "checkboxDrift": false
@@ -17874,13 +17878,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 2,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260815151128-minhosong-mse-OCev6A",
@@ -17941,15 +17945,20 @@
               "comment": "P03-T14-O06에서 확정한 P3 Fixed WF를 P4~P9 전달값으로 기록한다.\n\n- M1 LOW = Ti, 4.33 eV\n- M2 HIGH = TiN, 4.70 eV\n- M3 LOW = Ti, 4.33 eV\n\nP4~P9에서는 WF를 다시 Sweep하지 않는다.\n현재 P3 1:1:1 geometry는 P4 기본 동작 확인을 위한 대표 기준구조이며,\n최종 optimized geometry로 선언하지 않는다.\nP5에서는 Fixed WF를 유지하고 두 metal boundary를 독립변수로 최적화한다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T12:55:33.325Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-15T15:14:30.511Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T12:55:33.325Z"
                   }
                 ],
                 "legacy": false
