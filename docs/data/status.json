@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T00:33:49+09:00",
+  "generatedAt": "2026-08-20T00:44:08+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -25283,14 +25283,21 @@
                       "size": 1845
                     }
                   ],
+                  "comment": "P6 Parameterized Nominal fresh rerun은 2026-08-19에 독립 실행되었으며, 새 log와 fresh mesh를 사용하였다. P5 Original과 P6 fresh rerun의 Forward raw PLT는 Vd=0.05 V와 1.0 V 모두 SHA256이 일치했고, Ion, Ioff, Ion/Ioff, Vth, SS, DIBL도 동일하게 재현되었다. 따라서 parameterization 전후 Nominal 재현성은 PASS로 판정한다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T15:33:28.283Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -26032,14 +26039,21 @@
                   "size": 1845
                 }
               ],
+              "comment": "P6 Parameterized Nominal fresh rerun은 2026-08-19에 독립 실행되었으며, 새 log와 fresh mesh를 사용하였다. P5 Original과 P6 fresh rerun의 Forward raw PLT는 Vd=0.05 V와 1.0 V 모두 SHA256이 일치했고, Ion, Ioff, Ion/Ioff, Vth, SS, DIBL도 동일하게 재현되었다. 따라서 parameterization 전후 Nominal 재현성은 PASS로 판정한다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T15:33:28.283Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
