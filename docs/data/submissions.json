@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:25:09.465Z",
+  "updatedAt": "2026-08-19T06:25:23.353Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -7770,7 +7770,9 @@
           "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.json",
           "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.csv",
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.tsv"
-        }
+        },
+        "comment": "P2 matched Single-Metal의 P5 비교 기준 성능표. Ion/Ioff/Vth/SS/DIBL/GIDL을 P5 공통 extraction으로 정리.",
+        "commentLabel": "표 설명"
       }
     ]
   }
