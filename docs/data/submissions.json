@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:28:59.242Z",
+  "updatedAt": "2026-08-19T06:29:11.455Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8052,7 +8052,9 @@
             "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O06/submissions/20260819062859-minhosong-mse-LPVWTA/files/P05-T01-O06_Termination_and_Representative_Selection_Criteria.txt",
             "size": 550
           }
-        ]
+        ],
+        "comment": "49 Forward + shortlist GIDL로 결론이 고정되면 추가 2D sweep 없이 Nominal 1개를 확정하는 종료 기준.",
+        "commentLabel": "제출 메모"
       }
     ]
   }
