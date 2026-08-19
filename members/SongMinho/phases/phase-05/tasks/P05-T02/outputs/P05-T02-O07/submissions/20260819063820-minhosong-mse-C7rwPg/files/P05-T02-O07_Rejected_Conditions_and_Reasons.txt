@@ -1,0 +1,12 @@
+P05 Boundary 탈락·실패 조건과 이유
+
+대칭 guard line:
+- 39/61 (M2=22): DIBL이 P2보다 악화 시작.
+- 41/59 (M2=18): Ioff와 DIBL 모두 P2보다 악화.
+- 43/57 (M2=14): Ioff 약 3.23× P2, DIBL 약 2.59× P2.
+- 45/55 (M2=10): Ioff 약 16.6× P2, DIBL 약 3.34× P2.
+
+따라서 short-M2의 Ion gain은 leakage/SCE penalty가 너무 커 Nominal에서 제외한다.
+GIDL shortlist 4점은 모두 P2 대비 약 87.4–87.5% 감소했고 후보간 차이가 작아 Forward 순위를 뒤집지 않았다.
+
+최종 2D Nominal: 35/67 nm = 15/32/13 nm.

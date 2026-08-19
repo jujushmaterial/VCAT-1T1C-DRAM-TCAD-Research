@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:38:06.634Z",
+  "updatedAt": "2026-08-19T06:38:20.400Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8428,6 +8428,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P05-T02-O07": [
+      {
+        "submissionId": "20260819063820-minhosong-mse-C7rwPg",
+        "phaseId": 5,
+        "issueNumber": 5,
+        "taskId": "P05-T02",
+        "taskText": "Boundary 기반 2D 최적화",
+        "outputId": "P05-T02-O07",
+        "outputText": "탈락·실패 조건과 이유",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-19T06:38:20.400Z",
+        "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O07/submissions/20260819063820-minhosong-mse-C7rwPg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O07/submissions/20260819063820-minhosong-mse-C7rwPg",
+        "summary": "1개 파일 · 559B",
+        "files": [
+          {
+            "name": "P05-T02-O07_Rejected_Conditions_and_Reasons.txt",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O07/submissions/20260819063820-minhosong-mse-C7rwPg/files/P05-T02-O07_Rejected_Conditions_and_Reasons.txt",
+            "size": 559
+          }
+        ]
       }
     ]
   }
