@@ -38,5 +38,7 @@
     "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O03/submissions/20260819063501-minhosong-mse-7P915w/table.json",
     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O03/submissions/20260819063501-minhosong-mse-7P915w/table.csv",
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O03/submissions/20260819063501-minhosong-mse-7P915w/table.tsv"
-  }
+  },
+  "comment": "49 Multi geometry와 P2 Single의 절대 성능 및 개선율 비교.",
+  "commentLabel": "표 설명"
 }
