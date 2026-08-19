@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:37:58.932Z",
+  "updatedAt": "2026-08-19T06:38:06.634Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8413,7 +8413,21 @@
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O06/submissions/20260819063737-minhosong-mse-0gq4-A/table.tsv"
         },
         "comment": "핵심 후보 33/67, 35/67, 35/65, 37/63 통합표. GIDL 포함. 35/67 최종 선택.",
-        "commentLabel": "표 설명"
+        "commentLabel": "표 설명",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-19T06:37:37.105Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
