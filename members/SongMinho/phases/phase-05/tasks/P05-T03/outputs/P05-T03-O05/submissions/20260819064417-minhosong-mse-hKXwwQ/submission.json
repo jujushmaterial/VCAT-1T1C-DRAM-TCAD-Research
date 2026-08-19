@@ -1,0 +1,34 @@
+{
+  "submissionId": "20260819064417-minhosong-mse-hKXwwQ",
+  "phaseId": 5,
+  "issueNumber": 5,
+  "taskId": "P05-T03",
+  "taskText": "개선 Nominal 대표구조 확정",
+  "outputId": "P05-T03-O05",
+  "outputText": "최종 2D SDE·SDevice 코드",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "code",
+  "uploadedAt": "2026-08-19T06:44:17.042Z",
+  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O05/submissions/20260819064417-minhosong-mse-hKXwwQ",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O05/submissions/20260819064417-minhosong-mse-hKXwwQ",
+  "summary": "3개 코드 파일 · 16.9KB",
+  "files": [
+    {
+      "name": "P05-T03-O05_Final_2D_SDE.cmd",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O05/submissions/20260819064417-minhosong-mse-hKXwwQ/source/P05-T03-O05_Final_2D_SDE.cmd",
+      "size": 9035
+    },
+    {
+      "name": "P05-T03-O05_Final_Forward_SDevice.cmd",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O05/submissions/20260819064417-minhosong-mse-hKXwwQ/source/P05-T03-O05_Final_Forward_SDevice.cmd",
+      "size": 4158
+    },
+    {
+      "name": "P05-T03-O05_Final_GIDL_PRODFAST_SDevice.cmd",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O05/submissions/20260819064417-minhosong-mse-hKXwwQ/source/P05-T03-O05_Final_GIDL_PRODFAST_SDevice.cmd",
+      "size": 4101
+    }
+  ]
+}
