@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260819064018-minhosong-mse-ByrUkg",
+  "phaseId": 5,
+  "issueNumber": 5,
+  "taskId": "P05-T03",
+  "taskText": "개선 Nominal 대표구조 확정",
+  "outputId": "P05-T03-O02",
+  "outputText": "Single-Metal–Multi-Metal 통합 성능 비교",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "table",
+  "uploadedAt": "2026-08-19T06:40:18.408Z",
+  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O02/submissions/20260819064018-minhosong-mse-ByrUkg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O02/submissions/20260819064018-minhosong-mse-ByrUkg",
+  "summary": "3행 × 12열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O02/submissions/20260819064018-minhosong-mse-ByrUkg/table.tsv",
+      "size": 488
+    },
+    {
+      "name": "table.csv",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O02/submissions/20260819064018-minhosong-mse-ByrUkg/table.csv",
+      "size": 494
+    },
+    {
+      "name": "table.json",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O02/submissions/20260819064018-minhosong-mse-ByrUkg/table.json",
+      "size": 942
+    }
+  ],
+  "table": {
+    "rowCount": 3,
+    "columnCount": 12,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O02/submissions/20260819064018-minhosong-mse-ByrUkg/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O02/submissions/20260819064018-minhosong-mse-ByrUkg/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O02/submissions/20260819064018-minhosong-mse-ByrUkg/table.tsv"
+  }
+}
