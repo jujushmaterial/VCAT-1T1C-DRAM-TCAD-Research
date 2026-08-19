@@ -1,0 +1,3 @@
+98개 Forward PLT 원본은 GitHub upload package에 넣지 않았다.
+대신 49 geometry exact metric summary와 98 raw filename/node/SHA256 manifest를 제출한다.
+원본 P5_FORWARD_98.zip, PLT/LOG/TDR는 연구실 서버에 보관하고 data_manifest에 실제 server root path를 연결한다.

@@ -1,0 +1,34 @@
+{
+  "submissionId": "20260819063412-minhosong-mse-ZCT25w",
+  "phaseId": 5,
+  "issueNumber": 5,
+  "taskId": "P05-T02",
+  "taskText": "Boundary 기반 2D 최적화",
+  "outputId": "P05-T02-O02",
+  "outputText": "Boundary Sweep Raw Data",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-19T06:34:12.922Z",
+  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O02/submissions/20260819063412-minhosong-mse-ZCT25w",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O02/submissions/20260819063412-minhosong-mse-ZCT25w",
+  "summary": "3개 파일 · 25.4KB",
+  "files": [
+    {
+      "name": "P05-T02-O02_Boundary_Sweep_Raw_Summary.csv",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O02/submissions/20260819063412-minhosong-mse-ZCT25w/files/P05-T02-O02_Boundary_Sweep_Raw_Summary.csv",
+      "size": 10232
+    },
+    {
+      "name": "P05-T02-O02_Raw_Data_Manifest.csv",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O02/submissions/20260819063412-minhosong-mse-ZCT25w/files/P05-T02-O02_Raw_Data_Manifest.csv",
+      "size": 15494
+    },
+    {
+      "name": "P05-T02-O02_RAW_DATA_POLICY.txt",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O02/submissions/20260819063412-minhosong-mse-ZCT25w/files/P05-T02-O02_RAW_DATA_POLICY.txt",
+      "size": 300
+    }
+  ]
+}
