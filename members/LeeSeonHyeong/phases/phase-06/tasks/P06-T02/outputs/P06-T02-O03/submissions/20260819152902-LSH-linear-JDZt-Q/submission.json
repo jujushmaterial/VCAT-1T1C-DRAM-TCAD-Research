@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260819152902-LSH-linear-JDZt-Q",
+  "phaseId": 6,
+  "issueNumber": 6,
+  "taskId": "P06-T02",
+  "taskText": "Nominal 재현성 및 공통 Simulation 기준 확정",
+  "outputId": "P06-T02-O03",
+  "outputText": "P7·P8 공통 Mesh·Bias·Physics·Solver 조건표",
+  "uploader": "LSH-linear",
+  "memberName": "이선형",
+  "memberFolder": "LeeSeonHyeong",
+  "type": "table",
+  "uploadedAt": "2026-08-19T15:29:02.032Z",
+  "folderPath": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O03/submissions/20260819152902-LSH-linear-JDZt-Q",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O03/submissions/20260819152902-LSH-linear-JDZt-Q",
+  "summary": "64행 × 6열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O03/submissions/20260819152902-LSH-linear-JDZt-Q/table.tsv",
+      "size": 7003
+    },
+    {
+      "name": "table.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O03/submissions/20260819152902-LSH-linear-JDZt-Q/table.csv",
+      "size": 7076
+    },
+    {
+      "name": "table.json",
+      "path": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O03/submissions/20260819152902-LSH-linear-JDZt-Q/table.json",
+      "size": 11321
+    }
+  ],
+  "table": {
+    "rowCount": 64,
+    "columnCount": 6,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O03/submissions/20260819152902-LSH-linear-JDZt-Q/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O03/submissions/20260819152902-LSH-linear-JDZt-Q/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O03/submissions/20260819152902-LSH-linear-JDZt-Q/table.tsv"
+  }
+}
