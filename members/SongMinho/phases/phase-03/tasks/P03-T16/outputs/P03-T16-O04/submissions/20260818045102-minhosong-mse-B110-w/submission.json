@@ -49,15 +49,20 @@
   "comment": "G2 대표구조의 WF-boundary dedicated refinement ON/OFF를 원본 SVisual mesh 이미지로 비교합니다. ON=2697 elements/1313 points, OFF=1871 elements/911 points이며 동일 위치의 상·하 boundary 확대 이미지를 포함합니다. show_mesh/hide_mesh 표시 차이가 아니라 SDE boundary refinement 객체 유무가 ON/OFF 정의입니다.\n\nP03-T16-O04 WF Boundary Mesh 전·후 비교\n\n비교 대상\n- Representative: G2 = 1:2:1 = 15/30/15 nm\n- WF = 4.33/4.70/4.33 eV\n- Mesh ON: RefWin/Place.MetalBnd1 및 RefWin/Place.MetalBnd2 적용\n- Mesh OFF: 위 두 WF-boundary 전용 refinement만 제거\n- Geometry/contact/doping/global/interface/junction mesh는 동일\n\n원본 SVisual 증빙\n- Mesh ON overall / upper boundary / lower boundary\n- Mesh OFF overall / upper boundary / lower boundary\n\nMesh 규모\n- Mesh ON: Elements 2697 / Points 1313\n- Mesh OFF: Elements 1871 / Points 911\n- OFF에서 Elements 약 30.63%, Points 약 30.62% 감소\n\n해석\n- 동일 위치의 show_mesh 확대를 통해 WF-boundary 전용 refinement 유무를 확인한다.\n- show_mesh/hide_mesh는 화면 표시 옵션일 뿐 T16 Mesh ON/OFF의 정의가 아니다.\n- T16의 Mesh ON/OFF는 SDE의 전용 boundary refinement 객체 존재/부재로 정의한다.",
   "commentLabel": "제출 메모",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "seanthe17",
+    "reviewedAt": "2026-08-19T13:03:50.316Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-18T04:51:02.299Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "seanthe17",
+        "at": "2026-08-19T13:03:50.316Z"
       }
     ],
     "legacy": false
