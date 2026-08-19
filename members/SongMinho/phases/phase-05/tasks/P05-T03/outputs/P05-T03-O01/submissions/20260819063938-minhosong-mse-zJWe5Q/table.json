@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "rowCount": 9,
+  "columnCount": 4,
+  "hasHeader": true,
+  "rows": [
+    [
+      "Parameter",
+      "Value",
+      "Unit",
+      "Note"
+    ],
+    [
+      "Xbnd1",
+      "35",
+      "nm",
+      "selected"
+    ],
+    [
+      "Xbnd2",
+      "67",
+      "nm",
+      "selected"
+    ],
+    [
+      "M1 LOW",
+      "15",
+      "nm",
+      "B1-20"
+    ],
+    [
+      "M2 HIGH",
+      "32",
+      "nm",
+      "B2-B1"
+    ],
+    [
+      "M3 LOW",
+      "13",
+      "nm",
+      "80-B2"
+    ],
+    [
+      "WF_LOW",
+      "4.33",
+      "eV",
+      "P3 fixed"
+    ],
+    [
+      "WF_HIGH",
+      "4.7",
+      "eV",
+      "P3 fixed"
+    ],
+    [
+      "Temp",
+      "300",
+      "K",
+      "fixed"
+    ]
+  ]
+}
