@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:38:33.078Z",
+  "updatedAt": "2026-08-19T06:38:47.379Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8455,7 +8455,21 @@
           }
         ],
         "comment": "short-M2 탈락 영역과 leakage/SCE 악화 이유.",
-        "commentLabel": "제출 메모"
+        "commentLabel": "제출 메모",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-19T06:38:20.400Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
