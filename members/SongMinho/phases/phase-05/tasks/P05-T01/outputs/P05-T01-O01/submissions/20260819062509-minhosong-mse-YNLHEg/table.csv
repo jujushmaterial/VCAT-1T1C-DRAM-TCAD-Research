@@ -1,0 +1,9 @@
+﻿Metric,Value,Unit,Condition,Extraction
+Ion,8.47644973774148e-06,A,"Vd=1.0 V, Vg=1.0 V",|storage TotalCurrent|
+Ioff,3.10124663510952e-15,A,"Vd=1.0 V, Vg≈0 V",nearest Vg=0 point
+Ion/Ioff,2733239479.175488,ratio,derived,Ion/Ioff
+Vth@Vd0.05,0.5066665598316268,V,Vd=0.05 V,"|Id|=1e-7 A, log(Id)-linear interpolation"
+Vth@Vd1.0,0.5034297180662931,V,Vd=1.0 V,"|Id|=1e-7 A, log(Id)-linear interpolation"
+SS@Vd1.0,60.04591002381508,mV/dec,1e-12<=|Id|<=1e-8 A,regression log10|Id| vs Vg; SS=1000/slope
+DIBL,3.4072018582459744,mV/V,Vd 0.05/1.0 V,(Vth0.05-Vth1.0)/0.95×1000
+GIDL,2.87905306067451e-14,A,"Vd=1.0 V, Vg=-0.4 V",|storage TotalCurrent|

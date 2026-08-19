@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260819062509-minhosong-mse-YNLHEg",
+  "phaseId": 5,
+  "issueNumber": 5,
+  "taskId": "P05-T01",
+  "taskText": "개선 기준·탐색범위 설정",
+  "outputId": "P05-T01-O01",
+  "outputText": "P2 Single-Metal 기준 성능표",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "table",
+  "uploadedAt": "2026-08-19T06:25:09.465Z",
+  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg",
+  "summary": "9행 × 5열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.tsv",
+      "size": 628
+    },
+    {
+      "name": "table.csv",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.csv",
+      "size": 650
+    },
+    {
+      "name": "table.json",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.json",
+      "size": 1234
+    }
+  ],
+  "table": {
+    "rowCount": 9,
+    "columnCount": 5,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.tsv"
+  }
+}
