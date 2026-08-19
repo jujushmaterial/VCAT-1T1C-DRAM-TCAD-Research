@@ -38,5 +38,19 @@
     "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O03/submissions/20260819074618-minhosong-mse-9QIR8g/table.json",
     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O03/submissions/20260819074618-minhosong-mse-9QIR8g/table.csv",
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O03/submissions/20260819074618-minhosong-mse-9QIR8g/table.tsv"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-19T07:46:18.473Z"
+      }
+    ],
+    "legacy": false
   }
 }
