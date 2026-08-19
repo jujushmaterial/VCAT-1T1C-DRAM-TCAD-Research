@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:45:14.342Z",
+  "updatedAt": "2026-08-19T06:45:22.122Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8771,7 +8771,21 @@
           }
         ],
         "comment": "P05-T04 3D 담당자 전달용 최종 geometry/WF/bias/physics/extraction 조건.",
-        "commentLabel": "제출 메모"
+        "commentLabel": "제출 메모",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-19T06:45:02.677Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
