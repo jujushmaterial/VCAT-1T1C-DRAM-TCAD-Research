@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T21:57:03+09:00",
+  "generatedAt": "2026-08-19T21:57:37+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -13681,9 +13681,9 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 6,
-              "evidenceSubmissionCount": 1,
-              "approvedSubmissionCount": 1,
-              "pendingReviewCount": 5,
+              "evidenceSubmissionCount": 2,
+              "approvedSubmissionCount": 2,
+              "pendingReviewCount": 4,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -13887,15 +13887,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T12:57:16.328Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-15T15:17:23.659Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T12:57:16.328Z"
                       }
                     ],
                     "legacy": false
@@ -17980,9 +17985,9 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 6,
-          "evidenceSubmissionCount": 1,
-          "approvedSubmissionCount": 1,
-          "pendingReviewCount": 5,
+          "evidenceSubmissionCount": 2,
+          "approvedSubmissionCount": 2,
+          "pendingReviewCount": 4,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -18186,15 +18191,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T12:57:16.328Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-15T15:17:23.659Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T12:57:16.328Z"
                   }
                 ],
                 "legacy": false
@@ -20238,7 +20248,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-19T12:39:54Z",
+      "updatedAt": "2026-08-19T12:57:02Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 3
