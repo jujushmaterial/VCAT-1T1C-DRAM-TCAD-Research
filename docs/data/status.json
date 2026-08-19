@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T16:45:17+09:00",
+  "generatedAt": "2026-08-19T16:46:07+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -24163,14 +24163,21 @@
                       "size": 4156
                     }
                   ],
+                  "comment": "P5 2D selected Nominal (B1/B2=35/67 nm) 기준의 tolerance용 parameterized SDE·Forward SDevice 코드. Xbnd1_nm/Xbnd2_nm을 독립 geometry 변수로 유지하고 WF_LOW/WF_HIGH=4.33/4.70 eV는 고정한다. P5 검증 deck의 executable body를 유지하며 P6/P7/P8에서 ratio를 별도 독립변수로 중복 sweep하지 않는다.\n\nParameter\tNominal_or_Value\tUnit\tP6_Role\tBasis\nDpillar_nm\t12\tnm\tfixed\tP5 common\nTox_nm\t1\tnm\tfixed\tP5 common\nLg_nm\t60\tnm\tfixed\tP5 common\nLsn_nm\t20\tnm\tfixed\tP5 common\nLbl_nm\t20\tnm\tfixed\tP5 common\nNbody\t1.00E+17\tcm^-3\tfixed\tP5 common\nNSD\t1.00E+20\tcm^-3\tfixed\tP5 common\nJDepthSN_nm\t20\tnm\tfixed\tP5 common\nJDepthBL_nm\t20\tnm\tfixed\tP5 common\nGaussFactor\t0.8\t-\tfixed\tP5 common\nMeshScale\t1\t-\tfixed\tP5 common\nXbnd1_nm\t35\tnm\ttolerance variable\tP5 selected nominal\nXbnd2_nm\t67\tnm\ttolerance variable\tP5 selected nominal\nWF_LOW\t4.33\teV\tfixed\tP3/P5 fixed; no P6 sweep\nWF_HIGH\t4.7\teV\tfixed\tP3/P5 fixed; no P6 sweep\nTemp\t300\tK\tfixed\tP5 common\nVgStop\t1\tV\tfixed\tForward\nVdBias\t0.05, 1.0\tV\tfixed enumeration\tForward",
+                  "commentLabel": "실행 조건 및 설명",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T07:44:55.525Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -24184,13 +24191,72 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260819074531-minhosong-mse-rT_aGQ",
+                  "phaseId": 6,
+                  "issueNumber": 6,
+                  "taskId": "P06-T01",
+                  "taskText": "허용오차 분석용 코드 Parameter화",
+                  "outputId": "P06-T01-O02",
+                  "outputText": "Parameter–Geometry 대응표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-19T07:45:31.803Z",
+                  "folderPath": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ",
+                  "summary": "8행 × 8열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ/table.tsv",
+                      "size": 894
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ/table.csv",
+                      "size": 909
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ/table.json",
+                      "size": 1659
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 8,
+                    "columnCount": 8,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ/table.tsv"
+                  },
+                  "comment": "Xbnd1/Xbnd2와 M1/M2/M3의 geometry 대응표. B1/B2가 독립변수이며 M1=B1-20, M2=B2-B1, M3=80-B2는 파생값이다. WF는 고정값이다.",
+                  "commentLabel": "표 설명",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T07:45:31.803Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                }
+              ]
             },
             {
               "id": "P06-T01-O03",
@@ -24393,14 +24459,21 @@
                   "size": 4156
                 }
               ],
+              "comment": "P5 2D selected Nominal (B1/B2=35/67 nm) 기준의 tolerance용 parameterized SDE·Forward SDevice 코드. Xbnd1_nm/Xbnd2_nm을 독립 geometry 변수로 유지하고 WF_LOW/WF_HIGH=4.33/4.70 eV는 고정한다. P5 검증 deck의 executable body를 유지하며 P6/P7/P8에서 ratio를 별도 독립변수로 중복 sweep하지 않는다.\n\nParameter\tNominal_or_Value\tUnit\tP6_Role\tBasis\nDpillar_nm\t12\tnm\tfixed\tP5 common\nTox_nm\t1\tnm\tfixed\tP5 common\nLg_nm\t60\tnm\tfixed\tP5 common\nLsn_nm\t20\tnm\tfixed\tP5 common\nLbl_nm\t20\tnm\tfixed\tP5 common\nNbody\t1.00E+17\tcm^-3\tfixed\tP5 common\nNSD\t1.00E+20\tcm^-3\tfixed\tP5 common\nJDepthSN_nm\t20\tnm\tfixed\tP5 common\nJDepthBL_nm\t20\tnm\tfixed\tP5 common\nGaussFactor\t0.8\t-\tfixed\tP5 common\nMeshScale\t1\t-\tfixed\tP5 common\nXbnd1_nm\t35\tnm\ttolerance variable\tP5 selected nominal\nXbnd2_nm\t67\tnm\ttolerance variable\tP5 selected nominal\nWF_LOW\t4.33\teV\tfixed\tP3/P5 fixed; no P6 sweep\nWF_HIGH\t4.7\teV\tfixed\tP3/P5 fixed; no P6 sweep\nTemp\t300\tK\tfixed\tP5 common\nVgStop\t1\tV\tfixed\tForward\nVdBias\t0.05, 1.0\tV\tfixed enumeration\tForward",
+              "commentLabel": "실행 조건 및 설명",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T07:44:55.525Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -24415,13 +24488,72 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260819074531-minhosong-mse-rT_aGQ",
+              "phaseId": 6,
+              "issueNumber": 6,
+              "taskId": "P06-T01",
+              "taskText": "허용오차 분석용 코드 Parameter화",
+              "outputId": "P06-T01-O02",
+              "outputText": "Parameter–Geometry 대응표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-19T07:45:31.803Z",
+              "folderPath": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ",
+              "summary": "8행 × 8열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ/table.tsv",
+                  "size": 894
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ/table.csv",
+                  "size": 909
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ/table.json",
+                  "size": 1659
+                }
+              ],
+              "table": {
+                "rowCount": 8,
+                "columnCount": 8,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O02/submissions/20260819074531-minhosong-mse-rT_aGQ/table.tsv"
+              },
+              "comment": "Xbnd1/Xbnd2와 M1/M2/M3의 geometry 대응표. B1/B2가 독립변수이며 M1=B1-20, M2=B2-B1, M3=80-B2는 파생값이다. WF는 고정값이다.",
+              "commentLabel": "표 설명",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T07:45:31.803Z"
+                  }
+                ],
+                "legacy": false
+              }
+            }
+          ],
           "taskId": "P06-T01"
         },
         {
