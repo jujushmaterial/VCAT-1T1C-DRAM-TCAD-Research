@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:26:37.588Z",
+  "updatedAt": "2026-08-19T06:26:50.916Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -7890,7 +7890,9 @@
           "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O03/submissions/20260819062637-minhosong-mse-e9z6Rg/table.json",
           "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O03/submissions/20260819062637-minhosong-mse-e9z6Rg/table.csv",
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O03/submissions/20260819062637-minhosong-mse-e9z6Rg/table.tsv"
-        }
+        },
+        "comment": "B1 33–45, B2 55–67 nm, 2 nm step의 7×7=49 geometry 범위. Segment는 boundary 파생값.",
+        "commentLabel": "표 설명"
       }
     ]
   }
