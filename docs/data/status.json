@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T15:25:31+09:00",
+  "generatedAt": "2026-08-19T15:26:26+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20956,14 +20956,21 @@
                     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.csv",
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.tsv"
                   },
+                  "comment": "P2 matched Single-Metal의 P5 비교 기준 성능표. Ion/Ioff/Vth/SS/DIBL/GIDL을 P5 공통 extraction으로 정리.",
+                  "commentLabel": "표 설명",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T06:25:09.465Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -20977,13 +20984,72 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260819062548-minhosong-mse-2xvlKA",
+                  "phaseId": 5,
+                  "issueNumber": 5,
+                  "taskId": "P05-T01",
+                  "taskText": "개선 기준·탐색범위 설정",
+                  "outputId": "P05-T01-O02",
+                  "outputText": "P5 공통 Bias·Physics·Mesh·추출 조건표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-19T06:25:48.491Z",
+                  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA",
+                  "summary": "15행 × 5열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.tsv",
+                      "size": 928
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.csv",
+                      "size": 948
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.json",
+                      "size": 1877
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 15,
+                    "columnCount": 5,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.tsv"
+                  },
+                  "comment": "P5 공통 Bias·Physics·Mesh·추출 조건. P2와 global+junction mesh 정책은 같고 Multi의 실제 WF boundary refinement만 추가.",
+                  "commentLabel": "표 설명",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T06:25:48.491Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                }
+              ]
             },
             {
               "id": "P05-T01-O03",
@@ -21537,14 +21603,21 @@
                 "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.csv",
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O01/submissions/20260819062509-minhosong-mse-YNLHEg/table.tsv"
               },
+              "comment": "P2 matched Single-Metal의 P5 비교 기준 성능표. Ion/Ioff/Vth/SS/DIBL/GIDL을 P5 공통 extraction으로 정리.",
+              "commentLabel": "표 설명",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T06:25:09.465Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -21559,13 +21632,72 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260819062548-minhosong-mse-2xvlKA",
+              "phaseId": 5,
+              "issueNumber": 5,
+              "taskId": "P05-T01",
+              "taskText": "개선 기준·탐색범위 설정",
+              "outputId": "P05-T01-O02",
+              "outputText": "P5 공통 Bias·Physics·Mesh·추출 조건표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-19T06:25:48.491Z",
+              "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA",
+              "summary": "15행 × 5열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.tsv",
+                  "size": 928
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.csv",
+                  "size": 948
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.json",
+                  "size": 1877
+                }
+              ],
+              "table": {
+                "rowCount": 15,
+                "columnCount": 5,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O02/submissions/20260819062548-minhosong-mse-2xvlKA/table.tsv"
+              },
+              "comment": "P5 공통 Bias·Physics·Mesh·추출 조건. P2와 global+junction mesh 정책은 같고 Multi의 실제 WF boundary refinement만 추가.",
+              "commentLabel": "표 설명",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T06:25:48.491Z"
+                  }
+                ],
+                "legacy": false
+              }
+            }
+          ],
           "taskId": "P05-T01"
         },
         {
