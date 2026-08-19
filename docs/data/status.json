@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T15:45:31+09:00",
+  "generatedAt": "2026-08-19T15:46:19+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20890,9 +20890,9 @@
       "tasksTotal": 4,
       "issueTasksDone": 0,
       "outputsDone": 0,
-      "outputsTotal": 26,
+      "outputsTotal": 27,
       "requiredOutputsDone": 0,
-      "requiredOutputsTotal": 26,
+      "requiredOutputsTotal": 27,
       "tasks": [
         {
           "id": "P05-T01",
@@ -22288,32 +22288,57 @@
                       "size": 736
                     }
                   ],
+                  "comment": "P05-T04 3D 담당자 전달용 최종 geometry/WF/bias/physics/extraction 조건.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T06:45:02.677Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
+            },
+            {
+              "id": "P05-T03-O07",
+              "text": "P5 2D 연구 진행방향 설명",
+              "type": "files",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 6,
+          "requiredOutputsTotal": 7,
           "outputsDone": 0,
-          "outputsTotal": 6,
+          "outputsTotal": 7,
           "missingRequiredOutputs": [
             "P05-T03-O01",
             "P05-T03-O02",
             "P05-T03-O03",
             "P05-T03-O04",
             "P05-T03-O05",
-            "P05-T03-O06"
+            "P05-T03-O06",
+            "P05-T03-O07"
           ],
           "checkboxDrift": false
         },
@@ -23823,17 +23848,42 @@
                   "size": 736
                 }
               ],
+              "comment": "P05-T04 3D 담당자 전달용 최종 geometry/WF/bias/physics/extraction 조건.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T06:45:02.677Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
+          "taskId": "P05-T03"
+        },
+        {
+          "id": "P05-T03-O07",
+          "text": "P5 2D 연구 진행방향 설명",
+          "type": "files",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
           "taskId": "P05-T03"
         },
         {
@@ -23964,7 +24014,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-19T06:31:18Z",
+      "updatedAt": "2026-08-19T06:45:50Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
