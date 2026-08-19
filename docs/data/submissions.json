@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:41:23.300Z",
+  "updatedAt": "2026-08-19T06:41:36.657Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8633,7 +8633,9 @@
           "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O03/submissions/20260819064123-minhosong-mse-jyeiyg/table.json",
           "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O03/submissions/20260819064123-minhosong-mse-jyeiyg/table.csv",
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O03/submissions/20260819064123-minhosong-mse-jyeiyg/table.tsv"
-        }
+        },
+        "comment": "P2 대비 P5 Nominal 핵심 지표 개선율.",
+        "commentLabel": "표 설명"
       }
     ]
   }
