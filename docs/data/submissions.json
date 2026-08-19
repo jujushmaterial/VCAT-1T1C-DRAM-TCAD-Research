@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:35:14.631Z",
+  "updatedAt": "2026-08-19T06:35:27.737Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8226,7 +8226,21 @@
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O03/submissions/20260819063501-minhosong-mse-7P915w/table.tsv"
         },
         "comment": "49 Multi geometry와 P2 Single의 절대 성능 및 개선율 비교.",
-        "commentLabel": "표 설명"
+        "commentLabel": "표 설명",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-19T06:35:01.807Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
