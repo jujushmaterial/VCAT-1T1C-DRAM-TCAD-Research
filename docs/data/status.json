@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T21:40:48+09:00",
+  "generatedAt": "2026-08-19T21:41:14+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -11696,9 +11696,9 @@
       "tasksDone": 5,
       "tasksTotal": 8,
       "issueTasksDone": 5,
-      "outputsDone": 22,
+      "outputsDone": 23,
       "outputsTotal": 46,
-      "requiredOutputsDone": 16,
+      "requiredOutputsDone": 17,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -13022,13 +13022,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260813160958-minhosong-mse-Yp1JwQ",
@@ -13074,15 +13074,20 @@
                   "comment": "Al/Ti/W/TiN/Mo(110) 프로젝트 WF 값을 이용한 LOW<HIGH 10개 pair를 Vd=0.05 V와 1.0 V에서 실행한 총 20개 Forward WF Split 조건표이다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T12:40:54.451Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-13T16:09:58.026Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T12:40:54.451Z"
                       }
                     ],
                     "legacy": false
@@ -14042,12 +14047,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 2,
+          "requiredOutputsDone": 3,
           "requiredOutputsTotal": 8,
-          "outputsDone": 2,
+          "outputsDone": 3,
           "outputsTotal": 8,
           "missingRequiredOutputs": [
-            "P03-T14-O01",
             "P03-T14-O04",
             "P03-T14-O05",
             "P03-T14-O06",
@@ -17286,13 +17290,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260813160958-minhosong-mse-Yp1JwQ",
@@ -17338,15 +17342,20 @@
               "comment": "Al/Ti/W/TiN/Mo(110) 프로젝트 WF 값을 이용한 LOW<HIGH 10개 pair를 Vd=0.05 V와 1.0 V에서 실행한 총 20개 Forward WF Split 조건표이다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T12:40:54.451Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-13T16:09:58.026Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T12:40:54.451Z"
                   }
                 ],
                 "legacy": false
