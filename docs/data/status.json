@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T00:31:30+09:00",
+  "generatedAt": "2026-08-20T00:33:49+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -25220,14 +25220,21 @@
                     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O04/submissions/20260819153101-LSH-linear-6m_wxA/table.csv",
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O04/submissions/20260819153101-LSH-linear-6m_wxA/table.tsv"
                   },
+                  "comment": "P7/P8 tolerance 분석에서 모든 구조를 동일 기준으로 비교하기 위해 공통 성능 추출 기준을 고정하였다. Ion은 Vd=1.0 V, Vg=1.0 V, Ioff는 Vd=1.0 V, Vg=0 V에서 추출하며, Vth는 |Id|=1×10^-7 A constant-current 기준, SS는 Vd=1.0 V에서 1×10^-12≤|Id|≤1×10^-8 A 구간, DIBL은 Vth@Vd=0.05 V와 Vth@Vd=1.0 V의 차이를 기준으로 계산한다.",
+                  "commentLabel": "표 설명",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T15:31:01.089Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -25241,13 +25248,52 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260819153328-LSH-linear-IB_Uhg",
+                  "phaseId": 6,
+                  "issueNumber": 6,
+                  "taskId": "P06-T02",
+                  "taskText": "Nominal 재현성 및 공통 Simulation 기준 확정",
+                  "outputId": "P06-T02-O05",
+                  "outputText": "Nominal 재현성 Pass·Fail 판정",
+                  "uploader": "LSH-linear",
+                  "memberName": "이선형",
+                  "memberFolder": "LeeSeonHyeong",
+                  "type": "files",
+                  "uploadedAt": "2026-08-19T15:33:28.283Z",
+                  "folderPath": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg",
+                  "summary": "2개 파일 · 3.9KB",
+                  "files": [
+                    {
+                      "name": "P06-T02-O05_Nominal_Reproducibility_PASS.md",
+                      "path": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg/files/P06-T02-O05_Nominal_Reproducibility_PASS.md",
+                      "size": 2118
+                    },
+                    {
+                      "name": "P06-T02-O05_Reproducibility_Evidence.csv",
+                      "path": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg/files/P06-T02-O05_Reproducibility_Evidence.csv",
+                      "size": 1845
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
@@ -25922,14 +25968,21 @@
                 "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O04/submissions/20260819153101-LSH-linear-6m_wxA/table.csv",
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O04/submissions/20260819153101-LSH-linear-6m_wxA/table.tsv"
               },
+              "comment": "P7/P8 tolerance 분석에서 모든 구조를 동일 기준으로 비교하기 위해 공통 성능 추출 기준을 고정하였다. Ion은 Vd=1.0 V, Vg=1.0 V, Ioff는 Vd=1.0 V, Vg=0 V에서 추출하며, Vth는 |Id|=1×10^-7 A constant-current 기준, SS는 Vd=1.0 V에서 1×10^-12≤|Id|≤1×10^-8 A 구간, DIBL은 Vth@Vd=0.05 V와 Vth@Vd=1.0 V의 차이를 기준으로 계산한다.",
+              "commentLabel": "표 설명",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T15:31:01.089Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -25944,13 +25997,52 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260819153328-LSH-linear-IB_Uhg",
+              "phaseId": 6,
+              "issueNumber": 6,
+              "taskId": "P06-T02",
+              "taskText": "Nominal 재현성 및 공통 Simulation 기준 확정",
+              "outputId": "P06-T02-O05",
+              "outputText": "Nominal 재현성 Pass·Fail 판정",
+              "uploader": "LSH-linear",
+              "memberName": "이선형",
+              "memberFolder": "LeeSeonHyeong",
+              "type": "files",
+              "uploadedAt": "2026-08-19T15:33:28.283Z",
+              "folderPath": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg",
+              "summary": "2개 파일 · 3.9KB",
+              "files": [
+                {
+                  "name": "P06-T02-O05_Nominal_Reproducibility_PASS.md",
+                  "path": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg/files/P06-T02-O05_Nominal_Reproducibility_PASS.md",
+                  "size": 2118
+                },
+                {
+                  "name": "P06-T02-O05_Reproducibility_Evidence.csv",
+                  "path": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg/files/P06-T02-O05_Reproducibility_Evidence.csv",
+                  "size": 1845
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P06-T02"
         }
       ],
