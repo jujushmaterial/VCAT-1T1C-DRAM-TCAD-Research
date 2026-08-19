@@ -25,5 +25,7 @@
       "path": "members/LeeSeonHyeong/phases/phase-06/tasks/P06-T02/outputs/P06-T02-O05/submissions/20260819153328-LSH-linear-IB_Uhg/files/P06-T02-O05_Reproducibility_Evidence.csv",
       "size": 1845
     }
-  ]
+  ],
+  "comment": "P6 Parameterized Nominal fresh rerun은 2026-08-19에 독립 실행되었으며, 새 log와 fresh mesh를 사용하였다. P5 Original과 P6 fresh rerun의 Forward raw PLT는 Vd=0.05 V와 1.0 V 모두 SHA256이 일치했고, Ion, Ioff, Ion/Ioff, Vth, SS, DIBL도 동일하게 재현되었다. 따라서 parameterization 전후 Nominal 재현성은 PASS로 판정한다.",
+  "commentLabel": "제출 메모"
 }
