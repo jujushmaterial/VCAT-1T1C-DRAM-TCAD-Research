@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T15:37:02+09:00",
+  "generatedAt": "2026-08-19T15:37:46+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -21671,13 +21671,72 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260819063653-minhosong-mse-ZVGgEA",
+                  "phaseId": 5,
+                  "issueNumber": 5,
+                  "taskId": "P05-T02",
+                  "taskText": "Boundary 기반 2D 최적화",
+                  "outputId": "P05-T02-O05",
+                  "outputText": "조건별 개선율 표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-19T06:36:53.079Z",
+                  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA",
+                  "summary": "50행 × 8열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA/table.tsv",
+                      "size": 5206
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA/table.csv",
+                      "size": 5259
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA/table.json",
+                      "size": 9500
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 50,
+                    "columnCount": 8,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA/table.tsv"
+                  },
+                  "comment": "49 geometry별 P2 대비 개선율.",
+                  "commentLabel": "표 설명",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-19T06:36:53.079Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                }
+              ]
             },
             {
               "id": "P05-T02-O06",
@@ -22759,13 +22818,72 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260819063653-minhosong-mse-ZVGgEA",
+              "phaseId": 5,
+              "issueNumber": 5,
+              "taskId": "P05-T02",
+              "taskText": "Boundary 기반 2D 최적화",
+              "outputId": "P05-T02-O05",
+              "outputText": "조건별 개선율 표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-19T06:36:53.079Z",
+              "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA",
+              "summary": "50행 × 8열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA/table.tsv",
+                  "size": 5206
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA/table.csv",
+                  "size": 5259
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA/table.json",
+                  "size": 9500
+                }
+              ],
+              "table": {
+                "rowCount": 50,
+                "columnCount": 8,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T02/outputs/P05-T02-O05/submissions/20260819063653-minhosong-mse-ZVGgEA/table.tsv"
+              },
+              "comment": "49 geometry별 P2 대비 개선율.",
+              "commentLabel": "표 설명",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-19T06:36:53.079Z"
+                  }
+                ],
+                "legacy": false
+              }
+            }
+          ],
           "taskId": "P05-T02"
         },
         {
