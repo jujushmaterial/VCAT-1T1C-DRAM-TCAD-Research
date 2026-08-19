@@ -1,0 +1,6 @@
+ExclusionCase	Rule	ObservedExample	Reason
+Incomplete/non-converged	reject	none among final 49 Forward	unreliable metrics
+Ioff and DIBL both worse than P2	reject unless separately justified	short-M2, especially M2<=18 nm	leakage/SCE penalty
+Order-level Ioff rise	reject	45/55: Ioff about 16.6× P2	catastrophic leakage
+Ion-only optimum	do not select automatically	45/55	balanced optimization
+Minor one-metric variation	not automatic fail	35/65 SS slightly worse	sub-percent variation

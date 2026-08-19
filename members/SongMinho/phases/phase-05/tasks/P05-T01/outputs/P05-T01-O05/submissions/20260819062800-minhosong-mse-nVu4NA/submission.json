@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260819062800-minhosong-mse-nVu4NA",
+  "phaseId": 5,
+  "issueNumber": 5,
+  "taskId": "P05-T01",
+  "taskText": "개선 기준·탐색범위 설정",
+  "outputId": "P05-T01-O05",
+  "outputText": "제외 조건·치명적 열화 기준",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "table",
+  "uploadedAt": "2026-08-19T06:28:00.275Z",
+  "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA",
+  "summary": "6행 × 4열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.tsv",
+      "size": 483
+    },
+    {
+      "name": "table.csv",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.csv",
+      "size": 494
+    },
+    {
+      "name": "table.json",
+      "path": "members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.json",
+      "size": 864
+    }
+  ],
+  "table": {
+    "rowCount": 6,
+    "columnCount": 4,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T01/outputs/P05-T01-O05/submissions/20260819062800-minhosong-mse-nVu4NA/table.tsv"
+  }
+}
