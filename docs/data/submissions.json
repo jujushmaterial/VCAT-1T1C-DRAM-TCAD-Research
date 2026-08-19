@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:45:22.122Z",
+  "updatedAt": "2026-08-19T06:46:29.867Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8786,6 +8786,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P05-T03-O07": [
+      {
+        "submissionId": "20260819064629-minhosong-mse-x8W2MQ",
+        "phaseId": 5,
+        "issueNumber": 5,
+        "taskId": "P05-T03",
+        "taskText": "개선 Nominal 대표구조 확정",
+        "outputId": "P05-T03-O07",
+        "outputText": "P5 2D 연구 진행방향 설명",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-19T06:46:29.867Z",
+        "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O07/submissions/20260819064629-minhosong-mse-x8W2MQ",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O07/submissions/20260819064629-minhosong-mse-x8W2MQ",
+        "summary": "1개 파일 · 2.0KB",
+        "files": [
+          {
+            "name": "P05_GIDL_PROGRESS_EXPLANATION.txt",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O07/submissions/20260819064629-minhosong-mse-x8W2MQ/files/P05_GIDL_PROGRESS_EXPLANATION.txt",
+            "size": 2061
+          }
+        ]
       }
     ]
   }

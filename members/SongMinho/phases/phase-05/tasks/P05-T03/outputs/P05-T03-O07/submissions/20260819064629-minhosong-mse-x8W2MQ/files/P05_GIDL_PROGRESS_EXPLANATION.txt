@@ -1,0 +1,56 @@
+P5 GIDL 진행 및 Numerical Optimization 설명
+
+1) 목적
+49 Boundary 전체 GIDL이 아니라 Forward로 후보를 줄인 뒤 shortlist GIDL로 hidden leakage penalty를 확인했다.
+Geometry/WF/mesh/physics는 유지했다.
+
+2) Conservative setting
+Gate: InitialStep=1e-5, Increment=1.10, Decrement=4, MaxStep=0.002, MinStep=1e-12.
+35/65 conservative current file은 624 gate points였고 실제 운용에서 노드당 수시간이 걸렸다.
+
+3) Reference
+35/65 conservative = 3.59752063366802e-15 A.
+P3 G2의 약 3.5975206e-15 A와 사실상 동일하여 numerical calibration reference로 사용했다.
+
+4) TURBO top-down
+약 42.76 s, endpoint 오차 약 -0.0244%.
+다만 Digits=4, ExtendedPrecision OFF 등도 함께 바꿔 최종 production에는 사용하지 않았다.
+
+5) PRODFAST
+Digits=5, ExtendedPrecision ON, Extrapolate ON, Iterations=40.
+Drain/Gate: InitialStep=0.01, Increment=1.40, Decrement=4, MaxStep=0.05, MinStep=1e-6.
+Physics/geometry/bias target은 변경하지 않았다.
+
+6) 35/65 검증
+PRODFAST = 3.59750578637725e-15 A
+conservative 대비 -0.000413%
+23 gate points, wallclock 58.51 s.
+
+7) Geometry cross-validation
+33/67 conservative 3.60589506358873e-15 A
+33/67 PRODFAST     3.60587600619562e-15 A
+차이 -0.000529%
+
+37/63 conservative 3.61854175206690e-15 A
+37/63 PRODFAST     3.61853085222839e-15 A
+차이 -0.000301%
+
+세 reference geometry 모두 0.001% 이내로 일치했다.
+
+8) 최종 shortlist GIDL
+33/67 = 3.60587600619562e-15 A
+35/67 = 3.59032869040145e-15 A
+35/65 = 3.59750578637725e-15 A
+37/63 = 3.61853085222839e-15 A
+
+모두 P2 Single 2.87905306067451e-14 A 대비 약 87.4–87.5% 감소했다.
+후보간 GIDL 차이가 작아 Forward shortlist 순위를 뒤집지 않았다.
+
+9) P5 사용 결론
+35/67은 P2 대비 GIDL 약 87.529% 감소를 유지했고
+Forward Ion/Ioff/SS/DIBL 균형과 함께 최종 2D Nominal로 선정했다.
+
+10) 향후
+PRODFAST는 P5 2D GIDL에 검증됨.
+3D에서는 동일 구조 한 점 A/B 후 사용.
+Forward는 Vth/SS 해상도 때문에 별도 fast-setting A/B 검증 후 적용.
