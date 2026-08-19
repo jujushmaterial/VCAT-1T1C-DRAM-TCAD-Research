@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:39:52.578Z",
+  "updatedAt": "2026-08-19T06:39:59.145Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8515,7 +8515,21 @@
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O01/submissions/20260819063938-minhosong-mse-zJWe5Q/table.tsv"
         },
         "comment": "최종 Nominal 35/67 = 15/32/13 nm, WF 4.33/4.70/4.33 eV.",
-        "commentLabel": "표 설명"
+        "commentLabel": "표 설명",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-19T06:39:38.492Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
