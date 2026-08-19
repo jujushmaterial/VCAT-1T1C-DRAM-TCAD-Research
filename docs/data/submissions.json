@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:34:26.200Z",
+  "updatedAt": "2026-08-19T06:34:41.753Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8166,7 +8166,21 @@
           }
         ],
         "comment": "98 Forward raw PLT 대신 49 exact summary + 98 filename/node/SHA256 manifest를 제출. 원본 raw는 송민호 보관중",
-        "commentLabel": "제출 메모"
+        "commentLabel": "제출 메모",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-19T06:34:12.922Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
