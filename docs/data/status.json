@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-19T21:38:59+09:00",
+  "generatedAt": "2026-08-19T21:39:55+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 43,
+  "overallProgress": 45,
   "phases": [
     {
       "id": 1,
@@ -11692,13 +11692,13 @@
       "id": 3,
       "issueNumber": 3,
       "state": "in-progress",
-      "progress": 50,
-      "tasksDone": 4,
+      "progress": 62,
+      "tasksDone": 5,
       "tasksTotal": 8,
-      "issueTasksDone": 4,
-      "outputsDone": 18,
+      "issueTasksDone": 5,
+      "outputsDone": 20,
       "outputsTotal": 46,
-      "requiredOutputsDone": 12,
+      "requiredOutputsDone": 14,
       "requiredOutputsTotal": 37,
       "tasks": [
         {
@@ -12446,7 +12446,7 @@
         {
           "id": "P03-T13",
           "text": "Low-High-Low Three-zone 구조 구현",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P03-T13-O01",
@@ -12588,13 +12588,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260813160544-minhosong-mse-JYzFog",
@@ -12640,15 +12640,20 @@
                   "comment": "M1/M2/M3 gate-oxide region과 gate contact의 LOW/HIGH/LOW 역할을 정리한 표이다. 1:1:1 조건에서 각 segment는 20 nm이다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T12:38:46.069Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-13T16:05:44.337Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T12:38:46.069Z"
                       }
                     ],
                     "legacy": false
@@ -12664,13 +12669,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260813160648-minhosong-mse-f_sSGg",
@@ -12716,15 +12721,20 @@
                   "comment": "Lg=60 nm, M1:M2:M3=1:1:1 기준으로 Xbnd1=0.040 um, Xbnd2=0.060 um이며 각 segment 길이는 20 nm이다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T12:39:28.919Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-13T16:06:48.568Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T12:39:28.919Z"
                       }
                     ],
                     "legacy": false
@@ -12742,9 +12752,9 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 2,
-              "evidenceSubmissionCount": 1,
-              "approvedSubmissionCount": 1,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 2,
+              "approvedSubmissionCount": 2,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -12827,15 +12837,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T12:39:10.685Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-17T10:01:57.553Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T12:39:10.685Z"
                       }
                     ],
                     "legacy": false
@@ -12985,16 +13000,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 5,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 7,
           "requiredOutputsTotal": 7,
-          "outputsDone": 5,
+          "outputsDone": 7,
           "outputsTotal": 7,
-          "missingRequiredOutputs": [
-            "P03-T13-O03",
-            "P03-T13-O04"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -16842,13 +16854,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260813160544-minhosong-mse-JYzFog",
@@ -16894,15 +16906,20 @@
               "comment": "M1/M2/M3 gate-oxide region과 gate contact의 LOW/HIGH/LOW 역할을 정리한 표이다. 1:1:1 조건에서 각 segment는 20 nm이다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T12:38:46.069Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-13T16:05:44.337Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T12:38:46.069Z"
                   }
                 ],
                 "legacy": false
@@ -16919,13 +16936,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260813160648-minhosong-mse-f_sSGg",
@@ -16971,15 +16988,20 @@
               "comment": "Lg=60 nm, M1:M2:M3=1:1:1 기준으로 Xbnd1=0.040 um, Xbnd2=0.060 um이며 각 segment 길이는 20 nm이다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T12:39:28.919Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-13T16:06:48.568Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T12:39:28.919Z"
                   }
                 ],
                 "legacy": false
@@ -16998,9 +17020,9 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 2,
-          "evidenceSubmissionCount": 1,
-          "approvedSubmissionCount": 1,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 2,
+          "approvedSubmissionCount": 2,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -17083,15 +17105,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T12:39:10.685Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-17T10:01:57.553Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T12:39:10.685Z"
                   }
                 ],
                 "legacy": false
@@ -20130,10 +20157,10 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-18T05:09:41Z",
+      "updatedAt": "2026-08-19T12:38:59Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 4
+      "integrityWarnings": 3
     },
     {
       "id": 4,
