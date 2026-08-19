@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:40:37.778Z",
+  "updatedAt": "2026-08-19T06:41:23.300Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8589,6 +8589,50 @@
             }
           ],
           "legacy": false
+        }
+      }
+    ],
+    "P05-T03-O03": [
+      {
+        "submissionId": "20260819064123-minhosong-mse-jyeiyg",
+        "phaseId": 5,
+        "issueNumber": 5,
+        "taskId": "P05-T03",
+        "taskText": "개선 Nominal 대표구조 확정",
+        "outputId": "P05-T03-O03",
+        "outputText": "핵심 지표 개선율",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "table",
+        "uploadedAt": "2026-08-19T06:41:23.300Z",
+        "folderPath": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O03/submissions/20260819064123-minhosong-mse-jyeiyg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O03/submissions/20260819064123-minhosong-mse-jyeiyg",
+        "summary": "7행 × 7열 표",
+        "files": [
+          {
+            "name": "table.tsv",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O03/submissions/20260819064123-minhosong-mse-jyeiyg/table.tsv",
+            "size": 680
+          },
+          {
+            "name": "table.csv",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O03/submissions/20260819064123-minhosong-mse-jyeiyg/table.csv",
+            "size": 690
+          },
+          {
+            "name": "table.json",
+            "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O03/submissions/20260819064123-minhosong-mse-jyeiyg/table.json",
+            "size": 1298
+          }
+        ],
+        "table": {
+          "rowCount": 7,
+          "columnCount": 7,
+          "hasHeader": true,
+          "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O03/submissions/20260819064123-minhosong-mse-jyeiyg/table.json",
+          "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O03/submissions/20260819064123-minhosong-mse-jyeiyg/table.csv",
+          "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O03/submissions/20260819064123-minhosong-mse-jyeiyg/table.tsv"
         }
       }
     ]
