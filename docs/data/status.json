@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T23:36:24+09:00",
+  "generatedAt": "2026-08-19T23:50:18+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -13691,9 +13691,9 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 6,
-              "evidenceSubmissionCount": 5,
-              "approvedSubmissionCount": 5,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 6,
+              "approvedSubmissionCount": 6,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -13721,13 +13721,23 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "seanthe17",
+                    "reviewedAt": "2026-08-19T14:36:22.030Z",
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-13T16:13:26.716Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "seanthe17",
+                        "at": "2026-08-19T14:36:22.030Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 },
                 {
@@ -18093,9 +18103,9 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 6,
-          "evidenceSubmissionCount": 5,
-          "approvedSubmissionCount": 5,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 6,
+          "approvedSubmissionCount": 6,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -18123,13 +18133,23 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "seanthe17",
+                "reviewedAt": "2026-08-19T14:36:22.030Z",
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-13T16:13:26.716Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "seanthe17",
+                    "at": "2026-08-19T14:36:22.030Z"
+                  }
+                ],
+                "legacy": false
               }
             },
             {
