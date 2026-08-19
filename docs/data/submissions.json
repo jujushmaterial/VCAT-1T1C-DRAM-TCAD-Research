@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T06:42:06.904Z",
+  "updatedAt": "2026-08-19T06:42:19.375Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8675,7 +8675,9 @@
             "path": "members/SongMinho/phases/phase-05/tasks/P05-T03/outputs/P05-T03-O04/submissions/20260819064206-minhosong-mse-pgf-SA/files/P05-T03-O04_Pass_Decision.txt",
             "size": 660
           }
-        ]
+        ],
+        "comment": "최종 PASS 판정 및 35/67 선정 이유.",
+        "commentLabel": "제출 메모"
       }
     ]
   }
