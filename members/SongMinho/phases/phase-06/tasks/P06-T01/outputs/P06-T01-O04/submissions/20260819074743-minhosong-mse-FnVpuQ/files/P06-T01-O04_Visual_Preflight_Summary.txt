@@ -1,0 +1,21 @@
+P06-T01-O04 Visual Geometry Preflight Summary
+
+Observed cases:
+- Nominal 35/67 nm
+- B1 -2 nm: 33/67 nm
+- B1 +2 nm: 37/67 nm
+- B2 -2 nm: 35/65 nm
+- B2 +2 nm: 35/69 nm
+
+Visual checks performed from Sentaurus Visual screenshots:
+1. All five SDE geometries generated and were viewable.
+2. No obvious region collapse, contact loss, or topology inversion was observed.
+3. B1-only variations moved the upper internal metal/WF boundary while B2 remained fixed.
+4. B2-only variations moved the lower internal metal/WF boundary while B1 remained fixed.
+5. Local mesh refinement visually followed the moving boundary regions.
+
+Decision: VISUAL PREFLIGHT PASS for P06-T01 parameterization evidence.
+Scope limit: This is geometry/mesh visual verification only. Electrical reproducibility is P06-T02 and has not been claimed here.
+
+Important project-status note:
+P5 3D / P05-T04-O06 official P6 handoff is still pending. The 35/67 nm baseline in this T01 package is the completed P5 2D selected nominal and is treated as provisional until the P5 3D handoff confirms it.

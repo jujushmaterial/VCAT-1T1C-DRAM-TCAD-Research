@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T07:47:29.148Z",
+  "updatedAt": "2026-08-19T07:47:43.555Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9080,6 +9080,50 @@
           ],
           "legacy": false
         }
+      },
+      {
+        "submissionId": "20260819074743-minhosong-mse-FnVpuQ",
+        "phaseId": 6,
+        "issueNumber": 6,
+        "taskId": "P06-T01",
+        "taskText": "허용오차 분석용 코드 Parameter화",
+        "outputId": "P06-T01-O04",
+        "outputText": "Nominal 및 ±Variation 구조 이미지",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-19T07:47:43.555Z",
+        "folderPath": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074743-minhosong-mse-FnVpuQ",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074743-minhosong-mse-FnVpuQ",
+        "summary": "5개 파일 · 1.47MB",
+        "files": [
+          {
+            "name": "P06-T01-O04_Image_Index.csv",
+            "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074743-minhosong-mse-FnVpuQ/files/P06-T01-O04_Image_Index.csv",
+            "size": 1550
+          },
+          {
+            "name": "P06-T01-O04_NOM_B1-35_B2-67_B1zoom_mesh.png",
+            "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074743-minhosong-mse-FnVpuQ/files/P06-T01-O04_NOM_B1-35_B2-67_B1zoom_mesh.png",
+            "size": 587720
+          },
+          {
+            "name": "P06-T01-O04_NOM_B1-35_B2-67_B2zoom_mesh.png",
+            "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074743-minhosong-mse-FnVpuQ/files/P06-T01-O04_NOM_B1-35_B2-67_B2zoom_mesh.png",
+            "size": 577020
+          },
+          {
+            "name": "P06-T01-O04_NOM_B1-35_B2-67_full.png",
+            "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074743-minhosong-mse-FnVpuQ/files/P06-T01-O04_NOM_B1-35_B2-67_full.png",
+            "size": 374459
+          },
+          {
+            "name": "P06-T01-O04_Visual_Preflight_Summary.txt",
+            "path": "members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O04/submissions/20260819074743-minhosong-mse-FnVpuQ/files/P06-T01-O04_Visual_Preflight_Summary.txt",
+            "size": 1056
+          }
+        ]
       }
     ]
   }
