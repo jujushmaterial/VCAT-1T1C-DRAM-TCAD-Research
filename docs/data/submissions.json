@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T13:03:03.769Z",
+  "updatedAt": "2026-08-19T13:03:18.388Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -7554,15 +7554,20 @@
         "comment": "P03-T14에서 확정한 Fixed WF를 P4 전달값으로 정리했습니다. WF_LOW=4.33 eV(Ti), WF_HIGH=4.70 eV(TiN), gate_m1/m2/m3=4.33/4.70/4.33 eV입니다. 이후 P4~P9에서는 해당 WF를 다시 Sweep하지 않습니다.",
         "commentLabel": "표 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "seanthe17",
+          "reviewedAt": "2026-08-19T13:03:18.388Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-18T04:48:18.889Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "seanthe17",
+              "at": "2026-08-19T13:03:18.388Z"
             }
           ],
           "legacy": false
