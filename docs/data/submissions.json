@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-20T03:03:06.270Z",
+  "updatedAt": "2026-08-20T03:03:19.876Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9746,7 +9746,21 @@
             "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O03/submissions/20260820030306-LEE-TAEK-GYU-_OSRAg/files/P02-T11-O03_2D-3D_Comparison.xlsx",
             "size": 15467
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-20T03:03:06.270Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
