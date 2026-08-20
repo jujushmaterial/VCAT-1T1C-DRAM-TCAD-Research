@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-20T02:02:46.637Z",
+  "updatedAt": "2026-08-20T03:03:06.270Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9721,6 +9721,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P02-T11-O03": [
+      {
+        "submissionId": "20260820030306-LEE-TAEK-GYU-_OSRAg",
+        "phaseId": 2,
+        "issueNumber": 2,
+        "taskId": "P02-T11",
+        "taskText": "Single-Metal 3D 기준 구조와 최소 2D–3D 비교를 수행한다.(추후진행)",
+        "outputId": "P02-T11-O03",
+        "outputText": "2D–3D 핵심 성능 비교표",
+        "uploader": "LEE-TAEK-GYU",
+        "memberName": "이택규",
+        "memberFolder": "LeeTaekGyu",
+        "type": "files",
+        "uploadedAt": "2026-08-20T03:03:06.270Z",
+        "folderPath": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O03/submissions/20260820030306-LEE-TAEK-GYU-_OSRAg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O03/submissions/20260820030306-LEE-TAEK-GYU-_OSRAg",
+        "summary": "1개 파일 · 15.1KB",
+        "files": [
+          {
+            "name": "P02-T11-O03_2D-3D_Comparison.xlsx",
+            "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O03/submissions/20260820030306-LEE-TAEK-GYU-_OSRAg/files/P02-T11-O03_2D-3D_Comparison.xlsx",
+            "size": 15467
+          }
+        ]
       }
     ]
   }
