@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-20T02:02:32.988Z",
+  "updatedAt": "2026-08-20T02:02:46.637Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9706,7 +9706,21 @@
             "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O02/submissions/20260820020232-LEE-TAEK-GYU-LqHRSg/source/SDevice.cmd",
             "size": 2451
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-20T02:02:32.988Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
