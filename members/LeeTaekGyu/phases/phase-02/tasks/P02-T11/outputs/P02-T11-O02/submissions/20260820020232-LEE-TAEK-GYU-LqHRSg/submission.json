@@ -1,0 +1,29 @@
+{
+  "submissionId": "20260820020232-LEE-TAEK-GYU-LqHRSg",
+  "phaseId": 2,
+  "issueNumber": 2,
+  "taskId": "P02-T11",
+  "taskText": "Single-Metal 3D 기준 구조와 최소 2D–3D 비교를 수행한다.(추후진행)",
+  "outputId": "P02-T11-O02",
+  "outputText": "3D SDE·SDevice와 Mesh 코드",
+  "uploader": "LEE-TAEK-GYU",
+  "memberName": "이택규",
+  "memberFolder": "LeeTaekGyu",
+  "type": "code",
+  "uploadedAt": "2026-08-20T02:02:32.988Z",
+  "folderPath": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O02/submissions/20260820020232-LEE-TAEK-GYU-LqHRSg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O02/submissions/20260820020232-LEE-TAEK-GYU-LqHRSg",
+  "summary": "2개 코드 파일 · 14.9KB",
+  "files": [
+    {
+      "name": "3D-SDE.cmd",
+      "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O02/submissions/20260820020232-LEE-TAEK-GYU-LqHRSg/source/3D-SDE.cmd",
+      "size": 12829
+    },
+    {
+      "name": "SDevice.cmd",
+      "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O02/submissions/20260820020232-LEE-TAEK-GYU-LqHRSg/source/SDevice.cmd",
+      "size": 2451
+    }
+  ]
+}
