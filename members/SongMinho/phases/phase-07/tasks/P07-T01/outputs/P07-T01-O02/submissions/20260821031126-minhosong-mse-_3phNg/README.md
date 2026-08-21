@@ -1,0 +1,31 @@
+# Phase 7 산출물 — Nominal 주변 변수별 민감도·Local Slope
+
+- 과제 ID: `P07-T01`
+- 산출물 ID: `P07-T01-O02`
+- 제출자: 송민호 (`@minhosong-mse`)
+- 제출 시각: 2026-08-21T03:11:26.229Z
+- 관련 Issue: [#7](https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/7)
+- 제출 방식: table
+
+## 저장된 표
+
+- 크기: 9행 × 27열
+- 첫 행 제목 사용: 예
+- [CSV 원본](./table.csv)
+- [TSV 원본](./table.tsv)
+- [JSON 원본](./table.json)
+
+## 표 설명
+
+Nominal B1/B2=35/67 nm 주변의 Local Sensitivity. B1은 33/35/37 nm의 central difference를 사용하고, B2는 P5 grid 상한이 67 nm이므로 63/65/67 nm의 first-order/second-order backward difference를 사용하였다. 각 metric의 absolute slope, normalized sensitivity(%/nm), direction, curvature/nonlinearity를 정리했으며 Ioff와 Ion/Ioff에는 log10 sensitivity(decade/nm)도 포함하였다. 신규 P7 TCAD는 실행하지 않았다.
+
+| Metric | Nominal_Value | Nominal_Unit | B1_Method | B1_Backward_Slope | B1_Forward_Slope | B1_Central_Slope | B1_Slope_Unit | B1_Normalized_pct_per_nm | B1_LogSlope_dec_per_nm | B1_Curvature_per_nm2 | B1_Asymmetry_Ratio | B2_Method_1st | B2_Backward1_Slope | B2_Method_2nd | B2_Backward2_Slope | B2_Slope_Unit | B2_Normalized1_pct_per_nm | B2_Normalized2_pct_per_nm | B2_LogSlope1_dec_per_nm | B2_LogSlope2_dec_per_nm | B2_Curvature_per_nm2 | B2_Method_Discrepancy_Ratio | B1_Direction | B2_Direction | Data_Status | Provenance |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Ion | 1.04747621195708e-05 | A | central at B2=67: [f(37,67)-f(33,67)]/4nm | 1.7715822763150283e-08 | 2.6721423462299985e-08 | 2.2218623112725134e-08 | A/nm | 0.21211577751453062 |  | 4.502800349574851e-09 | 0.4053176766832136 | 1st-order backward at B1=35: [f(35,67)-f(35,65)]/2nm | -1.6359951887449604e-08 | 2nd-order backward at B1=35: [3f67-4f65+f63]/4nm | -1.1913936098974942e-08 | A/nm | -0.15618447178750772 | -0.11373944308210324 |  |  | 4.446015788475085e-09 | 0.2717621554795271 | increase | decrease | VERIFIED_P5_49_POINT_FORWARD | P05-T02-O02 / 20260819063412-minhosong-mse-ZCT25w |
+| Ioff | 9.1803922619233e-16 | A | central at B2=67: [f(37,67)-f(33,67)]/4nm | 3.1880712013919054e-17 | 5.848620900593999e-17 | 4.518346050992952e-17 | A/nm | 4.921735283287725 | 0.020836528527527598 | 1.3302748496010466e-17 | 0.5888326545102518 | 1st-order backward at B1=35: [f(35,67)-f(35,65)]/2nm | -4.0213337071163485e-17 | 2nd-order backward at B1=35: [3f67-4f65+f63]/4nm | -2.291979126734949e-17 | A/nm | -4.380350634683964 | -2.4966026084105226 | -0.018235999588454455 | -0.012195523206012027 | 1.7293545803813994e-17 | 0.43004503140862177 | increase | decrease | VERIFIED_P5_49_POINT_FORWARD | P05-T02-O02 / 20260819063412-minhosong-mse-ZCT25w |
+| Ion/Ioff | 11409928705.351778 | - | central at B2=67: [f(37,67)-f(33,67)]/4nm | -405068266.4523773 | -618932216.9745426 | -512000241.71345997 | ratio/nm | -4.487322006432069 | -0.019916107219109858 | -106931975.26108265 | 0.41770283116751705 | 1st-order backward at B1=35: [f(35,67)-f(35,65)]/2nm | 443151195.1990566 | 2nd-order backward at B1=35: [3f67-4f65+f63]/4nm | 332899496.5875616 | ratio/nm | 3.883908538282088 | 2.9176299447990113 | 0.017558756245009022 | 0.01170026462031748 | -110251698.6114955 | 0.24879025444571276 | decrease | increase | VERIFIED_P5_49_POINT_FORWARD | P05-T02-O02 / 20260819063412-minhosong-mse-ZCT25w |
+| Vth@0.05V | 0.486440730148282 | V | central at B2=67: [f(37,67)-f(33,67)]/4nm | -0.0007374293084453087 | -0.0011794251937757572 | -0.000958427251110533 | V/nm | -0.19702857752441394 |  | -0.0002209979426652242 | 0.4611679027472417 | 1st-order backward at B1=35: [f(35,67)-f(35,65)]/2nm | 0.0008060843075668178 | 2nd-order backward at B1=35: [3f67-4f65+f63]/4nm | 0.0005538050707954989 | V/nm | 0.1657106935352841 | 0.11384841697500993 |  |  | -0.00025227923677130504 | 0.31296879793235155 | decrease | increase | VERIFIED_P5_49_POINT_FORWARD | P05-T02-O02 / 20260819063412-minhosong-mse-ZCT25w |
+| Vth@1.0V | 0.4844220200010349 | V | central at B2=67: [f(37,67)-f(33,67)]/4nm | -0.0007959870042911765 | -0.0012985838414973083 | -0.0010472854228942424 | V/nm | -0.216192778125983 |  | -0.0002512984186030659 | 0.4799043567484901 | 1st-order backward at B1=35: [f(35,67)-f(35,65)]/2nm | 0.0009043328642544535 | 2nd-order backward at B1=35: [3f67-4f65+f63]/4nm | 0.0006143420095928304 | V/nm | 0.1866828564590275 | 0.12681958792697284 |  |  | -0.00028999085466160923 | 0.32066826953225486 | decrease | increase | VERIFIED_P5_49_POINT_FORWARD | P05-T02-O02 / 20260819063412-minhosong-mse-ZCT25w |
+| SS@1.0V | 60.02818881305107 | mV/dec | central at B2=67: [f(37,67)-f(33,67)]/4nm | 0.019209099739700974 | 0.036350833517470704 | 0.02777996662858584 | mV/dec/nm | 0.04627820225444823 |  | 0.008570866888884865 | 0.6170537930067465 | 1st-order backward at B1=35: [f(35,67)-f(35,65)]/2nm | -0.0272317415965162 | 2nd-order backward at B1=35: [3f67-4f65+f63]/4nm | -0.019105815212245858 | mV/dec/nm | -0.045364922938663774 | -0.03182807209417579 |  |  | 0.008125926384268567 | 0.29839907063857807 | increase | decrease | VERIFIED_P5_49_POINT_FORWARD | P05-T02-O02 / 20260819063412-minhosong-mse-ZCT25w |
+| SS@0.05V | 60.27355519888781 | mV/dec | central at B2=67: [f(37,67)-f(33,67)]/4nm | 0.033410993862148075 | 0.05371496323439118 | 0.043562978548269626 | mV/dec/nm | 0.07227544219769778 |  | 0.010151984686121551 | 0.4660831295028517 | 1st-order backward at B1=35: [f(35,67)-f(35,65)]/2nm | -0.06361078659763919 | 2nd-order backward at B1=35: [3f67-4f65+f63]/4nm | -0.07189729501210174 | mV/dec/nm | -0.10553680861820633 | -0.11928497460429945 |  |  | -0.008286508414464322 | 0.13026891912023747 | increase | decrease | VERIFIED_P5_49_POINT_FORWARD | P05-T02-O02 / 20260819063412-minhosong-mse-ZCT25w |
+| DIBL | 2.1249580497337712 | mV/V | central at B2=67: [f(37,67)-f(33,67)]/4nm | 0.061639679837755645 | 0.1254301554963695 | 0.09353491766706257 | mV/V/nm | 4.401730080214112 |  | 0.03189523782930692 | 0.6819963843414709 | 1st-order backward at B1=35: [f(35,67)-f(35,65)]/2nm | -0.10341953335540599 | 2nd-order backward at B1=35: [3f67-4f65+f63]/4nm | -0.06372309347087524 | mV/V/nm | -4.866897648561254 | -2.9987930104718483 |  |  | 0.039696439884530754 | 0.3838388996410582 | increase | decrease | VERIFIED_P5_49_POINT_FORWARD | P05-T02-O02 / 20260819063412-minhosong-mse-ZCT25w |

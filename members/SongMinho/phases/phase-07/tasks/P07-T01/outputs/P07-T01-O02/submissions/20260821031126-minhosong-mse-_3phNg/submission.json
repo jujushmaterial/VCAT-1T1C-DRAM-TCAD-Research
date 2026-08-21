@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260821031126-minhosong-mse-_3phNg",
+  "phaseId": 7,
+  "issueNumber": 7,
+  "taskId": "P07-T01",
+  "taskText": "P5 데이터 재사용 민감도 분석 및 P8 변수 선정",
+  "outputId": "P07-T01-O02",
+  "outputText": "Nominal 주변 변수별 민감도·Local Slope",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "table",
+  "uploadedAt": "2026-08-21T03:11:26.229Z",
+  "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O02/submissions/20260821031126-minhosong-mse-_3phNg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O02/submissions/20260821031126-minhosong-mse-_3phNg",
+  "summary": "9행 × 27열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O02/submissions/20260821031126-minhosong-mse-_3phNg/table.tsv",
+      "size": 4899
+    },
+    {
+      "name": "table.csv",
+      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O02/submissions/20260821031126-minhosong-mse-_3phNg/table.csv",
+      "size": 4943
+    },
+    {
+      "name": "table.json",
+      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O02/submissions/20260821031126-minhosong-mse-_3phNg/table.json",
+      "size": 7288
+    }
+  ],
+  "table": {
+    "rowCount": 9,
+    "columnCount": 27,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O02/submissions/20260821031126-minhosong-mse-_3phNg/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O02/submissions/20260821031126-minhosong-mse-_3phNg/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O02/submissions/20260821031126-minhosong-mse-_3phNg/table.tsv"
+  }
+}
