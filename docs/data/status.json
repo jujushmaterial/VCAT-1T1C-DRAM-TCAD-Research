@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T19:18:07+09:00",
+  "generatedAt": "2026-08-21T19:23:16+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -27388,13 +27388,87 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260821102243-LSH-linear-o2lvvQ",
+                  "phaseId": 7,
+                  "issueNumber": 7,
+                  "taskId": "P07-T02",
+                  "taskText": "추가 구조변수 Screening (선택)",
+                  "outputId": "P07-T02-O05",
+                  "outputText": "P7 추가 Screening 논의 결론 <최종>",
+                  "uploader": "LSH-linear",
+                  "memberName": "이선형",
+                  "memberFolder": "LeeSeonHyeong",
+                  "type": "files",
+                  "uploadedAt": "2026-08-21T10:22:43.884Z",
+                  "folderPath": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ",
+                  "summary": "9개 파일 · 9.07MB",
+                  "files": [
+                    {
+                      "name": "01_P7_변수해석_및_권고안.md",
+                      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/01_P7_변수해석_및_권고안.md",
+                      "size": 4738
+                    },
+                    {
+                      "name": "02_중앙_High-WF_영역_폭_및_위치_보조해석.md",
+                      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/02_중앙_High-WF_영역_폭_및_위치_보조해석.md",
+                      "size": 4664
+                    },
+                    {
+                      "name": "03_추가구조변수_Screening_검토결과.md",
+                      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/03_추가구조변수_Screening_검토결과.md",
+                      "size": 7117
+                    },
+                    {
+                      "name": "04_관련자료_위치_및_참고문헌.md",
+                      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/04_관련자료_위치_및_참고문헌.md",
+                      "size": 6023
+                    },
+                    {
+                      "name": "R1_Three-layer_WF_VCT_APL_2026.pdf",
+                      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/R1_Three-layer_WF_VCT_APL_2026.pdf",
+                      "size": 2589211
+                    },
+                    {
+                      "name": "R2_VCT_Multi-Layer_Gate_MS_Thesis_2026.pdf",
+                      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/R2_VCT_Multi-Layer_Gate_MS_Thesis_2026.pdf",
+                      "size": 5483600
+                    },
+                    {
+                      "name": "R3_Triple_Material_Surrounding_Gate_2014.pdf",
+                      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/R3_Triple_Material_Surrounding_Gate_2014.pdf",
+                      "size": 708413
+                    },
+                    {
+                      "name": "R4_Dual_Material_Gate_Misalignment_2009.pdf",
+                      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/R4_Dual_Material_Gate_Misalignment_2009.pdf",
+                      "size": 424540
+                    },
+                    {
+                      "name": "R5_Triple_Material_DG_Analytical_Model_2011.pdf",
+                      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/R5_Triple_Material_DG_Analytical_Model_2011.pdf",
+                      "size": 278122
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
@@ -28102,13 +28176,87 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260821102243-LSH-linear-o2lvvQ",
+              "phaseId": 7,
+              "issueNumber": 7,
+              "taskId": "P07-T02",
+              "taskText": "추가 구조변수 Screening (선택)",
+              "outputId": "P07-T02-O05",
+              "outputText": "P7 추가 Screening 논의 결론 <최종>",
+              "uploader": "LSH-linear",
+              "memberName": "이선형",
+              "memberFolder": "LeeSeonHyeong",
+              "type": "files",
+              "uploadedAt": "2026-08-21T10:22:43.884Z",
+              "folderPath": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ",
+              "summary": "9개 파일 · 9.07MB",
+              "files": [
+                {
+                  "name": "01_P7_변수해석_및_권고안.md",
+                  "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/01_P7_변수해석_및_권고안.md",
+                  "size": 4738
+                },
+                {
+                  "name": "02_중앙_High-WF_영역_폭_및_위치_보조해석.md",
+                  "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/02_중앙_High-WF_영역_폭_및_위치_보조해석.md",
+                  "size": 4664
+                },
+                {
+                  "name": "03_추가구조변수_Screening_검토결과.md",
+                  "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/03_추가구조변수_Screening_검토결과.md",
+                  "size": 7117
+                },
+                {
+                  "name": "04_관련자료_위치_및_참고문헌.md",
+                  "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/04_관련자료_위치_및_참고문헌.md",
+                  "size": 6023
+                },
+                {
+                  "name": "R1_Three-layer_WF_VCT_APL_2026.pdf",
+                  "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/R1_Three-layer_WF_VCT_APL_2026.pdf",
+                  "size": 2589211
+                },
+                {
+                  "name": "R2_VCT_Multi-Layer_Gate_MS_Thesis_2026.pdf",
+                  "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/R2_VCT_Multi-Layer_Gate_MS_Thesis_2026.pdf",
+                  "size": 5483600
+                },
+                {
+                  "name": "R3_Triple_Material_Surrounding_Gate_2014.pdf",
+                  "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/R3_Triple_Material_Surrounding_Gate_2014.pdf",
+                  "size": 708413
+                },
+                {
+                  "name": "R4_Dual_Material_Gate_Misalignment_2009.pdf",
+                  "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/R4_Dual_Material_Gate_Misalignment_2009.pdf",
+                  "size": 424540
+                },
+                {
+                  "name": "R5_Triple_Material_DG_Analytical_Model_2011.pdf",
+                  "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102243-LSH-linear-o2lvvQ/files/R5_Triple_Material_DG_Analytical_Model_2011.pdf",
+                  "size": 278122
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P07-T02"
         },
         {
