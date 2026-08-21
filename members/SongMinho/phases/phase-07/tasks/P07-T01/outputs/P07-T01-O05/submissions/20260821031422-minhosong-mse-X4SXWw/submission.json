@@ -40,5 +40,19 @@
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.tsv"
   },
   "comment": "P8 최초 2D tolerance campaign의 탐색범위로 B1=33–37 nm, B2=63–69 nm를 제안하고 primary step은 1 nm로 정리하였다. 총 후보는 5×7=35 geometry이다. 이 범위는 최종 공정 허용 Window가 아니라 P8에서 Device-level Window를 찾기 위한 campaign domain이다. 0.5 nm는 전체 Grid가 아니라 향후 사전 고정된 PASS/Marginal/FAIL 경계 주변 adaptive refinement 용도로만 남긴다. B2=68/69 electrical data는 P8에서 새 계산이 필요하다.",
-  "commentLabel": "표 설명"
+  "commentLabel": "표 설명",
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-21T03:14:22.596Z"
+      }
+    ],
+    "legacy": false
+  }
 }
