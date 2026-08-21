@@ -24,15 +24,20 @@
   "comment": "후속 2D screening은 Local Contour v1을 기본 mesh로 사용하고, absolute GIDL/BTBT 또는 최종 대표 후보의 정밀 검증은 Uniform Fine 0.5로 수행한다. 새로운 WF 경계·oxide 변화·gap·hotspot 이동이 발생할 때만 해당 위치의 local refinement를 재검토한다.",
   "commentLabel": "제출 메모",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-21T15:24:00.714Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-12T09:14:53.274Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-21T15:24:00.714Z"
       }
     ],
     "legacy": false
