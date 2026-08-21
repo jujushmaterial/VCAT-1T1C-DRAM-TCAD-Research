@@ -52,5 +52,24 @@
     }
   ],
   "comment": "GIDL raw CSV 축 설명:\n\nX = gate OuterVoltage [V]\n\nY = storage TotalCurrent [A]\n\nraw signed current 보존\n\nDC raw CSV 축 설명:\n\nX = gate OuterVoltage [V]\n\nY = bitline TotalCurrent [A]\n\nn47: Vd=0.05 V\n\nn48: Vd=1.0 V",
-  "commentLabel": "제출 메모"
+  "commentLabel": "제출 메모",
+  "review": {
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-21T15:02:54.117Z",
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-12T09:13:44.945Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-21T15:02:54.117Z"
+      }
+    ],
+    "legacy": false
+  }
 }
