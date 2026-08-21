@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T03:13:01.246Z",
+  "updatedAt": "2026-08-21T03:13:14.271Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -10220,7 +10220,21 @@
           }
         ],
         "comment": "P5 exact 49-point Forward data에서 계산한 P7 sensitivity/interaction 그래프. Local normalized sensitivity, Ioff/Ion-Ioff log sensitivity, B1/B2 OAT response, conditional DIBL slope, DIBL 및 log10(Ioff)의 mixed finite-difference interaction을 포함한다. 기존 P5 Map의 재사용이 아니라 P8 변수선정과 2D Grid 필요성을 판단하기 위한 Phase-7 분석 시각화이다. GIDL은 49-point complete data가 없어 sensitivity graph를 만들지 않았다.",
-        "commentLabel": "제출 메모"
+        "commentLabel": "제출 메모",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-21T03:12:43.499Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
