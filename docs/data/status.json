@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T11:01:09+09:00",
+  "generatedAt": "2026-08-21T11:01:43+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -7903,13 +7903,47 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260821020125-LEE-TAEK-GYU-6bOS8A",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T11",
+                  "taskText": "Single-Metal 3D 기준 구조와 최소 2D–3D 비교를 수행한다.(추후진행)",
+                  "outputId": "P02-T11-O04",
+                  "outputText": "전류 정규화와 2D 적용 범위",
+                  "uploader": "LEE-TAEK-GYU",
+                  "memberName": "이택규",
+                  "memberFolder": "LeeTaekGyu",
+                  "type": "code",
+                  "uploadedAt": "2026-08-21T02:01:25.528Z",
+                  "folderPath": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O04/submissions/20260821020125-LEE-TAEK-GYU-6bOS8A",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O04/submissions/20260821020125-LEE-TAEK-GYU-6bOS8A",
+                  "summary": "1개 코드 파일 · 1.9KB",
+                  "files": [
+                    {
+                      "name": "code-1.cmd",
+                      "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O04/submissions/20260821020125-LEE-TAEK-GYU-6bOS8A/source/code-1.cmd",
+                      "size": 1965
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P02-T11-O05",
@@ -11818,13 +11852,47 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260821020125-LEE-TAEK-GYU-6bOS8A",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T11",
+              "taskText": "Single-Metal 3D 기준 구조와 최소 2D–3D 비교를 수행한다.(추후진행)",
+              "outputId": "P02-T11-O04",
+              "outputText": "전류 정규화와 2D 적용 범위",
+              "uploader": "LEE-TAEK-GYU",
+              "memberName": "이택규",
+              "memberFolder": "LeeTaekGyu",
+              "type": "code",
+              "uploadedAt": "2026-08-21T02:01:25.528Z",
+              "folderPath": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O04/submissions/20260821020125-LEE-TAEK-GYU-6bOS8A",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O04/submissions/20260821020125-LEE-TAEK-GYU-6bOS8A",
+              "summary": "1개 코드 파일 · 1.9KB",
+              "files": [
+                {
+                  "name": "code-1.cmd",
+                  "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O04/submissions/20260821020125-LEE-TAEK-GYU-6bOS8A/source/code-1.cmd",
+                  "size": 1965
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P02-T11"
         },
         {
