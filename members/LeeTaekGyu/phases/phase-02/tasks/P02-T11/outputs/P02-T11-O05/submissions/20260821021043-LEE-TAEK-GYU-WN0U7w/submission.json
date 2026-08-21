@@ -20,5 +20,19 @@
       "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O05/submissions/20260821021043-LEE-TAEK-GYU-WN0U7w/source/P02-T11-O05.cmd",
       "size": 2031
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-21T02:10:43.668Z"
+      }
+    ],
+    "legacy": false
+  }
 }
