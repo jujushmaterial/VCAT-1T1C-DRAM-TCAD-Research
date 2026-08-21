@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T12:14:41+09:00",
+  "generatedAt": "2026-08-21T12:15:29+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -27123,13 +27123,72 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260821031422-minhosong-mse-X4SXWw",
+                  "phaseId": 7,
+                  "issueNumber": 7,
+                  "taskId": "P07-T01",
+                  "taskText": "P5 데이터 재사용 민감도 분석 및 P8 변수 선정",
+                  "outputId": "P07-T01-O05",
+                  "outputText": "P8 변수별 Sweep 범위",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-21T03:14:22.596Z",
+                  "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw",
+                  "summary": "3행 × 13열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.tsv",
+                      "size": 961
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.csv",
+                      "size": 969
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.json",
+                      "size": 1442
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 3,
+                    "columnCount": 13,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.tsv"
+                  },
+                  "comment": "P8 최초 2D tolerance campaign의 탐색범위로 B1=33–37 nm, B2=63–69 nm를 제안하고 primary step은 1 nm로 정리하였다. 총 후보는 5×7=35 geometry이다. 이 범위는 최종 공정 허용 Window가 아니라 P8에서 Device-level Window를 찾기 위한 campaign domain이다. 0.5 nm는 전체 Grid가 아니라 향후 사전 고정된 PASS/Marginal/FAIL 경계 주변 adaptive refinement 용도로만 남긴다. B2=68/69 electrical data는 P8에서 새 계산이 필요하다.",
+                  "commentLabel": "표 설명",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-21T03:14:22.596Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                }
+              ]
             },
             {
               "id": "P07-T01-O06",
@@ -27140,13 +27199,47 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260821031503-minhosong-mse-XFCBOQ",
+                  "phaseId": 7,
+                  "issueNumber": 7,
+                  "taskId": "P07-T01",
+                  "taskText": "P5 데이터 재사용 민감도 분석 및 P8 변수 선정",
+                  "outputId": "P07-T01-O06",
+                  "outputText": "변수 포함·제외 이유",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-21T03:15:03.331Z",
+                  "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O06/submissions/20260821031503-minhosong-mse-XFCBOQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O06/submissions/20260821031503-minhosong-mse-XFCBOQ",
+                  "summary": "1개 파일 · 2.8KB",
+                  "files": [
+                    {
+                      "name": "P07-T01-O06_Variable_Inclusion_Exclusion.csv",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O06/submissions/20260821031503-minhosong-mse-XFCBOQ/files/P07-T01-O06_Variable_Inclusion_Exclusion.csv",
+                      "size": 2826
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
@@ -27591,13 +27684,72 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260821031422-minhosong-mse-X4SXWw",
+              "phaseId": 7,
+              "issueNumber": 7,
+              "taskId": "P07-T01",
+              "taskText": "P5 데이터 재사용 민감도 분석 및 P8 변수 선정",
+              "outputId": "P07-T01-O05",
+              "outputText": "P8 변수별 Sweep 범위",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-21T03:14:22.596Z",
+              "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw",
+              "summary": "3행 × 13열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.tsv",
+                  "size": 961
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.csv",
+                  "size": 969
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.json",
+                  "size": 1442
+                }
+              ],
+              "table": {
+                "rowCount": 3,
+                "columnCount": 13,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.tsv"
+              },
+              "comment": "P8 최초 2D tolerance campaign의 탐색범위로 B1=33–37 nm, B2=63–69 nm를 제안하고 primary step은 1 nm로 정리하였다. 총 후보는 5×7=35 geometry이다. 이 범위는 최종 공정 허용 Window가 아니라 P8에서 Device-level Window를 찾기 위한 campaign domain이다. 0.5 nm는 전체 Grid가 아니라 향후 사전 고정된 PASS/Marginal/FAIL 경계 주변 adaptive refinement 용도로만 남긴다. B2=68/69 electrical data는 P8에서 새 계산이 필요하다.",
+              "commentLabel": "표 설명",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-21T03:14:22.596Z"
+                  }
+                ],
+                "legacy": false
+              }
+            }
+          ],
           "taskId": "P07-T01"
         },
         {
@@ -27609,13 +27761,47 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260821031503-minhosong-mse-XFCBOQ",
+              "phaseId": 7,
+              "issueNumber": 7,
+              "taskId": "P07-T01",
+              "taskText": "P5 데이터 재사용 민감도 분석 및 P8 변수 선정",
+              "outputId": "P07-T01-O06",
+              "outputText": "변수 포함·제외 이유",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-21T03:15:03.331Z",
+              "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O06/submissions/20260821031503-minhosong-mse-XFCBOQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O06/submissions/20260821031503-minhosong-mse-XFCBOQ",
+              "summary": "1개 파일 · 2.8KB",
+              "files": [
+                {
+                  "name": "P07-T01-O06_Variable_Inclusion_Exclusion.csv",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O06/submissions/20260821031503-minhosong-mse-XFCBOQ/files/P07-T01-O06_Variable_Inclusion_Exclusion.csv",
+                  "size": 2826
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P07-T01"
         },
         {
