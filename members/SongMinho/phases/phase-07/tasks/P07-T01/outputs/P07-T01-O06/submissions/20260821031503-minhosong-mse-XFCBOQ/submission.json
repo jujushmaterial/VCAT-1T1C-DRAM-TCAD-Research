@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260821031503-minhosong-mse-XFCBOQ",
+  "phaseId": 7,
+  "issueNumber": 7,
+  "taskId": "P07-T01",
+  "taskText": "P5 데이터 재사용 민감도 분석 및 P8 변수 선정",
+  "outputId": "P07-T01-O06",
+  "outputText": "변수 포함·제외 이유",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "files",
+  "uploadedAt": "2026-08-21T03:15:03.331Z",
+  "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O06/submissions/20260821031503-minhosong-mse-XFCBOQ",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O06/submissions/20260821031503-minhosong-mse-XFCBOQ",
+  "summary": "1개 파일 · 2.8KB",
+  "files": [
+    {
+      "name": "P07-T01-O06_Variable_Inclusion_Exclusion.csv",
+      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O06/submissions/20260821031503-minhosong-mse-XFCBOQ/files/P07-T01-O06_Variable_Inclusion_Exclusion.csv",
+      "size": 2826
+    }
+  ]
+}
