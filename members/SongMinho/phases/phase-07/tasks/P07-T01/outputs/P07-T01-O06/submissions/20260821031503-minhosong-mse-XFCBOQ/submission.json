@@ -20,5 +20,7 @@
       "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O06/submissions/20260821031503-minhosong-mse-XFCBOQ/files/P07-T01-O06_Variable_Inclusion_Exclusion.csv",
       "size": 2826
     }
-  ]
+  ],
+  "comment": "P8 변수 포함·제외 판단 근거. Xbnd1_nm/Xbnd2_nm은 independent geometry tolerance variable이며 sensitivity와 interaction이 실제 존재하므로 포함한다. M1/M2/M3는 derived라 중복되므로 제외하고, Tox/channel dimension은 현재 B1/B2만으로도 P8 2D campaign을 구성할 근거가 충분해 추가 dimension으로 채택하지 않는다. 각 제외변수에 limitation과 향후 reopen trigger를 기록하였다.",
+  "commentLabel": "제출 메모"
 }
