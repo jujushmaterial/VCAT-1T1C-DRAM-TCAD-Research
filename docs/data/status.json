@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T12:19:47+09:00",
+  "generatedAt": "2026-08-21T12:20:19+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -27405,17 +27405,81 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260821031957-minhosong-mse-LQgzJw",
+                  "phaseId": 7,
+                  "issueNumber": 7,
+                  "taskId": "P07-T03",
+                  "taskText": "AI분석용 참고자료",
+                  "outputId": "P07-T03-O01",
+                  "outputText": "SUPPLEMENTAL",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-21T03:19:57.090Z",
+                  "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw",
+                  "summary": "7개 파일 · 21.1KB",
+                  "files": [
+                    {
+                      "name": "P07_OUTPUT_READINESS.csv",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/P07_OUTPUT_READINESS.csv",
+                      "size": 2116
+                    },
+                    {
+                      "name": "P07_P8_HANDOFF_NOTE.txt",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/P07_P8_HANDOFF_NOTE.txt",
+                      "size": 2859
+                    },
+                    {
+                      "name": "P07_PACKAGE_PROVENANCE.txt",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/P07_PACKAGE_PROVENANCE.txt",
+                      "size": 1067
+                    },
+                    {
+                      "name": "P07_UPSTREAM_GATE_NOTE.txt",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/P07_UPSTREAM_GATE_NOTE.txt",
+                      "size": 784
+                    },
+                    {
+                      "name": "P07-T01-O02_Conditional_Slopes.csv",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/P07-T01-O02_Conditional_Slopes.csv",
+                      "size": 7770
+                    },
+                    {
+                      "name": "P07-T01-O02_Interaction_Summary.csv",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/P07-T01-O02_Interaction_Summary.csv",
+                      "size": 3873
+                    },
+                    {
+                      "name": "README_P07_SUBMISSION_PACKAGE.txt",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/README_P07_SUBMISSION_PACKAGE.txt",
+                      "size": 3147
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
-          "state": "not-started",
+          "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 1,
           "outputsDone": 0,
@@ -28015,13 +28079,77 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260821031957-minhosong-mse-LQgzJw",
+              "phaseId": 7,
+              "issueNumber": 7,
+              "taskId": "P07-T03",
+              "taskText": "AI분석용 참고자료",
+              "outputId": "P07-T03-O01",
+              "outputText": "SUPPLEMENTAL",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-21T03:19:57.090Z",
+              "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw",
+              "summary": "7개 파일 · 21.1KB",
+              "files": [
+                {
+                  "name": "P07_OUTPUT_READINESS.csv",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/P07_OUTPUT_READINESS.csv",
+                  "size": 2116
+                },
+                {
+                  "name": "P07_P8_HANDOFF_NOTE.txt",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/P07_P8_HANDOFF_NOTE.txt",
+                  "size": 2859
+                },
+                {
+                  "name": "P07_PACKAGE_PROVENANCE.txt",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/P07_PACKAGE_PROVENANCE.txt",
+                  "size": 1067
+                },
+                {
+                  "name": "P07_UPSTREAM_GATE_NOTE.txt",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/P07_UPSTREAM_GATE_NOTE.txt",
+                  "size": 784
+                },
+                {
+                  "name": "P07-T01-O02_Conditional_Slopes.csv",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/P07-T01-O02_Conditional_Slopes.csv",
+                  "size": 7770
+                },
+                {
+                  "name": "P07-T01-O02_Interaction_Summary.csv",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/P07-T01-O02_Interaction_Summary.csv",
+                  "size": 3873
+                },
+                {
+                  "name": "README_P07_SUBMISSION_PACKAGE.txt",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/README_P07_SUBMISSION_PACKAGE.txt",
+                  "size": 3147
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P07-T03"
         }
       ],
@@ -28029,7 +28157,7 @@
       "updatedAt": "2026-08-21T03:19:36Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 0
+      "integrityWarnings": 2
     },
     {
       "id": 8,

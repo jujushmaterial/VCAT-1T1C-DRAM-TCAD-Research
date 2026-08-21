@@ -1,13 +1,33 @@
 {
-  "generatedAt": "2026-08-21T12:19:47+09:00",
+  "generatedAt": "2026-08-21T12:20:19+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
     "error": 0,
-    "warning": 52,
+    "warning": 54,
     "info": 0
   },
   "items": [
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 7,
+      "outputId": "P07-T03-O01",
+      "submissionId": "20260821031957-minhosong-mse-LQgzJw",
+      "fileName": "P07-T01-O02_Conditional_Slopes.csv",
+      "fileOutputId": "P07-T01-O02"
+    },
+    {
+      "code": "FILENAME_PREFIX_MISMATCH",
+      "severity": "warning",
+      "message": "파일명 산출물 ID와 등록 산출물 ID가 다릅니다.",
+      "phaseId": 7,
+      "outputId": "P07-T03-O01",
+      "submissionId": "20260821031957-minhosong-mse-LQgzJw",
+      "fileName": "P07-T01-O02_Interaction_Summary.csv",
+      "fileOutputId": "P07-T01-O02"
+    },
     {
       "code": "FILENAME_PREFIX_MISMATCH",
       "severity": "warning",
