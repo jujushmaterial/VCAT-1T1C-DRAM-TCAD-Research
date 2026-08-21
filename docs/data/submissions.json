@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T03:19:57.090Z",
+  "updatedAt": "2026-08-21T03:20:12.811Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -10494,7 +10494,21 @@
             "path": "members/SongMinho/phases/phase-07/tasks/P07-T03/outputs/P07-T03-O01/submissions/20260821031957-minhosong-mse-LQgzJw/files/README_P07_SUBMISSION_PACKAGE.txt",
             "size": 3147
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-21T03:19:57.090Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
