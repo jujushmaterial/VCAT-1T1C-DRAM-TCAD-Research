@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T12:08:17+09:00",
+  "generatedAt": "2026-08-21T11:00:29+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -7897,7 +7897,7 @@
             {
               "id": "P02-T11-O04",
               "text": "전류 정규화와 2D 적용 범위",
-              "type": "files",
+              "type": "table",
               "review": "recommended",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -11812,7 +11812,7 @@
         {
           "id": "P02-T11-O04",
           "text": "전류 정규화와 2D 적용 범위",
-          "type": "files",
+          "type": "table",
           "review": "recommended",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -11849,7 +11849,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-20T02:00:29Z",
+      "updatedAt": "2026-08-21T02:00:19Z",
       "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 3
