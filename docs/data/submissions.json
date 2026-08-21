@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T03:20:12.811Z",
+  "updatedAt": "2026-08-21T08:58:00.590Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -10509,6 +10509,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P07-T02-O05": [
+      {
+        "submissionId": "20260821085800-LSH-linear-XZBYGg",
+        "phaseId": 7,
+        "issueNumber": 7,
+        "taskId": "P07-T02",
+        "taskText": "추가 구조변수 Screening (선택)",
+        "outputId": "P07-T02-O05",
+        "outputText": "P7 추가 Screening 논의 결론",
+        "uploader": "LSH-linear",
+        "memberName": "이선형",
+        "memberFolder": "LeeSeonHyeong",
+        "type": "files",
+        "uploadedAt": "2026-08-21T08:58:00.590Z",
+        "folderPath": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821085800-LSH-linear-XZBYGg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821085800-LSH-linear-XZBYGg",
+        "summary": "1개 파일 · 8.17MB",
+        "files": [
+          {
+            "name": "P07_Decision_Evidence_Package_.zip",
+            "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821085800-LSH-linear-XZBYGg/files/P07_Decision_Evidence_Package_.zip",
+            "size": 8562952
+          }
+        ]
       }
     ]
   }
