@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "rowCount": 3,
+  "columnCount": 8,
+  "hasHeader": true,
+  "rows": [
+    [
+      "WF",
+      "Temp",
+      "VdBias",
+      "VgStop",
+      "WF_LOW",
+      "WF_HIGH",
+      "GIDLDrain",
+      "GIDLGateStop"
+    ],
+    [
+      "4.70",
+      "300",
+      "0.05",
+      "1.0",
+      "4.33",
+      "4.70",
+      "1.0",
+      "-0.4"
+    ],
+    [
+      "4.70",
+      "300",
+      "1.0",
+      "1.0",
+      "4.33",
+      "4.70",
+      "1.0",
+      "-0.4"
+    ]
+  ]
+}
