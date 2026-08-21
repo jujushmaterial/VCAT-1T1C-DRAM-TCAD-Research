@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T02:31:31.394Z",
+  "updatedAt": "2026-08-21T02:31:44.398Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9866,7 +9866,21 @@
             "path": "members/LeeTaekGyu/phases/phase-05/tasks/P05-T04/outputs/P05-T04-O02/submissions/20260821023131-LEE-TAEK-GYU-HJfvCA/source/Multi-Metal-3D-SDE.cmd",
             "size": 11093
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-21T02:31:31.394Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
