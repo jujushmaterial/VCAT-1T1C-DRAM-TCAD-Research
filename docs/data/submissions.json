@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T15:24:00.714Z",
+  "updatedAt": "2026-08-21T15:24:11.433Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -4660,15 +4660,20 @@
         "comment": "P02-T10-O03 Local Mesh 후보 코드와 Mesh 이미지\n포함 파일\n`P02-T10-O03\\_LocalMesh\\_Contour\\_v1.cmd` — 2D axisymmetric VCAT Local Mesh SDE 코드\n`P02-T10-O03\\_LocalMesh\\_Overall.png` — 전체 mesh 구조\n`P02-T10-O03\\_LocalMesh\\_SN\\_Zoom.png` — Storage-side gate edge / junction 확대\n`P02-T10-O03\\_LocalMesh\\_BL\\_Zoom.png` — Bitline-side gate edge / junction 확대\n코드 설명\n전체 영역을 Uniform Fine으로 설정하지 않고 공간별 민감도에 따라 mesh를 나눈다.\nA: outer/quiet region — coarse-like\nB: gate electrostatic/channel region — medium-like\nC: SN/BL junction support — medium junction mesh\nE: gate-edge / Si-SiO2 / high-field core — fine contour\nFine contour는 SN/BL 양쪽에 대칭적으로 적용되며 4개의 overlapping rectangle을 이용해 interface에서 넓고 silicon 내부로 갈수록 좁아지는 stepped contour를 만든다.\n중요 주의사항\n코드의 fine contour 좌표는 P02 Fine/GIDL hotspot에서 직접 계측한 경계가 아니라, 첫 reusable baseline을 위한 보수적인 engineering candidate이다. 따라서 제출 설명에서 '측정된 hotspot contour'라고 표현하지 않는다.\nWorkbench의 `MeshScale` 파라미터는 이 Local CMD 내부에서 사용되지 않는다. 실제 mesh는 `GlobalMesh`, `MiddleMesh`, `JunctionMesh`, `FineCoreMesh` 정의로 결정된다.",
         "commentLabel": "실행 조건 및 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-21T15:24:11.433Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-12T09:12:21.754Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-21T15:24:11.433Z"
             }
           ],
           "legacy": false
