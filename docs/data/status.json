@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T11:01:43+09:00",
+  "generatedAt": "2026-08-21T11:10:40+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -7938,9 +7938,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-21T02:01:25.528Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -7948,7 +7953,7 @@
             {
               "id": "P02-T11-O05",
               "text": "Phase 3·5 Handoff 요약",
-              "type": "files",
+              "type": "code",
               "review": "recommended",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -11887,9 +11892,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-21T02:01:25.528Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -11898,7 +11908,7 @@
         {
           "id": "P02-T11-O05",
           "text": "Phase 3·5 Handoff 요약",
-          "type": "files",
+          "type": "code",
           "review": "recommended",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -11917,7 +11927,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-21T02:00:58Z",
+      "updatedAt": "2026-08-21T02:10:29Z",
       "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 3
