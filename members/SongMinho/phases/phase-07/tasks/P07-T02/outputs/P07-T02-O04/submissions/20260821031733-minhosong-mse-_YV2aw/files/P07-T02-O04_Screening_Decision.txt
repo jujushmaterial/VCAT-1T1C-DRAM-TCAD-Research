@@ -1,0 +1,27 @@
+P07-T02-O04 Additional-Variable Screening Decision
+
+Status: NOW_FINALIZABLE / OPTIONAL SCREENING NOT RUN
+TCAD executed for P07-T02: NO
+
+Decision
+- Do not run Tox or channel-dimension screening in Phase 7.
+- Do not add a third independent P8 sweep dimension at this stage.
+- P8 variables remain Xbnd1_nm and Xbnd2_nm.
+
+Evidence
+1. Latest P06-T01 parameter mapping defines Xbnd1_nm and Xbnd2_nm as independent tolerance variables; M1/M2/M3 are derived.
+2. P5 exact 49-point Forward grid is complete and provides Ion, Ioff, Ion/Ioff, Vth, SS, and DIBL for all 49 geometries.
+3. Nominal local sensitivity is already material for leakage-related metrics and DIBL.
+4. Full 7x7 conditional slopes vary with the other boundary, supporting a joint B1-B2 2D grid rather than adding a third variable.
+5. Latest completion-policy makes P07-T02-O01/O02/O03 optional; P07-T02-O04 is the required decision/evidence output.
+
+Why not simply cite computation cost?
+The exclusion is evidence-based: there is no present experimental result showing that B1/B2 are insufficient to explain the Device-level tolerance boundary. Adding Tox/channel dimensions now would change the DOE dimensionality without a demonstrated need.
+
+Reopen trigger
+Reconsider one additional variable only if:
+- the P8 B1-B2 model/window cannot explain a limiting metric or 2D/3D discrepancy, OR
+- an explicit fabrication/process tolerance requirement for Tox/channel geometry is introduced.
+
+Important scope
+This decision does not claim Tox/channel are physically insensitive. It states only that current Phase-7 evidence does not justify adding them to P8.

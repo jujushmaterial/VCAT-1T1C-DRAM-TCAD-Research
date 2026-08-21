@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T03:15:23.954Z",
+  "updatedAt": "2026-08-21T03:17:33.205Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -10397,6 +10397,32 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P07-T02-O04": [
+      {
+        "submissionId": "20260821031733-minhosong-mse-_YV2aw",
+        "phaseId": 7,
+        "issueNumber": 7,
+        "taskId": "P07-T02",
+        "taskText": "추가 구조변수 Screening (선택)",
+        "outputId": "P07-T02-O04",
+        "outputText": "P8 포함 여부 및 근거(미수행 사유 포함)",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-21T03:17:33.205Z",
+        "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O04/submissions/20260821031733-minhosong-mse-_YV2aw",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O04/submissions/20260821031733-minhosong-mse-_YV2aw",
+        "summary": "1개 파일 · 1.6KB",
+        "files": [
+          {
+            "name": "P07-T02-O04_Screening_Decision.txt",
+            "path": "members/SongMinho/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O04/submissions/20260821031733-minhosong-mse-_YV2aw/files/P07-T02-O04_Screening_Decision.txt",
+            "size": 1612
+          }
+        ]
       }
     ]
   }
