@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T11:49:51+09:00",
+  "generatedAt": "2026-08-21T12:10:33+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -23356,9 +23356,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-21T02:49:30.058Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -25123,9 +25128,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-21T02:49:30.058Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -26763,7 +26773,7 @@
     {
       "id": 7,
       "issueNumber": 7,
-      "state": "locked",
+      "state": "in-progress",
       "progress": 0,
       "tasksDone": 0,
       "tasksTotal": 2,
@@ -26787,13 +26797,65 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260821031014-minhosong-mse-ChhyHA",
+                  "phaseId": 7,
+                  "issueNumber": 7,
+                  "taskId": "P07-T01",
+                  "taskText": "P5 데이터 재사용 민감도 분석 및 P8 변수 선정",
+                  "outputId": "P07-T01-O01",
+                  "outputText": "P5 Boundary Raw Data 재사용 범위표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "table",
+                  "uploadedAt": "2026-08-21T03:10:14.632Z",
+                  "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA",
+                  "summary": "17행 × 18열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.tsv",
+                      "size": 5760
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.csv",
+                      "size": 5796
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.json",
+                      "size": 8813
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 17,
+                    "columnCount": 18,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.tsv"
+                  },
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P07-T01-O02",
@@ -26882,7 +26944,7 @@
             }
           ],
           "checked": false,
-          "state": "not-started",
+          "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 6,
           "outputsDone": 0,
@@ -26993,13 +27055,65 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260821031014-minhosong-mse-ChhyHA",
+              "phaseId": 7,
+              "issueNumber": 7,
+              "taskId": "P07-T01",
+              "taskText": "P5 데이터 재사용 민감도 분석 및 P8 변수 선정",
+              "outputId": "P07-T01-O01",
+              "outputText": "P5 Boundary Raw Data 재사용 범위표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "table",
+              "uploadedAt": "2026-08-21T03:10:14.632Z",
+              "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA",
+              "summary": "17행 × 18열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.tsv",
+                  "size": 5760
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.csv",
+                  "size": 5796
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.json",
+                  "size": 8813
+                }
+              ],
+              "table": {
+                "rowCount": 17,
+                "columnCount": 18,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.tsv"
+              },
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P07-T01"
         },
         {
