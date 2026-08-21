@@ -1,0 +1,11 @@
+﻿Output,Research_Content_Status,Official_Submission_Status,Reason,New_TCAD_Needed,Upstream_Nominal_Dependency,If_P05_T04_Changes_Nominal
+P07-T01-O01,NOW_FINALIZABLE,WAIT_PHASE_UNLOCK,Latest P5/P6 provenance and reuse scope are fully documented,NO,DOCUMENT_MISSING_P05_T04_HANDOFF; logic remains valid but provenance/decision text may need refresh,REFRESH_PROVENANCE_OR_DECISION
+P07-T01-O02,NOW_FINALIZABLE,WAIT_PHASE_UNLOCK,All required local slopes derive from verified 49-point Forward summary,NO,CONDITIONAL_ON_CURRENT_35_67_2D_NOMINAL; P05-T04/O06 not present on latest main,REGENERATE
+P07-T01-O03,NOW_FINALIZABLE,WAIT_PHASE_UNLOCK,Sensitivity/OAT/conditional/mixed-FD figures generated from verified data,NO,CONDITIONAL_ON_CURRENT_35_67_2D_NOMINAL; P05-T04/O06 not present on latest main,REGENERATE
+P07-T01-O04,NOW_FINALIZABLE,WAIT_PHASE_UNLOCK,B1/B2 selection is supported by independence + sensitivity + interaction,NO,CONDITIONAL_ON_CURRENT_35_67_2D_NOMINAL; P05-T04/O06 not present on latest main,REGENERATE
+P07-T01-O05,NOW_FINALIZABLE,WAIT_PHASE_UNLOCK,P8 exploratory campaign range can be fixed separately from later PASS tolerance window,NO,CONDITIONAL_ON_CURRENT_35_67_2D_NOMINAL; P05-T04/O06 not present on latest main,REGENERATE
+P07-T01-O06,NOW_FINALIZABLE,WAIT_PHASE_UNLOCK,Include/exclude decisions and reopen triggers documented,NO,DOCUMENT_MISSING_P05_T04_HANDOFF; logic remains valid but provenance/decision text may need refresh,REFRESH_PROVENANCE_OR_DECISION
+P07-T02-O01,OPTIONAL_NOT_RUN,NOT_REQUIRED,Completion policy explicitly makes optional screening raw table non-required,NO,N/A,N/A
+P07-T02-O02,OPTIONAL_NOT_RUN,NOT_REQUIRED,Completion policy explicitly makes optional screening graph non-required,NO,N/A,N/A
+P07-T02-O03,OPTIONAL_NOT_RUN,NOT_REQUIRED,Completion policy explicitly makes optional screening comparison non-required,NO,N/A,N/A
+P07-T02-O04,NOW_FINALIZABLE,WAIT_PHASE_UNLOCK,Non-run rationale can satisfy required decision output,NO,DOCUMENT_MISSING_P05_T04_HANDOFF; logic remains valid but provenance/decision text may need refresh,REFRESH_PROVENANCE_OR_DECISION

@@ -1,0 +1,15 @@
+P07 UPSTREAM GATE NOTE
+
+Verified on latest GitHub main:
+- Phase 7 automatic state: LOCKED.
+- Phase 5 and Phase 6 automatic states: IN-PROGRESS.
+- P05-T04/O06 3D handoff: NOT FOUND on latest main.
+- LeeSeonHyeong P06-T02 O01-O05 latest submissions are still the 2026-08-19 versions checked in this package.
+- P6 fresh Forward Nominal reproducibility: PASS.
+- P6 fresh GIDL rerun: NOT DONE; P5 validated PRODFAST is carried over.
+
+Research conclusion:
+No new Phase-7 TCAD is needed to complete the P7 sensitivity/interaction analysis under the current P5 2D-selected 35/67 Nominal.
+
+Official-workflow conclusion:
+Do not claim Phase 7 complete or submitted while it remains locked. Re-check P05-T04/O06 before P8 execution. If it changes the Nominal, regenerate P07-T01-O02/O03/O04/O05.

@@ -1,0 +1,30 @@
+P07 Package Provenance
+
+Primary P5 data:
+- P05-T02-O02 / 20260819063412-minhosong-mse-ZCT25w
+- P05-T02-O02_Boundary_Sweep_Raw_Summary.csv
+- P05-T02-O02_Raw_Data_Manifest.csv
+- 49 unique 2D geometry, 98 Forward raw PLT represented, all ForwardComplete=PASS
+
+P5 selected nominal/code:
+- P05-T03-O01 / 20260819063938-minhosong-mse-zJWe5Q
+- P05-T03-O02 / 20260819064018-minhosong-mse-ByrUkg
+- P05-T03-O05 / 20260819064417-minhosong-mse-hKXwwQ
+
+P6 parameterization:
+- P06-T01-O02 / 20260819074531-minhosong-mse-rT_aGQ
+- P06-T01-O04 latest / 20260819074743-minhosong-mse-FnVpuQ
+
+LeeSeonHyeong P06-T02 latest submissions:
+- O01 20260819151727-LSH-linear-QgYLDA
+- O02 20260819152019-LSH-linear-i-oFRg
+- O03 20260819152902-LSH-linear-JDZt-Q
+- O04 20260819153101-LSH-linear-6m_wxA
+- O05 20260819153328-LSH-linear-IB_Uhg
+
+Latest Phase-7 automatic state at package preparation:
+- generated: 2026-08-21 11:49:51 KST
+- state: locked
+- 0/7 required outputs officially evidenced
+
+No GitHub write, commit, push, PR, or TCAD execution was performed while preparing this local package.

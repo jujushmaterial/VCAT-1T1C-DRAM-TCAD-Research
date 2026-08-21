@@ -1,0 +1,57 @@
+P07 -> P8 HANDOFF NOTE
+
+Verified Phase-7 result
+- No new TCAD was required for P7 analysis.
+- Selected independent P8 geometry variables: Xbnd1_nm and Xbnd2_nm.
+- M1=B1-20, M2=B2-B1, M3=80-B2 remain derived only.
+- P6 frozen mesh/bias/physics/solver/extraction baseline must be preserved.
+
+P8 initial exploratory campaign domain
+- B1: 33,34,35,36,37 nm (5 points)
+- B2: 63,64,65,66,67,68,69 nm (7 points)
+- Total candidate geometry count N = 35.
+- This is a search/campaign domain, NOT a claimed final process tolerance window.
+
+Why 1-nm primary step
+P5 used 2-nm coarse sampling. Phase-7 local forward/backward slopes and conditional slopes show measurable nonlinearity, so 1 nm is the primary candidate resolution.
+0.5 nm is NOT proposed as a full-grid step; reserve it for adaptive refinement around a predeclared Device PASS/Marginal/FAIL transition after the 1-nm grid.
+
+P5 overlap
+Among the 35 candidate coordinates, 9 coordinates already exist in the P5 2-nm electrical grid:
+B1={33,35,37} x B2={63,65,67}.
+Use those as prior/sanity evidence. For a single provenance-consistent P8 Window campaign, rerunning active P8 points through the P6 frozen parameterized workflow is recommended; do not silently mix old and new meshes as one P8 raw campaign.
+
+B2 above P5 edge
+- B2=68 and 69 are NEW P8 electrical conditions.
+- P6 contains a 35/69 geometry/mesh visual preflight only.
+- Do not describe B2=69 as an existing electrical result.
+
+GIDL
+- 49-point P5 Forward table has no GIDL.
+- P5 shortlist has GIDL at 35/67, 33/67, 35/65, 37/63 only.
+- P6 frozen extraction defines GIDL at Vd=1 V, Vg=-0.4 V using P5 validated PRODFAST.
+- If P8 Device-level criteria include GIDL, budget one GIDL SDevice job per active geometry.
+
+Job-count formula after P9 Holdout preselection
+Let H = number of Holdout geometries, H=2..4.
+N = 35.
+Active geometries = N-H = 31..33.
+SDE/Mesh jobs = N-H = 31..33.
+Forward SDevice jobs = 2(N-H) = 62..66.
+Forward+GIDL SDevice jobs = 3(N-H) = 93..99.
+
+Holdout principle
+Issue #8 requires the whole candidate grid to be defined first, then 2-4 Holdout points selected and sealed BEFORE P8 results are inspected. Phase 7 does not choose the final coordinates here.
+
+Before P8 run
+1. Freeze Device-level PASS/Marginal/FAIL numerical criteria.
+2. Freeze the full 35-point candidate grid.
+3. Select/seal 2-4 Holdouts.
+4. Run all remaining geometry under the P6 frozen baseline.
+
+
+UPSTREAM GATE BEFORE P8 EXECUTION
+- Latest GitHub main currently has no visible P05-T04/O06 3D handoff submission.
+- Before launching the P8 electrical campaign, explicitly re-check whether P05-T04/O06 has appeared and whether it keeps B1/B2=35/67 as the final Nominal.
+- If 35/67 is unchanged, this P7 handoff can be used as written.
+- If the Nominal changes, regenerate P7 local sensitivity / selection / range artifacts around the new Nominal before P8.
