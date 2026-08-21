@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260821023131-LEE-TAEK-GYU-HJfvCA",
+  "phaseId": 5,
+  "issueNumber": 5,
+  "taskId": "P05-T04",
+  "taskText": "최종 구조 3D 검증 및 Single-Multi 비교",
+  "outputId": "P05-T04-O02",
+  "outputText": "최종 Multi-Metal 3D SDE·SDevice 코드",
+  "uploader": "LEE-TAEK-GYU",
+  "memberName": "이택규",
+  "memberFolder": "LeeTaekGyu",
+  "type": "code",
+  "uploadedAt": "2026-08-21T02:31:31.394Z",
+  "folderPath": "members/LeeTaekGyu/phases/phase-05/tasks/P05-T04/outputs/P05-T04-O02/submissions/20260821023131-LEE-TAEK-GYU-HJfvCA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-05/tasks/P05-T04/outputs/P05-T04-O02/submissions/20260821023131-LEE-TAEK-GYU-HJfvCA",
+  "summary": "1개 코드 파일 · 10.8KB",
+  "files": [
+    {
+      "name": "Multi-Metal-3D-SDE.cmd",
+      "path": "members/LeeTaekGyu/phases/phase-05/tasks/P05-T04/outputs/P05-T04-O02/submissions/20260821023131-LEE-TAEK-GYU-HJfvCA/source/Multi-Metal-3D-SDE.cmd",
+      "size": 11093
+    }
+  ]
+}
