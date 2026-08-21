@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T02:01:25.528Z",
+  "updatedAt": "2026-08-21T02:01:38.209Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9786,7 +9786,21 @@
             "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O04/submissions/20260821020125-LEE-TAEK-GYU-6bOS8A/source/code-1.cmd",
             "size": 1965
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-21T02:01:25.528Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
