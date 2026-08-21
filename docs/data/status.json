@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T11:10:40+09:00",
+  "generatedAt": "2026-08-21T11:11:42+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -7959,13 +7959,47 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260821021043-LEE-TAEK-GYU-WN0U7w",
+                  "phaseId": 2,
+                  "issueNumber": 2,
+                  "taskId": "P02-T11",
+                  "taskText": "Single-Metal 3D 기준 구조와 최소 2D–3D 비교를 수행한다.(추후진행)",
+                  "outputId": "P02-T11-O05",
+                  "outputText": "Phase 3·5 Handoff 요약",
+                  "uploader": "LEE-TAEK-GYU",
+                  "memberName": "이택규",
+                  "memberFolder": "LeeTaekGyu",
+                  "type": "code",
+                  "uploadedAt": "2026-08-21T02:10:43.668Z",
+                  "folderPath": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O05/submissions/20260821021043-LEE-TAEK-GYU-WN0U7w",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O05/submissions/20260821021043-LEE-TAEK-GYU-WN0U7w",
+                  "summary": "1개 코드 파일 · 2.0KB",
+                  "files": [
+                    {
+                      "name": "P02-T11-O05.cmd",
+                      "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O05/submissions/20260821021043-LEE-TAEK-GYU-WN0U7w/source/P02-T11-O05.cmd",
+                      "size": 2031
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
@@ -11914,13 +11948,47 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260821021043-LEE-TAEK-GYU-WN0U7w",
+              "phaseId": 2,
+              "issueNumber": 2,
+              "taskId": "P02-T11",
+              "taskText": "Single-Metal 3D 기준 구조와 최소 2D–3D 비교를 수행한다.(추후진행)",
+              "outputId": "P02-T11-O05",
+              "outputText": "Phase 3·5 Handoff 요약",
+              "uploader": "LEE-TAEK-GYU",
+              "memberName": "이택규",
+              "memberFolder": "LeeTaekGyu",
+              "type": "code",
+              "uploadedAt": "2026-08-21T02:10:43.668Z",
+              "folderPath": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O05/submissions/20260821021043-LEE-TAEK-GYU-WN0U7w",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O05/submissions/20260821021043-LEE-TAEK-GYU-WN0U7w",
+              "summary": "1개 코드 파일 · 2.0KB",
+              "files": [
+                {
+                  "name": "P02-T11-O05.cmd",
+                  "path": "members/LeeTaekGyu/phases/phase-02/tasks/P02-T11/outputs/P02-T11-O05/submissions/20260821021043-LEE-TAEK-GYU-WN0U7w/source/P02-T11-O05.cmd",
+                  "size": 2031
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P02-T11"
         }
       ],
