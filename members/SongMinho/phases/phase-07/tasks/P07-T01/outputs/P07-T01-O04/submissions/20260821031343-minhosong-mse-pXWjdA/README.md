@@ -1,0 +1,31 @@
+# Phase 7 산출물 — P8 핵심 Geometry 변수 약 2개 선정표
+
+- 과제 ID: `P07-T01`
+- 산출물 ID: `P07-T01-O04`
+- 제출자: 송민호 (`@minhosong-mse`)
+- 제출 시각: 2026-08-21T03:13:43.140Z
+- 관련 Issue: [#7](https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/7)
+- 제출 방식: table
+
+## 저장된 표
+
+- 크기: 9행 × 12열
+- 첫 행 제목 사용: 예
+- [CSV 원본](./table.csv)
+- [TSV 원본](./table.tsv)
+- [JSON 원본](./table.json)
+
+## 표 설명
+
+P8 핵심 geometry 변수로 Xbnd1_nm과 Xbnd2_nm을 선정하였다. 두 변수는 P6에서 독립 tolerance parameter로 정의되어 있고 P5 49-point 결과에서 leakage/Vth/DIBL 민감도 및 서로의 interaction이 확인된다. M1/M2/M3는 B1/B2에서 계산되는 derived variable이므로 독립 sweep에서 제외한다. Tox/channel dimension은 현재 추가 차원을 도입해야 할 실험적 근거가 없어 제외하되 reopen trigger를 남겼다.
+
+| Variable | Independent_or_Derived | Nominal | Evidence_Available | Local_Sensitivity | Interaction | Physical_Interpretation | Tolerance_Relevance | Additional_Dimension_Cost | Selected_for_P8 | Reason | Limitation |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Xbnd1_nm | INDEPENDENT | 35 nm | P5 7x7 + P6 parameterization | Ioff +4.922%/nm; Ion/Ioff -4.487%/nm; DIBL +4.402%/nm at nominal | Material conditional-slope dependence across B2 | LOW→HIGH WF boundary | Direct geometry tolerance variable | Base dimension | YES | Independent, measurable, device metrics are locally sensitive, and interaction with B2 requires joint 2D sampling | P5 electrical evidence near nominal spans B1 33/35/37 |
+| Xbnd2_nm | INDEPENDENT | 67 nm | P5 7x7 + P6 parameterization + P6 35/69 structure preflight | Ioff -4.380%/nm; Ion/Ioff +3.884%/nm; DIBL -4.867%/nm using 65→67 backward slope | Material conditional-slope dependence across B1 | HIGH→LOW WF boundary | Direct geometry tolerance variable | Base dimension | YES | Independent, sensitive, interacts with B1; P8 must sample beyond the P5 upper edge to test the positive side | B2=69 has geometry-only preflight, no P5 electrical result |
+| M1_nm | DERIVED | 15 nm | M1=B1-20 | inherits B1 | not independent | left LOW segment length | Interpretation only | Would duplicate B1 | NO | Independent sweep would duplicate Xbnd1 | Keep as derived reporting column |
+| M2_HIGH_nm | DERIVED | 32 nm | M2=B2-B1 | inherits both | coupled by definition | central HIGH segment length | Interpretation only | Would create redundant coordinate | NO | Not an independent control variable | Keep as derived reporting column |
+| M3_nm | DERIVED | 13 nm | M3=80-B2 | inherits B2 | not independent | right LOW segment length | Interpretation only | Would duplicate B2 | NO | Independent sweep would duplicate Xbnd2 | Keep as derived reporting column |
+| Tox | FIXED | 1 nm | P6 O03 frozen | No P7 evidence | Not screened | oxide thickness | Potential process variable but not justified here | Would add third DOE dimension | NO | No current evidence that B1/B2 are insufficient; P07-T02 is optional | Reopen if P8 cannot explain the limiting boundary or process requirement demands Tox tolerance |
+| Channel dimensions | FIXED | Dpillar=12 nm; Lg=60 nm | P6 O03 frozen | No P7 evidence | Not screened | channel geometry | Could be process-sensitive but out of current P7 evidence | Would add ≥1 DOE dimension | NO | No experimental need established; avoid dimensionality expansion | Reopen only with explicit process-tolerance need or unexplained P8 behavior |
+| WF_LOW/WF_HIGH | FIXED | 4.33/4.70 eV | P3/P5 fixed; P6 O03 frozen | Not P7 variable | Not screened | metal work function | Not geometry-tolerance variable in P7/P8 plan | Would change research question | NO | Latest P6 baseline explicitly freezes WF | Do not reopen without separate project decision |
