@@ -1,0 +1,39 @@
+{
+  "submissionId": "20260821102657-LSH-linear-9Wmk0w",
+  "phaseId": 7,
+  "issueNumber": 7,
+  "taskId": "P07-T02",
+  "taskText": "추가 구조변수 Screening (선택)",
+  "outputId": "P07-T02-O05",
+  "outputText": "P7 추가 Screening 논의 결론 <최종>",
+  "uploader": "LSH-linear",
+  "memberName": "이선형",
+  "memberFolder": "LeeSeonHyeong",
+  "type": "files",
+  "uploadedAt": "2026-08-21T10:26:57.430Z",
+  "folderPath": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102657-LSH-linear-9Wmk0w",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102657-LSH-linear-9Wmk0w",
+  "summary": "4개 파일 · 22.0KB",
+  "files": [
+    {
+      "name": "01_P7_변수해석_및_권고안.md",
+      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102657-LSH-linear-9Wmk0w/files/01_P7_변수해석_및_권고안.md",
+      "size": 4738
+    },
+    {
+      "name": "02_중앙_High-WF_영역_폭_및_위치_보조해석.md",
+      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102657-LSH-linear-9Wmk0w/files/02_중앙_High-WF_영역_폭_및_위치_보조해석.md",
+      "size": 4664
+    },
+    {
+      "name": "03_추가구조변수_Screening_검토결과.md",
+      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102657-LSH-linear-9Wmk0w/files/03_추가구조변수_Screening_검토결과.md",
+      "size": 7117
+    },
+    {
+      "name": "04_관련자료_위치_및_참고문헌.md",
+      "path": "members/LeeSeonHyeong/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O05/submissions/20260821102657-LSH-linear-9Wmk0w/files/04_관련자료_위치_및_참고문헌.md",
+      "size": 6023
+    }
+  ]
+}
