@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T14:04:48+09:00",
+  "generatedAt": "2026-08-21T17:48:54+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -26779,9 +26779,9 @@
       "tasksTotal": 3,
       "issueTasksDone": 0,
       "outputsDone": 0,
-      "outputsTotal": 11,
+      "outputsTotal": 12,
       "requiredOutputsDone": 0,
-      "requiredOutputsTotal": 8,
+      "requiredOutputsTotal": 9,
       "tasks": [
         {
           "id": "P07-T01",
@@ -27378,16 +27378,34 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "P07-T02-O05",
+              "text": "P7 추가 Screening 논의 결론",
+              "type": "files",
+              "review": "recommended",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 1,
+          "requiredOutputsTotal": 2,
           "outputsDone": 0,
-          "outputsTotal": 4,
+          "outputsTotal": 5,
           "missingRequiredOutputs": [
-            "P07-T02-O04"
+            "P07-T02-O04",
+            "P07-T02-O05"
           ],
           "checkboxDrift": false
         },
@@ -28076,6 +28094,24 @@
           "taskId": "P07-T02"
         },
         {
+          "id": "P07-T02-O05",
+          "text": "P7 추가 Screening 논의 결론",
+          "type": "files",
+          "review": "recommended",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P07-T02"
+        },
+        {
           "id": "P07-T03-O01",
           "text": "SUPPLEMENTAL",
           "type": "files",
@@ -28164,8 +28200,8 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-21T03:19:36Z",
-      "lastModifiedBy": "minhosong-mse",
+      "updatedAt": "2026-08-21T08:48:41Z",
+      "lastModifiedBy": "LSH-linear",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 2
     },
