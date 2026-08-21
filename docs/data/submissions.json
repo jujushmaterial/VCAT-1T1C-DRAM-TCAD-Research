@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T03:11:26.229Z",
+  "updatedAt": "2026-08-21T03:11:40.879Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -10136,7 +10136,9 @@
           "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O02/submissions/20260821031126-minhosong-mse-_3phNg/table.json",
           "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O02/submissions/20260821031126-minhosong-mse-_3phNg/table.csv",
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O02/submissions/20260821031126-minhosong-mse-_3phNg/table.tsv"
-        }
+        },
+        "comment": "Nominal B1/B2=35/67 nm 주변의 Local Sensitivity. B1은 33/35/37 nm의 central difference를 사용하고, B2는 P5 grid 상한이 67 nm이므로 63/65/67 nm의 first-order/second-order backward difference를 사용하였다. 각 metric의 absolute slope, normalized sensitivity(%/nm), direction, curvature/nonlinearity를 정리했으며 Ioff와 Ion/Ioff에는 log10 sensitivity(decade/nm)도 포함하였다. 신규 P7 TCAD는 실행하지 않았다.",
+        "commentLabel": "표 설명"
       }
     ]
   }
