@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T03:11:57.370Z",
+  "updatedAt": "2026-08-21T03:12:43.499Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -10153,6 +10153,72 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P07-T01-O03": [
+      {
+        "submissionId": "20260821031243-minhosong-mse-zhautA",
+        "phaseId": 7,
+        "issueNumber": 7,
+        "taskId": "P07-T01",
+        "taskText": "P5 데이터 재사용 민감도 분석 및 P8 변수 선정",
+        "outputId": "P07-T01-O03",
+        "outputText": "변수별 민감도 비교 그래프",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-21T03:12:43.499Z",
+        "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O03/submissions/20260821031243-minhosong-mse-zhautA",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O03/submissions/20260821031243-minhosong-mse-zhautA",
+        "summary": "9개 파일 · 615.9KB",
+        "files": [
+          {
+            "name": "P07-T01-O03_B1_OAT_B2-67.png",
+            "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O03/submissions/20260821031243-minhosong-mse-zhautA/files/P07-T01-O03_B1_OAT_B2-67.png",
+            "size": 106717
+          },
+          {
+            "name": "P07-T01-O03_B2_OAT_B1-35.png",
+            "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O03/submissions/20260821031243-minhosong-mse-zhautA/files/P07-T01-O03_B2_OAT_B1-35.png",
+            "size": 112469
+          },
+          {
+            "name": "P07-T01-O03_Conditional_Slope_DIBL.png",
+            "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O03/submissions/20260821031243-minhosong-mse-zhautA/files/P07-T01-O03_Conditional_Slope_DIBL.png",
+            "size": 93404
+          },
+          {
+            "name": "P07-T01-O03_Graph_Explanation.txt",
+            "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O03/submissions/20260821031243-minhosong-mse-zhautA/files/P07-T01-O03_Graph_Explanation.txt",
+            "size": 1204
+          },
+          {
+            "name": "P07-T01-O03_Graph_Index.csv",
+            "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O03/submissions/20260821031243-minhosong-mse-zhautA/files/P07-T01-O03_Graph_Index.csv",
+            "size": 1056
+          },
+          {
+            "name": "P07-T01-O03_Interaction_DIBL_MixedFD.png",
+            "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O03/submissions/20260821031243-minhosong-mse-zhautA/files/P07-T01-O03_Interaction_DIBL_MixedFD.png",
+            "size": 81997
+          },
+          {
+            "name": "P07-T01-O03_Interaction_LogIoff_MixedFD.png",
+            "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O03/submissions/20260821031243-minhosong-mse-zhautA/files/P07-T01-O03_Interaction_LogIoff_MixedFD.png",
+            "size": 87548
+          },
+          {
+            "name": "P07-T01-O03_Log_Sensitivity.png",
+            "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O03/submissions/20260821031243-minhosong-mse-zhautA/files/P07-T01-O03_Log_Sensitivity.png",
+            "size": 67425
+          },
+          {
+            "name": "P07-T01-O03_Normalized_Sensitivity.png",
+            "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O03/submissions/20260821031243-minhosong-mse-zhautA/files/P07-T01-O03_Normalized_Sensitivity.png",
+            "size": 78878
+          }
+        ]
       }
     ]
   }

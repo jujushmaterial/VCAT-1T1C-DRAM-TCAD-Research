@@ -1,0 +1,26 @@
+P07-T01-O03 Sensitivity Graph Explanation
+
+Purpose
+- Phase 5의 기존 7×7 Boundary Forward 결과를 재사용하여 Phase 7의 sensitivity, slope, interaction을 시각화한다.
+- 기존 P5 성능 Map을 단순 복사하지 않고 P7 변수선정에 필요한 미분/interaction 관점을 보여준다.
+- Phase 7에서 신규 TCAD는 실행하지 않았다.
+
+Nominal
+- Xbnd1 = 35 nm
+- Xbnd2 = 67 nm
+
+Difference methods
+- B1 local slope: central difference [f(37,67)-f(33,67)] / 4 nm
+- B2 primary local slope: first-order backward [f(35,67)-f(35,65)] / 2 nm
+- B2 second-order check: [3f(35,67)-4f(35,65)+f(35,63)] / 4 nm
+- Interaction: 7×7 grid의 discrete mixed finite difference 사용
+
+Important scope
+- P5 49-point Forward summary에는 GIDL이 전체 조건에 존재하지 않으므로 GIDL sensitivity graph는 만들지 않았다.
+- B2=69는 P6 structure/mesh preflight만 존재하고 P7 electrical result로 사용하지 않았다.
+- P8 범위 33–37 / 63–69 nm는 P8 탐색 campaign domain이며 최종 process tolerance window를 의미하지 않는다.
+
+Primary source
+- P05-T02-O02
+- Submission: 20260819063412-minhosong-mse-ZCT25w
+- File: P05-T02-O02_Boundary_Sweep_Raw_Summary.csv

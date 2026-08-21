@@ -1,0 +1,8 @@
+﻿File_Name,Purpose,Method_or_View,Unit,Source
+P07-T01-O03_Normalized_Sensitivity.png,Local normalized sensitivity comparison,B1 central vs B2 one-sided,%/nm,P05-T02-O02 exact 49-point Forward summary
+P07-T01-O03_Log_Sensitivity.png,Leakage / Ion-Ioff log sensitivity,Ioff and Ion/Ioff,decade/nm,P05-T02-O02 exact 49-point Forward summary
+P07-T01-O03_B1_OAT_B2-67.png,B1 OAT response,B2 fixed at 67 nm,% change from Nominal,P05-T02-O02 exact 49-point Forward summary
+P07-T01-O03_B2_OAT_B1-35.png,B2 one-sided OAT response,B1 fixed at 35 nm,% change from Nominal,P05-T02-O02 exact 49-point Forward summary
+P07-T01-O03_Conditional_Slope_DIBL.png,Conditional DIBL slope,B1 sensitivity changes with B2,(mV/V)/nm,P05-T02-O02 exact 49-point Forward summary
+P07-T01-O03_Interaction_DIBL_MixedFD.png,DIBL mixed finite difference,B1-B2 interaction,(mV/V)/nm^2,P05-T02-O02 exact 49-point Forward summary
+P07-T01-O03_Interaction_LogIoff_MixedFD.png,log10(Ioff) mixed finite difference,B1-B2 interaction,decade/nm^2,P05-T02-O02 exact 49-point Forward summary
