@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T03:10:26.554Z",
+  "updatedAt": "2026-08-21T03:10:42.351Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -10078,7 +10078,21 @@
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.tsv"
         },
         "comment": "P5 7×7 Boundary Sweep의 기존 데이터를 P7에서 재사용하기 위한 공식 inventory. P05-T02-O02 exact 49-point Forward summary와 98 raw Forward PLT manifest, P5 Nominal, P6 parameterization 및 이선형 P06-T02 fresh reproducibility/frozen baseline 자료의 submission ID와 재사용 목적을 정리하였다. 49개 전체에는 Ion, Ioff, Ion/Ioff, Vth@0.05/1.0, SS@0.05/1.0, DIBL이 존재하며 49-point GIDL은 존재하지 않는다. P5 shortlist의 일부 GIDL은 참고자료로만 구분하였다.",
-        "commentLabel": "표 설명"
+        "commentLabel": "표 설명",
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-21T03:10:14.632Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
