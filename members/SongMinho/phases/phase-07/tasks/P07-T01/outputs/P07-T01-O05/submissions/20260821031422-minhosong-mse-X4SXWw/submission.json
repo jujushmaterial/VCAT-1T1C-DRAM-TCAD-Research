@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260821031422-minhosong-mse-X4SXWw",
+  "phaseId": 7,
+  "issueNumber": 7,
+  "taskId": "P07-T01",
+  "taskText": "P5 데이터 재사용 민감도 분석 및 P8 변수 선정",
+  "outputId": "P07-T01-O05",
+  "outputText": "P8 변수별 Sweep 범위",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "table",
+  "uploadedAt": "2026-08-21T03:14:22.596Z",
+  "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw",
+  "summary": "3행 × 13열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.tsv",
+      "size": 961
+    },
+    {
+      "name": "table.csv",
+      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.csv",
+      "size": 969
+    },
+    {
+      "name": "table.json",
+      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.json",
+      "size": 1442
+    }
+  ],
+  "table": {
+    "rowCount": 3,
+    "columnCount": 13,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O05/submissions/20260821031422-minhosong-mse-X4SXWw/table.tsv"
+  }
+}
