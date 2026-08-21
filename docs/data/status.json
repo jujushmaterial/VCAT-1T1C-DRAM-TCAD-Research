@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T22:34:52+09:00",
+  "generatedAt": "2026-08-21T22:42:02+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -3910,9 +3910,9 @@
       "tasksDone": 9,
       "tasksTotal": 11,
       "issueTasksDone": 9,
-      "outputsDone": 38,
+      "outputsDone": 39,
       "outputsTotal": 49,
-      "requiredOutputsDone": 38,
+      "requiredOutputsDone": 39,
       "requiredOutputsTotal": 49,
       "tasks": [
         {
@@ -7012,13 +7012,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 3,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 3,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 2,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260811025653-LSH-linear-8B8ZOA",
@@ -7126,15 +7126,20 @@
                   "comment": "기존 P02-T09 Uniform Coarse/Medium/Fine 결과를 재사용하고, Local Contour v1을 후속 2D screening baseline으로, Uniform Fine 0.5를 absolute GIDL/BTBT precision reference로 구분한 적용 범위 표이다. 기존 Uniform 조건은 재실행x",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-21T13:41:44.970Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-12T09:08:27.049Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-21T13:41:44.970Z"
                       }
                     ],
                     "legacy": false
@@ -7696,12 +7701,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 1,
+          "requiredOutputsDone": 2,
           "requiredOutputsTotal": 7,
-          "outputsDone": 1,
+          "outputsDone": 2,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P02-T10-O01",
             "P02-T10-O02",
             "P02-T10-O03",
             "P02-T10-O04",
@@ -11022,13 +11026,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 3,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 3,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 2,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260811025653-LSH-linear-8B8ZOA",
@@ -11136,15 +11140,20 @@
               "comment": "기존 P02-T09 Uniform Coarse/Medium/Fine 결과를 재사용하고, Local Contour v1을 후속 2D screening baseline으로, Uniform Fine 0.5를 absolute GIDL/BTBT precision reference로 구분한 적용 범위 표이다. 기존 Uniform 조건은 재실행x",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-21T13:41:44.970Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-12T09:08:27.049Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-21T13:41:44.970Z"
                   }
                 ],
                 "legacy": false
