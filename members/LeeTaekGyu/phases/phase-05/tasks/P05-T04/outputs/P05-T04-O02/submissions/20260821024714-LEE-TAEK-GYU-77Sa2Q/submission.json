@@ -40,5 +40,19 @@
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-05/tasks/P05-T04/outputs/P05-T04-O02/submissions/20260821024714-LEE-TAEK-GYU-77Sa2Q/table.tsv"
   },
   "comment": "SDE 파라미터",
-  "commentLabel": "표 설명"
+  "commentLabel": "표 설명",
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-21T02:47:14.045Z"
+      }
+    ],
+    "legacy": false
+  }
 }
