@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T11:33:24+09:00",
+  "generatedAt": "2026-08-21T11:46:14+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -23163,7 +23163,7 @@
             {
               "id": "P05-T04-O02",
               "text": "최종 Multi-Metal 3D SDE·SDevice 코드",
-              "type": "code",
+              "type": "table",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -23242,9 +23242,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-21T02:33:04.703Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -24816,7 +24821,7 @@
         {
           "id": "P05-T04-O02",
           "text": "최종 Multi-Metal 3D SDE·SDevice 코드",
-          "type": "code",
+          "type": "table",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -24895,9 +24900,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-21T02:33:04.703Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -24995,8 +25005,8 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-19T06:45:50Z",
-      "lastModifiedBy": "minhosong-mse",
+      "updatedAt": "2026-08-21T02:46:01Z",
+      "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
     },
