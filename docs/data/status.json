@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T22:42:02+09:00",
+  "generatedAt": "2026-08-21T22:43:02+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -3910,9 +3910,9 @@
       "tasksDone": 9,
       "tasksTotal": 11,
       "issueTasksDone": 9,
-      "outputsDone": 39,
+      "outputsDone": 40,
       "outputsTotal": 49,
-      "requiredOutputsDone": 39,
+      "requiredOutputsDone": 40,
       "requiredOutputsTotal": 49,
       "tasks": [
         {
@@ -7014,9 +7014,9 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 3,
-              "evidenceSubmissionCount": 1,
-              "approvedSubmissionCount": 1,
-              "pendingReviewCount": 2,
+              "evidenceSubmissionCount": 3,
+              "approvedSubmissionCount": 3,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -7046,15 +7046,20 @@
                   "comment": "P02-T10-O01 — 기존 Mesh 결과 재사용·적용 범위 표\n\nP02-T10에서는 P02-T09에서 확보한 Coarse / Medium / Fine 0.5 Mesh 결과를 새로 재실행하지 않고 기존 결과를 재사용하였다.\n\nCoarse와 Medium은 Mesh 민감도 및 계산비용 비교용으로 활용하였고, Fine 0.5는 GIDL/BTBT 정밀 검증 reference로 유지하였다.\n\nP02-T10에서 별도로 검증한 기존 Local Mesh는 계산비용과 ElectricField 재현성을 고려하여 후속 Phase의 일반적인 2D screening baseline으로 최종 채택하였다. 단, GIDL/BTBT 절대값 정밀 해석에는 Fine 0.5 결과를 reference로 유지한다.\n\n추가로 수행한 Reference-Local JunctionFine v1은 Junction 영역만 세분화한 민감도 검증이며, GIDL sweep 수렴 실패 및 계산비용 증가로 인해 최종 적용하지 않고 검증 기록으로만 보존한다.\n\n첨부 표에는 각 Mesh 조건의 재사용 여부, 재실행 여부, GIDL, runtime, mesh 규모 및 최종 적용 범위를 함께 정리하였다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-21T13:41:58.744Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-11T02:56:53.476Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-21T13:41:58.744Z"
                       }
                     ],
                     "legacy": false
@@ -7086,15 +7091,20 @@
                   "comment": "P02-T10-O01 보완 제출 — PDF 가독성 버전\n\n기존에 제출한 P02-T10-O01_mesh-reuse-scope.xlsx의 내용은 그대로 유지하되, GitHub/대시보드 뷰어에서 셀 배경색과 구분 표시가 충분히 보이지 않아 동일 표를 PDF 형식으로 추가 제출한다.\n\n본 PDF는 Excel 원본의 내용을 변경하거나 새로운 결과를 추가한 것이 아니라, Fine 0.5 정밀 reference / Local Mesh 최종 2D baseline / JunctionFine 최종 적용 X의 구분과 표 가독성을 높이기 위한 보완본이다.\n\n수치와 판단 기준은 기존 Excel 제출본과 동일하며, Excel은 원본 데이터·편집용, PDF는 검토·보고서 열람용으로 함께 사용한다",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-21T13:41:51.902Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-11T03:11:31.520Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-21T13:41:51.902Z"
                       }
                     ],
                     "legacy": false
@@ -7155,13 +7165,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260812090900-minhosong-mse-Bik7kQ",
@@ -7189,15 +7199,20 @@
                   "comment": "ocal Mesh의 공간별 역할을 A/B/C/E로 정리했다. A는 outer/quiet coarse 영역, B는 gate/channel medium 영역, C는 SN/BL junction support 영역, E는 gate-edge/Si-SiO2/high-field fine contour 영역이다. Fine contour 좌표는 측정 hotspot 경계가 아니라 보수적인 engineering candidate이다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-21T13:42:09.319Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-12T09:09:00.995Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-21T13:42:09.319Z"
                       }
                     ],
                     "legacy": false
@@ -7701,12 +7716,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 2,
+          "requiredOutputsDone": 3,
           "requiredOutputsTotal": 7,
-          "outputsDone": 2,
+          "outputsDone": 3,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P02-T10-O02",
             "P02-T10-O03",
             "P02-T10-O04",
             "P02-T10-O06",
@@ -11028,9 +11042,9 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 3,
-          "evidenceSubmissionCount": 1,
-          "approvedSubmissionCount": 1,
-          "pendingReviewCount": 2,
+          "evidenceSubmissionCount": 3,
+          "approvedSubmissionCount": 3,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -11060,15 +11074,20 @@
               "comment": "P02-T10-O01 — 기존 Mesh 결과 재사용·적용 범위 표\n\nP02-T10에서는 P02-T09에서 확보한 Coarse / Medium / Fine 0.5 Mesh 결과를 새로 재실행하지 않고 기존 결과를 재사용하였다.\n\nCoarse와 Medium은 Mesh 민감도 및 계산비용 비교용으로 활용하였고, Fine 0.5는 GIDL/BTBT 정밀 검증 reference로 유지하였다.\n\nP02-T10에서 별도로 검증한 기존 Local Mesh는 계산비용과 ElectricField 재현성을 고려하여 후속 Phase의 일반적인 2D screening baseline으로 최종 채택하였다. 단, GIDL/BTBT 절대값 정밀 해석에는 Fine 0.5 결과를 reference로 유지한다.\n\n추가로 수행한 Reference-Local JunctionFine v1은 Junction 영역만 세분화한 민감도 검증이며, GIDL sweep 수렴 실패 및 계산비용 증가로 인해 최종 적용하지 않고 검증 기록으로만 보존한다.\n\n첨부 표에는 각 Mesh 조건의 재사용 여부, 재실행 여부, GIDL, runtime, mesh 규모 및 최종 적용 범위를 함께 정리하였다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-21T13:41:58.744Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-11T02:56:53.476Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-21T13:41:58.744Z"
                   }
                 ],
                 "legacy": false
@@ -11100,15 +11119,20 @@
               "comment": "P02-T10-O01 보완 제출 — PDF 가독성 버전\n\n기존에 제출한 P02-T10-O01_mesh-reuse-scope.xlsx의 내용은 그대로 유지하되, GitHub/대시보드 뷰어에서 셀 배경색과 구분 표시가 충분히 보이지 않아 동일 표를 PDF 형식으로 추가 제출한다.\n\n본 PDF는 Excel 원본의 내용을 변경하거나 새로운 결과를 추가한 것이 아니라, Fine 0.5 정밀 reference / Local Mesh 최종 2D baseline / JunctionFine 최종 적용 X의 구분과 표 가독성을 높이기 위한 보완본이다.\n\n수치와 판단 기준은 기존 Excel 제출본과 동일하며, Excel은 원본 데이터·편집용, PDF는 검토·보고서 열람용으로 함께 사용한다",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-21T13:41:51.902Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-11T03:11:31.520Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-21T13:41:51.902Z"
                   }
                 ],
                 "legacy": false
@@ -11170,13 +11194,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260812090900-minhosong-mse-Bik7kQ",
@@ -11204,15 +11228,20 @@
               "comment": "ocal Mesh의 공간별 역할을 A/B/C/E로 정리했다. A는 outer/quiet coarse 영역, B는 gate/channel medium 영역, C는 SN/BL junction support 영역, E는 gate-edge/Si-SiO2/high-field fine contour 영역이다. Fine contour 좌표는 측정 hotspot 경계가 아니라 보수적인 engineering candidate이다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-21T13:42:09.319Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-12T09:09:00.995Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-21T13:42:09.319Z"
                   }
                 ],
                 "legacy": false
