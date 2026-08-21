@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T12:15:29+09:00",
+  "generatedAt": "2026-08-21T12:17:51+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -27229,14 +27229,21 @@
                       "size": 2826
                     }
                   ],
+                  "comment": "P8 변수 포함·제외 판단 근거. Xbnd1_nm/Xbnd2_nm은 independent geometry tolerance variable이며 sensitivity와 interaction이 실제 존재하므로 포함한다. M1/M2/M3는 derived라 중복되므로 제외하고, Tox/channel dimension은 현재 B1/B2만으로도 P8 2D campaign을 구성할 근거가 충분해 추가 dimension으로 채택하지 않는다. 각 제외변수에 limitation과 향후 reopen trigger를 기록하였다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-21T03:15:03.331Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -27323,17 +27330,51 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260821031733-minhosong-mse-_YV2aw",
+                  "phaseId": 7,
+                  "issueNumber": 7,
+                  "taskId": "P07-T02",
+                  "taskText": "추가 구조변수 Screening (선택)",
+                  "outputId": "P07-T02-O04",
+                  "outputText": "P8 포함 여부 및 근거(미수행 사유 포함)",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-21T03:17:33.205Z",
+                  "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O04/submissions/20260821031733-minhosong-mse-_YV2aw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O04/submissions/20260821031733-minhosong-mse-_YV2aw",
+                  "summary": "1개 파일 · 1.6KB",
+                  "files": [
+                    {
+                      "name": "P07-T02-O04_Screening_Decision.txt",
+                      "path": "members/SongMinho/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O04/submissions/20260821031733-minhosong-mse-_YV2aw/files/P07-T02-O04_Screening_Decision.txt",
+                      "size": 1612
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
-          "state": "not-started",
+          "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 1,
           "outputsDone": 0,
@@ -27791,14 +27832,21 @@
                   "size": 2826
                 }
               ],
+              "comment": "P8 변수 포함·제외 판단 근거. Xbnd1_nm/Xbnd2_nm은 independent geometry tolerance variable이며 sensitivity와 interaction이 실제 존재하므로 포함한다. M1/M2/M3는 derived라 중복되므로 제외하고, Tox/channel dimension은 현재 B1/B2만으로도 P8 2D campaign을 구성할 근거가 충분해 추가 dimension으로 채택하지 않는다. 각 제외변수에 limitation과 향후 reopen trigger를 기록하였다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-21T03:15:03.331Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -27867,13 +27915,47 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260821031733-minhosong-mse-_YV2aw",
+              "phaseId": 7,
+              "issueNumber": 7,
+              "taskId": "P07-T02",
+              "taskText": "추가 구조변수 Screening (선택)",
+              "outputId": "P07-T02-O04",
+              "outputText": "P8 포함 여부 및 근거(미수행 사유 포함)",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-21T03:17:33.205Z",
+              "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O04/submissions/20260821031733-minhosong-mse-_YV2aw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O04/submissions/20260821031733-minhosong-mse-_YV2aw",
+              "summary": "1개 파일 · 1.6KB",
+              "files": [
+                {
+                  "name": "P07-T02-O04_Screening_Decision.txt",
+                  "path": "members/SongMinho/phases/phase-07/tasks/P07-T02/outputs/P07-T02-O04/submissions/20260821031733-minhosong-mse-_YV2aw/files/P07-T02-O04_Screening_Decision.txt",
+                  "size": 1612
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P07-T02"
         }
       ],
