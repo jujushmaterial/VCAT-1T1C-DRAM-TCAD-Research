@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260821031014-minhosong-mse-ChhyHA",
+  "phaseId": 7,
+  "issueNumber": 7,
+  "taskId": "P07-T01",
+  "taskText": "P5 데이터 재사용 민감도 분석 및 P8 변수 선정",
+  "outputId": "P07-T01-O01",
+  "outputText": "P5 Boundary Raw Data 재사용 범위표",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "table",
+  "uploadedAt": "2026-08-21T03:10:14.632Z",
+  "folderPath": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA",
+  "summary": "17행 × 18열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.tsv",
+      "size": 5760
+    },
+    {
+      "name": "table.csv",
+      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.csv",
+      "size": 5796
+    },
+    {
+      "name": "table.json",
+      "path": "members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.json",
+      "size": 8813
+    }
+  ],
+  "table": {
+    "rowCount": 17,
+    "columnCount": 18,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-07/tasks/P07-T01/outputs/P07-T01-O01/submissions/20260821031014-minhosong-mse-ChhyHA/table.tsv"
+  }
+}

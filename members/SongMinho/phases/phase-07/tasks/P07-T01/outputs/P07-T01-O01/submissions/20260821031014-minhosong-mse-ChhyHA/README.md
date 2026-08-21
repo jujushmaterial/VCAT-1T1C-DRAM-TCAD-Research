@@ -1,0 +1,39 @@
+# Phase 7 산출물 — P5 Boundary Raw Data 재사용 범위표
+
+- 과제 ID: `P07-T01`
+- 산출물 ID: `P07-T01-O01`
+- 제출자: 송민호 (`@minhosong-mse`)
+- 제출 시각: 2026-08-21T03:10:14.632Z
+- 관련 Issue: [#7](https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/issues/7)
+- 제출 방식: table
+
+## 저장된 표
+
+- 크기: 17행 × 18열
+- 첫 행 제목 사용: 예
+- [CSV 원본](./table.csv)
+- [TSV 원본](./table.tsv)
+- [JSON 원본](./table.json)
+
+## 표 설명
+
+P5 7×7 Boundary Sweep의 기존 데이터를 P7에서 재사용하기 위한 공식 inventory. P05-T02-O02 exact 49-point Forward summary와 98 raw Forward PLT manifest, P5 Nominal, P6 parameterization 및 이선형 P06-T02 fresh reproducibility/frozen baseline 자료의 submission ID와 재사용 목적을 정리하였다. 49개 전체에는 Ion, Ioff, Ion/Ioff, Vth@0.05/1.0, SS@0.05/1.0, DIBL이 존재하며 49-point GIDL은 존재하지 않는다. P5 shortlist의 일부 GIDL은 참고자료로만 구분하였다.
+
+| Source_Phase | Source_Task | Source_Output | Submission_ID | Uploader | File_Name | Data_Type | Geometry_Range | Bias_Condition | Metrics_Available | Raw_File_Count | GitHub_Stored | Server_Stored | SHA_Manifest_Available | P7_Reuse_Purpose | Reuse_Status | Limitation | Provenance_Note |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| P5 | P05-T02 | P05-T02-O01 | 20260819063025-minhosong-mse--ss5Wg | minhosong-mse | table.csv | Sweep condition table | B1=33..45; B2=55..67; both 2-nm step | Forward Vd=0.05,1.0 V; VgStop=1.0 V | geometry/bias definition | N/A | YES | N/A | N/A | Define evaluated P5 grid | REUSE | No B2>67 electrical conditions | Latest main submission checked 2026-08-21 |
+| P5 | P05-T02 | P05-T02-O02 | 20260819063412-minhosong-mse-ZCT25w | minhosong-mse | P05-T02-O02_Boundary_Sweep_Raw_Summary.csv | Exact 49-point Forward metric summary | 7x7=49 unique geometries | Vd=0.05 and 1.0 V | Ion; Ioff; Ion/Ioff; Vth@0.05; Vth@1.0; SS@1.0; SS@0.05; DIBL | 98 Forward PLT represented by summary/manifest | YES-summary | YES-raw | YES | Primary P7 local sensitivity + interaction source | REUSE | No 49-point GIDL column | All 49 rows ForwardComplete=PASS |
+| P5 | P05-T02 | P05-T02-O02 | 20260819063412-minhosong-mse-ZCT25w | minhosong-mse | P05-T02-O02_Raw_Data_Manifest.csv | 98 Forward raw provenance manifest | same 49 geometries | Vd=0.05 and 1.0 V | raw filename/node/rows/SHA256 | 98 | YES-manifest | YES-PLT | YES | Audit / curve provenance if needed | REUSE_FOR_AUDIT | PLT binaries intentionally not in GitHub package | Scalar P7 analysis does not require re-reading all 98 PLT |
+| P5 | P05-T02 | P05-T02-O04 | 20260819063550-minhosong-mse-DE8_dw | minhosong-mse | P05-T02-O04_*_Map.png | Existing 2D performance maps | 7x7 P5 grid | Forward metrics | Ion; log10(Ioff); log10(Ion/Ioff); SS; DIBL | N/A | YES | N/A | N/A | Context only; P7 creates new slope/interaction plots | REUSE_CONTEXT | Do not duplicate maps as P7 novelty | Latest main submission checked |
+| P5 | P05-T02 | P05-T02-O06 | 20260819063737-minhosong-mse-0gq4-A | minhosong-mse | table.csv | Shortlist table with partial GIDL | 35/67;33/67;35/65;37/63 | GIDL Vd=1,Vg=-0.4 plus Forward | Forward metrics + GIDL for 4 shortlist points | 4 GIDL points | YES | N/A | N/A | Nominal/shortlist GIDL context only | PARTIAL_REUSE | Not a 49-point GIDL campaign; do NOT compute GIDL local slope for P7 | GIDL values are measured only at listed shortlist points |
+| P5 | P05-T03 | P05-T03-O01 | 20260819063938-minhosong-mse-zJWe5Q | minhosong-mse | table.csv | Selected nominal geometry | Nominal B1/B2=35/67 | N/A | B1;B2;segments;WF;Temp | N/A | YES | N/A | N/A | Nominal anchor | REUSE | P5 2D selected nominal |  |
+| P5 | P05-T03 | P05-T03-O02 | 20260819064018-minhosong-mse-ByrUkg | minhosong-mse | table.csv | P2 Single vs P5 Nominal performance | Nominal only | Forward + GIDL nominal | Ion;Ioff;Ion/Ioff;Vth;SS;DIBL;GIDL | N/A | YES | N/A | N/A | Nominal reference | REUSE | GIDL nominal only in this output | P5 Nominal GIDL=3.59032869040145e-15 A |
+| P5 | P05-T03 | P05-T03-O05 | 20260819064417-minhosong-mse-hKXwwQ | minhosong-mse | P05-T03-O05_Final_2D_SDE.cmd / Final_Forward_SDevice.cmd / Final_GIDL_PRODFAST_SDevice.cmd | Final code | Nominal via parameters | Forward Vd=0.05,1.0; GIDL Vd=1,Vg to -0.4 | SDE;Forward;validated PRODFAST GIDL | N/A | YES | N/A | N/A | Frozen-code provenance | REUSE | No solver changes in P7 |  |
+| P6 | P06-T01 | P06-T01-O02 | 20260819074531-minhosong-mse-rT_aGQ | minhosong-mse | table.csv | Parameter-geometry mapping | Nominal B1/B2=35/67 | N/A | Xbnd1/Xbnd2 independent; M1/M2/M3 derived | N/A | YES | N/A | N/A | Define independent P8 variables | REUSE | B2=69 absent from P5 electrical raw |  |
+| P6 | P06-T01 | P06-T01-O04 | 20260819074743-minhosong-mse-FnVpuQ | minhosong-mse | P06-T01-O04_Visual_Preflight_Summary.txt | Geometry/mesh visual preflight | 35/67;33/67;37/67;35/65;35/69 | structure only | visual topology/mesh verification | N/A | YES | N/A | N/A | Supports geometry validity for candidate extension | REUSE_CONTEXT | 35/69 is structure preflight only, NOT electrical result |  |
+| P6 | P06-T02 | P06-T02-O01 | 20260819151727-LSH-linear-QgYLDA | LSH-linear | table.csv | P5 vs fresh P6 nominal metrics | 35/67 nominal | Forward Vd=0.05,1.0 | Ion;Ioff;Ion/Ioff;Vth@0.05;Vth@1;SS;DIBL | 2 fresh PLT represented | YES | YES | YES-via O05 | Baseline reproduction evidence | REUSE | Seven Forward metrics only | All seven stored differences are zero |
+| P6 | P06-T02 | P06-T02-O02 | 20260819152019-LSH-linear-i-oFRg | LSH-linear | P06-T02-O02_IdVg_Vd0p05_SVisual.png; P06-T02-O02_IdVg_Vd1p0_SVisual.png | Id-Vg comparison images | 35/67 nominal | Vd=0.05,1.0 | Id-Vg overlap | 2 images | YES | N/A | N/A | Visual reproducibility context | REUSE_CONTEXT | Nominal only |  |
+| P6 | P06-T02 | P06-T02-O03 | 20260819152902-LSH-linear-JDZt-Q | LSH-linear | table.csv | Frozen P7/P8 simulation baseline | 35/67 nominal + parameterized geometry | Forward/GIDL rules | geometry;mesh;WF;bias;physics;solver;GIDL carry-over | N/A | YES | N/A | N/A | Freeze P7/P8 baseline | REUSE | GIDL baseline is P5 carry-over |  |
+| P6 | P06-T02 | P06-T02-O04 | 20260819153101-LSH-linear-6m_wxA | LSH-linear | table.csv | Frozen extraction rules | N/A | metric-specific | Ion;Ioff;Ion/Ioff;Vth;SS;DIBL;GIDL definitions | N/A | YES | N/A | N/A | Freeze metric definitions | REUSE | GIDL extraction definition does not imply 49-point GIDL data |  |
+| P6 | P06-T02 | P06-T02-O05 | 20260819153328-LSH-linear-IB_Uhg | LSH-linear | P06-T02-O05_Nominal_Reproducibility_PASS.md | Fresh P6 provenance | 35/67 nominal | Forward Vd=0.05,1.0 | fresh mesh/log/raw PLT provenance | 2 fresh Forward PLT | YES-summary | YES-raw | YES | Confirms parameterized baseline before P7/P8 | REUSE | GIDL was not independently rerun in fresh P6 package | Fresh Forward raw PLT byte-identical to P5 original |
+| P5 | P05-T04 | P05-T04-O06 | NOT_FOUND_ON_LATEST_MAIN | N/A | N/A | Official P6 handoff target / final 3D result handoff | Expected final P5 3D handoff | N/A | Not available | N/A | NO | UNKNOWN | NO | Upstream nominal confirmation before official P7/P8 chain | MISSING_UPSTREAM_HANDOFF | Latest main has no visible P05-T04 submission tree; current P7 analysis therefore uses the P5 2D-selected 35/67 nominal plus P6 fresh Forward baseline | If later P05-T04 changes the nominal geometry, P07-T01-O02/O03/O04/O05 must be regenerated |
