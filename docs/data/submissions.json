@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T02:33:04.703Z",
+  "updatedAt": "2026-08-21T02:33:17.027Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9904,7 +9904,21 @@
             "path": "members/LeeTaekGyu/phases/phase-05/tasks/P05-T04/outputs/P05-T04-O02/submissions/20260821023304-LEE-TAEK-GYU-BIzbFA/source/Multi-Metal-3D-SDevice.cmd",
             "size": 2940
           }
-        ]
+        ],
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-21T02:33:04.703Z"
+            }
+          ],
+          "legacy": false
+        }
       }
     ]
   }
