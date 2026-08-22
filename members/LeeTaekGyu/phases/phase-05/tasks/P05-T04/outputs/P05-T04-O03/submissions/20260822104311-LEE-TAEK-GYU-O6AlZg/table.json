@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "rowCount": 16,
+  "columnCount": 7,
+  "hasHeader": true,
+  "rows": [
+    [
+      "P05-T04-O03 — 3D Single-Metal vs Multi-Metal 동일조건 비교표",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "동일 Nominal 경계 (Xbnd1=35nm, Xbnd2=67nm), 동일 WF 조건, 3D SDevice Forward 결과 기준 비교. Ion/Ioff/SS는 Vd=1.0V 기준 (2D 산출물과 동일 convention).",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Metric",
+      "Unit",
+      "3D Single-Metal",
+      "3D Multi-Metal",
+      "Change (Multi-Single)",
+      "%Change",
+      "Direction"
+    ],
+    [
+      "Ion @ Vd=0.05V",
+      "A",
+      "2.852136E-06",
+      "3.094824E-06",
+      "2.426877E-07",
+      "8.51%",
+      "higher better"
+    ],
+    [
+      "Ion @ Vd=1.0V",
+      "A",
+      "8.456339E-06",
+      "1.039896E-05",
+      "1.942618E-06",
+      "22.97%",
+      "higher better"
+    ],
+    [
+      "Ioff @ Vd=0.05V",
+      "A",
+      "5.225492E-16",
+      "1.469454E-14",
+      "1.417199E-14",
+      "2712.09%",
+      "lower better"
+    ],
+    [
+      "Ioff @ Vd=1.0V",
+      "A",
+      "3.095438E-15",
+      "1.057818E-15",
+      "-2.037620E-15",
+      "-65.83%",
+      "lower better"
+    ],
+    [
+      "Ion/Ioff @ Vd=1.0V",
+      "ratio",
+      "2.731871E+09",
+      "9.830572E+09",
+      "7.098701E+09",
+      "259.85%",
+      "higher better"
+    ],
+    [
+      "Vth @ Vd=0.05V",
+      "V",
+      "0.506973",
+      "0.486932",
+      "-0.020041",
+      "-3.95%",
+      "context"
+    ],
+    [
+      "Vth @ Vd=1.0V",
+      "V",
+      "0.503843",
+      "0.485022",
+      "-0.018822",
+      "-3.74%",
+      "context"
+    ],
+    [
+      "SS @ Vd=0.05V",
+      "mV/dec",
+      "60.239165",
+      "60.258030",
+      "0.018865",
+      "0.03%",
+      "lower better"
+    ],
+    [
+      "SS @ Vd=1.0V",
+      "mV/dec",
+      "60.049289",
+      "60.018411",
+      "-0.030878",
+      "-0.05%",
+      "lower better"
+    ],
+    [
+      "DIBL",
+      "mV/V",
+      "3.294422",
+      "2.010638",
+      "-1.283784",
+      "-38.97%",
+      "lower better"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "GIDL: 3D Multi-Metal GIDL 시뮬레이션 미실행 (진행 여부 결정 보류) → 이 표에서 제외함. 3D Single-Metal GIDL 값도 본 비교에서는 확인되지 않아 포함하지 않음. Source: 3D Single-Metal (기존 검증 완료 자료), 3D Multi-Metal (P05-T04, p5_multimetal_n29/n30_idvg.csv 기반 이번 세션 계산, compute_p5_metrics.py).",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ]
+}
