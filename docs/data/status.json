@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:45:33+09:00",
+  "generatedAt": "2026-08-22T23:46:22+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -29403,13 +29403,64 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260822144540-minhosong-mse-detbNg",
+                  "phaseId": 8,
+                  "issueNumber": 8,
+                  "taskId": "P08-T01",
+                  "taskText": "P8 분석조건 및 Device-level 판정기준 확정",
+                  "outputId": "P08-T01-O03",
+                  "outputText": "P8 공통 Sweep·추출 코드",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "code",
+                  "uploadedAt": "2026-08-22T14:45:40.150Z",
+                  "folderPath": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O03/submissions/20260822144540-minhosong-mse-detbNg",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O03/submissions/20260822144540-minhosong-mse-detbNg",
+                  "summary": "3개 코드 파일 · 16.9KB",
+                  "files": [
+                    {
+                      "name": "P08-T01-O03_P8_Parameterized_SDE.cmd",
+                      "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O03/submissions/20260822144540-minhosong-mse-detbNg/source/P08-T01-O03_P8_Parameterized_SDE.cmd",
+                      "size": 9011
+                    },
+                    {
+                      "name": "P08-T01-O03_P8_Forward_SDevice.cmd",
+                      "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O03/submissions/20260822144540-minhosong-mse-detbNg/source/P08-T01-O03_P8_Forward_SDevice.cmd",
+                      "size": 4156
+                    },
+                    {
+                      "name": "P08-T01-O03_P8_GIDL_PRODFAST_SDevice.cmd",
+                      "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O03/submissions/20260822144540-minhosong-mse-detbNg/source/P08-T01-O03_P8_GIDL_PRODFAST_SDevice.cmd",
+                      "size": 4101
+                    }
+                  ],
+                  "comment": "P08-T01-O03 — P8 공통 Sweep·추출 코드\n\n목적\n- P8 primary 31-point campaign을 동일한 geometry 생성, SDevice physics/bias, metric extraction으로 재현할 수 있게 한다.\n\n포함 코드\n- Parameterized SDE\n- Forward SDevice\n- GIDL PRODFAST SDevice\n- P8 metric extraction utility\n- Code provenance / extraction validation 표\n\n실행 검증\n- Forward 0.05 V 31/31 + Forward 1.0 V 31/31 + GIDL 31/31 = 93/93 SDevice 유효\n- P5 overlap 9점의 Forward 주요 metric이 기존 값과 재현됨\n- P5 known GIDL point도 재현됨\n\n주의\n- 대용량 TDR/PLT/LOG는 GitHub 패키지에 포함하지 않고 서버 원본으로 유지한다.",
+                  "commentLabel": "실행 조건 및 설명",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-22T14:45:40.150Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                }
+              ]
             },
             {
               "id": "P08-T01-O04",
@@ -29528,9 +29579,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-22T14:45:16.307Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -30001,13 +30057,64 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260822144540-minhosong-mse-detbNg",
+              "phaseId": 8,
+              "issueNumber": 8,
+              "taskId": "P08-T01",
+              "taskText": "P8 분석조건 및 Device-level 판정기준 확정",
+              "outputId": "P08-T01-O03",
+              "outputText": "P8 공통 Sweep·추출 코드",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "code",
+              "uploadedAt": "2026-08-22T14:45:40.150Z",
+              "folderPath": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O03/submissions/20260822144540-minhosong-mse-detbNg",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O03/submissions/20260822144540-minhosong-mse-detbNg",
+              "summary": "3개 코드 파일 · 16.9KB",
+              "files": [
+                {
+                  "name": "P08-T01-O03_P8_Parameterized_SDE.cmd",
+                  "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O03/submissions/20260822144540-minhosong-mse-detbNg/source/P08-T01-O03_P8_Parameterized_SDE.cmd",
+                  "size": 9011
+                },
+                {
+                  "name": "P08-T01-O03_P8_Forward_SDevice.cmd",
+                  "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O03/submissions/20260822144540-minhosong-mse-detbNg/source/P08-T01-O03_P8_Forward_SDevice.cmd",
+                  "size": 4156
+                },
+                {
+                  "name": "P08-T01-O03_P8_GIDL_PRODFAST_SDevice.cmd",
+                  "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O03/submissions/20260822144540-minhosong-mse-detbNg/source/P08-T01-O03_P8_GIDL_PRODFAST_SDevice.cmd",
+                  "size": 4101
+                }
+              ],
+              "comment": "P08-T01-O03 — P8 공통 Sweep·추출 코드\n\n목적\n- P8 primary 31-point campaign을 동일한 geometry 생성, SDevice physics/bias, metric extraction으로 재현할 수 있게 한다.\n\n포함 코드\n- Parameterized SDE\n- Forward SDevice\n- GIDL PRODFAST SDevice\n- P8 metric extraction utility\n- Code provenance / extraction validation 표\n\n실행 검증\n- Forward 0.05 V 31/31 + Forward 1.0 V 31/31 + GIDL 31/31 = 93/93 SDevice 유효\n- P5 overlap 9점의 Forward 주요 metric이 기존 값과 재현됨\n- P5 known GIDL point도 재현됨\n\n주의\n- 대용량 TDR/PLT/LOG는 GitHub 패키지에 포함하지 않고 서버 원본으로 유지한다.",
+              "commentLabel": "실행 조건 및 설명",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-22T14:45:40.150Z"
+                  }
+                ],
+                "legacy": false
+              }
+            }
+          ],
           "taskId": "P08-T01"
         },
         {
@@ -30108,9 +30215,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-22T14:45:16.307Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
