@@ -32,5 +32,19 @@
     }
   ],
   "comment": "P08-T01-O03 — P8 공통 Sweep·추출 코드\n\n목적\n- P8 primary 31-point campaign을 동일한 geometry 생성, SDevice physics/bias, metric extraction으로 재현할 수 있게 한다.\n\n포함 코드\n- Parameterized SDE\n- Forward SDevice\n- GIDL PRODFAST SDevice\n- P8 metric extraction utility\n- Code provenance / extraction validation 표\n\n실행 검증\n- Forward 0.05 V 31/31 + Forward 1.0 V 31/31 + GIDL 31/31 = 93/93 SDevice 유효\n- P5 overlap 9점의 Forward 주요 metric이 기존 값과 재현됨\n- P5 known GIDL point도 재현됨\n\n주의\n- 대용량 TDR/PLT/LOG는 GitHub 패키지에 포함하지 않고 서버 원본으로 유지한다.",
-  "commentLabel": "실행 조건 및 설명"
+  "commentLabel": "실행 조건 및 설명",
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-22T14:45:40.150Z"
+      }
+    ],
+    "legacy": false
+  }
 }
