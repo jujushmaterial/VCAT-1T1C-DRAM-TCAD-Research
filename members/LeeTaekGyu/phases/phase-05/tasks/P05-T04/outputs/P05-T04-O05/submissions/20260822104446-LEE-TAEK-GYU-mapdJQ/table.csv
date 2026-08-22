@@ -1,0 +1,18 @@
+﻿P05-T04-O05 — 3D에서도 2D 개선 방향 유지 여부 판정,,,,,
+"2D 단계(P05-T03-O03, Multi-Metal Nominal vs Single-Metal)에서 확인된 개선 방향이 3D 검증(P05-T04)에서도 동일하게 유지되는지 비교.",,,,,
+,,,,,
+Metric,Better direction,2D %Change,3D %Change,Direction match,Note
+Ion,higher better,23.57%,22.97%,YES,
+Ioff,lower better,-70.40%,-65.83%,YES,
+Ion/Ioff,higher better,317.45%,259.85%,YES,
+SS,lower better,-0.03%,-0.05%,YES,
+DIBL,lower better,-37.63%,-38.97%,YES,
+GIDL,lower better,-87.53%,N/A,확인 불가,3D Multi-Metal GIDL 시뮬레이션 미실행
+,,,,,
+종합 판정 (Overall Verdict),,,,,
+"PASS (부분) — GIDL 제외 5개 핵심 지표(Ion, Ioff, Ion/Ioff, SS, DIBL) 전부 2D와 3D에서 동일한 개선 방향을 유지함. Ion(+23.6%→+23.0%), Ioff(-70.4%→-65.8%), Ion/Ioff(+317.5%→+259.8%), DIBL(-37.6%→-39.0%)은 2D·3D 모두 뚜렷한 개선을 보이며 백분율 크기도 유사한 수준으로 재현됨. SS는 2D(-0.03%)·3D(-0.05%) 모두 개선 폭이 미미해 사실상 변화 없음(neutral)으로 해석함. GIDL은 3D Multi-Metal 시뮬레이션이 아직 실행되지 않아 3D에서 방향 유지 여부를 확인할 수 없으며, 이는 확인되지 않은 값으로 임의 작성하지 않고 별도 미확인 항목으로 남김 (P05-T04-O07 한계사항 참조).",,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+"Source: 2D %Change — P05-T03-O03 핵심 지표 개선율 (송민호 제출, 검토 필요 상태). 3D %Change — P05-T04-O03 3D Single-Multi 비교표(이번 세션 계산)에서 파생.",,,,,
