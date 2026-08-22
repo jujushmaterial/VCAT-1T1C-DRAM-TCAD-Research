@@ -1,0 +1,82 @@
+P08-T01-O02 — DEVICE-LEVEL PASS / MARGINAL / FAIL BASIS
+Decision status: APPROVED BY EXPERIMENT LEAD BEFORE P8 ELECTRICAL SWEEP
+Approval time recorded in this local package: 2026-08-21 13:37 KST
+Scope: P8 Device-level classification only. This is NOT a DRAM-pass guarantee.
+
+1. Why P2 matched Single is the outer boundary
+P5 is explicitly framed as improvement of the L-H-L Multi-Metal structure against the matched Single-Metal baseline under common extraction conditions.
+Therefore P2 is used as the point where the optimized structure has lost its claimed advantage:
+- Ion lower than P2 -> drive improvement has disappeared.
+- Ioff higher than P2 -> off-leakage improvement has disappeared.
+- DIBL higher than P2 -> electrostatic improvement has disappeared.
+This is a comparative research boundary, not an industry specification.
+
+2. Why P5 Nominal 35/67 is the 100% optimized anchor
+P5 selected 35/67 nm as the balanced 2D Nominal before P8.
+It is therefore a natural pre-P8 optimized reference point.
+Using it does NOT mean 35/67 is a universal physical ideal; it is the project's optimized anchor.
+
+3. Why the 50% retained-improvement line is used for Ion/Ioff/DIBL
+P2 is defined as 0% retained optimized benefit and P5 Nominal as 100%.
+The 50% line is the transparent midpoint between two pre-existing anchors.
+It is intentionally an operational research rule, not a claimed universal device-physics threshold.
+
+P5 49-point Forward back-test was performed before this approval:
+- 50% rule over all 49: PASS 9 / MARGINAL 6 / FAIL 34.
+- The FAIL count is fixed by the P2 outer boundary and stayed 34 for 25–75% tier thresholds.
+- Among the 9 P5-known points inside the planned P8 domain: PASS 8 / MARGINAL 1 / FAIL 0 at 50%.
+- That local classification is unchanged for 25%, 33%, 40%, and 50%, so 50% is not located on an unstable local classification cliff.
+Key anchors behaved coherently:
+  35/67 PASS
+  33/67 PASS
+  35/65 PASS
+  37/63 MARGINAL
+  39/61 FAIL due to DIBL worse than P2
+  41/59 and more aggressive short-M2 cases FAIL with documented leakage/SCE degradation.
+
+4. Why Ioff is evaluated in log space
+Ioff is a positive leakage current whose research relevance is multiplicative/order-level.
+P5 explicitly uses strong/order-level Ioff increase as rejection evidence.
+Using log10 space makes the retained-improvement fraction consistent with multiplicative leakage behavior rather than treating equal absolute ampere changes as equally meaningful.
+
+5. Why DIBL and Ion remain linear
+Ion and DIBL were interpreted as ordinary performance/electrostatic metrics in the P5 comparison, without evidence requiring log scaling.
+Linear interpolation between the matched-Single and optimized-Nominal anchors is therefore the simpler, more transparent choice.
+
+6. Why GIDL is full-grid but NOT a 50% tier metric
+P5 used GIDL as a shortlist/guard rather than as an all-49 ranking objective.
+The measured shortlist GIDL values were all close to the P5 Nominal and far below P2, so there is no pre-P8 evidence that a '50% retained GIDL improvement' is a meaningful PASS/MARGINAL separator.
+P8 therefore:
+- calculates GIDL for every ACTIVE geometry,
+- fails a geometry if GIDL > P2 matched Single,
+- reports GIDL/RIF,
+- but does not use GIDL=50% to split PASS from MARGINAL.
+This preserves P5 research logic while producing a complete P8 leakage guard map.
+
+7. Overall classification
+FAIL:
+- numerical run/extraction invalid, OR
+- Ion < P2, OR
+- Ioff > P2, OR
+- DIBL > P2, OR
+- GIDL > P2.
+
+PASS:
+- all required numerical results valid,
+- Ion/Ioff/DIBL each retain >=50% of P5 improvement over P2,
+- GIDL <= P2.
+
+MARGINAL:
+- no core metric is worse than P2,
+- GIDL guard passes,
+- but one or more of Ion/Ioff/DIBL retain <50% of P5 improvement.
+
+8. Numeric thresholds
+Ion PASS threshold  = 9.475605928656140e-06 A
+Ioff PASS threshold = 1.687325120161349e-15 A
+DIBL PASS threshold = 2.766079953989873 mV/V
+GIDL hard guard     = <= 2.879053060674510e-14 A
+
+9. Final-study interpretation
+The P8 class is a Device-level prediction.
+P9 independently tests whether the P8 Device-level prediction agrees with actual 1T1C DRAM behavior and explicitly analyzes False-Pass / False-Fail.

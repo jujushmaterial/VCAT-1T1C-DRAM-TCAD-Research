@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-22T14:42:59.402Z",
+  "updatedAt": "2026-08-22T14:43:25.785Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -11104,6 +11104,37 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P08-T01-O02": [
+      {
+        "submissionId": "20260822144325-minhosong-mse-9lyDew",
+        "phaseId": 8,
+        "issueNumber": 8,
+        "taskId": "P08-T01",
+        "taskText": "P8 분석조건 및 Device-level 판정기준 확정",
+        "outputId": "P08-T01-O02",
+        "outputText": "Device-level PASS·Marginal·FAIL 수치 기준표",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-22T14:43:25.785Z",
+        "folderPath": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O02/submissions/20260822144325-minhosong-mse-9lyDew",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O02/submissions/20260822144325-minhosong-mse-9lyDew",
+        "summary": "2개 파일 · 6.6KB",
+        "files": [
+          {
+            "name": "P08-T01-O02_Criteria_Rationale_FINAL.txt",
+            "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O02/submissions/20260822144325-minhosong-mse-9lyDew/files/P08-T01-O02_Criteria_Rationale_FINAL.txt",
+            "size": 4184
+          },
+          {
+            "name": "P08-T01-O02_Device_Level_Criteria_FINAL.csv",
+            "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O02/submissions/20260822144325-minhosong-mse-9lyDew/files/P08-T01-O02_Device_Level_Criteria_FINAL.csv",
+            "size": 2592
+          }
+        ]
       }
     ]
   }
