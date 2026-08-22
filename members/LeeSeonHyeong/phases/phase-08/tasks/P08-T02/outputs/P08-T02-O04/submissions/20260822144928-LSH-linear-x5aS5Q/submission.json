@@ -38,5 +38,7 @@
     "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.json",
     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.csv",
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.tsv"
-  }
+  },
+  "comment": "P08-T02-O04 — 변수별 Device-level 허용범위·Limiting Metric\n\n목적\n- primary 31점 안에서 변수별 관측 허용범위와 실제 Window를 제한하는 metric을 정리한다.\n\n결과\n- Xbnd1 OAT @Xbnd2=67: 33~37 nm 전부 PASS\n- Xbnd2 OAT @Xbnd1=35: 63~69 nm 전부 PASS\n- Joint 2D grid: PASS 28, MARGINAL 3, FAIL 0\n- MARGINAL strip: 36/63, 37/63, 37/64\n- 주요 limiting metric: DIBL\n\n주의\n- 단독 OAT boundary는 현재 search domain 안에서 닫히지 않았다.\n- primary 31점 내부에는 FAIL이 없으므로 외곽 hard-fail boundary가 완전히 결정된 것은 아니다.",
+  "commentLabel": "표 설명"
 }
