@@ -1,0 +1,29 @@
+{
+  "submissionId": "20260822144844-LSH-linear-kpfR9g",
+  "phaseId": 8,
+  "issueNumber": 8,
+  "taskId": "P08-T02",
+  "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+  "outputId": "P08-T02-O03",
+  "outputText": "Nominal 중심 OAT·민감도 정리",
+  "uploader": "LSH-linear",
+  "memberName": "이선형",
+  "memberFolder": "LeeSeonHyeong",
+  "type": "files",
+  "uploadedAt": "2026-08-22T14:48:44.666Z",
+  "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O03/submissions/20260822144844-LSH-linear-kpfR9g",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O03/submissions/20260822144844-LSH-linear-kpfR9g",
+  "summary": "2개 파일 · 4.9KB",
+  "files": [
+    {
+      "name": "P08-T02-O03_Nominal_Centerline_OAT.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O03/submissions/20260822144844-LSH-linear-kpfR9g/files/P08-T02-O03_Nominal_Centerline_OAT.csv",
+      "size": 3077
+    },
+    {
+      "name": "P08-T02-O03_Nominal_Local_Sensitivity.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O03/submissions/20260822144844-LSH-linear-kpfR9g/files/P08-T02-O03_Nominal_Local_Sensitivity.csv",
+      "size": 1947
+    }
+  ]
+}
