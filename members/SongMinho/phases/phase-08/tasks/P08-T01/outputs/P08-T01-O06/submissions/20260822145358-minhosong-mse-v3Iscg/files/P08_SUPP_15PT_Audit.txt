@@ -1,0 +1,53 @@
+P08 SUPPLEMENTAL 15-POINT ANALYSIS
+Generated: 2026-08-22
+
+INPUT
+- Split A: P8_SUPP_SPLIT_A_semi302.tar.gz
+- Split B: P8_SUPP_SPLIT_B_semi302.tar.gz
+- Split C: P8_SUPP_SPLIT_C_semi302.tar.gz
+
+RUN INTEGRITY
+- 15 geometries total
+- 45 SDevice runs total
+- Forward 0.05: 15/15 valid
+- Forward 1.0: 15/15 valid
+- GIDL: 15/15 valid
+
+CLASSIFICATION
+- PASS: 7/15
+- MARGINAL: 6/15
+- FAIL: 2/15
+
+FAIL POINTS
+- 38/62: DIBL exceeds the P2 DIBL hard guard
+- 39/62: DIBL exceeds the P2 DIBL hard guard
+
+BOUNDARY PATTERN
+At B2=62:
+33 PASS -> 34 PASS -> 35 MARGINAL -> 36 MARGINAL ->
+37 MARGINAL -> 38 FAIL -> 39 FAIL
+
+At B1=38:
+62 FAIL -> 63 MARGINAL -> 64 MARGINAL -> 65 MARGINAL ->
+66 PASS -> 67 PASS -> 68 PASS -> 69 PASS -> 70 PASS
+
+PHYSICAL / INTERPRETIVE RESULT
+The official 31-point result showed a lower-right MARGINAL strip controlled
+by DIBL. The supplemental points extend the same trend and locate actual
+Device FAIL points outside the official domain. This confirms that the
+high-Xbnd1 / low-Xbnd2 direction is the limiting geometry direction.
+
+GIDL
+All supplemental points pass the frozen P2 GIDL hard guard. GIDL is not the
+limiting mechanism in this 15-point extension.
+
+GOVERNANCE
+These 15 geometries were run after the official P8 candidate grid was sealed.
+They are supplemental evidence and must not be silently re-labeled as the
+original P08-T02 official 31-point campaign.
+
+SEALED HOLDOUTS
+34/64, 34/68, 36/64, 36/68 remain excluded from these supplemental runs.
+
+NO GITHUB WRITE
+No GitHub file, Issue, Timeline, branch, commit, push, or PR was modified.

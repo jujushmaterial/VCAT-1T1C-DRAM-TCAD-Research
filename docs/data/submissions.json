@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-22T14:52:18.588Z",
+  "updatedAt": "2026-08-22T14:53:58.770Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -11679,6 +11679,47 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P08-T01-O06": [
+      {
+        "submissionId": "20260822145358-minhosong-mse-v3Iscg",
+        "phaseId": 8,
+        "issueNumber": 8,
+        "taskId": "P08-T01",
+        "taskText": "P8 분석조건 및 Device-level 판정기준 확정",
+        "outputId": "P08-T01-O06",
+        "outputText": "SUPPLEMENTAL_BOUNDARY_EVIDENCE(참고용)",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-22T14:53:58.770Z",
+        "folderPath": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O06/submissions/20260822145358-minhosong-mse-v3Iscg",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O06/submissions/20260822145358-minhosong-mse-v3Iscg",
+        "summary": "4개 파일 · 7.5KB",
+        "files": [
+          {
+            "name": "P08_0p5nm_ClassTransition_Refinement_Candidates.csv",
+            "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O06/submissions/20260822145358-minhosong-mse-v3Iscg/files/P08_0p5nm_ClassTransition_Refinement_Candidates.csv",
+            "size": 657
+          },
+          {
+            "name": "P08_Official31_plus_Supp15_Class_Map.csv",
+            "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O06/submissions/20260822145358-minhosong-mse-v3Iscg/files/P08_Official31_plus_Supp15_Class_Map.csv",
+            "size": 730
+          },
+          {
+            "name": "P08_SUPP_15PT_Audit.txt",
+            "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O06/submissions/20260822145358-minhosong-mse-v3Iscg/files/P08_SUPP_15PT_Audit.txt",
+            "size": 1562
+          },
+          {
+            "name": "P08_SUPP_15PT_Raw_Classified.csv",
+            "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O06/submissions/20260822145358-minhosong-mse-v3Iscg/files/P08_SUPP_15PT_Raw_Classified.csv",
+            "size": 4765
+          }
+        ]
       }
     ]
   }
