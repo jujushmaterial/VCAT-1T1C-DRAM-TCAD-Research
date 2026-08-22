@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:49:02+09:00",
+  "generatedAt": "2026-08-22T23:49:53+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -29770,14 +29770,21 @@
                       "size": 1947
                     }
                   ],
+                  "comment": "P08-T02-O03 — Nominal 중심 OAT·민감도 정리\n\n목적\n- 별도 OAT campaign을 중복 실행하지 않고 primary 31-point grid의 nominal centerline을 재사용해 변수별 국소 민감도를 정리한다.\n\nCenterline\n- Xbnd2=67 nm 고정, Xbnd1=33~37 nm: 모두 PASS\n- Xbnd1=35 nm 고정, Xbnd2=63~69 nm: 모두 PASS\n\n주요 경향\n- Xbnd1 증가 방향에서 Ioff/DIBL 악화\n- Xbnd2 증가 방향에서 Ioff/DIBL 개선\n- Nominal 주변 local slope와 curvature를 함께 기록\n\n해석\n- OAT만 보면 전체 범위가 안전해 보이지만, 조합 geometry에서는 MARGINAL이 발생하므로 2D interaction 분석이 필요하다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-22T14:48:44.666Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -29791,13 +29798,65 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260822144928-LSH-linear-x5aS5Q",
+                  "phaseId": 8,
+                  "issueNumber": 8,
+                  "taskId": "P08-T02",
+                  "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+                  "outputId": "P08-T02-O04",
+                  "outputText": "변수별 Device-level 허용범위·Limiting Metric",
+                  "uploader": "LSH-linear",
+                  "memberName": "이선형",
+                  "memberFolder": "LeeSeonHyeong",
+                  "type": "table",
+                  "uploadedAt": "2026-08-22T14:49:28.753Z",
+                  "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q",
+                  "summary": "4행 × 10열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.tsv",
+                      "size": 935
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.csv",
+                      "size": 944
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.json",
+                      "size": 1437
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 4,
+                    "columnCount": 10,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.tsv"
+                  },
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P08-T02-O05",
@@ -30565,14 +30624,21 @@
                   "size": 1947
                 }
               ],
+              "comment": "P08-T02-O03 — Nominal 중심 OAT·민감도 정리\n\n목적\n- 별도 OAT campaign을 중복 실행하지 않고 primary 31-point grid의 nominal centerline을 재사용해 변수별 국소 민감도를 정리한다.\n\nCenterline\n- Xbnd2=67 nm 고정, Xbnd1=33~37 nm: 모두 PASS\n- Xbnd1=35 nm 고정, Xbnd2=63~69 nm: 모두 PASS\n\n주요 경향\n- Xbnd1 증가 방향에서 Ioff/DIBL 악화\n- Xbnd2 증가 방향에서 Ioff/DIBL 개선\n- Nominal 주변 local slope와 curvature를 함께 기록\n\n해석\n- OAT만 보면 전체 범위가 안전해 보이지만, 조합 geometry에서는 MARGINAL이 발생하므로 2D interaction 분석이 필요하다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-22T14:48:44.666Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -30587,13 +30653,65 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260822144928-LSH-linear-x5aS5Q",
+              "phaseId": 8,
+              "issueNumber": 8,
+              "taskId": "P08-T02",
+              "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+              "outputId": "P08-T02-O04",
+              "outputText": "변수별 Device-level 허용범위·Limiting Metric",
+              "uploader": "LSH-linear",
+              "memberName": "이선형",
+              "memberFolder": "LeeSeonHyeong",
+              "type": "table",
+              "uploadedAt": "2026-08-22T14:49:28.753Z",
+              "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q",
+              "summary": "4행 × 10열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.tsv",
+                  "size": 935
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.csv",
+                  "size": 944
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.json",
+                  "size": 1437
+                }
+              ],
+              "table": {
+                "rowCount": 4,
+                "columnCount": 10,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.tsv"
+              },
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P08-T02"
         },
         {
