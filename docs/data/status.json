@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T19:45:07+09:00",
+  "generatedAt": "2026-08-22T20:32:38+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -23815,9 +23815,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-22T10:44:46.148Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -25984,9 +25989,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-22T10:44:46.148Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
