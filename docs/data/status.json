@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:46:22+09:00",
+  "generatedAt": "2026-08-22T23:46:38+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -29465,7 +29465,7 @@
             {
               "id": "P08-T01-O04",
               "text": "P7 핵심 변수·전체 후보 2D Grid 정의표",
-              "type": "table",
+              "type": "files",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -30120,7 +30120,7 @@
         {
           "id": "P08-T01-O04",
           "text": "P7 핵심 변수·전체 후보 2D Grid 정의표",
-          "type": "table",
+          "type": "files",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -30500,8 +30500,8 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-22T14:43:12Z",
-      "lastModifiedBy": "jujushmaterial",
+      "updatedAt": "2026-08-22T14:46:27Z",
+      "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
     },
