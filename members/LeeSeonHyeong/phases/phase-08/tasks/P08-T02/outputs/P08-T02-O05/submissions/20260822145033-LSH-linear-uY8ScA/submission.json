@@ -1,0 +1,44 @@
+{
+  "submissionId": "20260822145033-LSH-linear-uY8ScA",
+  "phaseId": 8,
+  "issueNumber": 8,
+  "taskId": "P08-T02",
+  "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+  "outputId": "P08-T02-O05",
+  "outputText": "변수 간 Interaction·결합 영향 분석",
+  "uploader": "LSH-linear",
+  "memberName": "이선형",
+  "memberFolder": "LeeSeonHyeong",
+  "type": "files",
+  "uploadedAt": "2026-08-22T14:50:33.550Z",
+  "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA",
+  "summary": "5개 파일 · 84.8KB",
+  "files": [
+    {
+      "name": "P08-T02-O05_Interaction_Interpretation.txt",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_Interaction_Interpretation.txt",
+      "size": 766
+    },
+    {
+      "name": "P08-T02-O05_Interaction_Summary.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_Interaction_Summary.csv",
+      "size": 1108
+    },
+    {
+      "name": "P08-T02-O05_Supplemental_15pt_Boundary_Evidence.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_Supplemental_15pt_Boundary_Evidence.csv",
+      "size": 3565
+    },
+    {
+      "name": "P08-T02-O05_Supplemental_15pt_Explanation.txt",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_Supplemental_15pt_Explanation.txt",
+      "size": 1516
+    },
+    {
+      "name": "P08-T02-O05_DIBL_Conditional_Interaction.png",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_DIBL_Conditional_Interaction.png",
+      "size": 79931
+    }
+  ]
+}

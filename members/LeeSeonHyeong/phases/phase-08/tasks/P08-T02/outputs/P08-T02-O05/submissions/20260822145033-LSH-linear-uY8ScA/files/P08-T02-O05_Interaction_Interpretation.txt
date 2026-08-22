@@ -1,0 +1,17 @@
+P08-T02-O05 — Interaction interpretation
+
+Primary evidence: preregistered active 31-point P8 grid only.
+
+Observed pattern:
+- At nominal centerlines, all tested Xbnd1 and Xbnd2 points remain Device PASS.
+- The adverse Xbnd1 effect is stronger at low Xbnd2.
+- The beneficial Xbnd2 effect is stronger at high Xbnd1.
+- This conditional-slope dependence produces a lower-right interaction strip:
+  36/63, 37/63, 37/64 = MARGINAL.
+- All three MARGINAL points are limited by DIBL.
+- No Device FAIL is observed inside the official active 31-point domain.
+
+Interpretation boundary:
+This supports an Xbnd1–Xbnd2 interaction within the tested L-H-L gate-segmentation
+geometry domain. It does not establish a general process-variation model or a
+3D/DRAM tolerance boundary.

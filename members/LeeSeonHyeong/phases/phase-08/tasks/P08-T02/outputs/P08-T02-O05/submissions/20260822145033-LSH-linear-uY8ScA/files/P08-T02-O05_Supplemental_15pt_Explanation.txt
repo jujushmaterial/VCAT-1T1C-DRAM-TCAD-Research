@@ -1,0 +1,44 @@
+P08-T02-O05 — Supplemental 15-point boundary evidence
+
+Status
+- POST-HOC SUPPLEMENTAL evidence.
+- Not part of the preregistered primary 35-point candidate grid.
+- Not used to retroactively redefine P08-T01-O04 or the sealed Holdout set.
+
+Why it was run
+The primary active 31-point map established a lower-right DIBL-limited
+MARGINAL strip but contained no Device FAIL. Therefore the high-Xbnd1 /
+low-Xbnd2 direction remained open beyond the original search domain.
+
+Execution
+- 15 additional geometries
+- Forward Vd=0.05 V, Forward Vd=1.0 V, GIDL for each geometry
+- 45/45 SDevice runs valid
+
+Result
+- PASS 7
+- MARGINAL 6
+- FAIL 2
+- FAIL: 38/62, 39/62
+- Both FAIL points are caused by DIBL exceeding the P2 hard boundary.
+- GIDL remains below the P2 guard at all supplemental points.
+
+Boundary evidence
+At Xbnd2=62:
+33 PASS -> 34 PASS -> 35 MARGINAL -> 36 MARGINAL -> 37 MARGINAL
+-> 38 FAIL -> 39 FAIL
+
+At Xbnd1=38:
+62 FAIL -> 63 MARGINAL -> 64 MARGINAL -> 65 MARGINAL
+-> 66 PASS -> 67 PASS -> 68 PASS -> 69 PASS -> 70 PASS
+
+Interpretation
+This directly supports the primary-grid conclusion that the high-Xbnd1 /
+low-Xbnd2 direction is the limiting geometry direction and shows that the
+primary MARGINAL strip continues to an actual Device FAIL region outside the
+original domain.
+
+Governance / reporting
+Use this as supplemental boundary-bracketing evidence in P08-T02-O05/O06.
+Do not label it as part of the original 31-point primary campaign.
+Do not use any sealed Holdout actual value; none was executed here.

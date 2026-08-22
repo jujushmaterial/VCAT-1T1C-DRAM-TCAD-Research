@@ -1,0 +1,5 @@
+﻿Metric,Scale,Slope_Unit,dMetric_dB1_at_B2_63,dMetric_dB1_at_B2_69,B1_Slope_Change_69_minus_63,dMetric_dB2_at_B1_33,dMetric_dB2_at_B1_37,B2_Slope_Change_37_minus_33,Interaction_Interpretation
+Ion_A,linear,A/nm,2.5245712561350334e-08,2.0878044433824928e-08,-4.367668127525406e-09,-2.0268147872516437e-08,-2.3179926624200042e-08,-2.911778751683605e-09,Conditional slope changes across the other boundary variable
+Ioff_A,log10,dec/nm,0.02894887629860543,0.01772147042506811,-0.011227405873537322,-0.020901139202457546,-0.028386076451482428,-0.007484937249024881,Adverse B1 effect is stronger at low B2; beneficial B2 effect is stronger at high B1
+DIBL_mV_per_V,linear,mV/V/nm,0.15626973185444093,0.06997748858888464,-0.08629224326555629,-0.11003603635944037,-0.1675641985364779,-0.05752816217703752,Adverse B1 effect is stronger at low B2; beneficial B2 effect is stronger at high B1
+GIDL_abs_A,log10,dec/nm,3.613002151148237e-05,1.2766987844692324e-05,-2.3363033666790045e-05,-0.00039958113311773974,-0.0004151564888955998,-1.5575355777860066e-05,Conditional slope changes across the other boundary variable
