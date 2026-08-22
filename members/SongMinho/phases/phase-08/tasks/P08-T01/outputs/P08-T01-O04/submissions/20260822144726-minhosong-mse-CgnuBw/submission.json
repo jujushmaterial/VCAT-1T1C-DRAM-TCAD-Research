@@ -38,5 +38,7 @@
     "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O04/submissions/20260822144726-minhosong-mse-CgnuBw/table.json",
     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O04/submissions/20260822144726-minhosong-mse-CgnuBw/table.csv",
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O04/submissions/20260822144726-minhosong-mse-CgnuBw/table.tsv"
-  }
+  },
+  "comment": "P08-T01-O04 — P7 핵심 변수·전체 후보 2D Grid 정의표\n\n목적\n- P8 결과 확인 전에 전체 candidate geometry domain을 고정한다.\n\nGrid\n- Xbnd1: 33, 34, 35, 36, 37 nm\n- Xbnd2: 63, 64, 65, 66, 67, 68, 69 nm\n- 총 35 geometry\n- Nominal: 35/67\n\n해석\n- Xbnd1/Xbnd2만 독립변수이다.\n- M1=Xbnd1-20, M2=Xbnd2-Xbnd1, M3=80-Xbnd2는 파생값이다.\n\n주의\n- 이 35점은 최종 tolerance 자체가 아니라 P8 1차 Device Window 탐색 domain이다.",
+  "commentLabel": "표 설명"
 }
