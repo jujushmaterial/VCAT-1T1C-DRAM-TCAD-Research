@@ -45,5 +45,19 @@
       "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O07/submissions/20260822145543-LSH-linear-294Bpw/files/P08-T02_SDevice_93Run_Convergence_Audit.csv",
       "size": 3134
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-22T14:55:43.097Z"
+      }
+    ],
+    "legacy": false
+  }
 }
