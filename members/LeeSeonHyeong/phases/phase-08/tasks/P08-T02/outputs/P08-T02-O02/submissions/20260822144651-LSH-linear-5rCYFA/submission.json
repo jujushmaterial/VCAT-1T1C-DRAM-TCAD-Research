@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260822144651-LSH-linear-5rCYFA",
+  "phaseId": 8,
+  "issueNumber": 8,
+  "taskId": "P08-T02",
+  "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+  "outputId": "P08-T02-O02",
+  "outputText": "2D Tolerance Sweep Raw Data",
+  "uploader": "LSH-linear",
+  "memberName": "이선형",
+  "memberFolder": "LeeSeonHyeong",
+  "type": "table",
+  "uploadedAt": "2026-08-22T14:46:51.922Z",
+  "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA",
+  "summary": "32행 × 41열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.tsv",
+      "size": 14953
+    },
+    {
+      "name": "table.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.csv",
+      "size": 14988
+    },
+    {
+      "name": "table.json",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.json",
+      "size": 27240
+    }
+  ],
+  "table": {
+    "rowCount": 32,
+    "columnCount": 41,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.tsv"
+  }
+}
