@@ -1,0 +1,64 @@
+{
+  "submissionId": "20260822145120-LSH-linear-8U7ynw",
+  "phaseId": 8,
+  "issueNumber": 8,
+  "taskId": "P08-T02",
+  "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+  "outputId": "P08-T02-O06",
+  "outputText": "1차 Device-level 2D Tolerance Window",
+  "uploader": "LSH-linear",
+  "memberName": "이선형",
+  "memberFolder": "LeeSeonHyeong",
+  "type": "files",
+  "uploadedAt": "2026-08-22T14:51:20.996Z",
+  "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O06/submissions/20260822145120-LSH-linear-8U7ynw",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O06/submissions/20260822145120-LSH-linear-8U7ynw",
+  "summary": "9개 파일 · 231.5KB",
+  "files": [
+    {
+      "name": "P08-T02-O06_First_2D_Window_Matrix.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O06/submissions/20260822145120-LSH-linear-8U7ynw/files/P08-T02-O06_First_2D_Window_Matrix.csv",
+      "size": 244
+    },
+    {
+      "name": "P08-T02-O06_Primary31_plus_Supp15_Tiered_Boundary_Evidence.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O06/submissions/20260822145120-LSH-linear-8U7ynw/files/P08-T02-O06_Primary31_plus_Supp15_Tiered_Boundary_Evidence.csv",
+      "size": 5908
+    },
+    {
+      "name": "P08-T02-O06_Primary31_plus_Supp15_Tiered_Map.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O06/submissions/20260822145120-LSH-linear-8U7ynw/files/P08-T02-O06_Primary31_plus_Supp15_Tiered_Map.csv",
+      "size": 705
+    },
+    {
+      "name": "P08-T02-O06_Primary31_plus_Supp15_Tiered_Map.png",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O06/submissions/20260822145120-LSH-linear-8U7ynw/files/P08-T02-O06_Primary31_plus_Supp15_Tiered_Map.png",
+      "size": 82022
+    },
+    {
+      "name": "P08-T02-O06_Supplemental_Boundary_Interpretation.txt",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O06/submissions/20260822145120-LSH-linear-8U7ynw/files/P08-T02-O06_Supplemental_Boundary_Interpretation.txt",
+      "size": 1176
+    },
+    {
+      "name": "P08-T02-O06_Window_Summary.txt",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O06/submissions/20260822145120-LSH-linear-8U7ynw/files/P08-T02-O06_Window_Summary.txt",
+      "size": 396
+    },
+    {
+      "name": "P08-T02-O06_Device_Class_Map.png",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O06/submissions/20260822145120-LSH-linear-8U7ynw/files/P08-T02-O06_Device_Class_Map.png",
+      "size": 54416
+    },
+    {
+      "name": "P08-T02-O06_DIBL_Map.png",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O06/submissions/20260822145120-LSH-linear-8U7ynw/files/P08-T02-O06_DIBL_Map.png",
+      "size": 87225
+    },
+    {
+      "name": "P08-T02-O06_First_2D_Window_Long.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O06/submissions/20260822145120-LSH-linear-8U7ynw/files/P08-T02-O06_First_2D_Window_Long.csv",
+      "size": 4925
+    }
+  ]
+}

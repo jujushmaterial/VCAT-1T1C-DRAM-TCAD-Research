@@ -1,0 +1,28 @@
+P08-T02-O06 — Primary Window and supplemental boundary-extension interpretation
+
+Primary 31-point result
+- PASS 28
+- MARGINAL 3: 36/63, 37/63, 37/64
+- FAIL 0
+- This is the preregistered first 2D Device-level Window evidence.
+
+Supplemental 15-point result
+- PASS 7
+- MARGINAL 6
+- FAIL 2: 38/62, 39/62
+- This was run after the primary map to bracket the previously open
+  high-Xbnd1 / low-Xbnd2 direction.
+
+How the two evidence tiers are used
+1. Primary 31 points define the official P08-T02 first 2D Window inside the
+   preregistered candidate domain.
+2. Supplemental 15 points are not merged as if they were preregistered.
+3. Supplemental evidence confirms that the primary DIBL-limited MARGINAL strip
+   progresses to an actual FAIL region outside the original domain.
+4. The combined tiered map can therefore be used to justify boundary direction,
+   outside/FAIL representative selection for P08-T03, and the statement that
+   DIBL is the current limiting metric.
+5. It is still not the final P08-T04 3D-calibrated Window.
+
+The supplemental evidence is scientifically important and should be preserved
+in the GitHub record, but its post-hoc status must remain explicit.

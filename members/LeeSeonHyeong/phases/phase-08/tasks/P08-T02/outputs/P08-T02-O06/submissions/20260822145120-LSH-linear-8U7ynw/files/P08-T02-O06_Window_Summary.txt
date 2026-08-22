@@ -1,0 +1,12 @@
+P08-T02-O06 — First Device-level 2D Window summary
+
+Primary active grid result:
+- PASS: 28 / 31
+- MARGINAL: 3 / 31
+- FAIL: 0 / 31
+- MARGINAL points: 36/63, 37/63, 37/64
+- Limiting metric for all MARGINAL points: DIBL
+- Sealed Holdouts remain unexecuted: 34/64, 34/68, 36/64, 36/68
+
+This is a first 2D Device-level Window, not a DRAM PASS map and not yet the
+P08-T04 3D-calibrated final Window.
