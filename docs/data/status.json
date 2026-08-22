@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:46:38+09:00",
+  "generatedAt": "2026-08-22T23:47:13+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -29465,7 +29465,7 @@
             {
               "id": "P08-T01-O04",
               "text": "P7 핵심 변수·전체 후보 2D Grid 정의표",
-              "type": "files",
+              "type": "table",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -29600,13 +29600,65 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260822144651-LSH-linear-5rCYFA",
+                  "phaseId": 8,
+                  "issueNumber": 8,
+                  "taskId": "P08-T02",
+                  "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+                  "outputId": "P08-T02-O02",
+                  "outputText": "2D Tolerance Sweep Raw Data",
+                  "uploader": "LSH-linear",
+                  "memberName": "이선형",
+                  "memberFolder": "LeeSeonHyeong",
+                  "type": "table",
+                  "uploadedAt": "2026-08-22T14:46:51.922Z",
+                  "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA",
+                  "summary": "32행 × 41열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.tsv",
+                      "size": 14953
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.csv",
+                      "size": 14988
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.json",
+                      "size": 27240
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 32,
+                    "columnCount": 41,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.tsv"
+                  },
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P08-T02-O03",
@@ -30120,7 +30172,7 @@
         {
           "id": "P08-T01-O04",
           "text": "P7 핵심 변수·전체 후보 2D Grid 정의표",
-          "type": "files",
+          "type": "table",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -30237,13 +30289,65 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260822144651-LSH-linear-5rCYFA",
+              "phaseId": 8,
+              "issueNumber": 8,
+              "taskId": "P08-T02",
+              "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+              "outputId": "P08-T02-O02",
+              "outputText": "2D Tolerance Sweep Raw Data",
+              "uploader": "LSH-linear",
+              "memberName": "이선형",
+              "memberFolder": "LeeSeonHyeong",
+              "type": "table",
+              "uploadedAt": "2026-08-22T14:46:51.922Z",
+              "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA",
+              "summary": "32행 × 41열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.tsv",
+                  "size": 14953
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.csv",
+                  "size": 14988
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.json",
+                  "size": 27240
+                }
+              ],
+              "table": {
+                "rowCount": 32,
+                "columnCount": 41,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.tsv"
+              },
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P08-T02"
         },
         {
@@ -30500,7 +30604,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-22T14:46:27Z",
+      "updatedAt": "2026-08-22T14:47:10Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
