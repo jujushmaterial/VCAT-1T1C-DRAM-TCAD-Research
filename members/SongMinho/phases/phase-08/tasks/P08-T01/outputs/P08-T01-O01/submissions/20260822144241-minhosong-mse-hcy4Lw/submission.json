@@ -1,0 +1,42 @@
+{
+  "submissionId": "20260822144241-minhosong-mse-hcy4Lw",
+  "phaseId": 8,
+  "issueNumber": 8,
+  "taskId": "P08-T01",
+  "taskText": "P8 분석조건 및 Device-level 판정기준 확정",
+  "outputId": "P08-T01-O01",
+  "outputText": "P6 Nominal·Fixed WF·공통 Simulation 입력표",
+  "uploader": "minhosong-mse",
+  "memberName": "송민호",
+  "memberFolder": "SongMinho",
+  "type": "table",
+  "uploadedAt": "2026-08-22T14:42:41.888Z",
+  "folderPath": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O01/submissions/20260822144241-minhosong-mse-hcy4Lw",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O01/submissions/20260822144241-minhosong-mse-hcy4Lw",
+  "summary": "55행 × 7열 표",
+  "files": [
+    {
+      "name": "table.tsv",
+      "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O01/submissions/20260822144241-minhosong-mse-hcy4Lw/table.tsv",
+      "size": 5441
+    },
+    {
+      "name": "table.csv",
+      "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O01/submissions/20260822144241-minhosong-mse-hcy4Lw/table.csv",
+      "size": 5517
+    },
+    {
+      "name": "table.json",
+      "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O01/submissions/20260822144241-minhosong-mse-hcy4Lw/table.json",
+      "size": 9660
+    }
+  ],
+  "table": {
+    "rowCount": 55,
+    "columnCount": 7,
+    "hasHeader": true,
+    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O01/submissions/20260822144241-minhosong-mse-hcy4Lw/table.json",
+    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O01/submissions/20260822144241-minhosong-mse-hcy4Lw/table.csv",
+    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O01/submissions/20260822144241-minhosong-mse-hcy4Lw/table.tsv"
+  }
+}
