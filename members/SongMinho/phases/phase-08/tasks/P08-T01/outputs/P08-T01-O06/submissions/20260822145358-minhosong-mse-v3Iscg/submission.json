@@ -35,5 +35,19 @@
       "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O06/submissions/20260822145358-minhosong-mse-v3Iscg/files/P08_SUPP_15PT_Raw_Classified.csv",
       "size": 4765
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-22T14:53:58.770Z"
+      }
+    ],
+    "legacy": false
+  }
 }
