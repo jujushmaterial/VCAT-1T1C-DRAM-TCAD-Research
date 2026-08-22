@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:49:53+09:00",
+  "generatedAt": "2026-08-22T23:50:54+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -29846,14 +29846,21 @@
                     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.csv",
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.tsv"
                   },
+                  "comment": "P08-T02-O04 — 변수별 Device-level 허용범위·Limiting Metric\n\n목적\n- primary 31점 안에서 변수별 관측 허용범위와 실제 Window를 제한하는 metric을 정리한다.\n\n결과\n- Xbnd1 OAT @Xbnd2=67: 33~37 nm 전부 PASS\n- Xbnd2 OAT @Xbnd1=35: 63~69 nm 전부 PASS\n- Joint 2D grid: PASS 28, MARGINAL 3, FAIL 0\n- MARGINAL strip: 36/63, 37/63, 37/64\n- 주요 limiting metric: DIBL\n\n주의\n- 단독 OAT boundary는 현재 search domain 안에서 닫히지 않았다.\n- primary 31점 내부에는 FAIL이 없으므로 외곽 hard-fail boundary가 완전히 결정된 것은 아니다.",
+                  "commentLabel": "표 설명",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-22T14:49:28.753Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -29867,13 +29874,67 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260822145033-LSH-linear-uY8ScA",
+                  "phaseId": 8,
+                  "issueNumber": 8,
+                  "taskId": "P08-T02",
+                  "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+                  "outputId": "P08-T02-O05",
+                  "outputText": "변수 간 Interaction·결합 영향 분석",
+                  "uploader": "LSH-linear",
+                  "memberName": "이선형",
+                  "memberFolder": "LeeSeonHyeong",
+                  "type": "files",
+                  "uploadedAt": "2026-08-22T14:50:33.550Z",
+                  "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA",
+                  "summary": "5개 파일 · 84.8KB",
+                  "files": [
+                    {
+                      "name": "P08-T02-O05_Interaction_Interpretation.txt",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_Interaction_Interpretation.txt",
+                      "size": 766
+                    },
+                    {
+                      "name": "P08-T02-O05_Interaction_Summary.csv",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_Interaction_Summary.csv",
+                      "size": 1108
+                    },
+                    {
+                      "name": "P08-T02-O05_Supplemental_15pt_Boundary_Evidence.csv",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_Supplemental_15pt_Boundary_Evidence.csv",
+                      "size": 3565
+                    },
+                    {
+                      "name": "P08-T02-O05_Supplemental_15pt_Explanation.txt",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_Supplemental_15pt_Explanation.txt",
+                      "size": 1516
+                    },
+                    {
+                      "name": "P08-T02-O05_DIBL_Conditional_Interaction.png",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_DIBL_Conditional_Interaction.png",
+                      "size": 79931
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P08-T02-O06",
@@ -30701,14 +30762,21 @@
                 "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.csv",
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O04/submissions/20260822144928-LSH-linear-x5aS5Q/table.tsv"
               },
+              "comment": "P08-T02-O04 — 변수별 Device-level 허용범위·Limiting Metric\n\n목적\n- primary 31점 안에서 변수별 관측 허용범위와 실제 Window를 제한하는 metric을 정리한다.\n\n결과\n- Xbnd1 OAT @Xbnd2=67: 33~37 nm 전부 PASS\n- Xbnd2 OAT @Xbnd1=35: 63~69 nm 전부 PASS\n- Joint 2D grid: PASS 28, MARGINAL 3, FAIL 0\n- MARGINAL strip: 36/63, 37/63, 37/64\n- 주요 limiting metric: DIBL\n\n주의\n- 단독 OAT boundary는 현재 search domain 안에서 닫히지 않았다.\n- primary 31점 내부에는 FAIL이 없으므로 외곽 hard-fail boundary가 완전히 결정된 것은 아니다.",
+              "commentLabel": "표 설명",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-22T14:49:28.753Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -30723,13 +30791,67 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260822145033-LSH-linear-uY8ScA",
+              "phaseId": 8,
+              "issueNumber": 8,
+              "taskId": "P08-T02",
+              "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+              "outputId": "P08-T02-O05",
+              "outputText": "변수 간 Interaction·결합 영향 분석",
+              "uploader": "LSH-linear",
+              "memberName": "이선형",
+              "memberFolder": "LeeSeonHyeong",
+              "type": "files",
+              "uploadedAt": "2026-08-22T14:50:33.550Z",
+              "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA",
+              "summary": "5개 파일 · 84.8KB",
+              "files": [
+                {
+                  "name": "P08-T02-O05_Interaction_Interpretation.txt",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_Interaction_Interpretation.txt",
+                  "size": 766
+                },
+                {
+                  "name": "P08-T02-O05_Interaction_Summary.csv",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_Interaction_Summary.csv",
+                  "size": 1108
+                },
+                {
+                  "name": "P08-T02-O05_Supplemental_15pt_Boundary_Evidence.csv",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_Supplemental_15pt_Boundary_Evidence.csv",
+                  "size": 3565
+                },
+                {
+                  "name": "P08-T02-O05_Supplemental_15pt_Explanation.txt",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_Supplemental_15pt_Explanation.txt",
+                  "size": 1516
+                },
+                {
+                  "name": "P08-T02-O05_DIBL_Conditional_Interaction.png",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O05/submissions/20260822145033-LSH-linear-uY8ScA/files/P08-T02-O05_DIBL_Conditional_Interaction.png",
+                  "size": 79931
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P08-T02"
         },
         {
