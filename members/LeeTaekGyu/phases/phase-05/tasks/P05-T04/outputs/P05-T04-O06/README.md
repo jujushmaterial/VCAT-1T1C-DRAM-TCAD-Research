@@ -9,4 +9,5 @@
 
 | 버전 | 제출 시각 | 유형 | 제출본 |
 |---|---|---|---|
+| v2 | 2026-08-22T09:19:41.252Z | table | [열기](./submissions/20260822091941-LEE-TAEK-GYU-Y6jtng/) |
 | v1 | 2026-08-22T09:19:17.293Z | table | [열기](./submissions/20260822091917-LEE-TAEK-GYU-cVFNEg/) |
