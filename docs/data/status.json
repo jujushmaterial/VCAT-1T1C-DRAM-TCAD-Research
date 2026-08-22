@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:48:03+09:00",
+  "generatedAt": "2026-08-22T23:48:27+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -29729,7 +29729,7 @@
             {
               "id": "P08-T02-O03",
               "text": "Nominal 중심 OAT·민감도 정리",
-              "type": "table",
+              "type": "files",
               "review": "recommended",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -30485,7 +30485,7 @@
         {
           "id": "P08-T02-O03",
           "text": "Nominal 중심 OAT·민감도 정리",
-          "type": "table",
+          "type": "files",
           "review": "recommended",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -30736,8 +30736,8 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-22T14:47:10Z",
-      "lastModifiedBy": "minhosong-mse",
+      "updatedAt": "2026-08-22T14:48:12Z",
+      "lastModifiedBy": "LSH-linear",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
     },
