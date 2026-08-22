@@ -62,5 +62,19 @@
     }
   ],
   "comment": "P08-T02-O06 — 1차 Device-level 2D Tolerance Window\n\n목적\n- preregistered primary 31-point campaign으로 P8의 첫 Device-level geometry Window를 시각화한다.\n\n결과\n- PASS: 28/31\n- MARGINAL: 3/31\n- FAIL: 0/31\n- MARGINAL: 36/63, 37/63, 37/64\n- Holdout: 34/64, 34/68, 36/64, 36/68 — 미실행 상태 유지\n- limiting metric: DIBL\n\n포함 시각자료\n- Device class map\n- DIBL 2D map\n- long-form / matrix CSV\n\n주의\n- 이 산출물은 '1차 2D Device-level Window'이다.\n- 최종 P08-T04 3D-calibrated Window 또는 DRAM PASS map으로 표현하지 않는다.\n\nSupplemental extension의 역할\n- primary 31점만으로는 original domain 안에서 FAIL이 없었다.\n- 이후 15점 boundary reconnaissance에서 38/62, 39/62가 DIBL FAIL로 확인되어 high-Xbnd1/low-Xbnd2 방향의 외부 FAIL 영역을 bracket하였다.\n- 따라서 O06에는 primary Window와 함께 evidence tier를 구분한 primary+supplemental map을 추가한다.\n- supplemental 15점은 original preregistered 31점으로 재분류하지 않는다.",
-  "commentLabel": "제출 메모"
+  "commentLabel": "제출 메모",
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-22T14:51:20.996Z"
+      }
+    ],
+    "legacy": false
+  }
 }
