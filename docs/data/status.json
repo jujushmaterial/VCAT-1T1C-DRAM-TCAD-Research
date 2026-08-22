@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:43:47+09:00",
+  "generatedAt": "2026-08-22T23:45:33+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -29375,14 +29375,21 @@
                       "size": 2592
                     }
                   ],
+                  "comment": "P08-T01-O02 — Device-level PASS·MARGINAL·FAIL 수치 기준표\n\n목적\n- P8 결과를 보기 전에 Device-level 판정기준을 고정하여 post-hoc 판정을 방지한다.\n\n핵심 기준\n- FAIL: required run/extraction invalid 또는 Ion/Ioff/DIBL/GIDL 중 P2 hard boundary 위반\n- PASS: Ion/Ioff/DIBL이 P2→P5 개선량의 50% 이상을 유지하고 GIDL P2 guard 통과\n- MARGINAL: P2보다 악화되지는 않았지만 core metric 중 하나 이상이 50% 개선량을 유지하지 못함\n- GIDL은 P2 hard guard, SS/Vth는 monitor metric으로 사용한다.\n\n주의\n- 이 판정은 DRAM PASS가 아니라 단일 Device-level 판정이다.\n- 50% retention은 본 연구에서 결과 전에 정한 operational criterion이다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-22T14:43:25.785Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -29468,13 +29475,65 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260822144516-LSH-linear-NJ2JWw",
+                  "phaseId": 8,
+                  "issueNumber": 8,
+                  "taskId": "P08-T02",
+                  "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+                  "outputId": "P08-T02-O01",
+                  "outputText": "Holdout 제외 2D Grid Campaign 조건표",
+                  "uploader": "LSH-linear",
+                  "memberName": "이선형",
+                  "memberFolder": "LeeSeonHyeong",
+                  "type": "table",
+                  "uploadedAt": "2026-08-22T14:45:16.307Z",
+                  "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw",
+                  "summary": "32행 × 19열 표",
+                  "files": [
+                    {
+                      "name": "table.tsv",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.tsv",
+                      "size": 3615
+                    },
+                    {
+                      "name": "table.csv",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.csv",
+                      "size": 3650
+                    },
+                    {
+                      "name": "table.json",
+                      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.json",
+                      "size": 9566
+                    }
+                  ],
+                  "table": {
+                    "rowCount": 32,
+                    "columnCount": 19,
+                    "hasHeader": true,
+                    "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.json",
+                    "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.csv",
+                    "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.tsv"
+                  },
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P08-T02-O02",
@@ -29563,7 +29622,7 @@
             }
           ],
           "checked": false,
-          "state": "not-started",
+          "state": "in-progress",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 6,
           "outputsDone": 0,
@@ -29913,14 +29972,21 @@
                   "size": 2592
                 }
               ],
+              "comment": "P08-T01-O02 — Device-level PASS·MARGINAL·FAIL 수치 기준표\n\n목적\n- P8 결과를 보기 전에 Device-level 판정기준을 고정하여 post-hoc 판정을 방지한다.\n\n핵심 기준\n- FAIL: required run/extraction invalid 또는 Ion/Ioff/DIBL/GIDL 중 P2 hard boundary 위반\n- PASS: Ion/Ioff/DIBL이 P2→P5 개선량의 50% 이상을 유지하고 GIDL P2 guard 통과\n- MARGINAL: P2보다 악화되지는 않았지만 core metric 중 하나 이상이 50% 개선량을 유지하지 못함\n- GIDL은 P2 hard guard, SS/Vth는 monitor metric으로 사용한다.\n\n주의\n- 이 판정은 DRAM PASS가 아니라 단일 Device-level 판정이다.\n- 50% retention은 본 연구에서 결과 전에 정한 operational criterion이다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-22T14:43:25.785Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -29989,13 +30055,65 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260822144516-LSH-linear-NJ2JWw",
+              "phaseId": 8,
+              "issueNumber": 8,
+              "taskId": "P08-T02",
+              "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+              "outputId": "P08-T02-O01",
+              "outputText": "Holdout 제외 2D Grid Campaign 조건표",
+              "uploader": "LSH-linear",
+              "memberName": "이선형",
+              "memberFolder": "LeeSeonHyeong",
+              "type": "table",
+              "uploadedAt": "2026-08-22T14:45:16.307Z",
+              "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw",
+              "summary": "32행 × 19열 표",
+              "files": [
+                {
+                  "name": "table.tsv",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.tsv",
+                  "size": 3615
+                },
+                {
+                  "name": "table.csv",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.csv",
+                  "size": 3650
+                },
+                {
+                  "name": "table.json",
+                  "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.json",
+                  "size": 9566
+                }
+              ],
+              "table": {
+                "rowCount": 32,
+                "columnCount": 19,
+                "hasHeader": true,
+                "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.json",
+                "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.csv",
+                "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.tsv"
+              },
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P08-T02"
         },
         {
