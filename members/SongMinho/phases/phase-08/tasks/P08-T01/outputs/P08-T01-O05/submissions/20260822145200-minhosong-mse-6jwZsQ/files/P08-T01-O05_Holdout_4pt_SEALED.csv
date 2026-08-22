@@ -1,0 +1,5 @@
+﻿Holdout_ID,Grid_ID,B1_nm,B2_nm,M1_nm,M2_HIGH_nm,M3_nm,P5_Electrical_Known,P6_Preflight_Known,P7_LocalSlope_Direct_Point,Distance_From_Nominal_nm,Expected_P8_Info_Loss,P9_Role,Seal_Status
+H01,G009,34,64,14,30,16,NO,NO,NO,3.1622776601683795,LOW,"P9 independent 1T1C validation; excluded from P8 2D, P8 3D, and P8 calibration",SEALED_LOCAL_PRE_RUN
+H02,G013,34,68,14,34,12,NO,NO,NO,1.4142135623730951,LOW,"P9 independent 1T1C validation; excluded from P8 2D, P8 3D, and P8 calibration",SEALED_LOCAL_PRE_RUN
+H03,G023,36,64,16,28,16,NO,NO,NO,3.1622776601683795,LOW,"P9 independent 1T1C validation; excluded from P8 2D, P8 3D, and P8 calibration",SEALED_LOCAL_PRE_RUN
+H04,G027,36,68,16,32,12,NO,NO,NO,1.4142135623730951,LOW,"P9 independent 1T1C validation; excluded from P8 2D, P8 3D, and P8 calibration",SEALED_LOCAL_PRE_RUN

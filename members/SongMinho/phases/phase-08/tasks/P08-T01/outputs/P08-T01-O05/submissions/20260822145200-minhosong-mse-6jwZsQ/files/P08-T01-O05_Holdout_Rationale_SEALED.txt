@@ -1,0 +1,58 @@
+P08-T01-O05 — HOLDOUT SELECTION BASIS
+Decision status: APPROVED BY EXPERIMENT LEAD BEFORE P8 ELECTRICAL SWEEP
+Approval time recorded in this local package: 2026-08-21 13:37 KST
+
+SEALED coordinates
+- 34/64 nm
+- 34/68 nm
+- 36/64 nm
+- 36/68 nm
+
+Why these four
+1. P5 electrical-unseen
+All four lie on the new 1-nm interstitial grid and were not part of the P5 2-nm electrical campaign.
+This prevents known P5 electrical outcomes from contaminating the independent P9 test.
+
+2. Not direct P7 local-slope points
+P7 direct local-slope calculations used the nominal and existing P5 neighbors such as 33/67, 35/67, 37/67, 35/65 and 35/63.
+The four Holdouts were not direct finite-difference input points.
+
+3. Not P6 preflight cases
+The P6 visual preflight cases were 35/67, 33/67, 37/67, 35/65 and 35/69.
+The Holdouts therefore were not even pre-run geometry/mesh demonstration cases.
+
+4. Preserve the two most important P8 centerlines
+No Holdout lies on B1=35 or B2=67.
+Therefore the complete nominal centerlines remain available to P08-T02-O03 OAT/sensitivity analysis.
+
+5. Preserve the outer grid boundary
+No Holdout lies on B1=33/37 or B2=63/69.
+P8 keeps all candidate-grid edges for learning the first 2D tolerance boundary.
+
+6. Four-quadrant geometry coverage
+The set spans:
+- low B1 / low B2
+- low B1 / high B2
+- high B1 / low B2
+- high B1 / high B2
+around the nominal neighborhood.
+
+7. Near/far distance diversity
+The set includes Euclidean distances of about 1.41 nm and 3.16 nm from 35/67.
+It is therefore not only a tight near-nominal cluster.
+
+8. Why four instead of two or three
+Issue #8 permits 2–4 Holdouts.
+Four leaves 31/35 = 88.6% of the candidate grid active while maximizing the allowed number of independent P9 validation cases.
+Because these four are interior and off-centerline, their P8 information cost is low compared with withholding edge or centerline points.
+
+9. Independence rule after sealing
+These four coordinates must be excluded from:
+- P08-T02 2D electrical execution and Window construction,
+- P08-T03 3D representative selection,
+- P08-T04 3D calibration.
+P08-T04 may only record the final calibrated Window's prediction for them.
+Their first actual validation execution is P09-T02 1T1C.
+
+10. No outcome-based replacement
+Once P8 electrical results begin, these coordinates must not be swapped because another point looks more interesting or produces a more convenient expected result.

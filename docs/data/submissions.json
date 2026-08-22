@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-22T14:51:43.593Z",
+  "updatedAt": "2026-08-22T14:52:00.094Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -11632,6 +11632,37 @@
           ],
           "legacy": false
         }
+      }
+    ],
+    "P08-T01-O05": [
+      {
+        "submissionId": "20260822145200-minhosong-mse-6jwZsQ",
+        "phaseId": 8,
+        "issueNumber": 8,
+        "taskId": "P08-T01",
+        "taskText": "P8 분석조건 및 Device-level 판정기준 확정",
+        "outputId": "P08-T01-O05",
+        "outputText": "P9 Holdout 2~4조건 사전 봉인표",
+        "uploader": "minhosong-mse",
+        "memberName": "송민호",
+        "memberFolder": "SongMinho",
+        "type": "files",
+        "uploadedAt": "2026-08-22T14:52:00.094Z",
+        "folderPath": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O05/submissions/20260822145200-minhosong-mse-6jwZsQ",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O05/submissions/20260822145200-minhosong-mse-6jwZsQ",
+        "summary": "2개 파일 · 3.2KB",
+        "files": [
+          {
+            "name": "P08-T01-O05_Holdout_4pt_SEALED.csv",
+            "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O05/submissions/20260822145200-minhosong-mse-6jwZsQ/files/P08-T01-O05_Holdout_4pt_SEALED.csv",
+            "size": 827
+          },
+          {
+            "name": "P08-T01-O05_Holdout_Rationale_SEALED.txt",
+            "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O05/submissions/20260822145200-minhosong-mse-6jwZsQ/files/P08-T01-O05_Holdout_Rationale_SEALED.txt",
+            "size": 2419
+          }
+        ]
       }
     ]
   }
