@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-22T10:44:46.148Z",
+  "updatedAt": "2026-08-22T10:44:54.911Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -11029,6 +11029,20 @@
           "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-05/tasks/P05-T04/outputs/P05-T04-O05/submissions/20260822104446-LEE-TAEK-GYU-mapdJQ/table.json",
           "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-05/tasks/P05-T04/outputs/P05-T04-O05/submissions/20260822104446-LEE-TAEK-GYU-mapdJQ/table.csv",
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-05/tasks/P05-T04/outputs/P05-T04-O05/submissions/20260822104446-LEE-TAEK-GYU-mapdJQ/table.tsv"
+        },
+        "review": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reason": null,
+          "history": [
+            {
+              "action": "submitted-for-review",
+              "reviewer": null,
+              "at": "2026-08-22T10:44:46.148Z"
+            }
+          ],
+          "legacy": false
         }
       }
     ]
