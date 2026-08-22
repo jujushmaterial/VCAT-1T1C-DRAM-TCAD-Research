@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:51:49+09:00",
+  "generatedAt": "2026-08-22T23:52:42+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -29547,13 +29547,59 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260822145200-minhosong-mse-6jwZsQ",
+                  "phaseId": 8,
+                  "issueNumber": 8,
+                  "taskId": "P08-T01",
+                  "taskText": "P8 분석조건 및 Device-level 판정기준 확정",
+                  "outputId": "P08-T01-O05",
+                  "outputText": "P9 Holdout 2~4조건 사전 봉인표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-22T14:52:00.094Z",
+                  "folderPath": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O05/submissions/20260822145200-minhosong-mse-6jwZsQ",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O05/submissions/20260822145200-minhosong-mse-6jwZsQ",
+                  "summary": "2개 파일 · 3.2KB",
+                  "files": [
+                    {
+                      "name": "P08-T01-O05_Holdout_4pt_SEALED.csv",
+                      "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O05/submissions/20260822145200-minhosong-mse-6jwZsQ/files/P08-T01-O05_Holdout_4pt_SEALED.csv",
+                      "size": 827
+                    },
+                    {
+                      "name": "P08-T01-O05_Holdout_Rationale_SEALED.txt",
+                      "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O05/submissions/20260822145200-minhosong-mse-6jwZsQ/files/P08-T01-O05_Holdout_Rationale_SEALED.txt",
+                      "size": 2419
+                    }
+                  ],
+                  "comment": "P08-T01-O05 — P9 Holdout 4조건 사전 봉인표\n\n목적\n- P9에서 독립적인 1T1C 검증을 하기 위해 P8 결과를 보기 전에 일부 geometry를 학습/보정 데이터에서 제외한다.\n\n봉인 Holdout\n- 34/64\n- 34/68\n- 36/64\n- 36/68\n\n선정 원칙\n- P5 electrical-unseen\n- P7 direct local-slope point가 아님\n- P6 preflight point가 아님\n- nominal centerline과 outer edge를 보존\n- 네 quadrant를 고르게 포함\n\n주의\n- 이 4점은 P08-T02 2D 실행, P08-T03 3D calibration에 사용하지 않는다.\n- P08-T04에서는 실제값이 아니라 최종 Window의 예측 class만 기록한다.",
+                  "commentLabel": "제출 메모",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-22T14:52:00.094Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                }
+              ]
             }
           ],
           "checked": false,
@@ -30022,14 +30068,21 @@
                       "size": 4925
                     }
                   ],
+                  "comment": "P08-T02-O06 — 1차 Device-level 2D Tolerance Window\n\n목적\n- preregistered primary 31-point campaign으로 P8의 첫 Device-level geometry Window를 시각화한다.\n\n결과\n- PASS: 28/31\n- MARGINAL: 3/31\n- FAIL: 0/31\n- MARGINAL: 36/63, 37/63, 37/64\n- Holdout: 34/64, 34/68, 36/64, 36/68 — 미실행 상태 유지\n- limiting metric: DIBL\n\n포함 시각자료\n- Device class map\n- DIBL 2D map\n- long-form / matrix CSV\n\n주의\n- 이 산출물은 '1차 2D Device-level Window'이다.\n- 최종 P08-T04 3D-calibrated Window 또는 DRAM PASS map으로 표현하지 않는다.\n\nSupplemental extension의 역할\n- primary 31점만으로는 original domain 안에서 FAIL이 없었다.\n- 이후 15점 boundary reconnaissance에서 38/62, 39/62가 DIBL FAIL로 확인되어 high-Xbnd1/low-Xbnd2 방향의 외부 FAIL 영역을 bracket하였다.\n- 따라서 O06에는 primary Window와 함께 evidence tier를 구분한 primary+supplemental map을 추가한다.\n- supplemental 15점은 original preregistered 31점으로 재분류하지 않는다.",
+                  "commentLabel": "제출 메모",
                   "review": {
                     "status": "pending",
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-22T14:51:20.996Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -30561,13 +30614,59 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260822145200-minhosong-mse-6jwZsQ",
+              "phaseId": 8,
+              "issueNumber": 8,
+              "taskId": "P08-T01",
+              "taskText": "P8 분석조건 및 Device-level 판정기준 확정",
+              "outputId": "P08-T01-O05",
+              "outputText": "P9 Holdout 2~4조건 사전 봉인표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-22T14:52:00.094Z",
+              "folderPath": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O05/submissions/20260822145200-minhosong-mse-6jwZsQ",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O05/submissions/20260822145200-minhosong-mse-6jwZsQ",
+              "summary": "2개 파일 · 3.2KB",
+              "files": [
+                {
+                  "name": "P08-T01-O05_Holdout_4pt_SEALED.csv",
+                  "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O05/submissions/20260822145200-minhosong-mse-6jwZsQ/files/P08-T01-O05_Holdout_4pt_SEALED.csv",
+                  "size": 827
+                },
+                {
+                  "name": "P08-T01-O05_Holdout_Rationale_SEALED.txt",
+                  "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O05/submissions/20260822145200-minhosong-mse-6jwZsQ/files/P08-T01-O05_Holdout_Rationale_SEALED.txt",
+                  "size": 2419
+                }
+              ],
+              "comment": "P08-T01-O05 — P9 Holdout 4조건 사전 봉인표\n\n목적\n- P9에서 독립적인 1T1C 검증을 하기 위해 P8 결과를 보기 전에 일부 geometry를 학습/보정 데이터에서 제외한다.\n\n봉인 Holdout\n- 34/64\n- 34/68\n- 36/64\n- 36/68\n\n선정 원칙\n- P5 electrical-unseen\n- P7 direct local-slope point가 아님\n- P6 preflight point가 아님\n- nominal centerline과 outer edge를 보존\n- 네 quadrant를 고르게 포함\n\n주의\n- 이 4점은 P08-T02 2D 실행, P08-T03 3D calibration에 사용하지 않는다.\n- P08-T04에서는 실제값이 아니라 최종 Window의 예측 class만 기록한다.",
+              "commentLabel": "제출 메모",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-22T14:52:00.094Z"
+                  }
+                ],
+                "legacy": false
+              }
+            }
+          ],
           "taskId": "P08-T01"
         },
         {
@@ -31021,14 +31120,21 @@
                   "size": 4925
                 }
               ],
+              "comment": "P08-T02-O06 — 1차 Device-level 2D Tolerance Window\n\n목적\n- preregistered primary 31-point campaign으로 P8의 첫 Device-level geometry Window를 시각화한다.\n\n결과\n- PASS: 28/31\n- MARGINAL: 3/31\n- FAIL: 0/31\n- MARGINAL: 36/63, 37/63, 37/64\n- Holdout: 34/64, 34/68, 36/64, 36/68 — 미실행 상태 유지\n- limiting metric: DIBL\n\n포함 시각자료\n- Device class map\n- DIBL 2D map\n- long-form / matrix CSV\n\n주의\n- 이 산출물은 '1차 2D Device-level Window'이다.\n- 최종 P08-T04 3D-calibrated Window 또는 DRAM PASS map으로 표현하지 않는다.\n\nSupplemental extension의 역할\n- primary 31점만으로는 original domain 안에서 FAIL이 없었다.\n- 이후 15점 boundary reconnaissance에서 38/62, 39/62가 DIBL FAIL로 확인되어 high-Xbnd1/low-Xbnd2 방향의 외부 FAIL 영역을 bracket하였다.\n- 따라서 O06에는 primary Window와 함께 evidence tier를 구분한 primary+supplemental map을 추가한다.\n- supplemental 15점은 original preregistered 31점으로 재분류하지 않는다.",
+              "commentLabel": "제출 메모",
               "review": {
                 "status": "pending",
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-22T14:51:20.996Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
