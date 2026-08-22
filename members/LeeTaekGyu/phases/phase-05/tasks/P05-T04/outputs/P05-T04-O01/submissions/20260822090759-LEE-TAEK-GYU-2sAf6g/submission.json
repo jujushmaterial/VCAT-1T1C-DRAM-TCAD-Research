@@ -20,5 +20,19 @@
       "path": "members/LeeTaekGyu/phases/phase-05/tasks/P05-T04/outputs/P05-T04-O01/submissions/20260822090759-LEE-TAEK-GYU-2sAf6g/files/P05_Multimetal_Doping.png",
       "size": 209925
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-22T09:07:59.737Z"
+      }
+    ],
+    "legacy": false
+  }
 }
