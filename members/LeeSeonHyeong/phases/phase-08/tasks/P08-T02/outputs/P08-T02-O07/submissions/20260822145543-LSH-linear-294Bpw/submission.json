@@ -1,0 +1,49 @@
+{
+  "submissionId": "20260822145543-LSH-linear-294Bpw",
+  "phaseId": 8,
+  "issueNumber": 8,
+  "taskId": "P08-T02",
+  "taskText": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
+  "outputId": "P08-T02-O07",
+  "outputText": "SUPPORTING_EVIDENCE(참고용)",
+  "uploader": "LSH-linear",
+  "memberName": "이선형",
+  "memberFolder": "LeeSeonHyeong",
+  "type": "files",
+  "uploadedAt": "2026-08-22T14:55:43.097Z",
+  "folderPath": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O07/submissions/20260822145543-LSH-linear-294Bpw",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O07/submissions/20260822145543-LSH-linear-294Bpw",
+  "summary": "6개 파일 · 17.1KB",
+  "files": [
+    {
+      "name": "P08_RAW_SERVER_PROVENANCE.txt",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O07/submissions/20260822145543-LSH-linear-294Bpw/files/P08_RAW_SERVER_PROVENANCE.txt",
+      "size": 791
+    },
+    {
+      "name": "P08_STAGE1_SDE_MESH_AUDIT.txt",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O07/submissions/20260822145543-LSH-linear-294Bpw/files/P08_STAGE1_SDE_MESH_AUDIT.txt",
+      "size": 415
+    },
+    {
+      "name": "P08-T02_ANALYSIS_AUDIT.txt",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O07/submissions/20260822145543-LSH-linear-294Bpw/files/P08-T02_ANALYSIS_AUDIT.txt",
+      "size": 3383
+    },
+    {
+      "name": "P08-T02_GIDL_31_Raw_Summary.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O07/submissions/20260822145543-LSH-linear-294Bpw/files/P08-T02_GIDL_31_Raw_Summary.csv",
+      "size": 6569
+    },
+    {
+      "name": "P08-T02_P5_9Point_Forward_Reproduction_Check.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O07/submissions/20260822145543-LSH-linear-294Bpw/files/P08-T02_P5_9Point_Forward_Reproduction_Check.csv",
+      "size": 3170
+    },
+    {
+      "name": "P08-T02_SDevice_93Run_Convergence_Audit.csv",
+      "path": "members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O07/submissions/20260822145543-LSH-linear-294Bpw/files/P08-T02_SDevice_93Run_Convergence_Audit.csv",
+      "size": 3134
+    }
+  ]
+}

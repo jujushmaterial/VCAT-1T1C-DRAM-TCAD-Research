@@ -1,0 +1,76 @@
+P08-T02 31-POINT COMPLETE ANALYSIS
+Generated: 2026-08-22
+
+INPUT ARCHIVES
+- P8_FORWARD_0p05_RESULTS_31.tar.gz
+  SHA256: 67bd3f499359eef7ba7599dffdd28980d3e5e19c0db868f6dae540d7dd64e40c
+- P8_FORWARD_1p0_RESULTS_31.tar.gz
+  SHA256: 75d87583ab696ae7cd8723615faa5a65163cbda278a17f5b45b2f282d166a50d
+- Prior completed GIDL 31-point raw summary is included in this package.
+
+RUN / EXTRACTION INTEGRITY
+- Forward Vd=0.05: 31/31 .sta done, simulation-finished logs, no fatal/abort/failed.
+- Forward Vd=1.0: 31/31 .sta done, simulation-finished logs, no fatal/abort/failed.
+- GIDL: 31/31 previously verified.
+- Combined SDevice validity: 93/93.
+- Forward gate sweep: Vg first=1e-5 V, final=1.0 V.
+- Frozen extraction:
+  Ion = |storage TotalCurrent| at Vd=1.0, Vg=1.0.
+  Ioff = first stored |storage TotalCurrent| at Vd=1.0 (Vg=1e-5).
+  Vth = |Id|=1e-7 A with log-linear interpolation.
+  SS = linear fit log10(|Id|) vs Vg for 1e-12<=|Id|<=1e-8; 1000/slope.
+  DIBL = (Vth@0.05 - Vth@1.0)/0.95*1000.
+  GIDL = |storage TotalCurrent| at Vd=1.0, Vg=-0.4.
+
+REPRODUCTION CHECK
+- All 9 P5-known Forward overlap geometries reproduce the official P5 Forward
+  metrics exactly for Ion, Ioff, both Vth, both SS and DIBL: 9/9 exact.
+
+DEVICE CLASSIFICATION
+- PASS: 28/31
+- MARGINAL: 3/31
+- FAIL: 0/31
+- Marginal geometries: 36/63; 37/63; 37/64
+- All 3 Marginal points are limited by DIBL.
+- GIDL hard-guard failures: 0/31.
+
+KEY EXTREMES
+- Highest Ion: 1.06191128625092e-05 at G029 (37/63) A
+- Lowest Ioff: 7.7982007404178e-16 at G007 (33/69) A
+- Lowest DIBL: 1.81156275768435 at G007 (33/69) mV/V
+- Highest DIBL: 3.09685790325876 at G029 (37/63) mV/V
+- Lowest GIDL: 3.58290597261403e-15 at G028 (36/69) A
+- Highest GIDL: 3.61853085222839e-15 at G029 (37/63) A
+
+FIRST 2D DEVICE-LEVEL WINDOW
+B1\B2   63        64        65    66    67        68        69
+33       PASS      PASS      PASS  PASS  PASS      PASS      PASS
+34       PASS      HOLDOUT   PASS  PASS  PASS      HOLDOUT   PASS
+35       PASS      PASS      PASS  PASS  PASS      PASS      PASS
+36       MARGINAL  HOLDOUT   PASS  PASS  PASS      HOLDOUT   PASS
+37       MARGINAL  MARGINAL  PASS  PASS  PASS      PASS      PASS
+
+INTERPRETATION
+- No Device FAIL is observed inside the 31 active official points.
+- The lower-right region (higher Xbnd1 + lower Xbnd2) becomes MARGINAL.
+- The active class change is controlled by DIBL, not GIDL or Ion.
+- Both nominal OAT centerlines remain PASS over their full tested ranges:
+  Xbnd1=33..37 at Xbnd2=67, and Xbnd2=63..69 at Xbnd1=35.
+- Therefore the first 2D result is interaction-limited: individual centerline
+  sweeps look safe while the combined high-B1/low-B2 corner loses >=50%
+  retained DIBL improvement.
+- The official domain does not contain a FAIL point, so an outer FAIL boundary
+  is not yet closed by these 31 points.
+- Sealed Holdouts remain unexecuted and are not inferred as actual results.
+
+NEXT REFINEMENT NOTE
+Two 0.5-nm transition probes are listed separately:
+35.5/63 and 37/64.5.
+They do not touch any sealed Holdout. However, they are not rows in the sealed
+P8-T01 35-point candidate CSV, so they must remain supplemental unless the team
+records an explicit grid-amendment decision before treating them as official
+P08-T02 evidence.
+
+NO GITHUB WRITE
+This analysis package is local only. No repository file, Timeline, Issue,
+branch, commit, push or PR was modified by this analysis.

@@ -1,0 +1,11 @@
+P08 Stage-1 SDE/Mesh operational evidence
+
+- Active geometries: 31
+- Fresh mesh files observed: 31/31
+- Mesh files were nonzero HDF5.
+- SDE status files: 31/31.
+- Representative mesh log ended with successful save.
+- No error/fatal/abort/failed match was observed in the checked SDE/mesh logs.
+
+This evidence is supporting provenance; TDR binaries are intentionally not
+included in the GitHub upload-ready package.

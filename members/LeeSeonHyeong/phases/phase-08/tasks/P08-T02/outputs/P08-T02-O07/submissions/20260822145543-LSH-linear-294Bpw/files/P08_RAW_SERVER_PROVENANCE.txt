@@ -1,0 +1,17 @@
+Research-server raw-output provenance
+
+Primary P8 campaign used three SDevice projects under account semi333.
+Execution-session paths used in this research session:
+- Forward Vd=0.05 V: /user/semi/semi333/VCAT/P8_/P8_FORWARD_0.05
+- Forward Vd=1.0 V:  /user/semi/semi333/VCAT/P8_/P8_FORWARD_1.0
+- GIDL:              /user/semi/semi333/VCAT/P8_/P8_GIDL
+
+Large raw TCAD artifacts (TDR/PLT/LOG etc.) are not bundled for GitHub.
+The final Raw Data CSV retains source PLT filenames and node mappings.
+If institutional archiving requires exact server provenance, re-run `pwd`
+inside each project before final manuscript freeze and append the confirmation.
+
+Local raw archives used for analysis:
+- P8_FORWARD_0p05_RESULTS_31.tar.gz
+- P8_FORWARD_1p0_RESULTS_31.tar.gz
+- P8_GIDL_RESULTS_31_v02.tar.gz
