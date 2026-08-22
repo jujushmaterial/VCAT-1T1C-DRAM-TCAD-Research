@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:53:04+09:00",
+  "generatedAt": "2026-08-22T23:53:33+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -29246,9 +29246,9 @@
       "tasksTotal": 4,
       "issueTasksDone": 0,
       "outputsDone": 0,
-      "outputsTotal": 22,
+      "outputsTotal": 23,
       "requiredOutputsDone": 0,
-      "requiredOutputsTotal": 22,
+      "requiredOutputsTotal": 23,
       "tasks": [
         {
           "id": "P08-T01",
@@ -29600,20 +29600,38 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "P08-T01-O06",
+              "text": "SUPPLEMENTAL_BOUNDARY_EVIDENCE(참고용)",
+              "type": "files",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 0,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 0,
+              "heldSubmissionCount": 0,
+              "state": "missing",
+              "submissions": []
             }
           ],
           "checked": false,
           "state": "in-progress",
           "requiredOutputsDone": 0,
-          "requiredOutputsTotal": 5,
+          "requiredOutputsTotal": 6,
           "outputsDone": 0,
-          "outputsTotal": 5,
+          "outputsTotal": 6,
           "missingRequiredOutputs": [
             "P08-T01-O01",
             "P08-T01-O02",
             "P08-T01-O03",
             "P08-T01-O04",
-            "P08-T01-O05"
+            "P08-T01-O05",
+            "P08-T01-O06"
           ],
           "checkboxDrift": false
         },
@@ -30688,6 +30706,24 @@
           "taskId": "P08-T01"
         },
         {
+          "id": "P08-T01-O06",
+          "text": "SUPPLEMENTAL_BOUNDARY_EVIDENCE(참고용)",
+          "type": "files",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 0,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 0,
+          "heldSubmissionCount": 0,
+          "state": "missing",
+          "submissions": [],
+          "taskId": "P08-T01"
+        },
+        {
           "id": "P08-T02-O01",
           "text": "Holdout 제외 2D Grid Campaign 조건표",
           "type": "table",
@@ -31358,7 +31394,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-22T14:52:53Z",
+      "updatedAt": "2026-08-22T14:53:21Z",
       "lastModifiedBy": "minhosong-mse",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
