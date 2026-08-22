@@ -38,5 +38,7 @@
     "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.json",
     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.csv",
     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O02/submissions/20260822144651-LSH-linear-5rCYFA/table.tsv"
-  }
+  },
+  "comment": "P08-T02-O02 — 2D Tolerance Sweep Raw Data\n\n목적\n- P8 primary active 31점의 모든 추출 metric과 Device classification 근거를 하나의 raw table로 보존한다.\n\n포함 값\n- Ion, Ioff, Ion/Ioff\n- Vth@Vd=0.05/1.0\n- SS@Vd=0.05/1.0\n- DIBL\n- GIDL\n- RIF_Ion, RIF_Ioff, RIF_DIBL\n- limiting metric / Device class\n- node, mesh, source PLT filename, validity\n\n결과 요약\n- PASS 28\n- MARGINAL 3\n- FAIL 0\n- MARGINAL: 36/63, 37/63, 37/64\n- 세 MARGINAL의 limiting metric은 DIBL\n\n주의\n- Holdout 4점은 actual raw result가 존재하지 않는다.",
+  "commentLabel": "표 설명"
 }
