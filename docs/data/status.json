@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:43:00+09:00",
+  "generatedAt": "2026-08-22T23:43:47+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -29312,6 +29312,69 @@
                     "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O01/submissions/20260822144241-minhosong-mse-hcy4Lw/table.csv",
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O01/submissions/20260822144241-minhosong-mse-hcy4Lw/table.tsv"
                   },
+                  "comment": "P08-T01-O01 — P6 Nominal·Fixed WF·공통 Simulation 입력표\n\n목적\n- P8 전체 2D tolerance campaign에서 바뀌면 안 되는 공통 입력조건을 한 표로 고정한다.\n\n핵심 내용\n- Nominal: Xbnd1=35 nm, Xbnd2=67 nm\n- WF_LOW/WF_HIGH=4.33/4.70 eV, Temperature=300 K\n- Dpillar, Tox, doping, mesh, physics, solver, Forward/GIDL bias와 추출법을 고정한다.\n- P8 독립 geometry 변수는 Xbnd1/Xbnd2이며 M1/M2/M3는 파생값이다.\n\n근거\n- P5 최종 3D handoff와 P6 frozen simulation 기준을 최신 main에서 교차확인하였다.\n\n주의\n- 이 표의 고정항목은 P8에서 새 최적화 변수가 아니다.\n- PASS/MARGINAL/FAIL 결과를 본 뒤 simulation 조건을 변경하지 않는다.",
+                  "commentLabel": "표 설명",
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-22T14:42:41.888Z"
+                      }
+                    ],
+                    "legacy": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "P08-T01-O02",
+              "text": "Device-level PASS·Marginal·FAIL 수치 기준표",
+              "type": "files",
+              "review": "none",
+              "reviewBlocksCompletion": true,
+              "required": true,
+              "policyReason": null,
+              "submitted": false,
+              "submissionCount": 1,
+              "evidenceSubmissionCount": 0,
+              "approvedSubmissionCount": 0,
+              "pendingReviewCount": 1,
+              "heldSubmissionCount": 0,
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260822144325-minhosong-mse-9lyDew",
+                  "phaseId": 8,
+                  "issueNumber": 8,
+                  "taskId": "P08-T01",
+                  "taskText": "P8 분석조건 및 Device-level 판정기준 확정",
+                  "outputId": "P08-T01-O02",
+                  "outputText": "Device-level PASS·Marginal·FAIL 수치 기준표",
+                  "uploader": "minhosong-mse",
+                  "memberName": "송민호",
+                  "memberFolder": "SongMinho",
+                  "type": "files",
+                  "uploadedAt": "2026-08-22T14:43:25.785Z",
+                  "folderPath": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O02/submissions/20260822144325-minhosong-mse-9lyDew",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O02/submissions/20260822144325-minhosong-mse-9lyDew",
+                  "summary": "2개 파일 · 6.6KB",
+                  "files": [
+                    {
+                      "name": "P08-T01-O02_Criteria_Rationale_FINAL.txt",
+                      "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O02/submissions/20260822144325-minhosong-mse-9lyDew/files/P08-T01-O02_Criteria_Rationale_FINAL.txt",
+                      "size": 4184
+                    },
+                    {
+                      "name": "P08-T01-O02_Device_Level_Criteria_FINAL.csv",
+                      "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O02/submissions/20260822144325-minhosong-mse-9lyDew/files/P08-T01-O02_Device_Level_Criteria_FINAL.csv",
+                      "size": 2592
+                    }
+                  ],
                   "review": {
                     "status": "pending",
                     "reviewer": null,
@@ -29323,23 +29386,6 @@
                   }
                 }
               ]
-            },
-            {
-              "id": "P08-T01-O02",
-              "text": "Device-level PASS·Marginal·FAIL 수치 기준표",
-              "type": "table",
-              "review": "none",
-              "reviewBlocksCompletion": true,
-              "required": true,
-              "policyReason": null,
-              "submitted": false,
-              "submissionCount": 0,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
-              "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
             },
             {
               "id": "P08-T01-O03",
@@ -29803,6 +29849,70 @@
                 "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O01/submissions/20260822144241-minhosong-mse-hcy4Lw/table.csv",
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O01/submissions/20260822144241-minhosong-mse-hcy4Lw/table.tsv"
               },
+              "comment": "P08-T01-O01 — P6 Nominal·Fixed WF·공통 Simulation 입력표\n\n목적\n- P8 전체 2D tolerance campaign에서 바뀌면 안 되는 공통 입력조건을 한 표로 고정한다.\n\n핵심 내용\n- Nominal: Xbnd1=35 nm, Xbnd2=67 nm\n- WF_LOW/WF_HIGH=4.33/4.70 eV, Temperature=300 K\n- Dpillar, Tox, doping, mesh, physics, solver, Forward/GIDL bias와 추출법을 고정한다.\n- P8 독립 geometry 변수는 Xbnd1/Xbnd2이며 M1/M2/M3는 파생값이다.\n\n근거\n- P5 최종 3D handoff와 P6 frozen simulation 기준을 최신 main에서 교차확인하였다.\n\n주의\n- 이 표의 고정항목은 P8에서 새 최적화 변수가 아니다.\n- PASS/MARGINAL/FAIL 결과를 본 뒤 simulation 조건을 변경하지 않는다.",
+              "commentLabel": "표 설명",
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-22T14:42:41.888Z"
+                  }
+                ],
+                "legacy": false
+              }
+            }
+          ],
+          "taskId": "P08-T01"
+        },
+        {
+          "id": "P08-T01-O02",
+          "text": "Device-level PASS·Marginal·FAIL 수치 기준표",
+          "type": "files",
+          "review": "none",
+          "reviewBlocksCompletion": true,
+          "required": true,
+          "policyReason": null,
+          "submitted": false,
+          "submissionCount": 1,
+          "evidenceSubmissionCount": 0,
+          "approvedSubmissionCount": 0,
+          "pendingReviewCount": 1,
+          "heldSubmissionCount": 0,
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260822144325-minhosong-mse-9lyDew",
+              "phaseId": 8,
+              "issueNumber": 8,
+              "taskId": "P08-T01",
+              "taskText": "P8 분석조건 및 Device-level 판정기준 확정",
+              "outputId": "P08-T01-O02",
+              "outputText": "Device-level PASS·Marginal·FAIL 수치 기준표",
+              "uploader": "minhosong-mse",
+              "memberName": "송민호",
+              "memberFolder": "SongMinho",
+              "type": "files",
+              "uploadedAt": "2026-08-22T14:43:25.785Z",
+              "folderPath": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O02/submissions/20260822144325-minhosong-mse-9lyDew",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O02/submissions/20260822144325-minhosong-mse-9lyDew",
+              "summary": "2개 파일 · 6.6KB",
+              "files": [
+                {
+                  "name": "P08-T01-O02_Criteria_Rationale_FINAL.txt",
+                  "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O02/submissions/20260822144325-minhosong-mse-9lyDew/files/P08-T01-O02_Criteria_Rationale_FINAL.txt",
+                  "size": 4184
+                },
+                {
+                  "name": "P08-T01-O02_Device_Level_Criteria_FINAL.csv",
+                  "path": "members/SongMinho/phases/phase-08/tasks/P08-T01/outputs/P08-T01-O02/submissions/20260822144325-minhosong-mse-9lyDew/files/P08-T01-O02_Device_Level_Criteria_FINAL.csv",
+                  "size": 2592
+                }
+              ],
               "review": {
                 "status": "pending",
                 "reviewer": null,
@@ -29814,24 +29924,6 @@
               }
             }
           ],
-          "taskId": "P08-T01"
-        },
-        {
-          "id": "P08-T01-O02",
-          "text": "Device-level PASS·Marginal·FAIL 수치 기준표",
-          "type": "table",
-          "review": "none",
-          "reviewBlocksCompletion": true,
-          "required": true,
-          "policyReason": null,
-          "submitted": false,
-          "submissionCount": 0,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
-          "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
           "taskId": "P08-T01"
         },
         {
@@ -30178,7 +30270,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-12T20:02:54Z",
+      "updatedAt": "2026-08-22T14:43:12Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
