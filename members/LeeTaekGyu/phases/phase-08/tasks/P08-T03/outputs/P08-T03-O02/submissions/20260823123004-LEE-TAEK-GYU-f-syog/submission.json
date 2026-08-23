@@ -20,5 +20,19 @@
       "path": "members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O02/submissions/20260823123004-LEE-TAEK-GYU-f-syog/source/3D-VCAT-Nominal-SDE.cmd",
       "size": 5978
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-23T12:30:04.956Z"
+      }
+    ],
+    "legacy": false
+  }
 }
