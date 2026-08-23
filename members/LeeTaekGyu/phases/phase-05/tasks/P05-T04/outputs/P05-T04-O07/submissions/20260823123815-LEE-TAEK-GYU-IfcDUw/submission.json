@@ -20,5 +20,19 @@
       "path": "members/LeeTaekGyu/phases/phase-05/tasks/P05-T04/outputs/P05-T04-O07/submissions/20260823123815-LEE-TAEK-GYU-IfcDUw/files/P05-T04-O07_3D_Limitations_1.xlsx",
       "size": 8470
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-23T12:38:15.558Z"
+      }
+    ],
+    "legacy": false
+  }
 }
