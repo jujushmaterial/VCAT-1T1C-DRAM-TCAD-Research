@@ -1,0 +1,17 @@
+P08-T03-O01 — 3D 대표조건 선정표						
+P8 Device-level Tolerance Window (Primary/Supplemental/Holdout Tiered Map, P08-T02-O06)과 Limiting Metric = DIBL (P08-T02-O04) 기준으로, 3D 검증용 대표조건 4점을 선정함. Holdout 4점은 P9 독립 검증용으로 예약되어 있어 본 선정에서 제외함.						
+						
+구분	Xbnd1_nm	Xbnd2_nm	Tier 분류 근거	선정 이유	3D 코드	진행 상태
+Center	35	67	P5 Nominal 지점 (Primary), Tolerance Window 중심	기존 P05-T04 3D Multi-Metal 결과를 그대로 재사용 — 대표조건의 기준점(reference) 역할	SDE/SDevice 변경 없음 (P05-T04-O02 기존 코드 그대로)	완료 (기존 3D 결과 재사용)
+Boundary	37	65	Primary Tolerance Window 경계선 근처 지점	허용범위 경계에서 DIBL 등 핵심 지표가 얼마나 급격히 변하는지 확인하기 위한 지점	SDE/SDevice 원본 코드 동일, Xbnd1_nm/Xbnd2_nm만 변경	3D 실행 중
+Corner	37	63	Tolerance Window 모서리(두 변수 동시 이동) 지점	두 경계 변수가 동시에 이동할 때의 복합 영향(코너 효과) 확인	SDE/SDevice 원본 코드 동일, Xbnd1_nm/Xbnd2_nm만 변경	3D 실행 중
+범위 밖 (FAIL)	38	62	Tolerance Window 밖 지점 (Device-level 기준 FAIL 예상)	Window 밖에서 실제로 DIBL 기준 FAIL이 발생하는지, 2D 판정과 3D 판정이 일치하는지 확인	SDE/SDevice 원본 코드 동일, Xbnd1_nm/Xbnd2_nm만 변경	3D 실행 중
+						
+제외된 지점 — Holdout (P9 독립 검증용, 본 과제에서 사용 금지)						
+Xbnd1_nm	Xbnd2_nm	비고				
+34	64	Holdout — P9 독립 검증용 예약, P8 대표조건 분석에서 제외				
+34	68	Holdout — P9 독립 검증용 예약, P8 대표조건 분석에서 제외				
+36	64	Holdout — P9 독립 검증용 예약, P8 대표조건 분석에서 제외				
+36	68	Holdout — P9 독립 검증용 예약, P8 대표조건 분석에서 제외				
+						
+Source: Tiered Map 및 Tier 분류 — P08-T02-O06 (이선형 제출, Primary31+Supp15 Tiered Map). Limiting Metric(DIBL) — P08-T02-O04 (이선형 제출, 변수별 Device-level 허용범위 표). Holdout 목록(34/64, 34/68, 36/64, 36/68) — 동일 Tiered Map에서 확인. 3D 대표조건 4점의 실제 시뮬레이션 결과는 아직 실행 중이며, 완료 후 P08-T03-O04(2D-3D 비교표)에서 확인되지 않은 값 없이 갱신 예정.						

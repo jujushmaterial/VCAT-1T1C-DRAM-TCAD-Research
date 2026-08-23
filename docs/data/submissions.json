@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-22T14:57:07.377Z",
+  "updatedAt": "2026-08-23T12:28:57.483Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -11798,6 +11798,50 @@
             }
           ],
           "legacy": false
+        }
+      }
+    ],
+    "P08-T03-O01": [
+      {
+        "submissionId": "20260823122857-LEE-TAEK-GYU-p2tHOQ",
+        "phaseId": 8,
+        "issueNumber": 8,
+        "taskId": "P08-T03",
+        "taskText": "대표조건 3D 검증 및 2D–3D 차이 분석",
+        "outputId": "P08-T03-O01",
+        "outputText": "3D 대표조건 선정표(중심·경계·Corner·범위 밖, Holdout 제외)",
+        "uploader": "LEE-TAEK-GYU",
+        "memberName": "이택규",
+        "memberFolder": "LeeTaekGyu",
+        "type": "table",
+        "uploadedAt": "2026-08-23T12:28:57.483Z",
+        "folderPath": "members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O01/submissions/20260823122857-LEE-TAEK-GYU-p2tHOQ",
+        "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O01/submissions/20260823122857-LEE-TAEK-GYU-p2tHOQ",
+        "summary": "17행 × 7열 표",
+        "files": [
+          {
+            "name": "table.tsv",
+            "path": "members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O01/submissions/20260823122857-LEE-TAEK-GYU-p2tHOQ/table.tsv",
+            "size": 2388
+          },
+          {
+            "name": "table.csv",
+            "path": "members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O01/submissions/20260823122857-LEE-TAEK-GYU-p2tHOQ/table.csv",
+            "size": 2432
+          },
+          {
+            "name": "table.json",
+            "path": "members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O01/submissions/20260823122857-LEE-TAEK-GYU-p2tHOQ/table.json",
+            "size": 3757
+          }
+        ],
+        "table": {
+          "rowCount": 17,
+          "columnCount": 7,
+          "hasHeader": true,
+          "dataUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O01/submissions/20260823122857-LEE-TAEK-GYU-p2tHOQ/table.json",
+          "csvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O01/submissions/20260823122857-LEE-TAEK-GYU-p2tHOQ/table.csv",
+          "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O01/submissions/20260823122857-LEE-TAEK-GYU-p2tHOQ/table.tsv"
         }
       }
     ]
