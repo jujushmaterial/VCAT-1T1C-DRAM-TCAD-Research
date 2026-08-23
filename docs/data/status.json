@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T21:29:16+09:00",
+  "generatedAt": "2026-08-23T21:30:22+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -30325,9 +30325,14 @@
                     "reviewer": null,
                     "reviewedAt": null,
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-23T12:28:57.483Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 }
               ]
@@ -30341,13 +30346,47 @@
               "required": true,
               "policyReason": null,
               "submitted": false,
-              "submissionCount": 0,
+              "submissionCount": 1,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
+              "pendingReviewCount": 1,
               "heldSubmissionCount": 0,
-              "state": "missing",
-              "submissions": []
+              "state": "review-pending",
+              "submissions": [
+                {
+                  "submissionId": "20260823123004-LEE-TAEK-GYU-f-syog",
+                  "phaseId": 8,
+                  "issueNumber": 8,
+                  "taskId": "P08-T03",
+                  "taskText": "대표조건 3D 검증 및 2D–3D 차이 분석",
+                  "outputId": "P08-T03-O02",
+                  "outputText": "대표조건 3D SDE·SDevice 코드",
+                  "uploader": "LEE-TAEK-GYU",
+                  "memberName": "이택규",
+                  "memberFolder": "LeeTaekGyu",
+                  "type": "code",
+                  "uploadedAt": "2026-08-23T12:30:04.956Z",
+                  "folderPath": "members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O02/submissions/20260823123004-LEE-TAEK-GYU-f-syog",
+                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O02/submissions/20260823123004-LEE-TAEK-GYU-f-syog",
+                  "summary": "1개 코드 파일 · 5.8KB",
+                  "files": [
+                    {
+                      "name": "3D-VCAT-Nominal-SDE.cmd",
+                      "path": "members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O02/submissions/20260823123004-LEE-TAEK-GYU-f-syog/source/3D-VCAT-Nominal-SDE.cmd",
+                      "size": 5978
+                    }
+                  ],
+                  "review": {
+                    "status": "pending",
+                    "reviewer": null,
+                    "reviewedAt": null,
+                    "reason": null,
+                    "history": [],
+                    "legacy": false,
+                    "implicit": true
+                  }
+                }
+              ]
             },
             {
               "id": "P08-T03-O03",
@@ -31562,9 +31601,14 @@
                 "reviewer": null,
                 "reviewedAt": null,
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-23T12:28:57.483Z"
+                  }
+                ],
+                "legacy": false
               }
             }
           ],
@@ -31579,13 +31623,47 @@
           "required": true,
           "policyReason": null,
           "submitted": false,
-          "submissionCount": 0,
+          "submissionCount": 1,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
+          "pendingReviewCount": 1,
           "heldSubmissionCount": 0,
-          "state": "missing",
-          "submissions": [],
+          "state": "review-pending",
+          "submissions": [
+            {
+              "submissionId": "20260823123004-LEE-TAEK-GYU-f-syog",
+              "phaseId": 8,
+              "issueNumber": 8,
+              "taskId": "P08-T03",
+              "taskText": "대표조건 3D 검증 및 2D–3D 차이 분석",
+              "outputId": "P08-T03-O02",
+              "outputText": "대표조건 3D SDE·SDevice 코드",
+              "uploader": "LEE-TAEK-GYU",
+              "memberName": "이택규",
+              "memberFolder": "LeeTaekGyu",
+              "type": "code",
+              "uploadedAt": "2026-08-23T12:30:04.956Z",
+              "folderPath": "members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O02/submissions/20260823123004-LEE-TAEK-GYU-f-syog",
+              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O02/submissions/20260823123004-LEE-TAEK-GYU-f-syog",
+              "summary": "1개 코드 파일 · 5.8KB",
+              "files": [
+                {
+                  "name": "3D-VCAT-Nominal-SDE.cmd",
+                  "path": "members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O02/submissions/20260823123004-LEE-TAEK-GYU-f-syog/source/3D-VCAT-Nominal-SDE.cmd",
+                  "size": 5978
+                }
+              ],
+              "review": {
+                "status": "pending",
+                "reviewer": null,
+                "reviewedAt": null,
+                "reason": null,
+                "history": [],
+                "legacy": false,
+                "implicit": true
+              }
+            }
+          ],
           "taskId": "P08-T03"
         },
         {
