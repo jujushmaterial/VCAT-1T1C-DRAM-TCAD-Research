@@ -20,5 +20,19 @@
       "path": "members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O02/submissions/20260823123204-LEE-TAEK-GYU-jV_iXg/source/SDevice-Forward-Id-Vg.cmd",
       "size": 1929
     }
-  ]
+  ],
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null,
+    "reason": null,
+    "history": [
+      {
+        "action": "submitted-for-review",
+        "reviewer": null,
+        "at": "2026-08-23T12:32:04.687Z"
+      }
+    ],
+    "legacy": false
+  }
 }
