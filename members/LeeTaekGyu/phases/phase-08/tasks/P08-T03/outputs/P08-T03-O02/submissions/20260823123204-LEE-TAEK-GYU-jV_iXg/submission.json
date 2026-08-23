@@ -1,0 +1,24 @@
+{
+  "submissionId": "20260823123204-LEE-TAEK-GYU-jV_iXg",
+  "phaseId": 8,
+  "issueNumber": 8,
+  "taskId": "P08-T03",
+  "taskText": "대표조건 3D 검증 및 2D–3D 차이 분석",
+  "outputId": "P08-T03-O02",
+  "outputText": "대표조건 3D SDE·SDevice 코드",
+  "uploader": "LEE-TAEK-GYU",
+  "memberName": "이택규",
+  "memberFolder": "LeeTaekGyu",
+  "type": "code",
+  "uploadedAt": "2026-08-23T12:32:04.687Z",
+  "folderPath": "members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O02/submissions/20260823123204-LEE-TAEK-GYU-jV_iXg",
+  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O02/submissions/20260823123204-LEE-TAEK-GYU-jV_iXg",
+  "summary": "1개 코드 파일 · 1.9KB",
+  "files": [
+    {
+      "name": "SDevice-Forward-Id-Vg.cmd",
+      "path": "members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O02/submissions/20260823123204-LEE-TAEK-GYU-jV_iXg/source/SDevice-Forward-Id-Vg.cmd",
+      "size": 1929
+    }
+  ]
+}
