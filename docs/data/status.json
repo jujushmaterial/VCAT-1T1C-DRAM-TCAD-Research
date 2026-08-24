@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:36:12+09:00",
+  "generatedAt": "2026-08-24T18:37:02+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -3905,7 +3905,7 @@
     {
       "id": 2,
       "issueNumber": 2,
-      "state": "review",
+      "state": "completed",
       "progress": 100,
       "tasksDone": 11,
       "tasksTotal": 11,
@@ -12171,9 +12171,9 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-21T15:25:20Z",
-      "lastModifiedBy": "LEE-TAEK-GYU",
-      "lastModifiedAction": "과제·산출물 목록 수정",
+      "updatedAt": "2026-08-24T09:36:24Z",
+      "lastModifiedBy": "jujushmaterial",
+      "lastModifiedAction": "단계 닫기",
       "integrityWarnings": 3
     },
     {
@@ -20977,7 +20977,7 @@
     {
       "id": 4,
       "issueNumber": 4,
-      "state": "waiting",
+      "state": "blocked",
       "progress": 0,
       "tasksDone": 0,
       "tasksTotal": 0,
@@ -20991,7 +20991,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-24T09:36:07Z",
+      "updatedAt": "2026-08-24T09:36:14Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
