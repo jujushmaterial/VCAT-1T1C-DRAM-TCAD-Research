@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:37:02+09:00",
+  "generatedAt": "2026-08-24T18:37:36+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20977,21 +20977,36 @@
     {
       "id": 4,
       "issueNumber": 4,
-      "state": "blocked",
-      "progress": 0,
-      "tasksDone": 0,
-      "tasksTotal": 0,
-      "issueTasksDone": 0,
+      "state": "completed",
+      "progress": 100,
+      "tasksDone": 1,
+      "tasksTotal": 1,
+      "issueTasksDone": 1,
       "outputsDone": 0,
       "outputsTotal": 0,
       "requiredOutputsDone": 0,
       "requiredOutputsTotal": 0,
-      "tasks": [],
+      "tasks": [
+        {
+          "id": "P04-T01",
+          "text": "Phase 4 제외(필요시 1T1C 재현)",
+          "declaredChecked": true,
+          "outputs": [],
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 0,
+          "requiredOutputsTotal": 0,
+          "outputsDone": 0,
+          "outputsTotal": 0,
+          "missingRequiredOutputs": [],
+          "checkboxDrift": false
+        }
+      ],
       "outputs": [],
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-24T09:36:14Z",
+      "updatedAt": "2026-08-24T09:37:24Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
