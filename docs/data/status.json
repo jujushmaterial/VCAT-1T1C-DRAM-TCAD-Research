@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:38:14+09:00",
+  "generatedAt": "2026-08-24T18:53:15+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -5816,9 +5816,9 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 5,
-              "evidenceSubmissionCount": 4,
-              "approvedSubmissionCount": 4,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 5,
+              "approvedSubmissionCount": 5,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -5969,13 +5969,23 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-24T09:52:54.779Z",
                     "reason": null,
-                    "history": [],
-                    "legacy": false,
-                    "implicit": true
+                    "history": [
+                      {
+                        "action": "submitted-for-review",
+                        "reviewer": null,
+                        "at": "2026-08-02T12:55:08.965Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-24T09:52:54.779Z"
+                      }
+                    ],
+                    "legacy": false
                   }
                 },
                 {
@@ -9918,9 +9928,9 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 5,
-          "evidenceSubmissionCount": 4,
-          "approvedSubmissionCount": 4,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 5,
+          "approvedSubmissionCount": 5,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -10071,13 +10081,23 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-24T09:52:54.779Z",
                 "reason": null,
-                "history": [],
-                "legacy": false,
-                "implicit": true
+                "history": [
+                  {
+                    "action": "submitted-for-review",
+                    "reviewer": null,
+                    "at": "2026-08-02T12:55:08.965Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-24T09:52:54.779Z"
+                  }
+                ],
+                "legacy": false
               }
             },
             {
