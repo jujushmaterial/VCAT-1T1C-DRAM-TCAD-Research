@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:53:15+09:00",
+  "generatedAt": "2026-08-24T18:55:57+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -12204,7 +12204,7 @@
       "tasksDone": 8,
       "tasksTotal": 8,
       "issueTasksDone": 8,
-      "outputsDone": 43,
+      "outputsDone": 44,
       "outputsTotal": 46,
       "requiredOutputsDone": 37,
       "requiredOutputsTotal": 37,
@@ -16427,13 +16427,13 @@
               "reviewBlocksCompletion": true,
               "required": false,
               "policyReason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다.",
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260812122636-LEE-TAEK-GYU-v8TpPg",
@@ -16477,15 +16477,20 @@
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg/table.tsv"
                   },
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-24T09:55:40.974Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-12T12:26:36.338Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-24T09:55:40.974Z"
                       }
                     ],
                     "legacy": false
@@ -16628,7 +16633,7 @@
           "state": "completed",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 0,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 3,
           "missingRequiredOutputs": [],
           "checkboxDrift": false
@@ -20786,13 +20791,13 @@
           "reviewBlocksCompletion": true,
           "required": false,
           "policyReason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다.",
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260812122636-LEE-TAEK-GYU-v8TpPg",
@@ -20836,15 +20841,20 @@
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O01/submissions/20260812122636-LEE-TAEK-GYU-v8TpPg/table.tsv"
               },
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-24T09:55:40.974Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-12T12:26:36.338Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-24T09:55:40.974Z"
                   }
                 ],
                 "legacy": false
