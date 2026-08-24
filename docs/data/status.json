@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:55:57+09:00",
+  "generatedAt": "2026-08-24T18:56:52+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -12204,7 +12204,7 @@
       "tasksDone": 8,
       "tasksTotal": 8,
       "issueTasksDone": 8,
-      "outputsDone": 44,
+      "outputsDone": 46,
       "outputsTotal": 46,
       "requiredOutputsDone": 37,
       "requiredOutputsTotal": 37,
@@ -16506,13 +16506,13 @@
               "reviewBlocksCompletion": true,
               "required": false,
               "policyReason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다.",
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260812123429-LEE-TAEK-GYU-M2QCnA",
@@ -16556,15 +16556,20 @@
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812123429-LEE-TAEK-GYU-M2QCnA/table.tsv"
                   },
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-24T09:55:56.603Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-12T12:34:29.443Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-24T09:55:56.603Z"
                       }
                     ],
                     "legacy": false
@@ -16580,13 +16585,13 @@
               "reviewBlocksCompletion": true,
               "required": false,
               "policyReason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다.",
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260812123038-LEE-TAEK-GYU-OKq2Ng",
@@ -16612,15 +16617,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-24T09:56:33.714Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-12T12:30:38.987Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-24T09:56:33.714Z"
                       }
                     ],
                     "legacy": false
@@ -16633,7 +16643,7 @@
           "state": "completed",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 0,
-          "outputsDone": 1,
+          "outputsDone": 3,
           "outputsTotal": 3,
           "missingRequiredOutputs": [],
           "checkboxDrift": false
@@ -20871,13 +20881,13 @@
           "reviewBlocksCompletion": true,
           "required": false,
           "policyReason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다.",
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260812123429-LEE-TAEK-GYU-M2QCnA",
@@ -20921,15 +20931,20 @@
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O02/submissions/20260812123429-LEE-TAEK-GYU-M2QCnA/table.tsv"
               },
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-24T09:55:56.603Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-12T12:34:29.443Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-24T09:55:56.603Z"
                   }
                 ],
                 "legacy": false
@@ -20946,13 +20961,13 @@
           "reviewBlocksCompletion": true,
           "required": false,
           "policyReason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다.",
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260812123038-LEE-TAEK-GYU-OKq2Ng",
@@ -20978,15 +20993,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-24T09:56:33.714Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-12T12:30:38.987Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-24T09:56:33.714Z"
                   }
                 ],
                 "legacy": false
