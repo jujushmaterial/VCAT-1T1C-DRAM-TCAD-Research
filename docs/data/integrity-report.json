@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-24T18:01:21+09:00",
+  "generatedAt": "2026-08-24T18:33:45+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "warning",
   "counts": {
     "error": 0,
-    "warning": 54,
+    "warning": 55,
     "info": 0
   },
   "items": [
@@ -57,6 +57,19 @@
       "submissionId": "20260818045404-minhosong-mse-T7y1mg",
       "fileName": "P03-T16-O04_MeshOFF_SDE_Comparison.cmd",
       "fileOutputId": "P03-T16-O04"
+    },
+    {
+      "code": "MISSING_REQUIRED_OUTPUT",
+      "severity": "warning",
+      "message": "진행 중인 과제에 필수 산출물이 부족합니다.",
+      "phaseId": 2,
+      "taskId": "P02-T11",
+      "missingRequiredOutputs": [
+        "P02-T11-O02",
+        "P02-T11-O03",
+        "P02-T11-O04",
+        "P02-T11-O05"
+      ]
     },
     {
       "code": "FILENAME_PREFIX_MISMATCH",

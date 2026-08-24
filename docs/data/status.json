@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T21:59:18+09:00",
+  "generatedAt": "2026-08-24T18:33:45+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -3910,9 +3910,9 @@
       "tasksDone": 10,
       "tasksTotal": 11,
       "issueTasksDone": 10,
-      "outputsDone": 44,
+      "outputsDone": 45,
       "outputsTotal": 49,
-      "requiredOutputsDone": 44,
+      "requiredOutputsDone": 45,
       "requiredOutputsTotal": 49,
       "tasks": [
         {
@@ -7776,13 +7776,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260817155541-LEE-TAEK-GYU-HZVJXw",
@@ -7818,15 +7818,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-24T09:33:26.637Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-17T15:55:41.223Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-24T09:33:26.637Z"
                       }
                     ],
                     "legacy": false
@@ -8066,12 +8071,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 5,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 5,
           "missingRequiredOutputs": [
-            "P02-T11-O01",
             "P02-T11-O02",
             "P02-T11-O03",
             "P02-T11-O04",
@@ -11831,13 +11835,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260817155541-LEE-TAEK-GYU-HZVJXw",
@@ -11873,15 +11877,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-24T09:33:26.637Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-17T15:55:41.223Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-24T09:33:26.637Z"
                   }
                 ],
                 "legacy": false
@@ -12130,7 +12139,7 @@
       "updatedAt": "2026-08-21T15:25:20Z",
       "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 3
+      "integrityWarnings": 4
     },
     {
       "id": 3,
