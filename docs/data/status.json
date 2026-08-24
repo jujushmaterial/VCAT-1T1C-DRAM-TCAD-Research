@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:34:40+09:00",
+  "generatedAt": "2026-08-24T18:35:40+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -3910,9 +3910,9 @@
       "tasksDone": 10,
       "tasksTotal": 11,
       "issueTasksDone": 10,
-      "outputsDone": 47,
+      "outputsDone": 48,
       "outputsTotal": 49,
-      "requiredOutputsDone": 47,
+      "requiredOutputsDone": 48,
       "requiredOutputsTotal": 49,
       "tasks": [
         {
@@ -7974,13 +7974,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260821020125-LEE-TAEK-GYU-6bOS8A",
@@ -8006,15 +8006,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-24T09:35:22.229Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-21T02:01:25.528Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-24T09:35:22.229Z"
                       }
                     ],
                     "legacy": false
@@ -8081,12 +8086,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 3,
+          "requiredOutputsDone": 4,
           "requiredOutputsTotal": 5,
-          "outputsDone": 3,
+          "outputsDone": 4,
           "outputsTotal": 5,
           "missingRequiredOutputs": [
-            "P02-T11-O04",
             "P02-T11-O05"
           ],
           "checkboxDrift": false
@@ -12044,13 +12048,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260821020125-LEE-TAEK-GYU-6bOS8A",
@@ -12076,15 +12080,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-24T09:35:22.229Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-21T02:01:25.528Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-24T09:35:22.229Z"
                   }
                 ],
                 "legacy": false
