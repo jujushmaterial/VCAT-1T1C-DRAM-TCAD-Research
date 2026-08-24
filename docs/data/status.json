@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:56:52+09:00",
+  "generatedAt": "2026-08-24T18:57:42+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -12204,8 +12204,8 @@
       "tasksDone": 8,
       "tasksTotal": 8,
       "issueTasksDone": 8,
-      "outputsDone": 46,
-      "outputsTotal": 46,
+      "outputsDone": 45,
+      "outputsTotal": 45,
       "requiredOutputsDone": 37,
       "requiredOutputsTotal": 37,
       "tasks": [
@@ -16576,75 +16576,14 @@
                   }
                 }
               ]
-            },
-            {
-              "id": "P03-T06-O03",
-              "text": "(이전) 금속 비율에 따른 성능 그래프",
-              "type": "files",
-              "review": "none",
-              "reviewBlocksCompletion": true,
-              "required": false,
-              "policyReason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다.",
-              "submitted": true,
-              "submissionCount": 1,
-              "evidenceSubmissionCount": 1,
-              "approvedSubmissionCount": 1,
-              "pendingReviewCount": 0,
-              "heldSubmissionCount": 0,
-              "state": "submitted",
-              "submissions": [
-                {
-                  "submissionId": "20260812123038-LEE-TAEK-GYU-OKq2Ng",
-                  "phaseId": 3,
-                  "issueNumber": 3,
-                  "taskId": "P03-T06",
-                  "taskText": "각 금속 구간의 비율을 넓은 범위로 바꾼다.",
-                  "outputId": "P03-T06-O03",
-                  "outputText": "금속 비율에 따른 성능 그래프",
-                  "uploader": "LEE-TAEK-GYU",
-                  "memberName": "이택규",
-                  "memberFolder": "LeeTaekGyu",
-                  "type": "files",
-                  "uploadedAt": "2026-08-12T12:30:38.987Z",
-                  "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng",
-                  "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng",
-                  "summary": "1개 파일 · 191.9KB",
-                  "files": [
-                    {
-                      "name": "P03-T06-O03_Performance_vs_RatioSN.png",
-                      "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng/files/P03-T06-O03_Performance_vs_RatioSN.png",
-                      "size": 196457
-                    }
-                  ],
-                  "review": {
-                    "status": "approved",
-                    "reviewer": "jujushmaterial",
-                    "reviewedAt": "2026-08-24T09:56:33.714Z",
-                    "reason": null,
-                    "history": [
-                      {
-                        "action": "submitted-for-review",
-                        "reviewer": null,
-                        "at": "2026-08-12T12:30:38.987Z"
-                      },
-                      {
-                        "action": "approved",
-                        "reviewer": "jujushmaterial",
-                        "at": "2026-08-24T09:56:33.714Z"
-                      }
-                    ],
-                    "legacy": false
-                  }
-                }
-              ]
             }
           ],
           "checked": true,
           "state": "completed",
           "requiredOutputsDone": 0,
           "requiredOutputsTotal": 0,
-          "outputsDone": 3,
-          "outputsTotal": 3,
+          "outputsDone": 2,
+          "outputsTotal": 2,
           "missingRequiredOutputs": [],
           "checkboxDrift": false
         }
@@ -20952,76 +20891,14 @@
             }
           ],
           "taskId": "P03-T06"
-        },
-        {
-          "id": "P03-T06-O03",
-          "text": "(이전) 금속 비율에 따른 성능 그래프",
-          "type": "files",
-          "review": "none",
-          "reviewBlocksCompletion": true,
-          "required": false,
-          "policyReason": "Phase 3 연구계획 개편 이전 제출본을 삭제하지 않고 보존하는 참고자료입니다.",
-          "submitted": true,
-          "submissionCount": 1,
-          "evidenceSubmissionCount": 1,
-          "approvedSubmissionCount": 1,
-          "pendingReviewCount": 0,
-          "heldSubmissionCount": 0,
-          "state": "submitted",
-          "submissions": [
-            {
-              "submissionId": "20260812123038-LEE-TAEK-GYU-OKq2Ng",
-              "phaseId": 3,
-              "issueNumber": 3,
-              "taskId": "P03-T06",
-              "taskText": "각 금속 구간의 비율을 넓은 범위로 바꾼다.",
-              "outputId": "P03-T06-O03",
-              "outputText": "금속 비율에 따른 성능 그래프",
-              "uploader": "LEE-TAEK-GYU",
-              "memberName": "이택규",
-              "memberFolder": "LeeTaekGyu",
-              "type": "files",
-              "uploadedAt": "2026-08-12T12:30:38.987Z",
-              "folderPath": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng",
-              "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng",
-              "summary": "1개 파일 · 191.9KB",
-              "files": [
-                {
-                  "name": "P03-T06-O03_Performance_vs_RatioSN.png",
-                  "path": "members/LeeTaekGyu/phases/phase-03/tasks/P03-T06/outputs/P03-T06-O03/submissions/20260812123038-LEE-TAEK-GYU-OKq2Ng/files/P03-T06-O03_Performance_vs_RatioSN.png",
-                  "size": 196457
-                }
-              ],
-              "review": {
-                "status": "approved",
-                "reviewer": "jujushmaterial",
-                "reviewedAt": "2026-08-24T09:56:33.714Z",
-                "reason": null,
-                "history": [
-                  {
-                    "action": "submitted-for-review",
-                    "reviewer": null,
-                    "at": "2026-08-12T12:30:38.987Z"
-                  },
-                  {
-                    "action": "approved",
-                    "reviewer": "jujushmaterial",
-                    "at": "2026-08-24T09:56:33.714Z"
-                  }
-                ],
-                "legacy": false
-              }
-            }
-          ],
-          "taskId": "P03-T06"
         }
       ],
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-21T05:04:35Z",
+      "updatedAt": "2026-08-24T09:57:29Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "단계 닫기",
+      "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 3
     },
     {

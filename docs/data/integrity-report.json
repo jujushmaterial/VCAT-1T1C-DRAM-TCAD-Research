@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-24T18:56:52+09:00",
+  "generatedAt": "2026-08-24T18:57:42+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
-  "status": "warning",
+  "status": "error",
   "counts": {
-    "error": 0,
+    "error": 1,
     "warning": 54,
     "info": 0
   },
@@ -550,6 +550,13 @@
       "submissionId": "20260806101708-minhosong-mse-1zAVgA",
       "fileName": "P01-T10-O01_terminal_metrics_with_dibl_sign.csv",
       "fileOutputId": "P01-T10-O01"
+    },
+    {
+      "code": "ORPHAN_SUBMISSION",
+      "severity": "error",
+      "message": "Issue에 선언되지 않은 산출물 제출이 존재합니다.",
+      "outputId": "P03-T06-O03",
+      "submissionCount": 1
     }
   ]
 }
