@@ -42,15 +42,20 @@
   "comment": "short-M2 leakage/SCE 악화, non-convergence, Ion-only optimum 등 탈락 기준.",
   "commentLabel": "표 설명",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-25T12:53:44.327Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-19T06:28:00.275Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-25T12:53:44.327Z"
       }
     ],
     "legacy": false
