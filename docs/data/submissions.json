@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T12:55:15.665Z",
+  "updatedAt": "2026-08-25T12:55:47.838Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8643,15 +8643,20 @@
         "comment": "49 Multi geometry와 P2 Single의 절대 성능 및 개선율 비교.",
         "commentLabel": "표 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T12:55:47.838Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T06:35:01.807Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T12:55:47.838Z"
             }
           ],
           "legacy": false
