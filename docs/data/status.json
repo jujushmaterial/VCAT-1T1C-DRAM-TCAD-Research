@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:57:29+09:00",
+  "generatedAt": "2026-08-25T21:58:00+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20946,9 +20946,9 @@
       "tasksDone": 1,
       "tasksTotal": 4,
       "issueTasksDone": 1,
-      "outputsDone": 11,
+      "outputsDone": 12,
       "outputsTotal": 27,
-      "requiredOutputsDone": 11,
+      "requiredOutputsDone": 12,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -21851,13 +21851,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819063737-minhosong-mse-0gq4-A",
@@ -21903,15 +21903,20 @@
                   "comment": "핵심 후보 33/67, 35/67, 35/65, 37/63 통합표. GIDL 포함. 35/67 최종 선택.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T12:57:41.838Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:37:37.105Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T12:57:41.838Z"
                       }
                     ],
                     "legacy": false
@@ -21980,12 +21985,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 5,
+          "requiredOutputsDone": 6,
           "requiredOutputsTotal": 7,
-          "outputsDone": 5,
+          "outputsDone": 6,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P05-T02-O06",
             "P05-T02-O07"
           ],
           "checkboxDrift": false
@@ -24147,13 +24151,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819063737-minhosong-mse-0gq4-A",
@@ -24199,15 +24203,20 @@
               "comment": "핵심 후보 33/67, 35/67, 35/65, 37/63 통합표. GIDL 포함. 35/67 최종 선택.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T12:57:41.838Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:37:37.105Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T12:57:41.838Z"
                   }
                 ],
                 "legacy": false
