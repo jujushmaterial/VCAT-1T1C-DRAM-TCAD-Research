@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T16:05:00.923Z",
+  "updatedAt": "2026-08-25T16:06:01.570Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9465,15 +9465,20 @@
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O03/submissions/20260819074618-minhosong-mse-9QIR8g/table.tsv"
         },
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T16:06:01.570Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T07:46:18.473Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T16:06:01.570Z"
             }
           ],
           "legacy": false
