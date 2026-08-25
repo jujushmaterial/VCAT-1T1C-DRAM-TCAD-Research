@@ -42,15 +42,20 @@
   "comment": "핵심 후보 33/67, 35/67, 35/65, 37/63 통합표. GIDL 포함. 35/67 최종 선택.",
   "commentLabel": "표 설명",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-25T12:57:41.838Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-19T06:37:37.105Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-25T12:57:41.838Z"
       }
     ],
     "legacy": false
