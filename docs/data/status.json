@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:55:34+09:00",
+  "generatedAt": "2026-08-25T21:56:07+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20946,9 +20946,9 @@
       "tasksDone": 1,
       "tasksTotal": 4,
       "issueTasksDone": 1,
-      "outputsDone": 8,
+      "outputsDone": 9,
       "outputsTotal": 27,
-      "requiredOutputsDone": 8,
+      "requiredOutputsDone": 9,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -21601,13 +21601,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819063501-minhosong-mse-7P915w",
@@ -21653,15 +21653,20 @@
                   "comment": "49 Multi geometry와 P2 Single의 절대 성능 및 개선율 비교.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T12:55:47.838Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:35:01.807Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T12:55:47.838Z"
                       }
                     ],
                     "legacy": false
@@ -21965,12 +21970,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 2,
+          "requiredOutputsDone": 3,
           "requiredOutputsTotal": 7,
-          "outputsDone": 2,
+          "outputsDone": 3,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P05-T02-O03",
             "P05-T02-O04",
             "P05-T02-O05",
             "P05-T02-O06",
@@ -23882,13 +23886,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819063501-minhosong-mse-7P915w",
@@ -23934,15 +23938,20 @@
               "comment": "49 Multi geometry와 P2 Single의 절대 성능 및 개선율 비교.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T12:55:47.838Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:35:01.807Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T12:55:47.838Z"
                   }
                 ],
                 "legacy": false
