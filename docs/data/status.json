@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-25T22:56:54+09:00",
+  "generatedAt": "2026-08-25T23:00:09+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 65,
+  "overallProgress": 67,
   "phases": [
     {
       "id": 1,
@@ -20942,13 +20942,13 @@
       "id": 5,
       "issueNumber": 5,
       "state": "in-progress",
-      "progress": 50,
-      "tasksDone": 2,
+      "progress": 75,
+      "tasksDone": 3,
       "tasksTotal": 4,
-      "issueTasksDone": 2,
-      "outputsDone": 19,
+      "issueTasksDone": 3,
+      "outputsDone": 20,
       "outputsTotal": 27,
-      "requiredOutputsDone": 19,
+      "requiredOutputsDone": 20,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -22000,7 +22000,7 @@
         {
           "id": "P05-T03",
           "text": "개선 Nominal 대표구조 확정",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P05-T03-O01",
@@ -22452,13 +22452,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819064629-minhosong-mse-x8W2MQ",
@@ -22486,15 +22486,20 @@
                   "comment": "GIDL 부분 변경한 사항 및 진행 흐름 설명",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T13:56:50.450Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:46:29.867Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T13:56:50.450Z"
                       }
                     ],
                     "legacy": false
@@ -22503,15 +22508,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 6,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 7,
           "requiredOutputsTotal": 7,
-          "outputsDone": 6,
+          "outputsDone": 7,
           "outputsTotal": 7,
-          "missingRequiredOutputs": [
-            "P05-T03-O07"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -24772,13 +24775,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819064629-minhosong-mse-x8W2MQ",
@@ -24806,15 +24809,20 @@
               "comment": "GIDL 부분 변경한 사항 및 진행 흐름 설명",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T13:56:50.450Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:46:29.867Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T13:56:50.450Z"
                   }
                 ],
                 "legacy": false
@@ -25580,10 +25588,10 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-25T12:58:29Z",
+      "updatedAt": "2026-08-25T13:57:45Z",
       "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 1
+      "integrityWarnings": 0
     },
     {
       "id": 6,
