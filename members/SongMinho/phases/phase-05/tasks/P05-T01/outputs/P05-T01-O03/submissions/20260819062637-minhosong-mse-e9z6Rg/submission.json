@@ -42,15 +42,20 @@
   "comment": "B1 33–45, B2 55–67 nm, 2 nm step의 7×7=49 geometry 범위. Segment는 boundary 파생값.",
   "commentLabel": "표 설명",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-25T12:52:51.842Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-19T06:26:37.588Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-25T12:52:51.842Z"
       }
     ],
     "legacy": false
