@@ -24,15 +24,20 @@
   "comment": "short-M2 탈락 영역과 leakage/SCE 악화 이유.",
   "commentLabel": "제출 메모",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-25T12:58:10.762Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-19T06:38:20.400Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-25T12:58:10.762Z"
       }
     ],
     "legacy": false
