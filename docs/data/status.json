@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:54:58+09:00",
+  "generatedAt": "2026-08-25T21:55:34+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20946,9 +20946,9 @@
       "tasksDone": 1,
       "tasksTotal": 4,
       "issueTasksDone": 1,
-      "outputsDone": 7,
+      "outputsDone": 8,
       "outputsTotal": 27,
-      "requiredOutputsDone": 7,
+      "requiredOutputsDone": 8,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -21528,13 +21528,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819063412-minhosong-mse-ZCT25w",
@@ -21572,15 +21572,20 @@
                   "comment": "98 Forward raw PLT 대신 49 exact summary + 98 filename/node/SHA256 manifest를 제출. 원본 raw는 송민호 보관중",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T12:55:15.665Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:34:12.922Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T12:55:15.665Z"
                       }
                     ],
                     "legacy": false
@@ -21960,12 +21965,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 1,
+          "requiredOutputsDone": 2,
           "requiredOutputsTotal": 7,
-          "outputsDone": 1,
+          "outputsDone": 2,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P05-T02-O02",
             "P05-T02-O03",
             "P05-T02-O04",
             "P05-T02-O05",
@@ -23804,13 +23808,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819063412-minhosong-mse-ZCT25w",
@@ -23848,15 +23852,20 @@
               "comment": "98 Forward raw PLT 대신 49 exact summary + 98 filename/node/SHA256 manifest를 제출. 원본 raw는 송민호 보관중",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T12:55:15.665Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:34:12.922Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T12:55:15.665Z"
                   }
                 ],
                 "legacy": false
