@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T12:53:44.327Z",
+  "updatedAt": "2026-08-25T12:54:10.972Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8456,15 +8456,20 @@
         "comment": "49 Forward + shortlist GIDL로 결론이 고정되면 추가 2D sweep 없이 Nominal 1개를 확정하는 종료 기준.",
         "commentLabel": "제출 메모",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T12:54:10.972Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T06:28:59.242Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T12:54:10.972Z"
             }
           ],
           "legacy": false
