@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T00:48:50+09:00",
+  "generatedAt": "2026-08-26T01:05:08+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -25703,9 +25703,9 @@
       "tasksDone": 0,
       "tasksTotal": 2,
       "issueTasksDone": 0,
-      "outputsDone": 0,
+      "outputsDone": 1,
       "outputsTotal": 9,
-      "requiredOutputsDone": 0,
+      "requiredOutputsDone": 1,
       "requiredOutputsTotal": 9,
       "tasks": [
         {
@@ -25721,13 +25721,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819074455-minhosong-mse-GGPO5g",
@@ -25760,15 +25760,20 @@
                   "comment": "P5 2D selected Nominal (B1/B2=35/67 nm) 기준의 tolerance용 parameterized SDE·Forward SDevice 코드. Xbnd1_nm/Xbnd2_nm을 독립 geometry 변수로 유지하고 WF_LOW/WF_HIGH=4.33/4.70 eV는 고정한다. P5 검증 deck의 executable body를 유지하며 P6/P7/P8에서 ratio를 별도 독립변수로 중복 sweep하지 않는다.\n\nParameter\tNominal_or_Value\tUnit\tP6_Role\tBasis\nDpillar_nm\t12\tnm\tfixed\tP5 common\nTox_nm\t1\tnm\tfixed\tP5 common\nLg_nm\t60\tnm\tfixed\tP5 common\nLsn_nm\t20\tnm\tfixed\tP5 common\nLbl_nm\t20\tnm\tfixed\tP5 common\nNbody\t1.00E+17\tcm^-3\tfixed\tP5 common\nNSD\t1.00E+20\tcm^-3\tfixed\tP5 common\nJDepthSN_nm\t20\tnm\tfixed\tP5 common\nJDepthBL_nm\t20\tnm\tfixed\tP5 common\nGaussFactor\t0.8\t-\tfixed\tP5 common\nMeshScale\t1\t-\tfixed\tP5 common\nXbnd1_nm\t35\tnm\ttolerance variable\tP5 selected nominal\nXbnd2_nm\t67\tnm\ttolerance variable\tP5 selected nominal\nWF_LOW\t4.33\teV\tfixed\tP3/P5 fixed; no P6 sweep\nWF_HIGH\t4.7\teV\tfixed\tP3/P5 fixed; no P6 sweep\nTemp\t300\tK\tfixed\tP5 common\nVgStop\t1\tV\tfixed\tForward\nVdBias\t0.05, 1.0\tV\tfixed enumeration\tForward",
                   "commentLabel": "실행 조건 및 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T16:04:48.812Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T07:44:55.525Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T16:04:48.812Z"
                       }
                     ],
                     "legacy": false
@@ -26092,12 +26097,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 4,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 4,
           "missingRequiredOutputs": [
-            "P06-T01-O01",
             "P06-T01-O02",
             "P06-T01-O03",
             "P06-T01-O04"
@@ -26489,13 +26493,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819074455-minhosong-mse-GGPO5g",
@@ -26528,15 +26532,20 @@
               "comment": "P5 2D selected Nominal (B1/B2=35/67 nm) 기준의 tolerance용 parameterized SDE·Forward SDevice 코드. Xbnd1_nm/Xbnd2_nm을 독립 geometry 변수로 유지하고 WF_LOW/WF_HIGH=4.33/4.70 eV는 고정한다. P5 검증 deck의 executable body를 유지하며 P6/P7/P8에서 ratio를 별도 독립변수로 중복 sweep하지 않는다.\n\nParameter\tNominal_or_Value\tUnit\tP6_Role\tBasis\nDpillar_nm\t12\tnm\tfixed\tP5 common\nTox_nm\t1\tnm\tfixed\tP5 common\nLg_nm\t60\tnm\tfixed\tP5 common\nLsn_nm\t20\tnm\tfixed\tP5 common\nLbl_nm\t20\tnm\tfixed\tP5 common\nNbody\t1.00E+17\tcm^-3\tfixed\tP5 common\nNSD\t1.00E+20\tcm^-3\tfixed\tP5 common\nJDepthSN_nm\t20\tnm\tfixed\tP5 common\nJDepthBL_nm\t20\tnm\tfixed\tP5 common\nGaussFactor\t0.8\t-\tfixed\tP5 common\nMeshScale\t1\t-\tfixed\tP5 common\nXbnd1_nm\t35\tnm\ttolerance variable\tP5 selected nominal\nXbnd2_nm\t67\tnm\ttolerance variable\tP5 selected nominal\nWF_LOW\t4.33\teV\tfixed\tP3/P5 fixed; no P6 sweep\nWF_HIGH\t4.7\teV\tfixed\tP3/P5 fixed; no P6 sweep\nTemp\t300\tK\tfixed\tP5 common\nVgStop\t1\tV\tfixed\tForward\nVdBias\t0.05, 1.0\tV\tfixed enumeration\tForward",
               "commentLabel": "실행 조건 및 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T16:04:48.812Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T07:44:55.525Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T16:04:48.812Z"
                   }
                 ],
                 "legacy": false
@@ -27225,7 +27234,7 @@
       "updatedAt": "2026-08-12T20:02:16Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 0
+      "integrityWarnings": 1
     },
     {
       "id": 7,
