@@ -24,15 +24,20 @@
   "comment": "P05-T04 3D 담당자 전달용 최종 geometry/WF/bias/physics/extraction 조건.",
   "commentLabel": "제출 메모",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-25T13:56:36.547Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-19T06:45:02.677Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-25T13:56:36.547Z"
       }
     ],
     "legacy": false
