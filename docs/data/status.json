@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:58:29+09:00",
+  "generatedAt": "2026-08-25T22:08:37+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -25526,7 +25526,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-25T12:54:27Z",
+      "updatedAt": "2026-08-25T12:58:29Z",
       "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
