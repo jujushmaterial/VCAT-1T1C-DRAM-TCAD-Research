@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T12:54:10.972Z",
+  "updatedAt": "2026-08-25T12:54:39.411Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8521,15 +8521,20 @@
         "comment": "49개 Boundary geometry 전체 조건표.",
         "commentLabel": "표 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T12:54:39.411Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T06:30:25.546Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T12:54:39.411Z"
             }
           ],
           "legacy": false
