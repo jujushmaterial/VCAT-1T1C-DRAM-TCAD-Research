@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-25T21:54:04+09:00",
+  "generatedAt": "2026-08-25T21:54:27+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 60,
+  "overallProgress": 63,
   "phases": [
     {
       "id": 1,
@@ -20942,19 +20942,19 @@
       "id": 5,
       "issueNumber": 5,
       "state": "in-progress",
-      "progress": 0,
-      "tasksDone": 0,
+      "progress": 25,
+      "tasksDone": 1,
       "tasksTotal": 4,
-      "issueTasksDone": 0,
-      "outputsDone": 5,
+      "issueTasksDone": 1,
+      "outputsDone": 6,
       "outputsTotal": 27,
-      "requiredOutputsDone": 5,
+      "requiredOutputsDone": 6,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
           "id": "P05-T01",
           "text": "개선 기준·탐색범위 설정",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P05-T01-O01",
@@ -21369,13 +21369,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819062859-minhosong-mse-LPVWTA",
@@ -21403,15 +21403,20 @@
                   "comment": "49 Forward + shortlist GIDL로 결론이 고정되면 추가 2D sweep 없이 Nominal 1개를 확정하는 종료 기준.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T12:54:10.972Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:28:59.242Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T12:54:10.972Z"
                       }
                     ],
                     "legacy": false
@@ -21420,15 +21425,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 5,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 6,
           "requiredOutputsTotal": 6,
-          "outputsDone": 5,
+          "outputsDone": 6,
           "outputsTotal": 6,
-          "missingRequiredOutputs": [
-            "P05-T01-O06"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -23651,13 +23654,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819062859-minhosong-mse-LPVWTA",
@@ -23685,15 +23688,20 @@
               "comment": "49 Forward + shortlist GIDL로 결론이 고정되면 추가 2D sweep 없이 Nominal 1개를 확정하는 종료 기준.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T12:54:10.972Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:28:59.242Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T12:54:10.972Z"
                   }
                 ],
                 "legacy": false
@@ -25459,7 +25467,7 @@
       "updatedAt": "2026-08-22T10:44:35Z",
       "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 1
+      "integrityWarnings": 0
     },
     {
       "id": 6,
