@@ -42,15 +42,20 @@
   "comment": "P5 공통 Bias·Physics·Mesh·추출 조건. P2와 global+junction mesh 정책은 같고 Multi의 실제 WF boundary refinement만 추가.",
   "commentLabel": "표 설명",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-25T12:52:23.860Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-19T06:25:48.491Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-25T12:52:23.860Z"
       }
     ],
     "legacy": false
