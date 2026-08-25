@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-24T09:56:33.714Z",
+  "updatedAt": "2026-08-25T12:51:49.410Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8149,15 +8149,20 @@
         "comment": "P2 matched Single-Metal의 P5 비교 기준 성능표. Ion/Ioff/Vth/SS/DIBL/GIDL을 P5 공통 extraction으로 정리.",
         "commentLabel": "표 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T12:51:49.410Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T06:25:09.465Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T12:51:49.410Z"
             }
           ],
           "legacy": false
