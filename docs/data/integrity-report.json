@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-25T20:39:19+09:00",
+  "generatedAt": "2026-08-25T21:52:09+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "error",
   "counts": {
     "error": 1,
-    "warning": 54,
+    "warning": 55,
     "info": 0
   },
   "items": [
@@ -27,6 +27,20 @@
       "submissionId": "20260821031957-minhosong-mse-LQgzJw",
       "fileName": "P07-T01-O02_Interaction_Summary.csv",
       "fileOutputId": "P07-T01-O02"
+    },
+    {
+      "code": "MISSING_REQUIRED_OUTPUT",
+      "severity": "warning",
+      "message": "진행 중인 과제에 필수 산출물이 부족합니다.",
+      "phaseId": 5,
+      "taskId": "P05-T01",
+      "missingRequiredOutputs": [
+        "P05-T01-O02",
+        "P05-T01-O03",
+        "P05-T01-O04",
+        "P05-T01-O05",
+        "P05-T01-O06"
+      ]
     },
     {
       "code": "FILENAME_PREFIX_MISMATCH",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:57:42+09:00",
+  "generatedAt": "2026-08-25T21:52:09+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20946,9 +20946,9 @@
       "tasksDone": 0,
       "tasksTotal": 4,
       "issueTasksDone": 0,
-      "outputsDone": 0,
+      "outputsDone": 1,
       "outputsTotal": 27,
-      "requiredOutputsDone": 0,
+      "requiredOutputsDone": 1,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -20964,13 +20964,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819062509-minhosong-mse-YNLHEg",
@@ -21016,15 +21016,20 @@
                   "comment": "P2 matched Single-Metal의 P5 비교 기준 성능표. Ion/Ioff/Vth/SS/DIBL/GIDL을 P5 공통 extraction으로 정리.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T12:51:49.410Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:25:09.465Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T12:51:49.410Z"
                       }
                     ],
                     "legacy": false
@@ -21397,12 +21402,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 6,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 6,
           "missingRequiredOutputs": [
-            "P05-T01-O01",
             "P05-T01-O02",
             "P05-T01-O03",
             "P05-T01-O04",
@@ -23221,13 +23225,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819062509-minhosong-mse-YNLHEg",
@@ -23273,15 +23277,20 @@
               "comment": "P2 matched Single-Metal의 P5 비교 기준 성능표. Ion/Ioff/Vth/SS/DIBL/GIDL을 P5 공통 extraction으로 정리.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T12:51:49.410Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:25:09.465Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T12:51:49.410Z"
                   }
                 ],
                 "legacy": false
@@ -25414,7 +25423,7 @@
       "updatedAt": "2026-08-22T10:44:35Z",
       "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 0
+      "integrityWarnings": 1
     },
     {
       "id": 6,
