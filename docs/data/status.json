@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:52:42+09:00",
+  "generatedAt": "2026-08-25T21:53:09+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20946,9 +20946,9 @@
       "tasksDone": 0,
       "tasksTotal": 4,
       "issueTasksDone": 0,
-      "outputsDone": 2,
+      "outputsDone": 3,
       "outputsTotal": 27,
-      "requiredOutputsDone": 2,
+      "requiredOutputsDone": 3,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -21126,13 +21126,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819062637-minhosong-mse-e9z6Rg",
@@ -21178,15 +21178,20 @@
                   "comment": "B1 33–45, B2 55–67 nm, 2 nm step의 7×7=49 geometry 범위. Segment는 boundary 파생값.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T12:52:51.842Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:26:37.588Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T12:52:51.842Z"
                       }
                     ],
                     "legacy": false
@@ -21407,12 +21412,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 2,
+          "requiredOutputsDone": 3,
           "requiredOutputsTotal": 6,
-          "outputsDone": 2,
+          "outputsDone": 3,
           "outputsTotal": 6,
           "missingRequiredOutputs": [
-            "P05-T01-O03",
             "P05-T01-O04",
             "P05-T01-O05",
             "P05-T01-O06"
@@ -23393,13 +23397,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819062637-minhosong-mse-e9z6Rg",
@@ -23445,15 +23449,20 @@
               "comment": "B1 33–45, B2 55–67 nm, 2 nm step의 7×7=49 geometry 범위. Segment는 boundary 파생값.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T12:52:51.842Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:26:37.588Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T12:52:51.842Z"
                   }
                 ],
                 "legacy": false
