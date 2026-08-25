@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:53:09+09:00",
+  "generatedAt": "2026-08-25T21:53:35+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20946,9 +20946,9 @@
       "tasksDone": 0,
       "tasksTotal": 4,
       "issueTasksDone": 0,
-      "outputsDone": 3,
+      "outputsDone": 4,
       "outputsTotal": 27,
-      "requiredOutputsDone": 3,
+      "requiredOutputsDone": 4,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -21207,13 +21207,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819062720-minhosong-mse-FSnH_g",
@@ -21259,15 +21259,20 @@
                   "comment": "Ion-only가 아니라 drive/leakage/SS/DIBL/GIDL/convergence의 multi-metric 개선 기준.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T12:53:18.444Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:27:20.073Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T12:53:18.444Z"
                       }
                     ],
                     "legacy": false
@@ -21412,12 +21417,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 3,
+          "requiredOutputsDone": 4,
           "requiredOutputsTotal": 6,
-          "outputsDone": 3,
+          "outputsDone": 4,
           "outputsTotal": 6,
           "missingRequiredOutputs": [
-            "P05-T01-O04",
             "P05-T01-O05",
             "P05-T01-O06"
           ],
@@ -23479,13 +23483,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819062720-minhosong-mse-FSnH_g",
@@ -23531,15 +23535,20 @@
               "comment": "Ion-only가 아니라 drive/leakage/SS/DIBL/GIDL/convergence의 multi-metric 개선 기준.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T12:53:18.444Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:27:20.073Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T12:53:18.444Z"
                   }
                 ],
                 "legacy": false
