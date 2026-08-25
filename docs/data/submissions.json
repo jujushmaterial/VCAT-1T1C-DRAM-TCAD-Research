@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T12:56:39.844Z",
+  "updatedAt": "2026-08-25T12:57:12.212Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8780,15 +8780,20 @@
         "comment": "49 geometry별 P2 대비 개선율.",
         "commentLabel": "표 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T12:57:12.212Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T06:36:53.079Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T12:57:12.212Z"
             }
           ],
           "legacy": false
