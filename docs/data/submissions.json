@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T12:52:51.842Z",
+  "updatedAt": "2026-08-25T12:53:18.444Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8344,15 +8344,20 @@
         "comment": "Ion-only가 아니라 drive/leakage/SS/DIBL/GIDL/convergence의 multi-metric 개선 기준.",
         "commentLabel": "표 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T12:53:18.444Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T06:27:20.073Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T12:53:18.444Z"
             }
           ],
           "legacy": false
