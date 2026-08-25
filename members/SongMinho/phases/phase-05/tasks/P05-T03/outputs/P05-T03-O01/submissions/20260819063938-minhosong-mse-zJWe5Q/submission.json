@@ -42,15 +42,20 @@
   "comment": "최종 Nominal 35/67 = 15/32/13 nm, WF 4.33/4.70/4.33 eV.",
   "commentLabel": "표 설명",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-25T13:54:17.645Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-19T06:39:38.492Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-25T13:54:17.645Z"
       }
     ],
     "legacy": false
