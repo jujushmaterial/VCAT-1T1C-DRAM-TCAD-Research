@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T00:46:19+09:00",
+  "generatedAt": "2026-08-26T00:47:07+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -22672,7 +22672,7 @@
             {
               "id": "P05-T04-O02",
               "text": "최종 Multi-Metal 3D SDE·SDevice 코드",
-              "type": "table",
+              "type": "any",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -22890,7 +22890,7 @@
             {
               "id": "P05-T04-O03",
               "text": "3D Single-Metal–Multi-Metal 동일조건 비교표",
-              "type": "table",
+              "type": "any",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -22964,7 +22964,7 @@
             {
               "id": "P05-T04-O04",
               "text": "2D–3D 핵심 성능 변화표",
-              "type": "table",
+              "type": "any",
               "review": "recommended",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -23039,7 +23039,7 @@
               "id": "P05-T04-O05",
               "text": "3D에서도 개선 방향 유지 여부 판정",
               "type": "table",
-              "review": "recommended",
+              "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
@@ -23113,7 +23113,7 @@
               "id": "P05-T04-O06",
               "text": "P6 전달 Nominal 구조·Fixed WF·Boundary 값",
               "type": "table",
-              "review": "recommended",
+              "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
@@ -25005,7 +25005,7 @@
         {
           "id": "P05-T04-O02",
           "text": "최종 Multi-Metal 3D SDE·SDevice 코드",
-          "type": "table",
+          "type": "any",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -25224,7 +25224,7 @@
         {
           "id": "P05-T04-O03",
           "text": "3D Single-Metal–Multi-Metal 동일조건 비교표",
-          "type": "table",
+          "type": "any",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -25299,7 +25299,7 @@
         {
           "id": "P05-T04-O04",
           "text": "2D–3D 핵심 성능 변화표",
-          "type": "table",
+          "type": "any",
           "review": "recommended",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -25375,7 +25375,7 @@
           "id": "P05-T04-O05",
           "text": "3D에서도 개선 방향 유지 여부 판정",
           "type": "table",
-          "review": "recommended",
+          "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
@@ -25450,7 +25450,7 @@
           "id": "P05-T04-O06",
           "text": "P6 전달 Nominal 구조·Fixed WF·Boundary 값",
           "type": "table",
-          "review": "recommended",
+          "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
@@ -25636,8 +25636,8 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-25T13:57:45Z",
-      "lastModifiedBy": "LEE-TAEK-GYU",
+      "updatedAt": "2026-08-25T15:46:36Z",
+      "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 1
     },
