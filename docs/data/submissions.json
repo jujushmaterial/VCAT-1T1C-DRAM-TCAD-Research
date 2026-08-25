@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T13:56:36.547Z",
+  "updatedAt": "2026-08-25T13:56:50.450Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9285,15 +9285,20 @@
         "comment": "GIDL 부분 변경한 사항 및 진행 흐름 설명",
         "commentLabel": "제출 메모",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T13:56:50.450Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T06:46:29.867Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T13:56:50.450Z"
             }
           ],
           "legacy": false
