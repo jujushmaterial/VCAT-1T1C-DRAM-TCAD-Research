@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T22:56:03+09:00",
+  "generatedAt": "2026-08-25T22:56:54+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20946,9 +20946,9 @@
       "tasksDone": 2,
       "tasksTotal": 4,
       "issueTasksDone": 2,
-      "outputsDone": 18,
+      "outputsDone": 19,
       "outputsTotal": 27,
-      "requiredOutputsDone": 18,
+      "requiredOutputsDone": 19,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -22389,13 +22389,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819064502-minhosong-mse-1LaTgQ",
@@ -22423,15 +22423,20 @@
                   "comment": "P05-T04 3D 담당자 전달용 최종 geometry/WF/bias/physics/extraction 조건.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T13:56:36.547Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:45:02.677Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T13:56:36.547Z"
                       }
                     ],
                     "legacy": false
@@ -22500,12 +22505,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 5,
+          "requiredOutputsDone": 6,
           "requiredOutputsTotal": 7,
-          "outputsDone": 5,
+          "outputsDone": 6,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P05-T03-O06",
             "P05-T03-O07"
           ],
           "checkboxDrift": false
@@ -24704,13 +24708,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819064502-minhosong-mse-1LaTgQ",
@@ -24738,15 +24742,20 @@
               "comment": "P05-T04 3D 담당자 전달용 최종 geometry/WF/bias/physics/extraction 조건.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T13:56:36.547Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:45:02.677Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T13:56:36.547Z"
                   }
                 ],
                 "legacy": false
