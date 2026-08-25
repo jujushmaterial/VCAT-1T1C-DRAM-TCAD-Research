@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T22:55:14+09:00",
+  "generatedAt": "2026-08-25T22:56:03+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20946,9 +20946,9 @@
       "tasksDone": 2,
       "tasksTotal": 4,
       "issueTasksDone": 2,
-      "outputsDone": 15,
+      "outputsDone": 18,
       "outputsTotal": 27,
-      "requiredOutputsDone": 15,
+      "requiredOutputsDone": 18,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -22172,13 +22172,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819064123-minhosong-mse-jyeiyg",
@@ -22224,15 +22224,20 @@
                   "comment": "P2 대비 P5 Nominal 핵심 지표 개선율.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T13:55:11.892Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:41:23.300Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T13:55:11.892Z"
                       }
                     ],
                     "legacy": false
@@ -22248,13 +22253,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819064206-minhosong-mse-pgf-SA",
@@ -22282,15 +22287,20 @@
                   "comment": "최종 PASS 판정 및 35/67 선정 이유.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T13:55:24.349Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:42:06.904Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T13:55:24.349Z"
                       }
                     ],
                     "legacy": false
@@ -22306,13 +22316,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819064417-minhosong-mse-hKXwwQ",
@@ -22350,15 +22360,20 @@
                   "comment": "실제 98 Forward exact SDE/SDevice + validated PRODFAST GIDL + extraction criteria + final parameter.\n\nSDE와 Forward SDevice는 실제 98 Forward campaign exact deck과 동일한 파일이다.\nGIDL은 conservative 3점 cross-validation을 통과한 PRODFAST deck이다.\n최종 Nominal은 parameter로 Xbnd1=35, Xbnd2=67을 넣어 사용한다.\n\nParameter\tValue\nXbnd1_nm\t35\nXbnd2_nm\t67\nWF_LOW\t4.33\nWF_HIGH\t4.7\nTemp\t300\nForward_VdBias\t1.0,0.05\nForward_VgStop\t1\nGIDLDrain\t1\nGIDLGateStop\t-0.4",
                   "commentLabel": "실행 조건 및 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T13:55:36.881Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:44:17.042Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T13:55:36.881Z"
                       }
                     ],
                     "legacy": false
@@ -22485,14 +22500,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 2,
+          "requiredOutputsDone": 5,
           "requiredOutputsTotal": 7,
-          "outputsDone": 2,
+          "outputsDone": 5,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P05-T03-O03",
-            "P05-T03-O04",
-            "P05-T03-O05",
             "P05-T03-O06",
             "P05-T03-O07"
           ],
@@ -24472,13 +24484,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819064123-minhosong-mse-jyeiyg",
@@ -24524,15 +24536,20 @@
               "comment": "P2 대비 P5 Nominal 핵심 지표 개선율.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T13:55:11.892Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:41:23.300Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T13:55:11.892Z"
                   }
                 ],
                 "legacy": false
@@ -24549,13 +24566,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819064206-minhosong-mse-pgf-SA",
@@ -24583,15 +24600,20 @@
               "comment": "최종 PASS 판정 및 35/67 선정 이유.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T13:55:24.349Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:42:06.904Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T13:55:24.349Z"
                   }
                 ],
                 "legacy": false
@@ -24608,13 +24630,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819064417-minhosong-mse-hKXwwQ",
@@ -24652,15 +24674,20 @@
               "comment": "실제 98 Forward exact SDE/SDevice + validated PRODFAST GIDL + extraction criteria + final parameter.\n\nSDE와 Forward SDevice는 실제 98 Forward campaign exact deck과 동일한 파일이다.\nGIDL은 conservative 3점 cross-validation을 통과한 PRODFAST deck이다.\n최종 Nominal은 parameter로 Xbnd1=35, Xbnd2=67을 넣어 사용한다.\n\nParameter\tValue\nXbnd1_nm\t35\nXbnd2_nm\t67\nWF_LOW\t4.33\nWF_HIGH\t4.7\nTemp\t300\nForward_VdBias\t1.0,0.05\nForward_VgStop\t1\nGIDLDrain\t1\nGIDLGateStop\t-0.4",
               "commentLabel": "실행 조건 및 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T13:55:36.881Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:44:17.042Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T13:55:36.881Z"
                   }
                 ],
                 "legacy": false
