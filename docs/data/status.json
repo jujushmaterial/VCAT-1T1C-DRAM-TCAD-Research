@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T22:08:37+09:00",
+  "generatedAt": "2026-08-25T22:54:32+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20946,9 +20946,9 @@
       "tasksDone": 2,
       "tasksTotal": 4,
       "issueTasksDone": 2,
-      "outputsDone": 13,
+      "outputsDone": 14,
       "outputsTotal": 27,
-      "requiredOutputsDone": 13,
+      "requiredOutputsDone": 14,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -22010,13 +22010,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819063938-minhosong-mse-zJWe5Q",
@@ -22062,15 +22062,20 @@
                   "comment": "최종 Nominal 35/67 = 15/32/13 nm, WF 4.33/4.70/4.33 eV.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T13:54:17.645Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:39:38.492Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T13:54:17.645Z"
                       }
                     ],
                     "legacy": false
@@ -22475,12 +22480,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 7,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P05-T03-O01",
             "P05-T03-O02",
             "P05-T03-O03",
             "P05-T03-O04",
@@ -24300,13 +24304,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819063938-minhosong-mse-zJWe5Q",
@@ -24352,15 +24356,20 @@
               "comment": "최종 Nominal 35/67 = 15/32/13 nm, WF 4.33/4.70/4.33 eV.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T13:54:17.645Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:39:38.492Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T13:54:17.645Z"
                   }
                 ],
                 "legacy": false
@@ -25529,7 +25538,7 @@
       "updatedAt": "2026-08-25T12:58:29Z",
       "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 0
+      "integrityWarnings": 1
     },
     {
       "id": 6,
