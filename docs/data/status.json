@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:57:00+09:00",
+  "generatedAt": "2026-08-25T21:57:29+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20946,9 +20946,9 @@
       "tasksDone": 1,
       "tasksTotal": 4,
       "issueTasksDone": 1,
-      "outputsDone": 10,
+      "outputsDone": 11,
       "outputsTotal": 27,
-      "requiredOutputsDone": 10,
+      "requiredOutputsDone": 11,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -21770,13 +21770,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819063653-minhosong-mse-ZVGgEA",
@@ -21822,15 +21822,20 @@
                   "comment": "49 geometry별 P2 대비 개선율.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T12:57:12.212Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:36:53.079Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T12:57:12.212Z"
                       }
                     ],
                     "legacy": false
@@ -21975,12 +21980,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 4,
+          "requiredOutputsDone": 5,
           "requiredOutputsTotal": 7,
-          "outputsDone": 4,
+          "outputsDone": 5,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P05-T02-O05",
             "P05-T02-O06",
             "P05-T02-O07"
           ],
@@ -24061,13 +24065,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819063653-minhosong-mse-ZVGgEA",
@@ -24113,15 +24117,20 @@
               "comment": "49 geometry별 P2 대비 개선율.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T12:57:12.212Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:36:53.079Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T12:57:12.212Z"
                   }
                 ],
                 "legacy": false
