@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T16:14:04.467Z",
+  "updatedAt": "2026-08-25T16:14:19.169Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9687,15 +9687,20 @@
         "comment": "P5 최종 Nominal 구조(B1/B2=35/67 nm, WF=4.33/4.70/4.33 eV)와 P6 Parameterized Nominal fresh rerun 결과를 비교하였다. Ion, Ioff, Ion/Ioff, Vth@Vd=0.05/1.0 V, SS, DIBL이 동일하게 재현되었으며, parameterization 전후 Nominal 전기적 특성의 일치를 확인하였다.",
         "commentLabel": "표 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T16:14:19.169Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T15:17:27.546Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T16:14:19.169Z"
             }
           ],
           "legacy": false
