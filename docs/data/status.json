@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T01:05:08+09:00",
+  "generatedAt": "2026-08-26T01:06:36+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -25703,9 +25703,9 @@
       "tasksDone": 0,
       "tasksTotal": 2,
       "issueTasksDone": 0,
-      "outputsDone": 1,
+      "outputsDone": 3,
       "outputsTotal": 9,
-      "requiredOutputsDone": 1,
+      "requiredOutputsDone": 3,
       "requiredOutputsTotal": 9,
       "tasks": [
         {
@@ -25789,13 +25789,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819074531-minhosong-mse-rT_aGQ",
@@ -25841,15 +25841,20 @@
                   "comment": "Xbnd1/Xbnd2와 M1/M2/M3의 geometry 대응표. B1/B2가 독립변수이며 M1=B1-20, M2=B2-B1, M3=80-B2는 파생값이다. WF는 고정값이다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T16:05:00.923Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T07:45:31.803Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T16:05:00.923Z"
                       }
                     ],
                     "legacy": false
@@ -25865,13 +25870,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819074618-minhosong-mse-9QIR8g",
@@ -25915,15 +25920,20 @@
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O03/submissions/20260819074618-minhosong-mse-9QIR8g/table.tsv"
                   },
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T16:06:01.570Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T07:46:18.473Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T16:06:01.570Z"
                       }
                     ],
                     "legacy": false
@@ -26097,13 +26107,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 1,
+          "requiredOutputsDone": 3,
           "requiredOutputsTotal": 4,
-          "outputsDone": 1,
+          "outputsDone": 3,
           "outputsTotal": 4,
           "missingRequiredOutputs": [
-            "P06-T01-O02",
-            "P06-T01-O03",
             "P06-T01-O04"
           ],
           "checkboxDrift": false
@@ -26562,13 +26570,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819074531-minhosong-mse-rT_aGQ",
@@ -26614,15 +26622,20 @@
               "comment": "Xbnd1/Xbnd2와 M1/M2/M3의 geometry 대응표. B1/B2가 독립변수이며 M1=B1-20, M2=B2-B1, M3=80-B2는 파생값이다. WF는 고정값이다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T16:05:00.923Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T07:45:31.803Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T16:05:00.923Z"
                   }
                 ],
                 "legacy": false
@@ -26639,13 +26652,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819074618-minhosong-mse-9QIR8g",
@@ -26689,15 +26702,20 @@
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/SongMinho/phases/phase-06/tasks/P06-T01/outputs/P06-T01-O03/submissions/20260819074618-minhosong-mse-9QIR8g/table.tsv"
               },
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T16:06:01.570Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T07:46:18.473Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T16:06:01.570Z"
                   }
                 ],
                 "legacy": false
