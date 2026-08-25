@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-26T01:06:36+09:00",
+  "generatedAt": "2026-08-26T01:14:21+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 70,
+  "overallProgress": 72,
   "phases": [
     {
       "id": 1,
@@ -25699,19 +25699,19 @@
       "id": 6,
       "issueNumber": 6,
       "state": "in-progress",
-      "progress": 0,
-      "tasksDone": 0,
+      "progress": 50,
+      "tasksDone": 1,
       "tasksTotal": 2,
-      "issueTasksDone": 0,
-      "outputsDone": 3,
+      "issueTasksDone": 1,
+      "outputsDone": 5,
       "outputsTotal": 9,
-      "requiredOutputsDone": 3,
+      "requiredOutputsDone": 5,
       "requiredOutputsTotal": 9,
       "tasks": [
         {
           "id": "P06-T01",
           "text": "허용오차 분석용 코드 Parameter화",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P06-T01-O01",
@@ -25949,13 +25949,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 2,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "evidenceSubmissionCount": 2,
+              "approvedSubmissionCount": 2,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819074653-minhosong-mse-FczsOQ",
@@ -26028,15 +26028,20 @@
                   "comment": "Nominal 35/67 및 B1±2 nm, B2±2 nm 총 5개 SDE geometry의 Sentaurus Visual 원본 캡처. 각 case에 full structure와 B1/B2 주변 mesh 확대 이미지를 포함한다. 모든 구조가 생성되었고 boundary variation과 local mesh 이동을 육안 확인했다. Electrical reproducibility는 P06-T02에서 별도 검증한다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T16:06:27.467Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T07:46:53.827Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T16:06:27.467Z"
                       }
                     ],
                     "legacy": false
@@ -26088,15 +26093,20 @@
                   "comment": "Nominal 35/67 및 B1±2 nm, B2±2 nm 총 5개 SDE geometry의 Sentaurus Visual 원본 캡처. 각 case에 full structure와 B1/B2 주변 mesh 확대 이미지를 포함한다. 모든 구조가 생성되었고 boundary variation과 local mesh 이동을 육안 확인했다. Electrical reproducibility는 P06-T02에서 별도 검증한다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T16:06:15.144Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T07:47:43.555Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T16:06:15.144Z"
                       }
                     ],
                     "legacy": false
@@ -26105,15 +26115,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 3,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 4,
           "requiredOutputsTotal": 4,
-          "outputsDone": 3,
+          "outputsDone": 4,
           "outputsTotal": 4,
-          "missingRequiredOutputs": [
-            "P06-T01-O04"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -26205,13 +26213,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819152019-LSH-linear-i-oFRg",
@@ -26244,15 +26252,20 @@
                   "comment": "P5 Original과 P6 Parameterized Nominal fresh rerun의 Forward Id–Vg를 Vd=0.05 V와 1.0 V에서 Sentaurus Visual로 직접 비교하였다. 두 bias 조건 모두 P5와 P6 curve가 전 구간에서 중첩되며, fresh rerun의 raw PLT도 P5 원본과 동일한 SHA256을 보여 parameterization 전후 전기적 특성 재현성을 확인하였다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T16:14:04.467Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T15:20:19.576Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T16:14:04.467Z"
                       }
                     ],
                     "legacy": false
@@ -26478,13 +26491,12 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 5,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 5,
           "missingRequiredOutputs": [
             "P06-T02-O01",
-            "P06-T02-O02",
             "P06-T02-O03",
             "P06-T02-O04",
             "P06-T02-O05"
@@ -26732,13 +26744,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 2,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "evidenceSubmissionCount": 2,
+          "approvedSubmissionCount": 2,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819074653-minhosong-mse-FczsOQ",
@@ -26811,15 +26823,20 @@
               "comment": "Nominal 35/67 및 B1±2 nm, B2±2 nm 총 5개 SDE geometry의 Sentaurus Visual 원본 캡처. 각 case에 full structure와 B1/B2 주변 mesh 확대 이미지를 포함한다. 모든 구조가 생성되었고 boundary variation과 local mesh 이동을 육안 확인했다. Electrical reproducibility는 P06-T02에서 별도 검증한다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T16:06:27.467Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T07:46:53.827Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T16:06:27.467Z"
                   }
                 ],
                 "legacy": false
@@ -26871,15 +26888,20 @@
               "comment": "Nominal 35/67 및 B1±2 nm, B2±2 nm 총 5개 SDE geometry의 Sentaurus Visual 원본 캡처. 각 case에 full structure와 B1/B2 주변 mesh 확대 이미지를 포함한다. 모든 구조가 생성되었고 boundary variation과 local mesh 이동을 육안 확인했다. Electrical reproducibility는 P06-T02에서 별도 검증한다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T16:06:15.144Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T07:47:43.555Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T16:06:15.144Z"
                   }
                 ],
                 "legacy": false
@@ -26973,13 +26995,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819152019-LSH-linear-i-oFRg",
@@ -27012,15 +27034,20 @@
               "comment": "P5 Original과 P6 Parameterized Nominal fresh rerun의 Forward Id–Vg를 Vd=0.05 V와 1.0 V에서 Sentaurus Visual로 직접 비교하였다. 두 bias 조건 모두 P5와 P6 curve가 전 구간에서 중첩되며, fresh rerun의 raw PLT도 P5 원본과 동일한 SHA256을 보여 parameterization 전후 전기적 특성 재현성을 확인하였다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T16:14:04.467Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T15:20:19.576Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T16:14:04.467Z"
                   }
                 ],
                 "legacy": false
@@ -27249,7 +27276,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-12T20:02:16Z",
+      "updatedAt": "2026-08-25T16:08:00Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 1

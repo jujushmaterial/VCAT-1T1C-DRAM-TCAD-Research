@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T01:06:36+09:00",
+  "generatedAt": "2026-08-26T01:14:21+09:00",
   "repository": "jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research",
   "status": "error",
   "counts": {
@@ -33,9 +33,12 @@
       "severity": "warning",
       "message": "진행 중인 과제에 필수 산출물이 부족합니다.",
       "phaseId": 6,
-      "taskId": "P06-T01",
+      "taskId": "P06-T02",
       "missingRequiredOutputs": [
-        "P06-T01-O04"
+        "P06-T02-O01",
+        "P06-T02-O03",
+        "P06-T02-O04",
+        "P06-T02-O05"
       ]
     },
     {
