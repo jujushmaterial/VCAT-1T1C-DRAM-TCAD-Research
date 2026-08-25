@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T16:06:27.467Z",
+  "updatedAt": "2026-08-25T16:14:04.467Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9734,15 +9734,20 @@
         "comment": "P5 Original과 P6 Parameterized Nominal fresh rerun의 Forward Id–Vg를 Vd=0.05 V와 1.0 V에서 Sentaurus Visual로 직접 비교하였다. 두 bias 조건 모두 P5와 P6 curve가 전 구간에서 중첩되며, fresh rerun의 raw PLT도 P5 원본과 동일한 SHA256을 보여 parameterization 전후 전기적 특성 재현성을 확인하였다.",
         "commentLabel": "제출 메모",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T16:14:04.467Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T15:20:19.576Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T16:14:04.467Z"
             }
           ],
           "legacy": false
