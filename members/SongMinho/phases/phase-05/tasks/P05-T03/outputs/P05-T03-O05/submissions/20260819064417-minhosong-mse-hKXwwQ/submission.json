@@ -34,15 +34,20 @@
   "comment": "실제 98 Forward exact SDE/SDevice + validated PRODFAST GIDL + extraction criteria + final parameter.\n\nSDE와 Forward SDevice는 실제 98 Forward campaign exact deck과 동일한 파일이다.\nGIDL은 conservative 3점 cross-validation을 통과한 PRODFAST deck이다.\n최종 Nominal은 parameter로 Xbnd1=35, Xbnd2=67을 넣어 사용한다.\n\nParameter\tValue\nXbnd1_nm\t35\nXbnd2_nm\t67\nWF_LOW\t4.33\nWF_HIGH\t4.7\nTemp\t300\nForward_VdBias\t1.0,0.05\nForward_VgStop\t1\nGIDLDrain\t1\nGIDLGateStop\t-0.4",
   "commentLabel": "실행 조건 및 설명",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-08-25T13:55:36.881Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-19T06:44:17.042Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-08-25T13:55:36.881Z"
       }
     ],
     "legacy": false
