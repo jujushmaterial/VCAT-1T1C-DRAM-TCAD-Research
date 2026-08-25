@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-26T00:47:59+09:00",
+  "generatedAt": "2026-08-26T00:48:50+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 67,
+  "overallProgress": 70,
   "phases": [
     {
       "id": 1,
@@ -20941,14 +20941,14 @@
     {
       "id": 5,
       "issueNumber": 5,
-      "state": "in-progress",
-      "progress": 75,
-      "tasksDone": 3,
+      "state": "completed",
+      "progress": 100,
+      "tasksDone": 4,
       "tasksTotal": 4,
-      "issueTasksDone": 3,
-      "outputsDone": 26,
+      "issueTasksDone": 4,
+      "outputsDone": 27,
       "outputsTotal": 27,
-      "requiredOutputsDone": 26,
+      "requiredOutputsDone": 27,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -22520,7 +22520,7 @@
         {
           "id": "P05-T04",
           "text": "최종 구조 3D 검증 및 Single-Multi 비교",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P05-T04-O01",
@@ -23272,13 +23272,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260823123815-LEE-TAEK-GYU-IfcDUw",
@@ -23304,15 +23304,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T15:47:50.543Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-23T12:38:15.558Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T15:47:50.543Z"
                       }
                     ],
                     "legacy": false
@@ -23321,15 +23326,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 6,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 7,
           "requiredOutputsTotal": 7,
-          "outputsDone": 6,
+          "outputsDone": 7,
           "outputsTotal": 7,
-          "missingRequiredOutputs": [
-            "P05-T04-O07"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         }
       ],
@@ -25631,13 +25634,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260823123815-LEE-TAEK-GYU-IfcDUw",
@@ -25663,15 +25666,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T15:47:50.543Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-23T12:38:15.558Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T15:47:50.543Z"
                   }
                 ],
                 "legacy": false
@@ -25682,10 +25690,10 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-25T15:46:36Z",
+      "updatedAt": "2026-08-25T15:48:31Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 1
+      "lastModifiedAction": "단계 닫기",
+      "integrityWarnings": 0
     },
     {
       "id": 6,
