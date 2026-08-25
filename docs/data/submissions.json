@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T15:47:17.942Z",
+  "updatedAt": "2026-08-25T15:47:29.792Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -11041,15 +11041,20 @@
           "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-05/tasks/P05-T04/outputs/P05-T04-O06/submissions/20260822091941-LEE-TAEK-GYU-Y6jtng/table.tsv"
         },
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T15:47:29.792Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-22T09:19:41.252Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T15:47:29.792Z"
             }
           ],
           "legacy": false
