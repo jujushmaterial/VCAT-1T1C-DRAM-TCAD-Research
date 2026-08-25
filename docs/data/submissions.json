@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T13:54:17.645Z",
+  "updatedAt": "2026-08-25T13:54:58.730Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9022,15 +9022,20 @@
         "comment": "P2 Single과 P5 Nominal의 통합 성능 비교.",
         "commentLabel": "표 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T13:54:58.730Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T06:40:18.408Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T13:54:58.730Z"
             }
           ],
           "legacy": false
