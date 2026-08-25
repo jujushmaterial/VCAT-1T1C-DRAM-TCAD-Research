@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T16:14:34.388Z",
+  "updatedAt": "2026-08-25T16:14:48.733Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -9869,15 +9869,20 @@
         "comment": "P7/P8 tolerance 분석에서 모든 구조를 동일 기준으로 비교하기 위해 공통 성능 추출 기준을 고정하였다. Ion은 Vd=1.0 V, Vg=1.0 V, Ioff는 Vd=1.0 V, Vg=0 V에서 추출하며, Vth는 |Id|=1×10^-7 A constant-current 기준, SS는 Vd=1.0 V에서 1×10^-12≤|Id|≤1×10^-8 A 구간, DIBL은 Vth@Vd=0.05 V와 Vth@Vd=1.0 V의 차이를 기준으로 계산한다.",
         "commentLabel": "표 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T16:14:48.733Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T15:31:01.089Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T16:14:48.733Z"
             }
           ],
           "legacy": false
