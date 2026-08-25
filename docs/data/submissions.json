@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T12:55:47.838Z",
+  "updatedAt": "2026-08-25T12:56:39.844Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -8715,15 +8715,20 @@
         "comment": "Ion/logIoff/SS/DIBL/logIonIoff의 Boundary–성능 2D Map. 각 PNG 원본 그대로 업로드.",
         "commentLabel": "제출 메모",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T12:56:39.844Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-19T06:35:50.660Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T12:56:39.844Z"
             }
           ],
           "legacy": false
