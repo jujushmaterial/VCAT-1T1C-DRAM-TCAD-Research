@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:54:27+09:00",
+  "generatedAt": "2026-08-25T21:54:58+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20946,9 +20946,9 @@
       "tasksDone": 1,
       "tasksTotal": 4,
       "issueTasksDone": 1,
-      "outputsDone": 6,
+      "outputsDone": 7,
       "outputsTotal": 27,
-      "requiredOutputsDone": 6,
+      "requiredOutputsDone": 7,
       "requiredOutputsTotal": 27,
       "tasks": [
         {
@@ -21447,13 +21447,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260819063025-minhosong-mse--ss5Wg",
@@ -21499,15 +21499,20 @@
                   "comment": "49개 Boundary geometry 전체 조건표.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-25T12:54:39.411Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-19T06:30:25.546Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-25T12:54:39.411Z"
                       }
                     ],
                     "legacy": false
@@ -21955,12 +21960,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 7,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 7,
           "missingRequiredOutputs": [
-            "P05-T02-O01",
             "P05-T02-O02",
             "P05-T02-O03",
             "P05-T02-O04",
@@ -23718,13 +23722,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260819063025-minhosong-mse--ss5Wg",
@@ -23770,15 +23774,20 @@
               "comment": "49개 Boundary geometry 전체 조건표.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-25T12:54:39.411Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-19T06:30:25.546Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-25T12:54:39.411Z"
                   }
                 ],
                 "legacy": false
@@ -25464,10 +25473,10 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-22T10:44:35Z",
+      "updatedAt": "2026-08-25T12:54:27Z",
       "lastModifiedBy": "LEE-TAEK-GYU",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 0
+      "integrityWarnings": 1
     },
     {
       "id": 6,
