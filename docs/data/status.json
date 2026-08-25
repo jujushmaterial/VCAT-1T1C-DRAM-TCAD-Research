@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T01:53:03+09:00",
+  "generatedAt": "2026-08-26T01:55:16+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -25698,7 +25698,7 @@
     {
       "id": 6,
       "issueNumber": 6,
-      "state": "review",
+      "state": "completed",
       "progress": 100,
       "tasksDone": 2,
       "tasksTotal": 2,
@@ -27311,9 +27311,9 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-25T16:15:26Z",
+      "updatedAt": "2026-08-25T16:55:02Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "과제·산출물 목록 수정",
+      "lastModifiedAction": "단계 닫기",
       "integrityWarnings": 0
     },
     {
