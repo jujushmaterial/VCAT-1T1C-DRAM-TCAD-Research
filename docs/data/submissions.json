@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T15:45:18.713Z",
+  "updatedAt": "2026-08-25T15:45:41.082Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -10197,15 +10197,20 @@
         "comment": "SDE 파라미터",
         "commentLabel": "표 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-25T15:45:41.082Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-21T02:47:14.045Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-25T15:45:41.082Z"
             }
           ],
           "legacy": false
