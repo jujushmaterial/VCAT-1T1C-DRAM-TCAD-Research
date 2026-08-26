@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-26T17:26:43+09:00",
+  "generatedAt": "2026-08-26T17:27:39+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 79,
+  "overallProgress": 81,
   "phases": [
     {
       "id": 1,
@@ -27319,14 +27319,14 @@
     {
       "id": 7,
       "issueNumber": 7,
-      "state": "in-progress",
-      "progress": 67,
-      "tasksDone": 2,
+      "state": "review",
+      "progress": 100,
+      "tasksDone": 3,
       "tasksTotal": 3,
-      "issueTasksDone": 2,
-      "outputsDone": 8,
-      "outputsTotal": 12,
-      "requiredOutputsDone": 8,
+      "issueTasksDone": 3,
+      "outputsDone": 9,
+      "outputsTotal": 9,
+      "requiredOutputsDone": 9,
       "requiredOutputsTotal": 9,
       "tasks": [
         {
@@ -27840,57 +27840,6 @@
           "declaredChecked": true,
           "outputs": [
             {
-              "id": "P07-T02-O01",
-              "text": "추가 변수 Screening 조건·Raw Data",
-              "type": "table",
-              "review": "none",
-              "reviewBlocksCompletion": true,
-              "required": false,
-              "policyReason": "P07-T02는 필요할 때만 수행하는 선택 Screening이며 미수행 시 P07-T02-O04의 판단 근거로 대체합니다.",
-              "submitted": false,
-              "submissionCount": 0,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
-              "heldSubmissionCount": 0,
-              "state": "optional",
-              "submissions": []
-            },
-            {
-              "id": "P07-T02-O02",
-              "text": "추가 변수 성능 변화 그래프",
-              "type": "files",
-              "review": "none",
-              "reviewBlocksCompletion": true,
-              "required": false,
-              "policyReason": "P07-T02는 필요할 때만 수행하는 선택 Screening이며 미수행 시 P07-T02-O04의 판단 근거로 대체합니다.",
-              "submitted": false,
-              "submissionCount": 0,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
-              "heldSubmissionCount": 0,
-              "state": "optional",
-              "submissions": []
-            },
-            {
-              "id": "P07-T02-O03",
-              "text": "기존 Boundary 변수 대비 민감도 비교",
-              "type": "table",
-              "review": "none",
-              "reviewBlocksCompletion": true,
-              "required": false,
-              "policyReason": "P07-T02는 필요할 때만 수행하는 선택 Screening이며 미수행 시 P07-T02-O04의 판단 근거로 대체합니다.",
-              "submitted": false,
-              "submissionCount": 0,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 0,
-              "heldSubmissionCount": 0,
-              "state": "optional",
-              "submissions": []
-            },
-            {
               "id": "P07-T02-O04",
               "text": "P8 포함 여부 및 근거(미수행 사유 포함)",
               "type": "files",
@@ -28037,14 +27986,14 @@
           "requiredOutputsDone": 2,
           "requiredOutputsTotal": 2,
           "outputsDone": 2,
-          "outputsTotal": 5,
+          "outputsTotal": 2,
           "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
           "id": "P07-T03",
           "text": "AI분석용 참고자료",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P07-T03-O01",
@@ -28054,13 +28003,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260821031957-minhosong-mse-LQgzJw",
@@ -28116,15 +28065,20 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-26T08:26:41.923Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-21T03:19:57.090Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-26T08:26:41.923Z"
                       }
                     ],
                     "legacy": false
@@ -28133,15 +28087,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 1,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 1,
-          "missingRequiredOutputs": [
-            "P07-T03-O01"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         }
       ],
@@ -28643,60 +28595,6 @@
           "taskId": "P07-T01"
         },
         {
-          "id": "P07-T02-O01",
-          "text": "추가 변수 Screening 조건·Raw Data",
-          "type": "table",
-          "review": "none",
-          "reviewBlocksCompletion": true,
-          "required": false,
-          "policyReason": "P07-T02는 필요할 때만 수행하는 선택 Screening이며 미수행 시 P07-T02-O04의 판단 근거로 대체합니다.",
-          "submitted": false,
-          "submissionCount": 0,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
-          "heldSubmissionCount": 0,
-          "state": "optional",
-          "submissions": [],
-          "taskId": "P07-T02"
-        },
-        {
-          "id": "P07-T02-O02",
-          "text": "추가 변수 성능 변화 그래프",
-          "type": "files",
-          "review": "none",
-          "reviewBlocksCompletion": true,
-          "required": false,
-          "policyReason": "P07-T02는 필요할 때만 수행하는 선택 Screening이며 미수행 시 P07-T02-O04의 판단 근거로 대체합니다.",
-          "submitted": false,
-          "submissionCount": 0,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
-          "heldSubmissionCount": 0,
-          "state": "optional",
-          "submissions": [],
-          "taskId": "P07-T02"
-        },
-        {
-          "id": "P07-T02-O03",
-          "text": "기존 Boundary 변수 대비 민감도 비교",
-          "type": "table",
-          "review": "none",
-          "reviewBlocksCompletion": true,
-          "required": false,
-          "policyReason": "P07-T02는 필요할 때만 수행하는 선택 Screening이며 미수행 시 P07-T02-O04의 판단 근거로 대체합니다.",
-          "submitted": false,
-          "submissionCount": 0,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 0,
-          "heldSubmissionCount": 0,
-          "state": "optional",
-          "submissions": [],
-          "taskId": "P07-T02"
-        },
-        {
           "id": "P07-T02-O04",
           "text": "P8 포함 여부 및 근거(미수행 사유 포함)",
           "type": "files",
@@ -28847,13 +28745,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260821031957-minhosong-mse-LQgzJw",
@@ -28909,15 +28807,20 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-26T08:26:41.923Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-21T03:19:57.090Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-26T08:26:41.923Z"
                   }
                 ],
                 "legacy": false
@@ -28928,8 +28831,8 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-26T08:19:56Z",
-      "lastModifiedBy": "LSH-linear",
+      "updatedAt": "2026-08-26T08:27:06Z",
+      "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 2
     },
