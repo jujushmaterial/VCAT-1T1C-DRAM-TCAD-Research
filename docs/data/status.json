@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T01:55:16+09:00",
+  "generatedAt": "2026-08-26T16:46:16+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -27324,9 +27324,9 @@
       "tasksDone": 0,
       "tasksTotal": 3,
       "issueTasksDone": 0,
-      "outputsDone": 0,
+      "outputsDone": 1,
       "outputsTotal": 12,
-      "requiredOutputsDone": 0,
+      "requiredOutputsDone": 1,
       "requiredOutputsTotal": 9,
       "tasks": [
         {
@@ -27342,13 +27342,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260821031014-minhosong-mse-ChhyHA",
@@ -27394,15 +27394,20 @@
                   "comment": "P5 7×7 Boundary Sweep의 기존 데이터를 P7에서 재사용하기 위한 공식 inventory. P05-T02-O02 exact 49-point Forward summary와 98 raw Forward PLT manifest, P5 Nominal, P6 parameterization 및 이선형 P06-T02 fresh reproducibility/frozen baseline 자료의 submission ID와 재사용 목적을 정리하였다. 49개 전체에는 Ion, Ioff, Ion/Ioff, Vth@0.05/1.0, SS@0.05/1.0, DIBL이 존재하며 49-point GIDL은 존재하지 않는다. P5 shortlist의 일부 GIDL은 참고자료로만 구분하였다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-26T07:45:59.744Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-21T03:10:14.632Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-26T07:45:59.744Z"
                       }
                     ],
                     "legacy": false
@@ -27797,12 +27802,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 6,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 6,
           "missingRequiredOutputs": [
-            "P07-T01-O01",
             "P07-T01-O02",
             "P07-T01-O03",
             "P07-T01-O04",
@@ -28124,13 +28128,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260821031014-minhosong-mse-ChhyHA",
@@ -28176,15 +28180,20 @@
               "comment": "P5 7×7 Boundary Sweep의 기존 데이터를 P7에서 재사용하기 위한 공식 inventory. P05-T02-O02 exact 49-point Forward summary와 98 raw Forward PLT manifest, P5 Nominal, P6 parameterization 및 이선형 P06-T02 fresh reproducibility/frozen baseline 자료의 submission ID와 재사용 목적을 정리하였다. 49개 전체에는 Ion, Ioff, Ion/Ioff, Vth@0.05/1.0, SS@0.05/1.0, DIBL이 존재하며 49-point GIDL은 존재하지 않는다. P5 shortlist의 일부 GIDL은 참고자료로만 구분하였다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-26T07:45:59.744Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-21T03:10:14.632Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-26T07:45:59.744Z"
                   }
                 ],
                 "legacy": false
@@ -28861,7 +28870,7 @@
       "updatedAt": "2026-08-21T08:59:01Z",
       "lastModifiedBy": "LSH-linear",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 2
+      "integrityWarnings": 3
     },
     {
       "id": 8,
