@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T17:19:56+09:00",
+  "generatedAt": "2026-08-26T17:24:50+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -27324,9 +27324,9 @@
       "tasksDone": 1,
       "tasksTotal": 3,
       "issueTasksDone": 1,
-      "outputsDone": 6,
+      "outputsDone": 7,
       "outputsTotal": 12,
-      "requiredOutputsDone": 6,
+      "requiredOutputsDone": 7,
       "requiredOutputsTotal": 9,
       "tasks": [
         {
@@ -27898,13 +27898,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260821031733-minhosong-mse-_YV2aw",
@@ -27932,15 +27932,20 @@
                   "comment": "P07-T02 추가 구조변수 Screening은 수행하지 않았다. 최신 completion policy에서 O01~O03은 optional이며 O04의 수행/미수행 판단 근거가 필수다. P5 49-point B1/B2 데이터, P6 independent-variable 정의, 실제 sensitivity와 interaction으로 P8 2D Grid 필요성이 충분히 입증되었으므로 Tox/channel dimension을 제3 sweep 변수로 추가할 실험적 필요성이 현재 없다. 이는 Tox/channel이 물리적으로 무민감하다는 의미가 아니며, P8에서 설명 불가능한 limiting metric/2D–3D discrepancy 또는 별도 공정 tolerance 요구가 생기면 재개한다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-26T08:24:33.606Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-21T03:17:33.205Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-26T08:24:33.606Z"
                       }
                     ],
                     "legacy": false
@@ -28024,12 +28029,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "requiredOutputsDone": 1,
           "requiredOutputsTotal": 2,
-          "outputsDone": 0,
+          "outputsDone": 1,
           "outputsTotal": 5,
           "missingRequiredOutputs": [
-            "P07-T02-O04",
             "P07-T02-O05"
           ],
           "checkboxDrift": false
@@ -28697,13 +28701,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260821031733-minhosong-mse-_YV2aw",
@@ -28731,15 +28735,20 @@
               "comment": "P07-T02 추가 구조변수 Screening은 수행하지 않았다. 최신 completion policy에서 O01~O03은 optional이며 O04의 수행/미수행 판단 근거가 필수다. P5 49-point B1/B2 데이터, P6 independent-variable 정의, 실제 sensitivity와 interaction으로 P8 2D Grid 필요성이 충분히 입증되었으므로 Tox/channel dimension을 제3 sweep 변수로 추가할 실험적 필요성이 현재 없다. 이는 Tox/channel이 물리적으로 무민감하다는 의미가 아니며, P8에서 설명 불가능한 limiting metric/2D–3D discrepancy 또는 별도 공정 tolerance 요구가 생기면 재개한다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-26T08:24:33.606Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-21T03:17:33.205Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-26T08:24:33.606Z"
                   }
                 ],
                 "legacy": false
@@ -28911,10 +28920,10 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-21T08:59:01Z",
+      "updatedAt": "2026-08-26T08:19:56Z",
       "lastModifiedBy": "LSH-linear",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 2
+      "integrityWarnings": 3
     },
     {
       "id": 8,
