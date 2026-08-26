@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-26T17:19:28+09:00",
+  "generatedAt": "2026-08-26T17:19:56+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 74,
+  "overallProgress": 77,
   "phases": [
     {
       "id": 1,
@@ -27320,19 +27320,19 @@
       "id": 7,
       "issueNumber": 7,
       "state": "in-progress",
-      "progress": 0,
-      "tasksDone": 0,
+      "progress": 33,
+      "tasksDone": 1,
       "tasksTotal": 3,
-      "issueTasksDone": 0,
-      "outputsDone": 5,
+      "issueTasksDone": 1,
+      "outputsDone": 6,
       "outputsTotal": 12,
-      "requiredOutputsDone": 5,
+      "requiredOutputsDone": 6,
       "requiredOutputsTotal": 9,
       "tasks": [
         {
           "id": "P07-T01",
           "text": "P5 데이터 재사용 민감도 분석 및 P8 변수 선정",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P07-T01-O01",
@@ -27769,13 +27769,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260821031503-minhosong-mse-XFCBOQ",
@@ -27803,15 +27803,20 @@
                   "comment": "P8 변수 포함·제외 판단 근거. Xbnd1_nm/Xbnd2_nm은 independent geometry tolerance variable이며 sensitivity와 interaction이 실제 존재하므로 포함한다. M1/M2/M3는 derived라 중복되므로 제외하고, Tox/channel dimension은 현재 B1/B2만으로도 P8 2D campaign을 구성할 근거가 충분해 추가 dimension으로 채택하지 않는다. 각 제외변수에 limitation과 향후 reopen trigger를 기록하였다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-26T08:19:37.187Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-21T03:15:03.331Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-26T08:19:37.187Z"
                       }
                     ],
                     "legacy": false
@@ -27820,15 +27825,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 5,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 6,
           "requiredOutputsTotal": 6,
-          "outputsDone": 5,
+          "outputsDone": 6,
           "outputsTotal": 6,
-          "missingRequiredOutputs": [
-            "P07-T01-O06"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -28576,13 +28579,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260821031503-minhosong-mse-XFCBOQ",
@@ -28610,15 +28613,20 @@
               "comment": "P8 변수 포함·제외 판단 근거. Xbnd1_nm/Xbnd2_nm은 independent geometry tolerance variable이며 sensitivity와 interaction이 실제 존재하므로 포함한다. M1/M2/M3는 derived라 중복되므로 제외하고, Tox/channel dimension은 현재 B1/B2만으로도 P8 2D campaign을 구성할 근거가 충분해 추가 dimension으로 채택하지 않는다. 각 제외변수에 limitation과 향후 reopen trigger를 기록하였다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-26T08:19:37.187Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-21T03:15:03.331Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-26T08:19:37.187Z"
                   }
                 ],
                 "legacy": false
@@ -28906,7 +28914,7 @@
       "updatedAt": "2026-08-21T08:59:01Z",
       "lastModifiedBy": "LSH-linear",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 3
+      "integrityWarnings": 2
     },
     {
       "id": 8,
