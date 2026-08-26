@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T17:19:02+09:00",
+  "generatedAt": "2026-08-26T17:19:28+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -27324,9 +27324,9 @@
       "tasksDone": 0,
       "tasksTotal": 3,
       "issueTasksDone": 0,
-      "outputsDone": 4,
+      "outputsDone": 5,
       "outputsTotal": 12,
-      "requiredOutputsDone": 4,
+      "requiredOutputsDone": 5,
       "requiredOutputsTotal": 9,
       "tasks": [
         {
@@ -27688,13 +27688,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260821031422-minhosong-mse-X4SXWw",
@@ -27740,15 +27740,20 @@
                   "comment": "P8 최초 2D tolerance campaign의 탐색범위로 B1=33–37 nm, B2=63–69 nm를 제안하고 primary step은 1 nm로 정리하였다. 총 후보는 5×7=35 geometry이다. 이 범위는 최종 공정 허용 Window가 아니라 P8에서 Device-level Window를 찾기 위한 campaign domain이다. 0.5 nm는 전체 Grid가 아니라 향후 사전 고정된 PASS/Marginal/FAIL 경계 주변 adaptive refinement 용도로만 남긴다. B2=68/69 electrical data는 P8에서 새 계산이 필요하다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-26T08:19:10.348Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-21T03:14:22.596Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-26T08:19:10.348Z"
                       }
                     ],
                     "legacy": false
@@ -27817,12 +27822,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 4,
+          "requiredOutputsDone": 5,
           "requiredOutputsTotal": 6,
-          "outputsDone": 4,
+          "outputsDone": 5,
           "outputsTotal": 6,
           "missingRequiredOutputs": [
-            "P07-T01-O05",
             "P07-T01-O06"
           ],
           "checkboxDrift": false
@@ -28490,13 +28494,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260821031422-minhosong-mse-X4SXWw",
@@ -28542,15 +28546,20 @@
               "comment": "P8 최초 2D tolerance campaign의 탐색범위로 B1=33–37 nm, B2=63–69 nm를 제안하고 primary step은 1 nm로 정리하였다. 총 후보는 5×7=35 geometry이다. 이 범위는 최종 공정 허용 Window가 아니라 P8에서 Device-level Window를 찾기 위한 campaign domain이다. 0.5 nm는 전체 Grid가 아니라 향후 사전 고정된 PASS/Marginal/FAIL 경계 주변 adaptive refinement 용도로만 남긴다. B2=68/69 electrical data는 P8에서 새 계산이 필요하다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-26T08:19:10.348Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-21T03:14:22.596Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-26T08:19:10.348Z"
                   }
                 ],
                 "legacy": false
