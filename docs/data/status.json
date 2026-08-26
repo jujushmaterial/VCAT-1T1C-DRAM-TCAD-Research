@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T16:46:16+09:00",
+  "generatedAt": "2026-08-26T16:46:42+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -27324,9 +27324,9 @@
       "tasksDone": 0,
       "tasksTotal": 3,
       "issueTasksDone": 0,
-      "outputsDone": 1,
+      "outputsDone": 2,
       "outputsTotal": 12,
-      "requiredOutputsDone": 1,
+      "requiredOutputsDone": 2,
       "requiredOutputsTotal": 9,
       "tasks": [
         {
@@ -27423,13 +27423,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260821031126-minhosong-mse-_3phNg",
@@ -27475,15 +27475,20 @@
                   "comment": "Nominal B1/B2=35/67 nm 주변의 Local Sensitivity. B1은 33/35/37 nm의 central difference를 사용하고, B2는 P5 grid 상한이 67 nm이므로 63/65/67 nm의 first-order/second-order backward difference를 사용하였다. 각 metric의 absolute slope, normalized sensitivity(%/nm), direction, curvature/nonlinearity를 정리했으며 Ioff와 Ion/Ioff에는 log10 sensitivity(decade/nm)도 포함하였다. 신규 P7 TCAD는 실행하지 않았다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-26T07:46:23.119Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-21T03:11:26.229Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-26T07:46:23.119Z"
                       }
                     ],
                     "legacy": false
@@ -27802,12 +27807,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 1,
+          "requiredOutputsDone": 2,
           "requiredOutputsTotal": 6,
-          "outputsDone": 1,
+          "outputsDone": 2,
           "outputsTotal": 6,
           "missingRequiredOutputs": [
-            "P07-T01-O02",
             "P07-T01-O03",
             "P07-T01-O04",
             "P07-T01-O05",
@@ -28210,13 +28214,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260821031126-minhosong-mse-_3phNg",
@@ -28262,15 +28266,20 @@
               "comment": "Nominal B1/B2=35/67 nm 주변의 Local Sensitivity. B1은 33/35/37 nm의 central difference를 사용하고, B2는 P5 grid 상한이 67 nm이므로 63/65/67 nm의 first-order/second-order backward difference를 사용하였다. 각 metric의 absolute slope, normalized sensitivity(%/nm), direction, curvature/nonlinearity를 정리했으며 Ioff와 Ion/Ioff에는 log10 sensitivity(decade/nm)도 포함하였다. 신규 P7 TCAD는 실행하지 않았다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-26T07:46:23.119Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-21T03:11:26.229Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-26T07:46:23.119Z"
                   }
                 ],
                 "legacy": false
