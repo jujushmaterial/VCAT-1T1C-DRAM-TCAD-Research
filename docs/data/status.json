@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T17:56:25+09:00",
+  "generatedAt": "2026-08-26T17:59:14+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -20904,7 +20904,7 @@
     {
       "id": 4,
       "issueNumber": 4,
-      "state": "review",
+      "state": "completed",
       "progress": 100,
       "tasksDone": 1,
       "tasksTotal": 1,
@@ -20933,7 +20933,7 @@
       "assignees": [
         "seanthe17"
       ],
-      "updatedAt": "2026-08-24T09:38:03Z",
+      "updatedAt": "2026-08-26T08:56:27Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "단계 재개",
       "integrityWarnings": 0
@@ -32375,7 +32375,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-12T20:03:18Z",
+      "updatedAt": "2026-08-26T08:56:59Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
