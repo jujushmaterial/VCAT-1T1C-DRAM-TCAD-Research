@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T22:11:32+09:00",
+  "generatedAt": "2026-08-26T22:15:06+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -30033,7 +30033,7 @@
             {
               "id": "P08-T03-O03",
               "text": "대표조건 3D 구조·Mesh 이미지",
-              "type": "any",
+              "type": "files",
               "review": "none",
               "reviewBlocksCompletion": true,
               "required": true,
@@ -31354,7 +31354,7 @@
         {
           "id": "P08-T03-O03",
           "text": "대표조건 3D 구조·Mesh 이미지",
-          "type": "any",
+          "type": "files",
           "review": "none",
           "reviewBlocksCompletion": true,
           "required": true,
@@ -31497,7 +31497,7 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-08-26T13:10:51Z",
+      "updatedAt": "2026-08-26T13:14:52Z",
       "lastModifiedBy": "TaekGyu0801",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
