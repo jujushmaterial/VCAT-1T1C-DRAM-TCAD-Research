@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T16:47:10+09:00",
+  "generatedAt": "2026-08-26T17:19:02+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -27324,9 +27324,9 @@
       "tasksDone": 0,
       "tasksTotal": 3,
       "issueTasksDone": 0,
-      "outputsDone": 3,
+      "outputsDone": 4,
       "outputsTotal": 12,
-      "requiredOutputsDone": 3,
+      "requiredOutputsDone": 4,
       "requiredOutputsTotal": 9,
       "tasks": [
         {
@@ -27607,13 +27607,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260821031343-minhosong-mse-pXWjdA",
@@ -27659,15 +27659,20 @@
                   "comment": "P8 핵심 geometry 변수로 Xbnd1_nm과 Xbnd2_nm을 선정하였다. 두 변수는 P6에서 독립 tolerance parameter로 정의되어 있고 P5 49-point 결과에서 leakage/Vth/DIBL 민감도 및 서로의 interaction이 확인된다. M1/M2/M3는 B1/B2에서 계산되는 derived variable이므로 독립 sweep에서 제외한다. Tox/channel dimension은 현재 추가 차원을 도입해야 할 실험적 근거가 없어 제외하되 reopen trigger를 남겼다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-08-26T08:18:41.612Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-21T03:13:43.140Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-08-26T08:18:41.612Z"
                       }
                     ],
                     "legacy": false
@@ -27812,12 +27817,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 3,
+          "requiredOutputsDone": 4,
           "requiredOutputsTotal": 6,
-          "outputsDone": 3,
+          "outputsDone": 4,
           "outputsTotal": 6,
           "missingRequiredOutputs": [
-            "P07-T01-O04",
             "P07-T01-O05",
             "P07-T01-O06"
           ],
@@ -28404,13 +28408,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260821031343-minhosong-mse-pXWjdA",
@@ -28456,15 +28460,20 @@
               "comment": "P8 핵심 geometry 변수로 Xbnd1_nm과 Xbnd2_nm을 선정하였다. 두 변수는 P6에서 독립 tolerance parameter로 정의되어 있고 P5 49-point 결과에서 leakage/Vth/DIBL 민감도 및 서로의 interaction이 확인된다. M1/M2/M3는 B1/B2에서 계산되는 derived variable이므로 독립 sweep에서 제외한다. Tox/channel dimension은 현재 추가 차원을 도입해야 할 실험적 근거가 없어 제외하되 reopen trigger를 남겼다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-08-26T08:18:41.612Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-21T03:13:43.140Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-08-26T08:18:41.612Z"
                   }
                 ],
                 "legacy": false
