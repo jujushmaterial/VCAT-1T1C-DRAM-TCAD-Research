@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-26T07:46:54.140Z",
+  "updatedAt": "2026-08-26T08:18:41.612Z",
   "outputs": {
     "P01-T05-O01": [
       {
@@ -10590,15 +10590,20 @@
         "comment": "P8 핵심 geometry 변수로 Xbnd1_nm과 Xbnd2_nm을 선정하였다. 두 변수는 P6에서 독립 tolerance parameter로 정의되어 있고 P5 49-point 결과에서 leakage/Vth/DIBL 민감도 및 서로의 interaction이 확인된다. M1/M2/M3는 B1/B2에서 계산되는 derived variable이므로 독립 sweep에서 제외한다. Tox/channel dimension은 현재 추가 차원을 도입해야 할 실험적 근거가 없어 제외하되 reopen trigger를 남겼다.",
         "commentLabel": "표 설명",
         "review": {
-          "status": "pending",
-          "reviewer": null,
-          "reviewedAt": null,
+          "status": "approved",
+          "reviewer": "jujushmaterial",
+          "reviewedAt": "2026-08-26T08:18:41.612Z",
           "reason": null,
           "history": [
             {
               "action": "submitted-for-review",
               "reviewer": null,
               "at": "2026-08-21T03:13:43.140Z"
+            },
+            {
+              "action": "approved",
+              "reviewer": "jujushmaterial",
+              "at": "2026-08-26T08:18:41.612Z"
             }
           ],
           "legacy": false
