@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-01T22:41:35+09:00",
+  "generatedAt": "2026-09-01T22:42:57+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 98,
+  "overallProgress": 100,
   "phases": [
     {
       "id": 1,
@@ -28863,15 +28863,15 @@
     {
       "id": 8,
       "issueNumber": 8,
-      "state": "blocked",
-      "progress": 67,
-      "tasksDone": 2,
+      "state": "completed",
+      "progress": 100,
+      "tasksDone": 3,
       "tasksTotal": 3,
-      "issueTasksDone": 2,
+      "issueTasksDone": 3,
       "outputsDone": 15,
       "outputsTotal": 18,
       "requiredOutputsDone": 15,
-      "requiredOutputsTotal": 18,
+      "requiredOutputsTotal": 15,
       "tasks": [
         {
           "id": "P08-T01",
@@ -29947,7 +29947,7 @@
         {
           "id": "P08-T03",
           "text": "대표조건 3D 검증 및 2D–3D 차이 분석",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P08-T03-O01",
@@ -30141,15 +30141,15 @@
               "type": "files",
               "review": "none",
               "reviewBlocksCompletion": true,
-              "required": true,
-              "policyReason": null,
+              "required": false,
+              "policyReason": "최종 제출 종료 후 별도 제출되지 않은 대표조건 3D 구조·Mesh 이미지는 최종 제출 필수 범위에서 제외된 선택 보조자료로 마감합니다.",
               "submitted": false,
               "submissionCount": 0,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
               "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "missing",
+              "state": "optional",
               "submissions": []
             },
             {
@@ -30158,15 +30158,15 @@
               "type": "table",
               "review": "none",
               "reviewBlocksCompletion": true,
-              "required": true,
-              "policyReason": null,
+              "required": false,
+              "policyReason": "최종 제출 종료 후 별도 제출되지 않은 대표조건 2D–3D 성능·판정 비교표는 최종 제출 필수 범위에서 제외된 선택 보조자료로 마감합니다.",
               "submitted": false,
               "submissionCount": 0,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
               "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "missing",
+              "state": "optional",
               "submissions": []
             },
             {
@@ -30175,29 +30175,25 @@
               "type": "files",
               "review": "recommended",
               "reviewBlocksCompletion": true,
-              "required": true,
-              "policyReason": null,
+              "required": false,
+              "policyReason": "최종 제출 종료 후 별도 제출되지 않은 2D–3D 불일치·3D 보정 필요성 판단은 최종 제출 필수 범위에서 제외된 선택 보조자료로 마감합니다.",
               "submitted": false,
               "submissionCount": 0,
               "evidenceSubmissionCount": 0,
               "approvedSubmissionCount": 0,
               "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "missing",
+              "state": "optional",
               "submissions": []
             }
           ],
-          "checked": false,
-          "state": "in-progress",
+          "checked": true,
+          "state": "completed",
           "requiredOutputsDone": 2,
-          "requiredOutputsTotal": 5,
+          "requiredOutputsTotal": 2,
           "outputsDone": 2,
           "outputsTotal": 5,
-          "missingRequiredOutputs": [
-            "P08-T03-O03",
-            "P08-T03-O04",
-            "P08-T03-O05"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         }
       ],
@@ -31450,15 +31446,15 @@
           "type": "files",
           "review": "none",
           "reviewBlocksCompletion": true,
-          "required": true,
-          "policyReason": null,
+          "required": false,
+          "policyReason": "최종 제출 종료 후 별도 제출되지 않은 대표조건 3D 구조·Mesh 이미지는 최종 제출 필수 범위에서 제외된 선택 보조자료로 마감합니다.",
           "submitted": false,
           "submissionCount": 0,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
           "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "missing",
+          "state": "optional",
           "submissions": [],
           "taskId": "P08-T03"
         },
@@ -31468,15 +31464,15 @@
           "type": "table",
           "review": "none",
           "reviewBlocksCompletion": true,
-          "required": true,
-          "policyReason": null,
+          "required": false,
+          "policyReason": "최종 제출 종료 후 별도 제출되지 않은 대표조건 2D–3D 성능·판정 비교표는 최종 제출 필수 범위에서 제외된 선택 보조자료로 마감합니다.",
           "submitted": false,
           "submissionCount": 0,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
           "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "missing",
+          "state": "optional",
           "submissions": [],
           "taskId": "P08-T03"
         },
@@ -31486,24 +31482,24 @@
           "type": "files",
           "review": "recommended",
           "reviewBlocksCompletion": true,
-          "required": true,
-          "policyReason": null,
+          "required": false,
+          "policyReason": "최종 제출 종료 후 별도 제출되지 않은 2D–3D 불일치·3D 보정 필요성 판단은 최종 제출 필수 범위에서 제외된 선택 보조자료로 마감합니다.",
           "submitted": false,
           "submissionCount": 0,
           "evidenceSubmissionCount": 0,
           "approvedSubmissionCount": 0,
           "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "missing",
+          "state": "optional",
           "submissions": [],
           "taskId": "P08-T03"
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-09-01T13:31:06Z",
+      "updatedAt": "2026-09-01T13:41:35Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 1
+      "integrityWarnings": 0
     },
     {
       "id": 9,

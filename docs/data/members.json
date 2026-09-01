@@ -7,10 +7,10 @@
       "role": "admin",
       "membership": "active",
       "status": "active",
-      "statusLabel": "커밋 · Fix finalization workflow issue permissions",
+      "statusLabel": "커밋 · Finalize optional Phase 8 supporting outputs",
       "activityState": "active",
-      "lastActivityAt": "2026-09-01T13:41:14Z",
-      "recentActivity": "커밋 · Fix finalization workflow issue permissions",
+      "lastActivityAt": "2026-09-01T13:42:43Z",
+      "recentActivity": "커밋 · Finalize optional Phase 8 supporting outputs",
       "folderUrl": "https://github.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/tree/main/members/JuSanghyeon"
     },
     {
