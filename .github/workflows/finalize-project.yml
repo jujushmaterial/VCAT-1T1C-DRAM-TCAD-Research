@@ -1,0 +1,116 @@
+name: Finalize submitted research project
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/finalize-project.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: finalize-submitted-research-project
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Approve pending submission reviews
+        env:
+          FINAL_REVIEWER: jujushmaterial
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          submissions_path = Path("docs/data/submissions.json")
+          data = json.loads(submissions_path.read_text(encoding="utf-8"))
+          outputs = data.get("outputs", {})
+          reviewer = os.environ.get("FINAL_REVIEWER", "jujushmaterial")
+          now = datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
+          activation = datetime.fromisoformat("2026-08-01T06:30:00+00:00")
+          changed = []
+
+          def is_implicit_pending(record):
+              if isinstance(record.get("review"), dict):
+                  return False
+              try:
+                  uploaded = datetime.fromisoformat(str(record.get("uploadedAt", "")).replace("Z", "+00:00"))
+              except ValueError:
+                  return False
+              return uploaded >= activation
+
+          for output_id, records in outputs.items():
+              if not isinstance(records, list):
+                  continue
+              for record in records:
+                  if not isinstance(record, dict):
+                      continue
+                  review = record.get("review") if isinstance(record.get("review"), dict) else None
+                  explicit_pending = review and str(review.get("status")) == "pending"
+                  if not explicit_pending and not is_implicit_pending(record):
+                      continue
+
+                  history = list(review.get("history", [])) if review else []
+                  history.append({"action": "approved", "reviewer": reviewer, "at": now, "note": "최종 제출 완료에 따른 일괄 승인"})
+                  record["review"] = {
+                      "status": "approved",
+                      "reviewer": reviewer,
+                      "reviewedAt": now,
+                      "reason": None,
+                      "history": history,
+                      "legacy": False,
+                  }
+
+                  folder = Path(str(record.get("folderPath", "")))
+                  if folder.as_posix() and folder.as_posix() != ".":
+                      submission_file = folder / "submission.json"
+                      submission_file.parent.mkdir(parents=True, exist_ok=True)
+                      submission_file.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                  changed.append((output_id, record.get("submissionId")))
+
+          if changed:
+              data["updatedAt"] = now
+              submissions_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+          print(f"Approved pending submissions: {len(changed)}")
+          for output_id, submission_id in changed:
+              print(f"- {output_id}: {submission_id}")
+          PY
+
+      - name: Reconcile dashboard state
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_EVENT_NAME: workflow_dispatch
+        run: python scripts/research_state.py sync
+
+      - name: Commit final approved state
+        run: |
+          if git diff --quiet; then
+            echo "No finalization changes required."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: finalize project reviews and dashboard"
+          git pull --rebase origin main
+          git push origin HEAD:main
