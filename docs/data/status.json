@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-01T22:38:49+09:00",
+  "generatedAt": "2026-09-01T22:41:35+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 93,
+  "overallProgress": 98,
   "phases": [
     {
       "id": 1,
@@ -22679,9 +22679,9 @@
               "policyReason": null,
               "submitted": true,
               "submissionCount": 4,
-              "evidenceSubmissionCount": 2,
-              "approvedSubmissionCount": 2,
-              "pendingReviewCount": 2,
+              "evidenceSubmissionCount": 4,
+              "approvedSubmissionCount": 4,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
               "state": "submitted",
               "submissions": [
@@ -22709,15 +22709,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-21T02:31:31.394Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -22747,15 +22753,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-21T02:33:04.703Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -25036,9 +25048,9 @@
           "policyReason": null,
           "submitted": true,
           "submissionCount": 4,
-          "evidenceSubmissionCount": 2,
-          "approvedSubmissionCount": 2,
-          "pendingReviewCount": 2,
+          "evidenceSubmissionCount": 4,
+          "approvedSubmissionCount": 4,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
           "state": "submitted",
           "submissions": [
@@ -25066,15 +25078,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-21T02:31:31.394Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -25104,15 +25122,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-21T02:33:04.703Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -28840,19 +28864,19 @@
       "id": 8,
       "issueNumber": 8,
       "state": "blocked",
-      "progress": 0,
-      "tasksDone": 0,
+      "progress": 67,
+      "tasksDone": 2,
       "tasksTotal": 3,
-      "issueTasksDone": 0,
-      "outputsDone": 0,
+      "issueTasksDone": 2,
+      "outputsDone": 15,
       "outputsTotal": 18,
-      "requiredOutputsDone": 0,
+      "requiredOutputsDone": 15,
       "requiredOutputsTotal": 18,
       "tasks": [
         {
           "id": "P08-T01",
           "text": "P8 분석조건 및 Device-level 판정기준 확정",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P08-T01-O01",
@@ -28862,13 +28886,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822144241-minhosong-mse-hcy4Lw",
@@ -28914,15 +28938,21 @@
                   "comment": "P08-T01-O01 — P6 Nominal·Fixed WF·공통 Simulation 입력표\n\n목적\n- P8 전체 2D tolerance campaign에서 바뀌면 안 되는 공통 입력조건을 한 표로 고정한다.\n\n핵심 내용\n- Nominal: Xbnd1=35 nm, Xbnd2=67 nm\n- WF_LOW/WF_HIGH=4.33/4.70 eV, Temperature=300 K\n- Dpillar, Tox, doping, mesh, physics, solver, Forward/GIDL bias와 추출법을 고정한다.\n- P8 독립 geometry 변수는 Xbnd1/Xbnd2이며 M1/M2/M3는 파생값이다.\n\n근거\n- P5 최종 3D handoff와 P6 frozen simulation 기준을 최신 main에서 교차확인하였다.\n\n주의\n- 이 표의 고정항목은 P8에서 새 최적화 변수가 아니다.\n- PASS/MARGINAL/FAIL 결과를 본 뒤 simulation 조건을 변경하지 않는다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:42:41.888Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -28938,13 +28968,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822144325-minhosong-mse-9lyDew",
@@ -28977,15 +29007,21 @@
                   "comment": "P08-T01-O02 — Device-level PASS·MARGINAL·FAIL 수치 기준표\n\n목적\n- P8 결과를 보기 전에 Device-level 판정기준을 고정하여 post-hoc 판정을 방지한다.\n\n핵심 기준\n- FAIL: required run/extraction invalid 또는 Ion/Ioff/DIBL/GIDL 중 P2 hard boundary 위반\n- PASS: Ion/Ioff/DIBL이 P2→P5 개선량의 50% 이상을 유지하고 GIDL P2 guard 통과\n- MARGINAL: P2보다 악화되지는 않았지만 core metric 중 하나 이상이 50% 개선량을 유지하지 못함\n- GIDL은 P2 hard guard, SS/Vth는 monitor metric으로 사용한다.\n\n주의\n- 이 판정은 DRAM PASS가 아니라 단일 Device-level 판정이다.\n- 50% retention은 본 연구에서 결과 전에 정한 operational criterion이다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:43:25.785Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29001,13 +29037,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822144540-minhosong-mse-detbNg",
@@ -29045,15 +29081,21 @@
                   "comment": "P08-T01-O03 — P8 공통 Sweep·추출 코드\n\n목적\n- P8 primary 31-point campaign을 동일한 geometry 생성, SDevice physics/bias, metric extraction으로 재현할 수 있게 한다.\n\n포함 코드\n- Parameterized SDE\n- Forward SDevice\n- GIDL PRODFAST SDevice\n- P8 metric extraction utility\n- Code provenance / extraction validation 표\n\n실행 검증\n- Forward 0.05 V 31/31 + Forward 1.0 V 31/31 + GIDL 31/31 = 93/93 SDevice 유효\n- P5 overlap 9점의 Forward 주요 metric이 기존 값과 재현됨\n- P5 known GIDL point도 재현됨\n\n주의\n- 대용량 TDR/PLT/LOG는 GitHub 패키지에 포함하지 않고 서버 원본으로 유지한다.",
                   "commentLabel": "실행 조건 및 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:45:40.150Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29069,13 +29111,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822144726-minhosong-mse-CgnuBw",
@@ -29121,15 +29163,21 @@
                   "comment": "P08-T01-O04 — P7 핵심 변수·전체 후보 2D Grid 정의표\n\n목적\n- P8 결과 확인 전에 전체 candidate geometry domain을 고정한다.\n\nGrid\n- Xbnd1: 33, 34, 35, 36, 37 nm\n- Xbnd2: 63, 64, 65, 66, 67, 68, 69 nm\n- 총 35 geometry\n- Nominal: 35/67\n\n해석\n- Xbnd1/Xbnd2만 독립변수이다.\n- M1=Xbnd1-20, M2=Xbnd2-Xbnd1, M3=80-Xbnd2는 파생값이다.\n\n주의\n- 이 35점은 최종 tolerance 자체가 아니라 P8 1차 Device Window 탐색 domain이다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:47:26.181Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29145,13 +29193,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822145200-minhosong-mse-6jwZsQ",
@@ -29184,15 +29232,21 @@
                   "comment": "P08-T01-O05 — P9 Holdout 4조건 사전 봉인표\n\n목적\n- P9에서 독립적인 1T1C 검증을 하기 위해 P8 결과를 보기 전에 일부 geometry를 학습/보정 데이터에서 제외한다.\n\n봉인 Holdout\n- 34/64\n- 34/68\n- 36/64\n- 36/68\n\n선정 원칙\n- P5 electrical-unseen\n- P7 direct local-slope point가 아님\n- P6 preflight point가 아님\n- nominal centerline과 outer edge를 보존\n- 네 quadrant를 고르게 포함\n\n주의\n- 이 4점은 P08-T02 2D 실행, P08-T03 3D calibration에 사용하지 않는다.\n- P08-T04에서는 실제값이 아니라 최종 Window의 예측 class만 기록한다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:52:00.094Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29208,13 +29262,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822145358-minhosong-mse-v3Iscg",
@@ -29255,15 +29309,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:53:58.770Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29272,26 +29332,19 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 6,
           "requiredOutputsTotal": 6,
-          "outputsDone": 0,
+          "outputsDone": 6,
           "outputsTotal": 6,
-          "missingRequiredOutputs": [
-            "P08-T01-O01",
-            "P08-T01-O02",
-            "P08-T01-O03",
-            "P08-T01-O04",
-            "P08-T01-O05",
-            "P08-T01-O06"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
           "id": "P08-T02",
           "text": "통합 2D Tolerance Sweep 및 1차 Device-level Window 제작",
-          "declaredChecked": false,
+          "declaredChecked": true,
           "outputs": [
             {
               "id": "P08-T02-O01",
@@ -29301,13 +29354,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822144516-LSH-linear-NJ2JWw",
@@ -29351,15 +29404,21 @@
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.tsv"
                   },
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:45:16.307Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29375,13 +29434,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822144651-LSH-linear-5rCYFA",
@@ -29427,15 +29486,21 @@
                   "comment": "P08-T02-O02 — 2D Tolerance Sweep Raw Data\n\n목적\n- P8 primary active 31점의 모든 추출 metric과 Device classification 근거를 하나의 raw table로 보존한다.\n\n포함 값\n- Ion, Ioff, Ion/Ioff\n- Vth@Vd=0.05/1.0\n- SS@Vd=0.05/1.0\n- DIBL\n- GIDL\n- RIF_Ion, RIF_Ioff, RIF_DIBL\n- limiting metric / Device class\n- node, mesh, source PLT filename, validity\n\n결과 요약\n- PASS 28\n- MARGINAL 3\n- FAIL 0\n- MARGINAL: 36/63, 37/63, 37/64\n- 세 MARGINAL의 limiting metric은 DIBL\n\n주의\n- Holdout 4점은 actual raw result가 존재하지 않는다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:46:51.922Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29451,13 +29516,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822144844-LSH-linear-kpfR9g",
@@ -29490,15 +29555,21 @@
                   "comment": "P08-T02-O03 — Nominal 중심 OAT·민감도 정리\n\n목적\n- 별도 OAT campaign을 중복 실행하지 않고 primary 31-point grid의 nominal centerline을 재사용해 변수별 국소 민감도를 정리한다.\n\nCenterline\n- Xbnd2=67 nm 고정, Xbnd1=33~37 nm: 모두 PASS\n- Xbnd1=35 nm 고정, Xbnd2=63~69 nm: 모두 PASS\n\n주요 경향\n- Xbnd1 증가 방향에서 Ioff/DIBL 악화\n- Xbnd2 증가 방향에서 Ioff/DIBL 개선\n- Nominal 주변 local slope와 curvature를 함께 기록\n\n해석\n- OAT만 보면 전체 범위가 안전해 보이지만, 조합 geometry에서는 MARGINAL이 발생하므로 2D interaction 분석이 필요하다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:48:44.666Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29514,13 +29585,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822144928-LSH-linear-x5aS5Q",
@@ -29566,15 +29637,21 @@
                   "comment": "P08-T02-O04 — 변수별 Device-level 허용범위·Limiting Metric\n\n목적\n- primary 31점 안에서 변수별 관측 허용범위와 실제 Window를 제한하는 metric을 정리한다.\n\n결과\n- Xbnd1 OAT @Xbnd2=67: 33~37 nm 전부 PASS\n- Xbnd2 OAT @Xbnd1=35: 63~69 nm 전부 PASS\n- Joint 2D grid: PASS 28, MARGINAL 3, FAIL 0\n- MARGINAL strip: 36/63, 37/63, 37/64\n- 주요 limiting metric: DIBL\n\n주의\n- 단독 OAT boundary는 현재 search domain 안에서 닫히지 않았다.\n- primary 31점 내부에는 FAIL이 없으므로 외곽 hard-fail boundary가 완전히 결정된 것은 아니다.",
                   "commentLabel": "표 설명",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:49:28.753Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29590,13 +29667,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822145033-LSH-linear-uY8ScA",
@@ -29644,15 +29721,21 @@
                   "comment": "P08-T02-O05 — 변수 간 Interaction·결합 영향 분석\n\n목적\n- Xbnd1 효과가 Xbnd2 위치에 따라 달라지는지, 그리고 그 반대가 성립하는지 확인하여 단순 OAT 이상의 결합효과를 평가한다.\n\n핵심 결과\n- low-Xbnd2에서 Xbnd1 증가에 따른 DIBL 악화가 더 강하다.\n- high-Xbnd1에서 Xbnd2 증가에 따른 DIBL 회복 효과가 더 강하다.\n- 이 conditional-slope dependence가 lower-right 영역의 MARGINAL strip과 일치한다.\n\n결론\n- 현재 P8 primary domain에서 Xbnd1–Xbnd2 interaction이 Device-level tolerance에 실질적인 영향을 준다.\n- DIBL이 interaction-limited boundary의 핵심 지표이다.\n\n주의\n- 이는 현재 고정된 device/WF 조건의 L-H-L gate segmentation geometry에 대한 결론이다.\n\n추가 Boundary 증거\n- primary 31점에서 FAIL 경계가 닫히지 않아, 결과 후 별도 supplemental 15점을 외부에 실행하였다.\n- supplemental 결과는 PASS 7 / MARGINAL 6 / FAIL 2이며 38/62, 39/62에서 DIBL hard FAIL이 확인되었다.\n- 이 결과는 primary grid와 동급으로 합치지 않고, interaction 방향 및 외부 FAIL bracketing의 별도 증거층으로 사용한다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:50:33.550Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29668,13 +29751,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822145120-LSH-linear-8U7ynw",
@@ -29742,15 +29825,21 @@
                   "comment": "P08-T02-O06 — 1차 Device-level 2D Tolerance Window\n\n목적\n- preregistered primary 31-point campaign으로 P8의 첫 Device-level geometry Window를 시각화한다.\n\n결과\n- PASS: 28/31\n- MARGINAL: 3/31\n- FAIL: 0/31\n- MARGINAL: 36/63, 37/63, 37/64\n- Holdout: 34/64, 34/68, 36/64, 36/68 — 미실행 상태 유지\n- limiting metric: DIBL\n\n포함 시각자료\n- Device class map\n- DIBL 2D map\n- long-form / matrix CSV\n\n주의\n- 이 산출물은 '1차 2D Device-level Window'이다.\n- 최종 P08-T04 3D-calibrated Window 또는 DRAM PASS map으로 표현하지 않는다.\n\nSupplemental extension의 역할\n- primary 31점만으로는 original domain 안에서 FAIL이 없었다.\n- 이후 15점 boundary reconnaissance에서 38/62, 39/62가 DIBL FAIL로 확인되어 high-Xbnd1/low-Xbnd2 방향의 외부 FAIL 영역을 bracket하였다.\n- 따라서 O06에는 primary Window와 함께 evidence tier를 구분한 primary+supplemental map을 추가한다.\n- supplemental 15점은 original preregistered 31점으로 재분류하지 않는다.",
                   "commentLabel": "제출 메모",
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:51:20.996Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29766,13 +29855,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260822145543-LSH-linear-294Bpw",
@@ -29823,15 +29912,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-22T14:55:43.097Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29840,21 +29935,13 @@
               ]
             }
           ],
-          "checked": false,
-          "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 7,
           "requiredOutputsTotal": 7,
-          "outputsDone": 0,
+          "outputsDone": 7,
           "outputsTotal": 7,
-          "missingRequiredOutputs": [
-            "P08-T02-O01",
-            "P08-T02-O02",
-            "P08-T02-O03",
-            "P08-T02-O04",
-            "P08-T02-O05",
-            "P08-T02-O06",
-            "P08-T02-O07"
-          ],
+          "missingRequiredOutputs": [],
           "checkboxDrift": false
         },
         {
@@ -29870,13 +29957,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 1,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 1,
+              "evidenceSubmissionCount": 1,
+              "approvedSubmissionCount": 1,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260823122857-LEE-TAEK-GYU-p2tHOQ",
@@ -29920,15 +30007,21 @@
                     "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O01/submissions/20260823122857-LEE-TAEK-GYU-p2tHOQ/table.tsv"
                   },
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-23T12:28:57.483Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -29944,13 +30037,13 @@
               "reviewBlocksCompletion": true,
               "required": true,
               "policyReason": null,
-              "submitted": false,
+              "submitted": true,
               "submissionCount": 2,
-              "evidenceSubmissionCount": 0,
-              "approvedSubmissionCount": 0,
-              "pendingReviewCount": 2,
+              "evidenceSubmissionCount": 2,
+              "approvedSubmissionCount": 2,
+              "pendingReviewCount": 0,
               "heldSubmissionCount": 0,
-              "state": "review-pending",
+              "state": "submitted",
               "submissions": [
                 {
                   "submissionId": "20260823123004-LEE-TAEK-GYU-f-syog",
@@ -29976,15 +30069,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-23T12:30:04.956Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -30014,15 +30113,21 @@
                     }
                   ],
                   "review": {
-                    "status": "pending",
-                    "reviewer": null,
-                    "reviewedAt": null,
+                    "status": "approved",
+                    "reviewer": "jujushmaterial",
+                    "reviewedAt": "2026-09-01T13:41:33.941Z",
                     "reason": null,
                     "history": [
                       {
                         "action": "submitted-for-review",
                         "reviewer": null,
                         "at": "2026-08-23T12:32:04.687Z"
+                      },
+                      {
+                        "action": "approved",
+                        "reviewer": "jujushmaterial",
+                        "at": "2026-09-01T13:41:33.941Z",
+                        "note": "최종 제출 완료에 따른 일괄 승인"
                       }
                     ],
                     "legacy": false
@@ -30084,13 +30189,11 @@
           ],
           "checked": false,
           "state": "in-progress",
-          "requiredOutputsDone": 0,
+          "requiredOutputsDone": 2,
           "requiredOutputsTotal": 5,
-          "outputsDone": 0,
+          "outputsDone": 2,
           "outputsTotal": 5,
           "missingRequiredOutputs": [
-            "P08-T03-O01",
-            "P08-T03-O02",
             "P08-T03-O03",
             "P08-T03-O04",
             "P08-T03-O05"
@@ -30107,13 +30210,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822144241-minhosong-mse-hcy4Lw",
@@ -30159,15 +30262,21 @@
               "comment": "P08-T01-O01 — P6 Nominal·Fixed WF·공통 Simulation 입력표\n\n목적\n- P8 전체 2D tolerance campaign에서 바뀌면 안 되는 공통 입력조건을 한 표로 고정한다.\n\n핵심 내용\n- Nominal: Xbnd1=35 nm, Xbnd2=67 nm\n- WF_LOW/WF_HIGH=4.33/4.70 eV, Temperature=300 K\n- Dpillar, Tox, doping, mesh, physics, solver, Forward/GIDL bias와 추출법을 고정한다.\n- P8 독립 geometry 변수는 Xbnd1/Xbnd2이며 M1/M2/M3는 파생값이다.\n\n근거\n- P5 최종 3D handoff와 P6 frozen simulation 기준을 최신 main에서 교차확인하였다.\n\n주의\n- 이 표의 고정항목은 P8에서 새 최적화 변수가 아니다.\n- PASS/MARGINAL/FAIL 결과를 본 뒤 simulation 조건을 변경하지 않는다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:42:41.888Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -30184,13 +30293,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822144325-minhosong-mse-9lyDew",
@@ -30223,15 +30332,21 @@
               "comment": "P08-T01-O02 — Device-level PASS·MARGINAL·FAIL 수치 기준표\n\n목적\n- P8 결과를 보기 전에 Device-level 판정기준을 고정하여 post-hoc 판정을 방지한다.\n\n핵심 기준\n- FAIL: required run/extraction invalid 또는 Ion/Ioff/DIBL/GIDL 중 P2 hard boundary 위반\n- PASS: Ion/Ioff/DIBL이 P2→P5 개선량의 50% 이상을 유지하고 GIDL P2 guard 통과\n- MARGINAL: P2보다 악화되지는 않았지만 core metric 중 하나 이상이 50% 개선량을 유지하지 못함\n- GIDL은 P2 hard guard, SS/Vth는 monitor metric으로 사용한다.\n\n주의\n- 이 판정은 DRAM PASS가 아니라 단일 Device-level 판정이다.\n- 50% retention은 본 연구에서 결과 전에 정한 operational criterion이다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:43:25.785Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -30248,13 +30363,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822144540-minhosong-mse-detbNg",
@@ -30292,15 +30407,21 @@
               "comment": "P08-T01-O03 — P8 공통 Sweep·추출 코드\n\n목적\n- P8 primary 31-point campaign을 동일한 geometry 생성, SDevice physics/bias, metric extraction으로 재현할 수 있게 한다.\n\n포함 코드\n- Parameterized SDE\n- Forward SDevice\n- GIDL PRODFAST SDevice\n- P8 metric extraction utility\n- Code provenance / extraction validation 표\n\n실행 검증\n- Forward 0.05 V 31/31 + Forward 1.0 V 31/31 + GIDL 31/31 = 93/93 SDevice 유효\n- P5 overlap 9점의 Forward 주요 metric이 기존 값과 재현됨\n- P5 known GIDL point도 재현됨\n\n주의\n- 대용량 TDR/PLT/LOG는 GitHub 패키지에 포함하지 않고 서버 원본으로 유지한다.",
               "commentLabel": "실행 조건 및 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:45:40.150Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -30317,13 +30438,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822144726-minhosong-mse-CgnuBw",
@@ -30369,15 +30490,21 @@
               "comment": "P08-T01-O04 — P7 핵심 변수·전체 후보 2D Grid 정의표\n\n목적\n- P8 결과 확인 전에 전체 candidate geometry domain을 고정한다.\n\nGrid\n- Xbnd1: 33, 34, 35, 36, 37 nm\n- Xbnd2: 63, 64, 65, 66, 67, 68, 69 nm\n- 총 35 geometry\n- Nominal: 35/67\n\n해석\n- Xbnd1/Xbnd2만 독립변수이다.\n- M1=Xbnd1-20, M2=Xbnd2-Xbnd1, M3=80-Xbnd2는 파생값이다.\n\n주의\n- 이 35점은 최종 tolerance 자체가 아니라 P8 1차 Device Window 탐색 domain이다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:47:26.181Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -30394,13 +30521,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822145200-minhosong-mse-6jwZsQ",
@@ -30433,15 +30560,21 @@
               "comment": "P08-T01-O05 — P9 Holdout 4조건 사전 봉인표\n\n목적\n- P9에서 독립적인 1T1C 검증을 하기 위해 P8 결과를 보기 전에 일부 geometry를 학습/보정 데이터에서 제외한다.\n\n봉인 Holdout\n- 34/64\n- 34/68\n- 36/64\n- 36/68\n\n선정 원칙\n- P5 electrical-unseen\n- P7 direct local-slope point가 아님\n- P6 preflight point가 아님\n- nominal centerline과 outer edge를 보존\n- 네 quadrant를 고르게 포함\n\n주의\n- 이 4점은 P08-T02 2D 실행, P08-T03 3D calibration에 사용하지 않는다.\n- P08-T04에서는 실제값이 아니라 최종 Window의 예측 class만 기록한다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:52:00.094Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -30458,13 +30591,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822145358-minhosong-mse-v3Iscg",
@@ -30505,15 +30638,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:53:58.770Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -30530,13 +30669,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822144516-LSH-linear-NJ2JWw",
@@ -30580,15 +30719,21 @@
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeSeonHyeong/phases/phase-08/tasks/P08-T02/outputs/P08-T02-O01/submissions/20260822144516-LSH-linear-NJ2JWw/table.tsv"
               },
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:45:16.307Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -30605,13 +30750,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822144651-LSH-linear-5rCYFA",
@@ -30657,15 +30802,21 @@
               "comment": "P08-T02-O02 — 2D Tolerance Sweep Raw Data\n\n목적\n- P8 primary active 31점의 모든 추출 metric과 Device classification 근거를 하나의 raw table로 보존한다.\n\n포함 값\n- Ion, Ioff, Ion/Ioff\n- Vth@Vd=0.05/1.0\n- SS@Vd=0.05/1.0\n- DIBL\n- GIDL\n- RIF_Ion, RIF_Ioff, RIF_DIBL\n- limiting metric / Device class\n- node, mesh, source PLT filename, validity\n\n결과 요약\n- PASS 28\n- MARGINAL 3\n- FAIL 0\n- MARGINAL: 36/63, 37/63, 37/64\n- 세 MARGINAL의 limiting metric은 DIBL\n\n주의\n- Holdout 4점은 actual raw result가 존재하지 않는다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:46:51.922Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -30682,13 +30833,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822144844-LSH-linear-kpfR9g",
@@ -30721,15 +30872,21 @@
               "comment": "P08-T02-O03 — Nominal 중심 OAT·민감도 정리\n\n목적\n- 별도 OAT campaign을 중복 실행하지 않고 primary 31-point grid의 nominal centerline을 재사용해 변수별 국소 민감도를 정리한다.\n\nCenterline\n- Xbnd2=67 nm 고정, Xbnd1=33~37 nm: 모두 PASS\n- Xbnd1=35 nm 고정, Xbnd2=63~69 nm: 모두 PASS\n\n주요 경향\n- Xbnd1 증가 방향에서 Ioff/DIBL 악화\n- Xbnd2 증가 방향에서 Ioff/DIBL 개선\n- Nominal 주변 local slope와 curvature를 함께 기록\n\n해석\n- OAT만 보면 전체 범위가 안전해 보이지만, 조합 geometry에서는 MARGINAL이 발생하므로 2D interaction 분석이 필요하다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:48:44.666Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -30746,13 +30903,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822144928-LSH-linear-x5aS5Q",
@@ -30798,15 +30955,21 @@
               "comment": "P08-T02-O04 — 변수별 Device-level 허용범위·Limiting Metric\n\n목적\n- primary 31점 안에서 변수별 관측 허용범위와 실제 Window를 제한하는 metric을 정리한다.\n\n결과\n- Xbnd1 OAT @Xbnd2=67: 33~37 nm 전부 PASS\n- Xbnd2 OAT @Xbnd1=35: 63~69 nm 전부 PASS\n- Joint 2D grid: PASS 28, MARGINAL 3, FAIL 0\n- MARGINAL strip: 36/63, 37/63, 37/64\n- 주요 limiting metric: DIBL\n\n주의\n- 단독 OAT boundary는 현재 search domain 안에서 닫히지 않았다.\n- primary 31점 내부에는 FAIL이 없으므로 외곽 hard-fail boundary가 완전히 결정된 것은 아니다.",
               "commentLabel": "표 설명",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:49:28.753Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -30823,13 +30986,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822145033-LSH-linear-uY8ScA",
@@ -30877,15 +31040,21 @@
               "comment": "P08-T02-O05 — 변수 간 Interaction·결합 영향 분석\n\n목적\n- Xbnd1 효과가 Xbnd2 위치에 따라 달라지는지, 그리고 그 반대가 성립하는지 확인하여 단순 OAT 이상의 결합효과를 평가한다.\n\n핵심 결과\n- low-Xbnd2에서 Xbnd1 증가에 따른 DIBL 악화가 더 강하다.\n- high-Xbnd1에서 Xbnd2 증가에 따른 DIBL 회복 효과가 더 강하다.\n- 이 conditional-slope dependence가 lower-right 영역의 MARGINAL strip과 일치한다.\n\n결론\n- 현재 P8 primary domain에서 Xbnd1–Xbnd2 interaction이 Device-level tolerance에 실질적인 영향을 준다.\n- DIBL이 interaction-limited boundary의 핵심 지표이다.\n\n주의\n- 이는 현재 고정된 device/WF 조건의 L-H-L gate segmentation geometry에 대한 결론이다.\n\n추가 Boundary 증거\n- primary 31점에서 FAIL 경계가 닫히지 않아, 결과 후 별도 supplemental 15점을 외부에 실행하였다.\n- supplemental 결과는 PASS 7 / MARGINAL 6 / FAIL 2이며 38/62, 39/62에서 DIBL hard FAIL이 확인되었다.\n- 이 결과는 primary grid와 동급으로 합치지 않고, interaction 방향 및 외부 FAIL bracketing의 별도 증거층으로 사용한다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:50:33.550Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -30902,13 +31071,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822145120-LSH-linear-8U7ynw",
@@ -30976,15 +31145,21 @@
               "comment": "P08-T02-O06 — 1차 Device-level 2D Tolerance Window\n\n목적\n- preregistered primary 31-point campaign으로 P8의 첫 Device-level geometry Window를 시각화한다.\n\n결과\n- PASS: 28/31\n- MARGINAL: 3/31\n- FAIL: 0/31\n- MARGINAL: 36/63, 37/63, 37/64\n- Holdout: 34/64, 34/68, 36/64, 36/68 — 미실행 상태 유지\n- limiting metric: DIBL\n\n포함 시각자료\n- Device class map\n- DIBL 2D map\n- long-form / matrix CSV\n\n주의\n- 이 산출물은 '1차 2D Device-level Window'이다.\n- 최종 P08-T04 3D-calibrated Window 또는 DRAM PASS map으로 표현하지 않는다.\n\nSupplemental extension의 역할\n- primary 31점만으로는 original domain 안에서 FAIL이 없었다.\n- 이후 15점 boundary reconnaissance에서 38/62, 39/62가 DIBL FAIL로 확인되어 high-Xbnd1/low-Xbnd2 방향의 외부 FAIL 영역을 bracket하였다.\n- 따라서 O06에는 primary Window와 함께 evidence tier를 구분한 primary+supplemental map을 추가한다.\n- supplemental 15점은 original preregistered 31점으로 재분류하지 않는다.",
               "commentLabel": "제출 메모",
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:51:20.996Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -31001,13 +31176,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260822145543-LSH-linear-294Bpw",
@@ -31058,15 +31233,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-22T14:55:43.097Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -31083,13 +31264,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 1,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 1,
+          "evidenceSubmissionCount": 1,
+          "approvedSubmissionCount": 1,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260823122857-LEE-TAEK-GYU-p2tHOQ",
@@ -31133,15 +31314,21 @@
                 "tsvUrl": "https://raw.githubusercontent.com/jujushmaterial/VCAT-1T1C-DRAM-TCAD-Research/main/members/LeeTaekGyu/phases/phase-08/tasks/P08-T03/outputs/P08-T03-O01/submissions/20260823122857-LEE-TAEK-GYU-p2tHOQ/table.tsv"
               },
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-23T12:28:57.483Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -31158,13 +31345,13 @@
           "reviewBlocksCompletion": true,
           "required": true,
           "policyReason": null,
-          "submitted": false,
+          "submitted": true,
           "submissionCount": 2,
-          "evidenceSubmissionCount": 0,
-          "approvedSubmissionCount": 0,
-          "pendingReviewCount": 2,
+          "evidenceSubmissionCount": 2,
+          "approvedSubmissionCount": 2,
+          "pendingReviewCount": 0,
           "heldSubmissionCount": 0,
-          "state": "review-pending",
+          "state": "submitted",
           "submissions": [
             {
               "submissionId": "20260823123004-LEE-TAEK-GYU-f-syog",
@@ -31190,15 +31377,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-23T12:30:04.956Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -31228,15 +31421,21 @@
                 }
               ],
               "review": {
-                "status": "pending",
-                "reviewer": null,
-                "reviewedAt": null,
+                "status": "approved",
+                "reviewer": "jujushmaterial",
+                "reviewedAt": "2026-09-01T13:41:33.941Z",
                 "reason": null,
                 "history": [
                   {
                     "action": "submitted-for-review",
                     "reviewer": null,
                     "at": "2026-08-23T12:32:04.687Z"
+                  },
+                  {
+                    "action": "approved",
+                    "reviewer": "jujushmaterial",
+                    "at": "2026-09-01T13:41:33.941Z",
+                    "note": "최종 제출 완료에 따른 일괄 승인"
                   }
                 ],
                 "legacy": false
@@ -31304,7 +31503,7 @@
       "updatedAt": "2026-09-01T13:31:06Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
-      "integrityWarnings": 0
+      "integrityWarnings": 1
     },
     {
       "id": 9,

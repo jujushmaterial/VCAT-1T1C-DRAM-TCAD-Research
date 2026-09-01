@@ -47,15 +47,21 @@
     }
   ],
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-09-01T13:41:33.941Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-22T14:55:43.097Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-09-01T13:41:33.941Z",
+        "note": "최종 제출 완료에 따른 일괄 승인"
       }
     ],
     "legacy": false

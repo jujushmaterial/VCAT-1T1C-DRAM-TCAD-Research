@@ -29,15 +29,21 @@
   "comment": "P08-T02-O03 — Nominal 중심 OAT·민감도 정리\n\n목적\n- 별도 OAT campaign을 중복 실행하지 않고 primary 31-point grid의 nominal centerline을 재사용해 변수별 국소 민감도를 정리한다.\n\nCenterline\n- Xbnd2=67 nm 고정, Xbnd1=33~37 nm: 모두 PASS\n- Xbnd1=35 nm 고정, Xbnd2=63~69 nm: 모두 PASS\n\n주요 경향\n- Xbnd1 증가 방향에서 Ioff/DIBL 악화\n- Xbnd2 증가 방향에서 Ioff/DIBL 개선\n- Nominal 주변 local slope와 curvature를 함께 기록\n\n해석\n- OAT만 보면 전체 범위가 안전해 보이지만, 조합 geometry에서는 MARGINAL이 발생하므로 2D interaction 분석이 필요하다.",
   "commentLabel": "제출 메모",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-09-01T13:41:33.941Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-22T14:48:44.666Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-09-01T13:41:33.941Z",
+        "note": "최종 제출 완료에 따른 일괄 승인"
       }
     ],
     "legacy": false

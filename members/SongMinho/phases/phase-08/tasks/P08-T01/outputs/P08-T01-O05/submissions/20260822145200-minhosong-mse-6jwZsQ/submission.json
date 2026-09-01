@@ -29,15 +29,21 @@
   "comment": "P08-T01-O05 — P9 Holdout 4조건 사전 봉인표\n\n목적\n- P9에서 독립적인 1T1C 검증을 하기 위해 P8 결과를 보기 전에 일부 geometry를 학습/보정 데이터에서 제외한다.\n\n봉인 Holdout\n- 34/64\n- 34/68\n- 36/64\n- 36/68\n\n선정 원칙\n- P5 electrical-unseen\n- P7 direct local-slope point가 아님\n- P6 preflight point가 아님\n- nominal centerline과 outer edge를 보존\n- 네 quadrant를 고르게 포함\n\n주의\n- 이 4점은 P08-T02 2D 실행, P08-T03 3D calibration에 사용하지 않는다.\n- P08-T04에서는 실제값이 아니라 최종 Window의 예측 class만 기록한다.",
   "commentLabel": "제출 메모",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-09-01T13:41:33.941Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-22T14:52:00.094Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-09-01T13:41:33.941Z",
+        "note": "최종 제출 완료에 따른 일괄 승인"
       }
     ],
     "legacy": false

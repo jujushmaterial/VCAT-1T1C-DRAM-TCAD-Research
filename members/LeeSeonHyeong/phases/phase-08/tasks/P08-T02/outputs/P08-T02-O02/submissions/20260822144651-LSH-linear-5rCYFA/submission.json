@@ -42,15 +42,21 @@
   "comment": "P08-T02-O02 — 2D Tolerance Sweep Raw Data\n\n목적\n- P8 primary active 31점의 모든 추출 metric과 Device classification 근거를 하나의 raw table로 보존한다.\n\n포함 값\n- Ion, Ioff, Ion/Ioff\n- Vth@Vd=0.05/1.0\n- SS@Vd=0.05/1.0\n- DIBL\n- GIDL\n- RIF_Ion, RIF_Ioff, RIF_DIBL\n- limiting metric / Device class\n- node, mesh, source PLT filename, validity\n\n결과 요약\n- PASS 28\n- MARGINAL 3\n- FAIL 0\n- MARGINAL: 36/63, 37/63, 37/64\n- 세 MARGINAL의 limiting metric은 DIBL\n\n주의\n- Holdout 4점은 actual raw result가 존재하지 않는다.",
   "commentLabel": "표 설명",
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "reviewer": "jujushmaterial",
+    "reviewedAt": "2026-09-01T13:41:33.941Z",
     "reason": null,
     "history": [
       {
         "action": "submitted-for-review",
         "reviewer": null,
         "at": "2026-08-22T14:46:51.922Z"
+      },
+      {
+        "action": "approved",
+        "reviewer": "jujushmaterial",
+        "at": "2026-09-01T13:41:33.941Z",
+        "note": "최종 제출 완료에 따른 일괄 승인"
       }
     ],
     "legacy": false
