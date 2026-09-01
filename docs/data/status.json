@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-01T22:22:50+09:00",
+  "generatedAt": "2026-09-01T22:31:07+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
     "submissionVersion": 2,
     "reviewBlocksCompletion": true
   },
-  "overallProgress": 92,
+  "overallProgress": 93,
   "phases": [
     {
       "id": 1,
@@ -31301,27 +31301,84 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-09-01T13:22:35Z",
+      "updatedAt": "2026-09-01T13:30:52Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "단계 닫기",
+      "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
     },
     {
       "id": 9,
       "issueNumber": 9,
-      "state": "blocked",
-      "progress": 0,
-      "tasksDone": 0,
-      "tasksTotal": 0,
-      "issueTasksDone": 0,
+      "state": "completed",
+      "progress": 100,
+      "tasksDone": 4,
+      "tasksTotal": 4,
+      "issueTasksDone": 4,
       "outputsDone": 0,
       "outputsTotal": 0,
       "requiredOutputsDone": 0,
       "requiredOutputsTotal": 0,
-      "tasks": [],
+      "tasks": [
+        {
+          "id": "P09-T01",
+          "text": "최종 Multi-Metal 1T1C 성능을 공통 조건에서 검증한다.",
+          "declaredChecked": true,
+          "outputs": [],
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 0,
+          "requiredOutputsTotal": 0,
+          "outputsDone": 0,
+          "outputsTotal": 0,
+          "missingRequiredOutputs": [],
+          "checkboxDrift": false
+        },
+        {
+          "id": "P09-T02",
+          "text": "P8에서 사용하지 않은 사전 봉인 Holdout을 독립 실행한다.",
+          "declaredChecked": true,
+          "outputs": [],
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 0,
+          "requiredOutputsTotal": 0,
+          "outputsDone": 0,
+          "outputsTotal": 0,
+          "missingRequiredOutputs": [],
+          "checkboxDrift": false
+        },
+        {
+          "id": "P09-T03",
+          "text": "Device-level 예측과 실제 DRAM 판정의 False-Pass·False-Fail을 분석한다.",
+          "declaredChecked": true,
+          "outputs": [],
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 0,
+          "requiredOutputsTotal": 0,
+          "outputsDone": 0,
+          "outputsTotal": 0,
+          "missingRequiredOutputs": [],
+          "checkboxDrift": false
+        },
+        {
+          "id": "P09-T04",
+          "text": "최종 검증 Window와 적용 범위·한계를 확정한다.",
+          "declaredChecked": true,
+          "outputs": [],
+          "checked": true,
+          "state": "completed",
+          "requiredOutputsDone": 0,
+          "requiredOutputsTotal": 0,
+          "outputsDone": 0,
+          "outputsTotal": 0,
+          "missingRequiredOutputs": [],
+          "checkboxDrift": false
+        }
+      ],
       "outputs": [],
       "assignees": [],
-      "updatedAt": "2026-09-01T13:22:43Z",
+      "updatedAt": "2026-09-01T13:31:05Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
