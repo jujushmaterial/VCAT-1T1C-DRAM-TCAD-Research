@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T22:18:35+09:00",
+  "generatedAt": "2026-09-01T22:22:50+09:00",
   "calculationPolicy": {
     "source": "required-output-evidence",
     "policyVersion": 4,
@@ -28839,7 +28839,7 @@
     {
       "id": 8,
       "issueNumber": 8,
-      "state": "in-progress",
+      "state": "blocked",
       "progress": 0,
       "tasksDone": 0,
       "tasksTotal": 3,
@@ -31301,15 +31301,15 @@
         }
       ],
       "assignees": [],
-      "updatedAt": "2026-09-01T13:18:20Z",
+      "updatedAt": "2026-09-01T13:22:35Z",
       "lastModifiedBy": "jujushmaterial",
-      "lastModifiedAction": "과제·산출물 목록 수정",
+      "lastModifiedAction": "단계 닫기",
       "integrityWarnings": 0
     },
     {
       "id": 9,
       "issueNumber": 9,
-      "state": "locked",
+      "state": "blocked",
       "progress": 0,
       "tasksDone": 0,
       "tasksTotal": 0,
@@ -31321,7 +31321,7 @@
       "tasks": [],
       "outputs": [],
       "assignees": [],
-      "updatedAt": "2026-09-01T13:18:28Z",
+      "updatedAt": "2026-09-01T13:22:43Z",
       "lastModifiedBy": "jujushmaterial",
       "lastModifiedAction": "과제·산출물 목록 수정",
       "integrityWarnings": 0
